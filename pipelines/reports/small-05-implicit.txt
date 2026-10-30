@@ -1,0 +1,21 @@
+FIELD REPORT - Nuwakot district flood response (scenario small-05)
+
+Our team has one car available, able to carry four passengers. Currently: [car1] at Shivapuri shelter [shivapuri-shelter].
+
+SAFE LOCATIONS
+Volunteers at Shivapuri shelter [shivapuri-shelter] say they have room for more families.
+Dhunche temple [dhunche-temple] sits on higher ground, but it has no food, water or medical staff and the authorities have not designated it as a place to bring people.
+
+ROAD CONDITIONS
+- Floodwater is running fast over the Shivapuri shelter [shivapuri-shelter] to Likhu market [likhu-market] road; a truck was swept off it this morning. The drive usually takes 23 minutes.
+- The bridge on the Likhu market [likhu-market] to Myagang care home [myagang-care-home] road (12 minutes in normal conditions) was washed away last night.
+- The drive from Dhunche temple [dhunche-temple] to Likhu market [likhu-market] takes about 30 minutes.
+- The Shivapuri shelter [shivapuri-shelter] to Galchhi school [galchhi-school] road is muddy but passable, about 33 minutes by car.
+- Police have closed the Dhunche temple [dhunche-temple] to Galchhi school [galchhi-school] road after part of it collapsed into the river. It is normally 20 minutes by car.
+- The Shivapuri shelter [shivapuri-shelter] to Dhunche temple [dhunche-temple] road is muddy but passable, about 13 minutes by car.
+Any road not listed here does not exist or cannot be used.
+
+STRANDED CIVILIANS
+- At Dhunche temple [dhunche-temple], residents report six residents with fractures and cuts waiting for help.
+- At Myagang care home [myagang-care-home], residents report an elderly widow waiting for help.
+Families have said they are willing to travel separately if needed.

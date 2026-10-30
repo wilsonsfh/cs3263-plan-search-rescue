@@ -1,0 +1,33 @@
+FIELD REPORT - Nuwakot district flood response (scenario large-11)
+
+VEHICLES: 2 car(s), 4 passenger seats each. Positions: [car1] at Tarkeshwar shelter [tarkeshwar-shelter]; [car2] at Dupcheshwar hospital [dupcheshwar-hospital].
+
+EVACUATION POINTS (people may only be dropped off here): Tarkeshwar shelter [tarkeshwar-shelter], Dupcheshwar hospital [dupcheshwar-hospital].
+
+ROADS
+- Tarkeshwar shelter [tarkeshwar-shelter] <-> Galchhi village [galchhi-village]: 20 min, open
+- Tarkeshwar shelter [tarkeshwar-shelter] <-> Bidur village [bidur-village]: 15 min, open
+- Tarkeshwar shelter [tarkeshwar-shelter] <-> Gajuri school [gajuri-school]: 10 min, open
+- Tarkeshwar shelter [tarkeshwar-shelter] <-> Trishuli temple [trishuli-temple]: 52 min, open
+- Dupcheshwar hospital [dupcheshwar-hospital] <-> Bidur village [bidur-village]: 21 min, open
+- Dupcheshwar hospital [dupcheshwar-hospital] <-> Nilkantha care home [nilkantha-care-home]: 18 min, open
+- Syaphru village [syaphru-village] <-> Galchhi village [galchhi-village]: 14 min, open
+- Syaphru village [syaphru-village] <-> Panchakanya farm [panchakanya-farm]: 9 min, open
+- Syaphru village [syaphru-village] <-> Trishuli temple [trishuli-temple]: 21 min, open
+- Galchhi village [galchhi-village] <-> Bidur village [bidur-village]: 12 min, open
+- Galchhi village [galchhi-village] <-> Myagang temple [myagang-temple]: 14 min, IMPASSABLE (damaged)
+- Galchhi village [galchhi-village] <-> Panchakanya farm [panchakanya-farm]: 22 min, open
+- Bidur village [bidur-village] <-> Myagang temple [myagang-temple]: 17 min, open
+- Myagang temple [myagang-temple] <-> Nilkantha care home [nilkantha-care-home]: 11 min, open
+- Panchakanya farm [panchakanya-farm] <-> Trishuli temple [trishuli-temple]: 12 min, IMPASSABLE (damaged)
+- Naukunda school [naukunda-school] <-> Trishuli temple [trishuli-temple]: 5 min, open
+Any road not listed here does not exist or cannot be used.
+
+PEOPLE AWAITING RESCUE
+- Panchakanya farm [panchakanya-farm]: 6 adults
+- Syaphru village [syaphru-village]: 5 adults
+- Galchhi village [galchhi-village]: 1 injured person
+- Naukunda school [naukunda-school]: 4 children
+- Nilkantha care home [nilkantha-care-home]: 2 adults
+- Bidur village [bidur-village]: 2 elderly people
+People at the same location may be split between cars or trips.

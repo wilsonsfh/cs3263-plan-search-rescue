@@ -1,0 +1,29 @@
+FIELD REPORT - Nuwakot district flood response (scenario medium-09)
+
+Our team has two cars available, each able to carry four passengers. Currently: [car1], [car2] at Thakre shelter [thakre-shelter].
+
+SAFE LOCATIONS
+Thakre shelter [thakre-shelter] is above the flood line and is taking in evacuees.
+Kakani school [kakani-school] sits on higher ground, but it has no food, water or medical staff and the authorities have not designated it as a place to bring people.
+
+ROAD CONDITIONS
+- It is a 23-minute drive between Thakre shelter [thakre-shelter] and Dhunche market [dhunche-market], with some debris but no blockages.
+- It is a 30-minute drive between Benighat care home [benighat-care-home] and Shivapuri village [shivapuri-village], with some debris but no blockages.
+- The Tadi market [tadi-market] to Myagang care home [myagang-care-home] road is muddy but passable, about 24 minutes by car.
+- The drive from Thakre shelter [thakre-shelter] to Nilkantha village [nilkantha-village] takes about 5 minutes.
+- Drivers report the road between Thakre shelter [thakre-shelter] and Myagang care home [myagang-care-home] is clear; it takes roughly 25 minutes.
+- The drive from Tadi market [tadi-market] to Kakani school [kakani-school] takes about 24 minutes.
+- Floodwater is running fast over the Dhunche market [dhunche-market] to Nilkantha village [nilkantha-village] road; a truck was swept off it this morning. The drive usually takes 23 minutes.
+- It is a 25-minute drive between Benighat care home [benighat-care-home] and Tarkeshwar care home [tarkeshwar-care-home], with some debris but no blockages.
+- It is a 44-minute drive between Thakre shelter [thakre-shelter] and Shivapuri village [shivapuri-village], with some debris but no blockages.
+- It is a 13-minute drive between Kakani school [kakani-school] and Dhunche market [dhunche-market], with some debris but no blockages.
+- The drive from Tadi market [tadi-market] to Tarkeshwar care home [tarkeshwar-care-home] takes about 10 minutes.
+- It is a 16-minute drive between Dhunche market [dhunche-market] and Myagang care home [myagang-care-home], with some debris but no blockages.
+Any road not listed here does not exist or cannot be used.
+
+STRANDED CIVILIANS
+- At Tadi market [tadi-market], residents report seven shopkeepers waiting for help.
+- At Myagang care home [myagang-care-home], residents report three elderly residents waiting for help.
+- At Dhunche market [dhunche-market], residents report four people injured when their house collapsed and two shopkeepers waiting for help.
+- At Shivapuri village [shivapuri-village], residents report a young boy waiting for help.
+Families have said they are willing to travel separately if needed.

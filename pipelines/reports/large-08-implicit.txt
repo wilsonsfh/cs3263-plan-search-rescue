@@ -1,0 +1,35 @@
+FIELD REPORT - Nuwakot district flood response (scenario large-08)
+
+Our team has two cars available, each able to carry four passengers. Currently: [car1] at Kakani shelter [kakani-shelter]; [car2] at Kalika hospital [kalika-hospital].
+
+SAFE LOCATIONS
+Volunteers at Kakani shelter [kakani-shelter] say they have room for more families.
+Kalika hospital [kalika-hospital] is accepting people brought in from the flooded areas.
+Naukunda school [naukunda-school] sits on higher ground, but it has no food, water or medical staff and the authorities have not designated it as a place to bring people.
+
+ROAD CONDITIONS
+- Police have closed the Kakani shelter [kakani-shelter] to Kalika hospital [kalika-hospital] road after part of it collapsed into the river. It is normally 5 minutes by car.
+- The Kalika hospital [kalika-hospital] to Suryagadhi care home [suryagadhi-care-home] road is muddy but passable, about 22 minutes by car.
+- Drivers report the road between Likhu farm [likhu-farm] and Gajuri temple [gajuri-temple] is clear; it takes roughly 20 minutes.
+- Police have closed the Thakre temple [thakre-temple] to Panchakanya care home [panchakanya-care-home] road after part of it collapsed into the river. It is normally 11 minutes by car.
+- It is a 18-minute drive between Kakani shelter [kakani-shelter] and Suryagadhi care home [suryagadhi-care-home], with some debris but no blockages.
+- Drivers report the road between Likhu farm [likhu-farm] and Suryagadhi care home [suryagadhi-care-home] is clear; it takes roughly 5 minutes.
+- It is a 17-minute drive between Suryagadhi care home [suryagadhi-care-home] and Gajuri temple [gajuri-temple], with some debris but no blockages.
+- Floodwater is running fast over the Kakani shelter [kakani-shelter] to Likhu farm [likhu-farm] road; a truck was swept off it this morning. The drive usually takes 21 minutes.
+- It is a 17-minute drive between Suryagadhi care home [suryagadhi-care-home] and Syaphru village [syaphru-village], with some debris but no blockages.
+- Drivers report the road between Panchakanya care home [panchakanya-care-home] and Syaphru village [syaphru-village] is clear; it takes roughly 28 minutes.
+- It is a 16-minute drive between Kalika hospital [kalika-hospital] and Belkot school [belkot-school], with some debris but no blockages.
+- The drive from Kalika hospital [kalika-hospital] to Gajuri temple [gajuri-temple] takes about 10 minutes.
+- It is a 5-minute drive between Thakre temple [thakre-temple] and Benighat temple [benighat-temple], with some debris but no blockages.
+- A landslide has buried the road between Kakani shelter [kakani-shelter] and Belkot school [belkot-school] (normally a 18-minute drive).
+- The Kalika hospital [kalika-hospital] to Naukunda school [naukunda-school] road is muddy but passable, about 25 minutes by car.
+- It is a 36-minute drive between Kalika hospital [kalika-hospital] and Benighat temple [benighat-temple], with some debris but no blockages.
+Any road not listed here does not exist or cannot be used.
+
+STRANDED CIVILIANS
+- At Suryagadhi care home [suryagadhi-care-home], residents report two pensioners waiting for help.
+- At Belkot school [belkot-school], residents report five pupils waiting for help.
+- At Syaphru village [syaphru-village], residents report four young children and three adult labourers waiting for help.
+- At Panchakanya care home [panchakanya-care-home], residents report an elderly couple waiting for help.
+- At Thakre temple [thakre-temple], residents report a grandmother in her eighties waiting for help.
+Families have said they are willing to travel separately if needed.

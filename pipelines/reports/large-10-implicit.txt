@@ -1,0 +1,34 @@
+FIELD REPORT - Nuwakot district flood response (scenario large-10)
+
+Our team has two cars available, each able to carry four passengers. Currently: [car1] at Panchakanya shelter [panchakanya-shelter]; [car2] at Tadi hospital [tadi-hospital].
+
+SAFE LOCATIONS
+Volunteers at Panchakanya shelter [panchakanya-shelter] say they have room for more families.
+Tadi hospital [tadi-hospital] is accepting people brought in from the flooded areas.
+Dhunche temple [dhunche-temple] sits on higher ground, but it has no food, water or medical staff and the authorities have not designated it as a place to bring people.
+
+ROAD CONDITIONS
+- Drivers report the road between Dhunche temple [dhunche-temple] and Thakre market [thakre-market] is clear; it takes roughly 10 minutes.
+- The drive from Likhu school [likhu-school] to Syaphru farm [syaphru-farm] takes about 5 minutes.
+- The Panchakanya shelter [panchakanya-shelter] to Tadi hospital [tadi-hospital] road is muddy but passable, about 42 minutes by car.
+- Drivers report the road between Panchakanya shelter [panchakanya-shelter] and Dhunche temple [dhunche-temple] is clear; it takes roughly 12 minutes.
+- It is a 34-minute drive between Panchakanya shelter [panchakanya-shelter] and Syaphru farm [syaphru-farm], with some debris but no blockages.
+- Drivers report the road between Jwalamukhi care home [jwalamukhi-care-home] and Thakre market [thakre-market] is clear; it takes roughly 9 minutes.
+- Drivers report the road between Gajuri market [gajuri-market] and Syaphru farm [syaphru-farm] is clear; it takes roughly 9 minutes.
+- The drive from Trishuli care home [trishuli-care-home] to Myagang farm [myagang-farm] takes about 12 minutes.
+- The bridge on the Gajuri market [gajuri-market] to Myagang farm [myagang-farm] road (5 minutes in normal conditions) was washed away last night.
+- The bridge on the Trishuli care home [trishuli-care-home] to Gajuri market [gajuri-market] road (11 minutes in normal conditions) was washed away last night.
+- A landslide has buried the road between Likhu school [likhu-school] and Myagang farm [myagang-farm] (normally a 7-minute drive).
+- It is a 17-minute drive between Dhunche temple [dhunche-temple] and Jwalamukhi care home [jwalamukhi-care-home], with some debris but no blockages.
+- A landslide has buried the road between Panchakanya shelter [panchakanya-shelter] and Thakre market [thakre-market] (normally a 14-minute drive).
+- Drivers report the road between Syaphru farm [syaphru-farm] and Myagang farm [myagang-farm] is clear; it takes roughly 6 minutes.
+Any road not listed here does not exist or cannot be used.
+
+STRANDED CIVILIANS
+- At Myagang farm [myagang-farm], residents report a bus driver waiting for help.
+- At Syaphru farm [syaphru-farm], residents report three working-age adults waiting for help.
+- At Gajuri market [gajuri-market], residents report a bus driver and two schoolchildren waiting for help.
+- At Thakre market [thakre-market], residents report three men and women from the cooperative waiting for help.
+- At Dhunche temple [dhunche-temple], residents report four working-age adults and a schoolgirl waiting for help.
+- At Trishuli care home [trishuli-care-home], residents report seven frail senior citizens waiting for help.
+Families have said they are willing to travel separately if needed.

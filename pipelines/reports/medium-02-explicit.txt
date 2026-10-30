@@ -1,0 +1,23 @@
+FIELD REPORT - Nuwakot district flood response (scenario medium-02)
+
+VEHICLES: 2 car(s), 4 passenger seats each. Positions: [car1] at Benighat shelter [benighat-shelter]; [car2] at Dhunche hospital [dhunche-hospital].
+
+EVACUATION POINTS (people may only be dropped off here): Benighat shelter [benighat-shelter], Dhunche hospital [dhunche-hospital].
+
+ROADS
+- Benighat shelter [benighat-shelter] <-> Jwalamukhi care home [jwalamukhi-care-home]: 21 min, open
+- Benighat shelter [benighat-shelter] <-> Nilkantha farm [nilkantha-farm]: 22 min, open
+- Benighat shelter [benighat-shelter] <-> Kalika temple [kalika-temple]: 8 min, IMPASSABLE (damaged)
+- Dhunche hospital [dhunche-hospital] <-> Uttargaya care home [uttargaya-care-home]: 12 min, open
+- Dhunche hospital [dhunche-hospital] <-> Likhu village [likhu-village]: 22 min, open
+- Dhunche hospital [dhunche-hospital] <-> Kalika temple [kalika-temple]: 30 min, open
+- Jwalamukhi care home [jwalamukhi-care-home] <-> Nilkantha farm [nilkantha-farm]: 19 min, open
+- Jwalamukhi care home [jwalamukhi-care-home] <-> Kalika temple [kalika-temple]: 19 min, open
+- Likhu village [likhu-village] <-> Kalika temple [kalika-temple]: 11 min, open
+Any road not listed here does not exist or cannot be used.
+
+PEOPLE AWAITING RESCUE
+- Likhu village [likhu-village]: 4 adults, 4 injured people
+- Nilkantha farm [nilkantha-farm]: 1 adult, 2 injured people
+- Kalika temple [kalika-temple]: 2 elderly people
+People at the same location may be split between cars or trips.

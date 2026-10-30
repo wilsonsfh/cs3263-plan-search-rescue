@@ -1,0 +1,21 @@
+FIELD REPORT - Nuwakot district flood response (scenario small-15)
+
+VEHICLES: 1 car(s), 4 passenger seats each. Positions: [car1] at Shivapuri shelter [shivapuri-shelter].
+
+EVACUATION POINTS (people may only be dropped off here): Shivapuri shelter [shivapuri-shelter].
+
+ROADS
+- Shivapuri shelter [shivapuri-shelter] <-> Dupcheshwar market [dupcheshwar-market]: 32 min, open
+- Shivapuri shelter [shivapuri-shelter] <-> Kalika farm [kalika-farm]: 7 min, open
+- Uttargaya farm [uttargaya-farm] <-> Dupcheshwar market [dupcheshwar-market]: 23 min, open
+- Uttargaya farm [uttargaya-farm] <-> Kispang care home [kispang-care-home]: 32 min, open
+- Uttargaya farm [uttargaya-farm] <-> Dhunche temple [dhunche-temple]: 9 min, open
+- Dupcheshwar market [dupcheshwar-market] <-> Kispang care home [kispang-care-home]: 29 min, open
+- Kispang care home [kispang-care-home] <-> Dhunche temple [dhunche-temple]: 23 min, open
+Any road not listed here does not exist or cannot be used.
+
+PEOPLE AWAITING RESCUE
+- Kalika farm [kalika-farm]: 3 adults
+- Dupcheshwar market [dupcheshwar-market]: 1 adult
+- Uttargaya farm [uttargaya-farm]: 2 adults
+People at the same location may be split between cars or trips.

@@ -1,0 +1,22 @@
+FIELD REPORT - Nuwakot district flood response (scenario small-14)
+
+Our team has one car available, able to carry four passengers. Currently: [car1] at Tarkeshwar shelter [tarkeshwar-shelter].
+
+SAFE LOCATIONS
+Volunteers at Tarkeshwar shelter [tarkeshwar-shelter] say they have room for more families.
+Myagang temple [myagang-temple] sits on higher ground, but it has no food, water or medical staff and the authorities have not designated it as a place to bring people.
+
+ROAD CONDITIONS
+- Police have closed the Shivapuri farm [shivapuri-farm] to Gosaikunda village [gosaikunda-village] road after part of it collapsed into the river. It is normally 26 minutes by car.
+- Floodwater is running fast over the Shivapuri farm [shivapuri-farm] to Benighat farm [benighat-farm] road; a truck was swept off it this morning. The drive usually takes 24 minutes.
+- The drive from Shivapuri farm [shivapuri-farm] to Myagang temple [myagang-temple] takes about 19 minutes.
+- The Tarkeshwar shelter [tarkeshwar-shelter] to Myagang temple [myagang-temple] road is muddy but passable, about 20 minutes by car.
+- Drivers report the road between Tadi farm [tadi-farm] and Myagang temple [myagang-temple] is clear; it takes roughly 22 minutes.
+- Drivers report the road between Benighat farm [benighat-farm] and Myagang temple [myagang-temple] is clear; it takes roughly 21 minutes.
+- The drive from Gosaikunda village [gosaikunda-village] to Tadi farm [tadi-farm] takes about 58 minutes.
+Any road not listed here does not exist or cannot be used.
+
+STRANDED CIVILIANS
+- At Myagang temple [myagang-temple], residents report three frail senior citizens and three shopkeepers waiting for help.
+- At Tadi farm [tadi-farm], residents report two men and women from the cooperative waiting for help.
+Families have said they are willing to travel separately if needed.

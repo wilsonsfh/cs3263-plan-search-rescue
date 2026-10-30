@@ -1,0 +1,27 @@
+FIELD REPORT - Nuwakot district flood response (scenario medium-09)
+
+VEHICLES: 2 car(s), 4 passenger seats each. Positions: [car1], [car2] at Thakre shelter [thakre-shelter].
+
+EVACUATION POINTS (people may only be dropped off here): Thakre shelter [thakre-shelter].
+
+ROADS
+- Thakre shelter [thakre-shelter] <-> Dhunche market [dhunche-market]: 23 min, open
+- Thakre shelter [thakre-shelter] <-> Shivapuri village [shivapuri-village]: 44 min, open
+- Thakre shelter [thakre-shelter] <-> Nilkantha village [nilkantha-village]: 5 min, open
+- Thakre shelter [thakre-shelter] <-> Myagang care home [myagang-care-home]: 25 min, open
+- Benighat care home [benighat-care-home] <-> Shivapuri village [shivapuri-village]: 30 min, open
+- Benighat care home [benighat-care-home] <-> Tarkeshwar care home [tarkeshwar-care-home]: 25 min, open
+- Tadi market [tadi-market] <-> Kakani school [kakani-school]: 24 min, open
+- Tadi market [tadi-market] <-> Myagang care home [myagang-care-home]: 24 min, open
+- Tadi market [tadi-market] <-> Tarkeshwar care home [tarkeshwar-care-home]: 10 min, open
+- Kakani school [kakani-school] <-> Dhunche market [dhunche-market]: 13 min, open
+- Dhunche market [dhunche-market] <-> Nilkantha village [nilkantha-village]: 23 min, IMPASSABLE (damaged)
+- Dhunche market [dhunche-market] <-> Myagang care home [myagang-care-home]: 16 min, open
+Any road not listed here does not exist or cannot be used.
+
+PEOPLE AWAITING RESCUE
+- Tadi market [tadi-market]: 7 adults
+- Myagang care home [myagang-care-home]: 3 elderly people
+- Dhunche market [dhunche-market]: 4 injured people, 2 adults
+- Shivapuri village [shivapuri-village]: 1 child
+People at the same location may be split between cars or trips.

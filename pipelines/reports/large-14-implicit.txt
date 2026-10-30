@@ -1,0 +1,40 @@
+FIELD REPORT - Nuwakot district flood response (scenario large-14)
+
+Our team has two cars available, each able to carry four passengers. Currently: [car1] at Trishuli shelter [trishuli-shelter]; [car2] at Dhunche hospital [dhunche-hospital].
+
+SAFE LOCATIONS
+Trishuli shelter [trishuli-shelter] is above the flood line and is taking in evacuees.
+Dhunche hospital [dhunche-hospital] is on high ground and its staff are receiving evacuees.
+Bidur temple [bidur-temple] sits on higher ground, but it has no food, water or medical staff and the authorities have not designated it as a place to bring people.
+
+ROAD CONDITIONS
+- It is a 11-minute drive between Uttargaya farm [uttargaya-farm] and Tadi care home [tadi-care-home], with some debris but no blockages.
+- The drive from Benighat care home [benighat-care-home] to Jwalamukhi market [jwalamukhi-market] takes about 13 minutes.
+- The bridge on the Syaphru market [syaphru-market] to Uttargaya farm [uttargaya-farm] road (21 minutes in normal conditions) was washed away last night.
+- Floodwater is running fast over the Benighat care home [benighat-care-home] to Gajuri market [gajuri-market] road; a truck was swept off it this morning. The drive usually takes 19 minutes.
+- The Dupcheshwar care home [dupcheshwar-care-home] to Gajuri market [gajuri-market] road is muddy but passable, about 15 minutes by car.
+- A landslide has buried the road between Dhunche hospital [dhunche-hospital] and Dupcheshwar care home [dupcheshwar-care-home] (normally a 21-minute drive).
+- Drivers report the road between Syaphru market [syaphru-market] and Panchakanya care home [panchakanya-care-home] is clear; it takes roughly 35 minutes.
+- The Trishuli shelter [trishuli-shelter] to Dupcheshwar care home [dupcheshwar-care-home] road is muddy but passable, about 19 minutes by car.
+- Police have closed the Uttargaya farm [uttargaya-farm] to Shivapuri care home [shivapuri-care-home] road after part of it collapsed into the river. It is normally 5 minutes by car.
+- It is a 13-minute drive between Tarkeshwar market [tarkeshwar-market] and Gajuri market [gajuri-market], with some debris but no blockages.
+- The Tarkeshwar market [tarkeshwar-market] to Jwalamukhi market [jwalamukhi-market] road is muddy but passable, about 5 minutes by car.
+- It is a 24-minute drive between Trishuli shelter [trishuli-shelter] and Uttargaya farm [uttargaya-farm], with some debris but no blockages.
+- The Tarkeshwar market [tarkeshwar-market] to Syaphru market [syaphru-market] road is muddy but passable, about 19 minutes by car.
+- Drivers report the road between Benighat care home [benighat-care-home] and Panchakanya care home [panchakanya-care-home] is clear; it takes roughly 8 minutes.
+- The Shivapuri care home [shivapuri-care-home] to Tadi care home [tadi-care-home] road is muddy but passable, about 10 minutes by car.
+- Drivers report the road between Trishuli shelter [trishuli-shelter] and Bidur temple [bidur-temple] is clear; it takes roughly 7 minutes.
+- Drivers report the road between Benighat care home [benighat-care-home] and Tarkeshwar market [tarkeshwar-market] is clear; it takes roughly 9 minutes.
+- The drive from Tarkeshwar market [tarkeshwar-market] to Panchakanya care home [panchakanya-care-home] takes about 16 minutes.
+Any road not listed here does not exist or cannot be used.
+
+STRANDED CIVILIANS
+- At Gajuri market [gajuri-market], residents report a bus driver and a man with a broken leg waiting for help.
+- At Syaphru market [syaphru-market], residents report four people hurt by falling debris waiting for help.
+- At Uttargaya farm [uttargaya-farm], residents report three wounded villagers waiting for help.
+- At Tarkeshwar market [tarkeshwar-market], residents report two men and women from the cooperative waiting for help.
+- At Tadi care home [tadi-care-home], residents report four people in their late seventies and eighties waiting for help.
+- At Dupcheshwar care home [dupcheshwar-care-home], residents report four people in their late seventies and eighties waiting for help.
+- At Benighat care home [benighat-care-home], residents report an old man who cannot walk unaided waiting for help.
+- At Jwalamukhi market [jwalamukhi-market], residents report two shopkeepers waiting for help.
+Families have said they are willing to travel separately if needed.

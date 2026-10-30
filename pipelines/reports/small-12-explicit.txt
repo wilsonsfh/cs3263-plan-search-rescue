@@ -1,0 +1,21 @@
+FIELD REPORT - Nuwakot district flood response (scenario small-12)
+
+VEHICLES: 1 car(s), 4 passenger seats each. Positions: [car1] at Trishuli shelter [trishuli-shelter].
+
+EVACUATION POINTS (people may only be dropped off here): Trishuli shelter [trishuli-shelter].
+
+ROADS
+- Trishuli shelter [trishuli-shelter] <-> Gosaikunda temple [gosaikunda-temple]: 11 min, open
+- Trishuli shelter [trishuli-shelter] <-> Naukunda farm [naukunda-farm]: 21 min, IMPASSABLE (damaged)
+- Bidur village [bidur-village] <-> Dupcheshwar temple [dupcheshwar-temple]: 22 min, open
+- Bidur village [bidur-village] <-> Belkot farm [belkot-farm]: 23 min, open
+- Dupcheshwar temple [dupcheshwar-temple] <-> Gosaikunda temple [gosaikunda-temple]: 25 min, open
+- Gosaikunda temple [gosaikunda-temple] <-> Belkot farm [belkot-farm]: 46 min, open
+- Gosaikunda temple [gosaikunda-temple] <-> Naukunda farm [naukunda-farm]: 12 min, open
+Any road not listed here does not exist or cannot be used.
+
+PEOPLE AWAITING RESCUE
+- Bidur village [bidur-village]: 2 adults
+- Dupcheshwar temple [dupcheshwar-temple]: 4 adults
+- Naukunda farm [naukunda-farm]: 4 adults
+People at the same location may be split between cars or trips.

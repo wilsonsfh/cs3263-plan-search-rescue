@@ -1,0 +1,38 @@
+FIELD REPORT - Nuwakot district flood response (scenario large-01)
+
+VEHICLES: 2 car(s), 4 passenger seats each. Positions: [car1] at Myagang shelter [myagang-shelter]; [car2] at Uttargaya hospital [uttargaya-hospital].
+
+EVACUATION POINTS (people may only be dropped off here): Myagang shelter [myagang-shelter], Uttargaya hospital [uttargaya-hospital].
+
+ROADS
+- Myagang shelter [myagang-shelter] <-> Suryagadhi temple [suryagadhi-temple]: 8 min, open
+- Myagang shelter [myagang-shelter] <-> Dhunche school [dhunche-school]: 5 min, open
+- Uttargaya hospital [uttargaya-hospital] <-> Shivapuri farm [shivapuri-farm]: 11 min, open
+- Uttargaya hospital [uttargaya-hospital] <-> Gosaikunda school [gosaikunda-school]: 11 min, open
+- Uttargaya hospital [uttargaya-hospital] <-> Likhu temple [likhu-temple]: 16 min, IMPASSABLE (damaged)
+- Uttargaya hospital [uttargaya-hospital] <-> Tadi temple [tadi-temple]: 15 min, open
+- Shivapuri farm [shivapuri-farm] <-> Suryagadhi temple [suryagadhi-temple]: 30 min, IMPASSABLE (damaged)
+- Shivapuri farm [shivapuri-farm] <-> Jwalamukhi market [jwalamukhi-market]: 12 min, open
+- Galchhi school [galchhi-school] <-> Suryagadhi temple [suryagadhi-temple]: 5 min, IMPASSABLE (damaged)
+- Galchhi school [galchhi-school] <-> Dhunche school [dhunche-school]: 11 min, open
+- Kalika village [kalika-village] <-> Suryagadhi temple [suryagadhi-temple]: 20 min, open
+- Trishuli farm [trishuli-farm] <-> Tarkeshwar care home [tarkeshwar-care-home]: 9 min, open
+- Gosaikunda school [gosaikunda-school] <-> Suryagadhi temple [suryagadhi-temple]: 13 min, open
+- Tarkeshwar care home [tarkeshwar-care-home] <-> Suryagadhi temple [suryagadhi-temple]: 22 min, IMPASSABLE (damaged)
+- Tarkeshwar care home [tarkeshwar-care-home] <-> Bidur farm [bidur-farm]: 9 min, open
+- Suryagadhi temple [suryagadhi-temple] <-> Dhunche school [dhunche-school]: 13 min, open
+- Likhu temple [likhu-temple] <-> Jwalamukhi market [jwalamukhi-market]: 7 min, IMPASSABLE (damaged)
+- Likhu temple [likhu-temple] <-> Tadi temple [tadi-temple]: 8 min, open
+- Jwalamukhi market [jwalamukhi-market] <-> Tadi temple [tadi-temple]: 14 min, open
+Any road not listed here does not exist or cannot be used.
+
+PEOPLE AWAITING RESCUE
+- Dhunche school [dhunche-school]: 3 adults
+- Shivapuri farm [shivapuri-farm]: 3 adults
+- Bidur farm [bidur-farm]: 2 adults
+- Suryagadhi temple [suryagadhi-temple]: 2 elderly people
+- Trishuli farm [trishuli-farm]: 1 adult
+- Galchhi school [galchhi-school]: 3 adults
+- Gosaikunda school [gosaikunda-school]: 7 children
+- Kalika village [kalika-village]: 4 children
+People at the same location may be split between cars or trips.

@@ -1,0 +1,38 @@
+FIELD REPORT - Nuwakot district flood response (scenario large-12)
+
+Our team has two cars available, each able to carry four passengers. Currently: [car1] at Benighat shelter [benighat-shelter]; [car2] at Kalika hospital [kalika-hospital].
+
+SAFE LOCATIONS
+Benighat shelter [benighat-shelter] is above the flood line and is taking in evacuees.
+Kalika hospital [kalika-hospital] is accepting people brought in from the flooded areas.
+Belkot school [belkot-school] sits on higher ground, but it has no food, water or medical staff and the authorities have not designated it as a place to bring people.
+
+ROAD CONDITIONS
+- The drive from Myagang market [myagang-market] to Dupcheshwar temple [dupcheshwar-temple] takes about 5 minutes.
+- Drivers report the road between Benighat shelter [benighat-shelter] and Dupcheshwar temple [dupcheshwar-temple] is clear; it takes roughly 14 minutes.
+- The Benighat shelter [benighat-shelter] to Jwalamukhi village [jwalamukhi-village] road is muddy but passable, about 14 minutes by car.
+- Drivers report the road between Kalika hospital [kalika-hospital] and Likhu market [likhu-market] is clear; it takes roughly 13 minutes.
+- The bridge on the Jwalamukhi village [jwalamukhi-village] to Tarkeshwar village [tarkeshwar-village] road (16 minutes in normal conditions) was washed away last night.
+- A landslide has buried the road between Myagang market [myagang-market] and Belkot school [belkot-school] (normally a 12-minute drive).
+- The Dupcheshwar temple [dupcheshwar-temple] to Belkot school [belkot-school] road is muddy but passable, about 10 minutes by car.
+- The drive from Kakani farm [kakani-farm] to Galchhi temple [galchhi-temple] takes about 12 minutes.
+- The drive from Tadi farm [tadi-farm] to Galchhi temple [galchhi-temple] takes about 20 minutes.
+- The bridge on the Benighat shelter [benighat-shelter] to Myagang market [myagang-market] road (17 minutes in normal conditions) was washed away last night.
+- It is a 11-minute drive between Jwalamukhi village [jwalamukhi-village] and Likhu market [likhu-market], with some debris but no blockages.
+- Police have closed the Likhu market [likhu-market] to Dupcheshwar temple [dupcheshwar-temple] road after part of it collapsed into the river. It is normally 31 minutes by car.
+- Drivers report the road between Dupcheshwar temple [dupcheshwar-temple] and Galchhi temple [galchhi-temple] is clear; it takes roughly 19 minutes.
+- The drive from Benighat shelter [benighat-shelter] to Belkot school [belkot-school] takes about 5 minutes.
+- The drive from Jwalamukhi village [jwalamukhi-village] to Belkot school [belkot-school] takes about 18 minutes.
+- The drive from Tarkeshwar village [tarkeshwar-village] to Belkot school [belkot-school] takes about 9 minutes.
+Any road not listed here does not exist or cannot be used.
+
+STRANDED CIVILIANS
+- At Tarkeshwar village [tarkeshwar-village], residents report a farmer with a badly cut arm waiting for help.
+- At Likhu market [likhu-market], residents report a bus driver waiting for help.
+- At Jwalamukhi village [jwalamukhi-village], residents report three people in their late seventies and eighties and a young woman in her twenties waiting for help.
+- At Kakani farm [kakani-farm], residents report an elderly couple and two adult labourers waiting for help.
+- At Belkot school [belkot-school], residents report three shopkeepers waiting for help.
+- At Myagang market [myagang-market], residents report four men and women from the cooperative and three schoolchildren waiting for help.
+- At Tadi farm [tadi-farm], residents report two working-age adults waiting for help.
+- At Galchhi temple [galchhi-temple], residents report an elderly widow waiting for help.
+Families have said they are willing to travel separately if needed.

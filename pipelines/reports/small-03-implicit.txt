@@ -1,0 +1,23 @@
+FIELD REPORT - Nuwakot district flood response (scenario small-03)
+
+Our team has one car available, able to carry four passengers. Currently: [car1] at Myagang shelter [myagang-shelter].
+
+SAFE LOCATIONS
+Volunteers at Myagang shelter [myagang-shelter] say they have room for more families.
+Benighat temple [benighat-temple] sits on higher ground, but it has no food, water or medical staff and the authorities have not designated it as a place to bring people.
+
+ROAD CONDITIONS
+- The Myagang shelter [myagang-shelter] to Nilkantha market [nilkantha-market] road is muddy but passable, about 18 minutes by car.
+- The Jwalamukhi village [jwalamukhi-village] to Syaphru school [syaphru-school] road is muddy but passable, about 10 minutes by car.
+- It is a 27-minute drive between Myagang shelter [myagang-shelter] and Bidur village [bidur-village], with some debris but no blockages.
+- A landslide has buried the road between Myagang shelter [myagang-shelter] and Jwalamukhi village [jwalamukhi-village] (normally a 27-minute drive).
+- It is a 36-minute drive between Benighat temple [benighat-temple] and Syaphru school [syaphru-school], with some debris but no blockages.
+- The Myagang shelter [myagang-shelter] to Syaphru school [syaphru-school] road is muddy but passable, about 18 minutes by car.
+- The Bidur village [bidur-village] to Nilkantha market [nilkantha-market] road is muddy but passable, about 19 minutes by car.
+Any road not listed here does not exist or cannot be used.
+
+STRANDED CIVILIANS
+- At Nilkantha market [nilkantha-market], residents report two adult labourers and four people injured when their house collapsed waiting for help.
+- At Syaphru school [syaphru-school], residents report a young woman in her twenties waiting for help.
+- At Bidur village [bidur-village], residents report four adult labourers waiting for help.
+Families have said they are willing to travel separately if needed.

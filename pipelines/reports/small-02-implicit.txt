@@ -1,0 +1,21 @@
+FIELD REPORT - Nuwakot district flood response (scenario small-02)
+
+Our team has one car available, able to carry four passengers. Currently: [car1] at Shivapuri shelter [shivapuri-shelter].
+
+SAFE LOCATIONS
+Shivapuri shelter [shivapuri-shelter] is above the flood line and is taking in evacuees.
+Kispang temple [kispang-temple] sits on higher ground, but it has no food, water or medical staff and the authorities have not designated it as a place to bring people.
+
+ROAD CONDITIONS
+- Drivers report the road between Kispang temple [kispang-temple] and Belkot market [belkot-market] is clear; it takes roughly 6 minutes.
+- It is a 9-minute drive between Trishuli farm [trishuli-farm] and Kispang temple [kispang-temple], with some debris but no blockages.
+- Drivers report the road between Shivapuri shelter [shivapuri-shelter] and Trishuli farm [trishuli-farm] is clear; it takes roughly 39 minutes.
+- It is a 45-minute drive between Shivapuri shelter [shivapuri-shelter] and Kispang temple [kispang-temple], with some debris but no blockages.
+- It is a 16-minute drive between Trishuli farm [trishuli-farm] and Belkot market [belkot-market], with some debris but no blockages.
+- Drivers report the road between Shivapuri shelter [shivapuri-shelter] and Kalika village [kalika-village] is clear; it takes roughly 7 minutes.
+Any road not listed here does not exist or cannot be used.
+
+STRANDED CIVILIANS
+- At Trishuli farm [trishuli-farm], residents report seven frail senior citizens waiting for help.
+- At Kalika village [kalika-village], residents report four frail senior citizens waiting for help.
+Families have said they are willing to travel separately if needed.

@@ -1,0 +1,26 @@
+FIELD REPORT - Nuwakot district flood response (scenario medium-08)
+
+Our team has two cars available, each able to carry four passengers. Currently: [car1], [car2] at Uttargaya shelter [uttargaya-shelter].
+
+SAFE LOCATIONS
+Volunteers at Uttargaya shelter [uttargaya-shelter] say they have room for more families.
+Kakani temple [kakani-temple] sits on higher ground, but it has no food, water or medical staff and the authorities have not designated it as a place to bring people.
+
+ROAD CONDITIONS
+- The Trishuli village [trishuli-village] to Bidur temple [bidur-temple] road is muddy but passable, about 7 minutes by car.
+- The bridge on the Galchhi temple [galchhi-temple] to Trishuli village [trishuli-village] road (28 minutes in normal conditions) was washed away last night.
+- Drivers report the road between Uttargaya shelter [uttargaya-shelter] and Bidur temple [bidur-temple] is clear; it takes roughly 17 minutes.
+- Floodwater is running fast over the Uttargaya shelter [uttargaya-shelter] to Gajuri farm [gajuri-farm] road; a truck was swept off it this morning. The drive usually takes 20 minutes.
+- The drive from Syaphru farm [syaphru-farm] to Trishuli village [trishuli-village] takes about 8 minutes.
+- It is a 20-minute drive between Galchhi temple [galchhi-temple] and Syaphru farm [syaphru-farm], with some debris but no blockages.
+- Police have closed the Uttargaya shelter [uttargaya-shelter] to Syaphru farm [syaphru-farm] road after part of it collapsed into the river. It is normally 11 minutes by car.
+- It is a 48-minute drive between Uttargaya shelter [uttargaya-shelter] and Kakani temple [kakani-temple], with some debris but no blockages.
+- Drivers report the road between Syaphru farm [syaphru-farm] and Bidur temple [bidur-temple] is clear; it takes roughly 11 minutes.
+Any road not listed here does not exist or cannot be used.
+
+STRANDED CIVILIANS
+- At Kakani temple [kakani-temple], residents report three elderly residents and four shopkeepers waiting for help.
+- At Bidur temple [bidur-temple], residents report three shopkeepers waiting for help.
+- At Syaphru farm [syaphru-farm], residents report three people in their late seventies and eighties waiting for help.
+- At Trishuli village [trishuli-village], residents report three wounded villagers waiting for help.
+Families have said they are willing to travel separately if needed.

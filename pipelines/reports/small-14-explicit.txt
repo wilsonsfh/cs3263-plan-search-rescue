@@ -1,0 +1,20 @@
+FIELD REPORT - Nuwakot district flood response (scenario small-14)
+
+VEHICLES: 1 car(s), 4 passenger seats each. Positions: [car1] at Tarkeshwar shelter [tarkeshwar-shelter].
+
+EVACUATION POINTS (people may only be dropped off here): Tarkeshwar shelter [tarkeshwar-shelter].
+
+ROADS
+- Tarkeshwar shelter [tarkeshwar-shelter] <-> Myagang temple [myagang-temple]: 20 min, open
+- Shivapuri farm [shivapuri-farm] <-> Gosaikunda village [gosaikunda-village]: 26 min, IMPASSABLE (damaged)
+- Shivapuri farm [shivapuri-farm] <-> Benighat farm [benighat-farm]: 24 min, IMPASSABLE (damaged)
+- Shivapuri farm [shivapuri-farm] <-> Myagang temple [myagang-temple]: 19 min, open
+- Gosaikunda village [gosaikunda-village] <-> Tadi farm [tadi-farm]: 58 min, open
+- Tadi farm [tadi-farm] <-> Myagang temple [myagang-temple]: 22 min, open
+- Benighat farm [benighat-farm] <-> Myagang temple [myagang-temple]: 21 min, open
+Any road not listed here does not exist or cannot be used.
+
+PEOPLE AWAITING RESCUE
+- Myagang temple [myagang-temple]: 3 elderly people, 3 adults
+- Tadi farm [tadi-farm]: 2 adults
+People at the same location may be split between cars or trips.

@@ -1,0 +1,20 @@
+FIELD REPORT - Nuwakot district flood response (scenario small-09)
+
+VEHICLES: 1 car(s), 4 passenger seats each. Positions: [car1] at Kispang shelter [kispang-shelter].
+
+EVACUATION POINTS (people may only be dropped off here): Kispang shelter [kispang-shelter].
+
+ROADS
+- Kispang shelter [kispang-shelter] <-> Nilkantha village [nilkantha-village]: 9 min, IMPASSABLE (damaged)
+- Galchhi school [galchhi-school] <-> Nilkantha village [nilkantha-village]: 9 min, open
+- Galchhi school [galchhi-school] <-> Thakre temple [thakre-temple]: 27 min, open
+- Galchhi school [galchhi-school] <-> Kalika market [kalika-market]: 21 min, open
+- Nilkantha village [nilkantha-village] <-> Thakre temple [thakre-temple]: 26 min, open
+- Thakre temple [thakre-temple] <-> Kalika market [kalika-market]: 14 min, open
+- Thakre temple [thakre-temple] <-> Tadi village [tadi-village]: 37 min, open
+Any road not listed here does not exist or cannot be used.
+
+PEOPLE AWAITING RESCUE
+- Kalika market [kalika-market]: 3 children
+- Galchhi school [galchhi-school]: 4 children
+People at the same location may be split between cars or trips.

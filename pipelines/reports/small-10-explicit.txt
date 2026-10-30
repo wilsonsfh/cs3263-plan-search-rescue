@@ -1,0 +1,20 @@
+FIELD REPORT - Nuwakot district flood response (scenario small-10)
+
+VEHICLES: 1 car(s), 4 passenger seats each. Positions: [car1] at Tarkeshwar shelter [tarkeshwar-shelter].
+
+EVACUATION POINTS (people may only be dropped off here): Tarkeshwar shelter [tarkeshwar-shelter].
+
+ROADS
+- Tarkeshwar shelter [tarkeshwar-shelter] <-> Benighat care home [benighat-care-home]: 6 min, open
+- Tarkeshwar shelter [tarkeshwar-shelter] <-> Thakre care home [thakre-care-home]: 36 min, open
+- Tarkeshwar shelter [tarkeshwar-shelter] <-> Kalika farm [kalika-farm]: 19 min, open
+- Benighat care home [benighat-care-home] <-> Dhunche school [dhunche-school]: 52 min, open
+- Benighat care home [benighat-care-home] <-> Kalika farm [kalika-farm]: 22 min, open
+- Thakre care home [thakre-care-home] <-> Dhunche school [dhunche-school]: 30 min, open
+Any road not listed here does not exist or cannot be used.
+
+PEOPLE AWAITING RESCUE
+- Thakre care home [thakre-care-home]: 2 elderly people
+- Benighat care home [benighat-care-home]: 2 elderly people
+- Dhunche school [dhunche-school]: 2 children
+People at the same location may be split between cars or trips.

@@ -1,0 +1,28 @@
+FIELD REPORT - Nuwakot district flood response (scenario medium-14)
+
+VEHICLES: 2 car(s), 4 passenger seats each. Positions: [car1] at Dupcheshwar shelter [dupcheshwar-shelter]; [car2] at Panchakanya hospital [panchakanya-hospital].
+
+EVACUATION POINTS (people may only be dropped off here): Dupcheshwar shelter [dupcheshwar-shelter], Panchakanya hospital [panchakanya-hospital].
+
+ROADS
+- Dupcheshwar shelter [dupcheshwar-shelter] <-> Benighat market [benighat-market]: 6 min, open
+- Dupcheshwar shelter [dupcheshwar-shelter] <-> Tadi school [tadi-school]: 10 min, open
+- Panchakanya hospital [panchakanya-hospital] <-> Benighat market [benighat-market]: 19 min, IMPASSABLE (damaged)
+- Panchakanya hospital [panchakanya-hospital] <-> Tadi school [tadi-school]: 16 min, open
+- Panchakanya hospital [panchakanya-hospital] <-> Trishuli market [trishuli-market]: 65 min, open
+- Benighat market [benighat-market] <-> Myagang care home [myagang-care-home]: 20 min, open
+- Benighat market [benighat-market] <-> Syaphru temple [syaphru-temple]: 7 min, IMPASSABLE (damaged)
+- Benighat market [benighat-market] <-> Tadi school [tadi-school]: 11 min, open
+- Myagang care home [myagang-care-home] <-> Uttargaya care home [uttargaya-care-home]: 23 min, open
+- Myagang care home [myagang-care-home] <-> Tarkeshwar care home [tarkeshwar-care-home]: 16 min, open
+- Uttargaya care home [uttargaya-care-home] <-> Tarkeshwar care home [tarkeshwar-care-home]: 14 min, open
+- Syaphru temple [syaphru-temple] <-> Tadi school [tadi-school]: 8 min, open
+Any road not listed here does not exist or cannot be used.
+
+PEOPLE AWAITING RESCUE
+- Trishuli market [trishuli-market]: 4 elderly people, 4 adults
+- Tadi school [tadi-school]: 1 child
+- Uttargaya care home [uttargaya-care-home]: 4 adults
+- Tarkeshwar care home [tarkeshwar-care-home]: 1 adult, 3 elderly people
+- Benighat market [benighat-market]: 3 elderly people
+People at the same location may be split between cars or trips.

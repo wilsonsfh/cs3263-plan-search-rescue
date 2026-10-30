@@ -1,0 +1,35 @@
+FIELD REPORT - Nuwakot district flood response (scenario large-15)
+
+VEHICLES: 2 car(s), 4 passenger seats each. Positions: [car1] at Suryagadhi shelter [suryagadhi-shelter]; [car2] at Kalika hospital [kalika-hospital].
+
+EVACUATION POINTS (people may only be dropped off here): Suryagadhi shelter [suryagadhi-shelter], Kalika hospital [kalika-hospital].
+
+ROADS
+- Suryagadhi shelter [suryagadhi-shelter] <-> Gajuri farm [gajuri-farm]: 27 min, open
+- Suryagadhi shelter [suryagadhi-shelter] <-> Galchhi village [galchhi-village]: 12 min, open
+- Kalika hospital [kalika-hospital] <-> Gajuri farm [gajuri-farm]: 7 min, open
+- Kalika hospital [kalika-hospital] <-> Galchhi village [galchhi-village]: 11 min, open
+- Gajuri farm [gajuri-farm] <-> Likhu temple [likhu-temple]: 16 min, open
+- Gajuri farm [gajuri-farm] <-> Galchhi village [galchhi-village]: 17 min, open
+- Likhu temple [likhu-temple] <-> Nilkantha market [nilkantha-market]: 28 min, open
+- Likhu temple [likhu-temple] <-> Myagang village [myagang-village]: 55 min, open
+- Nilkantha market [nilkantha-market] <-> Thakre farm [thakre-farm]: 5 min, open
+- Nilkantha market [nilkantha-market] <-> Tadi temple [tadi-temple]: 15 min, open
+- Kispang market [kispang-market] <-> Tadi temple [tadi-temple]: 15 min, open
+- Kispang market [kispang-market] <-> Tarkeshwar farm [tarkeshwar-farm]: 14 min, IMPASSABLE (damaged)
+- Kispang market [kispang-market] <-> Dhunche school [dhunche-school]: 19 min, open
+- Thakre farm [thakre-farm] <-> Tadi temple [tadi-temple]: 12 min, IMPASSABLE (damaged)
+- Tarkeshwar farm [tarkeshwar-farm] <-> Myagang village [myagang-village]: 15 min, open
+- Tarkeshwar farm [tarkeshwar-farm] <-> Dhunche school [dhunche-school]: 15 min, IMPASSABLE (damaged)
+- Myagang village [myagang-village] <-> Dhunche school [dhunche-school]: 18 min, IMPASSABLE (damaged)
+Any road not listed here does not exist or cannot be used.
+
+PEOPLE AWAITING RESCUE
+- Nilkantha market [nilkantha-market]: 4 elderly people, 2 injured people
+- Tadi temple [tadi-temple]: 1 elderly person, 3 adults
+- Likhu temple [likhu-temple]: 4 elderly people
+- Gajuri farm [gajuri-farm]: 4 adults
+- Galchhi village [galchhi-village]: 2 elderly people
+- Tarkeshwar farm [tarkeshwar-farm]: 4 adults
+- Thakre farm [thakre-farm]: 2 adults
+People at the same location may be split between cars or trips.

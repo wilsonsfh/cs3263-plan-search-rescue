@@ -1,0 +1,26 @@
+FIELD REPORT - Nuwakot district flood response (scenario medium-10)
+
+VEHICLES: 2 car(s), 4 passenger seats each. Positions: [car1], [car2] at Kispang shelter [kispang-shelter].
+
+EVACUATION POINTS (people may only be dropped off here): Kispang shelter [kispang-shelter].
+
+ROADS
+- Kispang shelter [kispang-shelter] <-> Gosaikunda temple [gosaikunda-temple]: 24 min, open
+- Kispang shelter [kispang-shelter] <-> Thakre care home [thakre-care-home]: 20 min, IMPASSABLE (damaged)
+- Kispang shelter [kispang-shelter] <-> Dupcheshwar temple [dupcheshwar-temple]: 26 min, open
+- Kispang shelter [kispang-shelter] <-> Myagang temple [myagang-temple]: 16 min, open
+- Tadi market [tadi-market] <-> Naukunda farm [naukunda-farm]: 11 min, open
+- Tadi market [tadi-market] <-> Galchhi temple [galchhi-temple]: 23 min, IMPASSABLE (damaged)
+- Gosaikunda temple [gosaikunda-temple] <-> Thakre care home [thakre-care-home]: 11 min, open
+- Gosaikunda temple [gosaikunda-temple] <-> Dupcheshwar temple [dupcheshwar-temple]: 23 min, IMPASSABLE (damaged)
+- Gosaikunda temple [gosaikunda-temple] <-> Galchhi temple [galchhi-temple]: 17 min, open
+- Thakre care home [thakre-care-home] <-> Myagang temple [myagang-temple]: 32 min, open
+Any road not listed here does not exist or cannot be used.
+
+PEOPLE AWAITING RESCUE
+- Galchhi temple [galchhi-temple]: 4 children
+- Dupcheshwar temple [dupcheshwar-temple]: 1 elderly person
+- Myagang temple [myagang-temple]: 3 injured people, 3 adults, 2 elderly people
+- Naukunda farm [naukunda-farm]: 2 adults
+- Tadi market [tadi-market]: 3 injured people
+People at the same location may be split between cars or trips.

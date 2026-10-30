@@ -1,0 +1,24 @@
+FIELD REPORT - Nuwakot district flood response (scenario medium-12)
+
+VEHICLES: 2 car(s), 4 passenger seats each. Positions: [car1] at Panchakanya shelter [panchakanya-shelter]; [car2] at Shivapuri hospital [shivapuri-hospital].
+
+EVACUATION POINTS (people may only be dropped off here): Panchakanya shelter [panchakanya-shelter], Shivapuri hospital [shivapuri-hospital].
+
+ROADS
+- Panchakanya shelter [panchakanya-shelter] <-> Shivapuri hospital [shivapuri-hospital]: 26 min, open
+- Panchakanya shelter [panchakanya-shelter] <-> Suryagadhi village [suryagadhi-village]: 37 min, open
+- Panchakanya shelter [panchakanya-shelter] <-> Kakani farm [kakani-farm]: 40 min, open
+- Panchakanya shelter [panchakanya-shelter] <-> Galchhi market [galchhi-market]: 19 min, open
+- Panchakanya shelter [panchakanya-shelter] <-> Jwalamukhi village [jwalamukhi-village]: 27 min, open
+- Shivapuri hospital [shivapuri-hospital] <-> Suryagadhi village [suryagadhi-village]: 30 min, open
+- Shivapuri hospital [shivapuri-hospital] <-> Galchhi market [galchhi-market]: 40 min, open
+- Suryagadhi village [suryagadhi-village] <-> Kakani farm [kakani-farm]: 6 min, open
+- Trishuli temple [trishuli-temple] <-> Kakani farm [kakani-farm]: 8 min, open
+Any road not listed here does not exist or cannot be used.
+
+PEOPLE AWAITING RESCUE
+- Kakani farm [kakani-farm]: 4 adults
+- Jwalamukhi village [jwalamukhi-village]: 4 children, 3 adults
+- Galchhi market [galchhi-market]: 4 injured people
+- Suryagadhi village [suryagadhi-village]: 4 elderly people
+People at the same location may be split between cars or trips.

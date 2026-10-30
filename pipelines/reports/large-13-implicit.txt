@@ -1,0 +1,34 @@
+FIELD REPORT - Nuwakot district flood response (scenario large-13)
+
+Our team has two cars available, each able to carry four passengers. Currently: [car1] at Kalika shelter [kalika-shelter]; [car2] at Dhunche hospital [dhunche-hospital].
+
+SAFE LOCATIONS
+Volunteers at Kalika shelter [kalika-shelter] say they have room for more families.
+Dhunche hospital [dhunche-hospital] is on high ground and its staff are receiving evacuees.
+Jwalamukhi school [jwalamukhi-school] sits on higher ground, but it has no food, water or medical staff and the authorities have not designated it as a place to bring people.
+
+ROAD CONDITIONS
+- Drivers report the road between Dhunche hospital [dhunche-hospital] and Jwalamukhi school [jwalamukhi-school] is clear; it takes roughly 9 minutes.
+- Drivers report the road between Gajuri farm [gajuri-farm] and Syaphru care home [syaphru-care-home] is clear; it takes roughly 37 minutes.
+- Drivers report the road between Kalika shelter [kalika-shelter] and Kakani village [kakani-village] is clear; it takes roughly 14 minutes.
+- Floodwater is running fast over the Kalika shelter [kalika-shelter] to Syaphru care home [syaphru-care-home] road; a truck was swept off it this morning. The drive usually takes 14 minutes.
+- It is a 20-minute drive between Benighat farm [benighat-farm] and Jwalamukhi school [jwalamukhi-school], with some debris but no blockages.
+- The drive from Kalika shelter [kalika-shelter] to Benighat farm [benighat-farm] takes about 27 minutes.
+- It is a 13-minute drive between Belkot farm [belkot-farm] and Dupcheshwar temple [dupcheshwar-temple], with some debris but no blockages.
+- The drive from Kakani village [kakani-village] to Benighat farm [benighat-farm] takes about 16 minutes.
+- Drivers report the road between Kakani village [kakani-village] and Syaphru care home [syaphru-care-home] is clear; it takes roughly 22 minutes.
+- The Dhunche hospital [dhunche-hospital] to Gosaikunda village [gosaikunda-village] road is muddy but passable, about 23 minutes by car.
+- Drivers report the road between Naukunda market [naukunda-market] and Syaphru care home [syaphru-care-home] is clear; it takes roughly 25 minutes.
+- Floodwater is running fast over the Gosaikunda village [gosaikunda-village] to Dupcheshwar temple [dupcheshwar-temple] road; a truck was swept off it this morning. The drive usually takes 11 minutes.
+- A landslide has buried the road between Belkot farm [belkot-farm] and Gajuri farm [gajuri-farm] (normally a 21-minute drive).
+- The Belkot farm [belkot-farm] to Gosaikunda village [gosaikunda-village] road is muddy but passable, about 5 minutes by car.
+- The drive from Naukunda market [naukunda-market] to Benighat farm [benighat-farm] takes about 5 minutes.
+- Drivers report the road between Naukunda market [naukunda-market] and Jwalamukhi school [jwalamukhi-school] is clear; it takes roughly 18 minutes.
+Any road not listed here does not exist or cannot be used.
+
+STRANDED CIVILIANS
+- At Gosaikunda village [gosaikunda-village], residents report four people hurt by falling debris, two adult labourers and three pupils waiting for help.
+- At Kakani village [kakani-village], residents report three people hurt by falling debris and a schoolgirl waiting for help.
+- At Jwalamukhi school [jwalamukhi-school], residents report three people hurt by falling debris and two schoolchildren waiting for help.
+- At Naukunda market [naukunda-market], residents report three shopkeepers waiting for help.
+Families have said they are willing to travel separately if needed.

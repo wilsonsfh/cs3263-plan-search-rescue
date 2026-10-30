@@ -1,0 +1,33 @@
+FIELD REPORT - Nuwakot district flood response (scenario large-02)
+
+VEHICLES: 2 car(s), 4 passenger seats each. Positions: [car1] at Bidur shelter [bidur-shelter]; [car2] at Suryagadhi hospital [suryagadhi-hospital].
+
+EVACUATION POINTS (people may only be dropped off here): Bidur shelter [bidur-shelter], Suryagadhi hospital [suryagadhi-hospital].
+
+ROADS
+- Bidur shelter [bidur-shelter] <-> Kalika village [kalika-village]: 13 min, IMPASSABLE (damaged)
+- Bidur shelter [bidur-shelter] <-> Nilkantha farm [nilkantha-farm]: 7 min, open
+- Suryagadhi hospital [suryagadhi-hospital] <-> Syaphru school [syaphru-school]: 37 min, IMPASSABLE (damaged)
+- Suryagadhi hospital [suryagadhi-hospital] <-> Trishuli care home [trishuli-care-home]: 20 min, open
+- Suryagadhi hospital [suryagadhi-hospital] <-> Likhu market [likhu-market]: 10 min, IMPASSABLE (damaged)
+- Kalika village [kalika-village] <-> Nilkantha farm [nilkantha-farm]: 19 min, open
+- Kalika village [kalika-village] <-> Tadi village [tadi-village]: 13 min, open
+- Kalika village [kalika-village] <-> Jwalamukhi market [jwalamukhi-market]: 8 min, open
+- Dupcheshwar school [dupcheshwar-school] <-> Tadi village [tadi-village]: 26 min, open
+- Dupcheshwar school [dupcheshwar-school] <-> Tarkeshwar school [tarkeshwar-school]: 28 min, open
+- Syaphru school [syaphru-school] <-> Trishuli care home [trishuli-care-home]: 17 min, open
+- Syaphru school [syaphru-school] <-> Tadi village [tadi-village]: 48 min, open
+- Likhu market [likhu-market] <-> Nilkantha farm [nilkantha-farm]: 26 min, IMPASSABLE (damaged)
+- Nilkantha farm [nilkantha-farm] <-> Jwalamukhi market [jwalamukhi-market]: 17 min, open
+- Tadi village [tadi-village] <-> Tarkeshwar school [tarkeshwar-school]: 5 min, open
+- Jwalamukhi market [jwalamukhi-market] <-> Tarkeshwar school [tarkeshwar-school]: 21 min, open
+Any road not listed here does not exist or cannot be used.
+
+PEOPLE AWAITING RESCUE
+- Kalika village [kalika-village]: 2 elderly people, 3 adults, 2 children
+- Syaphru school [syaphru-school]: 6 children
+- Jwalamukhi market [jwalamukhi-market]: 4 adults
+- Nilkantha farm [nilkantha-farm]: 1 adult
+- Trishuli care home [trishuli-care-home]: 4 elderly people
+- Tarkeshwar school [tarkeshwar-school]: 4 children
+People at the same location may be split between cars or trips.
