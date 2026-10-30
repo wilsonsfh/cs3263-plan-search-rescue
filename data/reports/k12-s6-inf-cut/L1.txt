@@ -1,0 +1,54 @@
+MISSION SHEET
+- Team base and starting point: Haku
+- Shelter where evacuees must be delivered: Haku
+- Vehicle capacity: no practical limit (enough vehicles to carry everyone at once)
+- Places on the district map: Haku (evacuation point), Kispang (school), Lachyang (village), Laharepauwa (village), Narjamandap (village), Bidur (village), Tadi (temple), Suryagadhi (temple), Taruka (village), Kaule (temple), Bageshwari (school), Shikharbesi (school), Ramche (village), Salme (road junction)
+
+ROAD REGISTER (pre-flood network; usual one-way driving times, roads are two-way)
+- Bageshwari–Tadi: 10 min
+- Bidur–Lachyang: 15 min
+- Bidur–Salme: 15 min
+- Bidur–Taruka: 20 min
+- Haku–Laharepauwa: 20 min
+- Haku–Narjamandap: 15 min
+- Haku–Taruka: 10 min
+- Kaule–Kispang: 25 min
+- Kaule–Lachyang: 20 min
+- Kaule–Taruka: 25 min
+- Kispang–Lachyang: 20 min
+- Kispang–Taruka: 5 min
+- Laharepauwa–Ramche: 5 min
+- Laharepauwa–Suryagadhi: 10 min
+- Narjamandap–Shikharbesi: 10 min
+- Narjamandap–Suryagadhi: 15 min
+- Ramche–Suryagadhi: 25 min
+- Shikharbesi–Suryagadhi: 10 min
+- Shikharbesi–Tadi: 15 min
+
+FIELD REPORT (district control room, 12:00)
+Road status changes since the flood:
+- Bageshwari–Tadi: BLOCKED
+- Bidur–Salme: open, travel time now 30 min
+- Haku–Laharepauwa: BLOCKED
+- Kaule–Lachyang: open, travel time now 40 min
+- Kaule–Taruka: BLOCKED
+- Kispang–Lachyang: BLOCKED
+- Kispang–Taruka: BLOCKED
+- Laharepauwa–Ramche: open, travel time now 10 min
+- Narjamandap–Suryagadhi: BLOCKED
+- Ramche–Suryagadhi: open, travel time now 40 min
+All other roads: open, usual travel time.
+People waiting for rescue:
+- Kispang: 1 injured, 3 children, 2 elderly, 1 adults
+- Lachyang: 0 injured, 3 children, 3 elderly, 6 adults
+- Laharepauwa: 2 injured, 0 children, 2 elderly, 4 adults
+- Narjamandap: 0 injured, 4 children, 0 elderly, 1 adults
+- Bidur: 0 injured, 0 children, 1 elderly, 4 adults
+- Tadi: 0 injured, 2 children, 0 elderly, 4 adults
+- Suryagadhi: 0 injured, 2 children, 1 elderly, 6 adults
+- Taruka: 0 injured, 3 children, 1 elderly, 4 adults
+- Kaule: 3 injured, 1 children, 0 elderly, 2 adults
+- Bageshwari: 0 injured, 3 children, 1 elderly, 2 adults
+- Shikharbesi: 0 injured, 7 children, 3 elderly, 1 adults
+- Ramche: 0 injured, 0 children, 0 elderly, 1 adults
+No one is waiting at any other location.

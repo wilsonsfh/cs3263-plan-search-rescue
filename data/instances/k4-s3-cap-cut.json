@@ -1,0 +1,198 @@
+{
+  "id": "k4-s3-cap-cut",
+  "locations": [
+    {
+      "id": "chaughada",
+      "name": "Chaughada",
+      "kind": "base"
+    },
+    {
+      "id": "shikharbesi",
+      "name": "Shikharbesi",
+      "kind": "village"
+    },
+    {
+      "id": "ramche",
+      "name": "Ramche",
+      "kind": "village"
+    },
+    {
+      "id": "khanigaun",
+      "name": "Khanigaun",
+      "kind": "ward_office"
+    },
+    {
+      "id": "trishuli",
+      "name": "Trishuli",
+      "kind": "health_post"
+    },
+    {
+      "id": "thaprek",
+      "name": "Thaprek",
+      "kind": "junction"
+    },
+    {
+      "id": "kaule",
+      "name": "Kaule",
+      "kind": "junction"
+    },
+    {
+      "id": "bhorle",
+      "name": "Bhorle",
+      "kind": "evacuated_village"
+    }
+  ],
+  "roads": [
+    {
+      "u": "bhorle",
+      "v": "kaule",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "bhorle",
+      "v": "khanigaun",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "bhorle",
+      "v": "ramche",
+      "minutes": 20,
+      "open": false,
+      "base_minutes": null,
+      "cause": "submerged",
+      "history": [
+        "open",
+        "blocked"
+      ]
+    },
+    {
+      "u": "bhorle",
+      "v": "shikharbesi",
+      "minutes": 40,
+      "open": true,
+      "base_minutes": 20,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "bhorle",
+      "v": "thaprek",
+      "minutes": 35,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "bhorle",
+      "v": "trishuli",
+      "minutes": 5,
+      "open": false,
+      "base_minutes": null,
+      "cause": "landslide",
+      "history": []
+    },
+    {
+      "u": "chaughada",
+      "v": "shikharbesi",
+      "minutes": 10,
+      "open": false,
+      "base_minutes": null,
+      "cause": "bridge",
+      "history": []
+    },
+    {
+      "u": "chaughada",
+      "v": "trishuli",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": [
+        "rumour"
+      ]
+    },
+    {
+      "u": "kaule",
+      "v": "thaprek",
+      "minutes": 30,
+      "open": true,
+      "base_minutes": 15,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "khanigaun",
+      "v": "ramche",
+      "minutes": 10,
+      "open": false,
+      "base_minutes": null,
+      "cause": "submerged",
+      "history": []
+    },
+    {
+      "u": "khanigaun",
+      "v": "trishuli",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "shikharbesi",
+      "v": "trishuli",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    }
+  ],
+  "people": {
+    "shikharbesi": {
+      "injured": 1,
+      "children": 4,
+      "elderly": 1,
+      "adults": 2
+    },
+    "ramche": {
+      "adults": 6
+    },
+    "khanigaun": {
+      "elderly": 2,
+      "adults": 3
+    },
+    "trishuli": {
+      "injured": 1,
+      "children": 2,
+      "elderly": 3,
+      "adults": 3
+    }
+  },
+  "start": "chaughada",
+  "shelter": "chaughada",
+  "capacity": 17,
+  "priority": "tiered",
+  "meta": {
+    "k": 4,
+    "seed": 3,
+    "extra_nodes": 3,
+    "n_roads": 12,
+    "n_blocked": 4,
+    "n_slowed": 2,
+    "cut_off": "ramche",
+    "capacity_mode": "tight",
+    "split": "dev",
+    "rep": 0,
+    "condition": "tight-cut"
+  }
+}

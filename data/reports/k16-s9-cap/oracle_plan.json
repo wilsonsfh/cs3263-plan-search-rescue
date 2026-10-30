@@ -1,0 +1,588 @@
+{
+ "steps": [
+  {
+   "action": "move",
+   "from": "Bageshwari",
+   "to": "Shikharbesi"
+  },
+  {
+   "action": "move",
+   "from": "Shikharbesi",
+   "to": "Dandagaun"
+  },
+  {
+   "action": "move",
+   "from": "Dandagaun",
+   "to": "Bidur"
+  },
+  {
+   "action": "move",
+   "from": "Bidur",
+   "to": "Likhu"
+  },
+  {
+   "action": "pickup",
+   "location": "Likhu"
+  },
+  {
+   "action": "move",
+   "from": "Likhu",
+   "to": "Bidur"
+  },
+  {
+   "action": "move",
+   "from": "Bidur",
+   "to": "Dandagaun"
+  },
+  {
+   "action": "move",
+   "from": "Dandagaun",
+   "to": "Shikharbesi"
+  },
+  {
+   "action": "move",
+   "from": "Shikharbesi",
+   "to": "Bageshwari"
+  },
+  {
+   "action": "dropoff",
+   "location": "Bageshwari"
+  },
+  {
+   "action": "move",
+   "from": "Bageshwari",
+   "to": "Shikharbesi"
+  },
+  {
+   "action": "move",
+   "from": "Shikharbesi",
+   "to": "Dandagaun"
+  },
+  {
+   "action": "move",
+   "from": "Dandagaun",
+   "to": "Bidur"
+  },
+  {
+   "action": "move",
+   "from": "Bidur",
+   "to": "Likhu"
+  },
+  {
+   "action": "move",
+   "from": "Likhu",
+   "to": "Bhalche"
+  },
+  {
+   "action": "pickup",
+   "location": "Bhalche"
+  },
+  {
+   "action": "move",
+   "from": "Bhalche",
+   "to": "Madanpur"
+  },
+  {
+   "action": "pickup",
+   "location": "Madanpur"
+  },
+  {
+   "action": "move",
+   "from": "Madanpur",
+   "to": "Bhalche"
+  },
+  {
+   "action": "move",
+   "from": "Bhalche",
+   "to": "Likhu"
+  },
+  {
+   "action": "move",
+   "from": "Likhu",
+   "to": "Bidur"
+  },
+  {
+   "action": "move",
+   "from": "Bidur",
+   "to": "Dandagaun"
+  },
+  {
+   "action": "move",
+   "from": "Dandagaun",
+   "to": "Shikharbesi"
+  },
+  {
+   "action": "move",
+   "from": "Shikharbesi",
+   "to": "Bageshwari"
+  },
+  {
+   "action": "dropoff",
+   "location": "Bageshwari"
+  },
+  {
+   "action": "move",
+   "from": "Bageshwari",
+   "to": "Shikharbesi"
+  },
+  {
+   "action": "move",
+   "from": "Shikharbesi",
+   "to": "Dandagaun"
+  },
+  {
+   "action": "move",
+   "from": "Dandagaun",
+   "to": "Bidur"
+  },
+  {
+   "action": "move",
+   "from": "Bidur",
+   "to": "Panchakanya"
+  },
+  {
+   "action": "move",
+   "from": "Panchakanya",
+   "to": "Ramche"
+  },
+  {
+   "action": "move",
+   "from": "Ramche",
+   "to": "Ghyangphedi"
+  },
+  {
+   "action": "pickup",
+   "location": "Ghyangphedi"
+  },
+  {
+   "action": "move",
+   "from": "Ghyangphedi",
+   "to": "Battar"
+  },
+  {
+   "action": "move",
+   "from": "Battar",
+   "to": "Thansing"
+  },
+  {
+   "action": "move",
+   "from": "Thansing",
+   "to": "Kakani"
+  },
+  {
+   "action": "pickup",
+   "location": "Kakani"
+  },
+  {
+   "action": "move",
+   "from": "Kakani",
+   "to": "Thansing"
+  },
+  {
+   "action": "pickup",
+   "location": "Thansing"
+  },
+  {
+   "action": "move",
+   "from": "Thansing",
+   "to": "Battar"
+  },
+  {
+   "action": "move",
+   "from": "Battar",
+   "to": "Ghyangphedi"
+  },
+  {
+   "action": "move",
+   "from": "Ghyangphedi",
+   "to": "Ramche"
+  },
+  {
+   "action": "move",
+   "from": "Ramche",
+   "to": "Panchakanya"
+  },
+  {
+   "action": "move",
+   "from": "Panchakanya",
+   "to": "Bidur"
+  },
+  {
+   "action": "move",
+   "from": "Bidur",
+   "to": "Dandagaun"
+  },
+  {
+   "action": "move",
+   "from": "Dandagaun",
+   "to": "Shikharbesi"
+  },
+  {
+   "action": "move",
+   "from": "Shikharbesi",
+   "to": "Bageshwari"
+  },
+  {
+   "action": "dropoff",
+   "location": "Bageshwari"
+  },
+  {
+   "action": "move",
+   "from": "Bageshwari",
+   "to": "Thulogaun"
+  },
+  {
+   "action": "pickup",
+   "location": "Thulogaun"
+  },
+  {
+   "action": "move",
+   "from": "Thulogaun",
+   "to": "Bageshwari"
+  },
+  {
+   "action": "move",
+   "from": "Bageshwari",
+   "to": "Shikharbesi"
+  },
+  {
+   "action": "move",
+   "from": "Shikharbesi",
+   "to": "Dandagaun"
+  },
+  {
+   "action": "pickup",
+   "location": "Dandagaun"
+  },
+  {
+   "action": "move",
+   "from": "Dandagaun",
+   "to": "Bidur"
+  },
+  {
+   "action": "pickup",
+   "location": "Bidur"
+  },
+  {
+   "action": "move",
+   "from": "Bidur",
+   "to": "Dandagaun"
+  },
+  {
+   "action": "move",
+   "from": "Dandagaun",
+   "to": "Shikharbesi"
+  },
+  {
+   "action": "move",
+   "from": "Shikharbesi",
+   "to": "Bageshwari"
+  },
+  {
+   "action": "dropoff",
+   "location": "Bageshwari"
+  },
+  {
+   "action": "move",
+   "from": "Bageshwari",
+   "to": "Shikharbesi"
+  },
+  {
+   "action": "move",
+   "from": "Shikharbesi",
+   "to": "Dandagaun"
+  },
+  {
+   "action": "move",
+   "from": "Dandagaun",
+   "to": "Bidur"
+  },
+  {
+   "action": "move",
+   "from": "Bidur",
+   "to": "Likhu"
+  },
+  {
+   "action": "move",
+   "from": "Likhu",
+   "to": "Rautbesi"
+  },
+  {
+   "action": "move",
+   "from": "Rautbesi",
+   "to": "Chhap"
+  },
+  {
+   "action": "pickup",
+   "location": "Chhap"
+  },
+  {
+   "action": "move",
+   "from": "Chhap",
+   "to": "Goljung"
+  },
+  {
+   "action": "move",
+   "from": "Goljung",
+   "to": "Meghang"
+  },
+  {
+   "action": "pickup",
+   "location": "Meghang"
+  },
+  {
+   "action": "move",
+   "from": "Meghang",
+   "to": "Goljung"
+  },
+  {
+   "action": "move",
+   "from": "Goljung",
+   "to": "Chhap"
+  },
+  {
+   "action": "move",
+   "from": "Chhap",
+   "to": "Rautbesi"
+  },
+  {
+   "action": "move",
+   "from": "Rautbesi",
+   "to": "Likhu"
+  },
+  {
+   "action": "move",
+   "from": "Likhu",
+   "to": "Bidur"
+  },
+  {
+   "action": "move",
+   "from": "Bidur",
+   "to": "Dandagaun"
+  },
+  {
+   "action": "move",
+   "from": "Dandagaun",
+   "to": "Shikharbesi"
+  },
+  {
+   "action": "move",
+   "from": "Shikharbesi",
+   "to": "Bageshwari"
+  },
+  {
+   "action": "dropoff",
+   "location": "Bageshwari"
+  },
+  {
+   "action": "move",
+   "from": "Bageshwari",
+   "to": "Shikharbesi"
+  },
+  {
+   "action": "move",
+   "from": "Shikharbesi",
+   "to": "Dandagaun"
+  },
+  {
+   "action": "move",
+   "from": "Dandagaun",
+   "to": "Bidur"
+  },
+  {
+   "action": "move",
+   "from": "Bidur",
+   "to": "Likhu"
+  },
+  {
+   "action": "move",
+   "from": "Likhu",
+   "to": "Rautbesi"
+  },
+  {
+   "action": "move",
+   "from": "Rautbesi",
+   "to": "Chhap"
+  },
+  {
+   "action": "move",
+   "from": "Chhap",
+   "to": "Goljung"
+  },
+  {
+   "action": "move",
+   "from": "Goljung",
+   "to": "Tadi"
+  },
+  {
+   "action": "pickup",
+   "location": "Tadi"
+  },
+  {
+   "action": "move",
+   "from": "Tadi",
+   "to": "Khanigaun"
+  },
+  {
+   "action": "pickup",
+   "location": "Khanigaun"
+  },
+  {
+   "action": "move",
+   "from": "Khanigaun",
+   "to": "Tadi"
+  },
+  {
+   "action": "move",
+   "from": "Tadi",
+   "to": "Goljung"
+  },
+  {
+   "action": "move",
+   "from": "Goljung",
+   "to": "Chhap"
+  },
+  {
+   "action": "move",
+   "from": "Chhap",
+   "to": "Rautbesi"
+  },
+  {
+   "action": "move",
+   "from": "Rautbesi",
+   "to": "Likhu"
+  },
+  {
+   "action": "move",
+   "from": "Likhu",
+   "to": "Bidur"
+  },
+  {
+   "action": "move",
+   "from": "Bidur",
+   "to": "Dandagaun"
+  },
+  {
+   "action": "move",
+   "from": "Dandagaun",
+   "to": "Shikharbesi"
+  },
+  {
+   "action": "move",
+   "from": "Shikharbesi",
+   "to": "Bageshwari"
+  },
+  {
+   "action": "dropoff",
+   "location": "Bageshwari"
+  },
+  {
+   "action": "move",
+   "from": "Bageshwari",
+   "to": "Shikharbesi"
+  },
+  {
+   "action": "move",
+   "from": "Shikharbesi",
+   "to": "Dandagaun"
+  },
+  {
+   "action": "move",
+   "from": "Dandagaun",
+   "to": "Bidur"
+  },
+  {
+   "action": "move",
+   "from": "Bidur",
+   "to": "Panchakanya"
+  },
+  {
+   "action": "move",
+   "from": "Panchakanya",
+   "to": "Ramche"
+  },
+  {
+   "action": "move",
+   "from": "Ramche",
+   "to": "Ghyangphedi"
+  },
+  {
+   "action": "move",
+   "from": "Ghyangphedi",
+   "to": "Battar"
+  },
+  {
+   "action": "pickup",
+   "location": "Battar"
+  },
+  {
+   "action": "move",
+   "from": "Battar",
+   "to": "Ghyangphedi"
+  },
+  {
+   "action": "move",
+   "from": "Ghyangphedi",
+   "to": "Ramche"
+  },
+  {
+   "action": "move",
+   "from": "Ramche",
+   "to": "Panchakanya"
+  },
+  {
+   "action": "pickup",
+   "location": "Panchakanya"
+  },
+  {
+   "action": "move",
+   "from": "Panchakanya",
+   "to": "Bidur"
+  },
+  {
+   "action": "move",
+   "from": "Bidur",
+   "to": "Likhu"
+  },
+  {
+   "action": "move",
+   "from": "Likhu",
+   "to": "Rautbesi"
+  },
+  {
+   "action": "pickup",
+   "location": "Rautbesi"
+  },
+  {
+   "action": "move",
+   "from": "Rautbesi",
+   "to": "Likhu"
+  },
+  {
+   "action": "move",
+   "from": "Likhu",
+   "to": "Bidur"
+  },
+  {
+   "action": "move",
+   "from": "Bidur",
+   "to": "Dandagaun"
+  },
+  {
+   "action": "move",
+   "from": "Dandagaun",
+   "to": "Shikharbesi"
+  },
+  {
+   "action": "move",
+   "from": "Shikharbesi",
+   "to": "Bageshwari"
+  },
+  {
+   "action": "dropoff",
+   "location": "Bageshwari"
+  }
+ ],
+ "unreachable": [],
+ "claimed_total_minutes": 1430.0
+}

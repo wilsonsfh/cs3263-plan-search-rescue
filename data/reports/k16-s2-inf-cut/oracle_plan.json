@@ -1,0 +1,237 @@
+{
+ "steps": [
+  {
+   "action": "move",
+   "from": "Samundratar",
+   "to": "Kakani"
+  },
+  {
+   "action": "move",
+   "from": "Kakani",
+   "to": "Likhu"
+  },
+  {
+   "action": "pickup",
+   "location": "Likhu"
+  },
+  {
+   "action": "move",
+   "from": "Likhu",
+   "to": "Suryagadhi"
+  },
+  {
+   "action": "pickup",
+   "location": "Suryagadhi"
+  },
+  {
+   "action": "move",
+   "from": "Suryagadhi",
+   "to": "Bhorle"
+  },
+  {
+   "action": "pickup",
+   "location": "Bhorle"
+  },
+  {
+   "action": "move",
+   "from": "Bhorle",
+   "to": "Suryagadhi"
+  },
+  {
+   "action": "move",
+   "from": "Suryagadhi",
+   "to": "Likhu"
+  },
+  {
+   "action": "move",
+   "from": "Likhu",
+   "to": "Kakani"
+  },
+  {
+   "action": "move",
+   "from": "Kakani",
+   "to": "Samundratar"
+  },
+  {
+   "action": "move",
+   "from": "Samundratar",
+   "to": "Betrawati"
+  },
+  {
+   "action": "pickup",
+   "location": "Betrawati"
+  },
+  {
+   "action": "move",
+   "from": "Betrawati",
+   "to": "Taruka"
+  },
+  {
+   "action": "pickup",
+   "location": "Taruka"
+  },
+  {
+   "action": "move",
+   "from": "Taruka",
+   "to": "Gerkhu"
+  },
+  {
+   "action": "pickup",
+   "location": "Gerkhu"
+  },
+  {
+   "action": "move",
+   "from": "Gerkhu",
+   "to": "Tadi"
+  },
+  {
+   "action": "move",
+   "from": "Tadi",
+   "to": "Samundratar"
+  },
+  {
+   "action": "move",
+   "from": "Samundratar",
+   "to": "Thulogaun"
+  },
+  {
+   "action": "pickup",
+   "location": "Thulogaun"
+  },
+  {
+   "action": "move",
+   "from": "Thulogaun",
+   "to": "Chhap"
+  },
+  {
+   "action": "pickup",
+   "location": "Chhap"
+  },
+  {
+   "action": "move",
+   "from": "Chhap",
+   "to": "Battar"
+  },
+  {
+   "action": "pickup",
+   "location": "Battar"
+  },
+  {
+   "action": "move",
+   "from": "Battar",
+   "to": "Chaughada"
+  },
+  {
+   "action": "pickup",
+   "location": "Chaughada"
+  },
+  {
+   "action": "move",
+   "from": "Chaughada",
+   "to": "Kalikasthan"
+  },
+  {
+   "action": "pickup",
+   "location": "Kalikasthan"
+  },
+  {
+   "action": "move",
+   "from": "Kalikasthan",
+   "to": "Chaughada"
+  },
+  {
+   "action": "move",
+   "from": "Chaughada",
+   "to": "Battar"
+  },
+  {
+   "action": "move",
+   "from": "Battar",
+   "to": "Likhu"
+  },
+  {
+   "action": "move",
+   "from": "Likhu",
+   "to": "Thaprek"
+  },
+  {
+   "action": "pickup",
+   "location": "Thaprek"
+  },
+  {
+   "action": "move",
+   "from": "Thaprek",
+   "to": "Dupcheshwar"
+  },
+  {
+   "action": "pickup",
+   "location": "Dupcheshwar"
+  },
+  {
+   "action": "move",
+   "from": "Dupcheshwar",
+   "to": "Suryagadhi"
+  },
+  {
+   "action": "move",
+   "from": "Suryagadhi",
+   "to": "Bhorle"
+  },
+  {
+   "action": "move",
+   "from": "Bhorle",
+   "to": "Narjamandap"
+  },
+  {
+   "action": "pickup",
+   "location": "Narjamandap"
+  },
+  {
+   "action": "move",
+   "from": "Narjamandap",
+   "to": "Meghang"
+  },
+  {
+   "action": "pickup",
+   "location": "Meghang"
+  },
+  {
+   "action": "move",
+   "from": "Meghang",
+   "to": "Narjamandap"
+  },
+  {
+   "action": "move",
+   "from": "Narjamandap",
+   "to": "Bhorle"
+  },
+  {
+   "action": "move",
+   "from": "Bhorle",
+   "to": "Suryagadhi"
+  },
+  {
+   "action": "move",
+   "from": "Suryagadhi",
+   "to": "Likhu"
+  },
+  {
+   "action": "move",
+   "from": "Likhu",
+   "to": "Kakani"
+  },
+  {
+   "action": "move",
+   "from": "Kakani",
+   "to": "Samundratar"
+  },
+  {
+   "action": "dropoff",
+   "location": "Samundratar"
+  }
+ ],
+ "unreachable": [
+  "Jiling"
+ ],
+ "claimed_total_minutes": 670.0
+}

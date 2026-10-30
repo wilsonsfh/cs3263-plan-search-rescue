@@ -1,0 +1,172 @@
+{
+  "id": "k4-s4-inf",
+  "locations": [
+    {
+      "id": "taruka",
+      "name": "Taruka",
+      "kind": "base"
+    },
+    {
+      "id": "thansing",
+      "name": "Thansing",
+      "kind": "ward_office"
+    },
+    {
+      "id": "lachyang",
+      "name": "Lachyang",
+      "kind": "village"
+    },
+    {
+      "id": "bidur",
+      "name": "Bidur",
+      "kind": "school"
+    },
+    {
+      "id": "bhalche",
+      "name": "Bhalche",
+      "kind": "village"
+    },
+    {
+      "id": "kalikasthan",
+      "name": "Kalikasthan",
+      "kind": "junction"
+    },
+    {
+      "id": "tadi",
+      "name": "Tadi",
+      "kind": "evacuated_village"
+    },
+    {
+      "id": "chhap",
+      "name": "Chhap",
+      "kind": "evacuated_village"
+    }
+  ],
+  "roads": [
+    {
+      "u": "bhalche",
+      "v": "bidur",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "blocked",
+        "cleared"
+      ]
+    },
+    {
+      "u": "bhalche",
+      "v": "tadi",
+      "minutes": 20,
+      "open": false,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": []
+    },
+    {
+      "u": "bidur",
+      "v": "kalikasthan",
+      "minutes": 35,
+      "open": true,
+      "base_minutes": 15,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "bidur",
+      "v": "tadi",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "chhap",
+      "v": "lachyang",
+      "minutes": 25,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "chhap",
+      "v": "tadi",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "chhap",
+      "v": "taruka",
+      "minutes": 10,
+      "open": false,
+      "base_minutes": null,
+      "cause": "submerged",
+      "history": []
+    },
+    {
+      "u": "tadi",
+      "v": "taruka",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "blocked",
+        "cleared"
+      ]
+    },
+    {
+      "u": "taruka",
+      "v": "thansing",
+      "minutes": 50,
+      "open": true,
+      "base_minutes": 40,
+      "cause": "waterlogged",
+      "history": []
+    }
+  ],
+  "people": {
+    "thansing": {
+      "children": 4,
+      "elderly": 1,
+      "adults": 4
+    },
+    "lachyang": {
+      "injured": 3,
+      "children": 4,
+      "adults": 3
+    },
+    "bidur": {
+      "children": 6,
+      "adults": 2
+    },
+    "bhalche": {
+      "children": 4,
+      "elderly": 2,
+      "adults": 3
+    }
+  },
+  "start": "taruka",
+  "shelter": "taruka",
+  "capacity": null,
+  "priority": "tiered",
+  "meta": {
+    "k": 4,
+    "seed": 4,
+    "extra_nodes": 3,
+    "n_roads": 9,
+    "n_blocked": 2,
+    "n_slowed": 2,
+    "cut_off": null,
+    "capacity_mode": "unlimited",
+    "split": "test",
+    "rep": 1,
+    "condition": "unlimited"
+  }
+}

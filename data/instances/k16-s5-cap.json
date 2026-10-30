@@ -1,0 +1,542 @@
+{
+  "id": "k16-s5-cap",
+  "locations": [
+    {
+      "id": "belkot",
+      "name": "Belkot",
+      "kind": "base"
+    },
+    {
+      "id": "kalikasthan",
+      "name": "Kalikasthan",
+      "kind": "ward_office"
+    },
+    {
+      "id": "kaule",
+      "name": "Kaule",
+      "kind": "village"
+    },
+    {
+      "id": "bidur",
+      "name": "Bidur",
+      "kind": "village"
+    },
+    {
+      "id": "thulogaun",
+      "name": "Thulogaun",
+      "kind": "village"
+    },
+    {
+      "id": "goljung",
+      "name": "Goljung",
+      "kind": "village"
+    },
+    {
+      "id": "chhap",
+      "name": "Chhap",
+      "kind": "temple"
+    },
+    {
+      "id": "bhorle",
+      "name": "Bhorle",
+      "kind": "village"
+    },
+    {
+      "id": "ghyangphedi",
+      "name": "Ghyangphedi",
+      "kind": "ward_office"
+    },
+    {
+      "id": "sundaradevi",
+      "name": "Sundaradevi",
+      "kind": "ward_office"
+    },
+    {
+      "id": "laharepauwa",
+      "name": "Laharepauwa",
+      "kind": "temple"
+    },
+    {
+      "id": "madanpur",
+      "name": "Madanpur",
+      "kind": "village"
+    },
+    {
+      "id": "haku",
+      "name": "Haku",
+      "kind": "ward_office"
+    },
+    {
+      "id": "chaughada",
+      "name": "Chaughada",
+      "kind": "health_post"
+    },
+    {
+      "id": "meghang",
+      "name": "Meghang",
+      "kind": "village"
+    },
+    {
+      "id": "thansing",
+      "name": "Thansing",
+      "kind": "village"
+    },
+    {
+      "id": "ramche",
+      "name": "Ramche",
+      "kind": "village"
+    },
+    {
+      "id": "panchakanya",
+      "name": "Panchakanya",
+      "kind": "junction"
+    },
+    {
+      "id": "likhu",
+      "name": "Likhu",
+      "kind": "junction"
+    },
+    {
+      "id": "syaphru",
+      "name": "Syaphru",
+      "kind": "junction"
+    },
+    {
+      "id": "kumari",
+      "name": "Kumari",
+      "kind": "evacuated_village"
+    },
+    {
+      "id": "salme",
+      "name": "Salme",
+      "kind": "evacuated_village"
+    },
+    {
+      "id": "bhalche",
+      "name": "Bhalche",
+      "kind": "junction"
+    }
+  ],
+  "roads": [
+    {
+      "u": "belkot",
+      "v": "chaughada",
+      "minutes": 10,
+      "open": false,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": []
+    },
+    {
+      "u": "belkot",
+      "v": "kalikasthan",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "belkot",
+      "v": "kumari",
+      "minutes": 30,
+      "open": true,
+      "base_minutes": 15,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "belkot",
+      "v": "likhu",
+      "minutes": 15,
+      "open": false,
+      "base_minutes": null,
+      "cause": "landslide",
+      "history": []
+    },
+    {
+      "u": "bhalche",
+      "v": "syaphru",
+      "minutes": 30,
+      "open": true,
+      "base_minutes": 15,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "bhalche",
+      "v": "thansing",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "bhalche",
+      "v": "thulogaun",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "blocked",
+        "cleared"
+      ]
+    },
+    {
+      "u": "bhorle",
+      "v": "bidur",
+      "minutes": 30,
+      "open": true,
+      "base_minutes": 15,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "bhorle",
+      "v": "syaphru",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "bidur",
+      "v": "chaughada",
+      "minutes": 25,
+      "open": false,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": []
+    },
+    {
+      "u": "bidur",
+      "v": "madanpur",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": [
+        "rumour"
+      ]
+    },
+    {
+      "u": "chaughada",
+      "v": "madanpur",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "chaughada",
+      "v": "syaphru",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "chhap",
+      "v": "kalikasthan",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "blocked",
+        "cleared"
+      ]
+    },
+    {
+      "u": "chhap",
+      "v": "kaule",
+      "minutes": 5,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "chhap",
+      "v": "likhu",
+      "minutes": 25,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "chhap",
+      "v": "sundaradevi",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "ghyangphedi",
+      "v": "goljung",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "ghyangphedi",
+      "v": "kumari",
+      "minutes": 10,
+      "open": false,
+      "base_minutes": null,
+      "cause": "landslide",
+      "history": []
+    },
+    {
+      "u": "ghyangphedi",
+      "v": "madanpur",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "blocked",
+        "cleared"
+      ]
+    },
+    {
+      "u": "goljung",
+      "v": "laharepauwa",
+      "minutes": 10,
+      "open": false,
+      "base_minutes": null,
+      "cause": "submerged",
+      "history": [
+        "open",
+        "blocked"
+      ]
+    },
+    {
+      "u": "goljung",
+      "v": "panchakanya",
+      "minutes": 25,
+      "open": true,
+      "base_minutes": 10,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "goljung",
+      "v": "salme",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": [
+        "rumour"
+      ]
+    },
+    {
+      "u": "haku",
+      "v": "meghang",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": 10,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "kalikasthan",
+      "v": "kaule",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "kalikasthan",
+      "v": "likhu",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "kaule",
+      "v": "meghang",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "kumari",
+      "v": "ramche",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "laharepauwa",
+      "v": "salme",
+      "minutes": 5,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "likhu",
+      "v": "thansing",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": [
+        "rumour"
+      ]
+    },
+    {
+      "u": "meghang",
+      "v": "ramche",
+      "minutes": 15,
+      "open": false,
+      "base_minutes": null,
+      "cause": "landslide",
+      "history": []
+    },
+    {
+      "u": "sundaradevi",
+      "v": "thansing",
+      "minutes": 25,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "sundaradevi",
+      "v": "thulogaun",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "thansing",
+      "v": "thulogaun",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "blocked",
+        "cleared"
+      ]
+    }
+  ],
+  "people": {
+    "kalikasthan": {
+      "children": 4,
+      "elderly": 1,
+      "adults": 4
+    },
+    "kaule": {
+      "children": 2,
+      "elderly": 3,
+      "adults": 6
+    },
+    "bidur": {
+      "elderly": 1,
+      "adults": 6
+    },
+    "thulogaun": {
+      "children": 2,
+      "elderly": 3,
+      "adults": 3
+    },
+    "goljung": {
+      "children": 3,
+      "elderly": 2,
+      "adults": 3
+    },
+    "chhap": {
+      "children": 2,
+      "adults": 4
+    },
+    "bhorle": {
+      "injured": 1,
+      "children": 4,
+      "elderly": 2,
+      "adults": 2
+    },
+    "ghyangphedi": {
+      "adults": 4
+    },
+    "sundaradevi": {
+      "children": 4,
+      "elderly": 2,
+      "adults": 1
+    },
+    "laharepauwa": {
+      "children": 2,
+      "elderly": 1,
+      "adults": 1
+    },
+    "madanpur": {
+      "children": 2,
+      "elderly": 3,
+      "adults": 3
+    },
+    "haku": {
+      "children": 2,
+      "elderly": 2,
+      "adults": 3
+    },
+    "chaughada": {
+      "injured": 3,
+      "adults": 3
+    },
+    "meghang": {
+      "injured": 2,
+      "adults": 3
+    },
+    "thansing": {
+      "children": 4,
+      "elderly": 1,
+      "adults": 3
+    },
+    "ramche": {
+      "elderly": 3,
+      "adults": 4
+    }
+  },
+  "start": "belkot",
+  "shelter": "belkot",
+  "capacity": 14,
+  "priority": "tiered",
+  "meta": {
+    "k": 16,
+    "seed": 5,
+    "extra_nodes": 6,
+    "n_roads": 34,
+    "n_blocked": 6,
+    "n_slowed": 5,
+    "cut_off": null,
+    "capacity_mode": "tight",
+    "split": "test",
+    "rep": 1,
+    "condition": "tight"
+  }
+}

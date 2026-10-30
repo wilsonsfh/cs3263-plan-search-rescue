@@ -1,0 +1,247 @@
+{
+ "start": "Taruka",
+ "shelter": "Taruka",
+ "capacity": null,
+ "locations": [
+  {
+   "name": "Taruka",
+   "kind": "evacuation point"
+  },
+  {
+   "name": "Ramche",
+   "kind": "village"
+  },
+  {
+   "name": "Samundratar",
+   "kind": "temple"
+  },
+  {
+   "name": "Battar",
+   "kind": "village"
+  },
+  {
+   "name": "Dandagaun",
+   "kind": "school"
+  },
+  {
+   "name": "Dupcheshwar",
+   "kind": "school"
+  },
+  {
+   "name": "Salme",
+   "kind": "health post"
+  },
+  {
+   "name": "Belkot",
+   "kind": "temple"
+  },
+  {
+   "name": "Madanpur",
+   "kind": "village"
+  },
+  {
+   "name": "Bhalche",
+   "kind": "village"
+  },
+  {
+   "name": "Goljung",
+   "kind": "village"
+  },
+  {
+   "name": "Haku",
+   "kind": "road junction"
+  },
+  {
+   "name": "Likhu",
+   "kind": "road junction"
+  }
+ ],
+ "roads": [
+  {
+   "between": [
+    "Battar",
+    "Madanpur"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Battar",
+    "Samundratar"
+   ],
+   "minutes": 30,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Belkot",
+    "Bhalche"
+   ],
+   "minutes": 25,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Belkot",
+    "Likhu"
+   ],
+   "minutes": 35,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Bhalche",
+    "Goljung"
+   ],
+   "minutes": 25,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Bhalche",
+    "Likhu"
+   ],
+   "minutes": 15,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Bhalche",
+    "Taruka"
+   ],
+   "minutes": 20,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Dandagaun",
+    "Dupcheshwar"
+   ],
+   "minutes": 25,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Dandagaun",
+    "Madanpur"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Dandagaun",
+    "Salme"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Dupcheshwar",
+    "Haku"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Dupcheshwar",
+    "Salme"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Dupcheshwar",
+    "Taruka"
+   ],
+   "minutes": 30,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Goljung",
+    "Likhu"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Goljung",
+    "Samundratar"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Haku",
+    "Ramche"
+   ],
+   "minutes": 15,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Madanpur",
+    "Taruka"
+   ],
+   "minutes": 25,
+   "status": "open"
+  }
+ ],
+ "people": {
+  "Ramche": {
+   "injured": 1,
+   "children": 1,
+   "elderly": 0,
+   "adults": 5
+  },
+  "Samundratar": {
+   "injured": 2,
+   "children": 2,
+   "elderly": 1,
+   "adults": 1
+  },
+  "Battar": {
+   "injured": 0,
+   "children": 4,
+   "elderly": 3,
+   "adults": 1
+  },
+  "Dandagaun": {
+   "injured": 0,
+   "children": 7,
+   "elderly": 3,
+   "adults": 2
+  },
+  "Dupcheshwar": {
+   "injured": 0,
+   "children": 3,
+   "elderly": 0,
+   "adults": 1
+  },
+  "Salme": {
+   "injured": 0,
+   "children": 4,
+   "elderly": 3,
+   "adults": 5
+  },
+  "Belkot": {
+   "injured": 1,
+   "children": 2,
+   "elderly": 0,
+   "adults": 5
+  },
+  "Madanpur": {
+   "injured": 0,
+   "children": 1,
+   "elderly": 1,
+   "adults": 4
+  }
+ }
+}

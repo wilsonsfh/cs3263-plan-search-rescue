@@ -1,0 +1,66 @@
+MISSION SHEET
+- Team base and starting point: Bageshwari
+- Shelter where evacuees must be delivered: Bageshwari
+- Vehicle capacity: 19 people at a time
+- Places on the district map: Bageshwari (evacuation point), Meghang (health post), Likhu (temple), Panchakanya (village), Thulogaun (village), Kakani (temple), Bhalche (village), Battar (village), Rautbesi (ward office), Thansing (ward office), Bidur (village), Tadi (village), Chhap (ward office), Ghyangphedi (village), Dandagaun (temple), Madanpur (village), Khanigaun (village), Betrawati (village), Ramche (road junction), Shikharbesi (road junction), Goljung (village)
+
+ROAD REGISTER (pre-flood network; usual one-way driving times, roads are two-way)
+- Bageshwari–Khanigaun: 10 min
+- Bageshwari–Shikharbesi: 10 min
+- Bageshwari–Thulogaun: 10 min
+- Battar–Ghyangphedi: 10 min
+- Battar–Kakani: 10 min
+- Battar–Thansing: 20 min
+- Betrawati–Thulogaun: 15 min
+- Bhalche–Likhu: 15 min
+- Bhalche–Madanpur: 10 min
+- Bidur–Dandagaun: 10 min
+- Bidur–Likhu: 10 min
+- Bidur–Panchakanya: 5 min
+- Chhap–Goljung: 5 min
+- Chhap–Rautbesi: 15 min
+- Dandagaun–Panchakanya: 10 min
+- Dandagaun–Shikharbesi: 10 min
+- Ghyangphedi–Ramche: 20 min
+- Ghyangphedi–Shikharbesi: 20 min
+- Goljung–Meghang: 15 min
+- Goljung–Tadi: 15 min
+- Kakani–Thansing: 10 min
+- Khanigaun–Tadi: 20 min
+- Likhu–Madanpur: 10 min
+- Likhu–Rautbesi: 10 min
+- Meghang–Tadi: 10 min
+- Panchakanya–Ramche: 15 min
+
+FIELD REPORT (district control room, 12:00)
+Road status changes since the flood:
+- Bageshwari–Khanigaun: BLOCKED
+- Battar–Ghyangphedi: open, travel time now 20 min
+- Battar–Kakani: BLOCKED
+- Battar–Thansing: open, travel time now 35 min
+- Bidur–Likhu: open, travel time now 20 min
+- Dandagaun–Panchakanya: BLOCKED
+- Dandagaun–Shikharbesi: open, travel time now 20 min
+- Ghyangphedi–Shikharbesi: BLOCKED
+- Goljung–Tadi: open, travel time now 30 min
+- Likhu–Madanpur: BLOCKED
+- Meghang–Tadi: BLOCKED
+All other roads: open, usual travel time.
+People waiting for rescue:
+- Meghang: 0 injured, 3 children, 3 elderly, 6 adults
+- Likhu: 1 injured, 0 children, 0 elderly, 4 adults
+- Panchakanya: 0 injured, 0 children, 0 elderly, 2 adults
+- Thulogaun: 0 injured, 4 children, 3 elderly, 1 adults
+- Kakani: 3 injured, 2 children, 0 elderly, 2 adults
+- Bhalche: 3 injured, 0 children, 2 elderly, 2 adults
+- Battar: 0 injured, 4 children, 1 elderly, 5 adults
+- Rautbesi: 0 injured, 0 children, 0 elderly, 6 adults
+- Thansing: 0 injured, 2 children, 0 elderly, 3 adults
+- Bidur: 0 injured, 3 children, 0 elderly, 5 adults
+- Tadi: 0 injured, 0 children, 1 elderly, 5 adults
+- Chhap: 0 injured, 1 children, 0 elderly, 4 adults
+- Ghyangphedi: 2 injured, 0 children, 1 elderly, 2 adults
+- Dandagaun: 0 injured, 0 children, 1 elderly, 2 adults
+- Madanpur: 1 injured, 0 children, 2 elderly, 6 adults
+- Khanigaun: 0 injured, 0 children, 3 elderly, 6 adults
+No one is waiting at any other location.

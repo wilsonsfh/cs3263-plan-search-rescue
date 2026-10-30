@@ -1,0 +1,124 @@
+{
+ "steps": [
+  {
+   "action": "move",
+   "from": "Chaughada",
+   "to": "Madanpur"
+  },
+  {
+   "action": "move",
+   "from": "Madanpur",
+   "to": "Dupcheshwar"
+  },
+  {
+   "action": "move",
+   "from": "Dupcheshwar",
+   "to": "Battar"
+  },
+  {
+   "action": "pickup",
+   "location": "Battar"
+  },
+  {
+   "action": "move",
+   "from": "Battar",
+   "to": "Dupcheshwar"
+  },
+  {
+   "action": "move",
+   "from": "Dupcheshwar",
+   "to": "Madanpur"
+  },
+  {
+   "action": "move",
+   "from": "Madanpur",
+   "to": "Chaughada"
+  },
+  {
+   "action": "dropoff",
+   "location": "Chaughada"
+  },
+  {
+   "action": "move",
+   "from": "Chaughada",
+   "to": "Madanpur"
+  },
+  {
+   "action": "move",
+   "from": "Madanpur",
+   "to": "Dupcheshwar"
+  },
+  {
+   "action": "move",
+   "from": "Dupcheshwar",
+   "to": "Battar"
+  },
+  {
+   "action": "move",
+   "from": "Battar",
+   "to": "Chhap"
+  },
+  {
+   "action": "pickup",
+   "location": "Chhap"
+  },
+  {
+   "action": "move",
+   "from": "Chhap",
+   "to": "Lachyang"
+  },
+  {
+   "action": "pickup",
+   "location": "Lachyang"
+  },
+  {
+   "action": "move",
+   "from": "Lachyang",
+   "to": "Chhap"
+  },
+  {
+   "action": "move",
+   "from": "Chhap",
+   "to": "Battar"
+  },
+  {
+   "action": "move",
+   "from": "Battar",
+   "to": "Dupcheshwar"
+  },
+  {
+   "action": "move",
+   "from": "Dupcheshwar",
+   "to": "Madanpur"
+  },
+  {
+   "action": "move",
+   "from": "Madanpur",
+   "to": "Chaughada"
+  },
+  {
+   "action": "dropoff",
+   "location": "Chaughada"
+  },
+  {
+   "action": "move",
+   "from": "Chaughada",
+   "to": "Madanpur"
+  },
+  {
+   "action": "pickup",
+   "location": "Madanpur"
+  },
+  {
+   "action": "move",
+   "from": "Madanpur",
+   "to": "Chaughada"
+  },
+  {
+   "action": "dropoff",
+   "location": "Chaughada"
+  }
+ ],
+ "unreachable": [],
+ "claimed_total_minutes": 620.0
+}

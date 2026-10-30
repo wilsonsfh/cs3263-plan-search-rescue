@@ -1,0 +1,239 @@
+{
+ "start": "Rautbesi",
+ "shelter": "Rautbesi",
+ "capacity": 19,
+ "locations": [
+  {
+   "name": "Rautbesi",
+   "kind": "evacuation point"
+  },
+  {
+   "name": "Kumari",
+   "kind": "health post"
+  },
+  {
+   "name": "Meghang",
+   "kind": "school"
+  },
+  {
+   "name": "Ramche",
+   "kind": "temple"
+  },
+  {
+   "name": "Dhaibung",
+   "kind": "village"
+  },
+  {
+   "name": "Dupcheshwar",
+   "kind": "temple"
+  },
+  {
+   "name": "Haku",
+   "kind": "village"
+  },
+  {
+   "name": "Shikharbesi",
+   "kind": "village"
+  },
+  {
+   "name": "Goljung",
+   "kind": "village"
+  },
+  {
+   "name": "Kalikasthan",
+   "kind": "village"
+  },
+  {
+   "name": "Kispang",
+   "kind": "road junction"
+  }
+ ],
+ "roads": [
+  {
+   "between": [
+    "Dhaibung",
+    "Haku"
+   ],
+   "minutes": 35,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Dhaibung",
+    "Kumari"
+   ],
+   "minutes": 30,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Dhaibung",
+    "Ramche"
+   ],
+   "minutes": 15,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Dupcheshwar",
+    "Goljung"
+   ],
+   "minutes": 15,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Dupcheshwar",
+    "Kalikasthan"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Dupcheshwar",
+    "Meghang"
+   ],
+   "minutes": 35,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Dupcheshwar",
+    "Rautbesi"
+   ],
+   "minutes": 10,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Goljung",
+    "Kalikasthan"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Goljung",
+    "Kumari"
+   ],
+   "minutes": 10,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Haku",
+    "Rautbesi"
+   ],
+   "minutes": 25,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Haku",
+    "Shikharbesi"
+   ],
+   "minutes": 30,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kalikasthan",
+    "Kispang"
+   ],
+   "minutes": 25,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kalikasthan",
+    "Rautbesi"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kispang",
+    "Meghang"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kumari",
+    "Ramche"
+   ],
+   "minutes": 15,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Meghang",
+    "Shikharbesi"
+   ],
+   "minutes": 30,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Rautbesi",
+    "Shikharbesi"
+   ],
+   "minutes": 35,
+   "status": "open"
+  }
+ ],
+ "people": {
+  "Kumari": {
+   "injured": 0,
+   "children": 2,
+   "elderly": 0,
+   "adults": 3
+  },
+  "Meghang": {
+   "injured": 0,
+   "children": 9,
+   "elderly": 0,
+   "adults": 1
+  },
+  "Ramche": {
+   "injured": 1,
+   "children": 0,
+   "elderly": 2,
+   "adults": 2
+  },
+  "Dhaibung": {
+   "injured": 0,
+   "children": 1,
+   "elderly": 1,
+   "adults": 5
+  },
+  "Dupcheshwar": {
+   "injured": 0,
+   "children": 2,
+   "elderly": 1,
+   "adults": 2
+  },
+  "Haku": {
+   "injured": 0,
+   "children": 0,
+   "elderly": 2,
+   "adults": 5
+  },
+  "Shikharbesi": {
+   "injured": 3,
+   "children": 0,
+   "elderly": 0,
+   "adults": 2
+  },
+  "Goljung": {
+   "injured": 0,
+   "children": 4,
+   "elderly": 0,
+   "adults": 6
+  }
+ }
+}

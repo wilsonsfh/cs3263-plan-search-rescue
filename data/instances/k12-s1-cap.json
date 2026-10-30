@@ -1,0 +1,357 @@
+{
+  "id": "k12-s1-cap",
+  "locations": [
+    {
+      "id": "ramche",
+      "name": "Ramche",
+      "kind": "base"
+    },
+    {
+      "id": "bhalche",
+      "name": "Bhalche",
+      "kind": "village"
+    },
+    {
+      "id": "likhu",
+      "name": "Likhu",
+      "kind": "health_post"
+    },
+    {
+      "id": "rautbesi",
+      "name": "Rautbesi",
+      "kind": "village"
+    },
+    {
+      "id": "khanigaun",
+      "name": "Khanigaun",
+      "kind": "village"
+    },
+    {
+      "id": "dupcheshwar",
+      "name": "Dupcheshwar",
+      "kind": "village"
+    },
+    {
+      "id": "dandagaun",
+      "name": "Dandagaun",
+      "kind": "village"
+    },
+    {
+      "id": "syaphru",
+      "name": "Syaphru",
+      "kind": "village"
+    },
+    {
+      "id": "kalikasthan",
+      "name": "Kalikasthan",
+      "kind": "health_post"
+    },
+    {
+      "id": "jiling",
+      "name": "Jiling",
+      "kind": "village"
+    },
+    {
+      "id": "kispang",
+      "name": "Kispang",
+      "kind": "temple"
+    },
+    {
+      "id": "salme",
+      "name": "Salme",
+      "kind": "village"
+    },
+    {
+      "id": "taruka",
+      "name": "Taruka",
+      "kind": "health_post"
+    },
+    {
+      "id": "chaughada",
+      "name": "Chaughada",
+      "kind": "junction"
+    },
+    {
+      "id": "laharepauwa",
+      "name": "Laharepauwa",
+      "kind": "junction"
+    }
+  ],
+  "roads": [
+    {
+      "u": "bhalche",
+      "v": "dupcheshwar",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "bhalche",
+      "v": "kispang",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "bhalche",
+      "v": "taruka",
+      "minutes": 10,
+      "open": false,
+      "base_minutes": null,
+      "cause": "bridge",
+      "history": [
+        "open",
+        "blocked"
+      ]
+    },
+    {
+      "u": "chaughada",
+      "v": "dandagaun",
+      "minutes": 15,
+      "open": false,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": []
+    },
+    {
+      "u": "chaughada",
+      "v": "ramche",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "chaughada",
+      "v": "syaphru",
+      "minutes": 30,
+      "open": true,
+      "base_minutes": 10,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "dandagaun",
+      "v": "salme",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": 10,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "dupcheshwar",
+      "v": "kispang",
+      "minutes": 15,
+      "open": false,
+      "base_minutes": null,
+      "cause": "submerged",
+      "history": [
+        "open",
+        "blocked"
+      ]
+    },
+    {
+      "u": "jiling",
+      "v": "kalikasthan",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "jiling",
+      "v": "kispang",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "jiling",
+      "v": "laharepauwa",
+      "minutes": 40,
+      "open": true,
+      "base_minutes": 20,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "jiling",
+      "v": "likhu",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "jiling",
+      "v": "ramche",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "kalikasthan",
+      "v": "khanigaun",
+      "minutes": 25,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "kalikasthan",
+      "v": "laharepauwa",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "kalikasthan",
+      "v": "rautbesi",
+      "minutes": 40,
+      "open": true,
+      "base_minutes": 20,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "khanigaun",
+      "v": "rautbesi",
+      "minutes": 15,
+      "open": false,
+      "base_minutes": null,
+      "cause": "bridge",
+      "history": []
+    },
+    {
+      "u": "likhu",
+      "v": "ramche",
+      "minutes": 10,
+      "open": false,
+      "base_minutes": null,
+      "cause": "landslide",
+      "history": []
+    },
+    {
+      "u": "likhu",
+      "v": "rautbesi",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "salme",
+      "v": "syaphru",
+      "minutes": 40,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "syaphru",
+      "v": "taruka",
+      "minutes": 5,
+      "open": true,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "blocked",
+        "cleared"
+      ]
+    }
+  ],
+  "people": {
+    "bhalche": {
+      "children": 4,
+      "elderly": 1,
+      "adults": 6
+    },
+    "likhu": {
+      "injured": 3,
+      "elderly": 3,
+      "adults": 5
+    },
+    "rautbesi": {
+      "injured": 3,
+      "children": 1,
+      "adults": 5
+    },
+    "khanigaun": {
+      "children": 4,
+      "elderly": 3,
+      "adults": 6
+    },
+    "dupcheshwar": {
+      "injured": 1,
+      "adults": 4
+    },
+    "dandagaun": {
+      "children": 2,
+      "adults": 4
+    },
+    "syaphru": {
+      "injured": 3,
+      "children": 1,
+      "elderly": 3,
+      "adults": 4
+    },
+    "kalikasthan": {
+      "injured": 1,
+      "elderly": 2,
+      "adults": 2
+    },
+    "jiling": {
+      "elderly": 1,
+      "adults": 1
+    },
+    "kispang": {
+      "injured": 3,
+      "children": 3,
+      "adults": 2
+    },
+    "salme": {
+      "children": 1,
+      "elderly": 2,
+      "adults": 1
+    },
+    "taruka": {
+      "injured": 1,
+      "children": 2,
+      "adults": 6
+    }
+  },
+  "start": "ramche",
+  "shelter": "ramche",
+  "capacity": 17,
+  "priority": "tiered",
+  "meta": {
+    "k": 12,
+    "seed": 1,
+    "extra_nodes": 2,
+    "n_roads": 21,
+    "n_blocked": 5,
+    "n_slowed": 4,
+    "cut_off": null,
+    "capacity_mode": "tight",
+    "split": "dev",
+    "rep": 0,
+    "condition": "tight"
+  }
+}

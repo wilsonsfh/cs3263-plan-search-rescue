@@ -1,0 +1,34 @@
+MISSION SHEET
+- Team base and starting point: Belkot
+- Shelter where evacuees must be delivered: Belkot
+- Vehicle capacity: no practical limit (enough vehicles to carry everyone at once)
+- Places on the district map: Belkot (evacuation point), Ghyangphedi (village), Khanigaun (village), Likhu (health post), Kispang (school), Goljung (village), Lachyang (village), Syaphru (school), Dandagaun (village), Haku (village), Rautbesi (village), Narjamandap (village), Sundaradevi (village), Ramche (village), Okharpauwa (road junction)
+
+ROAD REGISTER (pre-flood network; usual one-way driving times, roads are two-way)
+- Belkot–Ghyangphedi: 15 min
+- Belkot–Khanigaun: 25 min
+- Belkot–Ramche: 10 min
+- Belkot–Rautbesi: 10 min
+- Dandagaun–Goljung: 20 min
+- Ghyangphedi–Kispang: 20 min
+- Ghyangphedi–Likhu: 10 min
+- Ghyangphedi–Rautbesi: 15 min
+- Goljung–Okharpauwa: 15 min
+- Goljung–Syaphru: 10 min
+- Haku–Khanigaun: 10 min
+- Haku–Lachyang: 20 min
+- Khanigaun–Ramche: 20 min
+- Kispang–Likhu: 20 min
+- Kispang–Rautbesi: 30 min
+- Lachyang–Sundaradevi: 10 min
+- Narjamandap–Okharpauwa: 15 min
+- Narjamandap–Rautbesi: 20 min
+- Okharpauwa–Rautbesi: 15 min
+- Okharpauwa–Syaphru: 20 min
+- Ramche–Sundaradevi: 15 min
+
+FIELD DISPATCHES (several sources; listed in the order they reached the control room)
+[09:30] District Police Office (situation report): Unconfirmed posts on social media claim the Kispang–Rautbesi road has been washed away. Stranded at Dandagaun: 4 children, 3 elderly residents and 4 other adults. A government helicopter was seen flying north this morning but did not land. At Ghyangphedi, two children, two senior citizens and five uninjured adults are waiting to be rescued. Stranded at Lachyang: a baby, 3 senior citizens and four able-bodied adults. The Goljung–Syaphru road is open but badly waterlogged; driving it adds 20 minutes to the usual journey. The Belkot–Rautbesi road is under two metres of fast-flowing floodwater. Our team counted one injured person (a pregnant woman who was hit by debris), 9 children and two uninjured adults at the school in Syaphru, all needing evacuation. Unconfirmed posts on social media claim the Belkot–Ghyangphedi road has been washed away. The Belkot–Khanigaun road is open but badly waterlogged; driving it takes twice the usual time. Unconfirmed posts on social media claim the Haku–Lachyang road has been washed away. Residents at the health post in Likhu say one adult is still there, sheltering on upper floors. The Ramche–Sundaradevi road is open but badly waterlogged; driving it takes twice the usual time. Unconfirmed posts on social media claim the Haku–Khanigaun road has been washed away. The Okharpauwa–Rautbesi road is open but badly waterlogged; driving it now takes double the normal journey time. Our team counted two injured people (a child with a deep gash on his leg and a pregnant woman who was hit by debris), two senior citizens and three uninjured adults at Khanigaun, all needing evacuation.
+[13:15] Sunita Lama, The Himalayan Times (on the ground): Heavy rain is forecast to continue through the evening. Residents at Rautbesi say one child and two other adults are still there, sheltering on upper floors. Stranded at Haku: one schoolchild, one elderly resident and two able-bodied adults. Police have checked the Kispang–Rautbesi road: the social media reports were false and the road is open as normal. Stranded at Sundaradevi: a baby, three senior citizens and half a dozen able-bodied adults. A landslide has buried the road between Belkot and Ramche under metres of mud. Police have checked the Haku–Khanigaun road: the social media reports were false and the road is open as normal. Hillside collapse: the Dandagaun–Goljung road disappeared under a landslide overnight. Police have checked the Belkot–Ghyangphedi road: the social media reports were false and the road is open as normal. Boulders and fallen trees make the Ghyangphedi–Kispang road impassable for any vehicle, cutting a road that was open earlier today. At Goljung, three elderly residents and four other adults are waiting to be rescued. At Narjamandap, three senior citizens and 1 able-bodied adult are waiting to be rescued. Our team counted three injured people (a woman with burns on her arms, an elderly woman with a broken hip and an old man with a head wound), 3 schoolchildren, 2 elderly residents and two able-bodied adults at the school in Kispang, all needing evacuation. A landslide has buried the road between Okharpauwa and Syaphru under metres of mud, cutting a road that was open earlier today. Ramche was fully evacuated by the army yesterday; no one remains there. Army engineers have cleared the debris on the Goljung–Okharpauwa road; it is open again at normal speed. The only bridge linking Lachyang and Sundaradevi has collapsed, cutting a road that was open earlier today. Police have checked the Haku–Lachyang road: the social media reports were false and the road is open as normal.
+[06:45] Radio Nuwakot FM (local radio, early bulletin): Debris is blocking the Goljung–Okharpauwa road. The Lachyang–Sundaradevi road is still passable this morning, drivers say. Mobile networks remain patchy across the district. Residents of Ramche were seen on rooftops last night. The Ghyangphedi–Kispang road is still passable this morning, drivers say. The Okharpauwa–Syaphru road is still passable this morning, drivers say.
+Anything not mentioned in these dispatches is in its usual condition, and no one else is known to be stranded.

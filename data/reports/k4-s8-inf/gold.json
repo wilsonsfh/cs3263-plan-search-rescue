@@ -1,0 +1,155 @@
+{
+ "start": "Narjamandap",
+ "shelter": "Narjamandap",
+ "capacity": null,
+ "locations": [
+  {
+   "name": "Narjamandap",
+   "kind": "evacuation point"
+  },
+  {
+   "name": "Kispang",
+   "kind": "village"
+  },
+  {
+   "name": "Meghang",
+   "kind": "temple"
+  },
+  {
+   "name": "Suryagadhi",
+   "kind": "school"
+  },
+  {
+   "name": "Trishuli",
+   "kind": "health post"
+  },
+  {
+   "name": "Dupcheshwar",
+   "kind": "road junction"
+  },
+  {
+   "name": "Panchakanya",
+   "kind": "village"
+  },
+  {
+   "name": "Rautbesi",
+   "kind": "village"
+  }
+ ],
+ "roads": [
+  {
+   "between": [
+    "Dupcheshwar",
+    "Meghang"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kispang",
+    "Panchakanya"
+   ],
+   "minutes": 45,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kispang",
+    "Suryagadhi"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Meghang",
+    "Narjamandap"
+   ],
+   "minutes": 25,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Meghang",
+    "Panchakanya"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Narjamandap",
+    "Panchakanya"
+   ],
+   "minutes": 20,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Narjamandap",
+    "Rautbesi"
+   ],
+   "minutes": 35,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Narjamandap",
+    "Suryagadhi"
+   ],
+   "minutes": 15,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Narjamandap",
+    "Trishuli"
+   ],
+   "minutes": 25,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Panchakanya",
+    "Trishuli"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Rautbesi",
+    "Trishuli"
+   ],
+   "minutes": 10,
+   "status": "open"
+  }
+ ],
+ "people": {
+  "Kispang": {
+   "injured": 2,
+   "children": 4,
+   "elderly": 1,
+   "adults": 5
+  },
+  "Meghang": {
+   "injured": 3,
+   "children": 1,
+   "elderly": 0,
+   "adults": 3
+  },
+  "Suryagadhi": {
+   "injured": 0,
+   "children": 5,
+   "elderly": 0,
+   "adults": 1
+  },
+  "Trishuli": {
+   "injured": 2,
+   "children": 4,
+   "elderly": 3,
+   "adults": 4
+  }
+ }
+}

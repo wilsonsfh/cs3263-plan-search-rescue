@@ -1,0 +1,44 @@
+MISSION SHEET
+- Team base and starting point: Samundratar
+- Shelter where evacuees must be delivered: Samundratar
+- Vehicle capacity: no practical limit (enough vehicles to carry everyone at once)
+- Places on the district map: Samundratar (evacuation point), Suryagadhi (health post), Meghang (health post), Narjamandap (village), Dupcheshwar (village), Taruka (village), Betrawati (school), Battar (village), Gerkhu (village), Bhorle (health post), Chhap (village), Thaprek (ward office), Likhu (village), Jiling (village), Chaughada (village), Kalikasthan (village), Thulogaun (village), Tadi (road junction), Kakani (village)
+
+ROAD REGISTER (pre-flood network; usual one-way driving times, roads are two-way)
+- Battar–Chaughada: 20 min
+- Battar–Chhap: 20 min
+- Battar–Likhu: 15 min
+- Battar–Thulogaun: 15 min
+- Betrawati–Samundratar: 15 min
+- Betrawati–Tadi: 10 min
+- Betrawati–Taruka: 35 min
+- Bhorle–Gerkhu: 15 min
+- Bhorle–Meghang: 10 min
+- Bhorle–Narjamandap: 15 min
+- Bhorle–Suryagadhi: 25 min
+- Chaughada–Chhap: 15 min
+- Chaughada–Kalikasthan: 10 min
+- Chhap–Jiling: 15 min
+- Chhap–Samundratar: 15 min
+- Chhap–Thulogaun: 10 min
+- Dupcheshwar–Suryagadhi: 35 min
+- Dupcheshwar–Thaprek: 10 min
+- Gerkhu–Tadi: 10 min
+- Gerkhu–Taruka: 30 min
+- Jiling–Kalikasthan: 10 min
+- Kakani–Likhu: 15 min
+- Kakani–Samundratar: 10 min
+- Likhu–Suryagadhi: 20 min
+- Likhu–Thaprek: 15 min
+- Likhu–Thulogaun: 10 min
+- Meghang–Narjamandap: 15 min
+- Narjamandap–Suryagadhi: 15 min
+- Samundratar–Tadi: 15 min
+- Samundratar–Thulogaun: 5 min
+- Tadi–Taruka: 20 min
+
+FIELD DISPATCHES (several sources; listed in the order they reached the control room)
+[13:15] Sunita Lama, The Himalayan Times (on the ground): The Dupcheshwar–Suryagadhi road is open but badly waterlogged; driving it adds 10 minutes to the usual journey. Boulders and fallen trees make the Likhu–Thulogaun road impassable for any vehicle, cutting a road that was open earlier today. Police have checked the Chaughada–Kalikasthan road: the social media reports were false and the road is open as normal. Army engineers have cleared the debris on the Gerkhu–Taruka road; it is open again at normal speed. The Tadi–Taruka road has been reopened after bulldozers removed the debris; travel times are back to normal. Confirmed headcount: Residents at Gerkhu say 3 schoolchildren and four other adults are still there, sheltering on upper floors. Stranded at the school in Betrawati: one injured person (a teenage girl with a fractured arm), 6 schoolchildren, an old man and two uninjured adults. The Kakani–Likhu road is open but badly waterlogged; driving it adds 10 minutes to the usual journey. Confirmed headcount: Our team counted half a dozen adults at Jiling, all needing evacuation. Stranded at Chaughada: four schoolchildren, 3 senior citizens and 6 uninjured adults. Confirmed headcount: Our team counted three injured people (a teenage girl with a fractured arm, a woman with burns on her arms and an elderly woman with a broken hip) and five able-bodied adults at the health post in Bhorle, all needing evacuation. A landslide has buried the road between Chhap and Samundratar under metres of mud, cutting a road that was open earlier today. The Dupcheshwar–Thaprek road has been reopened after bulldozers removed the debris; travel times are back to normal. Confirmed headcount: Our team counted one injured person (a pregnant woman who was hit by debris), four schoolchildren, one senior citizen and two other adults at the health post in Suryagadhi, all needing evacuation. The suspension bridge on the Chaughada–Chhap route was swept away by the river, cutting a road that was open earlier today. Our team counted a baby, an elderly couple and half a dozen uninjured adults at the ward office in Thaprek, all needing evacuation. Army engineers have cleared the debris on the Betrawati–Taruka road; it is open again at normal speed. Floodwater has turned the road from Chhap to Jiling into a river. The Meghang–Narjamandap road has been reopened after bulldozers removed the debris; travel times are back to normal. The suspension bridge on the Jiling–Kalikasthan route was swept away by the river, cutting a road that was open earlier today. Hillside collapse: the Bhorle–Gerkhu road disappeared under a landslide overnight, cutting a road that was open earlier today. Confirmed headcount: Our team counted a baby and two uninjured adults at Narjamandap, all needing evacuation. Heavy rain is forecast to continue through the evening. Confirmed headcount: Residents at Taruka say one injured person (a woman with burns on her arms), two children and 6 uninjured adults are still there, sheltering on upper floors. Confirmed headcount: Residents at Thulogaun say three children, two senior citizens and 5 uninjured adults are still there, sheltering on upper floors. Everyone from Kakani has already been airlifted out. The Likhu–Suryagadhi road is open but badly waterlogged; driving it takes twice the usual time.
+[09:30] District Police Office (situation report): At Chhap, two schoolchildren, two senior citizens and four able-bodied adults are waiting to be rescued. Our team counted one injured person (a woman with burns on her arms), a baby and three able-bodied adults at Likhu, all needing evacuation. Unconfirmed posts on social media claim the Chaughada–Kalikasthan road has been washed away. The Battar–Thulogaun road is open but badly waterlogged; driving it now takes double the normal journey time. Debris has completely choked the road between Bhorle and Meghang. Our team counted 2 adults at the health post in Meghang, all needing evacuation. Our team counted two children, three elderly residents and three other adults at Dupcheshwar, all needing evacuation. Residents at Battar say four schoolchildren, three senior citizens and 1 uninjured adult are still there, sheltering on upper floors. At Kalikasthan, three senior citizens and six able-bodied adults are waiting to be rescued. The only bridge linking Narjamandap and Suryagadhi has collapsed. The Betrawati–Tadi road is open but badly waterlogged; driving it now takes double the normal journey time. The Home Ministry says relief funds will be released next week.
+[06:45] Radio Nuwakot FM (local radio, early bulletin): Around 11 people are believed to be stranded in Taruka (unconfirmed estimate). Around 5 people are believed to be stranded in Narjamandap (unconfirmed estimate). Debris is blocking the Tadi–Taruka road. Around 12 people are believed to be stranded in Thulogaun (unconfirmed estimate). Around 6 people are believed to be stranded in Suryagadhi (unconfirmed estimate). The Chaughada–Chhap road is still passable this morning, drivers say. Around 9 people are believed to be stranded in Jiling (unconfirmed estimate). The Chhap–Samundratar road is still passable this morning, drivers say. Residents of Kakani were seen on rooftops last night. Debris is blocking the Meghang–Narjamandap road. Around 10 people are believed to be stranded in Gerkhu (unconfirmed estimate). Around 5 people are believed to be stranded in Bhorle (unconfirmed estimate). The Bhorle–Gerkhu road is still passable this morning, drivers say. The Jiling–Kalikasthan road is still passable this morning, drivers say. Debris is blocking the Gerkhu–Taruka road. The Likhu–Thulogaun road is still passable this morning, drivers say. Debris is blocking the Dupcheshwar–Thaprek road. Debris is blocking the Betrawati–Taruka road. A government helicopter was seen flying north this morning but did not land.
+Anything not mentioned in these dispatches is in its usual condition, and no one else is known to be stranded.

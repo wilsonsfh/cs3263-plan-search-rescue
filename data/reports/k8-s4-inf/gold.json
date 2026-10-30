@@ -1,0 +1,231 @@
+{
+ "start": "Meghang",
+ "shelter": "Meghang",
+ "capacity": null,
+ "locations": [
+  {
+   "name": "Meghang",
+   "kind": "evacuation point"
+  },
+  {
+   "name": "Goljung",
+   "kind": "village"
+  },
+  {
+   "name": "Shikharbesi",
+   "kind": "village"
+  },
+  {
+   "name": "Chaughada",
+   "kind": "village"
+  },
+  {
+   "name": "Okharpauwa",
+   "kind": "health post"
+  },
+  {
+   "name": "Tupche",
+   "kind": "school"
+  },
+  {
+   "name": "Lachyang",
+   "kind": "village"
+  },
+  {
+   "name": "Chhap",
+   "kind": "school"
+  },
+  {
+   "name": "Taruka",
+   "kind": "ward office"
+  },
+  {
+   "name": "Jiling",
+   "kind": "road junction"
+  },
+  {
+   "name": "Betrawati",
+   "kind": "village"
+  }
+ ],
+ "roads": [
+  {
+   "between": [
+    "Betrawati",
+    "Jiling"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Betrawati",
+    "Shikharbesi"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Betrawati",
+    "Taruka"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Chaughada",
+    "Chhap"
+   ],
+   "minutes": 35,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Chaughada",
+    "Lachyang"
+   ],
+   "minutes": 35,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Chaughada",
+    "Tupche"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Chhap",
+    "Tupche"
+   ],
+   "minutes": 10,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Goljung",
+    "Lachyang"
+   ],
+   "minutes": 30,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Goljung",
+    "Okharpauwa"
+   ],
+   "minutes": 30,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Jiling",
+    "Taruka"
+   ],
+   "minutes": 25,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Lachyang",
+    "Meghang"
+   ],
+   "minutes": 25,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Lachyang",
+    "Okharpauwa"
+   ],
+   "minutes": 30,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Meghang",
+    "Shikharbesi"
+   ],
+   "minutes": 30,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Meghang",
+    "Taruka"
+   ],
+   "minutes": 50,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Meghang",
+    "Tupche"
+   ],
+   "minutes": 35,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Okharpauwa",
+    "Taruka"
+   ],
+   "minutes": 15,
+   "status": "blocked"
+  }
+ ],
+ "people": {
+  "Goljung": {
+   "injured": 2,
+   "children": 1,
+   "elderly": 1,
+   "adults": 4
+  },
+  "Shikharbesi": {
+   "injured": 0,
+   "children": 4,
+   "elderly": 0,
+   "adults": 6
+  },
+  "Chaughada": {
+   "injured": 1,
+   "children": 1,
+   "elderly": 0,
+   "adults": 4
+  },
+  "Okharpauwa": {
+   "injured": 0,
+   "children": 1,
+   "elderly": 2,
+   "adults": 3
+  },
+  "Tupche": {
+   "injured": 0,
+   "children": 8,
+   "elderly": 1,
+   "adults": 2
+  },
+  "Lachyang": {
+   "injured": 0,
+   "children": 1,
+   "elderly": 0,
+   "adults": 5
+  },
+  "Chhap": {
+   "injured": 3,
+   "children": 5,
+   "elderly": 0,
+   "adults": 2
+  },
+  "Taruka": {
+   "injured": 0,
+   "children": 0,
+   "elderly": 0,
+   "adults": 4
+  }
+ }
+}

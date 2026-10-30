@@ -1,0 +1,171 @@
+{
+ "start": "Bageshwari",
+ "shelter": "Bageshwari",
+ "capacity": null,
+ "locations": [
+  {
+   "name": "Bageshwari",
+   "kind": "evacuation point"
+  },
+  {
+   "name": "Laharepauwa",
+   "kind": "village"
+  },
+  {
+   "name": "Sundaradevi",
+   "kind": "village"
+  },
+  {
+   "name": "Shikharbesi",
+   "kind": "village"
+  },
+  {
+   "name": "Bhorle",
+   "kind": "village"
+  },
+  {
+   "name": "Chhap",
+   "kind": "village"
+  },
+  {
+   "name": "Betrawati",
+   "kind": "village"
+  },
+  {
+   "name": "Samundratar",
+   "kind": "village"
+  }
+ ],
+ "roads": [
+  {
+   "between": [
+    "Bageshwari",
+    "Betrawati"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Bageshwari",
+    "Bhorle"
+   ],
+   "minutes": 20,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Bageshwari",
+    "Chhap"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Bageshwari",
+    "Samundratar"
+   ],
+   "minutes": 25,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Betrawati",
+    "Chhap"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Betrawati",
+    "Laharepauwa"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Betrawati",
+    "Samundratar"
+   ],
+   "minutes": 25,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Betrawati",
+    "Shikharbesi"
+   ],
+   "minutes": 15,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Bhorle",
+    "Chhap"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Bhorle",
+    "Sundaradevi"
+   ],
+   "minutes": 10,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Chhap",
+    "Laharepauwa"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Chhap",
+    "Sundaradevi"
+   ],
+   "minutes": 50,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Samundratar",
+    "Shikharbesi"
+   ],
+   "minutes": 10,
+   "status": "blocked"
+  }
+ ],
+ "people": {
+  "Laharepauwa": {
+   "injured": 1,
+   "children": 0,
+   "elderly": 0,
+   "adults": 3
+  },
+  "Sundaradevi": {
+   "injured": 0,
+   "children": 1,
+   "elderly": 0,
+   "adults": 3
+  },
+  "Shikharbesi": {
+   "injured": 0,
+   "children": 1,
+   "elderly": 0,
+   "adults": 4
+  },
+  "Bhorle": {
+   "injured": 0,
+   "children": 2,
+   "elderly": 3,
+   "adults": 4
+  }
+ }
+}

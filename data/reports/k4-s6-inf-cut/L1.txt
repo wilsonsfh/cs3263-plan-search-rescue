@@ -1,0 +1,34 @@
+MISSION SHEET
+- Team base and starting point: Kalikasthan
+- Shelter where evacuees must be delivered: Kalikasthan
+- Vehicle capacity: no practical limit (enough vehicles to carry everyone at once)
+- Places on the district map: Kalikasthan (evacuation point), Kakani (village), Bhorle (village), Thansing (school), Trishuli (temple), Kispang (village), Syaphru (village), Lachyang (road junction)
+
+ROAD REGISTER (pre-flood network; usual one-way driving times, roads are two-way)
+- Bhorle–Kakani: 20 min
+- Bhorle–Kalikasthan: 5 min
+- Bhorle–Kispang: 25 min
+- Bhorle–Trishuli: 15 min
+- Kakani–Kispang: 15 min
+- Kakani–Thansing: 15 min
+- Kakani–Trishuli: 15 min
+- Kalikasthan–Lachyang: 30 min
+- Kalikasthan–Syaphru: 25 min
+- Kalikasthan–Thansing: 15 min
+- Lachyang–Syaphru: 20 min
+
+FIELD REPORT (district control room, 12:00)
+Road status changes since the flood:
+- Bhorle–Kakani: open, travel time now 35 min
+- Bhorle–Kalikasthan: open, travel time now 10 min
+- Bhorle–Kispang: BLOCKED
+- Bhorle–Trishuli: BLOCKED
+- Kakani–Thansing: BLOCKED
+- Kalikasthan–Thansing: BLOCKED
+All other roads: open, usual travel time.
+People waiting for rescue:
+- Kakani: 0 injured, 3 children, 3 elderly, 5 adults
+- Bhorle: 0 injured, 1 children, 0 elderly, 1 adults
+- Thansing: 0 injured, 4 children, 2 elderly, 1 adults
+- Trishuli: 0 injured, 0 children, 1 elderly, 3 adults
+No one is waiting at any other location.

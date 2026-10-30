@@ -1,0 +1,43 @@
+MISSION SHEET
+- Team base and starting point: Panchakanya
+- Shelter where evacuees must be delivered: Panchakanya
+- Vehicle capacity: no practical limit (enough vehicles to carry everyone at once)
+- Places on the district map: Panchakanya (evacuation point), Gerkhu (temple), Bhalche (health post), Meghang (school), Samundratar (temple), Battar (school), Kakani (village), Laharepauwa (health post), Madanpur (health post), Betrawati (road junction)
+
+ROAD REGISTER (pre-flood network; usual one-way driving times, roads are two-way)
+- Battar–Kakani: 10 min
+- Battar–Laharepauwa: 10 min
+- Betrawati–Gerkhu: 15 min
+- Betrawati–Kakani: 15 min
+- Betrawati–Samundratar: 10 min
+- Bhalche–Madanpur: 30 min
+- Bhalche–Meghang: 35 min
+- Bhalche–Panchakanya: 50 min
+- Gerkhu–Kakani: 25 min
+- Gerkhu–Samundratar: 10 min
+- Kakani–Laharepauwa: 15 min
+- Laharepauwa–Meghang: 30 min
+- Laharepauwa–Panchakanya: 15 min
+- Madanpur–Meghang: 10 min
+- Madanpur–Panchakanya: 15 min
+- Meghang–Panchakanya: 15 min
+
+FIELD REPORT (district control room, 12:00)
+Road status changes since the flood:
+- Betrawati–Samundratar: BLOCKED
+- Gerkhu–Samundratar: open, travel time now 20 min
+- Kakani–Laharepauwa: BLOCKED
+- Laharepauwa–Panchakanya: open, travel time now 30 min
+- Madanpur–Meghang: open, travel time now 25 min
+- Meghang–Panchakanya: BLOCKED
+All other roads: open, usual travel time.
+People waiting for rescue:
+- Gerkhu: 0 injured, 0 children, 0 elderly, 1 adults
+- Bhalche: 3 injured, 1 children, 2 elderly, 6 adults
+- Meghang: 0 injured, 9 children, 1 elderly, 1 adults
+- Samundratar: 1 injured, 3 children, 0 elderly, 5 adults
+- Battar: 3 injured, 6 children, 1 elderly, 2 adults
+- Kakani: 0 injured, 1 children, 0 elderly, 3 adults
+- Laharepauwa: 0 injured, 0 children, 3 elderly, 3 adults
+- Madanpur: 1 injured, 2 children, 0 elderly, 1 adults
+No one is waiting at any other location.

@@ -1,0 +1,198 @@
+{
+ "steps": [
+  {
+   "action": "move",
+   "from": "Betrawati",
+   "to": "Kalikasthan"
+  },
+  {
+   "action": "pickup",
+   "location": "Kalikasthan"
+  },
+  {
+   "action": "move",
+   "from": "Kalikasthan",
+   "to": "Betrawati"
+  },
+  {
+   "action": "move",
+   "from": "Betrawati",
+   "to": "Ghyangphedi"
+  },
+  {
+   "action": "move",
+   "from": "Ghyangphedi",
+   "to": "Sundaradevi"
+  },
+  {
+   "action": "move",
+   "from": "Sundaradevi",
+   "to": "Bageshwari"
+  },
+  {
+   "action": "move",
+   "from": "Bageshwari",
+   "to": "Tadi"
+  },
+  {
+   "action": "move",
+   "from": "Tadi",
+   "to": "Belkot"
+  },
+  {
+   "action": "move",
+   "from": "Belkot",
+   "to": "Chaughada"
+  },
+  {
+   "action": "move",
+   "from": "Chaughada",
+   "to": "Bhalche"
+  },
+  {
+   "action": "move",
+   "from": "Bhalche",
+   "to": "Thaprek"
+  },
+  {
+   "action": "pickup",
+   "location": "Thaprek"
+  },
+  {
+   "action": "move",
+   "from": "Thaprek",
+   "to": "Bhalche"
+  },
+  {
+   "action": "move",
+   "from": "Bhalche",
+   "to": "Chaughada"
+  },
+  {
+   "action": "pickup",
+   "location": "Chaughada"
+  },
+  {
+   "action": "move",
+   "from": "Chaughada",
+   "to": "Belkot"
+  },
+  {
+   "action": "move",
+   "from": "Belkot",
+   "to": "Tadi"
+  },
+  {
+   "action": "pickup",
+   "location": "Tadi"
+  },
+  {
+   "action": "move",
+   "from": "Tadi",
+   "to": "Bageshwari"
+  },
+  {
+   "action": "pickup",
+   "location": "Bageshwari"
+  },
+  {
+   "action": "move",
+   "from": "Bageshwari",
+   "to": "Sundaradevi"
+  },
+  {
+   "action": "pickup",
+   "location": "Sundaradevi"
+  },
+  {
+   "action": "move",
+   "from": "Sundaradevi",
+   "to": "Haku"
+  },
+  {
+   "action": "pickup",
+   "location": "Haku"
+  },
+  {
+   "action": "move",
+   "from": "Haku",
+   "to": "Ghyangphedi"
+  },
+  {
+   "action": "pickup",
+   "location": "Ghyangphedi"
+  },
+  {
+   "action": "move",
+   "from": "Ghyangphedi",
+   "to": "Madanpur"
+  },
+  {
+   "action": "pickup",
+   "location": "Madanpur"
+  },
+  {
+   "action": "move",
+   "from": "Madanpur",
+   "to": "Ghyangphedi"
+  },
+  {
+   "action": "move",
+   "from": "Ghyangphedi",
+   "to": "Betrawati"
+  },
+  {
+   "action": "move",
+   "from": "Betrawati",
+   "to": "Kalikasthan"
+  },
+  {
+   "action": "move",
+   "from": "Kalikasthan",
+   "to": "Trishuli"
+  },
+  {
+   "action": "pickup",
+   "location": "Trishuli"
+  },
+  {
+   "action": "move",
+   "from": "Trishuli",
+   "to": "Meghang"
+  },
+  {
+   "action": "pickup",
+   "location": "Meghang"
+  },
+  {
+   "action": "move",
+   "from": "Meghang",
+   "to": "Battar"
+  },
+  {
+   "action": "pickup",
+   "location": "Battar"
+  },
+  {
+   "action": "move",
+   "from": "Battar",
+   "to": "Meghang"
+  },
+  {
+   "action": "move",
+   "from": "Meghang",
+   "to": "Kalikasthan"
+  },
+  {
+   "action": "move",
+   "from": "Kalikasthan",
+   "to": "Betrawati"
+  },
+  {
+   "action": "dropoff",
+   "location": "Betrawati"
+  }
+ ],
+ "unreachable": [],
+ "claimed_total_minutes": 485.0
+}

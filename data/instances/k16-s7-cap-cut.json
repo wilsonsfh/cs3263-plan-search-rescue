@@ -1,0 +1,481 @@
+{
+  "id": "k16-s7-cap-cut",
+  "locations": [
+    {
+      "id": "goljung",
+      "name": "Goljung",
+      "kind": "base"
+    },
+    {
+      "id": "bhalche",
+      "name": "Bhalche",
+      "kind": "school"
+    },
+    {
+      "id": "kalikasthan",
+      "name": "Kalikasthan",
+      "kind": "temple"
+    },
+    {
+      "id": "rautbesi",
+      "name": "Rautbesi",
+      "kind": "village"
+    },
+    {
+      "id": "gerkhu",
+      "name": "Gerkhu",
+      "kind": "temple"
+    },
+    {
+      "id": "chaughada",
+      "name": "Chaughada",
+      "kind": "temple"
+    },
+    {
+      "id": "bidur",
+      "name": "Bidur",
+      "kind": "health_post"
+    },
+    {
+      "id": "salme",
+      "name": "Salme",
+      "kind": "village"
+    },
+    {
+      "id": "trishuli",
+      "name": "Trishuli",
+      "kind": "temple"
+    },
+    {
+      "id": "tupche",
+      "name": "Tupche",
+      "kind": "village"
+    },
+    {
+      "id": "panchakanya",
+      "name": "Panchakanya",
+      "kind": "health_post"
+    },
+    {
+      "id": "sundaradevi",
+      "name": "Sundaradevi",
+      "kind": "health_post"
+    },
+    {
+      "id": "likhu",
+      "name": "Likhu",
+      "kind": "temple"
+    },
+    {
+      "id": "betrawati",
+      "name": "Betrawati",
+      "kind": "temple"
+    },
+    {
+      "id": "belkot",
+      "name": "Belkot",
+      "kind": "village"
+    },
+    {
+      "id": "bhorle",
+      "name": "Bhorle",
+      "kind": "village"
+    },
+    {
+      "id": "samundratar",
+      "name": "Samundratar",
+      "kind": "village"
+    },
+    {
+      "id": "ghyangphedi",
+      "name": "Ghyangphedi",
+      "kind": "junction"
+    },
+    {
+      "id": "lachyang",
+      "name": "Lachyang",
+      "kind": "junction"
+    }
+  ],
+  "roads": [
+    {
+      "u": "belkot",
+      "v": "betrawati",
+      "minutes": 10,
+      "open": false,
+      "base_minutes": null,
+      "cause": "submerged",
+      "history": [
+        "open",
+        "blocked"
+      ]
+    },
+    {
+      "u": "belkot",
+      "v": "samundratar",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "betrawati",
+      "v": "chaughada",
+      "minutes": 10,
+      "open": false,
+      "base_minutes": null,
+      "cause": "bridge",
+      "history": []
+    },
+    {
+      "u": "bhalche",
+      "v": "bhorle",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "blocked",
+        "cleared"
+      ]
+    },
+    {
+      "u": "bhalche",
+      "v": "bidur",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "bhalche",
+      "v": "chaughada",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "bhalche",
+      "v": "goljung",
+      "minutes": 25,
+      "open": true,
+      "base_minutes": 15,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "bhorle",
+      "v": "bidur",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "bhorle",
+      "v": "gerkhu",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "bidur",
+      "v": "gerkhu",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": 10,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "chaughada",
+      "v": "lachyang",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "blocked",
+        "cleared"
+      ]
+    },
+    {
+      "u": "gerkhu",
+      "v": "tupche",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "ghyangphedi",
+      "v": "rautbesi",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "blocked",
+        "cleared"
+      ]
+    },
+    {
+      "u": "ghyangphedi",
+      "v": "salme",
+      "minutes": 25,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "ghyangphedi",
+      "v": "tupche",
+      "minutes": 15,
+      "open": false,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "open",
+        "blocked"
+      ]
+    },
+    {
+      "u": "goljung",
+      "v": "likhu",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "goljung",
+      "v": "panchakanya",
+      "minutes": 5,
+      "open": false,
+      "base_minutes": null,
+      "cause": "submerged",
+      "history": [
+        "open",
+        "blocked"
+      ]
+    },
+    {
+      "u": "goljung",
+      "v": "tupche",
+      "minutes": 25,
+      "open": false,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": []
+    },
+    {
+      "u": "kalikasthan",
+      "v": "panchakanya",
+      "minutes": 50,
+      "open": true,
+      "base_minutes": 25,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "kalikasthan",
+      "v": "salme",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "kalikasthan",
+      "v": "sundaradevi",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "blocked",
+        "cleared"
+      ]
+    },
+    {
+      "u": "likhu",
+      "v": "panchakanya",
+      "minutes": 10,
+      "open": false,
+      "base_minutes": null,
+      "cause": "bridge",
+      "history": []
+    },
+    {
+      "u": "likhu",
+      "v": "sundaradevi",
+      "minutes": 15,
+      "open": false,
+      "base_minutes": null,
+      "cause": "bridge",
+      "history": []
+    },
+    {
+      "u": "likhu",
+      "v": "trishuli",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "panchakanya",
+      "v": "trishuli",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "rautbesi",
+      "v": "salme",
+      "minutes": 25,
+      "open": true,
+      "base_minutes": 15,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "rautbesi",
+      "v": "tupche",
+      "minutes": 30,
+      "open": false,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": []
+    },
+    {
+      "u": "samundratar",
+      "v": "trishuli",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "sundaradevi",
+      "v": "trishuli",
+      "minutes": 40,
+      "open": true,
+      "base_minutes": 20,
+      "cause": "waterlogged",
+      "history": []
+    }
+  ],
+  "people": {
+    "bhalche": {
+      "children": 5,
+      "elderly": 2,
+      "adults": 1
+    },
+    "kalikasthan": {
+      "children": 1,
+      "adults": 5
+    },
+    "rautbesi": {
+      "elderly": 1,
+      "adults": 5
+    },
+    "gerkhu": {
+      "elderly": 1,
+      "adults": 5
+    },
+    "chaughada": {
+      "children": 1,
+      "elderly": 1,
+      "adults": 4
+    },
+    "bidur": {
+      "injured": 3,
+      "elderly": 2,
+      "adults": 6
+    },
+    "salme": {
+      "children": 1,
+      "elderly": 2,
+      "adults": 4
+    },
+    "trishuli": {
+      "children": 4,
+      "elderly": 1,
+      "adults": 3
+    },
+    "tupche": {
+      "children": 2,
+      "elderly": 2,
+      "adults": 1
+    },
+    "panchakanya": {
+      "injured": 2,
+      "children": 1,
+      "elderly": 1,
+      "adults": 2
+    },
+    "sundaradevi": {
+      "injured": 3,
+      "children": 2,
+      "adults": 5
+    },
+    "likhu": {
+      "injured": 3,
+      "elderly": 2,
+      "adults": 1
+    },
+    "betrawati": {
+      "children": 3,
+      "elderly": 1,
+      "adults": 2
+    },
+    "belkot": {
+      "children": 2,
+      "elderly": 2,
+      "adults": 1
+    },
+    "bhorle": {
+      "children": 4,
+      "adults": 5
+    },
+    "samundratar": {
+      "injured": 3,
+      "children": 2,
+      "elderly": 3,
+      "adults": 3
+    }
+  },
+  "start": "goljung",
+  "shelter": "goljung",
+  "capacity": 22,
+  "priority": "tiered",
+  "meta": {
+    "k": 16,
+    "seed": 7,
+    "extra_nodes": 2,
+    "n_roads": 29,
+    "n_blocked": 8,
+    "n_slowed": 5,
+    "cut_off": "betrawati",
+    "capacity_mode": "tight",
+    "split": "test",
+    "rep": 1,
+    "condition": "tight-cut"
+  }
+}

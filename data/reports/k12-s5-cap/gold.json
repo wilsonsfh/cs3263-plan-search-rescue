@@ -1,0 +1,355 @@
+{
+ "start": "Trishuli",
+ "shelter": "Trishuli",
+ "capacity": 24,
+ "locations": [
+  {
+   "name": "Trishuli",
+   "kind": "evacuation point"
+  },
+  {
+   "name": "Likhu",
+   "kind": "village"
+  },
+  {
+   "name": "Madanpur",
+   "kind": "village"
+  },
+  {
+   "name": "Kispang",
+   "kind": "village"
+  },
+  {
+   "name": "Thulogaun",
+   "kind": "village"
+  },
+  {
+   "name": "Betrawati",
+   "kind": "village"
+  },
+  {
+   "name": "Sundaradevi",
+   "kind": "village"
+  },
+  {
+   "name": "Laharepauwa",
+   "kind": "school"
+  },
+  {
+   "name": "Kumari",
+   "kind": "temple"
+  },
+  {
+   "name": "Panchakanya",
+   "kind": "village"
+  },
+  {
+   "name": "Samundratar",
+   "kind": "village"
+  },
+  {
+   "name": "Haku",
+   "kind": "village"
+  },
+  {
+   "name": "Shikharbesi",
+   "kind": "village"
+  },
+  {
+   "name": "Dandagaun",
+   "kind": "village"
+  },
+  {
+   "name": "Ramche",
+   "kind": "road junction"
+  },
+  {
+   "name": "Thaprek",
+   "kind": "road junction"
+  },
+  {
+   "name": "Bageshwari",
+   "kind": "village"
+  },
+  {
+   "name": "Ghyangphedi",
+   "kind": "road junction"
+  }
+ ],
+ "roads": [
+  {
+   "between": [
+    "Bageshwari",
+    "Likhu"
+   ],
+   "minutes": 30,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Bageshwari",
+    "Samundratar"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Betrawati",
+    "Ghyangphedi"
+   ],
+   "minutes": 10,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Betrawati",
+    "Kispang"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Betrawati",
+    "Madanpur"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Betrawati",
+    "Thulogaun"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Dandagaun",
+    "Panchakanya"
+   ],
+   "minutes": 5,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Ghyangphedi",
+    "Kispang"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Haku",
+    "Kispang"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Haku",
+    "Shikharbesi"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kispang",
+    "Kumari"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kumari",
+    "Likhu"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kumari",
+    "Panchakanya"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Laharepauwa",
+    "Thaprek"
+   ],
+   "minutes": 15,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Laharepauwa",
+    "Thulogaun"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Likhu",
+    "Madanpur"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Likhu",
+    "Samundratar"
+   ],
+   "minutes": 15,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Likhu",
+    "Sundaradevi"
+   ],
+   "minutes": 25,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Likhu",
+    "Trishuli"
+   ],
+   "minutes": 10,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Madanpur",
+    "Thulogaun"
+   ],
+   "minutes": 25,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Madanpur",
+    "Trishuli"
+   ],
+   "minutes": 5,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Ramche",
+    "Sundaradevi"
+   ],
+   "minutes": 35,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Ramche",
+    "Thaprek"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Samundratar",
+    "Sundaradevi"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Thaprek",
+    "Thulogaun"
+   ],
+   "minutes": 30,
+   "status": "open"
+  }
+ ],
+ "people": {
+  "Likhu": {
+   "injured": 0,
+   "children": 2,
+   "elderly": 0,
+   "adults": 5
+  },
+  "Madanpur": {
+   "injured": 0,
+   "children": 0,
+   "elderly": 3,
+   "adults": 5
+  },
+  "Kispang": {
+   "injured": 0,
+   "children": 0,
+   "elderly": 0,
+   "adults": 6
+  },
+  "Thulogaun": {
+   "injured": 0,
+   "children": 1,
+   "elderly": 0,
+   "adults": 2
+  },
+  "Betrawati": {
+   "injured": 0,
+   "children": 0,
+   "elderly": 0,
+   "adults": 5
+  },
+  "Sundaradevi": {
+   "injured": 0,
+   "children": 0,
+   "elderly": 2,
+   "adults": 3
+  },
+  "Laharepauwa": {
+   "injured": 2,
+   "children": 6,
+   "elderly": 3,
+   "adults": 1
+  },
+  "Kumari": {
+   "injured": 1,
+   "children": 0,
+   "elderly": 0,
+   "adults": 6
+  },
+  "Panchakanya": {
+   "injured": 0,
+   "children": 0,
+   "elderly": 0,
+   "adults": 3
+  },
+  "Samundratar": {
+   "injured": 0,
+   "children": 0,
+   "elderly": 0,
+   "adults": 2
+  },
+  "Haku": {
+   "injured": 0,
+   "children": 4,
+   "elderly": 1,
+   "adults": 2
+  },
+  "Shikharbesi": {
+   "injured": 0,
+   "children": 3,
+   "elderly": 0,
+   "adults": 1
+  }
+ }
+}

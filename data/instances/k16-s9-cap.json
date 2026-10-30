@@ -1,0 +1,449 @@
+{
+  "id": "k16-s9-cap",
+  "locations": [
+    {
+      "id": "bageshwari",
+      "name": "Bageshwari",
+      "kind": "base"
+    },
+    {
+      "id": "meghang",
+      "name": "Meghang",
+      "kind": "health_post"
+    },
+    {
+      "id": "likhu",
+      "name": "Likhu",
+      "kind": "temple"
+    },
+    {
+      "id": "panchakanya",
+      "name": "Panchakanya",
+      "kind": "village"
+    },
+    {
+      "id": "thulogaun",
+      "name": "Thulogaun",
+      "kind": "village"
+    },
+    {
+      "id": "kakani",
+      "name": "Kakani",
+      "kind": "temple"
+    },
+    {
+      "id": "bhalche",
+      "name": "Bhalche",
+      "kind": "village"
+    },
+    {
+      "id": "battar",
+      "name": "Battar",
+      "kind": "village"
+    },
+    {
+      "id": "rautbesi",
+      "name": "Rautbesi",
+      "kind": "ward_office"
+    },
+    {
+      "id": "thansing",
+      "name": "Thansing",
+      "kind": "ward_office"
+    },
+    {
+      "id": "bidur",
+      "name": "Bidur",
+      "kind": "village"
+    },
+    {
+      "id": "tadi",
+      "name": "Tadi",
+      "kind": "village"
+    },
+    {
+      "id": "chhap",
+      "name": "Chhap",
+      "kind": "ward_office"
+    },
+    {
+      "id": "ghyangphedi",
+      "name": "Ghyangphedi",
+      "kind": "village"
+    },
+    {
+      "id": "dandagaun",
+      "name": "Dandagaun",
+      "kind": "temple"
+    },
+    {
+      "id": "madanpur",
+      "name": "Madanpur",
+      "kind": "village"
+    },
+    {
+      "id": "khanigaun",
+      "name": "Khanigaun",
+      "kind": "village"
+    },
+    {
+      "id": "betrawati",
+      "name": "Betrawati",
+      "kind": "evacuated_village"
+    },
+    {
+      "id": "ramche",
+      "name": "Ramche",
+      "kind": "junction"
+    },
+    {
+      "id": "shikharbesi",
+      "name": "Shikharbesi",
+      "kind": "junction"
+    },
+    {
+      "id": "goljung",
+      "name": "Goljung",
+      "kind": "evacuated_village"
+    }
+  ],
+  "roads": [
+    {
+      "u": "bageshwari",
+      "v": "khanigaun",
+      "minutes": 10,
+      "open": false,
+      "base_minutes": null,
+      "cause": "submerged",
+      "history": []
+    },
+    {
+      "u": "bageshwari",
+      "v": "shikharbesi",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "bageshwari",
+      "v": "thulogaun",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "blocked",
+        "cleared"
+      ]
+    },
+    {
+      "u": "battar",
+      "v": "ghyangphedi",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": 10,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "battar",
+      "v": "kakani",
+      "minutes": 10,
+      "open": false,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": []
+    },
+    {
+      "u": "battar",
+      "v": "thansing",
+      "minutes": 35,
+      "open": true,
+      "base_minutes": 20,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "betrawati",
+      "v": "thulogaun",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "bhalche",
+      "v": "likhu",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "bhalche",
+      "v": "madanpur",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "bidur",
+      "v": "dandagaun",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "bidur",
+      "v": "likhu",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": 10,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "bidur",
+      "v": "panchakanya",
+      "minutes": 5,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "chhap",
+      "v": "goljung",
+      "minutes": 5,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "chhap",
+      "v": "rautbesi",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "dandagaun",
+      "v": "panchakanya",
+      "minutes": 10,
+      "open": false,
+      "base_minutes": null,
+      "cause": "submerged",
+      "history": []
+    },
+    {
+      "u": "dandagaun",
+      "v": "shikharbesi",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": 10,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "ghyangphedi",
+      "v": "ramche",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "ghyangphedi",
+      "v": "shikharbesi",
+      "minutes": 20,
+      "open": false,
+      "base_minutes": null,
+      "cause": "landslide",
+      "history": []
+    },
+    {
+      "u": "goljung",
+      "v": "meghang",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "blocked",
+        "cleared"
+      ]
+    },
+    {
+      "u": "goljung",
+      "v": "tadi",
+      "minutes": 30,
+      "open": true,
+      "base_minutes": 15,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "kakani",
+      "v": "thansing",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "khanigaun",
+      "v": "tadi",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "likhu",
+      "v": "madanpur",
+      "minutes": 10,
+      "open": false,
+      "base_minutes": null,
+      "cause": "submerged",
+      "history": [
+        "open",
+        "blocked"
+      ]
+    },
+    {
+      "u": "likhu",
+      "v": "rautbesi",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "blocked",
+        "cleared"
+      ]
+    },
+    {
+      "u": "meghang",
+      "v": "tadi",
+      "minutes": 10,
+      "open": false,
+      "base_minutes": null,
+      "cause": "bridge",
+      "history": [
+        "open",
+        "blocked"
+      ]
+    },
+    {
+      "u": "panchakanya",
+      "v": "ramche",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    }
+  ],
+  "people": {
+    "meghang": {
+      "children": 3,
+      "elderly": 3,
+      "adults": 6
+    },
+    "likhu": {
+      "injured": 1,
+      "adults": 4
+    },
+    "panchakanya": {
+      "adults": 2
+    },
+    "thulogaun": {
+      "children": 4,
+      "elderly": 3,
+      "adults": 1
+    },
+    "kakani": {
+      "injured": 3,
+      "children": 2,
+      "adults": 2
+    },
+    "bhalche": {
+      "injured": 3,
+      "elderly": 2,
+      "adults": 2
+    },
+    "battar": {
+      "children": 4,
+      "elderly": 1,
+      "adults": 5
+    },
+    "rautbesi": {
+      "adults": 6
+    },
+    "thansing": {
+      "children": 2,
+      "adults": 3
+    },
+    "bidur": {
+      "children": 3,
+      "adults": 5
+    },
+    "tadi": {
+      "elderly": 1,
+      "adults": 5
+    },
+    "chhap": {
+      "children": 1,
+      "adults": 4
+    },
+    "ghyangphedi": {
+      "injured": 2,
+      "elderly": 1,
+      "adults": 2
+    },
+    "dandagaun": {
+      "elderly": 1,
+      "adults": 2
+    },
+    "madanpur": {
+      "injured": 1,
+      "elderly": 2,
+      "adults": 6
+    },
+    "khanigaun": {
+      "elderly": 3,
+      "adults": 6
+    }
+  },
+  "start": "bageshwari",
+  "shelter": "bageshwari",
+  "capacity": 19,
+  "priority": "tiered",
+  "meta": {
+    "k": 16,
+    "seed": 9,
+    "extra_nodes": 4,
+    "n_roads": 26,
+    "n_blocked": 6,
+    "n_slowed": 5,
+    "cut_off": null,
+    "capacity_mode": "tight",
+    "split": "test",
+    "rep": 2,
+    "condition": "tight"
+  }
+}

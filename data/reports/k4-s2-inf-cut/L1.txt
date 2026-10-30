@@ -1,0 +1,32 @@
+MISSION SHEET
+- Team base and starting point: Goljung
+- Shelter where evacuees must be delivered: Goljung
+- Vehicle capacity: no practical limit (enough vehicles to carry everyone at once)
+- Places on the district map: Goljung (evacuation point), Panchakanya (temple), Syaphru (village), Bageshwari (village), Battar (health post), Kakani (village), Trishuli (village)
+
+ROAD REGISTER (pre-flood network; usual one-way driving times, roads are two-way)
+- Bageshwari–Battar: 30 min
+- Bageshwari–Syaphru: 30 min
+- Battar–Kakani: 15 min
+- Goljung–Kakani: 25 min
+- Goljung–Syaphru: 25 min
+- Goljung–Trishuli: 45 min
+- Kakani–Panchakanya: 35 min
+- Panchakanya–Trishuli: 55 min
+- Syaphru–Trishuli: 30 min
+
+FIELD REPORT (district control room, 12:00)
+Road status changes since the flood:
+- Battar–Kakani: open, travel time now 30 min
+- Goljung–Syaphru: BLOCKED
+- Goljung–Trishuli: BLOCKED
+- Kakani–Panchakanya: BLOCKED
+- Panchakanya–Trishuli: BLOCKED
+- Syaphru–Trishuli: open, travel time now 50 min
+All other roads: open, usual travel time.
+People waiting for rescue:
+- Panchakanya: 0 injured, 4 children, 0 elderly, 6 adults
+- Syaphru: 3 injured, 3 children, 0 elderly, 4 adults
+- Bageshwari: 1 injured, 3 children, 2 elderly, 4 adults
+- Battar: 1 injured, 3 children, 0 elderly, 4 adults
+No one is waiting at any other location.

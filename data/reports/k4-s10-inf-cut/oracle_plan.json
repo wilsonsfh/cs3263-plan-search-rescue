@@ -1,0 +1,64 @@
+{
+ "steps": [
+  {
+   "action": "move",
+   "from": "Bageshwari",
+   "to": "Betrawati"
+  },
+  {
+   "action": "move",
+   "from": "Betrawati",
+   "to": "Laharepauwa"
+  },
+  {
+   "action": "pickup",
+   "location": "Laharepauwa"
+  },
+  {
+   "action": "move",
+   "from": "Laharepauwa",
+   "to": "Chhap"
+  },
+  {
+   "action": "move",
+   "from": "Chhap",
+   "to": "Bhorle"
+  },
+  {
+   "action": "pickup",
+   "location": "Bhorle"
+  },
+  {
+   "action": "move",
+   "from": "Bhorle",
+   "to": "Chhap"
+  },
+  {
+   "action": "move",
+   "from": "Chhap",
+   "to": "Sundaradevi"
+  },
+  {
+   "action": "pickup",
+   "location": "Sundaradevi"
+  },
+  {
+   "action": "move",
+   "from": "Sundaradevi",
+   "to": "Chhap"
+  },
+  {
+   "action": "move",
+   "from": "Chhap",
+   "to": "Bageshwari"
+  },
+  {
+   "action": "dropoff",
+   "location": "Bageshwari"
+  }
+ ],
+ "unreachable": [
+  "Shikharbesi"
+ ],
+ "claimed_total_minutes": 195.0
+}

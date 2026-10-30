@@ -1,0 +1,155 @@
+{
+ "start": "Kalikasthan",
+ "shelter": "Kalikasthan",
+ "capacity": null,
+ "locations": [
+  {
+   "name": "Kalikasthan",
+   "kind": "evacuation point"
+  },
+  {
+   "name": "Kakani",
+   "kind": "village"
+  },
+  {
+   "name": "Bhorle",
+   "kind": "village"
+  },
+  {
+   "name": "Thansing",
+   "kind": "school"
+  },
+  {
+   "name": "Trishuli",
+   "kind": "temple"
+  },
+  {
+   "name": "Kispang",
+   "kind": "village"
+  },
+  {
+   "name": "Syaphru",
+   "kind": "village"
+  },
+  {
+   "name": "Lachyang",
+   "kind": "road junction"
+  }
+ ],
+ "roads": [
+  {
+   "between": [
+    "Bhorle",
+    "Kakani"
+   ],
+   "minutes": 35,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Bhorle",
+    "Kalikasthan"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Bhorle",
+    "Kispang"
+   ],
+   "minutes": 25,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Bhorle",
+    "Trishuli"
+   ],
+   "minutes": 15,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Kakani",
+    "Kispang"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kakani",
+    "Thansing"
+   ],
+   "minutes": 15,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Kakani",
+    "Trishuli"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kalikasthan",
+    "Lachyang"
+   ],
+   "minutes": 30,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kalikasthan",
+    "Syaphru"
+   ],
+   "minutes": 25,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kalikasthan",
+    "Thansing"
+   ],
+   "minutes": 15,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Lachyang",
+    "Syaphru"
+   ],
+   "minutes": 20,
+   "status": "open"
+  }
+ ],
+ "people": {
+  "Kakani": {
+   "injured": 0,
+   "children": 3,
+   "elderly": 3,
+   "adults": 5
+  },
+  "Bhorle": {
+   "injured": 0,
+   "children": 1,
+   "elderly": 0,
+   "adults": 1
+  },
+  "Thansing": {
+   "injured": 0,
+   "children": 4,
+   "elderly": 2,
+   "adults": 1
+  },
+  "Trishuli": {
+   "injured": 0,
+   "children": 0,
+   "elderly": 1,
+   "adults": 3
+  }
+ }
+}

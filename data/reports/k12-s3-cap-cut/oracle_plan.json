@@ -1,0 +1,350 @@
+{
+ "steps": [
+  {
+   "action": "move",
+   "from": "Jiling",
+   "to": "Goljung"
+  },
+  {
+   "action": "move",
+   "from": "Goljung",
+   "to": "Ramche"
+  },
+  {
+   "action": "pickup",
+   "location": "Ramche"
+  },
+  {
+   "action": "move",
+   "from": "Ramche",
+   "to": "Goljung"
+  },
+  {
+   "action": "move",
+   "from": "Goljung",
+   "to": "Jiling"
+  },
+  {
+   "action": "dropoff",
+   "location": "Jiling"
+  },
+  {
+   "action": "move",
+   "from": "Jiling",
+   "to": "Goljung"
+  },
+  {
+   "action": "move",
+   "from": "Goljung",
+   "to": "Ramche"
+  },
+  {
+   "action": "move",
+   "from": "Ramche",
+   "to": "Shikharbesi"
+  },
+  {
+   "action": "pickup",
+   "location": "Shikharbesi"
+  },
+  {
+   "action": "move",
+   "from": "Shikharbesi",
+   "to": "Ramche"
+  },
+  {
+   "action": "move",
+   "from": "Ramche",
+   "to": "Goljung"
+  },
+  {
+   "action": "move",
+   "from": "Goljung",
+   "to": "Jiling"
+  },
+  {
+   "action": "dropoff",
+   "location": "Jiling"
+  },
+  {
+   "action": "move",
+   "from": "Jiling",
+   "to": "Okharpauwa"
+  },
+  {
+   "action": "move",
+   "from": "Okharpauwa",
+   "to": "Kalikasthan"
+  },
+  {
+   "action": "move",
+   "from": "Kalikasthan",
+   "to": "Haku"
+  },
+  {
+   "action": "move",
+   "from": "Haku",
+   "to": "Bhorle"
+  },
+  {
+   "action": "pickup",
+   "location": "Bhorle"
+  },
+  {
+   "action": "move",
+   "from": "Bhorle",
+   "to": "Haku"
+  },
+  {
+   "action": "move",
+   "from": "Haku",
+   "to": "Kalikasthan"
+  },
+  {
+   "action": "move",
+   "from": "Kalikasthan",
+   "to": "Okharpauwa"
+  },
+  {
+   "action": "move",
+   "from": "Okharpauwa",
+   "to": "Jiling"
+  },
+  {
+   "action": "dropoff",
+   "location": "Jiling"
+  },
+  {
+   "action": "move",
+   "from": "Jiling",
+   "to": "Okharpauwa"
+  },
+  {
+   "action": "move",
+   "from": "Okharpauwa",
+   "to": "Kalikasthan"
+  },
+  {
+   "action": "pickup",
+   "location": "Kalikasthan"
+  },
+  {
+   "action": "move",
+   "from": "Kalikasthan",
+   "to": "Haku"
+  },
+  {
+   "action": "move",
+   "from": "Haku",
+   "to": "Kispang"
+  },
+  {
+   "action": "move",
+   "from": "Kispang",
+   "to": "Salme"
+  },
+  {
+   "action": "pickup",
+   "location": "Salme"
+  },
+  {
+   "action": "move",
+   "from": "Salme",
+   "to": "Kispang"
+  },
+  {
+   "action": "move",
+   "from": "Kispang",
+   "to": "Haku"
+  },
+  {
+   "action": "move",
+   "from": "Haku",
+   "to": "Kalikasthan"
+  },
+  {
+   "action": "move",
+   "from": "Kalikasthan",
+   "to": "Okharpauwa"
+  },
+  {
+   "action": "move",
+   "from": "Okharpauwa",
+   "to": "Jiling"
+  },
+  {
+   "action": "dropoff",
+   "location": "Jiling"
+  },
+  {
+   "action": "move",
+   "from": "Jiling",
+   "to": "Goljung"
+  },
+  {
+   "action": "move",
+   "from": "Goljung",
+   "to": "Sundaradevi"
+  },
+  {
+   "action": "pickup",
+   "location": "Sundaradevi"
+  },
+  {
+   "action": "move",
+   "from": "Sundaradevi",
+   "to": "Goljung"
+  },
+  {
+   "action": "move",
+   "from": "Goljung",
+   "to": "Jiling"
+  },
+  {
+   "action": "dropoff",
+   "location": "Jiling"
+  },
+  {
+   "action": "move",
+   "from": "Jiling",
+   "to": "Okharpauwa"
+  },
+  {
+   "action": "pickup",
+   "location": "Okharpauwa"
+  },
+  {
+   "action": "move",
+   "from": "Okharpauwa",
+   "to": "Kalikasthan"
+  },
+  {
+   "action": "move",
+   "from": "Kalikasthan",
+   "to": "Haku"
+  },
+  {
+   "action": "pickup",
+   "location": "Haku"
+  },
+  {
+   "action": "move",
+   "from": "Haku",
+   "to": "Bhorle"
+  },
+  {
+   "action": "move",
+   "from": "Bhorle",
+   "to": "Rautbesi"
+  },
+  {
+   "action": "pickup",
+   "location": "Rautbesi"
+  },
+  {
+   "action": "move",
+   "from": "Rautbesi",
+   "to": "Bhorle"
+  },
+  {
+   "action": "move",
+   "from": "Bhorle",
+   "to": "Haku"
+  },
+  {
+   "action": "move",
+   "from": "Haku",
+   "to": "Kalikasthan"
+  },
+  {
+   "action": "move",
+   "from": "Kalikasthan",
+   "to": "Okharpauwa"
+  },
+  {
+   "action": "move",
+   "from": "Okharpauwa",
+   "to": "Jiling"
+  },
+  {
+   "action": "dropoff",
+   "location": "Jiling"
+  },
+  {
+   "action": "move",
+   "from": "Jiling",
+   "to": "Okharpauwa"
+  },
+  {
+   "action": "move",
+   "from": "Okharpauwa",
+   "to": "Kalikasthan"
+  },
+  {
+   "action": "move",
+   "from": "Kalikasthan",
+   "to": "Haku"
+  },
+  {
+   "action": "move",
+   "from": "Haku",
+   "to": "Kispang"
+  },
+  {
+   "action": "pickup",
+   "location": "Kispang"
+  },
+  {
+   "action": "move",
+   "from": "Kispang",
+   "to": "Salme"
+  },
+  {
+   "action": "move",
+   "from": "Salme",
+   "to": "Khanigaun"
+  },
+  {
+   "action": "pickup",
+   "location": "Khanigaun"
+  },
+  {
+   "action": "move",
+   "from": "Khanigaun",
+   "to": "Salme"
+  },
+  {
+   "action": "move",
+   "from": "Salme",
+   "to": "Kispang"
+  },
+  {
+   "action": "move",
+   "from": "Kispang",
+   "to": "Haku"
+  },
+  {
+   "action": "move",
+   "from": "Haku",
+   "to": "Kalikasthan"
+  },
+  {
+   "action": "move",
+   "from": "Kalikasthan",
+   "to": "Okharpauwa"
+  },
+  {
+   "action": "move",
+   "from": "Okharpauwa",
+   "to": "Jiling"
+  },
+  {
+   "action": "dropoff",
+   "location": "Jiling"
+  }
+ ],
+ "unreachable": [
+  "Chaughada"
+ ],
+ "claimed_total_minutes": 890.0
+}

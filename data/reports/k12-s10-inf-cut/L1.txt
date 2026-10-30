@@ -1,0 +1,56 @@
+MISSION SHEET
+- Team base and starting point: Belkot
+- Shelter where evacuees must be delivered: Belkot
+- Vehicle capacity: no practical limit (enough vehicles to carry everyone at once)
+- Places on the district map: Belkot (evacuation point), Ghyangphedi (village), Khanigaun (village), Likhu (health post), Kispang (school), Goljung (village), Lachyang (village), Syaphru (school), Dandagaun (village), Haku (village), Rautbesi (village), Narjamandap (village), Sundaradevi (village), Ramche (village), Okharpauwa (road junction)
+
+ROAD REGISTER (pre-flood network; usual one-way driving times, roads are two-way)
+- Belkot–Ghyangphedi: 15 min
+- Belkot–Khanigaun: 25 min
+- Belkot–Ramche: 10 min
+- Belkot–Rautbesi: 10 min
+- Dandagaun–Goljung: 20 min
+- Ghyangphedi–Kispang: 20 min
+- Ghyangphedi–Likhu: 10 min
+- Ghyangphedi–Rautbesi: 15 min
+- Goljung–Okharpauwa: 15 min
+- Goljung–Syaphru: 10 min
+- Haku–Khanigaun: 10 min
+- Haku–Lachyang: 20 min
+- Khanigaun–Ramche: 20 min
+- Kispang–Likhu: 20 min
+- Kispang–Rautbesi: 30 min
+- Lachyang–Sundaradevi: 10 min
+- Narjamandap–Okharpauwa: 15 min
+- Narjamandap–Rautbesi: 20 min
+- Okharpauwa–Rautbesi: 15 min
+- Okharpauwa–Syaphru: 20 min
+- Ramche–Sundaradevi: 15 min
+
+FIELD REPORT (district control room, 12:00)
+Road status changes since the flood:
+- Belkot–Khanigaun: open, travel time now 50 min
+- Belkot–Ramche: BLOCKED
+- Belkot–Rautbesi: BLOCKED
+- Dandagaun–Goljung: BLOCKED
+- Ghyangphedi–Kispang: BLOCKED
+- Goljung–Syaphru: open, travel time now 30 min
+- Lachyang–Sundaradevi: BLOCKED
+- Okharpauwa–Rautbesi: open, travel time now 30 min
+- Okharpauwa–Syaphru: BLOCKED
+- Ramche–Sundaradevi: open, travel time now 30 min
+All other roads: open, usual travel time.
+People waiting for rescue:
+- Ghyangphedi: 0 injured, 2 children, 2 elderly, 5 adults
+- Khanigaun: 2 injured, 0 children, 2 elderly, 3 adults
+- Likhu: 0 injured, 0 children, 0 elderly, 1 adults
+- Kispang: 3 injured, 3 children, 2 elderly, 2 adults
+- Goljung: 0 injured, 0 children, 3 elderly, 4 adults
+- Lachyang: 0 injured, 1 children, 3 elderly, 4 adults
+- Syaphru: 1 injured, 9 children, 0 elderly, 2 adults
+- Dandagaun: 0 injured, 4 children, 3 elderly, 4 adults
+- Haku: 0 injured, 1 children, 1 elderly, 2 adults
+- Rautbesi: 0 injured, 1 children, 0 elderly, 2 adults
+- Narjamandap: 0 injured, 0 children, 3 elderly, 1 adults
+- Sundaradevi: 0 injured, 1 children, 3 elderly, 6 adults
+No one is waiting at any other location.

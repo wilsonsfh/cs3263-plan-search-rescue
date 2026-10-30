@@ -1,0 +1,419 @@
+{
+ "start": "Samundratar",
+ "shelter": "Samundratar",
+ "capacity": 9,
+ "locations": [
+  {
+   "name": "Samundratar",
+   "kind": "evacuation point"
+  },
+  {
+   "name": "Belkot",
+   "kind": "health post"
+  },
+  {
+   "name": "Thansing",
+   "kind": "village"
+  },
+  {
+   "name": "Kispang",
+   "kind": "village"
+  },
+  {
+   "name": "Madanpur",
+   "kind": "village"
+  },
+  {
+   "name": "Kakani",
+   "kind": "school"
+  },
+  {
+   "name": "Kaule",
+   "kind": "village"
+  },
+  {
+   "name": "Haku",
+   "kind": "village"
+  },
+  {
+   "name": "Ramche",
+   "kind": "village"
+  },
+  {
+   "name": "Dandagaun",
+   "kind": "temple"
+  },
+  {
+   "name": "Thaprek",
+   "kind": "school"
+  },
+  {
+   "name": "Kumari",
+   "kind": "village"
+  },
+  {
+   "name": "Salme",
+   "kind": "temple"
+  },
+  {
+   "name": "Bhorle",
+   "kind": "ward office"
+  },
+  {
+   "name": "Chhap",
+   "kind": "village"
+  },
+  {
+   "name": "Syaphru",
+   "kind": "village"
+  },
+  {
+   "name": "Goljung",
+   "kind": "village"
+  },
+  {
+   "name": "Khanigaun",
+   "kind": "road junction"
+  },
+  {
+   "name": "Betrawati",
+   "kind": "road junction"
+  },
+  {
+   "name": "Likhu",
+   "kind": "road junction"
+  },
+  {
+   "name": "Sundaradevi",
+   "kind": "road junction"
+  },
+  {
+   "name": "Panchakanya",
+   "kind": "road junction"
+  }
+ ],
+ "roads": [
+  {
+   "between": [
+    "Belkot",
+    "Goljung"
+   ],
+   "minutes": 10,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Belkot",
+    "Kaule"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Belkot",
+    "Salme"
+   ],
+   "minutes": 10,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Betrawati",
+    "Dandagaun"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Betrawati",
+    "Sundaradevi"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Betrawati",
+    "Syaphru"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Bhorle",
+    "Kumari"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Bhorle",
+    "Panchakanya"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Bhorle",
+    "Ramche"
+   ],
+   "minutes": 10,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Chhap",
+    "Panchakanya"
+   ],
+   "minutes": 5,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Goljung",
+    "Khanigaun"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Haku",
+    "Kispang"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Haku",
+    "Kumari"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Haku",
+    "Madanpur"
+   ],
+   "minutes": 20,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Kakani",
+    "Madanpur"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kakani",
+    "Sundaradevi"
+   ],
+   "minutes": 10,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Kakani",
+    "Syaphru"
+   ],
+   "minutes": 5,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kaule",
+    "Khanigaun"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kaule",
+    "Thaprek"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kispang",
+    "Kumari"
+   ],
+   "minutes": 15,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Kispang",
+    "Madanpur"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kumari",
+    "Ramche"
+   ],
+   "minutes": 30,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Likhu",
+    "Ramche"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Likhu",
+    "Thaprek"
+   ],
+   "minutes": 5,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Salme",
+    "Samundratar"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Salme",
+    "Thansing"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Samundratar",
+    "Thaprek"
+   ],
+   "minutes": 30,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Sundaradevi",
+    "Syaphru"
+   ],
+   "minutes": 10,
+   "status": "open"
+  }
+ ],
+ "people": {
+  "Belkot": {
+   "injured": 0,
+   "children": 0,
+   "elderly": 0,
+   "adults": 3
+  },
+  "Thansing": {
+   "injured": 0,
+   "children": 2,
+   "elderly": 0,
+   "adults": 4
+  },
+  "Kispang": {
+   "injured": 0,
+   "children": 0,
+   "elderly": 3,
+   "adults": 1
+  },
+  "Madanpur": {
+   "injured": 0,
+   "children": 3,
+   "elderly": 3,
+   "adults": 3
+  },
+  "Kakani": {
+   "injured": 0,
+   "children": 4,
+   "elderly": 0,
+   "adults": 1
+  },
+  "Kaule": {
+   "injured": 1,
+   "children": 1,
+   "elderly": 0,
+   "adults": 5
+  },
+  "Haku": {
+   "injured": 0,
+   "children": 0,
+   "elderly": 0,
+   "adults": 6
+  },
+  "Ramche": {
+   "injured": 0,
+   "children": 1,
+   "elderly": 2,
+   "adults": 2
+  },
+  "Dandagaun": {
+   "injured": 0,
+   "children": 1,
+   "elderly": 2,
+   "adults": 4
+  },
+  "Thaprek": {
+   "injured": 0,
+   "children": 8,
+   "elderly": 0,
+   "adults": 1
+  },
+  "Kumari": {
+   "injured": 0,
+   "children": 2,
+   "elderly": 1,
+   "adults": 3
+  },
+  "Salme": {
+   "injured": 0,
+   "children": 1,
+   "elderly": 3,
+   "adults": 2
+  },
+  "Bhorle": {
+   "injured": 3,
+   "children": 0,
+   "elderly": 0,
+   "adults": 3
+  },
+  "Chhap": {
+   "injured": 0,
+   "children": 0,
+   "elderly": 2,
+   "adults": 3
+  },
+  "Syaphru": {
+   "injured": 0,
+   "children": 3,
+   "elderly": 0,
+   "adults": 4
+  },
+  "Goljung": {
+   "injured": 0,
+   "children": 0,
+   "elderly": 0,
+   "adults": 4
+  }
+ }
+}

@@ -1,0 +1,283 @@
+{
+ "start": "Likhu",
+ "shelter": "Likhu",
+ "capacity": null,
+ "locations": [
+  {
+   "name": "Likhu",
+   "kind": "evacuation point"
+  },
+  {
+   "name": "Kumari",
+   "kind": "school"
+  },
+  {
+   "name": "Sundaradevi",
+   "kind": "school"
+  },
+  {
+   "name": "Goljung",
+   "kind": "village"
+  },
+  {
+   "name": "Tupche",
+   "kind": "village"
+  },
+  {
+   "name": "Ramche",
+   "kind": "ward office"
+  },
+  {
+   "name": "Tadi",
+   "kind": "temple"
+  },
+  {
+   "name": "Kaule",
+   "kind": "health post"
+  },
+  {
+   "name": "Meghang",
+   "kind": "temple"
+  },
+  {
+   "name": "Thansing",
+   "kind": "village"
+  },
+  {
+   "name": "Haku",
+   "kind": "school"
+  },
+  {
+   "name": "Panchakanya",
+   "kind": "village"
+  },
+  {
+   "name": "Salme",
+   "kind": "school"
+  },
+  {
+   "name": "Taruka",
+   "kind": "road junction"
+  }
+ ],
+ "roads": [
+  {
+   "between": [
+    "Goljung",
+    "Likhu"
+   ],
+   "minutes": 30,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Goljung",
+    "Meghang"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Goljung",
+    "Panchakanya"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Goljung",
+    "Thansing"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Haku",
+    "Kumari"
+   ],
+   "minutes": 5,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Haku",
+    "Tupche"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kaule",
+    "Salme"
+   ],
+   "minutes": 30,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kaule",
+    "Tadi"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kaule",
+    "Taruka"
+   ],
+   "minutes": 10,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Kumari",
+    "Sundaradevi"
+   ],
+   "minutes": 40,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Likhu",
+    "Panchakanya"
+   ],
+   "minutes": 5,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Meghang",
+    "Salme"
+   ],
+   "minutes": 15,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Meghang",
+    "Taruka"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Panchakanya",
+    "Ramche"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Salme",
+    "Sundaradevi"
+   ],
+   "minutes": 20,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Salme",
+    "Tadi"
+   ],
+   "minutes": 10,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Salme",
+    "Taruka"
+   ],
+   "minutes": 40,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Sundaradevi",
+    "Tadi"
+   ],
+   "minutes": 25,
+   "status": "open"
+  }
+ ],
+ "people": {
+  "Kumari": {
+   "injured": 0,
+   "children": 4,
+   "elderly": 0,
+   "adults": 1
+  },
+  "Sundaradevi": {
+   "injured": 1,
+   "children": 9,
+   "elderly": 2,
+   "adults": 1
+  },
+  "Goljung": {
+   "injured": 0,
+   "children": 1,
+   "elderly": 1,
+   "adults": 5
+  },
+  "Tupche": {
+   "injured": 2,
+   "children": 1,
+   "elderly": 3,
+   "adults": 4
+  },
+  "Ramche": {
+   "injured": 0,
+   "children": 4,
+   "elderly": 3,
+   "adults": 1
+  },
+  "Tadi": {
+   "injured": 0,
+   "children": 1,
+   "elderly": 1,
+   "adults": 2
+  },
+  "Kaule": {
+   "injured": 0,
+   "children": 0,
+   "elderly": 1,
+   "adults": 6
+  },
+  "Meghang": {
+   "injured": 1,
+   "children": 4,
+   "elderly": 3,
+   "adults": 6
+  },
+  "Thansing": {
+   "injured": 2,
+   "children": 2,
+   "elderly": 0,
+   "adults": 1
+  },
+  "Haku": {
+   "injured": 0,
+   "children": 3,
+   "elderly": 1,
+   "adults": 1
+  },
+  "Panchakanya": {
+   "injured": 0,
+   "children": 0,
+   "elderly": 2,
+   "adults": 3
+  },
+  "Salme": {
+   "injured": 0,
+   "children": 9,
+   "elderly": 2,
+   "adults": 1
+  }
+ }
+}

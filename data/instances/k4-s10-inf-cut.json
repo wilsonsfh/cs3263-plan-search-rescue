@@ -1,0 +1,209 @@
+{
+  "id": "k4-s10-inf-cut",
+  "locations": [
+    {
+      "id": "bageshwari",
+      "name": "Bageshwari",
+      "kind": "base"
+    },
+    {
+      "id": "laharepauwa",
+      "name": "Laharepauwa",
+      "kind": "village"
+    },
+    {
+      "id": "sundaradevi",
+      "name": "Sundaradevi",
+      "kind": "village"
+    },
+    {
+      "id": "shikharbesi",
+      "name": "Shikharbesi",
+      "kind": "village"
+    },
+    {
+      "id": "bhorle",
+      "name": "Bhorle",
+      "kind": "village"
+    },
+    {
+      "id": "chhap",
+      "name": "Chhap",
+      "kind": "evacuated_village"
+    },
+    {
+      "id": "betrawati",
+      "name": "Betrawati",
+      "kind": "evacuated_village"
+    },
+    {
+      "id": "samundratar",
+      "name": "Samundratar",
+      "kind": "evacuated_village"
+    }
+  ],
+  "roads": [
+    {
+      "u": "bageshwari",
+      "v": "betrawati",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "blocked",
+        "cleared"
+      ]
+    },
+    {
+      "u": "bageshwari",
+      "v": "bhorle",
+      "minutes": 20,
+      "open": false,
+      "base_minutes": null,
+      "cause": "submerged",
+      "history": []
+    },
+    {
+      "u": "bageshwari",
+      "v": "chhap",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "bageshwari",
+      "v": "samundratar",
+      "minutes": 25,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "betrawati",
+      "v": "chhap",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "betrawati",
+      "v": "laharepauwa",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "betrawati",
+      "v": "samundratar",
+      "minutes": 25,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "betrawati",
+      "v": "shikharbesi",
+      "minutes": 15,
+      "open": false,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": []
+    },
+    {
+      "u": "bhorle",
+      "v": "chhap",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "blocked",
+        "cleared"
+      ]
+    },
+    {
+      "u": "bhorle",
+      "v": "sundaradevi",
+      "minutes": 10,
+      "open": false,
+      "base_minutes": null,
+      "cause": "submerged",
+      "history": []
+    },
+    {
+      "u": "chhap",
+      "v": "laharepauwa",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": 10,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "chhap",
+      "v": "sundaradevi",
+      "minutes": 50,
+      "open": true,
+      "base_minutes": 25,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "samundratar",
+      "v": "shikharbesi",
+      "minutes": 10,
+      "open": false,
+      "base_minutes": null,
+      "cause": "submerged",
+      "history": [
+        "open",
+        "blocked"
+      ]
+    }
+  ],
+  "people": {
+    "laharepauwa": {
+      "injured": 1,
+      "adults": 3
+    },
+    "sundaradevi": {
+      "children": 1,
+      "adults": 3
+    },
+    "shikharbesi": {
+      "children": 1,
+      "adults": 4
+    },
+    "bhorle": {
+      "children": 2,
+      "elderly": 3,
+      "adults": 4
+    }
+  },
+  "start": "bageshwari",
+  "shelter": "bageshwari",
+  "capacity": null,
+  "priority": "tiered",
+  "meta": {
+    "k": 4,
+    "seed": 10,
+    "extra_nodes": 3,
+    "n_roads": 13,
+    "n_blocked": 4,
+    "n_slowed": 2,
+    "cut_off": "shikharbesi",
+    "capacity_mode": "unlimited",
+    "split": "test",
+    "rep": 2,
+    "condition": "unlimited-cut"
+  }
+}

@@ -1,0 +1,147 @@
+{
+ "steps": [
+  {
+   "action": "move",
+   "from": "Panchakanya",
+   "to": "Madanpur"
+  },
+  {
+   "action": "pickup",
+   "location": "Madanpur"
+  },
+  {
+   "action": "move",
+   "from": "Madanpur",
+   "to": "Bhalche"
+  },
+  {
+   "action": "pickup",
+   "location": "Bhalche"
+  },
+  {
+   "action": "move",
+   "from": "Bhalche",
+   "to": "Meghang"
+  },
+  {
+   "action": "move",
+   "from": "Meghang",
+   "to": "Laharepauwa"
+  },
+  {
+   "action": "move",
+   "from": "Laharepauwa",
+   "to": "Battar"
+  },
+  {
+   "action": "pickup",
+   "location": "Battar"
+  },
+  {
+   "action": "move",
+   "from": "Battar",
+   "to": "Kakani"
+  },
+  {
+   "action": "move",
+   "from": "Kakani",
+   "to": "Gerkhu"
+  },
+  {
+   "action": "move",
+   "from": "Gerkhu",
+   "to": "Samundratar"
+  },
+  {
+   "action": "pickup",
+   "location": "Samundratar"
+  },
+  {
+   "action": "move",
+   "from": "Samundratar",
+   "to": "Gerkhu"
+  },
+  {
+   "action": "move",
+   "from": "Gerkhu",
+   "to": "Kakani"
+  },
+  {
+   "action": "pickup",
+   "location": "Kakani"
+  },
+  {
+   "action": "move",
+   "from": "Kakani",
+   "to": "Battar"
+  },
+  {
+   "action": "move",
+   "from": "Battar",
+   "to": "Laharepauwa"
+  },
+  {
+   "action": "pickup",
+   "location": "Laharepauwa"
+  },
+  {
+   "action": "move",
+   "from": "Laharepauwa",
+   "to": "Meghang"
+  },
+  {
+   "action": "pickup",
+   "location": "Meghang"
+  },
+  {
+   "action": "move",
+   "from": "Meghang",
+   "to": "Laharepauwa"
+  },
+  {
+   "action": "move",
+   "from": "Laharepauwa",
+   "to": "Battar"
+  },
+  {
+   "action": "move",
+   "from": "Battar",
+   "to": "Kakani"
+  },
+  {
+   "action": "move",
+   "from": "Kakani",
+   "to": "Gerkhu"
+  },
+  {
+   "action": "pickup",
+   "location": "Gerkhu"
+  },
+  {
+   "action": "move",
+   "from": "Gerkhu",
+   "to": "Kakani"
+  },
+  {
+   "action": "move",
+   "from": "Kakani",
+   "to": "Battar"
+  },
+  {
+   "action": "move",
+   "from": "Battar",
+   "to": "Laharepauwa"
+  },
+  {
+   "action": "move",
+   "from": "Laharepauwa",
+   "to": "Panchakanya"
+  },
+  {
+   "action": "dropoff",
+   "location": "Panchakanya"
+  }
+ ],
+ "unreachable": [],
+ "claimed_total_minutes": 420.0
+}

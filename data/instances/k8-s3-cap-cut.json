@@ -1,0 +1,304 @@
+{
+  "id": "k8-s3-cap-cut",
+  "locations": [
+    {
+      "id": "suryagadhi",
+      "name": "Suryagadhi",
+      "kind": "base"
+    },
+    {
+      "id": "dandagaun",
+      "name": "Dandagaun",
+      "kind": "health_post"
+    },
+    {
+      "id": "battar",
+      "name": "Battar",
+      "kind": "village"
+    },
+    {
+      "id": "salme",
+      "name": "Salme",
+      "kind": "temple"
+    },
+    {
+      "id": "kakani",
+      "name": "Kakani",
+      "kind": "village"
+    },
+    {
+      "id": "dupcheshwar",
+      "name": "Dupcheshwar",
+      "kind": "ward_office"
+    },
+    {
+      "id": "tadi",
+      "name": "Tadi",
+      "kind": "village"
+    },
+    {
+      "id": "gerkhu",
+      "name": "Gerkhu",
+      "kind": "health_post"
+    },
+    {
+      "id": "meghang",
+      "name": "Meghang",
+      "kind": "village"
+    },
+    {
+      "id": "kalikasthan",
+      "name": "Kalikasthan",
+      "kind": "junction"
+    },
+    {
+      "id": "sundaradevi",
+      "name": "Sundaradevi",
+      "kind": "evacuated_village"
+    },
+    {
+      "id": "thaprek",
+      "name": "Thaprek",
+      "kind": "junction"
+    }
+  ],
+  "roads": [
+    {
+      "u": "battar",
+      "v": "dandagaun",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "battar",
+      "v": "kalikasthan",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": 10,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "battar",
+      "v": "suryagadhi",
+      "minutes": 5,
+      "open": false,
+      "base_minutes": null,
+      "cause": "submerged",
+      "history": []
+    },
+    {
+      "u": "battar",
+      "v": "thaprek",
+      "minutes": 25,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "dandagaun",
+      "v": "meghang",
+      "minutes": 5,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "dandagaun",
+      "v": "salme",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "blocked",
+        "cleared"
+      ]
+    },
+    {
+      "u": "dupcheshwar",
+      "v": "salme",
+      "minutes": 40,
+      "open": true,
+      "base_minutes": 25,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "dupcheshwar",
+      "v": "sundaradevi",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "dupcheshwar",
+      "v": "suryagadhi",
+      "minutes": 25,
+      "open": false,
+      "base_minutes": null,
+      "cause": "bridge",
+      "history": [
+        "open",
+        "blocked"
+      ]
+    },
+    {
+      "u": "gerkhu",
+      "v": "meghang",
+      "minutes": 10,
+      "open": false,
+      "base_minutes": null,
+      "cause": "landslide",
+      "history": [
+        "open",
+        "blocked"
+      ]
+    },
+    {
+      "u": "kakani",
+      "v": "suryagadhi",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": [
+        "rumour"
+      ]
+    },
+    {
+      "u": "kakani",
+      "v": "tadi",
+      "minutes": 30,
+      "open": true,
+      "base_minutes": 15,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "kalikasthan",
+      "v": "suryagadhi",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "blocked",
+        "cleared"
+      ]
+    },
+    {
+      "u": "kalikasthan",
+      "v": "tadi",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "kalikasthan",
+      "v": "thaprek",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "blocked",
+        "cleared"
+      ]
+    },
+    {
+      "u": "meghang",
+      "v": "salme",
+      "minutes": 5,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "sundaradevi",
+      "v": "suryagadhi",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "suryagadhi",
+      "v": "tadi",
+      "minutes": 10,
+      "open": false,
+      "base_minutes": null,
+      "cause": "submerged",
+      "history": []
+    }
+  ],
+  "people": {
+    "dandagaun": {
+      "children": 2,
+      "elderly": 2,
+      "adults": 4
+    },
+    "battar": {
+      "children": 2,
+      "elderly": 1,
+      "adults": 5
+    },
+    "salme": {
+      "children": 4,
+      "adults": 3
+    },
+    "kakani": {
+      "injured": 3,
+      "children": 4,
+      "adults": 4
+    },
+    "dupcheshwar": {
+      "injured": 2,
+      "children": 3,
+      "elderly": 2,
+      "adults": 1
+    },
+    "tadi": {
+      "injured": 3,
+      "children": 3,
+      "elderly": 2,
+      "adults": 5
+    },
+    "gerkhu": {
+      "elderly": 1,
+      "adults": 6
+    },
+    "meghang": {
+      "children": 3,
+      "adults": 1
+    }
+  },
+  "start": "suryagadhi",
+  "shelter": "suryagadhi",
+  "capacity": 26,
+  "priority": "tiered",
+  "meta": {
+    "k": 8,
+    "seed": 3,
+    "extra_nodes": 3,
+    "n_roads": 18,
+    "n_blocked": 4,
+    "n_slowed": 3,
+    "cut_off": "gerkhu",
+    "capacity_mode": "tight",
+    "split": "dev",
+    "rep": 0,
+    "condition": "tight-cut"
+  }
+}

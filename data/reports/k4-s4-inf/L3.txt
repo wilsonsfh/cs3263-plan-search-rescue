@@ -1,0 +1,22 @@
+MISSION SHEET
+- Team base and starting point: Taruka
+- Shelter where evacuees must be delivered: Taruka
+- Vehicle capacity: no practical limit (enough vehicles to carry everyone at once)
+- Places on the district map: Taruka (evacuation point), Thansing (ward office), Lachyang (village), Bidur (school), Bhalche (village), Kalikasthan (road junction), Tadi (village), Chhap (village)
+
+ROAD REGISTER (pre-flood network; usual one-way driving times, roads are two-way)
+- Bhalche–Bidur: 10 min
+- Bhalche–Tadi: 20 min
+- Bidur–Kalikasthan: 15 min
+- Bidur–Tadi: 20 min
+- Chhap–Lachyang: 25 min
+- Chhap–Tadi: 10 min
+- Chhap–Taruka: 10 min
+- Tadi–Taruka: 10 min
+- Taruka–Thansing: 40 min
+
+FIELD DISPATCHES (several sources; listed in the order they reached the control room)
+[06:45] Radio Nuwakot FM (local radio, early bulletin): Residents of Chhap were seen on rooftops last night. Debris is blocking the Bhalche–Bidur road. Debris is blocking the Tadi–Taruka road. Residents of Tadi were seen on rooftops last night. The Home Ministry says relief funds will be released next week.
+[13:15] Sunita Lama, The Himalayan Times (on the ground): Everyone from Chhap has already been airlifted out. Everyone from Tadi has already been airlifted out. Our team counted six schoolchildren and two uninjured adults at the school in Bidur, all needing evacuation. The Tadi–Taruka road has been reopened after bulldozers removed the debris; travel times are back to normal. At the ward office in Thansing, 4 children, an old man and four other adults are waiting to be rescued. The Bhalche–Bidur road has been reopened after bulldozers removed the debris; travel times are back to normal. The Chhap–Taruka road is under two metres of fast-flowing floodwater. At Lachyang, three injured people (an old man with a head wound, a pregnant woman who was hit by debris and a teenage girl with a fractured arm), four children and three uninjured adults are waiting to be rescued. In Kathmandu, schools have been closed for three days as a precaution.
+[09:30] District Police Office (situation report): The Bidur–Kalikasthan road is open but badly waterlogged; driving it adds 20 minutes to the usual journey. Debris has completely choked the road between Bhalche and Tadi. A government helicopter was seen flying north this morning but did not land. Our team counted 4 children, two elderly residents and 3 other adults at Bhalche, all needing evacuation. The Taruka–Thansing road is open but badly waterlogged; driving it adds 10 minutes to the usual journey.
+Anything not mentioned in these dispatches is in its usual condition, and no one else is known to be stranded.

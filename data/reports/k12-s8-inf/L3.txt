@@ -1,0 +1,35 @@
+MISSION SHEET
+- Team base and starting point: Betrawati
+- Shelter where evacuees must be delivered: Betrawati
+- Vehicle capacity: no practical limit (enough vehicles to carry everyone at once)
+- Places on the district map: Betrawati (evacuation point), Trishuli (school), Ghyangphedi (village), Haku (village), Chaughada (village), Tadi (village), Sundaradevi (health post), Madanpur (village), Thaprek (village), Kalikasthan (village), Battar (village), Bageshwari (health post), Meghang (village), Belkot (village), Bhalche (village)
+
+ROAD REGISTER (pre-flood network; usual one-way driving times, roads are two-way)
+- Bageshwari–Ghyangphedi: 10 min
+- Bageshwari–Haku: 20 min
+- Bageshwari–Sundaradevi: 15 min
+- Bageshwari–Tadi: 20 min
+- Battar–Bhalche: 20 min
+- Battar–Meghang: 15 min
+- Belkot–Chaughada: 25 min
+- Belkot–Tadi: 10 min
+- Betrawati–Ghyangphedi: 10 min
+- Betrawati–Kalikasthan: 20 min
+- Betrawati–Madanpur: 10 min
+- Bhalche–Chaughada: 10 min
+- Bhalche–Thaprek: 10 min
+- Chaughada–Madanpur: 5 min
+- Chaughada–Thaprek: 10 min
+- Ghyangphedi–Haku: 25 min
+- Ghyangphedi–Madanpur: 15 min
+- Ghyangphedi–Sundaradevi: 20 min
+- Haku–Sundaradevi: 15 min
+- Kalikasthan–Meghang: 10 min
+- Kalikasthan–Trishuli: 15 min
+- Meghang–Trishuli: 15 min
+
+FIELD DISPATCHES (several sources; listed in the order they reached the control room)
+[06:45] Radio Nuwakot FM (local radio, early bulletin): The Betrawati–Madanpur road is still passable this morning, drivers say. Around 8 people are believed to be stranded in Meghang (unconfirmed estimate). Around 7 people are believed to be stranded in Tadi (unconfirmed estimate). Mobile networks remain patchy across the district. Around 6 people are believed to be stranded in Bageshwari (unconfirmed estimate). Around 2 people are believed to be stranded in Sundaradevi (unconfirmed estimate). Debris is blocking the Bageshwari–Sundaradevi road. Around 7 people are believed to be stranded in Haku (unconfirmed estimate). The Chaughada–Madanpur road is still passable this morning, drivers say. Around 8 people are believed to be stranded in Ghyangphedi (unconfirmed estimate). Around 11 people are believed to be stranded in Madanpur (unconfirmed estimate). Residents of Belkot were seen on rooftops last night. Residents of Bhalche were seen on rooftops last night. The Battar–Bhalche road is still passable this morning, drivers say. Around 4 people are believed to be stranded in Chaughada (unconfirmed estimate).
+[13:15] Sunita Lama, The Himalayan Times (on the ground): Our team counted two injured people (a child with a deep gash on his leg and an elderly woman with a broken hip), one schoolchild, three senior citizens and three uninjured adults at Thaprek, all needing evacuation. The Kalikasthan–Meghang road is open but badly waterlogged; driving it now takes double the normal journey time. Our team counted four schoolchildren, 3 senior citizens and 5 other adults at Battar, all needing evacuation. The Bageshwari–Haku road is open but badly waterlogged; driving it adds a quarter of an hour to the usual journey. Debris has completely choked the road between Betrawati and Madanpur, cutting a road that was open earlier today. Confirmed headcount: Residents at Tadi say 2 children, one elderly resident and 2 uninjured adults are still there, sheltering on upper floors. Confirmed headcount: At Madanpur, three children and five able-bodied adults are waiting to be rescued. Belkot was fully evacuated by the army yesterday; no one remains there. The suspension bridge on the Chaughada–Thaprek route was swept away by the river. Confirmed headcount: Stranded at Haku: three schoolchildren and one uninjured adult. The Bageshwari–Sundaradevi road has been reopened after bulldozers removed the debris; travel times are back to normal. Confirmed headcount: Residents at Chaughada say one schoolchild and five able-bodied adults are still there, sheltering on upper floors. A government helicopter was seen flying north this morning but did not land. The only bridge linking Battar and Bhalche has collapsed, cutting a road that was open earlier today. Everyone from Bhalche has already been airlifted out. Residents at Kalikasthan say one injured person (a pregnant woman who was hit by debris), four children and 1 able-bodied adult are still there, sheltering on upper floors. The suspension bridge on the Bageshwari–Ghyangphedi route was swept away by the river. Confirmed headcount: At the health post in Sundaradevi, one child and three uninjured adults are waiting to be rescued. Confirmed headcount: Our team counted 4 children and 6 able-bodied adults at Ghyangphedi, all needing evacuation. Confirmed headcount: Residents at Meghang say 2 schoolchildren, one elderly resident and two able-bodied adults are still there, sheltering on upper floors. Stranded at the school in Trishuli: six schoolchildren, two elderly residents and one able-bodied adult. Confirmed headcount: Our team counted an elderly couple and two able-bodied adults at the health post in Bageshwari, all needing evacuation. The Chaughada–Madanpur road is under two metres of fast-flowing floodwater, cutting a road that was open earlier today.
+[09:30] District Police Office (situation report): The Bhalche–Chaughada road is open but badly waterlogged; driving it takes twice the usual time. In Kathmandu, schools have been closed for three days as a precaution. The Kalikasthan–Trishuli road is open but badly waterlogged; driving it takes twice the usual time.
+Anything not mentioned in these dispatches is in its usual condition, and no one else is known to be stranded.

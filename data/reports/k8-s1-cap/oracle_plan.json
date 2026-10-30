@@ -1,0 +1,223 @@
+{
+ "steps": [
+  {
+   "action": "move",
+   "from": "Khanigaun",
+   "to": "Battar"
+  },
+  {
+   "action": "pickup",
+   "location": "Battar"
+  },
+  {
+   "action": "move",
+   "from": "Battar",
+   "to": "Khanigaun"
+  },
+  {
+   "action": "dropoff",
+   "location": "Khanigaun"
+  },
+  {
+   "action": "move",
+   "from": "Khanigaun",
+   "to": "Battar"
+  },
+  {
+   "action": "move",
+   "from": "Battar",
+   "to": "Likhu"
+  },
+  {
+   "action": "pickup",
+   "location": "Likhu"
+  },
+  {
+   "action": "move",
+   "from": "Likhu",
+   "to": "Battar"
+  },
+  {
+   "action": "move",
+   "from": "Battar",
+   "to": "Khanigaun"
+  },
+  {
+   "action": "dropoff",
+   "location": "Khanigaun"
+  },
+  {
+   "action": "move",
+   "from": "Khanigaun",
+   "to": "Thaprek"
+  },
+  {
+   "action": "move",
+   "from": "Thaprek",
+   "to": "Kakani"
+  },
+  {
+   "action": "move",
+   "from": "Kakani",
+   "to": "Thansing"
+  },
+  {
+   "action": "move",
+   "from": "Thansing",
+   "to": "Kaule"
+  },
+  {
+   "action": "pickup",
+   "location": "Kaule"
+  },
+  {
+   "action": "move",
+   "from": "Kaule",
+   "to": "Thulogaun"
+  },
+  {
+   "action": "pickup",
+   "location": "Thulogaun"
+  },
+  {
+   "action": "move",
+   "from": "Thulogaun",
+   "to": "Kaule"
+  },
+  {
+   "action": "move",
+   "from": "Kaule",
+   "to": "Thansing"
+  },
+  {
+   "action": "move",
+   "from": "Thansing",
+   "to": "Kakani"
+  },
+  {
+   "action": "move",
+   "from": "Kakani",
+   "to": "Thaprek"
+  },
+  {
+   "action": "move",
+   "from": "Thaprek",
+   "to": "Khanigaun"
+  },
+  {
+   "action": "dropoff",
+   "location": "Khanigaun"
+  },
+  {
+   "action": "move",
+   "from": "Khanigaun",
+   "to": "Battar"
+  },
+  {
+   "action": "move",
+   "from": "Battar",
+   "to": "Dhaibung"
+  },
+  {
+   "action": "pickup",
+   "location": "Dhaibung"
+  },
+  {
+   "action": "move",
+   "from": "Dhaibung",
+   "to": "Dandagaun"
+  },
+  {
+   "action": "pickup",
+   "location": "Dandagaun"
+  },
+  {
+   "action": "move",
+   "from": "Dandagaun",
+   "to": "Dhaibung"
+  },
+  {
+   "action": "move",
+   "from": "Dhaibung",
+   "to": "Battar"
+  },
+  {
+   "action": "move",
+   "from": "Battar",
+   "to": "Khanigaun"
+  },
+  {
+   "action": "dropoff",
+   "location": "Khanigaun"
+  },
+  {
+   "action": "move",
+   "from": "Khanigaun",
+   "to": "Thaprek"
+  },
+  {
+   "action": "move",
+   "from": "Thaprek",
+   "to": "Kakani"
+  },
+  {
+   "action": "pickup",
+   "location": "Kakani"
+  },
+  {
+   "action": "move",
+   "from": "Kakani",
+   "to": "Thaprek"
+  },
+  {
+   "action": "move",
+   "from": "Thaprek",
+   "to": "Battar"
+  },
+  {
+   "action": "move",
+   "from": "Battar",
+   "to": "Likhu"
+  },
+  {
+   "action": "move",
+   "from": "Likhu",
+   "to": "Kalikasthan"
+  },
+  {
+   "action": "move",
+   "from": "Kalikasthan",
+   "to": "Tadi"
+  },
+  {
+   "action": "pickup",
+   "location": "Tadi"
+  },
+  {
+   "action": "move",
+   "from": "Tadi",
+   "to": "Kalikasthan"
+  },
+  {
+   "action": "move",
+   "from": "Kalikasthan",
+   "to": "Likhu"
+  },
+  {
+   "action": "move",
+   "from": "Likhu",
+   "to": "Battar"
+  },
+  {
+   "action": "move",
+   "from": "Battar",
+   "to": "Khanigaun"
+  },
+  {
+   "action": "dropoff",
+   "location": "Khanigaun"
+  }
+ ],
+ "unreachable": [],
+ "claimed_total_minutes": 570.0
+}

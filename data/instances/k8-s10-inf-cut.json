@@ -1,0 +1,292 @@
+{
+  "id": "k8-s10-inf-cut",
+  "locations": [
+    {
+      "id": "taruka",
+      "name": "Taruka",
+      "kind": "base"
+    },
+    {
+      "id": "ramche",
+      "name": "Ramche",
+      "kind": "village"
+    },
+    {
+      "id": "samundratar",
+      "name": "Samundratar",
+      "kind": "temple"
+    },
+    {
+      "id": "battar",
+      "name": "Battar",
+      "kind": "village"
+    },
+    {
+      "id": "dandagaun",
+      "name": "Dandagaun",
+      "kind": "school"
+    },
+    {
+      "id": "dupcheshwar",
+      "name": "Dupcheshwar",
+      "kind": "school"
+    },
+    {
+      "id": "salme",
+      "name": "Salme",
+      "kind": "health_post"
+    },
+    {
+      "id": "belkot",
+      "name": "Belkot",
+      "kind": "temple"
+    },
+    {
+      "id": "madanpur",
+      "name": "Madanpur",
+      "kind": "village"
+    },
+    {
+      "id": "bhalche",
+      "name": "Bhalche",
+      "kind": "evacuated_village"
+    },
+    {
+      "id": "goljung",
+      "name": "Goljung",
+      "kind": "evacuated_village"
+    },
+    {
+      "id": "haku",
+      "name": "Haku",
+      "kind": "junction"
+    },
+    {
+      "id": "likhu",
+      "name": "Likhu",
+      "kind": "junction"
+    }
+  ],
+  "roads": [
+    {
+      "u": "battar",
+      "v": "madanpur",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "battar",
+      "v": "samundratar",
+      "minutes": 30,
+      "open": true,
+      "base_minutes": 10,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "belkot",
+      "v": "bhalche",
+      "minutes": 25,
+      "open": true,
+      "base_minutes": 15,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "belkot",
+      "v": "likhu",
+      "minutes": 35,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "bhalche",
+      "v": "goljung",
+      "minutes": 25,
+      "open": true,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "blocked",
+        "cleared"
+      ]
+    },
+    {
+      "u": "bhalche",
+      "v": "likhu",
+      "minutes": 15,
+      "open": false,
+      "base_minutes": null,
+      "cause": "submerged",
+      "history": []
+    },
+    {
+      "u": "bhalche",
+      "v": "taruka",
+      "minutes": 20,
+      "open": false,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": []
+    },
+    {
+      "u": "dandagaun",
+      "v": "dupcheshwar",
+      "minutes": 25,
+      "open": false,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": []
+    },
+    {
+      "u": "dandagaun",
+      "v": "madanpur",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": [
+        "rumour"
+      ]
+    },
+    {
+      "u": "dandagaun",
+      "v": "salme",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "dupcheshwar",
+      "v": "haku",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "dupcheshwar",
+      "v": "salme",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "dupcheshwar",
+      "v": "taruka",
+      "minutes": 30,
+      "open": true,
+      "base_minutes": 15,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "goljung",
+      "v": "likhu",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "goljung",
+      "v": "samundratar",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "blocked",
+        "cleared"
+      ]
+    },
+    {
+      "u": "haku",
+      "v": "ramche",
+      "minutes": 15,
+      "open": false,
+      "base_minutes": null,
+      "cause": "bridge",
+      "history": []
+    },
+    {
+      "u": "madanpur",
+      "v": "taruka",
+      "minutes": 25,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    }
+  ],
+  "people": {
+    "ramche": {
+      "injured": 1,
+      "children": 1,
+      "adults": 5
+    },
+    "samundratar": {
+      "injured": 2,
+      "children": 2,
+      "elderly": 1,
+      "adults": 1
+    },
+    "battar": {
+      "children": 4,
+      "elderly": 3,
+      "adults": 1
+    },
+    "dandagaun": {
+      "children": 7,
+      "elderly": 3,
+      "adults": 2
+    },
+    "dupcheshwar": {
+      "children": 3,
+      "adults": 1
+    },
+    "salme": {
+      "children": 4,
+      "elderly": 3,
+      "adults": 5
+    },
+    "belkot": {
+      "injured": 1,
+      "children": 2,
+      "adults": 5
+    },
+    "madanpur": {
+      "children": 1,
+      "elderly": 1,
+      "adults": 4
+    }
+  },
+  "start": "taruka",
+  "shelter": "taruka",
+  "capacity": null,
+  "priority": "tiered",
+  "meta": {
+    "k": 8,
+    "seed": 10,
+    "extra_nodes": 4,
+    "n_roads": 17,
+    "n_blocked": 4,
+    "n_slowed": 3,
+    "cut_off": "ramche",
+    "capacity_mode": "unlimited",
+    "split": "test",
+    "rep": 2,
+    "condition": "unlimited-cut"
+  }
+}

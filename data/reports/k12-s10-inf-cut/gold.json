@@ -1,0 +1,311 @@
+{
+ "start": "Belkot",
+ "shelter": "Belkot",
+ "capacity": null,
+ "locations": [
+  {
+   "name": "Belkot",
+   "kind": "evacuation point"
+  },
+  {
+   "name": "Ghyangphedi",
+   "kind": "village"
+  },
+  {
+   "name": "Khanigaun",
+   "kind": "village"
+  },
+  {
+   "name": "Likhu",
+   "kind": "health post"
+  },
+  {
+   "name": "Kispang",
+   "kind": "school"
+  },
+  {
+   "name": "Goljung",
+   "kind": "village"
+  },
+  {
+   "name": "Lachyang",
+   "kind": "village"
+  },
+  {
+   "name": "Syaphru",
+   "kind": "school"
+  },
+  {
+   "name": "Dandagaun",
+   "kind": "village"
+  },
+  {
+   "name": "Haku",
+   "kind": "village"
+  },
+  {
+   "name": "Rautbesi",
+   "kind": "village"
+  },
+  {
+   "name": "Narjamandap",
+   "kind": "village"
+  },
+  {
+   "name": "Sundaradevi",
+   "kind": "village"
+  },
+  {
+   "name": "Ramche",
+   "kind": "village"
+  },
+  {
+   "name": "Okharpauwa",
+   "kind": "road junction"
+  }
+ ],
+ "roads": [
+  {
+   "between": [
+    "Belkot",
+    "Ghyangphedi"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Belkot",
+    "Khanigaun"
+   ],
+   "minutes": 50,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Belkot",
+    "Ramche"
+   ],
+   "minutes": 10,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Belkot",
+    "Rautbesi"
+   ],
+   "minutes": 10,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Dandagaun",
+    "Goljung"
+   ],
+   "minutes": 20,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Ghyangphedi",
+    "Kispang"
+   ],
+   "minutes": 20,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Ghyangphedi",
+    "Likhu"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Ghyangphedi",
+    "Rautbesi"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Goljung",
+    "Okharpauwa"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Goljung",
+    "Syaphru"
+   ],
+   "minutes": 30,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Haku",
+    "Khanigaun"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Haku",
+    "Lachyang"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Khanigaun",
+    "Ramche"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kispang",
+    "Likhu"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kispang",
+    "Rautbesi"
+   ],
+   "minutes": 30,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Lachyang",
+    "Sundaradevi"
+   ],
+   "minutes": 10,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Narjamandap",
+    "Okharpauwa"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Narjamandap",
+    "Rautbesi"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Okharpauwa",
+    "Rautbesi"
+   ],
+   "minutes": 30,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Okharpauwa",
+    "Syaphru"
+   ],
+   "minutes": 20,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Ramche",
+    "Sundaradevi"
+   ],
+   "minutes": 30,
+   "status": "open"
+  }
+ ],
+ "people": {
+  "Ghyangphedi": {
+   "injured": 0,
+   "children": 2,
+   "elderly": 2,
+   "adults": 5
+  },
+  "Khanigaun": {
+   "injured": 2,
+   "children": 0,
+   "elderly": 2,
+   "adults": 3
+  },
+  "Likhu": {
+   "injured": 0,
+   "children": 0,
+   "elderly": 0,
+   "adults": 1
+  },
+  "Kispang": {
+   "injured": 3,
+   "children": 3,
+   "elderly": 2,
+   "adults": 2
+  },
+  "Goljung": {
+   "injured": 0,
+   "children": 0,
+   "elderly": 3,
+   "adults": 4
+  },
+  "Lachyang": {
+   "injured": 0,
+   "children": 1,
+   "elderly": 3,
+   "adults": 4
+  },
+  "Syaphru": {
+   "injured": 1,
+   "children": 9,
+   "elderly": 0,
+   "adults": 2
+  },
+  "Dandagaun": {
+   "injured": 0,
+   "children": 4,
+   "elderly": 3,
+   "adults": 4
+  },
+  "Haku": {
+   "injured": 0,
+   "children": 1,
+   "elderly": 1,
+   "adults": 2
+  },
+  "Rautbesi": {
+   "injured": 0,
+   "children": 1,
+   "elderly": 0,
+   "adults": 2
+  },
+  "Narjamandap": {
+   "injured": 0,
+   "children": 0,
+   "elderly": 3,
+   "adults": 1
+  },
+  "Sundaradevi": {
+   "injured": 0,
+   "children": 1,
+   "elderly": 3,
+   "adults": 6
+  }
+ }
+}

@@ -1,0 +1,363 @@
+{
+ "start": "Thaprek",
+ "shelter": "Thaprek",
+ "capacity": null,
+ "locations": [
+  {
+   "name": "Thaprek",
+   "kind": "evacuation point"
+  },
+  {
+   "name": "Dhaibung",
+   "kind": "temple"
+  },
+  {
+   "name": "Khanigaun",
+   "kind": "village"
+  },
+  {
+   "name": "Ramche",
+   "kind": "temple"
+  },
+  {
+   "name": "Shikharbesi",
+   "kind": "ward office"
+  },
+  {
+   "name": "Belkot",
+   "kind": "village"
+  },
+  {
+   "name": "Laharepauwa",
+   "kind": "ward office"
+  },
+  {
+   "name": "Tupche",
+   "kind": "temple"
+  },
+  {
+   "name": "Betrawati",
+   "kind": "temple"
+  },
+  {
+   "name": "Kaule",
+   "kind": "village"
+  },
+  {
+   "name": "Lachyang",
+   "kind": "village"
+  },
+  {
+   "name": "Chhap",
+   "kind": "village"
+  },
+  {
+   "name": "Okharpauwa",
+   "kind": "temple"
+  },
+  {
+   "name": "Sundaradevi",
+   "kind": "village"
+  },
+  {
+   "name": "Chaughada",
+   "kind": "temple"
+  },
+  {
+   "name": "Kumari",
+   "kind": "temple"
+  },
+  {
+   "name": "Taruka",
+   "kind": "village"
+  },
+  {
+   "name": "Jiling",
+   "kind": "road junction"
+  }
+ ],
+ "roads": [
+  {
+   "between": [
+    "Belkot",
+    "Dhaibung"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Belkot",
+    "Kaule"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Belkot",
+    "Khanigaun"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Betrawati",
+    "Okharpauwa"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Betrawati",
+    "Ramche"
+   ],
+   "minutes": 10,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Betrawati",
+    "Shikharbesi"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Betrawati",
+    "Taruka"
+   ],
+   "minutes": 10,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Betrawati",
+    "Tupche"
+   ],
+   "minutes": 25,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Chaughada",
+    "Laharepauwa"
+   ],
+   "minutes": 25,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Chhap",
+    "Okharpauwa"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Jiling",
+    "Lachyang"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Jiling",
+    "Sundaradevi"
+   ],
+   "minutes": 30,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kaule",
+    "Laharepauwa"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kaule",
+    "Thaprek"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kumari",
+    "Laharepauwa"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kumari",
+    "Thaprek"
+   ],
+   "minutes": 10,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Lachyang",
+    "Shikharbesi"
+   ],
+   "minutes": 15,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Lachyang",
+    "Sundaradevi"
+   ],
+   "minutes": 10,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Ramche",
+    "Shikharbesi"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Ramche",
+    "Thaprek"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Shikharbesi",
+    "Sundaradevi"
+   ],
+   "minutes": 50,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Shikharbesi",
+    "Tupche"
+   ],
+   "minutes": 80,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Taruka",
+    "Tupche"
+   ],
+   "minutes": 15,
+   "status": "open"
+  }
+ ],
+ "people": {
+  "Dhaibung": {
+   "injured": 1,
+   "children": 0,
+   "elderly": 0,
+   "adults": 1
+  },
+  "Khanigaun": {
+   "injured": 0,
+   "children": 1,
+   "elderly": 0,
+   "adults": 2
+  },
+  "Ramche": {
+   "injured": 2,
+   "children": 0,
+   "elderly": 0,
+   "adults": 4
+  },
+  "Shikharbesi": {
+   "injured": 0,
+   "children": 0,
+   "elderly": 3,
+   "adults": 6
+  },
+  "Belkot": {
+   "injured": 2,
+   "children": 4,
+   "elderly": 0,
+   "adults": 5
+  },
+  "Laharepauwa": {
+   "injured": 3,
+   "children": 0,
+   "elderly": 0,
+   "adults": 2
+  },
+  "Tupche": {
+   "injured": 0,
+   "children": 0,
+   "elderly": 0,
+   "adults": 5
+  },
+  "Betrawati": {
+   "injured": 0,
+   "children": 4,
+   "elderly": 0,
+   "adults": 3
+  },
+  "Kaule": {
+   "injured": 0,
+   "children": 0,
+   "elderly": 1,
+   "adults": 1
+  },
+  "Lachyang": {
+   "injured": 0,
+   "children": 0,
+   "elderly": 2,
+   "adults": 3
+  },
+  "Chhap": {
+   "injured": 0,
+   "children": 2,
+   "elderly": 1,
+   "adults": 4
+  },
+  "Okharpauwa": {
+   "injured": 0,
+   "children": 2,
+   "elderly": 2,
+   "adults": 5
+  },
+  "Sundaradevi": {
+   "injured": 0,
+   "children": 0,
+   "elderly": 2,
+   "adults": 3
+  },
+  "Chaughada": {
+   "injured": 2,
+   "children": 3,
+   "elderly": 2,
+   "adults": 3
+  },
+  "Kumari": {
+   "injured": 3,
+   "children": 0,
+   "elderly": 3,
+   "adults": 6
+  },
+  "Taruka": {
+   "injured": 0,
+   "children": 0,
+   "elderly": 3,
+   "adults": 6
+  }
+ }
+}

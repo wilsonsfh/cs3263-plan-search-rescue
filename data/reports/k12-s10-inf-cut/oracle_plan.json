@@ -1,0 +1,201 @@
+{
+ "steps": [
+  {
+   "action": "move",
+   "from": "Belkot",
+   "to": "Khanigaun"
+  },
+  {
+   "action": "pickup",
+   "location": "Khanigaun"
+  },
+  {
+   "action": "move",
+   "from": "Khanigaun",
+   "to": "Belkot"
+  },
+  {
+   "action": "move",
+   "from": "Belkot",
+   "to": "Ghyangphedi"
+  },
+  {
+   "action": "move",
+   "from": "Ghyangphedi",
+   "to": "Likhu"
+  },
+  {
+   "action": "move",
+   "from": "Likhu",
+   "to": "Kispang"
+  },
+  {
+   "action": "pickup",
+   "location": "Kispang"
+  },
+  {
+   "action": "move",
+   "from": "Kispang",
+   "to": "Rautbesi"
+  },
+  {
+   "action": "move",
+   "from": "Rautbesi",
+   "to": "Okharpauwa"
+  },
+  {
+   "action": "move",
+   "from": "Okharpauwa",
+   "to": "Goljung"
+  },
+  {
+   "action": "move",
+   "from": "Goljung",
+   "to": "Syaphru"
+  },
+  {
+   "action": "pickup",
+   "location": "Syaphru"
+  },
+  {
+   "action": "move",
+   "from": "Syaphru",
+   "to": "Goljung"
+  },
+  {
+   "action": "pickup",
+   "location": "Goljung"
+  },
+  {
+   "action": "move",
+   "from": "Goljung",
+   "to": "Okharpauwa"
+  },
+  {
+   "action": "move",
+   "from": "Okharpauwa",
+   "to": "Narjamandap"
+  },
+  {
+   "action": "pickup",
+   "location": "Narjamandap"
+  },
+  {
+   "action": "move",
+   "from": "Narjamandap",
+   "to": "Rautbesi"
+  },
+  {
+   "action": "pickup",
+   "location": "Rautbesi"
+  },
+  {
+   "action": "move",
+   "from": "Rautbesi",
+   "to": "Ghyangphedi"
+  },
+  {
+   "action": "pickup",
+   "location": "Ghyangphedi"
+  },
+  {
+   "action": "move",
+   "from": "Ghyangphedi",
+   "to": "Belkot"
+  },
+  {
+   "action": "move",
+   "from": "Belkot",
+   "to": "Khanigaun"
+  },
+  {
+   "action": "move",
+   "from": "Khanigaun",
+   "to": "Haku"
+  },
+  {
+   "action": "pickup",
+   "location": "Haku"
+  },
+  {
+   "action": "move",
+   "from": "Haku",
+   "to": "Lachyang"
+  },
+  {
+   "action": "pickup",
+   "location": "Lachyang"
+  },
+  {
+   "action": "move",
+   "from": "Lachyang",
+   "to": "Haku"
+  },
+  {
+   "action": "move",
+   "from": "Haku",
+   "to": "Khanigaun"
+  },
+  {
+   "action": "move",
+   "from": "Khanigaun",
+   "to": "Ramche"
+  },
+  {
+   "action": "move",
+   "from": "Ramche",
+   "to": "Sundaradevi"
+  },
+  {
+   "action": "pickup",
+   "location": "Sundaradevi"
+  },
+  {
+   "action": "move",
+   "from": "Sundaradevi",
+   "to": "Ramche"
+  },
+  {
+   "action": "move",
+   "from": "Ramche",
+   "to": "Khanigaun"
+  },
+  {
+   "action": "move",
+   "from": "Khanigaun",
+   "to": "Belkot"
+  },
+  {
+   "action": "move",
+   "from": "Belkot",
+   "to": "Ghyangphedi"
+  },
+  {
+   "action": "move",
+   "from": "Ghyangphedi",
+   "to": "Likhu"
+  },
+  {
+   "action": "pickup",
+   "location": "Likhu"
+  },
+  {
+   "action": "move",
+   "from": "Likhu",
+   "to": "Ghyangphedi"
+  },
+  {
+   "action": "move",
+   "from": "Ghyangphedi",
+   "to": "Belkot"
+  },
+  {
+   "action": "dropoff",
+   "location": "Belkot"
+  }
+ ],
+ "unreachable": [
+  "Dandagaun"
+ ],
+ "claimed_total_minutes": 670.0
+}

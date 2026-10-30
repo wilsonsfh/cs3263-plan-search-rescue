@@ -1,0 +1,165 @@
+{
+  "id": "k4-s5-cap",
+  "locations": [
+    {
+      "id": "taruka",
+      "name": "Taruka",
+      "kind": "base"
+    },
+    {
+      "id": "thaprek",
+      "name": "Thaprek",
+      "kind": "village"
+    },
+    {
+      "id": "suryagadhi",
+      "name": "Suryagadhi",
+      "kind": "village"
+    },
+    {
+      "id": "chaughada",
+      "name": "Chaughada",
+      "kind": "village"
+    },
+    {
+      "id": "likhu",
+      "name": "Likhu",
+      "kind": "temple"
+    },
+    {
+      "id": "samundratar",
+      "name": "Samundratar",
+      "kind": "evacuated_village"
+    },
+    {
+      "id": "sundaradevi",
+      "name": "Sundaradevi",
+      "kind": "junction"
+    }
+  ],
+  "roads": [
+    {
+      "u": "chaughada",
+      "v": "likhu",
+      "minutes": 35,
+      "open": true,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "blocked",
+        "cleared"
+      ]
+    },
+    {
+      "u": "chaughada",
+      "v": "samundratar",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "chaughada",
+      "v": "taruka",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "chaughada",
+      "v": "thaprek",
+      "minutes": 30,
+      "open": true,
+      "base_minutes": 15,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "likhu",
+      "v": "sundaradevi",
+      "minutes": 70,
+      "open": true,
+      "base_minutes": 35,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "likhu",
+      "v": "taruka",
+      "minutes": 25,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "sundaradevi",
+      "v": "suryagadhi",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "suryagadhi",
+      "v": "taruka",
+      "minutes": 30,
+      "open": false,
+      "base_minutes": null,
+      "cause": "submerged",
+      "history": []
+    },
+    {
+      "u": "taruka",
+      "v": "thaprek",
+      "minutes": 25,
+      "open": false,
+      "base_minutes": null,
+      "cause": "bridge",
+      "history": []
+    }
+  ],
+  "people": {
+    "thaprek": {
+      "injured": 1,
+      "children": 2,
+      "elderly": 2,
+      "adults": 5
+    },
+    "suryagadhi": {
+      "elderly": 2,
+      "adults": 5
+    },
+    "chaughada": {
+      "children": 2,
+      "elderly": 1,
+      "adults": 1
+    },
+    "likhu": {
+      "children": 3,
+      "elderly": 3,
+      "adults": 2
+    }
+  },
+  "start": "taruka",
+  "shelter": "taruka",
+  "capacity": 17,
+  "priority": "tiered",
+  "meta": {
+    "k": 4,
+    "seed": 5,
+    "extra_nodes": 2,
+    "n_roads": 9,
+    "n_blocked": 2,
+    "n_slowed": 2,
+    "cut_off": null,
+    "capacity_mode": "tight",
+    "split": "test",
+    "rep": 1,
+    "condition": "tight"
+  }
+}

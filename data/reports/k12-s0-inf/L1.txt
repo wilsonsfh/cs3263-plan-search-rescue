@@ -1,0 +1,52 @@
+MISSION SHEET
+- Team base and starting point: Likhu
+- Shelter where evacuees must be delivered: Likhu
+- Vehicle capacity: no practical limit (enough vehicles to carry everyone at once)
+- Places on the district map: Likhu (evacuation point), Kumari (school), Sundaradevi (school), Goljung (village), Tupche (village), Ramche (ward office), Tadi (temple), Kaule (health post), Meghang (temple), Thansing (village), Haku (school), Panchakanya (village), Salme (school), Taruka (road junction)
+
+ROAD REGISTER (pre-flood network; usual one-way driving times, roads are two-way)
+- Goljung–Likhu: 15 min
+- Goljung–Meghang: 10 min
+- Goljung–Panchakanya: 15 min
+- Goljung–Thansing: 15 min
+- Haku–Kumari: 5 min
+- Haku–Tupche: 20 min
+- Kaule–Salme: 15 min
+- Kaule–Tadi: 20 min
+- Kaule–Taruka: 10 min
+- Kumari–Sundaradevi: 20 min
+- Likhu–Panchakanya: 5 min
+- Meghang–Salme: 15 min
+- Meghang–Taruka: 15 min
+- Panchakanya–Ramche: 15 min
+- Salme–Sundaradevi: 20 min
+- Salme–Tadi: 10 min
+- Salme–Taruka: 20 min
+- Sundaradevi–Tadi: 25 min
+
+FIELD REPORT (district control room, 12:00)
+Road status changes since the flood:
+- Goljung–Likhu: open, travel time now 30 min
+- Kaule–Salme: open, travel time now 30 min
+- Kaule–Taruka: BLOCKED
+- Kumari–Sundaradevi: open, travel time now 40 min
+- Likhu–Panchakanya: BLOCKED
+- Meghang–Salme: BLOCKED
+- Salme–Sundaradevi: BLOCKED
+- Salme–Tadi: BLOCKED
+- Salme–Taruka: open, travel time now 40 min
+All other roads: open, usual travel time.
+People waiting for rescue:
+- Kumari: 0 injured, 4 children, 0 elderly, 1 adults
+- Sundaradevi: 1 injured, 9 children, 2 elderly, 1 adults
+- Goljung: 0 injured, 1 children, 1 elderly, 5 adults
+- Tupche: 2 injured, 1 children, 3 elderly, 4 adults
+- Ramche: 0 injured, 4 children, 3 elderly, 1 adults
+- Tadi: 0 injured, 1 children, 1 elderly, 2 adults
+- Kaule: 0 injured, 0 children, 1 elderly, 6 adults
+- Meghang: 1 injured, 4 children, 3 elderly, 6 adults
+- Thansing: 2 injured, 2 children, 0 elderly, 1 adults
+- Haku: 0 injured, 3 children, 1 elderly, 1 adults
+- Panchakanya: 0 injured, 0 children, 2 elderly, 3 adults
+- Salme: 0 injured, 9 children, 2 elderly, 1 adults
+No one is waiting at any other location.

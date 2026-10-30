@@ -1,0 +1,248 @@
+{
+ "steps": [
+  {
+   "action": "move",
+   "from": "Belkot",
+   "to": "Narjamandap"
+  },
+  {
+   "action": "move",
+   "from": "Narjamandap",
+   "to": "Salme"
+  },
+  {
+   "action": "pickup",
+   "location": "Salme"
+  },
+  {
+   "action": "move",
+   "from": "Salme",
+   "to": "Narjamandap"
+  },
+  {
+   "action": "move",
+   "from": "Narjamandap",
+   "to": "Belkot"
+  },
+  {
+   "action": "move",
+   "from": "Belkot",
+   "to": "Taruka"
+  },
+  {
+   "action": "move",
+   "from": "Taruka",
+   "to": "Okharpauwa"
+  },
+  {
+   "action": "move",
+   "from": "Okharpauwa",
+   "to": "Rautbesi"
+  },
+  {
+   "action": "pickup",
+   "location": "Rautbesi"
+  },
+  {
+   "action": "move",
+   "from": "Rautbesi",
+   "to": "Okharpauwa"
+  },
+  {
+   "action": "move",
+   "from": "Okharpauwa",
+   "to": "Taruka"
+  },
+  {
+   "action": "move",
+   "from": "Taruka",
+   "to": "Belkot"
+  },
+  {
+   "action": "dropoff",
+   "location": "Belkot"
+  },
+  {
+   "action": "move",
+   "from": "Belkot",
+   "to": "Taruka"
+  },
+  {
+   "action": "move",
+   "from": "Taruka",
+   "to": "Okharpauwa"
+  },
+  {
+   "action": "move",
+   "from": "Okharpauwa",
+   "to": "Rautbesi"
+  },
+  {
+   "action": "move",
+   "from": "Rautbesi",
+   "to": "Jiling"
+  },
+  {
+   "action": "pickup",
+   "location": "Jiling"
+  },
+  {
+   "action": "move",
+   "from": "Jiling",
+   "to": "Likhu"
+  },
+  {
+   "action": "pickup",
+   "location": "Likhu"
+  },
+  {
+   "action": "move",
+   "from": "Likhu",
+   "to": "Jiling"
+  },
+  {
+   "action": "move",
+   "from": "Jiling",
+   "to": "Rautbesi"
+  },
+  {
+   "action": "move",
+   "from": "Rautbesi",
+   "to": "Okharpauwa"
+  },
+  {
+   "action": "move",
+   "from": "Okharpauwa",
+   "to": "Taruka"
+  },
+  {
+   "action": "move",
+   "from": "Taruka",
+   "to": "Belkot"
+  },
+  {
+   "action": "dropoff",
+   "location": "Belkot"
+  },
+  {
+   "action": "move",
+   "from": "Belkot",
+   "to": "Taruka"
+  },
+  {
+   "action": "pickup",
+   "location": "Taruka"
+  },
+  {
+   "action": "move",
+   "from": "Taruka",
+   "to": "Ghyangphedi"
+  },
+  {
+   "action": "pickup",
+   "location": "Ghyangphedi"
+  },
+  {
+   "action": "move",
+   "from": "Ghyangphedi",
+   "to": "Dhaibung"
+  },
+  {
+   "action": "pickup",
+   "location": "Dhaibung"
+  },
+  {
+   "action": "move",
+   "from": "Dhaibung",
+   "to": "Ghyangphedi"
+  },
+  {
+   "action": "move",
+   "from": "Ghyangphedi",
+   "to": "Taruka"
+  },
+  {
+   "action": "move",
+   "from": "Taruka",
+   "to": "Belkot"
+  },
+  {
+   "action": "dropoff",
+   "location": "Belkot"
+  },
+  {
+   "action": "move",
+   "from": "Belkot",
+   "to": "Narjamandap"
+  },
+  {
+   "action": "move",
+   "from": "Narjamandap",
+   "to": "Shikharbesi"
+  },
+  {
+   "action": "pickup",
+   "location": "Shikharbesi"
+  },
+  {
+   "action": "move",
+   "from": "Shikharbesi",
+   "to": "Thansing"
+  },
+  {
+   "action": "pickup",
+   "location": "Thansing"
+  },
+  {
+   "action": "move",
+   "from": "Thansing",
+   "to": "Shikharbesi"
+  },
+  {
+   "action": "move",
+   "from": "Shikharbesi",
+   "to": "Kaule"
+  },
+  {
+   "action": "move",
+   "from": "Kaule",
+   "to": "Madanpur"
+  },
+  {
+   "action": "pickup",
+   "location": "Madanpur"
+  },
+  {
+   "action": "move",
+   "from": "Madanpur",
+   "to": "Kaule"
+  },
+  {
+   "action": "move",
+   "from": "Kaule",
+   "to": "Shikharbesi"
+  },
+  {
+   "action": "move",
+   "from": "Shikharbesi",
+   "to": "Narjamandap"
+  },
+  {
+   "action": "pickup",
+   "location": "Narjamandap"
+  },
+  {
+   "action": "move",
+   "from": "Narjamandap",
+   "to": "Belkot"
+  },
+  {
+   "action": "dropoff",
+   "location": "Belkot"
+  }
+ ],
+ "unreachable": [
+  "Goljung"
+ ],
+ "claimed_total_minutes": 690.0
+}

@@ -1,0 +1,110 @@
+{
+ "steps": [
+  {
+   "action": "move",
+   "from": "Kumari",
+   "to": "Taruka"
+  },
+  {
+   "action": "move",
+   "from": "Taruka",
+   "to": "Suryagadhi"
+  },
+  {
+   "action": "pickup",
+   "location": "Suryagadhi"
+  },
+  {
+   "action": "move",
+   "from": "Suryagadhi",
+   "to": "Bhorle"
+  },
+  {
+   "action": "move",
+   "from": "Bhorle",
+   "to": "Bageshwari"
+  },
+  {
+   "action": "pickup",
+   "location": "Bageshwari"
+  },
+  {
+   "action": "move",
+   "from": "Bageshwari",
+   "to": "Kakani"
+  },
+  {
+   "action": "pickup",
+   "location": "Kakani"
+  },
+  {
+   "action": "move",
+   "from": "Kakani",
+   "to": "Bageshwari"
+  },
+  {
+   "action": "move",
+   "from": "Bageshwari",
+   "to": "Bhorle"
+  },
+  {
+   "action": "move",
+   "from": "Bhorle",
+   "to": "Taruka"
+  },
+  {
+   "action": "pickup",
+   "location": "Taruka"
+  },
+  {
+   "action": "move",
+   "from": "Taruka",
+   "to": "Narjamandap"
+  },
+  {
+   "action": "pickup",
+   "location": "Narjamandap"
+  },
+  {
+   "action": "move",
+   "from": "Narjamandap",
+   "to": "Thansing"
+  },
+  {
+   "action": "pickup",
+   "location": "Thansing"
+  },
+  {
+   "action": "move",
+   "from": "Thansing",
+   "to": "Trishuli"
+  },
+  {
+   "action": "pickup",
+   "location": "Trishuli"
+  },
+  {
+   "action": "move",
+   "from": "Trishuli",
+   "to": "Thansing"
+  },
+  {
+   "action": "move",
+   "from": "Thansing",
+   "to": "Narjamandap"
+  },
+  {
+   "action": "move",
+   "from": "Narjamandap",
+   "to": "Kumari"
+  },
+  {
+   "action": "dropoff",
+   "location": "Kumari"
+  }
+ ],
+ "unreachable": [
+  "Thaprek"
+ ],
+ "claimed_total_minutes": 300.0
+}

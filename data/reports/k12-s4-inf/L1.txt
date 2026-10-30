@@ -1,0 +1,57 @@
+MISSION SHEET
+- Team base and starting point: Salme
+- Shelter where evacuees must be delivered: Salme
+- Vehicle capacity: no practical limit (enough vehicles to carry everyone at once)
+- Places on the district map: Salme (evacuation point), Dhaibung (health post), Ramche (village), Kispang (health post), Dandagaun (village), Kaule (village), Chaughada (health post), Battar (school), Taruka (school), Panchakanya (village), Betrawati (village), Khanigaun (health post), Gerkhu (village), Dupcheshwar (village), Tadi (road junction), Laharepauwa (village), Likhu (village)
+
+ROAD REGISTER (pre-flood network; usual one-way driving times, roads are two-way)
+- Battar–Dandagaun: 10 min
+- Battar–Panchakanya: 15 min
+- Battar–Tadi: 10 min
+- Betrawati–Kaule: 20 min
+- Chaughada–Khanigaun: 10 min
+- Chaughada–Kispang: 15 min
+- Dandagaun–Panchakanya: 10 min
+- Dandagaun–Tadi: 15 min
+- Dhaibung–Dupcheshwar: 20 min
+- Dhaibung–Taruka: 30 min
+- Dupcheshwar–Likhu: 20 min
+- Dupcheshwar–Taruka: 10 min
+- Gerkhu–Likhu: 15 min
+- Gerkhu–Salme: 10 min
+- Kaule–Likhu: 5 min
+- Kaule–Salme: 25 min
+- Khanigaun–Laharepauwa: 15 min
+- Khanigaun–Tadi: 10 min
+- Laharepauwa–Ramche: 10 min
+- Laharepauwa–Salme: 10 min
+- Laharepauwa–Tadi: 10 min
+- Panchakanya–Ramche: 15 min
+- Ramche–Salme: 25 min
+
+FIELD REPORT (district control room, 12:00)
+Road status changes since the flood:
+- Battar–Panchakanya: open, travel time now 30 min
+- Dandagaun–Tadi: BLOCKED
+- Dupcheshwar–Taruka: BLOCKED
+- Gerkhu–Likhu: open, travel time now 30 min
+- Khanigaun–Laharepauwa: BLOCKED
+- Laharepauwa–Ramche: open, travel time now 20 min
+- Laharepauwa–Salme: BLOCKED
+- Laharepauwa–Tadi: BLOCKED
+- Ramche–Salme: open, travel time now 50 min
+All other roads: open, usual travel time.
+People waiting for rescue:
+- Dhaibung: 0 injured, 0 children, 1 elderly, 5 adults
+- Ramche: 0 injured, 1 children, 1 elderly, 1 adults
+- Kispang: 0 injured, 0 children, 2 elderly, 4 adults
+- Dandagaun: 0 injured, 3 children, 0 elderly, 3 adults
+- Kaule: 0 injured, 4 children, 2 elderly, 5 adults
+- Chaughada: 0 injured, 0 children, 2 elderly, 2 adults
+- Battar: 2 injured, 8 children, 2 elderly, 1 adults
+- Taruka: 0 injured, 5 children, 3 elderly, 1 adults
+- Panchakanya: 0 injured, 0 children, 0 elderly, 2 adults
+- Betrawati: 0 injured, 0 children, 1 elderly, 4 adults
+- Khanigaun: 3 injured, 4 children, 1 elderly, 3 adults
+- Gerkhu: 2 injured, 1 children, 1 elderly, 6 adults
+No one is waiting at any other location.

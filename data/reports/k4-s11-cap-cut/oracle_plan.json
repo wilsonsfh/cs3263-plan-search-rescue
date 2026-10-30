@@ -1,0 +1,63 @@
+{
+ "steps": [
+  {
+   "action": "move",
+   "from": "Dupcheshwar",
+   "to": "Kispang"
+  },
+  {
+   "action": "pickup",
+   "location": "Kispang"
+  },
+  {
+   "action": "move",
+   "from": "Kispang",
+   "to": "Dupcheshwar"
+  },
+  {
+   "action": "dropoff",
+   "location": "Dupcheshwar"
+  },
+  {
+   "action": "move",
+   "from": "Dupcheshwar",
+   "to": "Kispang"
+  },
+  {
+   "action": "move",
+   "from": "Kispang",
+   "to": "Taruka"
+  },
+  {
+   "action": "pickup",
+   "location": "Taruka"
+  },
+  {
+   "action": "move",
+   "from": "Taruka",
+   "to": "Likhu"
+  },
+  {
+   "action": "move",
+   "from": "Likhu",
+   "to": "Ramche"
+  },
+  {
+   "action": "pickup",
+   "location": "Ramche"
+  },
+  {
+   "action": "move",
+   "from": "Ramche",
+   "to": "Dupcheshwar"
+  },
+  {
+   "action": "dropoff",
+   "location": "Dupcheshwar"
+  }
+ ],
+ "unreachable": [
+  "Kalikasthan"
+ ],
+ "claimed_total_minutes": 290.0
+}

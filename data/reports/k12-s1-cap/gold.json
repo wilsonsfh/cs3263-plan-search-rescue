@@ -1,0 +1,311 @@
+{
+ "start": "Ramche",
+ "shelter": "Ramche",
+ "capacity": 17,
+ "locations": [
+  {
+   "name": "Ramche",
+   "kind": "evacuation point"
+  },
+  {
+   "name": "Bhalche",
+   "kind": "village"
+  },
+  {
+   "name": "Likhu",
+   "kind": "health post"
+  },
+  {
+   "name": "Rautbesi",
+   "kind": "village"
+  },
+  {
+   "name": "Khanigaun",
+   "kind": "village"
+  },
+  {
+   "name": "Dupcheshwar",
+   "kind": "village"
+  },
+  {
+   "name": "Dandagaun",
+   "kind": "village"
+  },
+  {
+   "name": "Syaphru",
+   "kind": "village"
+  },
+  {
+   "name": "Kalikasthan",
+   "kind": "health post"
+  },
+  {
+   "name": "Jiling",
+   "kind": "village"
+  },
+  {
+   "name": "Kispang",
+   "kind": "temple"
+  },
+  {
+   "name": "Salme",
+   "kind": "village"
+  },
+  {
+   "name": "Taruka",
+   "kind": "health post"
+  },
+  {
+   "name": "Chaughada",
+   "kind": "road junction"
+  },
+  {
+   "name": "Laharepauwa",
+   "kind": "road junction"
+  }
+ ],
+ "roads": [
+  {
+   "between": [
+    "Bhalche",
+    "Dupcheshwar"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Bhalche",
+    "Kispang"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Bhalche",
+    "Taruka"
+   ],
+   "minutes": 10,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Chaughada",
+    "Dandagaun"
+   ],
+   "minutes": 15,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Chaughada",
+    "Ramche"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Chaughada",
+    "Syaphru"
+   ],
+   "minutes": 30,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Dandagaun",
+    "Salme"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Dupcheshwar",
+    "Kispang"
+   ],
+   "minutes": 15,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Jiling",
+    "Kalikasthan"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Jiling",
+    "Kispang"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Jiling",
+    "Laharepauwa"
+   ],
+   "minutes": 40,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Jiling",
+    "Likhu"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Jiling",
+    "Ramche"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kalikasthan",
+    "Khanigaun"
+   ],
+   "minutes": 25,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kalikasthan",
+    "Laharepauwa"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kalikasthan",
+    "Rautbesi"
+   ],
+   "minutes": 40,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Khanigaun",
+    "Rautbesi"
+   ],
+   "minutes": 15,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Likhu",
+    "Ramche"
+   ],
+   "minutes": 10,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Likhu",
+    "Rautbesi"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Salme",
+    "Syaphru"
+   ],
+   "minutes": 40,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Syaphru",
+    "Taruka"
+   ],
+   "minutes": 5,
+   "status": "open"
+  }
+ ],
+ "people": {
+  "Bhalche": {
+   "injured": 0,
+   "children": 4,
+   "elderly": 1,
+   "adults": 6
+  },
+  "Likhu": {
+   "injured": 3,
+   "children": 0,
+   "elderly": 3,
+   "adults": 5
+  },
+  "Rautbesi": {
+   "injured": 3,
+   "children": 1,
+   "elderly": 0,
+   "adults": 5
+  },
+  "Khanigaun": {
+   "injured": 0,
+   "children": 4,
+   "elderly": 3,
+   "adults": 6
+  },
+  "Dupcheshwar": {
+   "injured": 1,
+   "children": 0,
+   "elderly": 0,
+   "adults": 4
+  },
+  "Dandagaun": {
+   "injured": 0,
+   "children": 2,
+   "elderly": 0,
+   "adults": 4
+  },
+  "Syaphru": {
+   "injured": 3,
+   "children": 1,
+   "elderly": 3,
+   "adults": 4
+  },
+  "Kalikasthan": {
+   "injured": 1,
+   "children": 0,
+   "elderly": 2,
+   "adults": 2
+  },
+  "Jiling": {
+   "injured": 0,
+   "children": 0,
+   "elderly": 1,
+   "adults": 1
+  },
+  "Kispang": {
+   "injured": 3,
+   "children": 3,
+   "elderly": 0,
+   "adults": 2
+  },
+  "Salme": {
+   "injured": 0,
+   "children": 1,
+   "elderly": 2,
+   "adults": 1
+  },
+  "Taruka": {
+   "injured": 1,
+   "children": 2,
+   "elderly": 0,
+   "adults": 6
+  }
+ }
+}

@@ -1,0 +1,449 @@
+{
+  "id": "k16-s8-inf",
+  "locations": [
+    {
+      "id": "jiling",
+      "name": "Jiling",
+      "kind": "base"
+    },
+    {
+      "id": "ghyangphedi",
+      "name": "Ghyangphedi",
+      "kind": "village"
+    },
+    {
+      "id": "laharepauwa",
+      "name": "Laharepauwa",
+      "kind": "temple"
+    },
+    {
+      "id": "shikharbesi",
+      "name": "Shikharbesi",
+      "kind": "school"
+    },
+    {
+      "id": "tadi",
+      "name": "Tadi",
+      "kind": "village"
+    },
+    {
+      "id": "betrawati",
+      "name": "Betrawati",
+      "kind": "village"
+    },
+    {
+      "id": "madanpur",
+      "name": "Madanpur",
+      "kind": "village"
+    },
+    {
+      "id": "haku",
+      "name": "Haku",
+      "kind": "village"
+    },
+    {
+      "id": "rautbesi",
+      "name": "Rautbesi",
+      "kind": "village"
+    },
+    {
+      "id": "belkot",
+      "name": "Belkot",
+      "kind": "village"
+    },
+    {
+      "id": "kakani",
+      "name": "Kakani",
+      "kind": "temple"
+    },
+    {
+      "id": "sundaradevi",
+      "name": "Sundaradevi",
+      "kind": "ward_office"
+    },
+    {
+      "id": "kispang",
+      "name": "Kispang",
+      "kind": "school"
+    },
+    {
+      "id": "bhalche",
+      "name": "Bhalche",
+      "kind": "village"
+    },
+    {
+      "id": "suryagadhi",
+      "name": "Suryagadhi",
+      "kind": "health_post"
+    },
+    {
+      "id": "kalikasthan",
+      "name": "Kalikasthan",
+      "kind": "health_post"
+    },
+    {
+      "id": "syaphru",
+      "name": "Syaphru",
+      "kind": "village"
+    },
+    {
+      "id": "kaule",
+      "name": "Kaule",
+      "kind": "evacuated_village"
+    },
+    {
+      "id": "battar",
+      "name": "Battar",
+      "kind": "evacuated_village"
+    }
+  ],
+  "roads": [
+    {
+      "u": "battar",
+      "v": "bhalche",
+      "minutes": 25,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "battar",
+      "v": "haku",
+      "minutes": 15,
+      "open": false,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "open",
+        "blocked"
+      ]
+    },
+    {
+      "u": "battar",
+      "v": "rautbesi",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "belkot",
+      "v": "bhalche",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": 10,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "belkot",
+      "v": "haku",
+      "minutes": 15,
+      "open": false,
+      "base_minutes": null,
+      "cause": "submerged",
+      "history": [
+        "open",
+        "blocked"
+      ]
+    },
+    {
+      "u": "belkot",
+      "v": "jiling",
+      "minutes": 10,
+      "open": false,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "open",
+        "blocked"
+      ]
+    },
+    {
+      "u": "betrawati",
+      "v": "kalikasthan",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "blocked",
+        "cleared"
+      ]
+    },
+    {
+      "u": "betrawati",
+      "v": "madanpur",
+      "minutes": 5,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "bhalche",
+      "v": "sundaradevi",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "bhalche",
+      "v": "suryagadhi",
+      "minutes": 25,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "ghyangphedi",
+      "v": "jiling",
+      "minutes": 15,
+      "open": false,
+      "base_minutes": null,
+      "cause": "bridge",
+      "history": []
+    },
+    {
+      "u": "ghyangphedi",
+      "v": "shikharbesi",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": 10,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "haku",
+      "v": "kaule",
+      "minutes": 15,
+      "open": false,
+      "base_minutes": null,
+      "cause": "landslide",
+      "history": []
+    },
+    {
+      "u": "haku",
+      "v": "rautbesi",
+      "minutes": 25,
+      "open": true,
+      "base_minutes": 10,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "jiling",
+      "v": "syaphru",
+      "minutes": 25,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "jiling",
+      "v": "tadi",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "kakani",
+      "v": "shikharbesi",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "kakani",
+      "v": "suryagadhi",
+      "minutes": 25,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "kalikasthan",
+      "v": "madanpur",
+      "minutes": 10,
+      "open": false,
+      "base_minutes": null,
+      "cause": "landslide",
+      "history": [
+        "open",
+        "blocked"
+      ]
+    },
+    {
+      "u": "kalikasthan",
+      "v": "shikharbesi",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "kaule",
+      "v": "laharepauwa",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": [
+        "rumour"
+      ]
+    },
+    {
+      "u": "kaule",
+      "v": "rautbesi",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": [
+        "rumour"
+      ]
+    },
+    {
+      "u": "kispang",
+      "v": "laharepauwa",
+      "minutes": 35,
+      "open": true,
+      "base_minutes": 15,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "kispang",
+      "v": "syaphru",
+      "minutes": 25,
+      "open": true,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "blocked",
+        "cleared"
+      ]
+    },
+    {
+      "u": "sundaradevi",
+      "v": "suryagadhi",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "syaphru",
+      "v": "tadi",
+      "minutes": 30,
+      "open": true,
+      "base_minutes": 15,
+      "cause": "waterlogged",
+      "history": []
+    }
+  ],
+  "people": {
+    "ghyangphedi": {
+      "elderly": 1,
+      "adults": 3
+    },
+    "laharepauwa": {
+      "injured": 3,
+      "children": 1,
+      "adults": 6
+    },
+    "shikharbesi": {
+      "children": 9,
+      "elderly": 1,
+      "adults": 2
+    },
+    "tadi": {
+      "adults": 1
+    },
+    "betrawati": {
+      "elderly": 1,
+      "adults": 1
+    },
+    "madanpur": {
+      "children": 1,
+      "elderly": 3,
+      "adults": 1
+    },
+    "haku": {
+      "adults": 2
+    },
+    "rautbesi": {
+      "children": 2,
+      "adults": 5
+    },
+    "belkot": {
+      "children": 4,
+      "adults": 6
+    },
+    "kakani": {
+      "children": 3,
+      "elderly": 3,
+      "adults": 2
+    },
+    "sundaradevi": {
+      "children": 1,
+      "adults": 2
+    },
+    "kispang": {
+      "children": 4,
+      "elderly": 3,
+      "adults": 2
+    },
+    "bhalche": {
+      "injured": 3,
+      "children": 3,
+      "elderly": 2,
+      "adults": 6
+    },
+    "suryagadhi": {
+      "children": 2,
+      "elderly": 3,
+      "adults": 5
+    },
+    "kalikasthan": {
+      "injured": 1,
+      "children": 1,
+      "elderly": 1,
+      "adults": 5
+    },
+    "syaphru": {
+      "elderly": 3,
+      "adults": 5
+    }
+  },
+  "start": "jiling",
+  "shelter": "jiling",
+  "capacity": null,
+  "priority": "tiered",
+  "meta": {
+    "k": 16,
+    "seed": 8,
+    "extra_nodes": 2,
+    "n_roads": 26,
+    "n_blocked": 6,
+    "n_slowed": 5,
+    "cut_off": null,
+    "capacity_mode": "unlimited",
+    "split": "test",
+    "rep": 2,
+    "condition": "unlimited"
+  }
+}

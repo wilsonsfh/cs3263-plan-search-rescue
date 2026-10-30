@@ -1,0 +1,36 @@
+MISSION SHEET
+- Team base and starting point: Bageshwari
+- Shelter where evacuees must be delivered: Bageshwari
+- Vehicle capacity: no practical limit (enough vehicles to carry everyone at once)
+- Places on the district map: Bageshwari (evacuation point), Laharepauwa (village), Sundaradevi (village), Shikharbesi (village), Bhorle (village), Chhap (village), Betrawati (village), Samundratar (village)
+
+ROAD REGISTER (pre-flood network; usual one-way driving times, roads are two-way)
+- Bageshwari–Betrawati: 10 min
+- Bageshwari–Bhorle: 20 min
+- Bageshwari–Chhap: 15 min
+- Bageshwari–Samundratar: 25 min
+- Betrawati–Chhap: 20 min
+- Betrawati–Laharepauwa: 10 min
+- Betrawati–Samundratar: 25 min
+- Betrawati–Shikharbesi: 15 min
+- Bhorle–Chhap: 20 min
+- Bhorle–Sundaradevi: 10 min
+- Chhap–Laharepauwa: 10 min
+- Chhap–Sundaradevi: 25 min
+- Samundratar–Shikharbesi: 10 min
+
+FIELD REPORT (district control room, 12:00)
+Road status changes since the flood:
+- Bageshwari–Bhorle: BLOCKED
+- Betrawati–Shikharbesi: BLOCKED
+- Bhorle–Sundaradevi: BLOCKED
+- Chhap–Laharepauwa: open, travel time now 20 min
+- Chhap–Sundaradevi: open, travel time now 50 min
+- Samundratar–Shikharbesi: BLOCKED
+All other roads: open, usual travel time.
+People waiting for rescue:
+- Laharepauwa: 1 injured, 0 children, 0 elderly, 3 adults
+- Sundaradevi: 0 injured, 1 children, 0 elderly, 3 adults
+- Shikharbesi: 0 injured, 1 children, 0 elderly, 4 adults
+- Bhorle: 0 injured, 2 children, 3 elderly, 4 adults
+No one is waiting at any other location.

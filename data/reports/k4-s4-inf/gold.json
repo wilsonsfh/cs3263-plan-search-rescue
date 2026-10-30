@@ -1,0 +1,139 @@
+{
+ "start": "Taruka",
+ "shelter": "Taruka",
+ "capacity": null,
+ "locations": [
+  {
+   "name": "Taruka",
+   "kind": "evacuation point"
+  },
+  {
+   "name": "Thansing",
+   "kind": "ward office"
+  },
+  {
+   "name": "Lachyang",
+   "kind": "village"
+  },
+  {
+   "name": "Bidur",
+   "kind": "school"
+  },
+  {
+   "name": "Bhalche",
+   "kind": "village"
+  },
+  {
+   "name": "Kalikasthan",
+   "kind": "road junction"
+  },
+  {
+   "name": "Tadi",
+   "kind": "village"
+  },
+  {
+   "name": "Chhap",
+   "kind": "village"
+  }
+ ],
+ "roads": [
+  {
+   "between": [
+    "Bhalche",
+    "Bidur"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Bhalche",
+    "Tadi"
+   ],
+   "minutes": 20,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Bidur",
+    "Kalikasthan"
+   ],
+   "minutes": 35,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Bidur",
+    "Tadi"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Chhap",
+    "Lachyang"
+   ],
+   "minutes": 25,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Chhap",
+    "Tadi"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Chhap",
+    "Taruka"
+   ],
+   "minutes": 10,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Tadi",
+    "Taruka"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Taruka",
+    "Thansing"
+   ],
+   "minutes": 50,
+   "status": "open"
+  }
+ ],
+ "people": {
+  "Thansing": {
+   "injured": 0,
+   "children": 4,
+   "elderly": 1,
+   "adults": 4
+  },
+  "Lachyang": {
+   "injured": 3,
+   "children": 4,
+   "elderly": 0,
+   "adults": 3
+  },
+  "Bidur": {
+   "injured": 0,
+   "children": 6,
+   "elderly": 0,
+   "adults": 2
+  },
+  "Bhalche": {
+   "injured": 0,
+   "children": 4,
+   "elderly": 2,
+   "adults": 3
+  }
+ }
+}

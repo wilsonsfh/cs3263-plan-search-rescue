@@ -1,0 +1,22 @@
+MISSION SHEET
+- Team base and starting point: Goljung
+- Shelter where evacuees must be delivered: Goljung
+- Vehicle capacity: no practical limit (enough vehicles to carry everyone at once)
+- Places on the district map: Goljung (evacuation point), Panchakanya (temple), Syaphru (village), Bageshwari (village), Battar (health post), Kakani (village), Trishuli (village)
+
+ROAD REGISTER (pre-flood network; usual one-way driving times, roads are two-way)
+- Bageshwari–Battar: 30 min
+- Bageshwari–Syaphru: 30 min
+- Battar–Kakani: 15 min
+- Goljung–Kakani: 25 min
+- Goljung–Syaphru: 25 min
+- Goljung–Trishuli: 45 min
+- Kakani–Panchakanya: 35 min
+- Panchakanya–Trishuli: 55 min
+- Syaphru–Trishuli: 30 min
+
+FIELD DISPATCHES (several sources; listed in the order they reached the control room)
+[06:45] Radio Nuwakot FM (local radio, early bulletin): Around 13 people are believed to be stranded in Syaphru (unconfirmed estimate). Residents of Trishuli were seen on rooftops last night. Around 5 people are believed to be stranded in Battar (unconfirmed estimate). Residents of Kakani were seen on rooftops last night. Mobile networks remain patchy across the district. Debris is blocking the Bageshwari–Syaphru road.
+[13:15] Sunita Lama, The Himalayan Times (on the ground): The suspension bridge on the Kakani–Panchakanya route was swept away by the river. Everyone from Kakani has already been airlifted out. A landslide has buried the road between Goljung and Trishuli under metres of mud. At the temple in Panchakanya, four children and half a dozen other adults are waiting to be rescued. Confirmed headcount: Our team counted three injured people (a teenage girl with a fractured arm, a woman with burns on her arms and a man with a crushed foot), three schoolchildren and 4 other adults at Syaphru, all needing evacuation. The Home Ministry says relief funds will be released next week. Everyone from Trishuli has already been airlifted out. Army engineers have cleared the debris on the Bageshwari–Syaphru road; it is open again at normal speed. Confirmed headcount: Residents at the health post in Battar say one injured person (a child with a deep gash on his leg), three schoolchildren and four other adults are still there, sheltering on upper floors. A landslide has buried the road between Goljung and Syaphru under metres of mud.
+[09:30] District Police Office (situation report): A landslide has buried the road between Panchakanya and Trishuli under metres of mud. Heavy rain is forecast to continue through the evening. The Battar–Kakani road is open but badly waterlogged; driving it takes twice the usual time. The Syaphru–Trishuli road is open but badly waterlogged; driving it adds 20 minutes to the usual journey. At Bageshwari, one injured person (an old man with a head wound), three schoolchildren, an elderly couple and four other adults are waiting to be rescued.
+Anything not mentioned in these dispatches is in its usual condition, and no one else is known to be stranded.

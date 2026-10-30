@@ -1,0 +1,80 @@
+{
+ "steps": [
+  {
+   "action": "move",
+   "from": "Taruka",
+   "to": "Chaughada"
+  },
+  {
+   "action": "move",
+   "from": "Chaughada",
+   "to": "Thaprek"
+  },
+  {
+   "action": "pickup",
+   "location": "Thaprek"
+  },
+  {
+   "action": "move",
+   "from": "Thaprek",
+   "to": "Chaughada"
+  },
+  {
+   "action": "pickup",
+   "location": "Chaughada"
+  },
+  {
+   "action": "move",
+   "from": "Chaughada",
+   "to": "Taruka"
+  },
+  {
+   "action": "dropoff",
+   "location": "Taruka"
+  },
+  {
+   "action": "move",
+   "from": "Taruka",
+   "to": "Likhu"
+  },
+  {
+   "action": "pickup",
+   "location": "Likhu"
+  },
+  {
+   "action": "move",
+   "from": "Likhu",
+   "to": "Sundaradevi"
+  },
+  {
+   "action": "move",
+   "from": "Sundaradevi",
+   "to": "Suryagadhi"
+  },
+  {
+   "action": "pickup",
+   "location": "Suryagadhi"
+  },
+  {
+   "action": "move",
+   "from": "Suryagadhi",
+   "to": "Sundaradevi"
+  },
+  {
+   "action": "move",
+   "from": "Sundaradevi",
+   "to": "Likhu"
+  },
+  {
+   "action": "move",
+   "from": "Likhu",
+   "to": "Taruka"
+  },
+  {
+   "action": "dropoff",
+   "location": "Taruka"
+  }
+ ],
+ "unreachable": [],
+ "claimed_total_minutes": 330.0
+}

@@ -1,0 +1,71 @@
+MISSION SHEET
+- Team base and starting point: Goljung
+- Shelter where evacuees must be delivered: Goljung
+- Vehicle capacity: 22 people at a time
+- Places on the district map: Goljung (evacuation point), Bhalche (school), Kalikasthan (temple), Rautbesi (village), Gerkhu (temple), Chaughada (temple), Bidur (health post), Salme (village), Trishuli (temple), Tupche (village), Panchakanya (health post), Sundaradevi (health post), Likhu (temple), Betrawati (temple), Belkot (village), Bhorle (village), Samundratar (village), Ghyangphedi (road junction), Lachyang (road junction)
+
+ROAD REGISTER (pre-flood network; usual one-way driving times, roads are two-way)
+- Belkot–Betrawati: 10 min
+- Belkot–Samundratar: 20 min
+- Betrawati–Chaughada: 10 min
+- Bhalche–Bhorle: 20 min
+- Bhalche–Bidur: 10 min
+- Bhalche–Chaughada: 15 min
+- Bhalche–Goljung: 15 min
+- Bhorle–Bidur: 10 min
+- Bhorle–Gerkhu: 15 min
+- Bidur–Gerkhu: 10 min
+- Chaughada–Lachyang: 10 min
+- Gerkhu–Tupche: 15 min
+- Ghyangphedi–Rautbesi: 15 min
+- Ghyangphedi–Salme: 25 min
+- Ghyangphedi–Tupche: 15 min
+- Goljung–Likhu: 20 min
+- Goljung–Panchakanya: 5 min
+- Goljung–Tupche: 25 min
+- Kalikasthan–Panchakanya: 25 min
+- Kalikasthan–Salme: 20 min
+- Kalikasthan–Sundaradevi: 15 min
+- Likhu–Panchakanya: 10 min
+- Likhu–Sundaradevi: 15 min
+- Likhu–Trishuli: 10 min
+- Panchakanya–Trishuli: 20 min
+- Rautbesi–Salme: 15 min
+- Rautbesi–Tupche: 30 min
+- Samundratar–Trishuli: 15 min
+- Sundaradevi–Trishuli: 20 min
+
+FIELD REPORT (district control room, 12:00)
+Road status changes since the flood:
+- Belkot–Betrawati: BLOCKED
+- Betrawati–Chaughada: BLOCKED
+- Bhalche–Goljung: open, travel time now 25 min
+- Bidur–Gerkhu: open, travel time now 20 min
+- Ghyangphedi–Tupche: BLOCKED
+- Goljung–Panchakanya: BLOCKED
+- Goljung–Tupche: BLOCKED
+- Kalikasthan–Panchakanya: open, travel time now 50 min
+- Likhu–Panchakanya: BLOCKED
+- Likhu–Sundaradevi: BLOCKED
+- Rautbesi–Salme: open, travel time now 25 min
+- Rautbesi–Tupche: BLOCKED
+- Sundaradevi–Trishuli: open, travel time now 40 min
+All other roads: open, usual travel time.
+People waiting for rescue:
+- Bhalche: 0 injured, 5 children, 2 elderly, 1 adults
+- Kalikasthan: 0 injured, 1 children, 0 elderly, 5 adults
+- Rautbesi: 0 injured, 0 children, 1 elderly, 5 adults
+- Gerkhu: 0 injured, 0 children, 1 elderly, 5 adults
+- Chaughada: 0 injured, 1 children, 1 elderly, 4 adults
+- Bidur: 3 injured, 0 children, 2 elderly, 6 adults
+- Salme: 0 injured, 1 children, 2 elderly, 4 adults
+- Trishuli: 0 injured, 4 children, 1 elderly, 3 adults
+- Tupche: 0 injured, 2 children, 2 elderly, 1 adults
+- Panchakanya: 2 injured, 1 children, 1 elderly, 2 adults
+- Sundaradevi: 3 injured, 2 children, 0 elderly, 5 adults
+- Likhu: 3 injured, 0 children, 2 elderly, 1 adults
+- Betrawati: 0 injured, 3 children, 1 elderly, 2 adults
+- Belkot: 0 injured, 2 children, 2 elderly, 1 adults
+- Bhorle: 0 injured, 4 children, 0 elderly, 5 adults
+- Samundratar: 3 injured, 2 children, 3 elderly, 3 adults
+No one is waiting at any other location.

@@ -1,0 +1,324 @@
+{
+  "id": "k8-s8-inf",
+  "locations": [
+    {
+      "id": "laharepauwa",
+      "name": "Laharepauwa",
+      "kind": "base"
+    },
+    {
+      "id": "belkot",
+      "name": "Belkot",
+      "kind": "village"
+    },
+    {
+      "id": "goljung",
+      "name": "Goljung",
+      "kind": "village"
+    },
+    {
+      "id": "thulogaun",
+      "name": "Thulogaun",
+      "kind": "village"
+    },
+    {
+      "id": "likhu",
+      "name": "Likhu",
+      "kind": "ward_office"
+    },
+    {
+      "id": "dupcheshwar",
+      "name": "Dupcheshwar",
+      "kind": "health_post"
+    },
+    {
+      "id": "bageshwari",
+      "name": "Bageshwari",
+      "kind": "village"
+    },
+    {
+      "id": "kalikasthan",
+      "name": "Kalikasthan",
+      "kind": "village"
+    },
+    {
+      "id": "ghyangphedi",
+      "name": "Ghyangphedi",
+      "kind": "village"
+    },
+    {
+      "id": "kakani",
+      "name": "Kakani",
+      "kind": "junction"
+    },
+    {
+      "id": "okharpauwa",
+      "name": "Okharpauwa",
+      "kind": "evacuated_village"
+    },
+    {
+      "id": "madanpur",
+      "name": "Madanpur",
+      "kind": "junction"
+    },
+    {
+      "id": "suryagadhi",
+      "name": "Suryagadhi",
+      "kind": "evacuated_village"
+    }
+  ],
+  "roads": [
+    {
+      "u": "bageshwari",
+      "v": "kakani",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "bageshwari",
+      "v": "laharepauwa",
+      "minutes": 35,
+      "open": true,
+      "base_minutes": 15,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "bageshwari",
+      "v": "likhu",
+      "minutes": 35,
+      "open": true,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "blocked",
+        "cleared"
+      ]
+    },
+    {
+      "u": "bageshwari",
+      "v": "thulogaun",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": 10,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "belkot",
+      "v": "okharpauwa",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "dupcheshwar",
+      "v": "thulogaun",
+      "minutes": 5,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": [
+        "rumour"
+      ]
+    },
+    {
+      "u": "ghyangphedi",
+      "v": "goljung",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "blocked",
+        "cleared"
+      ]
+    },
+    {
+      "u": "ghyangphedi",
+      "v": "kalikasthan",
+      "minutes": 5,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "ghyangphedi",
+      "v": "laharepauwa",
+      "minutes": 10,
+      "open": false,
+      "base_minutes": null,
+      "cause": "submerged",
+      "history": []
+    },
+    {
+      "u": "ghyangphedi",
+      "v": "madanpur",
+      "minutes": 25,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "ghyangphedi",
+      "v": "suryagadhi",
+      "minutes": 30,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "goljung",
+      "v": "kalikasthan",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": 5,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "goljung",
+      "v": "laharepauwa",
+      "minutes": 25,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "goljung",
+      "v": "madanpur",
+      "minutes": 25,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "kakani",
+      "v": "laharepauwa",
+      "minutes": 5,
+      "open": false,
+      "base_minutes": null,
+      "cause": "bridge",
+      "history": []
+    },
+    {
+      "u": "kakani",
+      "v": "suryagadhi",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "kakani",
+      "v": "thulogaun",
+      "minutes": 20,
+      "open": false,
+      "base_minutes": null,
+      "cause": "bridge",
+      "history": []
+    },
+    {
+      "u": "kalikasthan",
+      "v": "laharepauwa",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "kalikasthan",
+      "v": "madanpur",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "likhu",
+      "v": "thulogaun",
+      "minutes": 40,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "okharpauwa",
+      "v": "thulogaun",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    }
+  ],
+  "people": {
+    "belkot": {
+      "elderly": 1,
+      "adults": 5
+    },
+    "goljung": {
+      "children": 4,
+      "adults": 1
+    },
+    "thulogaun": {
+      "children": 1,
+      "adults": 3
+    },
+    "likhu": {
+      "injured": 3,
+      "children": 4,
+      "adults": 4
+    },
+    "dupcheshwar": {
+      "injured": 3,
+      "children": 4,
+      "adults": 4
+    },
+    "bageshwari": {
+      "injured": 3,
+      "elderly": 2,
+      "adults": 2
+    },
+    "kalikasthan": {
+      "elderly": 3,
+      "adults": 4
+    },
+    "ghyangphedi": {
+      "children": 1,
+      "elderly": 1,
+      "adults": 4
+    }
+  },
+  "start": "laharepauwa",
+  "shelter": "laharepauwa",
+  "capacity": null,
+  "priority": "tiered",
+  "meta": {
+    "k": 8,
+    "seed": 8,
+    "extra_nodes": 4,
+    "n_roads": 21,
+    "n_blocked": 3,
+    "n_slowed": 3,
+    "cut_off": null,
+    "capacity_mode": "unlimited",
+    "split": "test",
+    "rep": 2,
+    "condition": "unlimited"
+  }
+}

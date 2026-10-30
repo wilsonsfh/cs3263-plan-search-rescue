@@ -1,0 +1,319 @@
+{
+ "start": "Betrawati",
+ "shelter": "Betrawati",
+ "capacity": null,
+ "locations": [
+  {
+   "name": "Betrawati",
+   "kind": "evacuation point"
+  },
+  {
+   "name": "Trishuli",
+   "kind": "school"
+  },
+  {
+   "name": "Ghyangphedi",
+   "kind": "village"
+  },
+  {
+   "name": "Haku",
+   "kind": "village"
+  },
+  {
+   "name": "Chaughada",
+   "kind": "village"
+  },
+  {
+   "name": "Tadi",
+   "kind": "village"
+  },
+  {
+   "name": "Sundaradevi",
+   "kind": "health post"
+  },
+  {
+   "name": "Madanpur",
+   "kind": "village"
+  },
+  {
+   "name": "Thaprek",
+   "kind": "village"
+  },
+  {
+   "name": "Kalikasthan",
+   "kind": "village"
+  },
+  {
+   "name": "Battar",
+   "kind": "village"
+  },
+  {
+   "name": "Bageshwari",
+   "kind": "health post"
+  },
+  {
+   "name": "Meghang",
+   "kind": "village"
+  },
+  {
+   "name": "Belkot",
+   "kind": "village"
+  },
+  {
+   "name": "Bhalche",
+   "kind": "village"
+  }
+ ],
+ "roads": [
+  {
+   "between": [
+    "Bageshwari",
+    "Ghyangphedi"
+   ],
+   "minutes": 10,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Bageshwari",
+    "Haku"
+   ],
+   "minutes": 35,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Bageshwari",
+    "Sundaradevi"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Bageshwari",
+    "Tadi"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Battar",
+    "Bhalche"
+   ],
+   "minutes": 20,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Battar",
+    "Meghang"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Belkot",
+    "Chaughada"
+   ],
+   "minutes": 25,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Belkot",
+    "Tadi"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Betrawati",
+    "Ghyangphedi"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Betrawati",
+    "Kalikasthan"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Betrawati",
+    "Madanpur"
+   ],
+   "minutes": 10,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Bhalche",
+    "Chaughada"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Bhalche",
+    "Thaprek"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Chaughada",
+    "Madanpur"
+   ],
+   "minutes": 5,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Chaughada",
+    "Thaprek"
+   ],
+   "minutes": 10,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Ghyangphedi",
+    "Haku"
+   ],
+   "minutes": 25,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Ghyangphedi",
+    "Madanpur"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Ghyangphedi",
+    "Sundaradevi"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Haku",
+    "Sundaradevi"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kalikasthan",
+    "Meghang"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kalikasthan",
+    "Trishuli"
+   ],
+   "minutes": 30,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Meghang",
+    "Trishuli"
+   ],
+   "minutes": 15,
+   "status": "open"
+  }
+ ],
+ "people": {
+  "Trishuli": {
+   "injured": 0,
+   "children": 6,
+   "elderly": 2,
+   "adults": 1
+  },
+  "Ghyangphedi": {
+   "injured": 0,
+   "children": 4,
+   "elderly": 0,
+   "adults": 6
+  },
+  "Haku": {
+   "injured": 0,
+   "children": 3,
+   "elderly": 0,
+   "adults": 1
+  },
+  "Chaughada": {
+   "injured": 0,
+   "children": 1,
+   "elderly": 0,
+   "adults": 5
+  },
+  "Tadi": {
+   "injured": 0,
+   "children": 2,
+   "elderly": 1,
+   "adults": 2
+  },
+  "Sundaradevi": {
+   "injured": 0,
+   "children": 1,
+   "elderly": 0,
+   "adults": 3
+  },
+  "Madanpur": {
+   "injured": 0,
+   "children": 3,
+   "elderly": 0,
+   "adults": 5
+  },
+  "Thaprek": {
+   "injured": 2,
+   "children": 1,
+   "elderly": 3,
+   "adults": 3
+  },
+  "Kalikasthan": {
+   "injured": 1,
+   "children": 4,
+   "elderly": 0,
+   "adults": 1
+  },
+  "Battar": {
+   "injured": 0,
+   "children": 4,
+   "elderly": 3,
+   "adults": 5
+  },
+  "Bageshwari": {
+   "injured": 0,
+   "children": 0,
+   "elderly": 2,
+   "adults": 2
+  },
+  "Meghang": {
+   "injured": 0,
+   "children": 2,
+   "elderly": 1,
+   "adults": 2
+  }
+ }
+}

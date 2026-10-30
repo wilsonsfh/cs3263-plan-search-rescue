@@ -1,0 +1,139 @@
+{
+ "start": "Dupcheshwar",
+ "shelter": "Dupcheshwar",
+ "capacity": 14,
+ "locations": [
+  {
+   "name": "Dupcheshwar",
+   "kind": "evacuation point"
+  },
+  {
+   "name": "Ramche",
+   "kind": "ward office"
+  },
+  {
+   "name": "Kispang",
+   "kind": "school"
+  },
+  {
+   "name": "Taruka",
+   "kind": "village"
+  },
+  {
+   "name": "Kalikasthan",
+   "kind": "ward office"
+  },
+  {
+   "name": "Likhu",
+   "kind": "road junction"
+  }
+ ],
+ "roads": [
+  {
+   "between": [
+    "Dupcheshwar",
+    "Kalikasthan"
+   ],
+   "minutes": 40,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Dupcheshwar",
+    "Kispang"
+   ],
+   "minutes": 50,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Dupcheshwar",
+    "Likhu"
+   ],
+   "minutes": 20,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Dupcheshwar",
+    "Ramche"
+   ],
+   "minutes": 25,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Dupcheshwar",
+    "Taruka"
+   ],
+   "minutes": 40,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Kalikasthan",
+    "Ramche"
+   ],
+   "minutes": 10,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Kispang",
+    "Likhu"
+   ],
+   "minutes": 35,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kispang",
+    "Taruka"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Likhu",
+    "Ramche"
+   ],
+   "minutes": 60,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Likhu",
+    "Taruka"
+   ],
+   "minutes": 35,
+   "status": "open"
+  }
+ ],
+ "people": {
+  "Ramche": {
+   "injured": 0,
+   "children": 2,
+   "elderly": 3,
+   "adults": 2
+  },
+  "Kispang": {
+   "injured": 2,
+   "children": 4,
+   "elderly": 3,
+   "adults": 2
+  },
+  "Taruka": {
+   "injured": 2,
+   "children": 0,
+   "elderly": 1,
+   "adults": 2
+  },
+  "Kalikasthan": {
+   "injured": 0,
+   "children": 4,
+   "elderly": 1,
+   "adults": 5
+  }
+ }
+}

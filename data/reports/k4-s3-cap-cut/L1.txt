@@ -1,0 +1,35 @@
+MISSION SHEET
+- Team base and starting point: Chaughada
+- Shelter where evacuees must be delivered: Chaughada
+- Vehicle capacity: 17 people at a time
+- Places on the district map: Chaughada (evacuation point), Shikharbesi (village), Ramche (village), Khanigaun (ward office), Trishuli (health post), Thaprek (road junction), Kaule (road junction), Bhorle (village)
+
+ROAD REGISTER (pre-flood network; usual one-way driving times, roads are two-way)
+- Bhorle–Kaule: 15 min
+- Bhorle–Khanigaun: 10 min
+- Bhorle–Ramche: 20 min
+- Bhorle–Shikharbesi: 20 min
+- Bhorle–Thaprek: 35 min
+- Bhorle–Trishuli: 5 min
+- Chaughada–Shikharbesi: 10 min
+- Chaughada–Trishuli: 10 min
+- Kaule–Thaprek: 15 min
+- Khanigaun–Ramche: 10 min
+- Khanigaun–Trishuli: 20 min
+- Shikharbesi–Trishuli: 15 min
+
+FIELD REPORT (district control room, 12:00)
+Road status changes since the flood:
+- Bhorle–Ramche: BLOCKED
+- Bhorle–Shikharbesi: open, travel time now 40 min
+- Bhorle–Trishuli: BLOCKED
+- Chaughada–Shikharbesi: BLOCKED
+- Kaule–Thaprek: open, travel time now 30 min
+- Khanigaun–Ramche: BLOCKED
+All other roads: open, usual travel time.
+People waiting for rescue:
+- Shikharbesi: 1 injured, 4 children, 1 elderly, 2 adults
+- Ramche: 0 injured, 0 children, 0 elderly, 6 adults
+- Khanigaun: 0 injured, 0 children, 2 elderly, 3 adults
+- Trishuli: 1 injured, 2 children, 3 elderly, 3 adults
+No one is waiting at any other location.

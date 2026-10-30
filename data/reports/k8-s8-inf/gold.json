@@ -1,0 +1,279 @@
+{
+ "start": "Laharepauwa",
+ "shelter": "Laharepauwa",
+ "capacity": null,
+ "locations": [
+  {
+   "name": "Laharepauwa",
+   "kind": "evacuation point"
+  },
+  {
+   "name": "Belkot",
+   "kind": "village"
+  },
+  {
+   "name": "Goljung",
+   "kind": "village"
+  },
+  {
+   "name": "Thulogaun",
+   "kind": "village"
+  },
+  {
+   "name": "Likhu",
+   "kind": "ward office"
+  },
+  {
+   "name": "Dupcheshwar",
+   "kind": "health post"
+  },
+  {
+   "name": "Bageshwari",
+   "kind": "village"
+  },
+  {
+   "name": "Kalikasthan",
+   "kind": "village"
+  },
+  {
+   "name": "Ghyangphedi",
+   "kind": "village"
+  },
+  {
+   "name": "Kakani",
+   "kind": "road junction"
+  },
+  {
+   "name": "Okharpauwa",
+   "kind": "village"
+  },
+  {
+   "name": "Madanpur",
+   "kind": "road junction"
+  },
+  {
+   "name": "Suryagadhi",
+   "kind": "village"
+  }
+ ],
+ "roads": [
+  {
+   "between": [
+    "Bageshwari",
+    "Kakani"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Bageshwari",
+    "Laharepauwa"
+   ],
+   "minutes": 35,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Bageshwari",
+    "Likhu"
+   ],
+   "minutes": 35,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Bageshwari",
+    "Thulogaun"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Belkot",
+    "Okharpauwa"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Dupcheshwar",
+    "Thulogaun"
+   ],
+   "minutes": 5,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Ghyangphedi",
+    "Goljung"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Ghyangphedi",
+    "Kalikasthan"
+   ],
+   "minutes": 5,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Ghyangphedi",
+    "Laharepauwa"
+   ],
+   "minutes": 10,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Ghyangphedi",
+    "Madanpur"
+   ],
+   "minutes": 25,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Ghyangphedi",
+    "Suryagadhi"
+   ],
+   "minutes": 30,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Goljung",
+    "Kalikasthan"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Goljung",
+    "Laharepauwa"
+   ],
+   "minutes": 25,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Goljung",
+    "Madanpur"
+   ],
+   "minutes": 25,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kakani",
+    "Laharepauwa"
+   ],
+   "minutes": 5,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Kakani",
+    "Suryagadhi"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kakani",
+    "Thulogaun"
+   ],
+   "minutes": 20,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Kalikasthan",
+    "Laharepauwa"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kalikasthan",
+    "Madanpur"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Likhu",
+    "Thulogaun"
+   ],
+   "minutes": 40,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Okharpauwa",
+    "Thulogaun"
+   ],
+   "minutes": 10,
+   "status": "open"
+  }
+ ],
+ "people": {
+  "Belkot": {
+   "injured": 0,
+   "children": 0,
+   "elderly": 1,
+   "adults": 5
+  },
+  "Goljung": {
+   "injured": 0,
+   "children": 4,
+   "elderly": 0,
+   "adults": 1
+  },
+  "Thulogaun": {
+   "injured": 0,
+   "children": 1,
+   "elderly": 0,
+   "adults": 3
+  },
+  "Likhu": {
+   "injured": 3,
+   "children": 4,
+   "elderly": 0,
+   "adults": 4
+  },
+  "Dupcheshwar": {
+   "injured": 3,
+   "children": 4,
+   "elderly": 0,
+   "adults": 4
+  },
+  "Bageshwari": {
+   "injured": 3,
+   "children": 0,
+   "elderly": 2,
+   "adults": 2
+  },
+  "Kalikasthan": {
+   "injured": 0,
+   "children": 0,
+   "elderly": 3,
+   "adults": 4
+  },
+  "Ghyangphedi": {
+   "injured": 0,
+   "children": 1,
+   "elderly": 1,
+   "adults": 4
+  }
+ }
+}

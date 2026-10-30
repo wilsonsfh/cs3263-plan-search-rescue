@@ -1,0 +1,31 @@
+MISSION SHEET
+- Team base and starting point: Madanpur
+- Shelter where evacuees must be delivered: Madanpur
+- Vehicle capacity: 17 people at a time
+- Places on the district map: Madanpur (evacuation point), Tupche (village), Thaprek (village), Kalikasthan (village), Ramche (school), Meghang (village)
+
+ROAD REGISTER (pre-flood network; usual one-way driving times, roads are two-way)
+- Kalikasthan–Madanpur: 15 min
+- Kalikasthan–Meghang: 15 min
+- Kalikasthan–Ramche: 45 min
+- Kalikasthan–Thaprek: 35 min
+- Madanpur–Meghang: 10 min
+- Madanpur–Thaprek: 35 min
+- Madanpur–Tupche: 20 min
+- Meghang–Thaprek: 20 min
+- Meghang–Tupche: 20 min
+- Ramche–Tupche: 35 min
+
+FIELD REPORT (district control room, 12:00)
+Road status changes since the flood:
+- Kalikasthan–Thaprek: open, travel time now 50 min
+- Madanpur–Meghang: BLOCKED
+- Madanpur–Tupche: BLOCKED
+- Meghang–Tupche: open, travel time now 40 min
+All other roads: open, usual travel time.
+People waiting for rescue:
+- Tupche: 0 injured, 0 children, 0 elderly, 6 adults
+- Thaprek: 0 injured, 3 children, 2 elderly, 2 adults
+- Kalikasthan: 0 injured, 4 children, 0 elderly, 2 adults
+- Ramche: 0 injured, 4 children, 3 elderly, 2 adults
+No one is waiting at any other location.

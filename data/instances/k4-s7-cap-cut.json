@@ -1,0 +1,186 @@
+{
+  "id": "k4-s7-cap-cut",
+  "locations": [
+    {
+      "id": "bhorle",
+      "name": "Bhorle",
+      "kind": "base"
+    },
+    {
+      "id": "narjamandap",
+      "name": "Narjamandap",
+      "kind": "village"
+    },
+    {
+      "id": "kispang",
+      "name": "Kispang",
+      "kind": "health_post"
+    },
+    {
+      "id": "likhu",
+      "name": "Likhu",
+      "kind": "village"
+    },
+    {
+      "id": "salme",
+      "name": "Salme",
+      "kind": "village"
+    },
+    {
+      "id": "jiling",
+      "name": "Jiling",
+      "kind": "evacuated_village"
+    },
+    {
+      "id": "samundratar",
+      "name": "Samundratar",
+      "kind": "evacuated_village"
+    }
+  ],
+  "roads": [
+    {
+      "u": "bhorle",
+      "v": "jiling",
+      "minutes": 30,
+      "open": true,
+      "base_minutes": 20,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "bhorle",
+      "v": "kispang",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "bhorle",
+      "v": "likhu",
+      "minutes": 30,
+      "open": false,
+      "base_minutes": null,
+      "cause": "submerged",
+      "history": []
+    },
+    {
+      "u": "bhorle",
+      "v": "narjamandap",
+      "minutes": 25,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "bhorle",
+      "v": "salme",
+      "minutes": 40,
+      "open": false,
+      "base_minutes": null,
+      "cause": "landslide",
+      "history": [
+        "open",
+        "blocked"
+      ]
+    },
+    {
+      "u": "bhorle",
+      "v": "samundratar",
+      "minutes": 25,
+      "open": false,
+      "base_minutes": null,
+      "cause": "landslide",
+      "history": []
+    },
+    {
+      "u": "jiling",
+      "v": "kispang",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "jiling",
+      "v": "salme",
+      "minutes": 35,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "kispang",
+      "v": "likhu",
+      "minutes": 40,
+      "open": false,
+      "base_minutes": null,
+      "cause": "landslide",
+      "history": [
+        "open",
+        "blocked"
+      ]
+    },
+    {
+      "u": "narjamandap",
+      "v": "salme",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": [
+        "rumour"
+      ]
+    },
+    {
+      "u": "narjamandap",
+      "v": "samundratar",
+      "minutes": 90,
+      "open": true,
+      "base_minutes": 45,
+      "cause": "waterlogged",
+      "history": []
+    }
+  ],
+  "people": {
+    "narjamandap": {
+      "elderly": 2,
+      "adults": 5
+    },
+    "kispang": {
+      "injured": 3,
+      "adults": 1
+    },
+    "likhu": {
+      "injured": 1,
+      "children": 4,
+      "elderly": 1,
+      "adults": 3
+    },
+    "salme": {
+      "elderly": 2,
+      "adults": 4
+    }
+  },
+  "start": "bhorle",
+  "shelter": "bhorle",
+  "capacity": 9,
+  "priority": "tiered",
+  "meta": {
+    "k": 4,
+    "seed": 7,
+    "extra_nodes": 2,
+    "n_roads": 11,
+    "n_blocked": 4,
+    "n_slowed": 2,
+    "cut_off": "likhu",
+    "capacity_mode": "tight",
+    "split": "test",
+    "rep": 1,
+    "condition": "tight-cut"
+  }
+}

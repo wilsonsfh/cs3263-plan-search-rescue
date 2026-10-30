@@ -1,0 +1,34 @@
+MISSION SHEET
+- Team base and starting point: Bhorle
+- Shelter where evacuees must be delivered: Bhorle
+- Vehicle capacity: 9 people at a time
+- Places on the district map: Bhorle (evacuation point), Narjamandap (village), Kispang (health post), Likhu (village), Salme (village), Jiling (village), Samundratar (village)
+
+ROAD REGISTER (pre-flood network; usual one-way driving times, roads are two-way)
+- Bhorle–Jiling: 20 min
+- Bhorle–Kispang: 15 min
+- Bhorle–Likhu: 30 min
+- Bhorle–Narjamandap: 25 min
+- Bhorle–Salme: 40 min
+- Bhorle–Samundratar: 25 min
+- Jiling–Kispang: 15 min
+- Jiling–Salme: 35 min
+- Kispang–Likhu: 40 min
+- Narjamandap–Salme: 20 min
+- Narjamandap–Samundratar: 45 min
+
+FIELD REPORT (district control room, 12:00)
+Road status changes since the flood:
+- Bhorle–Jiling: open, travel time now 30 min
+- Bhorle–Likhu: BLOCKED
+- Bhorle–Salme: BLOCKED
+- Bhorle–Samundratar: BLOCKED
+- Kispang–Likhu: BLOCKED
+- Narjamandap–Samundratar: open, travel time now 90 min
+All other roads: open, usual travel time.
+People waiting for rescue:
+- Narjamandap: 0 injured, 0 children, 2 elderly, 5 adults
+- Kispang: 3 injured, 0 children, 0 elderly, 1 adults
+- Likhu: 1 injured, 4 children, 1 elderly, 3 adults
+- Salme: 0 injured, 0 children, 2 elderly, 4 adults
+No one is waiting at any other location.

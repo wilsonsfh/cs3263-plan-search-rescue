@@ -1,0 +1,42 @@
+MISSION SHEET
+- Team base and starting point: Kumari
+- Shelter where evacuees must be delivered: Kumari
+- Vehicle capacity: no practical limit (enough vehicles to carry everyone at once)
+- Places on the district map: Kumari (evacuation point), Narjamandap (village), Trishuli (village), Bageshwari (school), Suryagadhi (school), Thaprek (temple), Kakani (temple), Thansing (village), Taruka (village), Bhorle (road junction)
+
+ROAD REGISTER (pre-flood network; usual one-way driving times, roads are two-way)
+- Bageshwari–Bhorle: 10 min
+- Bageshwari–Kakani: 5 min
+- Bageshwari–Taruka: 20 min
+- Bhorle–Suryagadhi: 15 min
+- Bhorle–Taruka: 10 min
+- Kakani–Taruka: 25 min
+- Kumari–Narjamandap: 20 min
+- Kumari–Taruka: 10 min
+- Kumari–Thansing: 25 min
+- Narjamandap–Taruka: 25 min
+- Narjamandap–Thansing: 30 min
+- Suryagadhi–Taruka: 20 min
+- Thansing–Trishuli: 25 min
+- Thaprek–Trishuli: 10 min
+
+FIELD REPORT (district control room, 12:00)
+Road status changes since the flood:
+- Bageshwari–Taruka: BLOCKED
+- Bhorle–Taruka: open, travel time now 30 min
+- Kakani–Taruka: BLOCKED
+- Kumari–Taruka: open, travel time now 30 min
+- Kumari–Thansing: BLOCKED
+- Narjamandap–Taruka: open, travel time now 45 min
+- Thaprek–Trishuli: BLOCKED
+All other roads: open, usual travel time.
+People waiting for rescue:
+- Narjamandap: 0 injured, 3 children, 2 elderly, 4 adults
+- Trishuli: 0 injured, 1 children, 0 elderly, 2 adults
+- Bageshwari: 1 injured, 9 children, 2 elderly, 2 adults
+- Suryagadhi: 2 injured, 8 children, 3 elderly, 2 adults
+- Thaprek: 0 injured, 2 children, 1 elderly, 2 adults
+- Kakani: 0 injured, 0 children, 1 elderly, 6 adults
+- Thansing: 0 injured, 3 children, 3 elderly, 2 adults
+- Taruka: 0 injured, 3 children, 0 elderly, 2 adults
+No one is waiting at any other location.

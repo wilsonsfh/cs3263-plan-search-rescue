@@ -1,0 +1,115 @@
+{
+ "steps": [
+  {
+   "action": "move",
+   "from": "Taruka",
+   "to": "Madanpur"
+  },
+  {
+   "action": "move",
+   "from": "Madanpur",
+   "to": "Battar"
+  },
+  {
+   "action": "move",
+   "from": "Battar",
+   "to": "Samundratar"
+  },
+  {
+   "action": "pickup",
+   "location": "Samundratar"
+  },
+  {
+   "action": "move",
+   "from": "Samundratar",
+   "to": "Goljung"
+  },
+  {
+   "action": "move",
+   "from": "Goljung",
+   "to": "Likhu"
+  },
+  {
+   "action": "move",
+   "from": "Likhu",
+   "to": "Belkot"
+  },
+  {
+   "action": "pickup",
+   "location": "Belkot"
+  },
+  {
+   "action": "move",
+   "from": "Belkot",
+   "to": "Bhalche"
+  },
+  {
+   "action": "move",
+   "from": "Bhalche",
+   "to": "Goljung"
+  },
+  {
+   "action": "move",
+   "from": "Goljung",
+   "to": "Samundratar"
+  },
+  {
+   "action": "move",
+   "from": "Samundratar",
+   "to": "Battar"
+  },
+  {
+   "action": "pickup",
+   "location": "Battar"
+  },
+  {
+   "action": "move",
+   "from": "Battar",
+   "to": "Madanpur"
+  },
+  {
+   "action": "pickup",
+   "location": "Madanpur"
+  },
+  {
+   "action": "move",
+   "from": "Madanpur",
+   "to": "Dandagaun"
+  },
+  {
+   "action": "pickup",
+   "location": "Dandagaun"
+  },
+  {
+   "action": "move",
+   "from": "Dandagaun",
+   "to": "Salme"
+  },
+  {
+   "action": "pickup",
+   "location": "Salme"
+  },
+  {
+   "action": "move",
+   "from": "Salme",
+   "to": "Dupcheshwar"
+  },
+  {
+   "action": "pickup",
+   "location": "Dupcheshwar"
+  },
+  {
+   "action": "move",
+   "from": "Dupcheshwar",
+   "to": "Taruka"
+  },
+  {
+   "action": "dropoff",
+   "location": "Taruka"
+  }
+ ],
+ "unreachable": [
+  "Ramche"
+ ],
+ "claimed_total_minutes": 320.0
+}

@@ -1,0 +1,366 @@
+{
+  "id": "k12-s8-inf",
+  "locations": [
+    {
+      "id": "betrawati",
+      "name": "Betrawati",
+      "kind": "base"
+    },
+    {
+      "id": "trishuli",
+      "name": "Trishuli",
+      "kind": "school"
+    },
+    {
+      "id": "ghyangphedi",
+      "name": "Ghyangphedi",
+      "kind": "village"
+    },
+    {
+      "id": "haku",
+      "name": "Haku",
+      "kind": "village"
+    },
+    {
+      "id": "chaughada",
+      "name": "Chaughada",
+      "kind": "village"
+    },
+    {
+      "id": "tadi",
+      "name": "Tadi",
+      "kind": "village"
+    },
+    {
+      "id": "sundaradevi",
+      "name": "Sundaradevi",
+      "kind": "health_post"
+    },
+    {
+      "id": "madanpur",
+      "name": "Madanpur",
+      "kind": "village"
+    },
+    {
+      "id": "thaprek",
+      "name": "Thaprek",
+      "kind": "village"
+    },
+    {
+      "id": "kalikasthan",
+      "name": "Kalikasthan",
+      "kind": "village"
+    },
+    {
+      "id": "battar",
+      "name": "Battar",
+      "kind": "village"
+    },
+    {
+      "id": "bageshwari",
+      "name": "Bageshwari",
+      "kind": "health_post"
+    },
+    {
+      "id": "meghang",
+      "name": "Meghang",
+      "kind": "village"
+    },
+    {
+      "id": "belkot",
+      "name": "Belkot",
+      "kind": "evacuated_village"
+    },
+    {
+      "id": "bhalche",
+      "name": "Bhalche",
+      "kind": "evacuated_village"
+    }
+  ],
+  "roads": [
+    {
+      "u": "bageshwari",
+      "v": "ghyangphedi",
+      "minutes": 10,
+      "open": false,
+      "base_minutes": null,
+      "cause": "bridge",
+      "history": []
+    },
+    {
+      "u": "bageshwari",
+      "v": "haku",
+      "minutes": 35,
+      "open": true,
+      "base_minutes": 20,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "bageshwari",
+      "v": "sundaradevi",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "blocked",
+        "cleared"
+      ]
+    },
+    {
+      "u": "bageshwari",
+      "v": "tadi",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "battar",
+      "v": "bhalche",
+      "minutes": 20,
+      "open": false,
+      "base_minutes": null,
+      "cause": "bridge",
+      "history": [
+        "open",
+        "blocked"
+      ]
+    },
+    {
+      "u": "battar",
+      "v": "meghang",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "belkot",
+      "v": "chaughada",
+      "minutes": 25,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "belkot",
+      "v": "tadi",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "betrawati",
+      "v": "ghyangphedi",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "betrawati",
+      "v": "kalikasthan",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "betrawati",
+      "v": "madanpur",
+      "minutes": 10,
+      "open": false,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "open",
+        "blocked"
+      ]
+    },
+    {
+      "u": "bhalche",
+      "v": "chaughada",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": 10,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "bhalche",
+      "v": "thaprek",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "chaughada",
+      "v": "madanpur",
+      "minutes": 5,
+      "open": false,
+      "base_minutes": null,
+      "cause": "submerged",
+      "history": [
+        "open",
+        "blocked"
+      ]
+    },
+    {
+      "u": "chaughada",
+      "v": "thaprek",
+      "minutes": 10,
+      "open": false,
+      "base_minutes": null,
+      "cause": "bridge",
+      "history": []
+    },
+    {
+      "u": "ghyangphedi",
+      "v": "haku",
+      "minutes": 25,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "ghyangphedi",
+      "v": "madanpur",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "ghyangphedi",
+      "v": "sundaradevi",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "haku",
+      "v": "sundaradevi",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "kalikasthan",
+      "v": "meghang",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": 10,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "kalikasthan",
+      "v": "trishuli",
+      "minutes": 30,
+      "open": true,
+      "base_minutes": 15,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "meghang",
+      "v": "trishuli",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    }
+  ],
+  "people": {
+    "trishuli": {
+      "children": 6,
+      "elderly": 2,
+      "adults": 1
+    },
+    "ghyangphedi": {
+      "children": 4,
+      "adults": 6
+    },
+    "haku": {
+      "children": 3,
+      "adults": 1
+    },
+    "chaughada": {
+      "children": 1,
+      "adults": 5
+    },
+    "tadi": {
+      "children": 2,
+      "elderly": 1,
+      "adults": 2
+    },
+    "sundaradevi": {
+      "children": 1,
+      "adults": 3
+    },
+    "madanpur": {
+      "children": 3,
+      "adults": 5
+    },
+    "thaprek": {
+      "injured": 2,
+      "children": 1,
+      "elderly": 3,
+      "adults": 3
+    },
+    "kalikasthan": {
+      "injured": 1,
+      "children": 4,
+      "adults": 1
+    },
+    "battar": {
+      "children": 4,
+      "elderly": 3,
+      "adults": 5
+    },
+    "bageshwari": {
+      "elderly": 2,
+      "adults": 2
+    },
+    "meghang": {
+      "children": 2,
+      "elderly": 1,
+      "adults": 2
+    }
+  },
+  "start": "betrawati",
+  "shelter": "betrawati",
+  "capacity": null,
+  "priority": "tiered",
+  "meta": {
+    "k": 12,
+    "seed": 8,
+    "extra_nodes": 2,
+    "n_roads": 22,
+    "n_blocked": 5,
+    "n_slowed": 4,
+    "cut_off": null,
+    "capacity_mode": "unlimited",
+    "split": "test",
+    "rep": 2,
+    "condition": "unlimited"
+  }
+}

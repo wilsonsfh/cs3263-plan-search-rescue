@@ -1,0 +1,46 @@
+MISSION SHEET
+- Team base and starting point: Suryagadhi
+- Shelter where evacuees must be delivered: Suryagadhi
+- Vehicle capacity: 26 people at a time
+- Places on the district map: Suryagadhi (evacuation point), Dandagaun (health post), Battar (village), Salme (temple), Kakani (village), Dupcheshwar (ward office), Tadi (village), Gerkhu (health post), Meghang (village), Kalikasthan (road junction), Sundaradevi (village), Thaprek (road junction)
+
+ROAD REGISTER (pre-flood network; usual one-way driving times, roads are two-way)
+- Battar–Dandagaun: 15 min
+- Battar–Kalikasthan: 10 min
+- Battar–Suryagadhi: 5 min
+- Battar–Thaprek: 25 min
+- Dandagaun–Meghang: 5 min
+- Dandagaun–Salme: 15 min
+- Dupcheshwar–Salme: 25 min
+- Dupcheshwar–Sundaradevi: 15 min
+- Dupcheshwar–Suryagadhi: 25 min
+- Gerkhu–Meghang: 10 min
+- Kakani–Suryagadhi: 15 min
+- Kakani–Tadi: 15 min
+- Kalikasthan–Suryagadhi: 15 min
+- Kalikasthan–Tadi: 15 min
+- Kalikasthan–Thaprek: 15 min
+- Meghang–Salme: 5 min
+- Sundaradevi–Suryagadhi: 20 min
+- Suryagadhi–Tadi: 10 min
+
+FIELD REPORT (district control room, 12:00)
+Road status changes since the flood:
+- Battar–Kalikasthan: open, travel time now 20 min
+- Battar–Suryagadhi: BLOCKED
+- Dupcheshwar–Salme: open, travel time now 40 min
+- Dupcheshwar–Suryagadhi: BLOCKED
+- Gerkhu–Meghang: BLOCKED
+- Kakani–Tadi: open, travel time now 30 min
+- Suryagadhi–Tadi: BLOCKED
+All other roads: open, usual travel time.
+People waiting for rescue:
+- Dandagaun: 0 injured, 2 children, 2 elderly, 4 adults
+- Battar: 0 injured, 2 children, 1 elderly, 5 adults
+- Salme: 0 injured, 4 children, 0 elderly, 3 adults
+- Kakani: 3 injured, 4 children, 0 elderly, 4 adults
+- Dupcheshwar: 2 injured, 3 children, 2 elderly, 1 adults
+- Tadi: 3 injured, 3 children, 2 elderly, 5 adults
+- Gerkhu: 0 injured, 0 children, 1 elderly, 6 adults
+- Meghang: 0 injured, 3 children, 0 elderly, 1 adults
+No one is waiting at any other location.

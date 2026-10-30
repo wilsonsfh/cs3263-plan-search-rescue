@@ -1,0 +1,439 @@
+{
+ "start": "Ghyangphedi",
+ "shelter": "Ghyangphedi",
+ "capacity": 28,
+ "locations": [
+  {
+   "name": "Ghyangphedi",
+   "kind": "evacuation point"
+  },
+  {
+   "name": "Belkot",
+   "kind": "village"
+  },
+  {
+   "name": "Thaprek",
+   "kind": "school"
+  },
+  {
+   "name": "Betrawati",
+   "kind": "health post"
+  },
+  {
+   "name": "Tupche",
+   "kind": "temple"
+  },
+  {
+   "name": "Bhalche",
+   "kind": "ward office"
+  },
+  {
+   "name": "Laharepauwa",
+   "kind": "village"
+  },
+  {
+   "name": "Narjamandap",
+   "kind": "village"
+  },
+  {
+   "name": "Madanpur",
+   "kind": "village"
+  },
+  {
+   "name": "Thansing",
+   "kind": "health post"
+  },
+  {
+   "name": "Lachyang",
+   "kind": "village"
+  },
+  {
+   "name": "Battar",
+   "kind": "health post"
+  },
+  {
+   "name": "Ramche",
+   "kind": "village"
+  },
+  {
+   "name": "Kalikasthan",
+   "kind": "ward office"
+  },
+  {
+   "name": "Panchakanya",
+   "kind": "village"
+  },
+  {
+   "name": "Dandagaun",
+   "kind": "village"
+  },
+  {
+   "name": "Rautbesi",
+   "kind": "temple"
+  },
+  {
+   "name": "Kumari",
+   "kind": "village"
+  },
+  {
+   "name": "Kaule",
+   "kind": "road junction"
+  },
+  {
+   "name": "Chhap",
+   "kind": "road junction"
+  },
+  {
+   "name": "Dupcheshwar",
+   "kind": "village"
+  }
+ ],
+ "roads": [
+  {
+   "between": [
+    "Battar",
+    "Chhap"
+   ],
+   "minutes": 30,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Battar",
+    "Thansing"
+   ],
+   "minutes": 15,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Belkot",
+    "Betrawati"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Belkot",
+    "Kalikasthan"
+   ],
+   "minutes": 20,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Belkot",
+    "Laharepauwa"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Betrawati",
+    "Lachyang"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Betrawati",
+    "Laharepauwa"
+   ],
+   "minutes": 10,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Betrawati",
+    "Narjamandap"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Bhalche",
+    "Dupcheshwar"
+   ],
+   "minutes": 5,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Bhalche",
+    "Kumari"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Bhalche",
+    "Lachyang"
+   ],
+   "minutes": 15,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Bhalche",
+    "Madanpur"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Bhalche",
+    "Panchakanya"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Bhalche",
+    "Ramche"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Chhap",
+    "Thansing"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Dandagaun",
+    "Kumari"
+   ],
+   "minutes": 40,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Dandagaun",
+    "Thaprek"
+   ],
+   "minutes": 15,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Dandagaun",
+    "Tupche"
+   ],
+   "minutes": 30,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Dupcheshwar",
+    "Kaule"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Dupcheshwar",
+    "Madanpur"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Dupcheshwar",
+    "Panchakanya"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Ghyangphedi",
+    "Kumari"
+   ],
+   "minutes": 15,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Ghyangphedi",
+    "Lachyang"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Ghyangphedi",
+    "Narjamandap"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kaule",
+    "Kumari"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kaule",
+    "Thaprek"
+   ],
+   "minutes": 50,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kumari",
+    "Tupche"
+   ],
+   "minutes": 35,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Laharepauwa",
+    "Ramche"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Madanpur",
+    "Ramche"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Narjamandap",
+    "Rautbesi"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Thansing",
+    "Tupche"
+   ],
+   "minutes": 20,
+   "status": "open"
+  }
+ ],
+ "people": {
+  "Belkot": {
+   "injured": 0,
+   "children": 1,
+   "elderly": 0,
+   "adults": 2
+  },
+  "Thaprek": {
+   "injured": 0,
+   "children": 4,
+   "elderly": 0,
+   "adults": 2
+  },
+  "Betrawati": {
+   "injured": 1,
+   "children": 4,
+   "elderly": 3,
+   "adults": 6
+  },
+  "Tupche": {
+   "injured": 2,
+   "children": 0,
+   "elderly": 2,
+   "adults": 5
+  },
+  "Bhalche": {
+   "injured": 1,
+   "children": 3,
+   "elderly": 0,
+   "adults": 2
+  },
+  "Laharepauwa": {
+   "injured": 3,
+   "children": 4,
+   "elderly": 2,
+   "adults": 2
+  },
+  "Narjamandap": {
+   "injured": 0,
+   "children": 0,
+   "elderly": 2,
+   "adults": 4
+  },
+  "Madanpur": {
+   "injured": 3,
+   "children": 0,
+   "elderly": 0,
+   "adults": 6
+  },
+  "Thansing": {
+   "injured": 2,
+   "children": 4,
+   "elderly": 0,
+   "adults": 6
+  },
+  "Lachyang": {
+   "injured": 0,
+   "children": 4,
+   "elderly": 0,
+   "adults": 3
+  },
+  "Battar": {
+   "injured": 1,
+   "children": 3,
+   "elderly": 0,
+   "adults": 6
+  },
+  "Ramche": {
+   "injured": 2,
+   "children": 4,
+   "elderly": 1,
+   "adults": 5
+  },
+  "Kalikasthan": {
+   "injured": 0,
+   "children": 3,
+   "elderly": 2,
+   "adults": 6
+  },
+  "Panchakanya": {
+   "injured": 0,
+   "children": 1,
+   "elderly": 2,
+   "adults": 5
+  },
+  "Dandagaun": {
+   "injured": 0,
+   "children": 2,
+   "elderly": 0,
+   "adults": 2
+  },
+  "Rautbesi": {
+   "injured": 1,
+   "children": 4,
+   "elderly": 2,
+   "adults": 2
+  }
+ }
+}

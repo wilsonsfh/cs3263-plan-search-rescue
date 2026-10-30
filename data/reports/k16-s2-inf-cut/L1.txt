@@ -1,0 +1,73 @@
+MISSION SHEET
+- Team base and starting point: Samundratar
+- Shelter where evacuees must be delivered: Samundratar
+- Vehicle capacity: no practical limit (enough vehicles to carry everyone at once)
+- Places on the district map: Samundratar (evacuation point), Suryagadhi (health post), Meghang (health post), Narjamandap (village), Dupcheshwar (village), Taruka (village), Betrawati (school), Battar (village), Gerkhu (village), Bhorle (health post), Chhap (village), Thaprek (ward office), Likhu (village), Jiling (village), Chaughada (village), Kalikasthan (village), Thulogaun (village), Tadi (road junction), Kakani (village)
+
+ROAD REGISTER (pre-flood network; usual one-way driving times, roads are two-way)
+- Battar–Chaughada: 20 min
+- Battar–Chhap: 20 min
+- Battar–Likhu: 15 min
+- Battar–Thulogaun: 15 min
+- Betrawati–Samundratar: 15 min
+- Betrawati–Tadi: 10 min
+- Betrawati–Taruka: 35 min
+- Bhorle–Gerkhu: 15 min
+- Bhorle–Meghang: 10 min
+- Bhorle–Narjamandap: 15 min
+- Bhorle–Suryagadhi: 25 min
+- Chaughada–Chhap: 15 min
+- Chaughada–Kalikasthan: 10 min
+- Chhap–Jiling: 15 min
+- Chhap–Samundratar: 15 min
+- Chhap–Thulogaun: 10 min
+- Dupcheshwar–Suryagadhi: 35 min
+- Dupcheshwar–Thaprek: 10 min
+- Gerkhu–Tadi: 10 min
+- Gerkhu–Taruka: 30 min
+- Jiling–Kalikasthan: 10 min
+- Kakani–Likhu: 15 min
+- Kakani–Samundratar: 10 min
+- Likhu–Suryagadhi: 20 min
+- Likhu–Thaprek: 15 min
+- Likhu–Thulogaun: 10 min
+- Meghang–Narjamandap: 15 min
+- Narjamandap–Suryagadhi: 15 min
+- Samundratar–Tadi: 15 min
+- Samundratar–Thulogaun: 5 min
+- Tadi–Taruka: 20 min
+
+FIELD REPORT (district control room, 12:00)
+Road status changes since the flood:
+- Battar–Thulogaun: open, travel time now 30 min
+- Betrawati–Tadi: open, travel time now 20 min
+- Bhorle–Gerkhu: BLOCKED
+- Bhorle–Meghang: BLOCKED
+- Chaughada–Chhap: BLOCKED
+- Chhap–Jiling: BLOCKED
+- Chhap–Samundratar: BLOCKED
+- Dupcheshwar–Suryagadhi: open, travel time now 45 min
+- Jiling–Kalikasthan: BLOCKED
+- Kakani–Likhu: open, travel time now 25 min
+- Likhu–Suryagadhi: open, travel time now 40 min
+- Likhu–Thulogaun: BLOCKED
+- Narjamandap–Suryagadhi: BLOCKED
+All other roads: open, usual travel time.
+People waiting for rescue:
+- Suryagadhi: 1 injured, 4 children, 1 elderly, 2 adults
+- Meghang: 0 injured, 0 children, 0 elderly, 2 adults
+- Narjamandap: 0 injured, 1 children, 0 elderly, 2 adults
+- Dupcheshwar: 0 injured, 2 children, 3 elderly, 3 adults
+- Taruka: 1 injured, 2 children, 0 elderly, 6 adults
+- Betrawati: 1 injured, 6 children, 1 elderly, 2 adults
+- Battar: 0 injured, 4 children, 3 elderly, 1 adults
+- Gerkhu: 0 injured, 3 children, 0 elderly, 4 adults
+- Bhorle: 3 injured, 0 children, 0 elderly, 5 adults
+- Chhap: 0 injured, 2 children, 2 elderly, 4 adults
+- Thaprek: 0 injured, 1 children, 2 elderly, 6 adults
+- Likhu: 1 injured, 1 children, 0 elderly, 3 adults
+- Jiling: 0 injured, 0 children, 0 elderly, 6 adults
+- Chaughada: 0 injured, 4 children, 3 elderly, 6 adults
+- Kalikasthan: 0 injured, 0 children, 3 elderly, 6 adults
+- Thulogaun: 0 injured, 3 children, 2 elderly, 5 adults
+No one is waiting at any other location.

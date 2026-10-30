@@ -1,0 +1,26 @@
+MISSION SHEET
+- Team base and starting point: Bageshwari
+- Shelter where evacuees must be delivered: Bageshwari
+- Vehicle capacity: no practical limit (enough vehicles to carry everyone at once)
+- Places on the district map: Bageshwari (evacuation point), Laharepauwa (village), Sundaradevi (village), Shikharbesi (village), Bhorle (village), Chhap (village), Betrawati (village), Samundratar (village)
+
+ROAD REGISTER (pre-flood network; usual one-way driving times, roads are two-way)
+- Bageshwari–Betrawati: 10 min
+- Bageshwari–Bhorle: 20 min
+- Bageshwari–Chhap: 15 min
+- Bageshwari–Samundratar: 25 min
+- Betrawati–Chhap: 20 min
+- Betrawati–Laharepauwa: 10 min
+- Betrawati–Samundratar: 25 min
+- Betrawati–Shikharbesi: 15 min
+- Bhorle–Chhap: 20 min
+- Bhorle–Sundaradevi: 10 min
+- Chhap–Laharepauwa: 10 min
+- Chhap–Sundaradevi: 25 min
+- Samundratar–Shikharbesi: 10 min
+
+FIELD DISPATCHES (several sources; listed in the order they reached the control room)
+[09:30] District Police Office (situation report): The Bageshwari–Bhorle road is under two metres of fast-flowing floodwater. The Chhap–Laharepauwa road is open but badly waterlogged; driving it now takes double the normal journey time. Heavy rain is forecast to continue through the evening.
+[06:45] Radio Nuwakot FM (local radio, early bulletin): Residents of Betrawati were seen on rooftops last night. Around 7 people are believed to be stranded in Bhorle (unconfirmed estimate). Residents of Chhap were seen on rooftops last night. The Samundratar–Shikharbesi road is still passable this morning, drivers say. Debris is blocking the Bhorle–Chhap road. Debris is blocking the Bageshwari–Betrawati road. Residents of Samundratar were seen on rooftops last night. Around 8 people are believed to be stranded in Sundaradevi (unconfirmed estimate). Around 8 people are believed to be stranded in Shikharbesi (unconfirmed estimate). The Home Ministry says relief funds will be released next week.
+[13:15] Sunita Lama, The Himalayan Times (on the ground): Everyone from Chhap has already been airlifted out. Betrawati was fully evacuated by the army yesterday; no one remains there. Confirmed headcount: Residents at Sundaradevi say a baby and three uninjured adults are still there, sheltering on upper floors. Floodwater has turned the road from Bhorle to Sundaradevi into a river. The Chhap–Sundaradevi road is open but badly waterlogged; driving it now takes double the normal journey time. Confirmed headcount: At Shikharbesi, a baby and four uninjured adults are waiting to be rescued. Army engineers have cleared the debris on the Bageshwari–Betrawati road; it is open again at normal speed. Confirmed headcount: Residents at Bhorle say two children, three elderly residents and four able-bodied adults are still there, sheltering on upper floors. A government helicopter was seen flying north this morning but did not land. The Samundratar–Shikharbesi road is under two metres of fast-flowing floodwater, cutting a road that was open earlier today. Debris has completely choked the road between Betrawati and Shikharbesi. Stranded at Laharepauwa: one injured person (a teenage girl with a fractured arm) and three other adults. Samundratar was fully evacuated by the army yesterday; no one remains there. The Bhorle–Chhap road has been reopened after bulldozers removed the debris; travel times are back to normal.
+Anything not mentioned in these dispatches is in its usual condition, and no one else is known to be stranded.

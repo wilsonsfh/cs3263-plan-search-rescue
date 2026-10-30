@@ -1,0 +1,406 @@
+{
+ "steps": [
+  {
+   "action": "move",
+   "from": "Madanpur",
+   "to": "Meghang"
+  },
+  {
+   "action": "pickup",
+   "location": "Meghang"
+  },
+  {
+   "action": "move",
+   "from": "Meghang",
+   "to": "Madanpur"
+  },
+  {
+   "action": "move",
+   "from": "Madanpur",
+   "to": "Bhorle"
+  },
+  {
+   "action": "move",
+   "from": "Bhorle",
+   "to": "Chaughada"
+  },
+  {
+   "action": "move",
+   "from": "Chaughada",
+   "to": "Tupche"
+  },
+  {
+   "action": "pickup",
+   "location": "Tupche"
+  },
+  {
+   "action": "move",
+   "from": "Tupche",
+   "to": "Chaughada"
+  },
+  {
+   "action": "move",
+   "from": "Chaughada",
+   "to": "Bhorle"
+  },
+  {
+   "action": "move",
+   "from": "Bhorle",
+   "to": "Madanpur"
+  },
+  {
+   "action": "dropoff",
+   "location": "Madanpur"
+  },
+  {
+   "action": "move",
+   "from": "Madanpur",
+   "to": "Bhorle"
+  },
+  {
+   "action": "move",
+   "from": "Bhorle",
+   "to": "Chaughada"
+  },
+  {
+   "action": "move",
+   "from": "Chaughada",
+   "to": "Belkot"
+  },
+  {
+   "action": "pickup",
+   "location": "Belkot"
+  },
+  {
+   "action": "move",
+   "from": "Belkot",
+   "to": "Chaughada"
+  },
+  {
+   "action": "move",
+   "from": "Chaughada",
+   "to": "Bhalche"
+  },
+  {
+   "action": "move",
+   "from": "Bhalche",
+   "to": "Thulogaun"
+  },
+  {
+   "action": "pickup",
+   "location": "Thulogaun"
+  },
+  {
+   "action": "move",
+   "from": "Thulogaun",
+   "to": "Bhalche"
+  },
+  {
+   "action": "move",
+   "from": "Bhalche",
+   "to": "Chaughada"
+  },
+  {
+   "action": "move",
+   "from": "Chaughada",
+   "to": "Bhorle"
+  },
+  {
+   "action": "move",
+   "from": "Bhorle",
+   "to": "Madanpur"
+  },
+  {
+   "action": "dropoff",
+   "location": "Madanpur"
+  },
+  {
+   "action": "move",
+   "from": "Madanpur",
+   "to": "Meghang"
+  },
+  {
+   "action": "move",
+   "from": "Meghang",
+   "to": "Likhu"
+  },
+  {
+   "action": "move",
+   "from": "Likhu",
+   "to": "Kispang"
+  },
+  {
+   "action": "move",
+   "from": "Kispang",
+   "to": "Goljung"
+  },
+  {
+   "action": "pickup",
+   "location": "Goljung"
+  },
+  {
+   "action": "move",
+   "from": "Goljung",
+   "to": "Kispang"
+  },
+  {
+   "action": "pickup",
+   "location": "Kispang"
+  },
+  {
+   "action": "move",
+   "from": "Kispang",
+   "to": "Likhu"
+  },
+  {
+   "action": "move",
+   "from": "Likhu",
+   "to": "Meghang"
+  },
+  {
+   "action": "move",
+   "from": "Meghang",
+   "to": "Madanpur"
+  },
+  {
+   "action": "dropoff",
+   "location": "Madanpur"
+  },
+  {
+   "action": "move",
+   "from": "Madanpur",
+   "to": "Bhorle"
+  },
+  {
+   "action": "move",
+   "from": "Bhorle",
+   "to": "Bidur"
+  },
+  {
+   "action": "pickup",
+   "location": "Bidur"
+  },
+  {
+   "action": "move",
+   "from": "Bidur",
+   "to": "Tadi"
+  },
+  {
+   "action": "pickup",
+   "location": "Tadi"
+  },
+  {
+   "action": "move",
+   "from": "Tadi",
+   "to": "Bidur"
+  },
+  {
+   "action": "move",
+   "from": "Bidur",
+   "to": "Bhorle"
+  },
+  {
+   "action": "move",
+   "from": "Bhorle",
+   "to": "Madanpur"
+  },
+  {
+   "action": "dropoff",
+   "location": "Madanpur"
+  },
+  {
+   "action": "move",
+   "from": "Madanpur",
+   "to": "Bhorle"
+  },
+  {
+   "action": "pickup",
+   "location": "Bhorle"
+  },
+  {
+   "action": "move",
+   "from": "Bhorle",
+   "to": "Chaughada"
+  },
+  {
+   "action": "move",
+   "from": "Chaughada",
+   "to": "Tupche"
+  },
+  {
+   "action": "move",
+   "from": "Tupche",
+   "to": "Betrawati"
+  },
+  {
+   "action": "pickup",
+   "location": "Betrawati"
+  },
+  {
+   "action": "move",
+   "from": "Betrawati",
+   "to": "Tupche"
+  },
+  {
+   "action": "move",
+   "from": "Tupche",
+   "to": "Chaughada"
+  },
+  {
+   "action": "move",
+   "from": "Chaughada",
+   "to": "Bhorle"
+  },
+  {
+   "action": "move",
+   "from": "Bhorle",
+   "to": "Madanpur"
+  },
+  {
+   "action": "dropoff",
+   "location": "Madanpur"
+  },
+  {
+   "action": "move",
+   "from": "Madanpur",
+   "to": "Meghang"
+  },
+  {
+   "action": "move",
+   "from": "Meghang",
+   "to": "Likhu"
+  },
+  {
+   "action": "pickup",
+   "location": "Likhu"
+  },
+  {
+   "action": "move",
+   "from": "Likhu",
+   "to": "Kispang"
+  },
+  {
+   "action": "move",
+   "from": "Kispang",
+   "to": "Goljung"
+  },
+  {
+   "action": "move",
+   "from": "Goljung",
+   "to": "Sundaradevi"
+  },
+  {
+   "action": "pickup",
+   "location": "Sundaradevi"
+  },
+  {
+   "action": "move",
+   "from": "Sundaradevi",
+   "to": "Goljung"
+  },
+  {
+   "action": "move",
+   "from": "Goljung",
+   "to": "Kispang"
+  },
+  {
+   "action": "move",
+   "from": "Kispang",
+   "to": "Likhu"
+  },
+  {
+   "action": "move",
+   "from": "Likhu",
+   "to": "Meghang"
+  },
+  {
+   "action": "move",
+   "from": "Meghang",
+   "to": "Madanpur"
+  },
+  {
+   "action": "dropoff",
+   "location": "Madanpur"
+  },
+  {
+   "action": "move",
+   "from": "Madanpur",
+   "to": "Bhorle"
+  },
+  {
+   "action": "move",
+   "from": "Bhorle",
+   "to": "Chaughada"
+  },
+  {
+   "action": "move",
+   "from": "Chaughada",
+   "to": "Tupche"
+  },
+  {
+   "action": "move",
+   "from": "Tupche",
+   "to": "Betrawati"
+  },
+  {
+   "action": "move",
+   "from": "Betrawati",
+   "to": "Dandagaun"
+  },
+  {
+   "action": "pickup",
+   "location": "Dandagaun"
+  },
+  {
+   "action": "move",
+   "from": "Dandagaun",
+   "to": "Betrawati"
+  },
+  {
+   "action": "move",
+   "from": "Betrawati",
+   "to": "Tupche"
+  },
+  {
+   "action": "move",
+   "from": "Tupche",
+   "to": "Chaughada"
+  },
+  {
+   "action": "pickup",
+   "location": "Chaughada"
+  },
+  {
+   "action": "move",
+   "from": "Chaughada",
+   "to": "Bhorle"
+  },
+  {
+   "action": "move",
+   "from": "Bhorle",
+   "to": "Rautbesi"
+  },
+  {
+   "action": "pickup",
+   "location": "Rautbesi"
+  },
+  {
+   "action": "move",
+   "from": "Rautbesi",
+   "to": "Bhorle"
+  },
+  {
+   "action": "move",
+   "from": "Bhorle",
+   "to": "Madanpur"
+  },
+  {
+   "action": "dropoff",
+   "location": "Madanpur"
+  }
+ ],
+ "unreachable": [
+  "Gerkhu"
+ ],
+ "claimed_total_minutes": 980.0
+}

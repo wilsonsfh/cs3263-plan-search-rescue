@@ -1,0 +1,39 @@
+MISSION SHEET
+- Team base and starting point: Battar
+- Shelter where evacuees must be delivered: Battar
+- Vehicle capacity: 14 people at a time
+- Places on the district map: Battar (evacuation point), Narjamandap (temple), Tupche (village), Dupcheshwar (school), Chhap (village), Thaprek (village), Bhorle (village), Bageshwari (village), Meghang (village), Salme (school), Likhu (village), Betrawati (health post), Gerkhu (village), Kumari (road junction), Panchakanya (village), Rautbesi (village), Thansing (village)
+
+ROAD REGISTER (pre-flood network; usual one-way driving times, roads are two-way)
+- Bageshwari–Gerkhu: 15 min
+- Bageshwari–Narjamandap: 20 min
+- Bageshwari–Salme: 10 min
+- Battar–Betrawati: 20 min
+- Battar–Panchakanya: 15 min
+- Battar–Tupche: 15 min
+- Betrawati–Thansing: 20 min
+- Betrawati–Thaprek: 10 min
+- Betrawati–Tupche: 5 min
+- Bhorle–Likhu: 20 min
+- Bhorle–Salme: 15 min
+- Chhap–Narjamandap: 20 min
+- Chhap–Rautbesi: 10 min
+- Dupcheshwar–Kumari: 10 min
+- Dupcheshwar–Likhu: 15 min
+- Dupcheshwar–Meghang: 15 min
+- Kumari–Likhu: 20 min
+- Kumari–Meghang: 10 min
+- Kumari–Panchakanya: 15 min
+- Likhu–Panchakanya: 10 min
+- Meghang–Panchakanya: 25 min
+- Narjamandap–Salme: 10 min
+- Rautbesi–Thaprek: 25 min
+- Thansing–Thaprek: 20 min
+- Thansing–Tupche: 30 min
+- Thaprek–Tupche: 10 min
+
+FIELD DISPATCHES (several sources; listed in the order they reached the control room)
+[06:45] Radio Nuwakot FM (local radio, early bulletin): Debris is blocking the Bageshwari–Gerkhu road. Debris is blocking the Dupcheshwar–Kumari road. Around 10 people are believed to be stranded in Gerkhu (unconfirmed estimate). Residents of Thansing were seen on rooftops last night. The Home Ministry says relief funds will be released next week. Around 8 people are believed to be stranded in Bhorle (unconfirmed estimate). Around 8 people are believed to be stranded in Meghang (unconfirmed estimate). Around 13 people are believed to be stranded in Betrawati (unconfirmed estimate). Around 3 people are believed to be stranded in Narjamandap (unconfirmed estimate). Residents of Panchakanya were seen on rooftops last night. Around 1 people are believed to be stranded in Tupche (unconfirmed estimate). Debris is blocking the Dupcheshwar–Meghang road. The Meghang–Panchakanya road is still passable this morning, drivers say. Around 10 people are believed to be stranded in Dupcheshwar (unconfirmed estimate). Around 7 people are believed to be stranded in Likhu (unconfirmed estimate). Residents of Rautbesi were seen on rooftops last night. Around 10 people are believed to be stranded in Salme (unconfirmed estimate).
+[09:30] District Police Office (situation report): The only bridge linking Betrawati and Thansing has collapsed. Debris has completely choked the road between Kumari and Panchakanya. The Battar–Betrawati road is open but badly waterlogged; driving it now takes double the normal journey time. The suspension bridge on the Narjamandap–Salme route was swept away by the river. The Battar–Panchakanya road is open but badly waterlogged; driving it adds 20 minutes to the usual journey. The Bageshwari–Narjamandap road is open but badly waterlogged; driving it takes twice the usual time. Stranded at Bageshwari: one injured person (a woman with burns on her arms), 2 elderly residents and three able-bodied adults. Livestock losses across the district are reported to be severe.
+[13:15] Sunita Lama, The Himalayan Times (on the ground): Confirmed headcount: Residents at the temple in Narjamandap say half a dozen adults are still there, sheltering on upper floors. The Rautbesi–Thaprek road is open but badly waterlogged; driving it adds 10 minutes to the usual journey. Confirmed headcount: At Likhu, four adults are waiting to be rescued. Confirmed headcount: At the school in Salme, five schoolchildren and two other adults are waiting to be rescued. Army engineers have cleared the debris on the Dupcheshwar–Meghang road; it is open again at normal speed. Confirmed headcount: Our team counted two injured people (a pregnant woman who was hit by debris and an elderly woman with a broken hip), 3 elderly residents and five able-bodied adults at Bhorle, all needing evacuation. Rautbesi was fully evacuated by the army yesterday; no one remains there. Everyone from Panchakanya has already been airlifted out. Confirmed headcount: Residents at the health post in Betrawati say two injured people (a young boy with a badly sprained ankle and a woman with burns on her arms), three schoolchildren and 5 uninjured adults are still there, sheltering on upper floors. The Dupcheshwar–Kumari road has been reopened after bulldozers removed the debris; travel times are back to normal. Confirmed headcount: At Meghang, one elderly resident and four able-bodied adults are waiting to be rescued. In Kathmandu, schools have been closed for three days as a precaution. Thansing was fully evacuated by the army yesterday; no one remains there. Confirmed headcount: Stranded at Tupche: two senior citizens and 2 other adults. Confirmed headcount: Our team counted one injured person (a pregnant woman who was hit by debris), an old man and four other adults at Gerkhu, all needing evacuation. The only bridge linking Bhorle and Salme has collapsed. Residents at Chhap say 4 schoolchildren and six other adults are still there, sheltering on upper floors. Confirmed headcount: Stranded at the school in Dupcheshwar: one injured person (a young boy with a badly sprained ankle), 3 schoolchildren, two elderly residents and two other adults. At Thaprek, four schoolchildren and five uninjured adults are waiting to be rescued. The Meghang–Panchakanya road is under two metres of fast-flowing floodwater, cutting a road that was open earlier today. The Bageshwari–Gerkhu road has been reopened after bulldozers removed the debris; travel times are back to normal.
+Anything not mentioned in these dispatches is in its usual condition, and no one else is known to be stranded.

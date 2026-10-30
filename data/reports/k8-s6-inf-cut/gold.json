@@ -1,0 +1,211 @@
+{
+ "start": "Kumari",
+ "shelter": "Kumari",
+ "capacity": null,
+ "locations": [
+  {
+   "name": "Kumari",
+   "kind": "evacuation point"
+  },
+  {
+   "name": "Narjamandap",
+   "kind": "village"
+  },
+  {
+   "name": "Trishuli",
+   "kind": "village"
+  },
+  {
+   "name": "Bageshwari",
+   "kind": "school"
+  },
+  {
+   "name": "Suryagadhi",
+   "kind": "school"
+  },
+  {
+   "name": "Thaprek",
+   "kind": "temple"
+  },
+  {
+   "name": "Kakani",
+   "kind": "temple"
+  },
+  {
+   "name": "Thansing",
+   "kind": "village"
+  },
+  {
+   "name": "Taruka",
+   "kind": "village"
+  },
+  {
+   "name": "Bhorle",
+   "kind": "road junction"
+  }
+ ],
+ "roads": [
+  {
+   "between": [
+    "Bageshwari",
+    "Bhorle"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Bageshwari",
+    "Kakani"
+   ],
+   "minutes": 5,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Bageshwari",
+    "Taruka"
+   ],
+   "minutes": 20,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Bhorle",
+    "Suryagadhi"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Bhorle",
+    "Taruka"
+   ],
+   "minutes": 30,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kakani",
+    "Taruka"
+   ],
+   "minutes": 25,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Kumari",
+    "Narjamandap"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kumari",
+    "Taruka"
+   ],
+   "minutes": 30,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kumari",
+    "Thansing"
+   ],
+   "minutes": 25,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Narjamandap",
+    "Taruka"
+   ],
+   "minutes": 45,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Narjamandap",
+    "Thansing"
+   ],
+   "minutes": 30,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Suryagadhi",
+    "Taruka"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Thansing",
+    "Trishuli"
+   ],
+   "minutes": 25,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Thaprek",
+    "Trishuli"
+   ],
+   "minutes": 10,
+   "status": "blocked"
+  }
+ ],
+ "people": {
+  "Narjamandap": {
+   "injured": 0,
+   "children": 3,
+   "elderly": 2,
+   "adults": 4
+  },
+  "Trishuli": {
+   "injured": 0,
+   "children": 1,
+   "elderly": 0,
+   "adults": 2
+  },
+  "Bageshwari": {
+   "injured": 1,
+   "children": 9,
+   "elderly": 2,
+   "adults": 2
+  },
+  "Suryagadhi": {
+   "injured": 2,
+   "children": 8,
+   "elderly": 3,
+   "adults": 2
+  },
+  "Thaprek": {
+   "injured": 0,
+   "children": 2,
+   "elderly": 1,
+   "adults": 2
+  },
+  "Kakani": {
+   "injured": 0,
+   "children": 0,
+   "elderly": 1,
+   "adults": 6
+  },
+  "Thansing": {
+   "injured": 0,
+   "children": 3,
+   "elderly": 3,
+   "adults": 2
+  },
+  "Taruka": {
+   "injured": 0,
+   "children": 3,
+   "elderly": 0,
+   "adults": 2
+  }
+ }
+}

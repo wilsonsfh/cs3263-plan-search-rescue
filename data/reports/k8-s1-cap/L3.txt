@@ -1,0 +1,29 @@
+MISSION SHEET
+- Team base and starting point: Khanigaun
+- Shelter where evacuees must be delivered: Khanigaun
+- Vehicle capacity: 19 people at a time
+- Places on the district map: Khanigaun (evacuation point), Dhaibung (village), Kaule (village), Battar (ward office), Dandagaun (village), Likhu (school), Thulogaun (ward office), Kakani (village), Tadi (temple), Kalikasthan (road junction), Thansing (road junction), Thaprek (village)
+
+ROAD REGISTER (pre-flood network; usual one-way driving times, roads are two-way)
+- Battar–Dhaibung: 20 min
+- Battar–Khanigaun: 15 min
+- Battar–Likhu: 10 min
+- Battar–Thaprek: 15 min
+- Dandagaun–Dhaibung: 10 min
+- Dhaibung–Likhu: 15 min
+- Kakani–Kaule: 20 min
+- Kakani–Thansing: 10 min
+- Kakani–Thaprek: 15 min
+- Kalikasthan–Likhu: 15 min
+- Kalikasthan–Tadi: 20 min
+- Kaule–Thansing: 30 min
+- Kaule–Thulogaun: 20 min
+- Khanigaun–Thaprek: 10 min
+- Thansing–Thaprek: 10 min
+- Thansing–Thulogaun: 10 min
+
+FIELD DISPATCHES (several sources; listed in the order they reached the control room)
+[13:15] Sunita Lama, The Himalayan Times (on the ground): Our team counted three elderly residents and 3 other adults at Kakani, all needing evacuation. Our team counted three children, an old man and three able-bodied adults at Dandagaun, all needing evacuation. A landslide has buried the road between Kakani and Kaule under metres of mud, cutting a road that was open earlier today. The Kalikasthan–Likhu road has been reopened after bulldozers removed the debris; travel times are back to normal. Police have checked the Battar–Dhaibung road: the social media reports were false and the road is open as normal. Police have checked the Kalikasthan–Tadi road: the social media reports were false and the road is open as normal. Stranded at the temple in Tadi: 3 schoolchildren, three senior citizens and five able-bodied adults. Police have checked the Dhaibung–Likhu road: the social media reports were false and the road is open as normal. Confirmed headcount: Stranded at the ward office in Thulogaun: 2 children, three elderly residents and three other adults. Confirmed headcount: Our team counted four children, three elderly residents and 4 uninjured adults at Dhaibung, all needing evacuation. Hillside collapse: the Thansing–Thulogaun road disappeared under a landslide overnight, cutting a road that was open earlier today. Thaprek was fully evacuated by the army yesterday; no one remains there. The Kakani–Thansing road is open but badly waterlogged; driving it takes twice the usual time. The Khanigaun–Thaprek road is open but badly waterlogged; driving it now takes double the normal journey time. In Kathmandu, schools have been closed for three days as a precaution. Army engineers have cleared the debris on the Kaule–Thansing road; it is open again at normal speed. Confirmed headcount: Stranded at the school in Likhu: two injured people (a woman with burns on her arms and a teenage girl with a fractured arm), eight children, an elderly couple and two able-bodied adults.
+[09:30] District Police Office (situation report): Heavy rain is forecast to continue through the evening. The Dandagaun–Dhaibung road is open but badly waterlogged; driving it takes twice the usual time. Floodwater has turned the road from Thansing to Thaprek into a river. Residents at the ward office in Battar say 3 injured people (a pregnant woman who was hit by debris, a young boy with a badly sprained ankle and a teenage girl with a fractured arm), a baby, three senior citizens and half a dozen uninjured adults are still there, sheltering on upper floors. Unconfirmed posts on social media claim the Dhaibung–Likhu road has been washed away. Stranded at Kaule: two injured people (a pregnant woman who was hit by debris and a woman with burns on her arms), three children and five able-bodied adults. Unconfirmed posts on social media claim the Battar–Dhaibung road has been washed away. Unconfirmed posts on social media claim the Kalikasthan–Tadi road has been washed away.
+[06:45] Radio Nuwakot FM (local radio, early bulletin): The Home Ministry says relief funds will be released next week. Debris is blocking the Kalikasthan–Likhu road. Around 11 people are believed to be stranded in Likhu (unconfirmed estimate). Residents of Thaprek were seen on rooftops last night. The Kakani–Kaule road is still passable this morning, drivers say. Debris is blocking the Kaule–Thansing road. Around 10 people are believed to be stranded in Thulogaun (unconfirmed estimate). The Thansing–Thulogaun road is still passable this morning, drivers say. Around 13 people are believed to be stranded in Dhaibung (unconfirmed estimate).
+Anything not mentioned in these dispatches is in its usual condition, and no one else is known to be stranded.

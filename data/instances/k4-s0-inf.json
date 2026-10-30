@@ -1,0 +1,174 @@
+{
+  "id": "k4-s0-inf",
+  "locations": [
+    {
+      "id": "salme",
+      "name": "Salme",
+      "kind": "base"
+    },
+    {
+      "id": "samundratar",
+      "name": "Samundratar",
+      "kind": "health_post"
+    },
+    {
+      "id": "meghang",
+      "name": "Meghang",
+      "kind": "health_post"
+    },
+    {
+      "id": "tupche",
+      "name": "Tupche",
+      "kind": "temple"
+    },
+    {
+      "id": "likhu",
+      "name": "Likhu",
+      "kind": "school"
+    },
+    {
+      "id": "kispang",
+      "name": "Kispang",
+      "kind": "junction"
+    },
+    {
+      "id": "khanigaun",
+      "name": "Khanigaun",
+      "kind": "junction"
+    }
+  ],
+  "roads": [
+    {
+      "u": "khanigaun",
+      "v": "kispang",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "blocked",
+        "cleared"
+      ]
+    },
+    {
+      "u": "khanigaun",
+      "v": "meghang",
+      "minutes": 5,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "khanigaun",
+      "v": "salme",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "khanigaun",
+      "v": "tupche",
+      "minutes": 35,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "kispang",
+      "v": "meghang",
+      "minutes": 50,
+      "open": true,
+      "base_minutes": 25,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "kispang",
+      "v": "salme",
+      "minutes": 25,
+      "open": false,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": []
+    },
+    {
+      "u": "likhu",
+      "v": "samundratar",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "meghang",
+      "v": "salme",
+      "minutes": 20,
+      "open": false,
+      "base_minutes": null,
+      "cause": "submerged",
+      "history": [
+        "open",
+        "blocked"
+      ]
+    },
+    {
+      "u": "meghang",
+      "v": "tupche",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "salme",
+      "v": "samundratar",
+      "minutes": 35,
+      "open": true,
+      "base_minutes": 20,
+      "cause": "waterlogged",
+      "history": []
+    }
+  ],
+  "people": {
+    "samundratar": {
+      "adults": 2
+    },
+    "meghang": {
+      "injured": 1,
+      "elderly": 2,
+      "adults": 4
+    },
+    "tupche": {
+      "elderly": 1,
+      "adults": 1
+    },
+    "likhu": {
+      "injured": 1,
+      "children": 6,
+      "adults": 1
+    }
+  },
+  "start": "salme",
+  "shelter": "salme",
+  "capacity": null,
+  "priority": "tiered",
+  "meta": {
+    "k": 4,
+    "seed": 0,
+    "extra_nodes": 2,
+    "n_roads": 10,
+    "n_blocked": 2,
+    "n_slowed": 2,
+    "cut_off": null,
+    "capacity_mode": "unlimited",
+    "split": "dev",
+    "rep": 0,
+    "condition": "unlimited"
+  }
+}

@@ -1,0 +1,122 @@
+{
+ "steps": [
+  {
+   "action": "move",
+   "from": "Laharepauwa",
+   "to": "Bageshwari"
+  },
+  {
+   "action": "pickup",
+   "location": "Bageshwari"
+  },
+  {
+   "action": "move",
+   "from": "Bageshwari",
+   "to": "Likhu"
+  },
+  {
+   "action": "pickup",
+   "location": "Likhu"
+  },
+  {
+   "action": "move",
+   "from": "Likhu",
+   "to": "Thulogaun"
+  },
+  {
+   "action": "move",
+   "from": "Thulogaun",
+   "to": "Dupcheshwar"
+  },
+  {
+   "action": "pickup",
+   "location": "Dupcheshwar"
+  },
+  {
+   "action": "move",
+   "from": "Dupcheshwar",
+   "to": "Thulogaun"
+  },
+  {
+   "action": "pickup",
+   "location": "Thulogaun"
+  },
+  {
+   "action": "move",
+   "from": "Thulogaun",
+   "to": "Okharpauwa"
+  },
+  {
+   "action": "move",
+   "from": "Okharpauwa",
+   "to": "Belkot"
+  },
+  {
+   "action": "pickup",
+   "location": "Belkot"
+  },
+  {
+   "action": "move",
+   "from": "Belkot",
+   "to": "Okharpauwa"
+  },
+  {
+   "action": "move",
+   "from": "Okharpauwa",
+   "to": "Thulogaun"
+  },
+  {
+   "action": "move",
+   "from": "Thulogaun",
+   "to": "Bageshwari"
+  },
+  {
+   "action": "move",
+   "from": "Bageshwari",
+   "to": "Kakani"
+  },
+  {
+   "action": "move",
+   "from": "Kakani",
+   "to": "Suryagadhi"
+  },
+  {
+   "action": "move",
+   "from": "Suryagadhi",
+   "to": "Ghyangphedi"
+  },
+  {
+   "action": "pickup",
+   "location": "Ghyangphedi"
+  },
+  {
+   "action": "move",
+   "from": "Ghyangphedi",
+   "to": "Kalikasthan"
+  },
+  {
+   "action": "pickup",
+   "location": "Kalikasthan"
+  },
+  {
+   "action": "move",
+   "from": "Kalikasthan",
+   "to": "Goljung"
+  },
+  {
+   "action": "pickup",
+   "location": "Goljung"
+  },
+  {
+   "action": "move",
+   "from": "Goljung",
+   "to": "Laharepauwa"
+  },
+  {
+   "action": "dropoff",
+   "location": "Laharepauwa"
+  }
+ ],
+ "unreachable": [],
+ "claimed_total_minutes": 275.0
+}

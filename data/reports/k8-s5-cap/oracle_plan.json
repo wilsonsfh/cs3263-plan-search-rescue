@@ -1,0 +1,199 @@
+{
+ "steps": [
+  {
+   "action": "move",
+   "from": "Kispang",
+   "to": "Suryagadhi"
+  },
+  {
+   "action": "move",
+   "from": "Suryagadhi",
+   "to": "Laharepauwa"
+  },
+  {
+   "action": "move",
+   "from": "Laharepauwa",
+   "to": "Salme"
+  },
+  {
+   "action": "move",
+   "from": "Salme",
+   "to": "Thansing"
+  },
+  {
+   "action": "pickup",
+   "location": "Thansing"
+  },
+  {
+   "action": "move",
+   "from": "Thansing",
+   "to": "Salme"
+  },
+  {
+   "action": "move",
+   "from": "Salme",
+   "to": "Laharepauwa"
+  },
+  {
+   "action": "move",
+   "from": "Laharepauwa",
+   "to": "Suryagadhi"
+  },
+  {
+   "action": "move",
+   "from": "Suryagadhi",
+   "to": "Kispang"
+  },
+  {
+   "action": "dropoff",
+   "location": "Kispang"
+  },
+  {
+   "action": "move",
+   "from": "Kispang",
+   "to": "Suryagadhi"
+  },
+  {
+   "action": "move",
+   "from": "Suryagadhi",
+   "to": "Battar"
+  },
+  {
+   "action": "pickup",
+   "location": "Battar"
+  },
+  {
+   "action": "move",
+   "from": "Battar",
+   "to": "Sundaradevi"
+  },
+  {
+   "action": "move",
+   "from": "Sundaradevi",
+   "to": "Haku"
+  },
+  {
+   "action": "pickup",
+   "location": "Haku"
+  },
+  {
+   "action": "move",
+   "from": "Haku",
+   "to": "Kalikasthan"
+  },
+  {
+   "action": "move",
+   "from": "Kalikasthan",
+   "to": "Kakani"
+  },
+  {
+   "action": "move",
+   "from": "Kakani",
+   "to": "Kispang"
+  },
+  {
+   "action": "dropoff",
+   "location": "Kispang"
+  },
+  {
+   "action": "move",
+   "from": "Kispang",
+   "to": "Kakani"
+  },
+  {
+   "action": "pickup",
+   "location": "Kakani"
+  },
+  {
+   "action": "move",
+   "from": "Kakani",
+   "to": "Kalikasthan"
+  },
+  {
+   "action": "pickup",
+   "location": "Kalikasthan"
+  },
+  {
+   "action": "move",
+   "from": "Kalikasthan",
+   "to": "Haku"
+  },
+  {
+   "action": "move",
+   "from": "Haku",
+   "to": "Sundaradevi"
+  },
+  {
+   "action": "pickup",
+   "location": "Sundaradevi"
+  },
+  {
+   "action": "move",
+   "from": "Sundaradevi",
+   "to": "Haku"
+  },
+  {
+   "action": "move",
+   "from": "Haku",
+   "to": "Kalikasthan"
+  },
+  {
+   "action": "move",
+   "from": "Kalikasthan",
+   "to": "Kakani"
+  },
+  {
+   "action": "move",
+   "from": "Kakani",
+   "to": "Kispang"
+  },
+  {
+   "action": "dropoff",
+   "location": "Kispang"
+  },
+  {
+   "action": "move",
+   "from": "Kispang",
+   "to": "Suryagadhi"
+  },
+  {
+   "action": "move",
+   "from": "Suryagadhi",
+   "to": "Laharepauwa"
+  },
+  {
+   "action": "pickup",
+   "location": "Laharepauwa"
+  },
+  {
+   "action": "move",
+   "from": "Laharepauwa",
+   "to": "Salme"
+  },
+  {
+   "action": "pickup",
+   "location": "Salme"
+  },
+  {
+   "action": "move",
+   "from": "Salme",
+   "to": "Laharepauwa"
+  },
+  {
+   "action": "move",
+   "from": "Laharepauwa",
+   "to": "Suryagadhi"
+  },
+  {
+   "action": "move",
+   "from": "Suryagadhi",
+   "to": "Kispang"
+  },
+  {
+   "action": "dropoff",
+   "location": "Kispang"
+  }
+ ],
+ "unreachable": [],
+ "claimed_total_minutes": 495.0
+}

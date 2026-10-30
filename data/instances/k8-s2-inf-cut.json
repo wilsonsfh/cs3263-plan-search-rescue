@@ -1,0 +1,279 @@
+{
+  "id": "k8-s2-inf-cut",
+  "locations": [
+    {
+      "id": "thansing",
+      "name": "Thansing",
+      "kind": "base"
+    },
+    {
+      "id": "dhaibung",
+      "name": "Dhaibung",
+      "kind": "health_post"
+    },
+    {
+      "id": "bhalche",
+      "name": "Bhalche",
+      "kind": "ward_office"
+    },
+    {
+      "id": "chaughada",
+      "name": "Chaughada",
+      "kind": "village"
+    },
+    {
+      "id": "bidur",
+      "name": "Bidur",
+      "kind": "school"
+    },
+    {
+      "id": "ramche",
+      "name": "Ramche",
+      "kind": "village"
+    },
+    {
+      "id": "taruka",
+      "name": "Taruka",
+      "kind": "village"
+    },
+    {
+      "id": "kumari",
+      "name": "Kumari",
+      "kind": "village"
+    },
+    {
+      "id": "madanpur",
+      "name": "Madanpur",
+      "kind": "ward_office"
+    },
+    {
+      "id": "likhu",
+      "name": "Likhu",
+      "kind": "evacuated_village"
+    }
+  ],
+  "roads": [
+    {
+      "u": "bhalche",
+      "v": "chaughada",
+      "minutes": 15,
+      "open": false,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": []
+    },
+    {
+      "u": "bhalche",
+      "v": "madanpur",
+      "minutes": 45,
+      "open": true,
+      "base_minutes": 30,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "bhalche",
+      "v": "taruka",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "blocked",
+        "cleared"
+      ]
+    },
+    {
+      "u": "bidur",
+      "v": "chaughada",
+      "minutes": 15,
+      "open": false,
+      "base_minutes": null,
+      "cause": "bridge",
+      "history": [
+        "open",
+        "blocked"
+      ]
+    },
+    {
+      "u": "bidur",
+      "v": "madanpur",
+      "minutes": 80,
+      "open": true,
+      "base_minutes": 40,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "bidur",
+      "v": "taruka",
+      "minutes": 25,
+      "open": false,
+      "base_minutes": null,
+      "cause": "bridge",
+      "history": [
+        "open",
+        "blocked"
+      ]
+    },
+    {
+      "u": "bidur",
+      "v": "thansing",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "chaughada",
+      "v": "thansing",
+      "minutes": 15,
+      "open": false,
+      "base_minutes": null,
+      "cause": "bridge",
+      "history": []
+    },
+    {
+      "u": "dhaibung",
+      "v": "kumari",
+      "minutes": 15,
+      "open": false,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "open",
+        "blocked"
+      ]
+    },
+    {
+      "u": "dhaibung",
+      "v": "likhu",
+      "minutes": 55,
+      "open": true,
+      "base_minutes": 35,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "dhaibung",
+      "v": "ramche",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "dhaibung",
+      "v": "thansing",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "kumari",
+      "v": "likhu",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "kumari",
+      "v": "ramche",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": [
+        "rumour"
+      ]
+    },
+    {
+      "u": "likhu",
+      "v": "ramche",
+      "minutes": 25,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "madanpur",
+      "v": "taruka",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "ramche",
+      "v": "thansing",
+      "minutes": 15,
+      "open": false,
+      "base_minutes": null,
+      "cause": "landslide",
+      "history": []
+    }
+  ],
+  "people": {
+    "dhaibung": {
+      "adults": 2
+    },
+    "bhalche": {
+      "elderly": 1,
+      "adults": 5
+    },
+    "chaughada": {
+      "children": 4,
+      "elderly": 2,
+      "adults": 5
+    },
+    "bidur": {
+      "injured": 1,
+      "children": 5,
+      "adults": 2
+    },
+    "ramche": {
+      "children": 1,
+      "elderly": 3,
+      "adults": 6
+    },
+    "taruka": {
+      "injured": 3,
+      "children": 3,
+      "adults": 5
+    },
+    "kumari": {
+      "children": 3,
+      "adults": 6
+    },
+    "madanpur": {
+      "children": 1,
+      "elderly": 1,
+      "adults": 4
+    }
+  },
+  "start": "thansing",
+  "shelter": "thansing",
+  "capacity": null,
+  "priority": "tiered",
+  "meta": {
+    "k": 8,
+    "seed": 2,
+    "extra_nodes": 1,
+    "n_roads": 17,
+    "n_blocked": 6,
+    "n_slowed": 3,
+    "cut_off": "chaughada",
+    "capacity_mode": "unlimited",
+    "split": "dev",
+    "rep": 0,
+    "condition": "unlimited-cut"
+  }
+}

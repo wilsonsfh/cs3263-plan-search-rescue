@@ -1,0 +1,270 @@
+{
+  "id": "k8-s5-cap",
+  "locations": [
+    {
+      "id": "kispang",
+      "name": "Kispang",
+      "kind": "base"
+    },
+    {
+      "id": "haku",
+      "name": "Haku",
+      "kind": "school"
+    },
+    {
+      "id": "salme",
+      "name": "Salme",
+      "kind": "village"
+    },
+    {
+      "id": "laharepauwa",
+      "name": "Laharepauwa",
+      "kind": "village"
+    },
+    {
+      "id": "kalikasthan",
+      "name": "Kalikasthan",
+      "kind": "ward_office"
+    },
+    {
+      "id": "sundaradevi",
+      "name": "Sundaradevi",
+      "kind": "health_post"
+    },
+    {
+      "id": "kakani",
+      "name": "Kakani",
+      "kind": "school"
+    },
+    {
+      "id": "battar",
+      "name": "Battar",
+      "kind": "temple"
+    },
+    {
+      "id": "thansing",
+      "name": "Thansing",
+      "kind": "school"
+    },
+    {
+      "id": "suryagadhi",
+      "name": "Suryagadhi",
+      "kind": "evacuated_village"
+    },
+    {
+      "id": "meghang",
+      "name": "Meghang",
+      "kind": "junction"
+    }
+  ],
+  "roads": [
+    {
+      "u": "battar",
+      "v": "sundaradevi",
+      "minutes": 35,
+      "open": true,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "blocked",
+        "cleared"
+      ]
+    },
+    {
+      "u": "battar",
+      "v": "suryagadhi",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "haku",
+      "v": "kalikasthan",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": 10,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "haku",
+      "v": "sundaradevi",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": [
+        "rumour"
+      ]
+    },
+    {
+      "u": "kakani",
+      "v": "kalikasthan",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": 10,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "kakani",
+      "v": "kispang",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "blocked",
+        "cleared"
+      ]
+    },
+    {
+      "u": "kalikasthan",
+      "v": "kispang",
+      "minutes": 20,
+      "open": false,
+      "base_minutes": null,
+      "cause": "landslide",
+      "history": [
+        "open",
+        "blocked"
+      ]
+    },
+    {
+      "u": "kispang",
+      "v": "meghang",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "blocked",
+        "cleared"
+      ]
+    },
+    {
+      "u": "kispang",
+      "v": "sundaradevi",
+      "minutes": 40,
+      "open": false,
+      "base_minutes": null,
+      "cause": "submerged",
+      "history": []
+    },
+    {
+      "u": "kispang",
+      "v": "suryagadhi",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "blocked",
+        "cleared"
+      ]
+    },
+    {
+      "u": "laharepauwa",
+      "v": "meghang",
+      "minutes": 50,
+      "open": true,
+      "base_minutes": 25,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "laharepauwa",
+      "v": "salme",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "laharepauwa",
+      "v": "suryagadhi",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "meghang",
+      "v": "salme",
+      "minutes": 20,
+      "open": false,
+      "base_minutes": null,
+      "cause": "landslide",
+      "history": []
+    },
+    {
+      "u": "salme",
+      "v": "thansing",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "blocked",
+        "cleared"
+      ]
+    }
+  ],
+  "people": {
+    "haku": {
+      "children": 6,
+      "adults": 1
+    },
+    "salme": {
+      "adults": 3
+    },
+    "laharepauwa": {
+      "children": 4,
+      "elderly": 2,
+      "adults": 4
+    },
+    "kalikasthan": {
+      "children": 2,
+      "adults": 1
+    },
+    "sundaradevi": {
+      "children": 4,
+      "adults": 2
+    },
+    "kakani": {
+      "children": 4,
+      "adults": 2
+    },
+    "battar": {
+      "injured": 1,
+      "children": 1,
+      "adults": 6
+    },
+    "thansing": {
+      "injured": 1,
+      "children": 9,
+      "adults": 2
+    }
+  },
+  "start": "kispang",
+  "shelter": "kispang",
+  "capacity": 15,
+  "priority": "tiered",
+  "meta": {
+    "k": 8,
+    "seed": 5,
+    "extra_nodes": 2,
+    "n_roads": 15,
+    "n_blocked": 3,
+    "n_slowed": 3,
+    "cut_off": null,
+    "capacity_mode": "tight",
+    "split": "test",
+    "rep": 1,
+    "condition": "tight"
+  }
+}

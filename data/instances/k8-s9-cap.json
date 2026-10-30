@@ -1,0 +1,243 @@
+{
+  "id": "k8-s9-cap",
+  "locations": [
+    {
+      "id": "chaughada",
+      "name": "Chaughada",
+      "kind": "base"
+    },
+    {
+      "id": "trishuli",
+      "name": "Trishuli",
+      "kind": "village"
+    },
+    {
+      "id": "samundratar",
+      "name": "Samundratar",
+      "kind": "village"
+    },
+    {
+      "id": "sundaradevi",
+      "name": "Sundaradevi",
+      "kind": "school"
+    },
+    {
+      "id": "jiling",
+      "name": "Jiling",
+      "kind": "village"
+    },
+    {
+      "id": "suryagadhi",
+      "name": "Suryagadhi",
+      "kind": "village"
+    },
+    {
+      "id": "narjamandap",
+      "name": "Narjamandap",
+      "kind": "village"
+    },
+    {
+      "id": "dupcheshwar",
+      "name": "Dupcheshwar",
+      "kind": "village"
+    },
+    {
+      "id": "meghang",
+      "name": "Meghang",
+      "kind": "temple"
+    },
+    {
+      "id": "kumari",
+      "name": "Kumari",
+      "kind": "junction"
+    }
+  ],
+  "roads": [
+    {
+      "u": "chaughada",
+      "v": "meghang",
+      "minutes": 30,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "chaughada",
+      "v": "narjamandap",
+      "minutes": 10,
+      "open": false,
+      "base_minutes": null,
+      "cause": "submerged",
+      "history": []
+    },
+    {
+      "u": "chaughada",
+      "v": "sundaradevi",
+      "minutes": 40,
+      "open": true,
+      "base_minutes": 20,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "chaughada",
+      "v": "suryagadhi",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": [
+        "rumour"
+      ]
+    },
+    {
+      "u": "dupcheshwar",
+      "v": "kumari",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": [
+        "rumour"
+      ]
+    },
+    {
+      "u": "dupcheshwar",
+      "v": "narjamandap",
+      "minutes": 50,
+      "open": true,
+      "base_minutes": 25,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "dupcheshwar",
+      "v": "samundratar",
+      "minutes": 15,
+      "open": false,
+      "base_minutes": null,
+      "cause": "bridge",
+      "history": []
+    },
+    {
+      "u": "jiling",
+      "v": "suryagadhi",
+      "minutes": 20,
+      "open": false,
+      "base_minutes": null,
+      "cause": "landslide",
+      "history": []
+    },
+    {
+      "u": "jiling",
+      "v": "trishuli",
+      "minutes": 25,
+      "open": true,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "blocked",
+        "cleared"
+      ]
+    },
+    {
+      "u": "kumari",
+      "v": "samundratar",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "meghang",
+      "v": "narjamandap",
+      "minutes": 25,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "meghang",
+      "v": "sundaradevi",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "narjamandap",
+      "v": "sundaradevi",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "suryagadhi",
+      "v": "trishuli",
+      "minutes": 40,
+      "open": true,
+      "base_minutes": 20,
+      "cause": "waterlogged",
+      "history": []
+    }
+  ],
+  "people": {
+    "trishuli": {
+      "injured": 3,
+      "children": 2,
+      "adults": 5
+    },
+    "samundratar": {
+      "injured": 1,
+      "children": 1,
+      "elderly": 1,
+      "adults": 2
+    },
+    "sundaradevi": {
+      "children": 4,
+      "adults": 2
+    },
+    "jiling": {
+      "children": 1,
+      "adults": 3
+    },
+    "suryagadhi": {
+      "injured": 1,
+      "children": 4,
+      "adults": 6
+    },
+    "narjamandap": {
+      "adults": 3
+    },
+    "dupcheshwar": {
+      "children": 1,
+      "adults": 2
+    },
+    "meghang": {
+      "adults": 1
+    }
+  },
+  "start": "chaughada",
+  "shelter": "chaughada",
+  "capacity": 15,
+  "priority": "tiered",
+  "meta": {
+    "k": 8,
+    "seed": 9,
+    "extra_nodes": 1,
+    "n_roads": 14,
+    "n_blocked": 3,
+    "n_slowed": 3,
+    "cut_off": null,
+    "capacity_mode": "tight",
+    "split": "test",
+    "rep": 2,
+    "condition": "tight"
+  }
+}

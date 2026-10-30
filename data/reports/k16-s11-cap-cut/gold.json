@@ -1,0 +1,339 @@
+{
+ "start": "Madanpur",
+ "shelter": "Madanpur",
+ "capacity": 17,
+ "locations": [
+  {
+   "name": "Madanpur",
+   "kind": "evacuation point"
+  },
+  {
+   "name": "Belkot",
+   "kind": "village"
+  },
+  {
+   "name": "Sundaradevi",
+   "kind": "school"
+  },
+  {
+   "name": "Betrawati",
+   "kind": "village"
+  },
+  {
+   "name": "Likhu",
+   "kind": "ward office"
+  },
+  {
+   "name": "Tadi",
+   "kind": "school"
+  },
+  {
+   "name": "Goljung",
+   "kind": "village"
+  },
+  {
+   "name": "Tupche",
+   "kind": "village"
+  },
+  {
+   "name": "Bhorle",
+   "kind": "village"
+  },
+  {
+   "name": "Kispang",
+   "kind": "school"
+  },
+  {
+   "name": "Gerkhu",
+   "kind": "village"
+  },
+  {
+   "name": "Dandagaun",
+   "kind": "village"
+  },
+  {
+   "name": "Meghang",
+   "kind": "health post"
+  },
+  {
+   "name": "Bidur",
+   "kind": "village"
+  },
+  {
+   "name": "Thulogaun",
+   "kind": "village"
+  },
+  {
+   "name": "Rautbesi",
+   "kind": "village"
+  },
+  {
+   "name": "Chaughada",
+   "kind": "village"
+  },
+  {
+   "name": "Bhalche",
+   "kind": "road junction"
+  }
+ ],
+ "roads": [
+  {
+   "between": [
+    "Belkot",
+    "Chaughada"
+   ],
+   "minutes": 30,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Belkot",
+    "Thulogaun"
+   ],
+   "minutes": 10,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Betrawati",
+    "Dandagaun"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Betrawati",
+    "Tupche"
+   ],
+   "minutes": 30,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Bhalche",
+    "Chaughada"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Bhalche",
+    "Thulogaun"
+   ],
+   "minutes": 30,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Bhorle",
+    "Bidur"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Bhorle",
+    "Chaughada"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Bhorle",
+    "Madanpur"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Bhorle",
+    "Rautbesi"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Bidur",
+    "Tadi"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Chaughada",
+    "Tupche"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Gerkhu",
+    "Sundaradevi"
+   ],
+   "minutes": 10,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Goljung",
+    "Kispang"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Goljung",
+    "Sundaradevi"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kispang",
+    "Likhu"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Likhu",
+    "Meghang"
+   ],
+   "minutes": 30,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Madanpur",
+    "Meghang"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Madanpur",
+    "Rautbesi"
+   ],
+   "minutes": 10,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Rautbesi",
+    "Tupche"
+   ],
+   "minutes": 10,
+   "status": "blocked"
+  }
+ ],
+ "people": {
+  "Belkot": {
+   "injured": 1,
+   "children": 2,
+   "elderly": 0,
+   "adults": 2
+  },
+  "Sundaradevi": {
+   "injured": 0,
+   "children": 6,
+   "elderly": 1,
+   "adults": 1
+  },
+  "Betrawati": {
+   "injured": 0,
+   "children": 2,
+   "elderly": 3,
+   "adults": 6
+  },
+  "Likhu": {
+   "injured": 0,
+   "children": 1,
+   "elderly": 0,
+   "adults": 2
+  },
+  "Tadi": {
+   "injured": 0,
+   "children": 3,
+   "elderly": 1,
+   "adults": 2
+  },
+  "Goljung": {
+   "injured": 3,
+   "children": 2,
+   "elderly": 2,
+   "adults": 4
+  },
+  "Tupche": {
+   "injured": 3,
+   "children": 1,
+   "elderly": 1,
+   "adults": 5
+  },
+  "Bhorle": {
+   "injured": 0,
+   "children": 2,
+   "elderly": 1,
+   "adults": 1
+  },
+  "Kispang": {
+   "injured": 0,
+   "children": 4,
+   "elderly": 0,
+   "adults": 2
+  },
+  "Gerkhu": {
+   "injured": 0,
+   "children": 0,
+   "elderly": 0,
+   "adults": 4
+  },
+  "Dandagaun": {
+   "injured": 0,
+   "children": 4,
+   "elderly": 3,
+   "adults": 6
+  },
+  "Meghang": {
+   "injured": 1,
+   "children": 0,
+   "elderly": 3,
+   "adults": 3
+  },
+  "Bidur": {
+   "injured": 0,
+   "children": 4,
+   "elderly": 2,
+   "adults": 3
+  },
+  "Thulogaun": {
+   "injured": 3,
+   "children": 3,
+   "elderly": 0,
+   "adults": 6
+  },
+  "Rautbesi": {
+   "injured": 0,
+   "children": 0,
+   "elderly": 0,
+   "adults": 1
+  },
+  "Chaughada": {
+   "injured": 0,
+   "children": 0,
+   "elderly": 0,
+   "adults": 2
+  }
+ }
+}

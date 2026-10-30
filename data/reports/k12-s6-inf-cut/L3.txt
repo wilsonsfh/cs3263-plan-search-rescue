@@ -1,0 +1,32 @@
+MISSION SHEET
+- Team base and starting point: Haku
+- Shelter where evacuees must be delivered: Haku
+- Vehicle capacity: no practical limit (enough vehicles to carry everyone at once)
+- Places on the district map: Haku (evacuation point), Kispang (school), Lachyang (village), Laharepauwa (village), Narjamandap (village), Bidur (village), Tadi (temple), Suryagadhi (temple), Taruka (village), Kaule (temple), Bageshwari (school), Shikharbesi (school), Ramche (village), Salme (road junction)
+
+ROAD REGISTER (pre-flood network; usual one-way driving times, roads are two-way)
+- Bageshwari–Tadi: 10 min
+- Bidur–Lachyang: 15 min
+- Bidur–Salme: 15 min
+- Bidur–Taruka: 20 min
+- Haku–Laharepauwa: 20 min
+- Haku–Narjamandap: 15 min
+- Haku–Taruka: 10 min
+- Kaule–Kispang: 25 min
+- Kaule–Lachyang: 20 min
+- Kaule–Taruka: 25 min
+- Kispang–Lachyang: 20 min
+- Kispang–Taruka: 5 min
+- Laharepauwa–Ramche: 5 min
+- Laharepauwa–Suryagadhi: 10 min
+- Narjamandap–Shikharbesi: 10 min
+- Narjamandap–Suryagadhi: 15 min
+- Ramche–Suryagadhi: 25 min
+- Shikharbesi–Suryagadhi: 10 min
+- Shikharbesi–Tadi: 15 min
+
+FIELD DISPATCHES (several sources; listed in the order they reached the control room)
+[09:30] District Police Office (situation report): Residents at the temple in Kaule say three injured people (a pregnant woman who was hit by debris, an elderly woman with a broken hip and a child with a deep gash on his leg), one child and two uninjured adults are still there, sheltering on upper floors. Our team counted one senior citizen and four able-bodied adults at Bidur, all needing evacuation. Hillside collapse: the Bageshwari–Tadi road disappeared under a landslide overnight. The Kaule–Lachyang road is open but badly waterlogged; driving it takes twice the usual time. The Ramche–Suryagadhi road is open but badly waterlogged; driving it adds 15 minutes to the usual journey. At the temple in Suryagadhi, two schoolchildren, an old man and six able-bodied adults are waiting to be rescued. A government helicopter was seen flying north this morning but did not land.
+[13:15] Sunita Lama, The Himalayan Times (on the ground): Confirmed headcount: Stranded at Ramche: one adult. Confirmed headcount: Residents at Taruka say three children, an old man and 4 uninjured adults are still there, sheltering on upper floors. A landslide has buried the road between Kispang and Lachyang under metres of mud, cutting a road that was open earlier today. Army engineers have cleared the debris on the Narjamandap–Shikharbesi road; it is open again at normal speed. Army engineers have cleared the debris on the Laharepauwa–Suryagadhi road; it is open again at normal speed. Confirmed headcount: Residents at the school in Bageshwari say three children, one elderly resident and two uninjured adults are still there, sheltering on upper floors. The Bidur–Salme road is open but badly waterlogged; driving it now takes double the normal journey time. Stranded at Laharepauwa: two injured people (a teenage girl with a fractured arm and a young boy with a badly sprained ankle), two senior citizens and four able-bodied adults. The Narjamandap–Suryagadhi road is under two metres of fast-flowing floodwater, cutting a road that was open earlier today. Confirmed headcount: Our team counted four schoolchildren and one able-bodied adult at Narjamandap, all needing evacuation. Confirmed headcount: Residents at Lachyang say three children, three elderly residents and six other adults are still there, sheltering on upper floors. The Laharepauwa–Ramche road is open but badly waterlogged; driving it takes twice the usual time. The Home Ministry says relief funds will be released next week. The Haku–Laharepauwa road is under two metres of fast-flowing floodwater. Confirmed headcount: At the school in Kispang, one injured person (a child with a deep gash on his leg), three schoolchildren, 2 elderly residents and one able-bodied adult are waiting to be rescued. Boulders and fallen trees make the Kaule–Taruka road impassable for any vehicle. Confirmed headcount: At the temple in Tadi, two children and 4 uninjured adults are waiting to be rescued. Floodwater has turned the road from Kispang to Taruka into a river. Confirmed headcount: Stranded at the school in Shikharbesi: seven children, 3 elderly residents and one uninjured adult.
+[06:45] Radio Nuwakot FM (local radio, early bulletin): Livestock losses across the district are reported to be severe. Around 3 people are believed to be stranded in Ramche (unconfirmed estimate). Debris is blocking the Narjamandap–Shikharbesi road. Around 5 people are believed to be stranded in Taruka (unconfirmed estimate). The Kispang–Lachyang road is still passable this morning, drivers say. Around 9 people are believed to be stranded in Kispang (unconfirmed estimate). The Narjamandap–Suryagadhi road is still passable this morning, drivers say. Around 8 people are believed to be stranded in Tadi (unconfirmed estimate). Around 9 people are believed to be stranded in Shikharbesi (unconfirmed estimate). Around 15 people are believed to be stranded in Lachyang (unconfirmed estimate). Around 9 people are believed to be stranded in Narjamandap (unconfirmed estimate). Around 8 people are believed to be stranded in Bageshwari (unconfirmed estimate). Debris is blocking the Laharepauwa–Suryagadhi road.
+Anything not mentioned in these dispatches is in its usual condition, and no one else is known to be stranded.

@@ -1,0 +1,268 @@
+{
+  "id": "k8-s4-inf",
+  "locations": [
+    {
+      "id": "meghang",
+      "name": "Meghang",
+      "kind": "base"
+    },
+    {
+      "id": "goljung",
+      "name": "Goljung",
+      "kind": "village"
+    },
+    {
+      "id": "shikharbesi",
+      "name": "Shikharbesi",
+      "kind": "village"
+    },
+    {
+      "id": "chaughada",
+      "name": "Chaughada",
+      "kind": "village"
+    },
+    {
+      "id": "okharpauwa",
+      "name": "Okharpauwa",
+      "kind": "health_post"
+    },
+    {
+      "id": "tupche",
+      "name": "Tupche",
+      "kind": "school"
+    },
+    {
+      "id": "lachyang",
+      "name": "Lachyang",
+      "kind": "village"
+    },
+    {
+      "id": "chhap",
+      "name": "Chhap",
+      "kind": "school"
+    },
+    {
+      "id": "taruka",
+      "name": "Taruka",
+      "kind": "ward_office"
+    },
+    {
+      "id": "jiling",
+      "name": "Jiling",
+      "kind": "junction"
+    },
+    {
+      "id": "betrawati",
+      "name": "Betrawati",
+      "kind": "evacuated_village"
+    }
+  ],
+  "roads": [
+    {
+      "u": "betrawati",
+      "v": "jiling",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "betrawati",
+      "v": "shikharbesi",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "betrawati",
+      "v": "taruka",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "chaughada",
+      "v": "chhap",
+      "minutes": 35,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "chaughada",
+      "v": "lachyang",
+      "minutes": 35,
+      "open": true,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "blocked",
+        "cleared"
+      ]
+    },
+    {
+      "u": "chaughada",
+      "v": "tupche",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "chhap",
+      "v": "tupche",
+      "minutes": 10,
+      "open": false,
+      "base_minutes": null,
+      "cause": "submerged",
+      "history": []
+    },
+    {
+      "u": "goljung",
+      "v": "lachyang",
+      "minutes": 30,
+      "open": true,
+      "base_minutes": 15,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "goljung",
+      "v": "okharpauwa",
+      "minutes": 30,
+      "open": true,
+      "base_minutes": 15,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "jiling",
+      "v": "taruka",
+      "minutes": 25,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "lachyang",
+      "v": "meghang",
+      "minutes": 25,
+      "open": false,
+      "base_minutes": null,
+      "cause": "bridge",
+      "history": []
+    },
+    {
+      "u": "lachyang",
+      "v": "okharpauwa",
+      "minutes": 30,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "meghang",
+      "v": "shikharbesi",
+      "minutes": 30,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "meghang",
+      "v": "taruka",
+      "minutes": 50,
+      "open": true,
+      "base_minutes": 25,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "meghang",
+      "v": "tupche",
+      "minutes": 35,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "okharpauwa",
+      "v": "taruka",
+      "minutes": 15,
+      "open": false,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "open",
+        "blocked"
+      ]
+    }
+  ],
+  "people": {
+    "goljung": {
+      "injured": 2,
+      "children": 1,
+      "elderly": 1,
+      "adults": 4
+    },
+    "shikharbesi": {
+      "children": 4,
+      "adults": 6
+    },
+    "chaughada": {
+      "injured": 1,
+      "children": 1,
+      "adults": 4
+    },
+    "okharpauwa": {
+      "children": 1,
+      "elderly": 2,
+      "adults": 3
+    },
+    "tupche": {
+      "children": 8,
+      "elderly": 1,
+      "adults": 2
+    },
+    "lachyang": {
+      "children": 1,
+      "adults": 5
+    },
+    "chhap": {
+      "injured": 3,
+      "children": 5,
+      "adults": 2
+    },
+    "taruka": {
+      "adults": 4
+    }
+  },
+  "start": "meghang",
+  "shelter": "meghang",
+  "capacity": null,
+  "priority": "tiered",
+  "meta": {
+    "k": 8,
+    "seed": 4,
+    "extra_nodes": 2,
+    "n_roads": 16,
+    "n_blocked": 3,
+    "n_slowed": 3,
+    "cut_off": null,
+    "capacity_mode": "unlimited",
+    "split": "test",
+    "rep": 1,
+    "condition": "unlimited"
+  }
+}

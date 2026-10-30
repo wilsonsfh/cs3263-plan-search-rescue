@@ -1,0 +1,32 @@
+MISSION SHEET
+- Team base and starting point: Narjamandap
+- Shelter where evacuees must be delivered: Narjamandap
+- Vehicle capacity: no practical limit (enough vehicles to carry everyone at once)
+- Places on the district map: Narjamandap (evacuation point), Kispang (village), Meghang (temple), Suryagadhi (school), Trishuli (health post), Dupcheshwar (road junction), Panchakanya (village), Rautbesi (village)
+
+ROAD REGISTER (pre-flood network; usual one-way driving times, roads are two-way)
+- Dupcheshwar–Meghang: 10 min
+- Kispang–Panchakanya: 45 min
+- Kispang–Suryagadhi: 15 min
+- Meghang–Narjamandap: 25 min
+- Meghang–Panchakanya: 20 min
+- Narjamandap–Panchakanya: 20 min
+- Narjamandap–Rautbesi: 25 min
+- Narjamandap–Suryagadhi: 15 min
+- Narjamandap–Trishuli: 25 min
+- Panchakanya–Trishuli: 10 min
+- Rautbesi–Trishuli: 10 min
+
+FIELD REPORT (district control room, 12:00)
+Road status changes since the flood:
+- Dupcheshwar–Meghang: open, travel time now 20 min
+- Narjamandap–Panchakanya: BLOCKED
+- Narjamandap–Rautbesi: open, travel time now 35 min
+- Narjamandap–Suryagadhi: BLOCKED
+All other roads: open, usual travel time.
+People waiting for rescue:
+- Kispang: 2 injured, 4 children, 1 elderly, 5 adults
+- Meghang: 3 injured, 1 children, 0 elderly, 3 adults
+- Suryagadhi: 0 injured, 5 children, 0 elderly, 1 adults
+- Trishuli: 2 injured, 4 children, 3 elderly, 4 adults
+No one is waiting at any other location.

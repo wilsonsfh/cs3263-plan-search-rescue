@@ -1,0 +1,165 @@
+{
+  "id": "k4-s2-inf-cut",
+  "locations": [
+    {
+      "id": "goljung",
+      "name": "Goljung",
+      "kind": "base"
+    },
+    {
+      "id": "panchakanya",
+      "name": "Panchakanya",
+      "kind": "temple"
+    },
+    {
+      "id": "syaphru",
+      "name": "Syaphru",
+      "kind": "village"
+    },
+    {
+      "id": "bageshwari",
+      "name": "Bageshwari",
+      "kind": "village"
+    },
+    {
+      "id": "battar",
+      "name": "Battar",
+      "kind": "health_post"
+    },
+    {
+      "id": "kakani",
+      "name": "Kakani",
+      "kind": "evacuated_village"
+    },
+    {
+      "id": "trishuli",
+      "name": "Trishuli",
+      "kind": "evacuated_village"
+    }
+  ],
+  "roads": [
+    {
+      "u": "bageshwari",
+      "v": "battar",
+      "minutes": 30,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "bageshwari",
+      "v": "syaphru",
+      "minutes": 30,
+      "open": true,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "blocked",
+        "cleared"
+      ]
+    },
+    {
+      "u": "battar",
+      "v": "kakani",
+      "minutes": 30,
+      "open": true,
+      "base_minutes": 15,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "goljung",
+      "v": "kakani",
+      "minutes": 25,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "goljung",
+      "v": "syaphru",
+      "minutes": 25,
+      "open": false,
+      "base_minutes": null,
+      "cause": "landslide",
+      "history": []
+    },
+    {
+      "u": "goljung",
+      "v": "trishuli",
+      "minutes": 45,
+      "open": false,
+      "base_minutes": null,
+      "cause": "landslide",
+      "history": []
+    },
+    {
+      "u": "kakani",
+      "v": "panchakanya",
+      "minutes": 35,
+      "open": false,
+      "base_minutes": null,
+      "cause": "bridge",
+      "history": []
+    },
+    {
+      "u": "panchakanya",
+      "v": "trishuli",
+      "minutes": 55,
+      "open": false,
+      "base_minutes": null,
+      "cause": "landslide",
+      "history": []
+    },
+    {
+      "u": "syaphru",
+      "v": "trishuli",
+      "minutes": 50,
+      "open": true,
+      "base_minutes": 30,
+      "cause": "waterlogged",
+      "history": []
+    }
+  ],
+  "people": {
+    "panchakanya": {
+      "children": 4,
+      "adults": 6
+    },
+    "syaphru": {
+      "injured": 3,
+      "children": 3,
+      "adults": 4
+    },
+    "bageshwari": {
+      "injured": 1,
+      "children": 3,
+      "elderly": 2,
+      "adults": 4
+    },
+    "battar": {
+      "injured": 1,
+      "children": 3,
+      "adults": 4
+    }
+  },
+  "start": "goljung",
+  "shelter": "goljung",
+  "capacity": null,
+  "priority": "tiered",
+  "meta": {
+    "k": 4,
+    "seed": 2,
+    "extra_nodes": 2,
+    "n_roads": 9,
+    "n_blocked": 4,
+    "n_slowed": 2,
+    "cut_off": "panchakanya",
+    "capacity_mode": "unlimited",
+    "split": "dev",
+    "rep": 0,
+    "condition": "unlimited-cut"
+  }
+}

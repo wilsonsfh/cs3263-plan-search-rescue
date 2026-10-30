@@ -1,0 +1,42 @@
+MISSION SHEET
+- Team base and starting point: Kispang
+- Shelter where evacuees must be delivered: Kispang
+- Vehicle capacity: 15 people at a time
+- Places on the district map: Kispang (evacuation point), Haku (school), Salme (village), Laharepauwa (village), Kalikasthan (ward office), Sundaradevi (health post), Kakani (school), Battar (temple), Thansing (school), Suryagadhi (village), Meghang (road junction)
+
+ROAD REGISTER (pre-flood network; usual one-way driving times, roads are two-way)
+- Battar–Sundaradevi: 35 min
+- Battar–Suryagadhi: 20 min
+- Haku–Kalikasthan: 10 min
+- Haku–Sundaradevi: 10 min
+- Kakani–Kalikasthan: 10 min
+- Kakani–Kispang: 20 min
+- Kalikasthan–Kispang: 20 min
+- Kispang–Meghang: 10 min
+- Kispang–Sundaradevi: 40 min
+- Kispang–Suryagadhi: 20 min
+- Laharepauwa–Meghang: 25 min
+- Laharepauwa–Salme: 10 min
+- Laharepauwa–Suryagadhi: 15 min
+- Meghang–Salme: 20 min
+- Salme–Thansing: 15 min
+
+FIELD REPORT (district control room, 12:00)
+Road status changes since the flood:
+- Haku–Kalikasthan: open, travel time now 20 min
+- Kakani–Kalikasthan: open, travel time now 20 min
+- Kalikasthan–Kispang: BLOCKED
+- Kispang–Sundaradevi: BLOCKED
+- Laharepauwa–Meghang: open, travel time now 50 min
+- Meghang–Salme: BLOCKED
+All other roads: open, usual travel time.
+People waiting for rescue:
+- Haku: 0 injured, 6 children, 0 elderly, 1 adults
+- Salme: 0 injured, 0 children, 0 elderly, 3 adults
+- Laharepauwa: 0 injured, 4 children, 2 elderly, 4 adults
+- Kalikasthan: 0 injured, 2 children, 0 elderly, 1 adults
+- Sundaradevi: 0 injured, 4 children, 0 elderly, 2 adults
+- Kakani: 0 injured, 4 children, 0 elderly, 2 adults
+- Battar: 1 injured, 1 children, 0 elderly, 6 adults
+- Thansing: 1 injured, 9 children, 0 elderly, 2 adults
+No one is waiting at any other location.

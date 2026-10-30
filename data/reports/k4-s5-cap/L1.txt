@@ -1,0 +1,30 @@
+MISSION SHEET
+- Team base and starting point: Taruka
+- Shelter where evacuees must be delivered: Taruka
+- Vehicle capacity: 17 people at a time
+- Places on the district map: Taruka (evacuation point), Thaprek (village), Suryagadhi (village), Chaughada (village), Likhu (temple), Samundratar (village), Sundaradevi (road junction)
+
+ROAD REGISTER (pre-flood network; usual one-way driving times, roads are two-way)
+- Chaughada–Likhu: 35 min
+- Chaughada–Samundratar: 15 min
+- Chaughada–Taruka: 20 min
+- Chaughada–Thaprek: 15 min
+- Likhu–Sundaradevi: 35 min
+- Likhu–Taruka: 25 min
+- Sundaradevi–Suryagadhi: 20 min
+- Suryagadhi–Taruka: 30 min
+- Taruka–Thaprek: 25 min
+
+FIELD REPORT (district control room, 12:00)
+Road status changes since the flood:
+- Chaughada–Thaprek: open, travel time now 30 min
+- Likhu–Sundaradevi: open, travel time now 70 min
+- Suryagadhi–Taruka: BLOCKED
+- Taruka–Thaprek: BLOCKED
+All other roads: open, usual travel time.
+People waiting for rescue:
+- Thaprek: 1 injured, 2 children, 2 elderly, 5 adults
+- Suryagadhi: 0 injured, 0 children, 2 elderly, 5 adults
+- Chaughada: 0 injured, 2 children, 1 elderly, 1 adults
+- Likhu: 0 injured, 3 children, 3 elderly, 2 adults
+No one is waiting at any other location.

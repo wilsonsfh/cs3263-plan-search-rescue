@@ -1,0 +1,396 @@
+{
+ "steps": [
+  {
+   "action": "move",
+   "from": "Battar",
+   "to": "Tupche"
+  },
+  {
+   "action": "move",
+   "from": "Tupche",
+   "to": "Betrawati"
+  },
+  {
+   "action": "pickup",
+   "location": "Betrawati"
+  },
+  {
+   "action": "move",
+   "from": "Betrawati",
+   "to": "Tupche"
+  },
+  {
+   "action": "move",
+   "from": "Tupche",
+   "to": "Battar"
+  },
+  {
+   "action": "dropoff",
+   "location": "Battar"
+  },
+  {
+   "action": "move",
+   "from": "Battar",
+   "to": "Panchakanya"
+  },
+  {
+   "action": "move",
+   "from": "Panchakanya",
+   "to": "Likhu"
+  },
+  {
+   "action": "move",
+   "from": "Likhu",
+   "to": "Bhorle"
+  },
+  {
+   "action": "pickup",
+   "location": "Bhorle"
+  },
+  {
+   "action": "move",
+   "from": "Bhorle",
+   "to": "Likhu"
+  },
+  {
+   "action": "move",
+   "from": "Likhu",
+   "to": "Panchakanya"
+  },
+  {
+   "action": "move",
+   "from": "Panchakanya",
+   "to": "Battar"
+  },
+  {
+   "action": "dropoff",
+   "location": "Battar"
+  },
+  {
+   "action": "move",
+   "from": "Battar",
+   "to": "Tupche"
+  },
+  {
+   "action": "move",
+   "from": "Tupche",
+   "to": "Thaprek"
+  },
+  {
+   "action": "move",
+   "from": "Thaprek",
+   "to": "Rautbesi"
+  },
+  {
+   "action": "move",
+   "from": "Rautbesi",
+   "to": "Chhap"
+  },
+  {
+   "action": "move",
+   "from": "Chhap",
+   "to": "Narjamandap"
+  },
+  {
+   "action": "move",
+   "from": "Narjamandap",
+   "to": "Bageshwari"
+  },
+  {
+   "action": "pickup",
+   "location": "Bageshwari"
+  },
+  {
+   "action": "move",
+   "from": "Bageshwari",
+   "to": "Gerkhu"
+  },
+  {
+   "action": "pickup",
+   "location": "Gerkhu"
+  },
+  {
+   "action": "move",
+   "from": "Gerkhu",
+   "to": "Bageshwari"
+  },
+  {
+   "action": "move",
+   "from": "Bageshwari",
+   "to": "Narjamandap"
+  },
+  {
+   "action": "move",
+   "from": "Narjamandap",
+   "to": "Chhap"
+  },
+  {
+   "action": "move",
+   "from": "Chhap",
+   "to": "Rautbesi"
+  },
+  {
+   "action": "move",
+   "from": "Rautbesi",
+   "to": "Thaprek"
+  },
+  {
+   "action": "move",
+   "from": "Thaprek",
+   "to": "Tupche"
+  },
+  {
+   "action": "move",
+   "from": "Tupche",
+   "to": "Battar"
+  },
+  {
+   "action": "dropoff",
+   "location": "Battar"
+  },
+  {
+   "action": "move",
+   "from": "Battar",
+   "to": "Panchakanya"
+  },
+  {
+   "action": "move",
+   "from": "Panchakanya",
+   "to": "Likhu"
+  },
+  {
+   "action": "move",
+   "from": "Likhu",
+   "to": "Dupcheshwar"
+  },
+  {
+   "action": "pickup",
+   "location": "Dupcheshwar"
+  },
+  {
+   "action": "move",
+   "from": "Dupcheshwar",
+   "to": "Meghang"
+  },
+  {
+   "action": "pickup",
+   "location": "Meghang"
+  },
+  {
+   "action": "move",
+   "from": "Meghang",
+   "to": "Kumari"
+  },
+  {
+   "action": "move",
+   "from": "Kumari",
+   "to": "Likhu"
+  },
+  {
+   "action": "move",
+   "from": "Likhu",
+   "to": "Panchakanya"
+  },
+  {
+   "action": "move",
+   "from": "Panchakanya",
+   "to": "Battar"
+  },
+  {
+   "action": "dropoff",
+   "location": "Battar"
+  },
+  {
+   "action": "move",
+   "from": "Battar",
+   "to": "Tupche"
+  },
+  {
+   "action": "pickup",
+   "location": "Tupche"
+  },
+  {
+   "action": "move",
+   "from": "Tupche",
+   "to": "Thaprek"
+  },
+  {
+   "action": "pickup",
+   "location": "Thaprek"
+  },
+  {
+   "action": "move",
+   "from": "Thaprek",
+   "to": "Tupche"
+  },
+  {
+   "action": "move",
+   "from": "Tupche",
+   "to": "Battar"
+  },
+  {
+   "action": "dropoff",
+   "location": "Battar"
+  },
+  {
+   "action": "move",
+   "from": "Battar",
+   "to": "Tupche"
+  },
+  {
+   "action": "move",
+   "from": "Tupche",
+   "to": "Thaprek"
+  },
+  {
+   "action": "move",
+   "from": "Thaprek",
+   "to": "Rautbesi"
+  },
+  {
+   "action": "move",
+   "from": "Rautbesi",
+   "to": "Chhap"
+  },
+  {
+   "action": "pickup",
+   "location": "Chhap"
+  },
+  {
+   "action": "move",
+   "from": "Chhap",
+   "to": "Rautbesi"
+  },
+  {
+   "action": "move",
+   "from": "Rautbesi",
+   "to": "Thaprek"
+  },
+  {
+   "action": "move",
+   "from": "Thaprek",
+   "to": "Tupche"
+  },
+  {
+   "action": "move",
+   "from": "Tupche",
+   "to": "Battar"
+  },
+  {
+   "action": "dropoff",
+   "location": "Battar"
+  },
+  {
+   "action": "move",
+   "from": "Battar",
+   "to": "Tupche"
+  },
+  {
+   "action": "move",
+   "from": "Tupche",
+   "to": "Thaprek"
+  },
+  {
+   "action": "move",
+   "from": "Thaprek",
+   "to": "Rautbesi"
+  },
+  {
+   "action": "move",
+   "from": "Rautbesi",
+   "to": "Chhap"
+  },
+  {
+   "action": "move",
+   "from": "Chhap",
+   "to": "Narjamandap"
+  },
+  {
+   "action": "move",
+   "from": "Narjamandap",
+   "to": "Bageshwari"
+  },
+  {
+   "action": "move",
+   "from": "Bageshwari",
+   "to": "Salme"
+  },
+  {
+   "action": "pickup",
+   "location": "Salme"
+  },
+  {
+   "action": "move",
+   "from": "Salme",
+   "to": "Bageshwari"
+  },
+  {
+   "action": "move",
+   "from": "Bageshwari",
+   "to": "Narjamandap"
+  },
+  {
+   "action": "pickup",
+   "location": "Narjamandap"
+  },
+  {
+   "action": "move",
+   "from": "Narjamandap",
+   "to": "Chhap"
+  },
+  {
+   "action": "move",
+   "from": "Chhap",
+   "to": "Rautbesi"
+  },
+  {
+   "action": "move",
+   "from": "Rautbesi",
+   "to": "Thaprek"
+  },
+  {
+   "action": "move",
+   "from": "Thaprek",
+   "to": "Tupche"
+  },
+  {
+   "action": "move",
+   "from": "Tupche",
+   "to": "Battar"
+  },
+  {
+   "action": "dropoff",
+   "location": "Battar"
+  },
+  {
+   "action": "move",
+   "from": "Battar",
+   "to": "Panchakanya"
+  },
+  {
+   "action": "move",
+   "from": "Panchakanya",
+   "to": "Likhu"
+  },
+  {
+   "action": "pickup",
+   "location": "Likhu"
+  },
+  {
+   "action": "move",
+   "from": "Likhu",
+   "to": "Panchakanya"
+  },
+  {
+   "action": "move",
+   "from": "Panchakanya",
+   "to": "Battar"
+  },
+  {
+   "action": "dropoff",
+   "location": "Battar"
+  }
+ ],
+ "unreachable": [],
+ "claimed_total_minutes": 1170.0
+}

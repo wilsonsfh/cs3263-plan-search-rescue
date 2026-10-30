@@ -1,0 +1,57 @@
+MISSION SHEET
+- Team base and starting point: Jiling
+- Shelter where evacuees must be delivered: Jiling
+- Vehicle capacity: 16 people at a time
+- Places on the district map: Jiling (evacuation point), Kispang (village), Salme (village), Haku (temple), Khanigaun (ward office), Shikharbesi (village), Kalikasthan (village), Okharpauwa (village), Ramche (village), Chaughada (health post), Rautbesi (temple), Sundaradevi (village), Bhorle (village), Goljung (village), Syaphru (village), Laharepauwa (road junction)
+
+ROAD REGISTER (pre-flood network; usual one-way driving times, roads are two-way)
+- Bhorle–Haku: 15 min
+- Bhorle–Rautbesi: 10 min
+- Bhorle–Syaphru: 10 min
+- Chaughada–Laharepauwa: 20 min
+- Goljung–Jiling: 15 min
+- Goljung–Ramche: 15 min
+- Goljung–Sundaradevi: 10 min
+- Haku–Kalikasthan: 20 min
+- Haku–Kispang: 15 min
+- Jiling–Kalikasthan: 10 min
+- Jiling–Laharepauwa: 10 min
+- Jiling–Okharpauwa: 10 min
+- Jiling–Sundaradevi: 15 min
+- Kalikasthan–Kispang: 15 min
+- Kalikasthan–Okharpauwa: 10 min
+- Khanigaun–Salme: 15 min
+- Kispang–Salme: 15 min
+- Laharepauwa–Sundaradevi: 10 min
+- Okharpauwa–Shikharbesi: 10 min
+- Ramche–Shikharbesi: 25 min
+- Ramche–Sundaradevi: 25 min
+- Rautbesi–Syaphru: 10 min
+
+FIELD REPORT (district control room, 12:00)
+Road status changes since the flood:
+- Bhorle–Rautbesi: open, travel time now 20 min
+- Chaughada–Laharepauwa: BLOCKED
+- Goljung–Sundaradevi: open, travel time now 20 min
+- Haku–Kispang: open, travel time now 35 min
+- Jiling–Kalikasthan: BLOCKED
+- Jiling–Laharepauwa: BLOCKED
+- Jiling–Sundaradevi: BLOCKED
+- Kalikasthan–Kispang: BLOCKED
+- Okharpauwa–Shikharbesi: BLOCKED
+- Rautbesi–Syaphru: open, travel time now 20 min
+All other roads: open, usual travel time.
+People waiting for rescue:
+- Kispang: 0 injured, 4 children, 1 elderly, 1 adults
+- Salme: 1 injured, 0 children, 3 elderly, 4 adults
+- Haku: 0 injured, 1 children, 2 elderly, 2 adults
+- Khanigaun: 0 injured, 0 children, 2 elderly, 5 adults
+- Shikharbesi: 2 injured, 2 children, 1 elderly, 2 adults
+- Kalikasthan: 3 injured, 1 children, 0 elderly, 1 adults
+- Okharpauwa: 0 injured, 2 children, 0 elderly, 3 adults
+- Ramche: 2 injured, 4 children, 3 elderly, 3 adults
+- Chaughada: 3 injured, 1 children, 1 elderly, 6 adults
+- Rautbesi: 0 injured, 4 children, 0 elderly, 2 adults
+- Sundaradevi: 0 injured, 1 children, 3 elderly, 6 adults
+- Bhorle: 3 injured, 0 children, 3 elderly, 6 adults
+No one is waiting at any other location.

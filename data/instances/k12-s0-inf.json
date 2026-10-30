@@ -1,0 +1,328 @@
+{
+  "id": "k12-s0-inf",
+  "locations": [
+    {
+      "id": "likhu",
+      "name": "Likhu",
+      "kind": "base"
+    },
+    {
+      "id": "kumari",
+      "name": "Kumari",
+      "kind": "school"
+    },
+    {
+      "id": "sundaradevi",
+      "name": "Sundaradevi",
+      "kind": "school"
+    },
+    {
+      "id": "goljung",
+      "name": "Goljung",
+      "kind": "village"
+    },
+    {
+      "id": "tupche",
+      "name": "Tupche",
+      "kind": "village"
+    },
+    {
+      "id": "ramche",
+      "name": "Ramche",
+      "kind": "ward_office"
+    },
+    {
+      "id": "tadi",
+      "name": "Tadi",
+      "kind": "temple"
+    },
+    {
+      "id": "kaule",
+      "name": "Kaule",
+      "kind": "health_post"
+    },
+    {
+      "id": "meghang",
+      "name": "Meghang",
+      "kind": "temple"
+    },
+    {
+      "id": "thansing",
+      "name": "Thansing",
+      "kind": "village"
+    },
+    {
+      "id": "haku",
+      "name": "Haku",
+      "kind": "school"
+    },
+    {
+      "id": "panchakanya",
+      "name": "Panchakanya",
+      "kind": "village"
+    },
+    {
+      "id": "salme",
+      "name": "Salme",
+      "kind": "school"
+    },
+    {
+      "id": "taruka",
+      "name": "Taruka",
+      "kind": "junction"
+    }
+  ],
+  "roads": [
+    {
+      "u": "goljung",
+      "v": "likhu",
+      "minutes": 30,
+      "open": true,
+      "base_minutes": 15,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "goljung",
+      "v": "meghang",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "goljung",
+      "v": "panchakanya",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": [
+        "rumour"
+      ]
+    },
+    {
+      "u": "goljung",
+      "v": "thansing",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "haku",
+      "v": "kumari",
+      "minutes": 5,
+      "open": true,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "blocked",
+        "cleared"
+      ]
+    },
+    {
+      "u": "haku",
+      "v": "tupche",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "kaule",
+      "v": "salme",
+      "minutes": 30,
+      "open": true,
+      "base_minutes": 15,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "kaule",
+      "v": "tadi",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "kaule",
+      "v": "taruka",
+      "minutes": 10,
+      "open": false,
+      "base_minutes": null,
+      "cause": "bridge",
+      "history": []
+    },
+    {
+      "u": "kumari",
+      "v": "sundaradevi",
+      "minutes": 40,
+      "open": true,
+      "base_minutes": 20,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "likhu",
+      "v": "panchakanya",
+      "minutes": 5,
+      "open": false,
+      "base_minutes": null,
+      "cause": "landslide",
+      "history": []
+    },
+    {
+      "u": "meghang",
+      "v": "salme",
+      "minutes": 15,
+      "open": false,
+      "base_minutes": null,
+      "cause": "landslide",
+      "history": []
+    },
+    {
+      "u": "meghang",
+      "v": "taruka",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": [
+        "rumour"
+      ]
+    },
+    {
+      "u": "panchakanya",
+      "v": "ramche",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "salme",
+      "v": "sundaradevi",
+      "minutes": 20,
+      "open": false,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": []
+    },
+    {
+      "u": "salme",
+      "v": "tadi",
+      "minutes": 10,
+      "open": false,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "open",
+        "blocked"
+      ]
+    },
+    {
+      "u": "salme",
+      "v": "taruka",
+      "minutes": 40,
+      "open": true,
+      "base_minutes": 20,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "sundaradevi",
+      "v": "tadi",
+      "minutes": 25,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    }
+  ],
+  "people": {
+    "kumari": {
+      "children": 4,
+      "adults": 1
+    },
+    "sundaradevi": {
+      "injured": 1,
+      "children": 9,
+      "elderly": 2,
+      "adults": 1
+    },
+    "goljung": {
+      "children": 1,
+      "elderly": 1,
+      "adults": 5
+    },
+    "tupche": {
+      "injured": 2,
+      "children": 1,
+      "elderly": 3,
+      "adults": 4
+    },
+    "ramche": {
+      "children": 4,
+      "elderly": 3,
+      "adults": 1
+    },
+    "tadi": {
+      "children": 1,
+      "elderly": 1,
+      "adults": 2
+    },
+    "kaule": {
+      "elderly": 1,
+      "adults": 6
+    },
+    "meghang": {
+      "injured": 1,
+      "children": 4,
+      "elderly": 3,
+      "adults": 6
+    },
+    "thansing": {
+      "injured": 2,
+      "children": 2,
+      "adults": 1
+    },
+    "haku": {
+      "children": 3,
+      "elderly": 1,
+      "adults": 1
+    },
+    "panchakanya": {
+      "elderly": 2,
+      "adults": 3
+    },
+    "salme": {
+      "children": 9,
+      "elderly": 2,
+      "adults": 1
+    }
+  },
+  "start": "likhu",
+  "shelter": "likhu",
+  "capacity": null,
+  "priority": "tiered",
+  "meta": {
+    "k": 12,
+    "seed": 0,
+    "extra_nodes": 1,
+    "n_roads": 18,
+    "n_blocked": 5,
+    "n_slowed": 4,
+    "cut_off": null,
+    "capacity_mode": "unlimited",
+    "split": "dev",
+    "rep": 0,
+    "condition": "unlimited"
+  }
+}

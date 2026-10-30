@@ -1,0 +1,312 @@
+{
+ "steps": [
+  {
+   "action": "move",
+   "from": "Ramche",
+   "to": "Jiling"
+  },
+  {
+   "action": "move",
+   "from": "Jiling",
+   "to": "Likhu"
+  },
+  {
+   "action": "pickup",
+   "location": "Likhu"
+  },
+  {
+   "action": "move",
+   "from": "Likhu",
+   "to": "Jiling"
+  },
+  {
+   "action": "move",
+   "from": "Jiling",
+   "to": "Kalikasthan"
+  },
+  {
+   "action": "pickup",
+   "location": "Kalikasthan"
+  },
+  {
+   "action": "move",
+   "from": "Kalikasthan",
+   "to": "Jiling"
+  },
+  {
+   "action": "move",
+   "from": "Jiling",
+   "to": "Ramche"
+  },
+  {
+   "action": "dropoff",
+   "location": "Ramche"
+  },
+  {
+   "action": "move",
+   "from": "Ramche",
+   "to": "Chaughada"
+  },
+  {
+   "action": "move",
+   "from": "Chaughada",
+   "to": "Syaphru"
+  },
+  {
+   "action": "pickup",
+   "location": "Syaphru"
+  },
+  {
+   "action": "move",
+   "from": "Syaphru",
+   "to": "Chaughada"
+  },
+  {
+   "action": "move",
+   "from": "Chaughada",
+   "to": "Ramche"
+  },
+  {
+   "action": "dropoff",
+   "location": "Ramche"
+  },
+  {
+   "action": "move",
+   "from": "Ramche",
+   "to": "Jiling"
+  },
+  {
+   "action": "move",
+   "from": "Jiling",
+   "to": "Kispang"
+  },
+  {
+   "action": "pickup",
+   "location": "Kispang"
+  },
+  {
+   "action": "move",
+   "from": "Kispang",
+   "to": "Jiling"
+  },
+  {
+   "action": "move",
+   "from": "Jiling",
+   "to": "Likhu"
+  },
+  {
+   "action": "move",
+   "from": "Likhu",
+   "to": "Rautbesi"
+  },
+  {
+   "action": "pickup",
+   "location": "Rautbesi"
+  },
+  {
+   "action": "move",
+   "from": "Rautbesi",
+   "to": "Likhu"
+  },
+  {
+   "action": "move",
+   "from": "Likhu",
+   "to": "Jiling"
+  },
+  {
+   "action": "move",
+   "from": "Jiling",
+   "to": "Ramche"
+  },
+  {
+   "action": "dropoff",
+   "location": "Ramche"
+  },
+  {
+   "action": "move",
+   "from": "Ramche",
+   "to": "Chaughada"
+  },
+  {
+   "action": "move",
+   "from": "Chaughada",
+   "to": "Syaphru"
+  },
+  {
+   "action": "move",
+   "from": "Syaphru",
+   "to": "Taruka"
+  },
+  {
+   "action": "pickup",
+   "location": "Taruka"
+  },
+  {
+   "action": "move",
+   "from": "Taruka",
+   "to": "Syaphru"
+  },
+  {
+   "action": "move",
+   "from": "Syaphru",
+   "to": "Chaughada"
+  },
+  {
+   "action": "move",
+   "from": "Chaughada",
+   "to": "Ramche"
+  },
+  {
+   "action": "dropoff",
+   "location": "Ramche"
+  },
+  {
+   "action": "move",
+   "from": "Ramche",
+   "to": "Jiling"
+  },
+  {
+   "action": "move",
+   "from": "Jiling",
+   "to": "Kispang"
+  },
+  {
+   "action": "move",
+   "from": "Kispang",
+   "to": "Bhalche"
+  },
+  {
+   "action": "move",
+   "from": "Bhalche",
+   "to": "Dupcheshwar"
+  },
+  {
+   "action": "pickup",
+   "location": "Dupcheshwar"
+  },
+  {
+   "action": "move",
+   "from": "Dupcheshwar",
+   "to": "Bhalche"
+  },
+  {
+   "action": "pickup",
+   "location": "Bhalche"
+  },
+  {
+   "action": "move",
+   "from": "Bhalche",
+   "to": "Kispang"
+  },
+  {
+   "action": "move",
+   "from": "Kispang",
+   "to": "Jiling"
+  },
+  {
+   "action": "move",
+   "from": "Jiling",
+   "to": "Ramche"
+  },
+  {
+   "action": "dropoff",
+   "location": "Ramche"
+  },
+  {
+   "action": "move",
+   "from": "Ramche",
+   "to": "Jiling"
+  },
+  {
+   "action": "pickup",
+   "location": "Jiling"
+  },
+  {
+   "action": "move",
+   "from": "Jiling",
+   "to": "Kalikasthan"
+  },
+  {
+   "action": "move",
+   "from": "Kalikasthan",
+   "to": "Khanigaun"
+  },
+  {
+   "action": "pickup",
+   "location": "Khanigaun"
+  },
+  {
+   "action": "move",
+   "from": "Khanigaun",
+   "to": "Kalikasthan"
+  },
+  {
+   "action": "move",
+   "from": "Kalikasthan",
+   "to": "Jiling"
+  },
+  {
+   "action": "move",
+   "from": "Jiling",
+   "to": "Ramche"
+  },
+  {
+   "action": "dropoff",
+   "location": "Ramche"
+  },
+  {
+   "action": "move",
+   "from": "Ramche",
+   "to": "Chaughada"
+  },
+  {
+   "action": "move",
+   "from": "Chaughada",
+   "to": "Syaphru"
+  },
+  {
+   "action": "move",
+   "from": "Syaphru",
+   "to": "Salme"
+  },
+  {
+   "action": "pickup",
+   "location": "Salme"
+  },
+  {
+   "action": "move",
+   "from": "Salme",
+   "to": "Dandagaun"
+  },
+  {
+   "action": "pickup",
+   "location": "Dandagaun"
+  },
+  {
+   "action": "move",
+   "from": "Dandagaun",
+   "to": "Salme"
+  },
+  {
+   "action": "move",
+   "from": "Salme",
+   "to": "Syaphru"
+  },
+  {
+   "action": "move",
+   "from": "Syaphru",
+   "to": "Chaughada"
+  },
+  {
+   "action": "move",
+   "from": "Chaughada",
+   "to": "Ramche"
+  },
+  {
+   "action": "dropoff",
+   "location": "Ramche"
+  }
+ ],
+ "unreachable": [],
+ "claimed_total_minutes": 870.0
+}

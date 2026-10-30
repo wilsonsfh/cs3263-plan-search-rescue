@@ -1,0 +1,139 @@
+{
+ "start": "Madanpur",
+ "shelter": "Madanpur",
+ "capacity": 17,
+ "locations": [
+  {
+   "name": "Madanpur",
+   "kind": "evacuation point"
+  },
+  {
+   "name": "Tupche",
+   "kind": "village"
+  },
+  {
+   "name": "Thaprek",
+   "kind": "village"
+  },
+  {
+   "name": "Kalikasthan",
+   "kind": "village"
+  },
+  {
+   "name": "Ramche",
+   "kind": "school"
+  },
+  {
+   "name": "Meghang",
+   "kind": "village"
+  }
+ ],
+ "roads": [
+  {
+   "between": [
+    "Kalikasthan",
+    "Madanpur"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kalikasthan",
+    "Meghang"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kalikasthan",
+    "Ramche"
+   ],
+   "minutes": 45,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kalikasthan",
+    "Thaprek"
+   ],
+   "minutes": 50,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Madanpur",
+    "Meghang"
+   ],
+   "minutes": 10,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Madanpur",
+    "Thaprek"
+   ],
+   "minutes": 35,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Madanpur",
+    "Tupche"
+   ],
+   "minutes": 20,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Meghang",
+    "Thaprek"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Meghang",
+    "Tupche"
+   ],
+   "minutes": 40,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Ramche",
+    "Tupche"
+   ],
+   "minutes": 35,
+   "status": "open"
+  }
+ ],
+ "people": {
+  "Tupche": {
+   "injured": 0,
+   "children": 0,
+   "elderly": 0,
+   "adults": 6
+  },
+  "Thaprek": {
+   "injured": 0,
+   "children": 3,
+   "elderly": 2,
+   "adults": 2
+  },
+  "Kalikasthan": {
+   "injured": 0,
+   "children": 4,
+   "elderly": 0,
+   "adults": 2
+  },
+  "Ramche": {
+   "injured": 0,
+   "children": 4,
+   "elderly": 3,
+   "adults": 2
+  }
+ }
+}

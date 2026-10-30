@@ -1,0 +1,186 @@
+{
+ "steps": [
+  {
+   "action": "move",
+   "from": "Sundaradevi",
+   "to": "Khanigaun"
+  },
+  {
+   "action": "pickup",
+   "location": "Khanigaun"
+  },
+  {
+   "action": "move",
+   "from": "Khanigaun",
+   "to": "Okharpauwa"
+  },
+  {
+   "action": "pickup",
+   "location": "Okharpauwa"
+  },
+  {
+   "action": "move",
+   "from": "Okharpauwa",
+   "to": "Thaprek"
+  },
+  {
+   "action": "move",
+   "from": "Thaprek",
+   "to": "Ramche"
+  },
+  {
+   "action": "pickup",
+   "location": "Ramche"
+  },
+  {
+   "action": "move",
+   "from": "Ramche",
+   "to": "Thaprek"
+  },
+  {
+   "action": "move",
+   "from": "Thaprek",
+   "to": "Khanigaun"
+  },
+  {
+   "action": "move",
+   "from": "Khanigaun",
+   "to": "Sundaradevi"
+  },
+  {
+   "action": "move",
+   "from": "Sundaradevi",
+   "to": "Kaule"
+  },
+  {
+   "action": "move",
+   "from": "Kaule",
+   "to": "Shikharbesi"
+  },
+  {
+   "action": "move",
+   "from": "Shikharbesi",
+   "to": "Rautbesi"
+  },
+  {
+   "action": "pickup",
+   "location": "Rautbesi"
+  },
+  {
+   "action": "move",
+   "from": "Rautbesi",
+   "to": "Trishuli"
+  },
+  {
+   "action": "pickup",
+   "location": "Trishuli"
+  },
+  {
+   "action": "move",
+   "from": "Trishuli",
+   "to": "Betrawati"
+  },
+  {
+   "action": "move",
+   "from": "Betrawati",
+   "to": "Shikharbesi"
+  },
+  {
+   "action": "pickup",
+   "location": "Shikharbesi"
+  },
+  {
+   "action": "move",
+   "from": "Shikharbesi",
+   "to": "Likhu"
+  },
+  {
+   "action": "pickup",
+   "location": "Likhu"
+  },
+  {
+   "action": "move",
+   "from": "Likhu",
+   "to": "Narjamandap"
+  },
+  {
+   "action": "move",
+   "from": "Narjamandap",
+   "to": "Suryagadhi"
+  },
+  {
+   "action": "pickup",
+   "location": "Suryagadhi"
+  },
+  {
+   "action": "move",
+   "from": "Suryagadhi",
+   "to": "Narjamandap"
+  },
+  {
+   "action": "move",
+   "from": "Narjamandap",
+   "to": "Likhu"
+  },
+  {
+   "action": "move",
+   "from": "Likhu",
+   "to": "Kaule"
+  },
+  {
+   "action": "pickup",
+   "location": "Kaule"
+  },
+  {
+   "action": "move",
+   "from": "Kaule",
+   "to": "Sundaradevi"
+  },
+  {
+   "action": "move",
+   "from": "Sundaradevi",
+   "to": "Khanigaun"
+  },
+  {
+   "action": "move",
+   "from": "Khanigaun",
+   "to": "Thaprek"
+  },
+  {
+   "action": "pickup",
+   "location": "Thaprek"
+  },
+  {
+   "action": "move",
+   "from": "Thaprek",
+   "to": "Ramche"
+  },
+  {
+   "action": "move",
+   "from": "Ramche",
+   "to": "Laharepauwa"
+  },
+  {
+   "action": "pickup",
+   "location": "Laharepauwa"
+  },
+  {
+   "action": "move",
+   "from": "Laharepauwa",
+   "to": "Khanigaun"
+  },
+  {
+   "action": "move",
+   "from": "Khanigaun",
+   "to": "Sundaradevi"
+  },
+  {
+   "action": "dropoff",
+   "location": "Sundaradevi"
+  }
+ ],
+ "unreachable": [
+  "Kakani"
+ ],
+ "claimed_total_minutes": 425.0
+}

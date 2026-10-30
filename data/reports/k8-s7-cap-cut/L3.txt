@@ -1,0 +1,30 @@
+MISSION SHEET
+- Team base and starting point: Rautbesi
+- Shelter where evacuees must be delivered: Rautbesi
+- Vehicle capacity: 19 people at a time
+- Places on the district map: Rautbesi (evacuation point), Kumari (health post), Meghang (school), Ramche (temple), Dhaibung (village), Dupcheshwar (temple), Haku (village), Shikharbesi (village), Goljung (village), Kalikasthan (village), Kispang (road junction)
+
+ROAD REGISTER (pre-flood network; usual one-way driving times, roads are two-way)
+- Dhaibung–Haku: 35 min
+- Dhaibung–Kumari: 30 min
+- Dhaibung–Ramche: 15 min
+- Dupcheshwar–Goljung: 15 min
+- Dupcheshwar–Kalikasthan: 10 min
+- Dupcheshwar–Meghang: 20 min
+- Dupcheshwar–Rautbesi: 10 min
+- Goljung–Kalikasthan: 20 min
+- Goljung–Kumari: 10 min
+- Haku–Rautbesi: 25 min
+- Haku–Shikharbesi: 15 min
+- Kalikasthan–Kispang: 25 min
+- Kalikasthan–Rautbesi: 20 min
+- Kispang–Meghang: 15 min
+- Kumari–Ramche: 15 min
+- Meghang–Shikharbesi: 30 min
+- Rautbesi–Shikharbesi: 35 min
+
+FIELD DISPATCHES (several sources; listed in the order they reached the control room)
+[09:30] District Police Office (situation report): Residents at Dhaibung say one child, one elderly resident and 5 able-bodied adults are still there, sheltering on upper floors. Residents at Goljung say four children and six uninjured adults are still there, sheltering on upper floors. The suspension bridge on the Dupcheshwar–Goljung route was swept away by the river. In Kathmandu, schools have been closed for three days as a precaution. The Dupcheshwar–Kalikasthan road is open but badly waterlogged; driving it now takes double the normal journey time. The Dhaibung–Ramche road is under two metres of fast-flowing floodwater. At the school in Meghang, nine schoolchildren and one able-bodied adult are waiting to be rescued. A landslide has buried the road between Dupcheshwar and Rautbesi under metres of mud. Residents at Shikharbesi say three injured people (a young boy with a badly sprained ankle, a man with a crushed foot and a pregnant woman who was hit by debris) and two uninjured adults are still there, sheltering on upper floors.
+[13:15] Sunita Lama, The Himalayan Times (on the ground): The Rautbesi–Shikharbesi road has been reopened after bulldozers removed the debris; travel times are back to normal. At the health post in Kumari, 2 children and 3 able-bodied adults are waiting to be rescued. Confirmed headcount: Residents at Haku say two senior citizens and five uninjured adults are still there, sheltering on upper floors. The Dupcheshwar–Meghang road is open but badly waterlogged; driving it adds a quarter of an hour to the usual journey. The Goljung–Kumari road is under two metres of fast-flowing floodwater, cutting a road that was open earlier today. The Haku–Shikharbesi road is open but badly waterlogged; driving it now takes double the normal journey time. Kalikasthan was fully evacuated by the army yesterday; no one remains there. The suspension bridge on the Kumari–Ramche route was swept away by the river, cutting a road that was open earlier today. Heavy rain is forecast to continue through the evening. The Meghang–Shikharbesi road has been reopened after bulldozers removed the debris; travel times are back to normal. Our team counted one injured person (a teenage girl with a fractured arm), an elderly couple and two other adults at the temple in Ramche, all needing evacuation. At the temple in Dupcheshwar, two schoolchildren, one elderly resident and two other adults are waiting to be rescued.
+[06:45] Radio Nuwakot FM (local radio, early bulletin): Debris is blocking the Meghang–Shikharbesi road. Livestock losses across the district are reported to be severe. Debris is blocking the Rautbesi–Shikharbesi road. Around 4 people are believed to be stranded in Haku (unconfirmed estimate). Residents of Kalikasthan were seen on rooftops last night. The Kumari–Ramche road is still passable this morning, drivers say. The Goljung–Kumari road is still passable this morning, drivers say.
+Anything not mentioned in these dispatches is in its usual condition, and no one else is known to be stranded.

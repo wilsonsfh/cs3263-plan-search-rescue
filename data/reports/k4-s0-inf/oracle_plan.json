@@ -1,0 +1,86 @@
+{
+ "steps": [
+  {
+   "action": "move",
+   "from": "Salme",
+   "to": "Samundratar"
+  },
+  {
+   "action": "move",
+   "from": "Samundratar",
+   "to": "Likhu"
+  },
+  {
+   "action": "pickup",
+   "location": "Likhu"
+  },
+  {
+   "action": "move",
+   "from": "Likhu",
+   "to": "Samundratar"
+  },
+  {
+   "action": "move",
+   "from": "Samundratar",
+   "to": "Salme"
+  },
+  {
+   "action": "move",
+   "from": "Salme",
+   "to": "Khanigaun"
+  },
+  {
+   "action": "move",
+   "from": "Khanigaun",
+   "to": "Meghang"
+  },
+  {
+   "action": "pickup",
+   "location": "Meghang"
+  },
+  {
+   "action": "move",
+   "from": "Meghang",
+   "to": "Tupche"
+  },
+  {
+   "action": "pickup",
+   "location": "Tupche"
+  },
+  {
+   "action": "move",
+   "from": "Tupche",
+   "to": "Meghang"
+  },
+  {
+   "action": "move",
+   "from": "Meghang",
+   "to": "Khanigaun"
+  },
+  {
+   "action": "move",
+   "from": "Khanigaun",
+   "to": "Salme"
+  },
+  {
+   "action": "move",
+   "from": "Salme",
+   "to": "Samundratar"
+  },
+  {
+   "action": "pickup",
+   "location": "Samundratar"
+  },
+  {
+   "action": "move",
+   "from": "Samundratar",
+   "to": "Salme"
+  },
+  {
+   "action": "dropoff",
+   "location": "Salme"
+  }
+ ],
+ "unreachable": [],
+ "claimed_total_minutes": 260.0
+}

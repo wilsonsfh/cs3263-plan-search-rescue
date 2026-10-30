@@ -1,0 +1,58 @@
+MISSION SHEET
+- Team base and starting point: Madanpur
+- Shelter where evacuees must be delivered: Madanpur
+- Vehicle capacity: 17 people at a time
+- Places on the district map: Madanpur (evacuation point), Belkot (village), Sundaradevi (school), Betrawati (village), Likhu (ward office), Tadi (school), Goljung (village), Tupche (village), Bhorle (village), Kispang (school), Gerkhu (village), Dandagaun (village), Meghang (health post), Bidur (village), Thulogaun (village), Rautbesi (village), Chaughada (village), Bhalche (road junction)
+
+ROAD REGISTER (pre-flood network; usual one-way driving times, roads are two-way)
+- Belkot–Chaughada: 10 min
+- Belkot–Thulogaun: 10 min
+- Betrawati–Dandagaun: 5 min
+- Betrawati–Tupche: 10 min
+- Bhalche–Chaughada: 15 min
+- Bhalche–Thulogaun: 15 min
+- Bhorle–Bidur: 10 min
+- Bhorle–Chaughada: 10 min
+- Bhorle–Madanpur: 10 min
+- Bhorle–Rautbesi: 10 min
+- Bidur–Tadi: 20 min
+- Chaughada–Tupche: 10 min
+- Gerkhu–Sundaradevi: 10 min
+- Goljung–Kispang: 15 min
+- Goljung–Sundaradevi: 15 min
+- Kispang–Likhu: 10 min
+- Likhu–Meghang: 15 min
+- Madanpur–Meghang: 20 min
+- Madanpur–Rautbesi: 10 min
+- Rautbesi–Tupche: 10 min
+
+FIELD REPORT (district control room, 12:00)
+Road status changes since the flood:
+- Belkot–Chaughada: open, travel time now 30 min
+- Belkot–Thulogaun: BLOCKED
+- Betrawati–Dandagaun: open, travel time now 10 min
+- Betrawati–Tupche: open, travel time now 30 min
+- Bhalche–Thulogaun: open, travel time now 30 min
+- Gerkhu–Sundaradevi: BLOCKED
+- Likhu–Meghang: open, travel time now 30 min
+- Madanpur–Rautbesi: BLOCKED
+- Rautbesi–Tupche: BLOCKED
+All other roads: open, usual travel time.
+People waiting for rescue:
+- Belkot: 1 injured, 2 children, 0 elderly, 2 adults
+- Sundaradevi: 0 injured, 6 children, 1 elderly, 1 adults
+- Betrawati: 0 injured, 2 children, 3 elderly, 6 adults
+- Likhu: 0 injured, 1 children, 0 elderly, 2 adults
+- Tadi: 0 injured, 3 children, 1 elderly, 2 adults
+- Goljung: 3 injured, 2 children, 2 elderly, 4 adults
+- Tupche: 3 injured, 1 children, 1 elderly, 5 adults
+- Bhorle: 0 injured, 2 children, 1 elderly, 1 adults
+- Kispang: 0 injured, 4 children, 0 elderly, 2 adults
+- Gerkhu: 0 injured, 0 children, 0 elderly, 4 adults
+- Dandagaun: 0 injured, 4 children, 3 elderly, 6 adults
+- Meghang: 1 injured, 0 children, 3 elderly, 3 adults
+- Bidur: 0 injured, 4 children, 2 elderly, 3 adults
+- Thulogaun: 3 injured, 3 children, 0 elderly, 6 adults
+- Rautbesi: 0 injured, 0 children, 0 elderly, 1 adults
+- Chaughada: 0 injured, 0 children, 0 elderly, 2 adults
+No one is waiting at any other location.

@@ -1,0 +1,255 @@
+{
+ "steps": [
+  {
+   "action": "move",
+   "from": "Trishuli",
+   "to": "Madanpur"
+  },
+  {
+   "action": "move",
+   "from": "Madanpur",
+   "to": "Likhu"
+  },
+  {
+   "action": "move",
+   "from": "Likhu",
+   "to": "Kumari"
+  },
+  {
+   "action": "pickup",
+   "location": "Kumari"
+  },
+  {
+   "action": "move",
+   "from": "Kumari",
+   "to": "Kispang"
+  },
+  {
+   "action": "move",
+   "from": "Kispang",
+   "to": "Betrawati"
+  },
+  {
+   "action": "move",
+   "from": "Betrawati",
+   "to": "Thulogaun"
+  },
+  {
+   "action": "move",
+   "from": "Thulogaun",
+   "to": "Laharepauwa"
+  },
+  {
+   "action": "pickup",
+   "location": "Laharepauwa"
+  },
+  {
+   "action": "move",
+   "from": "Laharepauwa",
+   "to": "Thulogaun"
+  },
+  {
+   "action": "pickup",
+   "location": "Thulogaun"
+  },
+  {
+   "action": "move",
+   "from": "Thulogaun",
+   "to": "Betrawati"
+  },
+  {
+   "action": "move",
+   "from": "Betrawati",
+   "to": "Madanpur"
+  },
+  {
+   "action": "move",
+   "from": "Madanpur",
+   "to": "Trishuli"
+  },
+  {
+   "action": "dropoff",
+   "location": "Trishuli"
+  },
+  {
+   "action": "move",
+   "from": "Trishuli",
+   "to": "Madanpur"
+  },
+  {
+   "action": "pickup",
+   "location": "Madanpur"
+  },
+  {
+   "action": "move",
+   "from": "Madanpur",
+   "to": "Trishuli"
+  },
+  {
+   "action": "dropoff",
+   "location": "Trishuli"
+  },
+  {
+   "action": "move",
+   "from": "Trishuli",
+   "to": "Madanpur"
+  },
+  {
+   "action": "move",
+   "from": "Madanpur",
+   "to": "Likhu"
+  },
+  {
+   "action": "pickup",
+   "location": "Likhu"
+  },
+  {
+   "action": "move",
+   "from": "Likhu",
+   "to": "Kumari"
+  },
+  {
+   "action": "move",
+   "from": "Kumari",
+   "to": "Kispang"
+  },
+  {
+   "action": "move",
+   "from": "Kispang",
+   "to": "Haku"
+  },
+  {
+   "action": "pickup",
+   "location": "Haku"
+  },
+  {
+   "action": "move",
+   "from": "Haku",
+   "to": "Shikharbesi"
+  },
+  {
+   "action": "pickup",
+   "location": "Shikharbesi"
+  },
+  {
+   "action": "move",
+   "from": "Shikharbesi",
+   "to": "Haku"
+  },
+  {
+   "action": "move",
+   "from": "Haku",
+   "to": "Kispang"
+  },
+  {
+   "action": "move",
+   "from": "Kispang",
+   "to": "Betrawati"
+  },
+  {
+   "action": "move",
+   "from": "Betrawati",
+   "to": "Madanpur"
+  },
+  {
+   "action": "move",
+   "from": "Madanpur",
+   "to": "Trishuli"
+  },
+  {
+   "action": "dropoff",
+   "location": "Trishuli"
+  },
+  {
+   "action": "move",
+   "from": "Trishuli",
+   "to": "Madanpur"
+  },
+  {
+   "action": "move",
+   "from": "Madanpur",
+   "to": "Likhu"
+  },
+  {
+   "action": "move",
+   "from": "Likhu",
+   "to": "Sundaradevi"
+  },
+  {
+   "action": "pickup",
+   "location": "Sundaradevi"
+  },
+  {
+   "action": "move",
+   "from": "Sundaradevi",
+   "to": "Samundratar"
+  },
+  {
+   "action": "pickup",
+   "location": "Samundratar"
+  },
+  {
+   "action": "move",
+   "from": "Samundratar",
+   "to": "Sundaradevi"
+  },
+  {
+   "action": "move",
+   "from": "Sundaradevi",
+   "to": "Likhu"
+  },
+  {
+   "action": "move",
+   "from": "Likhu",
+   "to": "Kumari"
+  },
+  {
+   "action": "move",
+   "from": "Kumari",
+   "to": "Panchakanya"
+  },
+  {
+   "action": "pickup",
+   "location": "Panchakanya"
+  },
+  {
+   "action": "move",
+   "from": "Panchakanya",
+   "to": "Kumari"
+  },
+  {
+   "action": "move",
+   "from": "Kumari",
+   "to": "Kispang"
+  },
+  {
+   "action": "pickup",
+   "location": "Kispang"
+  },
+  {
+   "action": "move",
+   "from": "Kispang",
+   "to": "Betrawati"
+  },
+  {
+   "action": "pickup",
+   "location": "Betrawati"
+  },
+  {
+   "action": "move",
+   "from": "Betrawati",
+   "to": "Madanpur"
+  },
+  {
+   "action": "move",
+   "from": "Madanpur",
+   "to": "Trishuli"
+  },
+  {
+   "action": "dropoff",
+   "location": "Trishuli"
+  }
+ ],
+ "unreachable": [],
+ "claimed_total_minutes": 500.0
+}

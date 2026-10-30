@@ -1,0 +1,332 @@
+{
+ "steps": [
+  {
+   "action": "move",
+   "from": "Goljung",
+   "to": "Bhalche"
+  },
+  {
+   "action": "move",
+   "from": "Bhalche",
+   "to": "Bidur"
+  },
+  {
+   "action": "pickup",
+   "location": "Bidur"
+  },
+  {
+   "action": "move",
+   "from": "Bidur",
+   "to": "Bhalche"
+  },
+  {
+   "action": "move",
+   "from": "Bhalche",
+   "to": "Goljung"
+  },
+  {
+   "action": "dropoff",
+   "location": "Goljung"
+  },
+  {
+   "action": "move",
+   "from": "Goljung",
+   "to": "Likhu"
+  },
+  {
+   "action": "pickup",
+   "location": "Likhu"
+  },
+  {
+   "action": "move",
+   "from": "Likhu",
+   "to": "Trishuli"
+  },
+  {
+   "action": "move",
+   "from": "Trishuli",
+   "to": "Panchakanya"
+  },
+  {
+   "action": "pickup",
+   "location": "Panchakanya"
+  },
+  {
+   "action": "move",
+   "from": "Panchakanya",
+   "to": "Trishuli"
+  },
+  {
+   "action": "move",
+   "from": "Trishuli",
+   "to": "Sundaradevi"
+  },
+  {
+   "action": "pickup",
+   "location": "Sundaradevi"
+  },
+  {
+   "action": "move",
+   "from": "Sundaradevi",
+   "to": "Trishuli"
+  },
+  {
+   "action": "move",
+   "from": "Trishuli",
+   "to": "Likhu"
+  },
+  {
+   "action": "move",
+   "from": "Likhu",
+   "to": "Goljung"
+  },
+  {
+   "action": "dropoff",
+   "location": "Goljung"
+  },
+  {
+   "action": "move",
+   "from": "Goljung",
+   "to": "Likhu"
+  },
+  {
+   "action": "move",
+   "from": "Likhu",
+   "to": "Trishuli"
+  },
+  {
+   "action": "move",
+   "from": "Trishuli",
+   "to": "Samundratar"
+  },
+  {
+   "action": "pickup",
+   "location": "Samundratar"
+  },
+  {
+   "action": "move",
+   "from": "Samundratar",
+   "to": "Belkot"
+  },
+  {
+   "action": "pickup",
+   "location": "Belkot"
+  },
+  {
+   "action": "move",
+   "from": "Belkot",
+   "to": "Samundratar"
+  },
+  {
+   "action": "move",
+   "from": "Samundratar",
+   "to": "Trishuli"
+  },
+  {
+   "action": "move",
+   "from": "Trishuli",
+   "to": "Likhu"
+  },
+  {
+   "action": "move",
+   "from": "Likhu",
+   "to": "Goljung"
+  },
+  {
+   "action": "dropoff",
+   "location": "Goljung"
+  },
+  {
+   "action": "move",
+   "from": "Goljung",
+   "to": "Likhu"
+  },
+  {
+   "action": "move",
+   "from": "Likhu",
+   "to": "Trishuli"
+  },
+  {
+   "action": "pickup",
+   "location": "Trishuli"
+  },
+  {
+   "action": "move",
+   "from": "Trishuli",
+   "to": "Likhu"
+  },
+  {
+   "action": "move",
+   "from": "Likhu",
+   "to": "Goljung"
+  },
+  {
+   "action": "move",
+   "from": "Goljung",
+   "to": "Bhalche"
+  },
+  {
+   "action": "pickup",
+   "location": "Bhalche"
+  },
+  {
+   "action": "move",
+   "from": "Bhalche",
+   "to": "Chaughada"
+  },
+  {
+   "action": "pickup",
+   "location": "Chaughada"
+  },
+  {
+   "action": "move",
+   "from": "Chaughada",
+   "to": "Bhalche"
+  },
+  {
+   "action": "move",
+   "from": "Bhalche",
+   "to": "Goljung"
+  },
+  {
+   "action": "dropoff",
+   "location": "Goljung"
+  },
+  {
+   "action": "move",
+   "from": "Goljung",
+   "to": "Bhalche"
+  },
+  {
+   "action": "move",
+   "from": "Bhalche",
+   "to": "Bhorle"
+  },
+  {
+   "action": "pickup",
+   "location": "Bhorle"
+  },
+  {
+   "action": "move",
+   "from": "Bhorle",
+   "to": "Gerkhu"
+  },
+  {
+   "action": "pickup",
+   "location": "Gerkhu"
+  },
+  {
+   "action": "move",
+   "from": "Gerkhu",
+   "to": "Tupche"
+  },
+  {
+   "action": "pickup",
+   "location": "Tupche"
+  },
+  {
+   "action": "move",
+   "from": "Tupche",
+   "to": "Gerkhu"
+  },
+  {
+   "action": "move",
+   "from": "Gerkhu",
+   "to": "Bidur"
+  },
+  {
+   "action": "move",
+   "from": "Bidur",
+   "to": "Bhalche"
+  },
+  {
+   "action": "move",
+   "from": "Bhalche",
+   "to": "Goljung"
+  },
+  {
+   "action": "dropoff",
+   "location": "Goljung"
+  },
+  {
+   "action": "move",
+   "from": "Goljung",
+   "to": "Likhu"
+  },
+  {
+   "action": "move",
+   "from": "Likhu",
+   "to": "Trishuli"
+  },
+  {
+   "action": "move",
+   "from": "Trishuli",
+   "to": "Sundaradevi"
+  },
+  {
+   "action": "move",
+   "from": "Sundaradevi",
+   "to": "Kalikasthan"
+  },
+  {
+   "action": "pickup",
+   "location": "Kalikasthan"
+  },
+  {
+   "action": "move",
+   "from": "Kalikasthan",
+   "to": "Salme"
+  },
+  {
+   "action": "pickup",
+   "location": "Salme"
+  },
+  {
+   "action": "move",
+   "from": "Salme",
+   "to": "Rautbesi"
+  },
+  {
+   "action": "pickup",
+   "location": "Rautbesi"
+  },
+  {
+   "action": "move",
+   "from": "Rautbesi",
+   "to": "Salme"
+  },
+  {
+   "action": "move",
+   "from": "Salme",
+   "to": "Kalikasthan"
+  },
+  {
+   "action": "move",
+   "from": "Kalikasthan",
+   "to": "Sundaradevi"
+  },
+  {
+   "action": "move",
+   "from": "Sundaradevi",
+   "to": "Trishuli"
+  },
+  {
+   "action": "move",
+   "from": "Trishuli",
+   "to": "Likhu"
+  },
+  {
+   "action": "move",
+   "from": "Likhu",
+   "to": "Goljung"
+  },
+  {
+   "action": "dropoff",
+   "location": "Goljung"
+  }
+ ],
+ "unreachable": [
+  "Betrawati"
+ ],
+ "claimed_total_minutes": 925.0
+}

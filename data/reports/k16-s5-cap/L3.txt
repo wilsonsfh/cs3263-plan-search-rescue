@@ -1,0 +1,47 @@
+MISSION SHEET
+- Team base and starting point: Belkot
+- Shelter where evacuees must be delivered: Belkot
+- Vehicle capacity: 14 people at a time
+- Places on the district map: Belkot (evacuation point), Kalikasthan (ward office), Kaule (village), Bidur (village), Thulogaun (village), Goljung (village), Chhap (temple), Bhorle (village), Ghyangphedi (ward office), Sundaradevi (ward office), Laharepauwa (temple), Madanpur (village), Haku (ward office), Chaughada (health post), Meghang (village), Thansing (village), Ramche (village), Panchakanya (road junction), Likhu (road junction), Syaphru (road junction), Kumari (village), Salme (village), Bhalche (road junction)
+
+ROAD REGISTER (pre-flood network; usual one-way driving times, roads are two-way)
+- Belkot–Chaughada: 10 min
+- Belkot–Kalikasthan: 20 min
+- Belkot–Kumari: 15 min
+- Belkot–Likhu: 15 min
+- Bhalche–Syaphru: 15 min
+- Bhalche–Thansing: 10 min
+- Bhalche–Thulogaun: 10 min
+- Bhorle–Bidur: 15 min
+- Bhorle–Syaphru: 15 min
+- Bidur–Chaughada: 25 min
+- Bidur–Madanpur: 15 min
+- Chaughada–Madanpur: 10 min
+- Chaughada–Syaphru: 15 min
+- Chhap–Kalikasthan: 15 min
+- Chhap–Kaule: 5 min
+- Chhap–Likhu: 25 min
+- Chhap–Sundaradevi: 15 min
+- Ghyangphedi–Goljung: 15 min
+- Ghyangphedi–Kumari: 10 min
+- Ghyangphedi–Madanpur: 15 min
+- Goljung–Laharepauwa: 10 min
+- Goljung–Panchakanya: 10 min
+- Goljung–Salme: 20 min
+- Haku–Meghang: 10 min
+- Kalikasthan–Kaule: 15 min
+- Kalikasthan–Likhu: 10 min
+- Kaule–Meghang: 15 min
+- Kumari–Ramche: 15 min
+- Laharepauwa–Salme: 5 min
+- Likhu–Thansing: 15 min
+- Meghang–Ramche: 15 min
+- Sundaradevi–Thansing: 25 min
+- Sundaradevi–Thulogaun: 15 min
+- Thansing–Thulogaun: 10 min
+
+FIELD DISPATCHES (several sources; listed in the order they reached the control room)
+[09:30] District Police Office (situation report): Residents at Kaule say two schoolchildren, three elderly residents and half a dozen other adults are still there, sheltering on upper floors. At Thulogaun, two children, 3 elderly residents and three able-bodied adults are waiting to be rescued. Our team counted one injured person (a young boy with a badly sprained ankle), four schoolchildren, two senior citizens and two uninjured adults at Bhorle, all needing evacuation. Unconfirmed posts on social media claim the Goljung–Salme road has been washed away. The Bhalche–Syaphru road is open but badly waterlogged; driving it now takes double the normal journey time. The Goljung–Panchakanya road is open but badly waterlogged; driving it adds a quarter of an hour to the usual journey. In Kathmandu, schools have been closed for three days as a precaution. Unconfirmed posts on social media claim the Likhu–Thansing road has been washed away. The Bhorle–Bidur road is open but badly waterlogged; driving it takes twice the usual time. The Haku–Meghang road is open but badly waterlogged; driving it now takes double the normal journey time. At Madanpur, 2 schoolchildren, three elderly residents and three uninjured adults are waiting to be rescued. Unconfirmed posts on social media claim the Bidur–Madanpur road has been washed away.
+[13:15] Sunita Lama, The Himalayan Times (on the ground): Confirmed headcount: Residents at the ward office in Ghyangphedi say four adults are still there, sheltering on upper floors. Salme was fully evacuated by the army yesterday; no one remains there. Confirmed headcount: At Thansing, four schoolchildren, one senior citizen and three able-bodied adults are waiting to be rescued. At the ward office in Haku, two schoolchildren, 2 senior citizens and three other adults are waiting to be rescued. Hillside collapse: the Meghang–Ramche road disappeared under a landslide overnight. Floodwater has turned the road from Goljung to Laharepauwa into a river, cutting a road that was open earlier today. Debris has completely choked the road between Bidur and Chaughada. Residents at the ward office in Sundaradevi say four schoolchildren, two senior citizens and one able-bodied adult are still there, sheltering on upper floors. Police have checked the Likhu–Thansing road: the social media reports were false and the road is open as normal. Police have checked the Bidur–Madanpur road: the social media reports were false and the road is open as normal. Confirmed headcount: Our team counted three injured people (a pregnant woman who was hit by debris, a man with a crushed foot and a child with a deep gash on his leg) and three uninjured adults at the health post in Chaughada, all needing evacuation. A landslide has buried the road between Ghyangphedi and Kumari under metres of mud. A landslide has buried the road between Belkot and Likhu under metres of mud. Confirmed headcount: Residents at Meghang say 2 injured people (a teenage girl with a fractured arm and a woman with burns on her arms) and three uninjured adults are still there, sheltering on upper floors. Our team counted 4 children, one senior citizen and four other adults at the ward office in Kalikasthan, all needing evacuation. The Belkot–Kumari road is open but badly waterlogged; driving it now takes double the normal journey time. Confirmed headcount: Stranded at Ramche: three elderly residents and four other adults. Army engineers have cleared the debris on the Thansing–Thulogaun road; it is open again at normal speed. Confirmed headcount: Our team counted two children and four other adults at the temple in Chhap, all needing evacuation. The Ghyangphedi–Madanpur road has been reopened after bulldozers removed the debris; travel times are back to normal. Kumari was fully evacuated by the army yesterday; no one remains there. Stranded at Bidur: an old man and six able-bodied adults. Stranded at the temple in Laharepauwa: two schoolchildren, an old man and 1 uninjured adult. Army engineers have cleared the debris on the Chhap–Kalikasthan road; it is open again at normal speed. At Goljung, three schoolchildren, two senior citizens and three other adults are waiting to be rescued. Livestock losses across the district are reported to be severe. Police have checked the Goljung–Salme road: the social media reports were false and the road is open as normal. Debris has completely choked the road between Belkot and Chaughada. The Bhalche–Thulogaun road has been reopened after bulldozers removed the debris; travel times are back to normal.
+[06:45] Radio Nuwakot FM (local radio, early bulletin): Around 9 people are believed to be stranded in Chaughada (unconfirmed estimate). Around 10 people are believed to be stranded in Ramche (unconfirmed estimate). Residents of Salme were seen on rooftops last night. Around 2 people are believed to be stranded in Ghyangphedi (unconfirmed estimate). Debris is blocking the Bhalche–Thulogaun road. Debris is blocking the Thansing–Thulogaun road. Around 7 people are believed to be stranded in Meghang (unconfirmed estimate). The Goljung–Laharepauwa road is still passable this morning, drivers say. Around 11 people are believed to be stranded in Thansing (unconfirmed estimate). Debris is blocking the Ghyangphedi–Madanpur road. Residents of Kumari were seen on rooftops last night. Around 3 people are believed to be stranded in Chhap (unconfirmed estimate). Debris is blocking the Chhap–Kalikasthan road. A government helicopter was seen flying north this morning but did not land.
+Anything not mentioned in these dispatches is in its usual condition, and no one else is known to be stranded.

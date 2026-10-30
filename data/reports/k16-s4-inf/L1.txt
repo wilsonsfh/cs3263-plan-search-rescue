@@ -1,0 +1,63 @@
+MISSION SHEET
+- Team base and starting point: Thaprek
+- Shelter where evacuees must be delivered: Thaprek
+- Vehicle capacity: no practical limit (enough vehicles to carry everyone at once)
+- Places on the district map: Thaprek (evacuation point), Dhaibung (temple), Khanigaun (village), Ramche (temple), Shikharbesi (ward office), Belkot (village), Laharepauwa (ward office), Tupche (temple), Betrawati (temple), Kaule (village), Lachyang (village), Chhap (village), Okharpauwa (temple), Sundaradevi (village), Chaughada (temple), Kumari (temple), Taruka (village), Jiling (road junction)
+
+ROAD REGISTER (pre-flood network; usual one-way driving times, roads are two-way)
+- Belkot–Dhaibung: 10 min
+- Belkot–Kaule: 10 min
+- Belkot–Khanigaun: 10 min
+- Betrawati–Okharpauwa: 20 min
+- Betrawati–Ramche: 10 min
+- Betrawati–Shikharbesi: 10 min
+- Betrawati–Taruka: 10 min
+- Betrawati–Tupche: 25 min
+- Chaughada–Laharepauwa: 25 min
+- Chhap–Okharpauwa: 15 min
+- Jiling–Lachyang: 20 min
+- Jiling–Sundaradevi: 15 min
+- Kaule–Laharepauwa: 10 min
+- Kaule–Thaprek: 15 min
+- Kumari–Laharepauwa: 15 min
+- Kumari–Thaprek: 10 min
+- Lachyang–Shikharbesi: 15 min
+- Lachyang–Sundaradevi: 10 min
+- Ramche–Shikharbesi: 10 min
+- Ramche–Thaprek: 10 min
+- Shikharbesi–Sundaradevi: 30 min
+- Shikharbesi–Tupche: 40 min
+- Taruka–Tupche: 15 min
+
+FIELD REPORT (district control room, 12:00)
+Road status changes since the flood:
+- Belkot–Khanigaun: open, travel time now 20 min
+- Betrawati–Ramche: BLOCKED
+- Betrawati–Taruka: BLOCKED
+- Betrawati–Tupche: BLOCKED
+- Jiling–Sundaradevi: open, travel time now 30 min
+- Kumari–Thaprek: BLOCKED
+- Lachyang–Shikharbesi: BLOCKED
+- Lachyang–Sundaradevi: BLOCKED
+- Ramche–Shikharbesi: open, travel time now 20 min
+- Shikharbesi–Sundaradevi: open, travel time now 50 min
+- Shikharbesi–Tupche: open, travel time now 80 min
+All other roads: open, usual travel time.
+People waiting for rescue:
+- Dhaibung: 1 injured, 0 children, 0 elderly, 1 adults
+- Khanigaun: 0 injured, 1 children, 0 elderly, 2 adults
+- Ramche: 2 injured, 0 children, 0 elderly, 4 adults
+- Shikharbesi: 0 injured, 0 children, 3 elderly, 6 adults
+- Belkot: 2 injured, 4 children, 0 elderly, 5 adults
+- Laharepauwa: 3 injured, 0 children, 0 elderly, 2 adults
+- Tupche: 0 injured, 0 children, 0 elderly, 5 adults
+- Betrawati: 0 injured, 4 children, 0 elderly, 3 adults
+- Kaule: 0 injured, 0 children, 1 elderly, 1 adults
+- Lachyang: 0 injured, 0 children, 2 elderly, 3 adults
+- Chhap: 0 injured, 2 children, 1 elderly, 4 adults
+- Okharpauwa: 0 injured, 2 children, 2 elderly, 5 adults
+- Sundaradevi: 0 injured, 0 children, 2 elderly, 3 adults
+- Chaughada: 2 injured, 3 children, 2 elderly, 3 adults
+- Kumari: 3 injured, 0 children, 3 elderly, 6 adults
+- Taruka: 0 injured, 0 children, 3 elderly, 6 adults
+No one is waiting at any other location.

@@ -1,0 +1,41 @@
+MISSION SHEET
+- Team base and starting point: Samundratar
+- Shelter where evacuees must be delivered: Samundratar
+- Vehicle capacity: 9 people at a time
+- Places on the district map: Samundratar (evacuation point), Belkot (health post), Thansing (village), Kispang (village), Madanpur (village), Kakani (school), Kaule (village), Haku (village), Ramche (village), Dandagaun (temple), Thaprek (school), Kumari (village), Salme (temple), Bhorle (ward office), Chhap (village), Syaphru (village), Goljung (village), Khanigaun (road junction), Betrawati (road junction), Likhu (road junction), Sundaradevi (road junction), Panchakanya (road junction)
+
+ROAD REGISTER (pre-flood network; usual one-way driving times, roads are two-way)
+- Belkot–Goljung: 10 min
+- Belkot–Kaule: 10 min
+- Belkot–Salme: 10 min
+- Betrawati–Dandagaun: 20 min
+- Betrawati–Sundaradevi: 10 min
+- Betrawati–Syaphru: 20 min
+- Bhorle–Kumari: 10 min
+- Bhorle–Panchakanya: 10 min
+- Bhorle–Ramche: 10 min
+- Chhap–Panchakanya: 5 min
+- Goljung–Khanigaun: 10 min
+- Haku–Kispang: 10 min
+- Haku–Kumari: 10 min
+- Haku–Madanpur: 20 min
+- Kakani–Madanpur: 15 min
+- Kakani–Sundaradevi: 10 min
+- Kakani–Syaphru: 5 min
+- Kaule–Khanigaun: 10 min
+- Kaule–Thaprek: 10 min
+- Kispang–Kumari: 15 min
+- Kispang–Madanpur: 15 min
+- Kumari–Ramche: 15 min
+- Likhu–Ramche: 10 min
+- Likhu–Thaprek: 5 min
+- Salme–Samundratar: 15 min
+- Salme–Thansing: 10 min
+- Samundratar–Thaprek: 15 min
+- Sundaradevi–Syaphru: 10 min
+
+FIELD DISPATCHES (several sources; listed in the order they reached the control room)
+[13:15] Sunita Lama, The Himalayan Times (on the ground): Confirmed headcount: Residents at Goljung say 4 adults are still there, sheltering on upper floors. Livestock losses across the district are reported to be severe. Our team counted six adults at Haku, all needing evacuation. Confirmed headcount: Residents at Chhap say two elderly residents and three other adults are still there, sheltering on upper floors. Army engineers have cleared the debris on the Chhap–Panchakanya road; it is open again at normal speed. Confirmed headcount: Residents at the temple in Dandagaun say a baby, an elderly couple and 4 uninjured adults are still there, sheltering on upper floors. A landslide has buried the road between Kispang and Kumari under metres of mud. Police have checked the Kaule–Khanigaun road: the social media reports were false and the road is open as normal. Confirmed headcount: Residents at the health post in Belkot say three adults are still there, sheltering on upper floors. The Belkot–Kaule road is open but badly waterlogged; driving it now takes double the normal journey time. The Likhu–Ramche road is open but badly waterlogged; driving it takes twice the usual time. Army engineers have cleared the debris on the Salme–Thansing road; it is open again at normal speed. Confirmed headcount: Stranded at Thansing: two children and 4 able-bodied adults. Stranded at Madanpur: 3 children, three senior citizens and three other adults. At the temple in Salme, a baby, three elderly residents and two able-bodied adults are waiting to be rescued. Boulders and fallen trees make the Haku–Madanpur road impassable for any vehicle. The suspension bridge on the Belkot–Goljung route was swept away by the river, cutting a road that was open earlier today. The only bridge linking Bhorle and Ramche has collapsed, cutting a road that was open earlier today. Confirmed headcount: Residents at Syaphru say three schoolchildren and 4 able-bodied adults are still there, sheltering on upper floors. Confirmed headcount: At Kispang, three elderly residents and one other adult are waiting to be rescued. Our team counted one injured person (a pregnant woman who was hit by debris), one schoolchild and five able-bodied adults at Kaule, all needing evacuation. Army engineers have cleared the debris on the Goljung–Khanigaun road; it is open again at normal speed. The only bridge linking Belkot and Salme has collapsed. Confirmed headcount: Stranded at Ramche: one schoolchild, an elderly couple and 2 other adults.
+[09:30] District Police Office (situation report): The Kumari–Ramche road is open but badly waterlogged; driving it takes twice the usual time. Our team counted two schoolchildren, one elderly resident and three other adults at Kumari, all needing evacuation. The Samundratar–Thaprek road is open but badly waterlogged; driving it takes twice the usual time. Stranded at the school in Thaprek: eight schoolchildren and 1 uninjured adult. The Kakani–Sundaradevi road is under two metres of fast-flowing floodwater. The Betrawati–Sundaradevi road is open but badly waterlogged; driving it takes twice the usual time. At the ward office in Bhorle, three injured people (an old man with a head wound, a teenage girl with a fractured arm and a young boy with a badly sprained ankle) and 3 able-bodied adults are waiting to be rescued. Unconfirmed posts on social media claim the Kaule–Khanigaun road has been washed away. Stranded at the school in Kakani: 4 schoolchildren and 1 uninjured adult. The Home Ministry says relief funds will be released next week.
+[06:45] Radio Nuwakot FM (local radio, early bulletin): Around 5 people are believed to be stranded in Syaphru (unconfirmed estimate). Heavy rain is forecast to continue through the evening. Around 3 people are believed to be stranded in Thansing (unconfirmed estimate). Debris is blocking the Salme–Thansing road. The Belkot–Goljung road is still passable this morning, drivers say. Around 9 people are believed to be stranded in Dandagaun (unconfirmed estimate). Around 7 people are believed to be stranded in Goljung (unconfirmed estimate). Debris is blocking the Chhap–Panchakanya road. Around 2 people are believed to be stranded in Ramche (unconfirmed estimate). Around 7 people are believed to be stranded in Belkot (unconfirmed estimate). Debris is blocking the Goljung–Khanigaun road. Around 1 people are believed to be stranded in Kispang (unconfirmed estimate). Around 8 people are believed to be stranded in Chhap (unconfirmed estimate). The Bhorle–Ramche road is still passable this morning, drivers say.
+Anything not mentioned in these dispatches is in its usual condition, and no one else is known to be stranded.

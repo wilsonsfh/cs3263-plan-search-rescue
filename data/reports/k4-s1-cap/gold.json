@@ -1,0 +1,123 @@
+{
+ "start": "Chaughada",
+ "shelter": "Chaughada",
+ "capacity": 17,
+ "locations": [
+  {
+   "name": "Chaughada",
+   "kind": "evacuation point"
+  },
+  {
+   "name": "Battar",
+   "kind": "temple"
+  },
+  {
+   "name": "Madanpur",
+   "kind": "village"
+  },
+  {
+   "name": "Lachyang",
+   "kind": "temple"
+  },
+  {
+   "name": "Chhap",
+   "kind": "health post"
+  },
+  {
+   "name": "Dupcheshwar",
+   "kind": "village"
+  }
+ ],
+ "roads": [
+  {
+   "between": [
+    "Battar",
+    "Chaughada"
+   ],
+   "minutes": 25,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Battar",
+    "Chhap"
+   ],
+   "minutes": 45,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Battar",
+    "Dupcheshwar"
+   ],
+   "minutes": 80,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Chaughada",
+    "Chhap"
+   ],
+   "minutes": 20,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Chaughada",
+    "Dupcheshwar"
+   ],
+   "minutes": 45,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Chaughada",
+    "Madanpur"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Chhap",
+    "Lachyang"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Dupcheshwar",
+    "Madanpur"
+   ],
+   "minutes": 20,
+   "status": "open"
+  }
+ ],
+ "people": {
+  "Battar": {
+   "injured": 3,
+   "children": 4,
+   "elderly": 1,
+   "adults": 5
+  },
+  "Madanpur": {
+   "injured": 0,
+   "children": 1,
+   "elderly": 2,
+   "adults": 3
+  },
+  "Lachyang": {
+   "injured": 0,
+   "children": 3,
+   "elderly": 0,
+   "adults": 1
+  },
+  "Chhap": {
+   "injured": 2,
+   "children": 4,
+   "elderly": 0,
+   "adults": 4
+  }
+ }
+}

@@ -1,0 +1,176 @@
+{
+  "id": "k4-s11-cap-cut",
+  "locations": [
+    {
+      "id": "dupcheshwar",
+      "name": "Dupcheshwar",
+      "kind": "base"
+    },
+    {
+      "id": "ramche",
+      "name": "Ramche",
+      "kind": "ward_office"
+    },
+    {
+      "id": "kispang",
+      "name": "Kispang",
+      "kind": "school"
+    },
+    {
+      "id": "taruka",
+      "name": "Taruka",
+      "kind": "village"
+    },
+    {
+      "id": "kalikasthan",
+      "name": "Kalikasthan",
+      "kind": "ward_office"
+    },
+    {
+      "id": "likhu",
+      "name": "Likhu",
+      "kind": "junction"
+    }
+  ],
+  "roads": [
+    {
+      "u": "dupcheshwar",
+      "v": "kalikasthan",
+      "minutes": 40,
+      "open": false,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "open",
+        "blocked"
+      ]
+    },
+    {
+      "u": "dupcheshwar",
+      "v": "kispang",
+      "minutes": 50,
+      "open": true,
+      "base_minutes": 25,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "dupcheshwar",
+      "v": "likhu",
+      "minutes": 20,
+      "open": false,
+      "base_minutes": null,
+      "cause": "bridge",
+      "history": []
+    },
+    {
+      "u": "dupcheshwar",
+      "v": "ramche",
+      "minutes": 25,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "dupcheshwar",
+      "v": "taruka",
+      "minutes": 40,
+      "open": false,
+      "base_minutes": null,
+      "cause": "bridge",
+      "history": []
+    },
+    {
+      "u": "kalikasthan",
+      "v": "ramche",
+      "minutes": 10,
+      "open": false,
+      "base_minutes": null,
+      "cause": "landslide",
+      "history": [
+        "open",
+        "blocked"
+      ]
+    },
+    {
+      "u": "kispang",
+      "v": "likhu",
+      "minutes": 35,
+      "open": true,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "blocked",
+        "cleared"
+      ]
+    },
+    {
+      "u": "kispang",
+      "v": "taruka",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "likhu",
+      "v": "ramche",
+      "minutes": 60,
+      "open": true,
+      "base_minutes": 30,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "likhu",
+      "v": "taruka",
+      "minutes": 35,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    }
+  ],
+  "people": {
+    "ramche": {
+      "children": 2,
+      "elderly": 3,
+      "adults": 2
+    },
+    "kispang": {
+      "injured": 2,
+      "children": 4,
+      "elderly": 3,
+      "adults": 2
+    },
+    "taruka": {
+      "injured": 2,
+      "elderly": 1,
+      "adults": 2
+    },
+    "kalikasthan": {
+      "children": 4,
+      "elderly": 1,
+      "adults": 5
+    }
+  },
+  "start": "dupcheshwar",
+  "shelter": "dupcheshwar",
+  "capacity": 14,
+  "priority": "tiered",
+  "meta": {
+    "k": 4,
+    "seed": 11,
+    "extra_nodes": 1,
+    "n_roads": 10,
+    "n_blocked": 4,
+    "n_slowed": 2,
+    "cut_off": "kalikasthan",
+    "capacity_mode": "tight",
+    "split": "test",
+    "rep": 2,
+    "condition": "tight-cut"
+  }
+}

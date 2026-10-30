@@ -1,0 +1,376 @@
+{
+  "id": "k16-s11-cap-cut",
+  "locations": [
+    {
+      "id": "madanpur",
+      "name": "Madanpur",
+      "kind": "base"
+    },
+    {
+      "id": "belkot",
+      "name": "Belkot",
+      "kind": "village"
+    },
+    {
+      "id": "sundaradevi",
+      "name": "Sundaradevi",
+      "kind": "school"
+    },
+    {
+      "id": "betrawati",
+      "name": "Betrawati",
+      "kind": "village"
+    },
+    {
+      "id": "likhu",
+      "name": "Likhu",
+      "kind": "ward_office"
+    },
+    {
+      "id": "tadi",
+      "name": "Tadi",
+      "kind": "school"
+    },
+    {
+      "id": "goljung",
+      "name": "Goljung",
+      "kind": "village"
+    },
+    {
+      "id": "tupche",
+      "name": "Tupche",
+      "kind": "village"
+    },
+    {
+      "id": "bhorle",
+      "name": "Bhorle",
+      "kind": "village"
+    },
+    {
+      "id": "kispang",
+      "name": "Kispang",
+      "kind": "school"
+    },
+    {
+      "id": "gerkhu",
+      "name": "Gerkhu",
+      "kind": "village"
+    },
+    {
+      "id": "dandagaun",
+      "name": "Dandagaun",
+      "kind": "village"
+    },
+    {
+      "id": "meghang",
+      "name": "Meghang",
+      "kind": "health_post"
+    },
+    {
+      "id": "bidur",
+      "name": "Bidur",
+      "kind": "village"
+    },
+    {
+      "id": "thulogaun",
+      "name": "Thulogaun",
+      "kind": "village"
+    },
+    {
+      "id": "rautbesi",
+      "name": "Rautbesi",
+      "kind": "village"
+    },
+    {
+      "id": "chaughada",
+      "name": "Chaughada",
+      "kind": "village"
+    },
+    {
+      "id": "bhalche",
+      "name": "Bhalche",
+      "kind": "junction"
+    }
+  ],
+  "roads": [
+    {
+      "u": "belkot",
+      "v": "chaughada",
+      "minutes": 30,
+      "open": true,
+      "base_minutes": 10,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "belkot",
+      "v": "thulogaun",
+      "minutes": 10,
+      "open": false,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": []
+    },
+    {
+      "u": "betrawati",
+      "v": "dandagaun",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": 5,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "betrawati",
+      "v": "tupche",
+      "minutes": 30,
+      "open": true,
+      "base_minutes": 10,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "bhalche",
+      "v": "chaughada",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "bhalche",
+      "v": "thulogaun",
+      "minutes": 30,
+      "open": true,
+      "base_minutes": 15,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "bhorle",
+      "v": "bidur",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "bhorle",
+      "v": "chaughada",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "bhorle",
+      "v": "madanpur",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "bhorle",
+      "v": "rautbesi",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "blocked",
+        "cleared"
+      ]
+    },
+    {
+      "u": "bidur",
+      "v": "tadi",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "chaughada",
+      "v": "tupche",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "gerkhu",
+      "v": "sundaradevi",
+      "minutes": 10,
+      "open": false,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": []
+    },
+    {
+      "u": "goljung",
+      "v": "kispang",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "goljung",
+      "v": "sundaradevi",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "blocked",
+        "cleared"
+      ]
+    },
+    {
+      "u": "kispang",
+      "v": "likhu",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "likhu",
+      "v": "meghang",
+      "minutes": 30,
+      "open": true,
+      "base_minutes": 15,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "madanpur",
+      "v": "meghang",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "madanpur",
+      "v": "rautbesi",
+      "minutes": 10,
+      "open": false,
+      "base_minutes": null,
+      "cause": "landslide",
+      "history": []
+    },
+    {
+      "u": "rautbesi",
+      "v": "tupche",
+      "minutes": 10,
+      "open": false,
+      "base_minutes": null,
+      "cause": "bridge",
+      "history": []
+    }
+  ],
+  "people": {
+    "belkot": {
+      "injured": 1,
+      "children": 2,
+      "adults": 2
+    },
+    "sundaradevi": {
+      "children": 6,
+      "elderly": 1,
+      "adults": 1
+    },
+    "betrawati": {
+      "children": 2,
+      "elderly": 3,
+      "adults": 6
+    },
+    "likhu": {
+      "children": 1,
+      "adults": 2
+    },
+    "tadi": {
+      "children": 3,
+      "elderly": 1,
+      "adults": 2
+    },
+    "goljung": {
+      "injured": 3,
+      "children": 2,
+      "elderly": 2,
+      "adults": 4
+    },
+    "tupche": {
+      "injured": 3,
+      "children": 1,
+      "elderly": 1,
+      "adults": 5
+    },
+    "bhorle": {
+      "children": 2,
+      "elderly": 1,
+      "adults": 1
+    },
+    "kispang": {
+      "children": 4,
+      "adults": 2
+    },
+    "gerkhu": {
+      "adults": 4
+    },
+    "dandagaun": {
+      "children": 4,
+      "elderly": 3,
+      "adults": 6
+    },
+    "meghang": {
+      "injured": 1,
+      "elderly": 3,
+      "adults": 3
+    },
+    "bidur": {
+      "children": 4,
+      "elderly": 2,
+      "adults": 3
+    },
+    "thulogaun": {
+      "injured": 3,
+      "children": 3,
+      "adults": 6
+    },
+    "rautbesi": {
+      "adults": 1
+    },
+    "chaughada": {
+      "adults": 2
+    }
+  },
+  "start": "madanpur",
+  "shelter": "madanpur",
+  "capacity": 17,
+  "priority": "tiered",
+  "meta": {
+    "k": 16,
+    "seed": 11,
+    "extra_nodes": 1,
+    "n_roads": 20,
+    "n_blocked": 4,
+    "n_slowed": 5,
+    "cut_off": "gerkhu",
+    "capacity_mode": "tight",
+    "split": "test",
+    "rep": 2,
+    "condition": "tight-cut"
+  }
+}

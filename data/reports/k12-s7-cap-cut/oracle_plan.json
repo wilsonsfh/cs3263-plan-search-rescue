@@ -1,0 +1,315 @@
+{
+ "steps": [
+  {
+   "action": "move",
+   "from": "Haku",
+   "to": "Kalikasthan"
+  },
+  {
+   "action": "move",
+   "from": "Kalikasthan",
+   "to": "Bidur"
+  },
+  {
+   "action": "pickup",
+   "location": "Bidur"
+  },
+  {
+   "action": "move",
+   "from": "Bidur",
+   "to": "Kalikasthan"
+  },
+  {
+   "action": "move",
+   "from": "Kalikasthan",
+   "to": "Haku"
+  },
+  {
+   "action": "dropoff",
+   "location": "Haku"
+  },
+  {
+   "action": "move",
+   "from": "Haku",
+   "to": "Syaphru"
+  },
+  {
+   "action": "move",
+   "from": "Syaphru",
+   "to": "Taruka"
+  },
+  {
+   "action": "move",
+   "from": "Taruka",
+   "to": "Thaprek"
+  },
+  {
+   "action": "pickup",
+   "location": "Thaprek"
+  },
+  {
+   "action": "move",
+   "from": "Thaprek",
+   "to": "Taruka"
+  },
+  {
+   "action": "move",
+   "from": "Taruka",
+   "to": "Syaphru"
+  },
+  {
+   "action": "move",
+   "from": "Syaphru",
+   "to": "Kalikasthan"
+  },
+  {
+   "action": "move",
+   "from": "Kalikasthan",
+   "to": "Salme"
+  },
+  {
+   "action": "pickup",
+   "location": "Salme"
+  },
+  {
+   "action": "move",
+   "from": "Salme",
+   "to": "Kalikasthan"
+  },
+  {
+   "action": "move",
+   "from": "Kalikasthan",
+   "to": "Haku"
+  },
+  {
+   "action": "dropoff",
+   "location": "Haku"
+  },
+  {
+   "action": "move",
+   "from": "Haku",
+   "to": "Syaphru"
+  },
+  {
+   "action": "move",
+   "from": "Syaphru",
+   "to": "Taruka"
+  },
+  {
+   "action": "pickup",
+   "location": "Taruka"
+  },
+  {
+   "action": "move",
+   "from": "Taruka",
+   "to": "Laharepauwa"
+  },
+  {
+   "action": "pickup",
+   "location": "Laharepauwa"
+  },
+  {
+   "action": "move",
+   "from": "Laharepauwa",
+   "to": "Taruka"
+  },
+  {
+   "action": "move",
+   "from": "Taruka",
+   "to": "Syaphru"
+  },
+  {
+   "action": "move",
+   "from": "Syaphru",
+   "to": "Haku"
+  },
+  {
+   "action": "dropoff",
+   "location": "Haku"
+  },
+  {
+   "action": "move",
+   "from": "Haku",
+   "to": "Syaphru"
+  },
+  {
+   "action": "move",
+   "from": "Syaphru",
+   "to": "Taruka"
+  },
+  {
+   "action": "move",
+   "from": "Taruka",
+   "to": "Thaprek"
+  },
+  {
+   "action": "move",
+   "from": "Thaprek",
+   "to": "Bageshwari"
+  },
+  {
+   "action": "pickup",
+   "location": "Bageshwari"
+  },
+  {
+   "action": "move",
+   "from": "Bageshwari",
+   "to": "Thaprek"
+  },
+  {
+   "action": "move",
+   "from": "Thaprek",
+   "to": "Taruka"
+  },
+  {
+   "action": "move",
+   "from": "Taruka",
+   "to": "Syaphru"
+  },
+  {
+   "action": "move",
+   "from": "Syaphru",
+   "to": "Haku"
+  },
+  {
+   "action": "dropoff",
+   "location": "Haku"
+  },
+  {
+   "action": "move",
+   "from": "Haku",
+   "to": "Kalikasthan"
+  },
+  {
+   "action": "move",
+   "from": "Kalikasthan",
+   "to": "Salme"
+  },
+  {
+   "action": "move",
+   "from": "Salme",
+   "to": "Trishuli"
+  },
+  {
+   "action": "move",
+   "from": "Trishuli",
+   "to": "Meghang"
+  },
+  {
+   "action": "pickup",
+   "location": "Meghang"
+  },
+  {
+   "action": "move",
+   "from": "Meghang",
+   "to": "Kumari"
+  },
+  {
+   "action": "pickup",
+   "location": "Kumari"
+  },
+  {
+   "action": "move",
+   "from": "Kumari",
+   "to": "Meghang"
+  },
+  {
+   "action": "move",
+   "from": "Meghang",
+   "to": "Trishuli"
+  },
+  {
+   "action": "move",
+   "from": "Trishuli",
+   "to": "Salme"
+  },
+  {
+   "action": "move",
+   "from": "Salme",
+   "to": "Kalikasthan"
+  },
+  {
+   "action": "move",
+   "from": "Kalikasthan",
+   "to": "Haku"
+  },
+  {
+   "action": "dropoff",
+   "location": "Haku"
+  },
+  {
+   "action": "move",
+   "from": "Haku",
+   "to": "Syaphru"
+  },
+  {
+   "action": "pickup",
+   "location": "Syaphru"
+  },
+  {
+   "action": "move",
+   "from": "Syaphru",
+   "to": "Haku"
+  },
+  {
+   "action": "dropoff",
+   "location": "Haku"
+  },
+  {
+   "action": "move",
+   "from": "Haku",
+   "to": "Kalikasthan"
+  },
+  {
+   "action": "move",
+   "from": "Kalikasthan",
+   "to": "Salme"
+  },
+  {
+   "action": "move",
+   "from": "Salme",
+   "to": "Trishuli"
+  },
+  {
+   "action": "pickup",
+   "location": "Trishuli"
+  },
+  {
+   "action": "move",
+   "from": "Trishuli",
+   "to": "Ramche"
+  },
+  {
+   "action": "pickup",
+   "location": "Ramche"
+  },
+  {
+   "action": "move",
+   "from": "Ramche",
+   "to": "Trishuli"
+  },
+  {
+   "action": "move",
+   "from": "Trishuli",
+   "to": "Salme"
+  },
+  {
+   "action": "move",
+   "from": "Salme",
+   "to": "Kalikasthan"
+  },
+  {
+   "action": "move",
+   "from": "Kalikasthan",
+   "to": "Haku"
+  },
+  {
+   "action": "dropoff",
+   "location": "Haku"
+  }
+ ],
+ "unreachable": [
+  "Kaule"
+ ],
+ "claimed_total_minutes": 845.0
+}

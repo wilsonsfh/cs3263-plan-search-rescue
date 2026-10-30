@@ -1,0 +1,289 @@
+{
+  "id": "k8-s1-cap",
+  "locations": [
+    {
+      "id": "khanigaun",
+      "name": "Khanigaun",
+      "kind": "base"
+    },
+    {
+      "id": "dhaibung",
+      "name": "Dhaibung",
+      "kind": "village"
+    },
+    {
+      "id": "kaule",
+      "name": "Kaule",
+      "kind": "village"
+    },
+    {
+      "id": "battar",
+      "name": "Battar",
+      "kind": "ward_office"
+    },
+    {
+      "id": "dandagaun",
+      "name": "Dandagaun",
+      "kind": "village"
+    },
+    {
+      "id": "likhu",
+      "name": "Likhu",
+      "kind": "school"
+    },
+    {
+      "id": "thulogaun",
+      "name": "Thulogaun",
+      "kind": "ward_office"
+    },
+    {
+      "id": "kakani",
+      "name": "Kakani",
+      "kind": "village"
+    },
+    {
+      "id": "tadi",
+      "name": "Tadi",
+      "kind": "temple"
+    },
+    {
+      "id": "kalikasthan",
+      "name": "Kalikasthan",
+      "kind": "junction"
+    },
+    {
+      "id": "thansing",
+      "name": "Thansing",
+      "kind": "junction"
+    },
+    {
+      "id": "thaprek",
+      "name": "Thaprek",
+      "kind": "evacuated_village"
+    }
+  ],
+  "roads": [
+    {
+      "u": "battar",
+      "v": "dhaibung",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": [
+        "rumour"
+      ]
+    },
+    {
+      "u": "battar",
+      "v": "khanigaun",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "battar",
+      "v": "likhu",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "battar",
+      "v": "thaprek",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "dandagaun",
+      "v": "dhaibung",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": 10,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "dhaibung",
+      "v": "likhu",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": [
+        "rumour"
+      ]
+    },
+    {
+      "u": "kakani",
+      "v": "kaule",
+      "minutes": 20,
+      "open": false,
+      "base_minutes": null,
+      "cause": "landslide",
+      "history": [
+        "open",
+        "blocked"
+      ]
+    },
+    {
+      "u": "kakani",
+      "v": "thansing",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": 10,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "kakani",
+      "v": "thaprek",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "kalikasthan",
+      "v": "likhu",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "blocked",
+        "cleared"
+      ]
+    },
+    {
+      "u": "kalikasthan",
+      "v": "tadi",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": [
+        "rumour"
+      ]
+    },
+    {
+      "u": "kaule",
+      "v": "thansing",
+      "minutes": 30,
+      "open": true,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "blocked",
+        "cleared"
+      ]
+    },
+    {
+      "u": "kaule",
+      "v": "thulogaun",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "khanigaun",
+      "v": "thaprek",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": 10,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "thansing",
+      "v": "thaprek",
+      "minutes": 10,
+      "open": false,
+      "base_minutes": null,
+      "cause": "submerged",
+      "history": []
+    },
+    {
+      "u": "thansing",
+      "v": "thulogaun",
+      "minutes": 10,
+      "open": false,
+      "base_minutes": null,
+      "cause": "landslide",
+      "history": [
+        "open",
+        "blocked"
+      ]
+    }
+  ],
+  "people": {
+    "dhaibung": {
+      "children": 4,
+      "elderly": 3,
+      "adults": 4
+    },
+    "kaule": {
+      "injured": 2,
+      "children": 3,
+      "adults": 5
+    },
+    "battar": {
+      "injured": 3,
+      "children": 1,
+      "elderly": 3,
+      "adults": 6
+    },
+    "dandagaun": {
+      "children": 3,
+      "elderly": 1,
+      "adults": 3
+    },
+    "likhu": {
+      "injured": 2,
+      "children": 8,
+      "elderly": 2,
+      "adults": 2
+    },
+    "thulogaun": {
+      "children": 2,
+      "elderly": 3,
+      "adults": 3
+    },
+    "kakani": {
+      "elderly": 3,
+      "adults": 3
+    },
+    "tadi": {
+      "children": 3,
+      "elderly": 3,
+      "adults": 5
+    }
+  },
+  "start": "khanigaun",
+  "shelter": "khanigaun",
+  "capacity": 19,
+  "priority": "tiered",
+  "meta": {
+    "k": 8,
+    "seed": 1,
+    "extra_nodes": 3,
+    "n_roads": 16,
+    "n_blocked": 3,
+    "n_slowed": 3,
+    "cut_off": null,
+    "capacity_mode": "tight",
+    "split": "dev",
+    "rep": 0,
+    "condition": "tight"
+  }
+}

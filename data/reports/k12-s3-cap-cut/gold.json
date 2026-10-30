@@ -1,0 +1,323 @@
+{
+ "start": "Jiling",
+ "shelter": "Jiling",
+ "capacity": 16,
+ "locations": [
+  {
+   "name": "Jiling",
+   "kind": "evacuation point"
+  },
+  {
+   "name": "Kispang",
+   "kind": "village"
+  },
+  {
+   "name": "Salme",
+   "kind": "village"
+  },
+  {
+   "name": "Haku",
+   "kind": "temple"
+  },
+  {
+   "name": "Khanigaun",
+   "kind": "ward office"
+  },
+  {
+   "name": "Shikharbesi",
+   "kind": "village"
+  },
+  {
+   "name": "Kalikasthan",
+   "kind": "village"
+  },
+  {
+   "name": "Okharpauwa",
+   "kind": "village"
+  },
+  {
+   "name": "Ramche",
+   "kind": "village"
+  },
+  {
+   "name": "Chaughada",
+   "kind": "health post"
+  },
+  {
+   "name": "Rautbesi",
+   "kind": "temple"
+  },
+  {
+   "name": "Sundaradevi",
+   "kind": "village"
+  },
+  {
+   "name": "Bhorle",
+   "kind": "village"
+  },
+  {
+   "name": "Goljung",
+   "kind": "village"
+  },
+  {
+   "name": "Syaphru",
+   "kind": "village"
+  },
+  {
+   "name": "Laharepauwa",
+   "kind": "road junction"
+  }
+ ],
+ "roads": [
+  {
+   "between": [
+    "Bhorle",
+    "Haku"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Bhorle",
+    "Rautbesi"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Bhorle",
+    "Syaphru"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Chaughada",
+    "Laharepauwa"
+   ],
+   "minutes": 20,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Goljung",
+    "Jiling"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Goljung",
+    "Ramche"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Goljung",
+    "Sundaradevi"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Haku",
+    "Kalikasthan"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Haku",
+    "Kispang"
+   ],
+   "minutes": 35,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Jiling",
+    "Kalikasthan"
+   ],
+   "minutes": 10,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Jiling",
+    "Laharepauwa"
+   ],
+   "minutes": 10,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Jiling",
+    "Okharpauwa"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Jiling",
+    "Sundaradevi"
+   ],
+   "minutes": 15,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Kalikasthan",
+    "Kispang"
+   ],
+   "minutes": 15,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Kalikasthan",
+    "Okharpauwa"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Khanigaun",
+    "Salme"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kispang",
+    "Salme"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Laharepauwa",
+    "Sundaradevi"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Okharpauwa",
+    "Shikharbesi"
+   ],
+   "minutes": 10,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Ramche",
+    "Shikharbesi"
+   ],
+   "minutes": 25,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Ramche",
+    "Sundaradevi"
+   ],
+   "minutes": 25,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Rautbesi",
+    "Syaphru"
+   ],
+   "minutes": 20,
+   "status": "open"
+  }
+ ],
+ "people": {
+  "Kispang": {
+   "injured": 0,
+   "children": 4,
+   "elderly": 1,
+   "adults": 1
+  },
+  "Salme": {
+   "injured": 1,
+   "children": 0,
+   "elderly": 3,
+   "adults": 4
+  },
+  "Haku": {
+   "injured": 0,
+   "children": 1,
+   "elderly": 2,
+   "adults": 2
+  },
+  "Khanigaun": {
+   "injured": 0,
+   "children": 0,
+   "elderly": 2,
+   "adults": 5
+  },
+  "Shikharbesi": {
+   "injured": 2,
+   "children": 2,
+   "elderly": 1,
+   "adults": 2
+  },
+  "Kalikasthan": {
+   "injured": 3,
+   "children": 1,
+   "elderly": 0,
+   "adults": 1
+  },
+  "Okharpauwa": {
+   "injured": 0,
+   "children": 2,
+   "elderly": 0,
+   "adults": 3
+  },
+  "Ramche": {
+   "injured": 2,
+   "children": 4,
+   "elderly": 3,
+   "adults": 3
+  },
+  "Chaughada": {
+   "injured": 3,
+   "children": 1,
+   "elderly": 1,
+   "adults": 6
+  },
+  "Rautbesi": {
+   "injured": 0,
+   "children": 4,
+   "elderly": 0,
+   "adults": 2
+  },
+  "Sundaradevi": {
+   "injured": 0,
+   "children": 1,
+   "elderly": 3,
+   "adults": 6
+  },
+  "Bhorle": {
+   "injured": 3,
+   "children": 0,
+   "elderly": 3,
+   "adults": 6
+  }
+ }
+}

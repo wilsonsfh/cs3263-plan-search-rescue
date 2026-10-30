@@ -1,0 +1,117 @@
+{
+ "steps": [
+  {
+   "action": "move",
+   "from": "Meghang",
+   "to": "Tupche"
+  },
+  {
+   "action": "move",
+   "from": "Tupche",
+   "to": "Chaughada"
+  },
+  {
+   "action": "pickup",
+   "location": "Chaughada"
+  },
+  {
+   "action": "move",
+   "from": "Chaughada",
+   "to": "Chhap"
+  },
+  {
+   "action": "pickup",
+   "location": "Chhap"
+  },
+  {
+   "action": "move",
+   "from": "Chhap",
+   "to": "Chaughada"
+  },
+  {
+   "action": "move",
+   "from": "Chaughada",
+   "to": "Lachyang"
+  },
+  {
+   "action": "move",
+   "from": "Lachyang",
+   "to": "Goljung"
+  },
+  {
+   "action": "pickup",
+   "location": "Goljung"
+  },
+  {
+   "action": "move",
+   "from": "Goljung",
+   "to": "Okharpauwa"
+  },
+  {
+   "action": "pickup",
+   "location": "Okharpauwa"
+  },
+  {
+   "action": "move",
+   "from": "Okharpauwa",
+   "to": "Lachyang"
+  },
+  {
+   "action": "pickup",
+   "location": "Lachyang"
+  },
+  {
+   "action": "move",
+   "from": "Lachyang",
+   "to": "Chaughada"
+  },
+  {
+   "action": "move",
+   "from": "Chaughada",
+   "to": "Tupche"
+  },
+  {
+   "action": "pickup",
+   "location": "Tupche"
+  },
+  {
+   "action": "move",
+   "from": "Tupche",
+   "to": "Meghang"
+  },
+  {
+   "action": "move",
+   "from": "Meghang",
+   "to": "Shikharbesi"
+  },
+  {
+   "action": "pickup",
+   "location": "Shikharbesi"
+  },
+  {
+   "action": "move",
+   "from": "Shikharbesi",
+   "to": "Betrawati"
+  },
+  {
+   "action": "move",
+   "from": "Betrawati",
+   "to": "Taruka"
+  },
+  {
+   "action": "pickup",
+   "location": "Taruka"
+  },
+  {
+   "action": "move",
+   "from": "Taruka",
+   "to": "Meghang"
+  },
+  {
+   "action": "dropoff",
+   "location": "Meghang"
+  }
+ ],
+ "unreachable": [],
+ "claimed_total_minutes": 460.0
+}

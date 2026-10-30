@@ -1,0 +1,28 @@
+MISSION SHEET
+- Team base and starting point: Kispang
+- Shelter where evacuees must be delivered: Kispang
+- Vehicle capacity: 15 people at a time
+- Places on the district map: Kispang (evacuation point), Haku (school), Salme (village), Laharepauwa (village), Kalikasthan (ward office), Sundaradevi (health post), Kakani (school), Battar (temple), Thansing (school), Suryagadhi (village), Meghang (road junction)
+
+ROAD REGISTER (pre-flood network; usual one-way driving times, roads are two-way)
+- Battar–Sundaradevi: 35 min
+- Battar–Suryagadhi: 20 min
+- Haku–Kalikasthan: 10 min
+- Haku–Sundaradevi: 10 min
+- Kakani–Kalikasthan: 10 min
+- Kakani–Kispang: 20 min
+- Kalikasthan–Kispang: 20 min
+- Kispang–Meghang: 10 min
+- Kispang–Sundaradevi: 40 min
+- Kispang–Suryagadhi: 20 min
+- Laharepauwa–Meghang: 25 min
+- Laharepauwa–Salme: 10 min
+- Laharepauwa–Suryagadhi: 15 min
+- Meghang–Salme: 20 min
+- Salme–Thansing: 15 min
+
+FIELD DISPATCHES (several sources; listed in the order they reached the control room)
+[13:15] Sunita Lama, The Himalayan Times (on the ground): Police have checked the Haku–Sundaradevi road: the social media reports were false and the road is open as normal. Army engineers have cleared the debris on the Battar–Sundaradevi road; it is open again at normal speed. Army engineers have cleared the debris on the Kispang–Suryagadhi road; it is open again at normal speed. Hillside collapse: the Kalikasthan–Kispang road disappeared under a landslide overnight, cutting a road that was open earlier today. Confirmed headcount: Stranded at the health post in Sundaradevi: four schoolchildren and two uninjured adults. Stranded at the school in Thansing: one injured person (a man with a crushed foot), 9 children and two other adults. Confirmed headcount: At the school in Kakani, four children and 2 able-bodied adults are waiting to be rescued. Everyone from Suryagadhi has already been airlifted out. Mobile networks remain patchy across the district. The Kakani–Kalikasthan road is open but badly waterlogged; driving it now takes double the normal journey time. Confirmed headcount: At Laharepauwa, 4 children, two senior citizens and four uninjured adults are waiting to be rescued. The Kispang–Meghang road has been reopened after bulldozers removed the debris; travel times are back to normal. Army engineers have cleared the debris on the Salme–Thansing road; it is open again at normal speed. The Kakani–Kispang road has been reopened after bulldozers removed the debris; travel times are back to normal. The Laharepauwa–Meghang road is open but badly waterlogged; driving it now takes double the normal journey time.
+[09:30] District Police Office (situation report): At the school in Haku, 6 schoolchildren and one able-bodied adult are waiting to be rescued. Heavy rain is forecast to continue through the evening. Unconfirmed posts on social media claim the Haku–Sundaradevi road has been washed away. Residents at the ward office in Kalikasthan say two schoolchildren and one able-bodied adult are still there, sheltering on upper floors. At Salme, three adults are waiting to be rescued. A landslide has buried the road between Meghang and Salme under metres of mud. At the temple in Battar, one injured person (a teenage girl with a fractured arm), one schoolchild and six other adults are waiting to be rescued. The Haku–Kalikasthan road is open but badly waterlogged; driving it now takes double the normal journey time. The Kispang–Sundaradevi road is under two metres of fast-flowing floodwater.
+[06:45] Radio Nuwakot FM (local radio, early bulletin): In Kathmandu, schools have been closed for three days as a precaution. Debris is blocking the Kakani–Kispang road. Around 8 people are believed to be stranded in Laharepauwa (unconfirmed estimate). Around 10 people are believed to be stranded in Kakani (unconfirmed estimate). Debris is blocking the Kispang–Meghang road. Debris is blocking the Battar–Sundaradevi road. Residents of Suryagadhi were seen on rooftops last night. Debris is blocking the Kispang–Suryagadhi road. Debris is blocking the Salme–Thansing road. The Kalikasthan–Kispang road is still passable this morning, drivers say. Around 4 people are believed to be stranded in Sundaradevi (unconfirmed estimate).
+Anything not mentioned in these dispatches is in its usual condition, and no one else is known to be stranded.

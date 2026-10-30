@@ -1,0 +1,74 @@
+MISSION SHEET
+- Team base and starting point: Belkot
+- Shelter where evacuees must be delivered: Belkot
+- Vehicle capacity: 14 people at a time
+- Places on the district map: Belkot (evacuation point), Kalikasthan (ward office), Kaule (village), Bidur (village), Thulogaun (village), Goljung (village), Chhap (temple), Bhorle (village), Ghyangphedi (ward office), Sundaradevi (ward office), Laharepauwa (temple), Madanpur (village), Haku (ward office), Chaughada (health post), Meghang (village), Thansing (village), Ramche (village), Panchakanya (road junction), Likhu (road junction), Syaphru (road junction), Kumari (village), Salme (village), Bhalche (road junction)
+
+ROAD REGISTER (pre-flood network; usual one-way driving times, roads are two-way)
+- Belkot–Chaughada: 10 min
+- Belkot–Kalikasthan: 20 min
+- Belkot–Kumari: 15 min
+- Belkot–Likhu: 15 min
+- Bhalche–Syaphru: 15 min
+- Bhalche–Thansing: 10 min
+- Bhalche–Thulogaun: 10 min
+- Bhorle–Bidur: 15 min
+- Bhorle–Syaphru: 15 min
+- Bidur–Chaughada: 25 min
+- Bidur–Madanpur: 15 min
+- Chaughada–Madanpur: 10 min
+- Chaughada–Syaphru: 15 min
+- Chhap–Kalikasthan: 15 min
+- Chhap–Kaule: 5 min
+- Chhap–Likhu: 25 min
+- Chhap–Sundaradevi: 15 min
+- Ghyangphedi–Goljung: 15 min
+- Ghyangphedi–Kumari: 10 min
+- Ghyangphedi–Madanpur: 15 min
+- Goljung–Laharepauwa: 10 min
+- Goljung–Panchakanya: 10 min
+- Goljung–Salme: 20 min
+- Haku–Meghang: 10 min
+- Kalikasthan–Kaule: 15 min
+- Kalikasthan–Likhu: 10 min
+- Kaule–Meghang: 15 min
+- Kumari–Ramche: 15 min
+- Laharepauwa–Salme: 5 min
+- Likhu–Thansing: 15 min
+- Meghang–Ramche: 15 min
+- Sundaradevi–Thansing: 25 min
+- Sundaradevi–Thulogaun: 15 min
+- Thansing–Thulogaun: 10 min
+
+FIELD REPORT (district control room, 12:00)
+Road status changes since the flood:
+- Belkot–Chaughada: BLOCKED
+- Belkot–Kumari: open, travel time now 30 min
+- Belkot–Likhu: BLOCKED
+- Bhalche–Syaphru: open, travel time now 30 min
+- Bhorle–Bidur: open, travel time now 30 min
+- Bidur–Chaughada: BLOCKED
+- Ghyangphedi–Kumari: BLOCKED
+- Goljung–Laharepauwa: BLOCKED
+- Goljung–Panchakanya: open, travel time now 25 min
+- Haku–Meghang: open, travel time now 20 min
+- Meghang–Ramche: BLOCKED
+All other roads: open, usual travel time.
+People waiting for rescue:
+- Kalikasthan: 0 injured, 4 children, 1 elderly, 4 adults
+- Kaule: 0 injured, 2 children, 3 elderly, 6 adults
+- Bidur: 0 injured, 0 children, 1 elderly, 6 adults
+- Thulogaun: 0 injured, 2 children, 3 elderly, 3 adults
+- Goljung: 0 injured, 3 children, 2 elderly, 3 adults
+- Chhap: 0 injured, 2 children, 0 elderly, 4 adults
+- Bhorle: 1 injured, 4 children, 2 elderly, 2 adults
+- Ghyangphedi: 0 injured, 0 children, 0 elderly, 4 adults
+- Sundaradevi: 0 injured, 4 children, 2 elderly, 1 adults
+- Laharepauwa: 0 injured, 2 children, 1 elderly, 1 adults
+- Madanpur: 0 injured, 2 children, 3 elderly, 3 adults
+- Haku: 0 injured, 2 children, 2 elderly, 3 adults
+- Chaughada: 3 injured, 0 children, 0 elderly, 3 adults
+- Meghang: 2 injured, 0 children, 0 elderly, 3 adults
+- Thansing: 0 injured, 4 children, 1 elderly, 3 adults
+- Ramche: 0 injured, 0 children, 3 elderly, 4 adults
+No one is waiting at any other location.

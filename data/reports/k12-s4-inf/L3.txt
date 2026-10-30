@@ -1,0 +1,36 @@
+MISSION SHEET
+- Team base and starting point: Salme
+- Shelter where evacuees must be delivered: Salme
+- Vehicle capacity: no practical limit (enough vehicles to carry everyone at once)
+- Places on the district map: Salme (evacuation point), Dhaibung (health post), Ramche (village), Kispang (health post), Dandagaun (village), Kaule (village), Chaughada (health post), Battar (school), Taruka (school), Panchakanya (village), Betrawati (village), Khanigaun (health post), Gerkhu (village), Dupcheshwar (village), Tadi (road junction), Laharepauwa (village), Likhu (village)
+
+ROAD REGISTER (pre-flood network; usual one-way driving times, roads are two-way)
+- Battar–Dandagaun: 10 min
+- Battar–Panchakanya: 15 min
+- Battar–Tadi: 10 min
+- Betrawati–Kaule: 20 min
+- Chaughada–Khanigaun: 10 min
+- Chaughada–Kispang: 15 min
+- Dandagaun–Panchakanya: 10 min
+- Dandagaun–Tadi: 15 min
+- Dhaibung–Dupcheshwar: 20 min
+- Dhaibung–Taruka: 30 min
+- Dupcheshwar–Likhu: 20 min
+- Dupcheshwar–Taruka: 10 min
+- Gerkhu–Likhu: 15 min
+- Gerkhu–Salme: 10 min
+- Kaule–Likhu: 5 min
+- Kaule–Salme: 25 min
+- Khanigaun–Laharepauwa: 15 min
+- Khanigaun–Tadi: 10 min
+- Laharepauwa–Ramche: 10 min
+- Laharepauwa–Salme: 10 min
+- Laharepauwa–Tadi: 10 min
+- Panchakanya–Ramche: 15 min
+- Ramche–Salme: 25 min
+
+FIELD DISPATCHES (several sources; listed in the order they reached the control room)
+[13:15] Sunita Lama, The Himalayan Times (on the ground): Confirmed headcount: Residents at Panchakanya say two adults are still there, sheltering on upper floors. Livestock losses across the district are reported to be severe. Confirmed headcount: At the health post in Kispang, two elderly residents and four uninjured adults are waiting to be rescued. Confirmed headcount: At the school in Battar, two injured people (a man with a crushed foot and a woman with burns on her arms), eight schoolchildren, two elderly residents and one uninjured adult are waiting to be rescued. At Kaule, four schoolchildren, two elderly residents and five other adults are waiting to be rescued. Confirmed headcount: Stranded at the school in Taruka: five children, three elderly residents and one other adult. Confirmed headcount: At the health post in Dhaibung, one elderly resident and 5 other adults are waiting to be rescued. Army engineers have cleared the debris on the Dhaibung–Dupcheshwar road; it is open again at normal speed. Dupcheshwar was fully evacuated by the army yesterday; no one remains there. Army engineers have cleared the debris on the Kaule–Likhu road; it is open again at normal speed. The only bridge linking Laharepauwa and Salme has collapsed. The Battar–Dandagaun road has been reopened after bulldozers removed the debris; travel times are back to normal. Laharepauwa was fully evacuated by the army yesterday; no one remains there. Army engineers have cleared the debris on the Dhaibung–Taruka road; it is open again at normal speed. Confirmed headcount: At the health post in Chaughada, an elderly couple and two uninjured adults are waiting to be rescued. Our team counted one elderly resident and four other adults at Betrawati, all needing evacuation. Floodwater has turned the road from Dandagaun to Tadi into a river, cutting a road that was open earlier today. A landslide has buried the road between Dupcheshwar and Taruka under metres of mud. A landslide has buried the road between Khanigaun and Laharepauwa under metres of mud, cutting a road that was open earlier today. Residents at the health post in Khanigaun say three injured people (a teenage girl with a fractured arm, a child with a deep gash on his leg and a pregnant woman who was hit by debris), four children, one elderly resident and three other adults are still there, sheltering on upper floors. Confirmed headcount: At Dandagaun, three children and 3 able-bodied adults are waiting to be rescued. Everyone from Likhu has already been airlifted out. The Gerkhu–Likhu road is open but badly waterlogged; driving it now takes double the normal journey time. Army engineers have cleared the debris on the Betrawati–Kaule road; it is open again at normal speed.
+[06:45] Radio Nuwakot FM (local radio, early bulletin): Around 6 people are believed to be stranded in Panchakanya (unconfirmed estimate). Around 9 people are believed to be stranded in Kispang (unconfirmed estimate). Around 3 people are believed to be stranded in Dandagaun (unconfirmed estimate). Around 12 people are believed to be stranded in Taruka (unconfirmed estimate). Residents of Likhu were seen on rooftops last night. Residents of Laharepauwa were seen on rooftops last night. Debris is blocking the Kaule–Likhu road. A government helicopter was seen flying north this morning but did not land. Residents of Dupcheshwar were seen on rooftops last night. Debris is blocking the Dhaibung–Dupcheshwar road. Around 4 people are believed to be stranded in Dhaibung (unconfirmed estimate). Around 17 people are believed to be stranded in Battar (unconfirmed estimate). Debris is blocking the Betrawati–Kaule road. Around 8 people are believed to be stranded in Chaughada (unconfirmed estimate). Debris is blocking the Dhaibung–Taruka road. The Khanigaun–Laharepauwa road is still passable this morning, drivers say. Debris is blocking the Battar–Dandagaun road. The Dandagaun–Tadi road is still passable this morning, drivers say.
+[09:30] District Police Office (situation report): The Home Ministry says relief funds will be released next week. Floodwater has turned the road from Laharepauwa to Tadi into a river. The Battar–Panchakanya road is open but badly waterlogged; driving it now takes double the normal journey time. The Ramche–Salme road is open but badly waterlogged; driving it takes twice the usual time. At Ramche, a baby, an old man and one able-bodied adult are waiting to be rescued. The Laharepauwa–Ramche road is open but badly waterlogged; driving it takes twice the usual time. Residents at Gerkhu say two injured people (a child with a deep gash on his leg and a woman with burns on her arms), one schoolchild, one senior citizen and half a dozen able-bodied adults are still there, sheltering on upper floors.
+Anything not mentioned in these dispatches is in its usual condition, and no one else is known to be stranded.

@@ -1,0 +1,506 @@
+{
+  "id": "k16-s2-inf-cut",
+  "locations": [
+    {
+      "id": "samundratar",
+      "name": "Samundratar",
+      "kind": "base"
+    },
+    {
+      "id": "suryagadhi",
+      "name": "Suryagadhi",
+      "kind": "health_post"
+    },
+    {
+      "id": "meghang",
+      "name": "Meghang",
+      "kind": "health_post"
+    },
+    {
+      "id": "narjamandap",
+      "name": "Narjamandap",
+      "kind": "village"
+    },
+    {
+      "id": "dupcheshwar",
+      "name": "Dupcheshwar",
+      "kind": "village"
+    },
+    {
+      "id": "taruka",
+      "name": "Taruka",
+      "kind": "village"
+    },
+    {
+      "id": "betrawati",
+      "name": "Betrawati",
+      "kind": "school"
+    },
+    {
+      "id": "battar",
+      "name": "Battar",
+      "kind": "village"
+    },
+    {
+      "id": "gerkhu",
+      "name": "Gerkhu",
+      "kind": "village"
+    },
+    {
+      "id": "bhorle",
+      "name": "Bhorle",
+      "kind": "health_post"
+    },
+    {
+      "id": "chhap",
+      "name": "Chhap",
+      "kind": "village"
+    },
+    {
+      "id": "thaprek",
+      "name": "Thaprek",
+      "kind": "ward_office"
+    },
+    {
+      "id": "likhu",
+      "name": "Likhu",
+      "kind": "village"
+    },
+    {
+      "id": "jiling",
+      "name": "Jiling",
+      "kind": "village"
+    },
+    {
+      "id": "chaughada",
+      "name": "Chaughada",
+      "kind": "village"
+    },
+    {
+      "id": "kalikasthan",
+      "name": "Kalikasthan",
+      "kind": "village"
+    },
+    {
+      "id": "thulogaun",
+      "name": "Thulogaun",
+      "kind": "village"
+    },
+    {
+      "id": "tadi",
+      "name": "Tadi",
+      "kind": "junction"
+    },
+    {
+      "id": "kakani",
+      "name": "Kakani",
+      "kind": "evacuated_village"
+    }
+  ],
+  "roads": [
+    {
+      "u": "battar",
+      "v": "chaughada",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "battar",
+      "v": "chhap",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "battar",
+      "v": "likhu",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "battar",
+      "v": "thulogaun",
+      "minutes": 30,
+      "open": true,
+      "base_minutes": 15,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "betrawati",
+      "v": "samundratar",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "betrawati",
+      "v": "tadi",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": 10,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "betrawati",
+      "v": "taruka",
+      "minutes": 35,
+      "open": true,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "blocked",
+        "cleared"
+      ]
+    },
+    {
+      "u": "bhorle",
+      "v": "gerkhu",
+      "minutes": 15,
+      "open": false,
+      "base_minutes": null,
+      "cause": "landslide",
+      "history": [
+        "open",
+        "blocked"
+      ]
+    },
+    {
+      "u": "bhorle",
+      "v": "meghang",
+      "minutes": 10,
+      "open": false,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": []
+    },
+    {
+      "u": "bhorle",
+      "v": "narjamandap",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "bhorle",
+      "v": "suryagadhi",
+      "minutes": 25,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "chaughada",
+      "v": "chhap",
+      "minutes": 15,
+      "open": false,
+      "base_minutes": null,
+      "cause": "bridge",
+      "history": [
+        "open",
+        "blocked"
+      ]
+    },
+    {
+      "u": "chaughada",
+      "v": "kalikasthan",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": [
+        "rumour"
+      ]
+    },
+    {
+      "u": "chhap",
+      "v": "jiling",
+      "minutes": 15,
+      "open": false,
+      "base_minutes": null,
+      "cause": "submerged",
+      "history": []
+    },
+    {
+      "u": "chhap",
+      "v": "samundratar",
+      "minutes": 15,
+      "open": false,
+      "base_minutes": null,
+      "cause": "landslide",
+      "history": [
+        "open",
+        "blocked"
+      ]
+    },
+    {
+      "u": "chhap",
+      "v": "thulogaun",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "dupcheshwar",
+      "v": "suryagadhi",
+      "minutes": 45,
+      "open": true,
+      "base_minutes": 35,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "dupcheshwar",
+      "v": "thaprek",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "blocked",
+        "cleared"
+      ]
+    },
+    {
+      "u": "gerkhu",
+      "v": "tadi",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "gerkhu",
+      "v": "taruka",
+      "minutes": 30,
+      "open": true,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "blocked",
+        "cleared"
+      ]
+    },
+    {
+      "u": "jiling",
+      "v": "kalikasthan",
+      "minutes": 10,
+      "open": false,
+      "base_minutes": null,
+      "cause": "bridge",
+      "history": [
+        "open",
+        "blocked"
+      ]
+    },
+    {
+      "u": "kakani",
+      "v": "likhu",
+      "minutes": 25,
+      "open": true,
+      "base_minutes": 15,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "kakani",
+      "v": "samundratar",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "likhu",
+      "v": "suryagadhi",
+      "minutes": 40,
+      "open": true,
+      "base_minutes": 20,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "likhu",
+      "v": "thaprek",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "likhu",
+      "v": "thulogaun",
+      "minutes": 10,
+      "open": false,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "open",
+        "blocked"
+      ]
+    },
+    {
+      "u": "meghang",
+      "v": "narjamandap",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "blocked",
+        "cleared"
+      ]
+    },
+    {
+      "u": "narjamandap",
+      "v": "suryagadhi",
+      "minutes": 15,
+      "open": false,
+      "base_minutes": null,
+      "cause": "bridge",
+      "history": []
+    },
+    {
+      "u": "samundratar",
+      "v": "tadi",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "samundratar",
+      "v": "thulogaun",
+      "minutes": 5,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "tadi",
+      "v": "taruka",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "blocked",
+        "cleared"
+      ]
+    }
+  ],
+  "people": {
+    "suryagadhi": {
+      "injured": 1,
+      "children": 4,
+      "elderly": 1,
+      "adults": 2
+    },
+    "meghang": {
+      "adults": 2
+    },
+    "narjamandap": {
+      "children": 1,
+      "adults": 2
+    },
+    "dupcheshwar": {
+      "children": 2,
+      "elderly": 3,
+      "adults": 3
+    },
+    "taruka": {
+      "injured": 1,
+      "children": 2,
+      "adults": 6
+    },
+    "betrawati": {
+      "injured": 1,
+      "children": 6,
+      "elderly": 1,
+      "adults": 2
+    },
+    "battar": {
+      "children": 4,
+      "elderly": 3,
+      "adults": 1
+    },
+    "gerkhu": {
+      "children": 3,
+      "adults": 4
+    },
+    "bhorle": {
+      "injured": 3,
+      "adults": 5
+    },
+    "chhap": {
+      "children": 2,
+      "elderly": 2,
+      "adults": 4
+    },
+    "thaprek": {
+      "children": 1,
+      "elderly": 2,
+      "adults": 6
+    },
+    "likhu": {
+      "injured": 1,
+      "children": 1,
+      "adults": 3
+    },
+    "jiling": {
+      "adults": 6
+    },
+    "chaughada": {
+      "children": 4,
+      "elderly": 3,
+      "adults": 6
+    },
+    "kalikasthan": {
+      "elderly": 3,
+      "adults": 6
+    },
+    "thulogaun": {
+      "children": 3,
+      "elderly": 2,
+      "adults": 5
+    }
+  },
+  "start": "samundratar",
+  "shelter": "samundratar",
+  "capacity": null,
+  "priority": "tiered",
+  "meta": {
+    "k": 16,
+    "seed": 2,
+    "extra_nodes": 2,
+    "n_roads": 31,
+    "n_blocked": 8,
+    "n_slowed": 5,
+    "cut_off": "jiling",
+    "capacity_mode": "unlimited",
+    "split": "dev",
+    "rep": 0,
+    "condition": "unlimited-cut"
+  }
+}

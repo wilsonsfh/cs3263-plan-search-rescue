@@ -1,0 +1,54 @@
+{
+ "steps": [
+  {
+   "action": "move",
+   "from": "Kalikasthan",
+   "to": "Bhorle"
+  },
+  {
+   "action": "pickup",
+   "location": "Bhorle"
+  },
+  {
+   "action": "move",
+   "from": "Bhorle",
+   "to": "Kakani"
+  },
+  {
+   "action": "pickup",
+   "location": "Kakani"
+  },
+  {
+   "action": "move",
+   "from": "Kakani",
+   "to": "Trishuli"
+  },
+  {
+   "action": "pickup",
+   "location": "Trishuli"
+  },
+  {
+   "action": "move",
+   "from": "Trishuli",
+   "to": "Kakani"
+  },
+  {
+   "action": "move",
+   "from": "Kakani",
+   "to": "Bhorle"
+  },
+  {
+   "action": "move",
+   "from": "Bhorle",
+   "to": "Kalikasthan"
+  },
+  {
+   "action": "dropoff",
+   "location": "Kalikasthan"
+  }
+ ],
+ "unreachable": [
+  "Thansing"
+ ],
+ "claimed_total_minutes": 120.0
+}

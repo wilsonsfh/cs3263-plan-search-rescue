@@ -1,0 +1,415 @@
+{
+ "start": "Goljung",
+ "shelter": "Goljung",
+ "capacity": 22,
+ "locations": [
+  {
+   "name": "Goljung",
+   "kind": "evacuation point"
+  },
+  {
+   "name": "Bhalche",
+   "kind": "school"
+  },
+  {
+   "name": "Kalikasthan",
+   "kind": "temple"
+  },
+  {
+   "name": "Rautbesi",
+   "kind": "village"
+  },
+  {
+   "name": "Gerkhu",
+   "kind": "temple"
+  },
+  {
+   "name": "Chaughada",
+   "kind": "temple"
+  },
+  {
+   "name": "Bidur",
+   "kind": "health post"
+  },
+  {
+   "name": "Salme",
+   "kind": "village"
+  },
+  {
+   "name": "Trishuli",
+   "kind": "temple"
+  },
+  {
+   "name": "Tupche",
+   "kind": "village"
+  },
+  {
+   "name": "Panchakanya",
+   "kind": "health post"
+  },
+  {
+   "name": "Sundaradevi",
+   "kind": "health post"
+  },
+  {
+   "name": "Likhu",
+   "kind": "temple"
+  },
+  {
+   "name": "Betrawati",
+   "kind": "temple"
+  },
+  {
+   "name": "Belkot",
+   "kind": "village"
+  },
+  {
+   "name": "Bhorle",
+   "kind": "village"
+  },
+  {
+   "name": "Samundratar",
+   "kind": "village"
+  },
+  {
+   "name": "Ghyangphedi",
+   "kind": "road junction"
+  },
+  {
+   "name": "Lachyang",
+   "kind": "road junction"
+  }
+ ],
+ "roads": [
+  {
+   "between": [
+    "Belkot",
+    "Betrawati"
+   ],
+   "minutes": 10,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Belkot",
+    "Samundratar"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Betrawati",
+    "Chaughada"
+   ],
+   "minutes": 10,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Bhalche",
+    "Bhorle"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Bhalche",
+    "Bidur"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Bhalche",
+    "Chaughada"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Bhalche",
+    "Goljung"
+   ],
+   "minutes": 25,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Bhorle",
+    "Bidur"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Bhorle",
+    "Gerkhu"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Bidur",
+    "Gerkhu"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Chaughada",
+    "Lachyang"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Gerkhu",
+    "Tupche"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Ghyangphedi",
+    "Rautbesi"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Ghyangphedi",
+    "Salme"
+   ],
+   "minutes": 25,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Ghyangphedi",
+    "Tupche"
+   ],
+   "minutes": 15,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Goljung",
+    "Likhu"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Goljung",
+    "Panchakanya"
+   ],
+   "minutes": 5,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Goljung",
+    "Tupche"
+   ],
+   "minutes": 25,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Kalikasthan",
+    "Panchakanya"
+   ],
+   "minutes": 50,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kalikasthan",
+    "Salme"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kalikasthan",
+    "Sundaradevi"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Likhu",
+    "Panchakanya"
+   ],
+   "minutes": 10,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Likhu",
+    "Sundaradevi"
+   ],
+   "minutes": 15,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Likhu",
+    "Trishuli"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Panchakanya",
+    "Trishuli"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Rautbesi",
+    "Salme"
+   ],
+   "minutes": 25,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Rautbesi",
+    "Tupche"
+   ],
+   "minutes": 30,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Samundratar",
+    "Trishuli"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Sundaradevi",
+    "Trishuli"
+   ],
+   "minutes": 40,
+   "status": "open"
+  }
+ ],
+ "people": {
+  "Bhalche": {
+   "injured": 0,
+   "children": 5,
+   "elderly": 2,
+   "adults": 1
+  },
+  "Kalikasthan": {
+   "injured": 0,
+   "children": 1,
+   "elderly": 0,
+   "adults": 5
+  },
+  "Rautbesi": {
+   "injured": 0,
+   "children": 0,
+   "elderly": 1,
+   "adults": 5
+  },
+  "Gerkhu": {
+   "injured": 0,
+   "children": 0,
+   "elderly": 1,
+   "adults": 5
+  },
+  "Chaughada": {
+   "injured": 0,
+   "children": 1,
+   "elderly": 1,
+   "adults": 4
+  },
+  "Bidur": {
+   "injured": 3,
+   "children": 0,
+   "elderly": 2,
+   "adults": 6
+  },
+  "Salme": {
+   "injured": 0,
+   "children": 1,
+   "elderly": 2,
+   "adults": 4
+  },
+  "Trishuli": {
+   "injured": 0,
+   "children": 4,
+   "elderly": 1,
+   "adults": 3
+  },
+  "Tupche": {
+   "injured": 0,
+   "children": 2,
+   "elderly": 2,
+   "adults": 1
+  },
+  "Panchakanya": {
+   "injured": 2,
+   "children": 1,
+   "elderly": 1,
+   "adults": 2
+  },
+  "Sundaradevi": {
+   "injured": 3,
+   "children": 2,
+   "elderly": 0,
+   "adults": 5
+  },
+  "Likhu": {
+   "injured": 3,
+   "children": 0,
+   "elderly": 2,
+   "adults": 1
+  },
+  "Betrawati": {
+   "injured": 0,
+   "children": 3,
+   "elderly": 1,
+   "adults": 2
+  },
+  "Belkot": {
+   "injured": 0,
+   "children": 2,
+   "elderly": 2,
+   "adults": 1
+  },
+  "Bhorle": {
+   "injured": 0,
+   "children": 4,
+   "elderly": 0,
+   "adults": 5
+  },
+  "Samundratar": {
+   "injured": 3,
+   "children": 2,
+   "elderly": 3,
+   "adults": 3
+  }
+ }
+}

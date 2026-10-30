@@ -1,0 +1,163 @@
+{
+ "start": "Chaughada",
+ "shelter": "Chaughada",
+ "capacity": 17,
+ "locations": [
+  {
+   "name": "Chaughada",
+   "kind": "evacuation point"
+  },
+  {
+   "name": "Shikharbesi",
+   "kind": "village"
+  },
+  {
+   "name": "Ramche",
+   "kind": "village"
+  },
+  {
+   "name": "Khanigaun",
+   "kind": "ward office"
+  },
+  {
+   "name": "Trishuli",
+   "kind": "health post"
+  },
+  {
+   "name": "Thaprek",
+   "kind": "road junction"
+  },
+  {
+   "name": "Kaule",
+   "kind": "road junction"
+  },
+  {
+   "name": "Bhorle",
+   "kind": "village"
+  }
+ ],
+ "roads": [
+  {
+   "between": [
+    "Bhorle",
+    "Kaule"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Bhorle",
+    "Khanigaun"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Bhorle",
+    "Ramche"
+   ],
+   "minutes": 20,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Bhorle",
+    "Shikharbesi"
+   ],
+   "minutes": 40,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Bhorle",
+    "Thaprek"
+   ],
+   "minutes": 35,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Bhorle",
+    "Trishuli"
+   ],
+   "minutes": 5,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Chaughada",
+    "Shikharbesi"
+   ],
+   "minutes": 10,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Chaughada",
+    "Trishuli"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kaule",
+    "Thaprek"
+   ],
+   "minutes": 30,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Khanigaun",
+    "Ramche"
+   ],
+   "minutes": 10,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Khanigaun",
+    "Trishuli"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Shikharbesi",
+    "Trishuli"
+   ],
+   "minutes": 15,
+   "status": "open"
+  }
+ ],
+ "people": {
+  "Shikharbesi": {
+   "injured": 1,
+   "children": 4,
+   "elderly": 1,
+   "adults": 2
+  },
+  "Ramche": {
+   "injured": 0,
+   "children": 0,
+   "elderly": 0,
+   "adults": 6
+  },
+  "Khanigaun": {
+   "injured": 0,
+   "children": 0,
+   "elderly": 2,
+   "adults": 3
+  },
+  "Trishuli": {
+   "injured": 1,
+   "children": 2,
+   "elderly": 3,
+   "adults": 3
+  }
+ }
+}

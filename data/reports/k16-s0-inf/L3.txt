@@ -1,0 +1,41 @@
+MISSION SHEET
+- Team base and starting point: Bageshwari
+- Shelter where evacuees must be delivered: Bageshwari
+- Vehicle capacity: no practical limit (enough vehicles to carry everyone at once)
+- Places on the district map: Bageshwari (evacuation point), Lachyang (village), Khanigaun (village), Salme (village), Kispang (village), Haku (village), Thansing (ward office), Dupcheshwar (village), Kumari (village), Kalikasthan (village), Ghyangphedi (health post), Tadi (village), Shikharbesi (village), Battar (ward office), Ramche (village), Dhaibung (temple), Dandagaun (village), Meghang (road junction), Madanpur (road junction), Taruka (road junction)
+
+ROAD REGISTER (pre-flood network; usual one-way driving times, roads are two-way)
+- Bageshwari–Dandagaun: 10 min
+- Bageshwari–Kispang: 15 min
+- Bageshwari–Lachyang: 10 min
+- Bageshwari–Shikharbesi: 15 min
+- Battar–Haku: 10 min
+- Battar–Ramche: 10 min
+- Battar–Tadi: 25 min
+- Dandagaun–Madanpur: 25 min
+- Dandagaun–Taruka: 15 min
+- Dhaibung–Ghyangphedi: 10 min
+- Dhaibung–Meghang: 10 min
+- Dhaibung–Thansing: 15 min
+- Dupcheshwar–Kalikasthan: 15 min
+- Dupcheshwar–Shikharbesi: 35 min
+- Ghyangphedi–Khanigaun: 10 min
+- Haku–Ramche: 10 min
+- Haku–Tadi: 15 min
+- Kalikasthan–Khanigaun: 15 min
+- Kispang–Kumari: 10 min
+- Kispang–Shikharbesi: 10 min
+- Kumari–Salme: 20 min
+- Kumari–Shikharbesi: 15 min
+- Lachyang–Meghang: 5 min
+- Madanpur–Salme: 10 min
+- Madanpur–Taruka: 15 min
+- Meghang–Tadi: 20 min
+- Ramche–Tadi: 10 min
+- Salme–Taruka: 15 min
+
+FIELD DISPATCHES (several sources; listed in the order they reached the control room)
+[09:30] District Police Office (situation report): The Dandagaun–Taruka road is open but badly waterlogged; driving it now takes double the normal journey time. The Madanpur–Salme road is open but badly waterlogged; driving it adds 15 minutes to the usual journey. Residents at the health post in Ghyangphedi say two injured people (an old man with a head wound and a young boy with a badly sprained ankle), one schoolchild and five able-bodied adults are still there, sheltering on upper floors. A landslide has buried the road between Bageshwari and Kispang under metres of mud. Mobile networks remain patchy across the district. The Battar–Tadi road is open but badly waterlogged; driving it adds 10 minutes to the usual journey. The Madanpur–Taruka road is open but badly waterlogged; driving it now takes double the normal journey time. Residents at Dandagaun say five adults are still there, sheltering on upper floors. Residents at Salme say two children, two elderly residents and five able-bodied adults are still there, sheltering on upper floors.
+[06:45] Radio Nuwakot FM (local radio, early bulletin): Around 14 people are believed to be stranded in Shikharbesi (unconfirmed estimate). Around 2 people are believed to be stranded in Lachyang (unconfirmed estimate). Debris is blocking the Kalikasthan–Khanigaun road. Debris is blocking the Dupcheshwar–Kalikasthan road. Around 10 people are believed to be stranded in Haku (unconfirmed estimate). Around 10 people are believed to be stranded in Tadi (unconfirmed estimate). Around 13 people are believed to be stranded in Kalikasthan (unconfirmed estimate). The Bageshwari–Dandagaun road is still passable this morning, drivers say. Debris is blocking the Dandagaun–Madanpur road. Heavy rain is forecast to continue through the evening. Around 8 people are believed to be stranded in Battar (unconfirmed estimate). Around 6 people are believed to be stranded in Khanigaun (unconfirmed estimate). Around 9 people are believed to be stranded in Ramche (unconfirmed estimate). Debris is blocking the Bageshwari–Shikharbesi road.
+[13:15] Sunita Lama, The Himalayan Times (on the ground): Floodwater has turned the road from Salme to Taruka into a river. Confirmed headcount: Our team counted two injured people (a pregnant woman who was hit by debris and a man with a crushed foot), an old man and three other adults at the ward office in Battar, all needing evacuation. Residents at the temple in Dhaibung say two schoolchildren and four uninjured adults are still there, sheltering on upper floors. Residents at Dupcheshwar say four children, two senior citizens and three uninjured adults are still there, sheltering on upper floors. The only bridge linking Kispang and Kumari has collapsed. Confirmed headcount: Our team counted one injured person (a child with a deep gash on his leg), two children and six other adults at Kalikasthan, all needing evacuation. Confirmed headcount: Our team counted one injured person (a man with a crushed foot), one elderly resident and two other adults at Lachyang, all needing evacuation. Army engineers have cleared the debris on the Dupcheshwar–Kalikasthan road; it is open again at normal speed. Army engineers have cleared the debris on the Kalikasthan–Khanigaun road; it is open again at normal speed. Our team counted four children, three elderly residents and six able-bodied adults at Kumari, all needing evacuation. Confirmed headcount: Residents at Ramche say one injured person (an elderly woman with a broken hip), three children and 3 able-bodied adults are still there, sheltering on upper floors. The Dandagaun–Madanpur road has been reopened after bulldozers removed the debris; travel times are back to normal. The only bridge linking Bageshwari and Dandagaun has collapsed, cutting a road that was open earlier today. Confirmed headcount: Stranded at Shikharbesi: two children, three elderly residents and half a dozen uninjured adults. Confirmed headcount: Residents at Haku say four schoolchildren, three senior citizens and one uninjured adult are still there, sheltering on upper floors. Our team counted two children, three elderly residents and two other adults at the ward office in Thansing, all needing evacuation. At Kispang, two injured people (a teenage girl with a fractured arm and a child with a deep gash on his leg), two elderly residents and four other adults are waiting to be rescued. Hillside collapse: the Dhaibung–Meghang road disappeared under a landslide overnight. Livestock losses across the district are reported to be severe. The Ramche–Tadi road is open but badly waterlogged; driving it adds 15 minutes to the usual journey. Floodwater has turned the road from Haku to Tadi into a river. Confirmed headcount: Residents at Khanigaun say four adults are still there, sheltering on upper floors. The Bageshwari–Shikharbesi road has been reopened after bulldozers removed the debris; travel times are back to normal. Confirmed headcount: Our team counted two children and 5 uninjured adults at Tadi, all needing evacuation.
+Anything not mentioned in these dispatches is in its usual condition, and no one else is known to be stranded.

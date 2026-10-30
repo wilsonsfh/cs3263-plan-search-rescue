@@ -1,0 +1,55 @@
+MISSION SHEET
+- Team base and starting point: Ramche
+- Shelter where evacuees must be delivered: Ramche
+- Vehicle capacity: 17 people at a time
+- Places on the district map: Ramche (evacuation point), Bhalche (village), Likhu (health post), Rautbesi (village), Khanigaun (village), Dupcheshwar (village), Dandagaun (village), Syaphru (village), Kalikasthan (health post), Jiling (village), Kispang (temple), Salme (village), Taruka (health post), Chaughada (road junction), Laharepauwa (road junction)
+
+ROAD REGISTER (pre-flood network; usual one-way driving times, roads are two-way)
+- Bhalche–Dupcheshwar: 10 min
+- Bhalche–Kispang: 10 min
+- Bhalche–Taruka: 10 min
+- Chaughada–Dandagaun: 15 min
+- Chaughada–Ramche: 15 min
+- Chaughada–Syaphru: 10 min
+- Dandagaun–Salme: 10 min
+- Dupcheshwar–Kispang: 15 min
+- Jiling–Kalikasthan: 20 min
+- Jiling–Kispang: 15 min
+- Jiling–Laharepauwa: 20 min
+- Jiling–Likhu: 10 min
+- Jiling–Ramche: 20 min
+- Kalikasthan–Khanigaun: 25 min
+- Kalikasthan–Laharepauwa: 20 min
+- Kalikasthan–Rautbesi: 20 min
+- Khanigaun–Rautbesi: 15 min
+- Likhu–Ramche: 10 min
+- Likhu–Rautbesi: 20 min
+- Salme–Syaphru: 40 min
+- Syaphru–Taruka: 5 min
+
+FIELD REPORT (district control room, 12:00)
+Road status changes since the flood:
+- Bhalche–Taruka: BLOCKED
+- Chaughada–Dandagaun: BLOCKED
+- Chaughada–Syaphru: open, travel time now 30 min
+- Dandagaun–Salme: open, travel time now 20 min
+- Dupcheshwar–Kispang: BLOCKED
+- Jiling–Laharepauwa: open, travel time now 40 min
+- Kalikasthan–Rautbesi: open, travel time now 40 min
+- Khanigaun–Rautbesi: BLOCKED
+- Likhu–Ramche: BLOCKED
+All other roads: open, usual travel time.
+People waiting for rescue:
+- Bhalche: 0 injured, 4 children, 1 elderly, 6 adults
+- Likhu: 3 injured, 0 children, 3 elderly, 5 adults
+- Rautbesi: 3 injured, 1 children, 0 elderly, 5 adults
+- Khanigaun: 0 injured, 4 children, 3 elderly, 6 adults
+- Dupcheshwar: 1 injured, 0 children, 0 elderly, 4 adults
+- Dandagaun: 0 injured, 2 children, 0 elderly, 4 adults
+- Syaphru: 3 injured, 1 children, 3 elderly, 4 adults
+- Kalikasthan: 1 injured, 0 children, 2 elderly, 2 adults
+- Jiling: 0 injured, 0 children, 1 elderly, 1 adults
+- Kispang: 3 injured, 3 children, 0 elderly, 2 adults
+- Salme: 0 injured, 1 children, 2 elderly, 1 adults
+- Taruka: 1 injured, 2 children, 0 elderly, 6 adults
+No one is waiting at any other location.

@@ -1,0 +1,40 @@
+MISSION SHEET
+- Team base and starting point: Haku
+- Shelter where evacuees must be delivered: Haku
+- Vehicle capacity: 17 people at a time
+- Places on the district map: Haku (evacuation point), Kumari (village), Thaprek (village), Bageshwari (health post), Meghang (ward office), Laharepauwa (village), Trishuli (school), Ramche (village), Bidur (health post), Salme (village), Kaule (village), Syaphru (health post), Taruka (village), Battar (village), Kalikasthan (road junction), Chaughada (village), Shikharbesi (road junction)
+
+ROAD REGISTER (pre-flood network; usual one-way driving times, roads are two-way)
+- Bageshwari–Laharepauwa: 20 min
+- Bageshwari–Thaprek: 10 min
+- Battar–Ramche: 10 min
+- Battar–Salme: 10 min
+- Battar–Trishuli: 20 min
+- Bidur–Kalikasthan: 20 min
+- Bidur–Shikharbesi: 20 min
+- Chaughada–Haku: 20 min
+- Chaughada–Kumari: 15 min
+- Chaughada–Taruka: 15 min
+- Haku–Kalikasthan: 20 min
+- Haku–Syaphru: 10 min
+- Haku–Taruka: 10 min
+- Kalikasthan–Salme: 20 min
+- Kalikasthan–Shikharbesi: 10 min
+- Kalikasthan–Syaphru: 15 min
+- Kaule–Syaphru: 20 min
+- Kumari–Meghang: 25 min
+- Laharepauwa–Taruka: 20 min
+- Laharepauwa–Thaprek: 15 min
+- Meghang–Trishuli: 15 min
+- Ramche–Salme: 10 min
+- Ramche–Trishuli: 15 min
+- Salme–Trishuli: 10 min
+- Shikharbesi–Syaphru: 10 min
+- Syaphru–Taruka: 15 min
+- Taruka–Thaprek: 15 min
+
+FIELD DISPATCHES (several sources; listed in the order they reached the control room)
+[09:30] District Police Office (situation report): At Salme, three injured people (a woman with burns on her arms, a teenage girl with a fractured arm and a child with a deep gash on his leg), three senior citizens and four able-bodied adults are waiting to be rescued. Stranded at Kumari: one schoolchild, 2 elderly residents and three uninjured adults. The only bridge linking Ramche and Salme has collapsed. The Bidur–Shikharbesi road is open but badly waterlogged; driving it now takes double the normal journey time. Our team counted three injured people (an old man with a head wound, a young boy with a badly sprained ankle and a woman with burns on her arms), two children, 3 elderly residents and three able-bodied adults at the ward office in Meghang, all needing evacuation. The Kumari–Meghang road is open but badly waterlogged; driving it adds 20 minutes to the usual journey. Livestock losses across the district are reported to be severe. The Haku–Taruka road is under two metres of fast-flowing floodwater.
+[13:15] Sunita Lama, The Himalayan Times (on the ground): At the school in Trishuli, four schoolchildren and one other adult are waiting to be rescued. Confirmed headcount: Our team counted 3 injured people (an elderly woman with a broken hip, a woman with burns on her arms and a child with a deep gash on his leg), an elderly couple and three able-bodied adults at the health post in Bidur, all needing evacuation. Stranded at Laharepauwa: one injured person (a child with a deep gash on his leg), 4 schoolchildren, an elderly couple and five uninjured adults. Stranded at Kaule: four schoolchildren and four other adults. Hillside collapse: the Chaughada–Haku road disappeared under a landslide overnight. Everyone from Chaughada has already been airlifted out. Battar was fully evacuated by the army yesterday; no one remains there. The Kaule–Syaphru road is under two metres of fast-flowing floodwater, cutting a road that was open earlier today. Confirmed headcount: At Thaprek, one injured person (a woman with burns on her arms), two schoolchildren, one elderly resident and three uninjured adults are waiting to be rescued. Debris has completely choked the road between Chaughada and Kumari. The Salme–Trishuli road is open but badly waterlogged; driving it takes twice the usual time. A landslide has buried the road between Battar and Salme under metres of mud. Confirmed headcount: Stranded at the health post in Bageshwari: 2 injured people (an old man with a head wound and an elderly woman with a broken hip), four schoolchildren, three senior citizens and 5 other adults. The Meghang–Trishuli road is open but badly waterlogged; driving it adds 10 minutes to the usual journey. The Bageshwari–Laharepauwa road has been reopened after bulldozers removed the debris; travel times are back to normal. Confirmed headcount: At Taruka, one injured person (a man with a crushed foot), one schoolchild and one able-bodied adult are waiting to be rescued. Confirmed headcount: Our team counted three schoolchildren, one senior citizen and 4 other adults at Ramche, all needing evacuation. Heavy rain is forecast to continue through the evening. Our team counted a baby and five uninjured adults at the health post in Syaphru, all needing evacuation.
+[06:45] Radio Nuwakot FM (local radio, early bulletin): Around 17 people are believed to be stranded in Bageshwari (unconfirmed estimate). Residents of Battar were seen on rooftops last night. The Kaule–Syaphru road is still passable this morning, drivers say. Around 9 people are believed to be stranded in Thaprek (unconfirmed estimate). Debris is blocking the Bageshwari–Laharepauwa road. Around 11 people are believed to be stranded in Bidur (unconfirmed estimate). Around 5 people are believed to be stranded in Taruka (unconfirmed estimate). Residents of Chaughada were seen on rooftops last night. A government helicopter was seen flying north this morning but did not land. Around 5 people are believed to be stranded in Ramche (unconfirmed estimate).
+Anything not mentioned in these dispatches is in its usual condition, and no one else is known to be stranded.

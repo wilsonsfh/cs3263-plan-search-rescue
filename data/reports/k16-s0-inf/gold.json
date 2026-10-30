@@ -1,0 +1,411 @@
+{
+ "start": "Bageshwari",
+ "shelter": "Bageshwari",
+ "capacity": null,
+ "locations": [
+  {
+   "name": "Bageshwari",
+   "kind": "evacuation point"
+  },
+  {
+   "name": "Lachyang",
+   "kind": "village"
+  },
+  {
+   "name": "Khanigaun",
+   "kind": "village"
+  },
+  {
+   "name": "Salme",
+   "kind": "village"
+  },
+  {
+   "name": "Kispang",
+   "kind": "village"
+  },
+  {
+   "name": "Haku",
+   "kind": "village"
+  },
+  {
+   "name": "Thansing",
+   "kind": "ward office"
+  },
+  {
+   "name": "Dupcheshwar",
+   "kind": "village"
+  },
+  {
+   "name": "Kumari",
+   "kind": "village"
+  },
+  {
+   "name": "Kalikasthan",
+   "kind": "village"
+  },
+  {
+   "name": "Ghyangphedi",
+   "kind": "health post"
+  },
+  {
+   "name": "Tadi",
+   "kind": "village"
+  },
+  {
+   "name": "Shikharbesi",
+   "kind": "village"
+  },
+  {
+   "name": "Battar",
+   "kind": "ward office"
+  },
+  {
+   "name": "Ramche",
+   "kind": "village"
+  },
+  {
+   "name": "Dhaibung",
+   "kind": "temple"
+  },
+  {
+   "name": "Dandagaun",
+   "kind": "village"
+  },
+  {
+   "name": "Meghang",
+   "kind": "road junction"
+  },
+  {
+   "name": "Madanpur",
+   "kind": "road junction"
+  },
+  {
+   "name": "Taruka",
+   "kind": "road junction"
+  }
+ ],
+ "roads": [
+  {
+   "between": [
+    "Bageshwari",
+    "Dandagaun"
+   ],
+   "minutes": 10,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Bageshwari",
+    "Kispang"
+   ],
+   "minutes": 15,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Bageshwari",
+    "Lachyang"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Bageshwari",
+    "Shikharbesi"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Battar",
+    "Haku"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Battar",
+    "Ramche"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Battar",
+    "Tadi"
+   ],
+   "minutes": 35,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Dandagaun",
+    "Madanpur"
+   ],
+   "minutes": 25,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Dandagaun",
+    "Taruka"
+   ],
+   "minutes": 30,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Dhaibung",
+    "Ghyangphedi"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Dhaibung",
+    "Meghang"
+   ],
+   "minutes": 10,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Dhaibung",
+    "Thansing"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Dupcheshwar",
+    "Kalikasthan"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Dupcheshwar",
+    "Shikharbesi"
+   ],
+   "minutes": 35,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Ghyangphedi",
+    "Khanigaun"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Haku",
+    "Ramche"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Haku",
+    "Tadi"
+   ],
+   "minutes": 15,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Kalikasthan",
+    "Khanigaun"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kispang",
+    "Kumari"
+   ],
+   "minutes": 10,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Kispang",
+    "Shikharbesi"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kumari",
+    "Salme"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kumari",
+    "Shikharbesi"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Lachyang",
+    "Meghang"
+   ],
+   "minutes": 5,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Madanpur",
+    "Salme"
+   ],
+   "minutes": 25,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Madanpur",
+    "Taruka"
+   ],
+   "minutes": 30,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Meghang",
+    "Tadi"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Ramche",
+    "Tadi"
+   ],
+   "minutes": 25,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Salme",
+    "Taruka"
+   ],
+   "minutes": 15,
+   "status": "blocked"
+  }
+ ],
+ "people": {
+  "Lachyang": {
+   "injured": 1,
+   "children": 0,
+   "elderly": 1,
+   "adults": 2
+  },
+  "Khanigaun": {
+   "injured": 0,
+   "children": 0,
+   "elderly": 0,
+   "adults": 4
+  },
+  "Salme": {
+   "injured": 0,
+   "children": 2,
+   "elderly": 2,
+   "adults": 5
+  },
+  "Kispang": {
+   "injured": 2,
+   "children": 0,
+   "elderly": 2,
+   "adults": 4
+  },
+  "Haku": {
+   "injured": 0,
+   "children": 4,
+   "elderly": 3,
+   "adults": 1
+  },
+  "Thansing": {
+   "injured": 0,
+   "children": 2,
+   "elderly": 3,
+   "adults": 2
+  },
+  "Dupcheshwar": {
+   "injured": 0,
+   "children": 4,
+   "elderly": 2,
+   "adults": 3
+  },
+  "Kumari": {
+   "injured": 0,
+   "children": 4,
+   "elderly": 3,
+   "adults": 6
+  },
+  "Kalikasthan": {
+   "injured": 1,
+   "children": 2,
+   "elderly": 0,
+   "adults": 6
+  },
+  "Ghyangphedi": {
+   "injured": 2,
+   "children": 1,
+   "elderly": 0,
+   "adults": 5
+  },
+  "Tadi": {
+   "injured": 0,
+   "children": 2,
+   "elderly": 0,
+   "adults": 5
+  },
+  "Shikharbesi": {
+   "injured": 0,
+   "children": 2,
+   "elderly": 3,
+   "adults": 6
+  },
+  "Battar": {
+   "injured": 2,
+   "children": 0,
+   "elderly": 1,
+   "adults": 3
+  },
+  "Ramche": {
+   "injured": 1,
+   "children": 3,
+   "elderly": 0,
+   "adults": 3
+  },
+  "Dhaibung": {
+   "injured": 0,
+   "children": 2,
+   "elderly": 0,
+   "adults": 4
+  },
+  "Dandagaun": {
+   "injured": 0,
+   "children": 0,
+   "elderly": 0,
+   "adults": 5
+  }
+ }
+}

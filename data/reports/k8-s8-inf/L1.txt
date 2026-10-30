@@ -1,0 +1,48 @@
+MISSION SHEET
+- Team base and starting point: Laharepauwa
+- Shelter where evacuees must be delivered: Laharepauwa
+- Vehicle capacity: no practical limit (enough vehicles to carry everyone at once)
+- Places on the district map: Laharepauwa (evacuation point), Belkot (village), Goljung (village), Thulogaun (village), Likhu (ward office), Dupcheshwar (health post), Bageshwari (village), Kalikasthan (village), Ghyangphedi (village), Kakani (road junction), Okharpauwa (village), Madanpur (road junction), Suryagadhi (village)
+
+ROAD REGISTER (pre-flood network; usual one-way driving times, roads are two-way)
+- Bageshwari–Kakani: 10 min
+- Bageshwari–Laharepauwa: 15 min
+- Bageshwari–Likhu: 35 min
+- Bageshwari–Thulogaun: 10 min
+- Belkot–Okharpauwa: 10 min
+- Dupcheshwar–Thulogaun: 5 min
+- Ghyangphedi–Goljung: 20 min
+- Ghyangphedi–Kalikasthan: 5 min
+- Ghyangphedi–Laharepauwa: 10 min
+- Ghyangphedi–Madanpur: 25 min
+- Ghyangphedi–Suryagadhi: 30 min
+- Goljung–Kalikasthan: 5 min
+- Goljung–Laharepauwa: 25 min
+- Goljung–Madanpur: 25 min
+- Kakani–Laharepauwa: 5 min
+- Kakani–Suryagadhi: 15 min
+- Kakani–Thulogaun: 20 min
+- Kalikasthan–Laharepauwa: 20 min
+- Kalikasthan–Madanpur: 20 min
+- Likhu–Thulogaun: 40 min
+- Okharpauwa–Thulogaun: 10 min
+
+FIELD REPORT (district control room, 12:00)
+Road status changes since the flood:
+- Bageshwari–Laharepauwa: open, travel time now 35 min
+- Bageshwari–Thulogaun: open, travel time now 20 min
+- Ghyangphedi–Laharepauwa: BLOCKED
+- Goljung–Kalikasthan: open, travel time now 10 min
+- Kakani–Laharepauwa: BLOCKED
+- Kakani–Thulogaun: BLOCKED
+All other roads: open, usual travel time.
+People waiting for rescue:
+- Belkot: 0 injured, 0 children, 1 elderly, 5 adults
+- Goljung: 0 injured, 4 children, 0 elderly, 1 adults
+- Thulogaun: 0 injured, 1 children, 0 elderly, 3 adults
+- Likhu: 3 injured, 4 children, 0 elderly, 4 adults
+- Dupcheshwar: 3 injured, 4 children, 0 elderly, 4 adults
+- Bageshwari: 3 injured, 0 children, 2 elderly, 2 adults
+- Kalikasthan: 0 injured, 0 children, 3 elderly, 4 adults
+- Ghyangphedi: 0 injured, 1 children, 1 elderly, 4 adults
+No one is waiting at any other location.

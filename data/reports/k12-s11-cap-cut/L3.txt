@@ -1,0 +1,32 @@
+MISSION SHEET
+- Team base and starting point: Belkot
+- Shelter where evacuees must be delivered: Belkot
+- Vehicle capacity: 21 people at a time
+- Places on the district map: Belkot (evacuation point), Likhu (temple), Shikharbesi (village), Narjamandap (village), Goljung (village), Dhaibung (village), Taruka (village), Thansing (village), Rautbesi (ward office), Salme (ward office), Madanpur (village), Jiling (school), Ghyangphedi (temple), Kaule (road junction), Chaughada (village), Okharpauwa (village)
+
+ROAD REGISTER (pre-flood network; usual one-way driving times, roads are two-way)
+- Belkot–Narjamandap: 15 min
+- Belkot–Salme: 10 min
+- Belkot–Taruka: 15 min
+- Chaughada–Dhaibung: 20 min
+- Chaughada–Thansing: 15 min
+- Dhaibung–Ghyangphedi: 10 min
+- Ghyangphedi–Taruka: 15 min
+- Goljung–Salme: 20 min
+- Jiling–Likhu: 20 min
+- Jiling–Rautbesi: 10 min
+- Jiling–Taruka: 15 min
+- Kaule–Madanpur: 15 min
+- Kaule–Shikharbesi: 15 min
+- Likhu–Taruka: 15 min
+- Narjamandap–Salme: 15 min
+- Narjamandap–Shikharbesi: 15 min
+- Okharpauwa–Rautbesi: 10 min
+- Okharpauwa–Taruka: 25 min
+- Shikharbesi–Thansing: 20 min
+
+FIELD DISPATCHES (several sources; listed in the order they reached the control room)
+[06:45] Radio Nuwakot FM (local radio, early bulletin): Residents of Okharpauwa were seen on rooftops last night. Livestock losses across the district are reported to be severe. Around 4 people are believed to be stranded in Taruka (unconfirmed estimate). Around 9 people are believed to be stranded in Salme (unconfirmed estimate). Around 6 people are believed to be stranded in Goljung (unconfirmed estimate). The Chaughada–Dhaibung road is still passable this morning, drivers say. Residents of Chaughada were seen on rooftops last night. Around 2 people are believed to be stranded in Narjamandap (unconfirmed estimate). Around 7 people are believed to be stranded in Dhaibung (unconfirmed estimate). Around 5 people are believed to be stranded in Madanpur (unconfirmed estimate). Around 8 people are believed to be stranded in Ghyangphedi (unconfirmed estimate). Around 8 people are believed to be stranded in Likhu (unconfirmed estimate). Around 5 people are believed to be stranded in Rautbesi (unconfirmed estimate).
+[13:15] Sunita Lama, The Himalayan Times (on the ground): Confirmed headcount: Residents at Dhaibung say four schoolchildren, an old man and five other adults are still there, sheltering on upper floors. Confirmed headcount: Our team counted four schoolchildren and three other adults at Madanpur, all needing evacuation. The Jiling–Rautbesi road is open but badly waterlogged; driving it adds a quarter of an hour to the usual journey. Police have checked the Belkot–Narjamandap road: the social media reports were false and the road is open as normal. Everyone from Chaughada has already been airlifted out. Confirmed headcount: Our team counted two injured people (a pregnant woman who was hit by debris and a teenage girl with a fractured arm) and six able-bodied adults at the ward office in Rautbesi, all needing evacuation. Confirmed headcount: At Goljung, three injured people (a woman with burns on her arms, an elderly woman with a broken hip and a teenage girl with a fractured arm), four children and one able-bodied adult are waiting to be rescued. The only bridge linking Jiling and Taruka has collapsed. Confirmed headcount: Our team counted 4 adults at Narjamandap, all needing evacuation. Confirmed headcount: Our team counted one child and four uninjured adults at the temple in Ghyangphedi, all needing evacuation. Police have checked the Okharpauwa–Rautbesi road: the social media reports were false and the road is open as normal. Everyone from Okharpauwa has already been airlifted out. Stranded at Thansing: three children, one elderly resident and two uninjured adults. Confirmed headcount: Our team counted 2 schoolchildren, two senior citizens and one uninjured adult at the temple in Likhu, all needing evacuation. Police have checked the Ghyangphedi–Taruka road: the social media reports were false and the road is open as normal. A landslide has buried the road between Goljung and Salme under metres of mud. Confirmed headcount: Our team counted three senior citizens and three other adults at Taruka, all needing evacuation. Floodwater has turned the road from Chaughada to Dhaibung into a river, cutting a road that was open earlier today. A government helicopter was seen flying north this morning but did not land. Confirmed headcount: Our team counted two injured people (an elderly woman with a broken hip and a man with a crushed foot) and 5 able-bodied adults at the ward office in Salme, all needing evacuation.
+[09:30] District Police Office (situation report): Unconfirmed posts on social media claim the Belkot–Narjamandap road has been washed away. The Okharpauwa–Taruka road is open but badly waterlogged; driving it adds 10 minutes to the usual journey. Stranded at Shikharbesi: three senior citizens and one able-bodied adult. Floodwater has turned the road from Chaughada to Thansing into a river. The only bridge linking Belkot and Salme has collapsed. The Kaule–Shikharbesi road is open but badly waterlogged; driving it takes twice the usual time. Stranded at the school in Jiling: one injured person (an old man with a head wound), nine children, an old man and 1 other adult. Unconfirmed posts on social media claim the Okharpauwa–Rautbesi road has been washed away. The Narjamandap–Shikharbesi road is open but badly waterlogged; driving it takes twice the usual time. Heavy rain is forecast to continue through the evening. The only bridge linking Likhu and Taruka has collapsed. Unconfirmed posts on social media claim the Ghyangphedi–Taruka road has been washed away.
+Anything not mentioned in these dispatches is in its usual condition, and no one else is known to be stranded.

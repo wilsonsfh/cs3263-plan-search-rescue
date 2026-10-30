@@ -1,0 +1,431 @@
+{
+ "start": "Samundratar",
+ "shelter": "Samundratar",
+ "capacity": null,
+ "locations": [
+  {
+   "name": "Samundratar",
+   "kind": "evacuation point"
+  },
+  {
+   "name": "Suryagadhi",
+   "kind": "health post"
+  },
+  {
+   "name": "Meghang",
+   "kind": "health post"
+  },
+  {
+   "name": "Narjamandap",
+   "kind": "village"
+  },
+  {
+   "name": "Dupcheshwar",
+   "kind": "village"
+  },
+  {
+   "name": "Taruka",
+   "kind": "village"
+  },
+  {
+   "name": "Betrawati",
+   "kind": "school"
+  },
+  {
+   "name": "Battar",
+   "kind": "village"
+  },
+  {
+   "name": "Gerkhu",
+   "kind": "village"
+  },
+  {
+   "name": "Bhorle",
+   "kind": "health post"
+  },
+  {
+   "name": "Chhap",
+   "kind": "village"
+  },
+  {
+   "name": "Thaprek",
+   "kind": "ward office"
+  },
+  {
+   "name": "Likhu",
+   "kind": "village"
+  },
+  {
+   "name": "Jiling",
+   "kind": "village"
+  },
+  {
+   "name": "Chaughada",
+   "kind": "village"
+  },
+  {
+   "name": "Kalikasthan",
+   "kind": "village"
+  },
+  {
+   "name": "Thulogaun",
+   "kind": "village"
+  },
+  {
+   "name": "Tadi",
+   "kind": "road junction"
+  },
+  {
+   "name": "Kakani",
+   "kind": "village"
+  }
+ ],
+ "roads": [
+  {
+   "between": [
+    "Battar",
+    "Chaughada"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Battar",
+    "Chhap"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Battar",
+    "Likhu"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Battar",
+    "Thulogaun"
+   ],
+   "minutes": 30,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Betrawati",
+    "Samundratar"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Betrawati",
+    "Tadi"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Betrawati",
+    "Taruka"
+   ],
+   "minutes": 35,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Bhorle",
+    "Gerkhu"
+   ],
+   "minutes": 15,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Bhorle",
+    "Meghang"
+   ],
+   "minutes": 10,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Bhorle",
+    "Narjamandap"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Bhorle",
+    "Suryagadhi"
+   ],
+   "minutes": 25,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Chaughada",
+    "Chhap"
+   ],
+   "minutes": 15,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Chaughada",
+    "Kalikasthan"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Chhap",
+    "Jiling"
+   ],
+   "minutes": 15,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Chhap",
+    "Samundratar"
+   ],
+   "minutes": 15,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Chhap",
+    "Thulogaun"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Dupcheshwar",
+    "Suryagadhi"
+   ],
+   "minutes": 45,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Dupcheshwar",
+    "Thaprek"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Gerkhu",
+    "Tadi"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Gerkhu",
+    "Taruka"
+   ],
+   "minutes": 30,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Jiling",
+    "Kalikasthan"
+   ],
+   "minutes": 10,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Kakani",
+    "Likhu"
+   ],
+   "minutes": 25,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kakani",
+    "Samundratar"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Likhu",
+    "Suryagadhi"
+   ],
+   "minutes": 40,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Likhu",
+    "Thaprek"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Likhu",
+    "Thulogaun"
+   ],
+   "minutes": 10,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Meghang",
+    "Narjamandap"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Narjamandap",
+    "Suryagadhi"
+   ],
+   "minutes": 15,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Samundratar",
+    "Tadi"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Samundratar",
+    "Thulogaun"
+   ],
+   "minutes": 5,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Tadi",
+    "Taruka"
+   ],
+   "minutes": 20,
+   "status": "open"
+  }
+ ],
+ "people": {
+  "Suryagadhi": {
+   "injured": 1,
+   "children": 4,
+   "elderly": 1,
+   "adults": 2
+  },
+  "Meghang": {
+   "injured": 0,
+   "children": 0,
+   "elderly": 0,
+   "adults": 2
+  },
+  "Narjamandap": {
+   "injured": 0,
+   "children": 1,
+   "elderly": 0,
+   "adults": 2
+  },
+  "Dupcheshwar": {
+   "injured": 0,
+   "children": 2,
+   "elderly": 3,
+   "adults": 3
+  },
+  "Taruka": {
+   "injured": 1,
+   "children": 2,
+   "elderly": 0,
+   "adults": 6
+  },
+  "Betrawati": {
+   "injured": 1,
+   "children": 6,
+   "elderly": 1,
+   "adults": 2
+  },
+  "Battar": {
+   "injured": 0,
+   "children": 4,
+   "elderly": 3,
+   "adults": 1
+  },
+  "Gerkhu": {
+   "injured": 0,
+   "children": 3,
+   "elderly": 0,
+   "adults": 4
+  },
+  "Bhorle": {
+   "injured": 3,
+   "children": 0,
+   "elderly": 0,
+   "adults": 5
+  },
+  "Chhap": {
+   "injured": 0,
+   "children": 2,
+   "elderly": 2,
+   "adults": 4
+  },
+  "Thaprek": {
+   "injured": 0,
+   "children": 1,
+   "elderly": 2,
+   "adults": 6
+  },
+  "Likhu": {
+   "injured": 1,
+   "children": 1,
+   "elderly": 0,
+   "adults": 3
+  },
+  "Jiling": {
+   "injured": 0,
+   "children": 0,
+   "elderly": 0,
+   "adults": 6
+  },
+  "Chaughada": {
+   "injured": 0,
+   "children": 4,
+   "elderly": 3,
+   "adults": 6
+  },
+  "Kalikasthan": {
+   "injured": 0,
+   "children": 0,
+   "elderly": 3,
+   "adults": 6
+  },
+  "Thulogaun": {
+   "injured": 0,
+   "children": 3,
+   "elderly": 2,
+   "adults": 5
+  }
+ }
+}

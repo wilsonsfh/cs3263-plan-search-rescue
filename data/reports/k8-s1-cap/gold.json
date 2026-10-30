@@ -1,0 +1,235 @@
+{
+ "start": "Khanigaun",
+ "shelter": "Khanigaun",
+ "capacity": 19,
+ "locations": [
+  {
+   "name": "Khanigaun",
+   "kind": "evacuation point"
+  },
+  {
+   "name": "Dhaibung",
+   "kind": "village"
+  },
+  {
+   "name": "Kaule",
+   "kind": "village"
+  },
+  {
+   "name": "Battar",
+   "kind": "ward office"
+  },
+  {
+   "name": "Dandagaun",
+   "kind": "village"
+  },
+  {
+   "name": "Likhu",
+   "kind": "school"
+  },
+  {
+   "name": "Thulogaun",
+   "kind": "ward office"
+  },
+  {
+   "name": "Kakani",
+   "kind": "village"
+  },
+  {
+   "name": "Tadi",
+   "kind": "temple"
+  },
+  {
+   "name": "Kalikasthan",
+   "kind": "road junction"
+  },
+  {
+   "name": "Thansing",
+   "kind": "road junction"
+  },
+  {
+   "name": "Thaprek",
+   "kind": "village"
+  }
+ ],
+ "roads": [
+  {
+   "between": [
+    "Battar",
+    "Dhaibung"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Battar",
+    "Khanigaun"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Battar",
+    "Likhu"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Battar",
+    "Thaprek"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Dandagaun",
+    "Dhaibung"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Dhaibung",
+    "Likhu"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kakani",
+    "Kaule"
+   ],
+   "minutes": 20,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Kakani",
+    "Thansing"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kakani",
+    "Thaprek"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kalikasthan",
+    "Likhu"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kalikasthan",
+    "Tadi"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kaule",
+    "Thansing"
+   ],
+   "minutes": 30,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kaule",
+    "Thulogaun"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Khanigaun",
+    "Thaprek"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Thansing",
+    "Thaprek"
+   ],
+   "minutes": 10,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Thansing",
+    "Thulogaun"
+   ],
+   "minutes": 10,
+   "status": "blocked"
+  }
+ ],
+ "people": {
+  "Dhaibung": {
+   "injured": 0,
+   "children": 4,
+   "elderly": 3,
+   "adults": 4
+  },
+  "Kaule": {
+   "injured": 2,
+   "children": 3,
+   "elderly": 0,
+   "adults": 5
+  },
+  "Battar": {
+   "injured": 3,
+   "children": 1,
+   "elderly": 3,
+   "adults": 6
+  },
+  "Dandagaun": {
+   "injured": 0,
+   "children": 3,
+   "elderly": 1,
+   "adults": 3
+  },
+  "Likhu": {
+   "injured": 2,
+   "children": 8,
+   "elderly": 2,
+   "adults": 2
+  },
+  "Thulogaun": {
+   "injured": 0,
+   "children": 2,
+   "elderly": 3,
+   "adults": 3
+  },
+  "Kakani": {
+   "injured": 0,
+   "children": 0,
+   "elderly": 3,
+   "adults": 3
+  },
+  "Tadi": {
+   "injured": 0,
+   "children": 3,
+   "elderly": 3,
+   "adults": 5
+  }
+ }
+}

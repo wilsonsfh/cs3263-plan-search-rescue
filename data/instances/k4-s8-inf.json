@@ -1,0 +1,195 @@
+{
+  "id": "k4-s8-inf",
+  "locations": [
+    {
+      "id": "narjamandap",
+      "name": "Narjamandap",
+      "kind": "base"
+    },
+    {
+      "id": "kispang",
+      "name": "Kispang",
+      "kind": "village"
+    },
+    {
+      "id": "meghang",
+      "name": "Meghang",
+      "kind": "temple"
+    },
+    {
+      "id": "suryagadhi",
+      "name": "Suryagadhi",
+      "kind": "school"
+    },
+    {
+      "id": "trishuli",
+      "name": "Trishuli",
+      "kind": "health_post"
+    },
+    {
+      "id": "dupcheshwar",
+      "name": "Dupcheshwar",
+      "kind": "junction"
+    },
+    {
+      "id": "panchakanya",
+      "name": "Panchakanya",
+      "kind": "evacuated_village"
+    },
+    {
+      "id": "rautbesi",
+      "name": "Rautbesi",
+      "kind": "evacuated_village"
+    }
+  ],
+  "roads": [
+    {
+      "u": "dupcheshwar",
+      "v": "meghang",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": 10,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "kispang",
+      "v": "panchakanya",
+      "minutes": 45,
+      "open": true,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "blocked",
+        "cleared"
+      ]
+    },
+    {
+      "u": "kispang",
+      "v": "suryagadhi",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "meghang",
+      "v": "narjamandap",
+      "minutes": 25,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "meghang",
+      "v": "panchakanya",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "narjamandap",
+      "v": "panchakanya",
+      "minutes": 20,
+      "open": false,
+      "base_minutes": null,
+      "cause": "landslide",
+      "history": []
+    },
+    {
+      "u": "narjamandap",
+      "v": "rautbesi",
+      "minutes": 35,
+      "open": true,
+      "base_minutes": 25,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "narjamandap",
+      "v": "suryagadhi",
+      "minutes": 15,
+      "open": false,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "open",
+        "blocked"
+      ]
+    },
+    {
+      "u": "narjamandap",
+      "v": "trishuli",
+      "minutes": 25,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "panchakanya",
+      "v": "trishuli",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "rautbesi",
+      "v": "trishuli",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "blocked",
+        "cleared"
+      ]
+    }
+  ],
+  "people": {
+    "kispang": {
+      "injured": 2,
+      "children": 4,
+      "elderly": 1,
+      "adults": 5
+    },
+    "meghang": {
+      "injured": 3,
+      "children": 1,
+      "adults": 3
+    },
+    "suryagadhi": {
+      "children": 5,
+      "adults": 1
+    },
+    "trishuli": {
+      "injured": 2,
+      "children": 4,
+      "elderly": 3,
+      "adults": 4
+    }
+  },
+  "start": "narjamandap",
+  "shelter": "narjamandap",
+  "capacity": null,
+  "priority": "tiered",
+  "meta": {
+    "k": 4,
+    "seed": 8,
+    "extra_nodes": 3,
+    "n_roads": 11,
+    "n_blocked": 2,
+    "n_slowed": 2,
+    "cut_off": null,
+    "capacity_mode": "unlimited",
+    "split": "test",
+    "rep": 2,
+    "condition": "unlimited"
+  }
+}

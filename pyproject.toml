@@ -1,0 +1,9 @@
+[project]
+name = "rescue"
+version = "0.1.0"
+description = "CS3263 Group 11: post-flood rescue planning, LLM-only vs LLM->PDDL"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

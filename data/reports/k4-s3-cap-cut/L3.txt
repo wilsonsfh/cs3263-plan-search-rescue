@@ -1,0 +1,25 @@
+MISSION SHEET
+- Team base and starting point: Chaughada
+- Shelter where evacuees must be delivered: Chaughada
+- Vehicle capacity: 17 people at a time
+- Places on the district map: Chaughada (evacuation point), Shikharbesi (village), Ramche (village), Khanigaun (ward office), Trishuli (health post), Thaprek (road junction), Kaule (road junction), Bhorle (village)
+
+ROAD REGISTER (pre-flood network; usual one-way driving times, roads are two-way)
+- Bhorle–Kaule: 15 min
+- Bhorle–Khanigaun: 10 min
+- Bhorle–Ramche: 20 min
+- Bhorle–Shikharbesi: 20 min
+- Bhorle–Thaprek: 35 min
+- Bhorle–Trishuli: 5 min
+- Chaughada–Shikharbesi: 10 min
+- Chaughada–Trishuli: 10 min
+- Kaule–Thaprek: 15 min
+- Khanigaun–Ramche: 10 min
+- Khanigaun–Trishuli: 20 min
+- Shikharbesi–Trishuli: 15 min
+
+FIELD DISPATCHES (several sources; listed in the order they reached the control room)
+[06:45] Radio Nuwakot FM (local radio, early bulletin): Around 5 people are believed to be stranded in Shikharbesi (unconfirmed estimate). The Home Ministry says relief funds will be released next week. Around 11 people are believed to be stranded in Trishuli (unconfirmed estimate). The Bhorle–Ramche road is still passable this morning, drivers say. Around 9 people are believed to be stranded in Ramche (unconfirmed estimate). Residents of Bhorle were seen on rooftops last night.
+[09:30] District Police Office (situation report): The Khanigaun–Ramche road is under two metres of fast-flowing floodwater. The Bhorle–Shikharbesi road is open but badly waterlogged; driving it now takes double the normal journey time. At the ward office in Khanigaun, an elderly couple and three other adults are waiting to be rescued. The Kaule–Thaprek road is open but badly waterlogged; driving it takes twice the usual time. Unconfirmed posts on social media claim the Chaughada–Trishuli road has been washed away. Livestock losses across the district are reported to be severe.
+[13:15] Sunita Lama, The Himalayan Times (on the ground): Confirmed headcount: At Shikharbesi, one injured person (an old man with a head wound), four children, one senior citizen and two able-bodied adults are waiting to be rescued. Police have checked the Chaughada–Trishuli road: the social media reports were false and the road is open as normal. Hillside collapse: the Bhorle–Trishuli road disappeared under a landslide overnight. Everyone from Bhorle has already been airlifted out. Heavy rain is forecast to continue through the evening. Confirmed headcount: Residents at Ramche say six adults are still there, sheltering on upper floors. Floodwater has turned the road from Bhorle to Ramche into a river, cutting a road that was open earlier today. The suspension bridge on the Chaughada–Shikharbesi route was swept away by the river. Confirmed headcount: Residents at the health post in Trishuli say one injured person (a teenage girl with a fractured arm), two children, three elderly residents and 3 able-bodied adults are still there, sheltering on upper floors.
+Anything not mentioned in these dispatches is in its usual condition, and no one else is known to be stranded.

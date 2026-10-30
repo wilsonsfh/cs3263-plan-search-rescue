@@ -1,0 +1,29 @@
+MISSION SHEET
+- Team base and starting point: Chaughada
+- Shelter where evacuees must be delivered: Chaughada
+- Vehicle capacity: 17 people at a time
+- Places on the district map: Chaughada (evacuation point), Battar (temple), Madanpur (village), Lachyang (temple), Chhap (health post), Dupcheshwar (village)
+
+ROAD REGISTER (pre-flood network; usual one-way driving times, roads are two-way)
+- Battar–Chaughada: 25 min
+- Battar–Chhap: 45 min
+- Battar–Dupcheshwar: 40 min
+- Chaughada–Chhap: 20 min
+- Chaughada–Dupcheshwar: 45 min
+- Chaughada–Madanpur: 15 min
+- Chhap–Lachyang: 10 min
+- Dupcheshwar–Madanpur: 20 min
+
+FIELD REPORT (district control room, 12:00)
+Road status changes since the flood:
+- Battar–Chaughada: BLOCKED
+- Battar–Dupcheshwar: open, travel time now 80 min
+- Chaughada–Chhap: BLOCKED
+- Chhap–Lachyang: open, travel time now 20 min
+All other roads: open, usual travel time.
+People waiting for rescue:
+- Battar: 3 injured, 4 children, 1 elderly, 5 adults
+- Madanpur: 0 injured, 1 children, 2 elderly, 3 adults
+- Lachyang: 0 injured, 3 children, 0 elderly, 1 adults
+- Chhap: 2 injured, 4 children, 0 elderly, 4 adults
+No one is waiting at any other location.

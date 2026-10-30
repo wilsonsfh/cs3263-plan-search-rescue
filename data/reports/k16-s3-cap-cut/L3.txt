@@ -1,0 +1,44 @@
+MISSION SHEET
+- Team base and starting point: Ghyangphedi
+- Shelter where evacuees must be delivered: Ghyangphedi
+- Vehicle capacity: 28 people at a time
+- Places on the district map: Ghyangphedi (evacuation point), Belkot (village), Thaprek (school), Betrawati (health post), Tupche (temple), Bhalche (ward office), Laharepauwa (village), Narjamandap (village), Madanpur (village), Thansing (health post), Lachyang (village), Battar (health post), Ramche (village), Kalikasthan (ward office), Panchakanya (village), Dandagaun (village), Rautbesi (temple), Kumari (village), Kaule (road junction), Chhap (road junction), Dupcheshwar (village)
+
+ROAD REGISTER (pre-flood network; usual one-way driving times, roads are two-way)
+- Battar–Chhap: 10 min
+- Battar–Thansing: 15 min
+- Belkot–Betrawati: 15 min
+- Belkot–Kalikasthan: 20 min
+- Belkot–Laharepauwa: 10 min
+- Betrawati–Lachyang: 15 min
+- Betrawati–Laharepauwa: 10 min
+- Betrawati–Narjamandap: 20 min
+- Bhalche–Dupcheshwar: 5 min
+- Bhalche–Kumari: 20 min
+- Bhalche–Lachyang: 15 min
+- Bhalche–Madanpur: 10 min
+- Bhalche–Panchakanya: 20 min
+- Bhalche–Ramche: 15 min
+- Chhap–Thansing: 10 min
+- Dandagaun–Kumari: 20 min
+- Dandagaun–Thaprek: 15 min
+- Dandagaun–Tupche: 15 min
+- Dupcheshwar–Kaule: 20 min
+- Dupcheshwar–Madanpur: 15 min
+- Dupcheshwar–Panchakanya: 15 min
+- Ghyangphedi–Kumari: 15 min
+- Ghyangphedi–Lachyang: 10 min
+- Ghyangphedi–Narjamandap: 15 min
+- Kaule–Kumari: 10 min
+- Kaule–Thaprek: 35 min
+- Kumari–Tupche: 20 min
+- Laharepauwa–Ramche: 15 min
+- Madanpur–Ramche: 10 min
+- Narjamandap–Rautbesi: 15 min
+- Thansing–Tupche: 20 min
+
+FIELD DISPATCHES (several sources; listed in the order they reached the control room)
+[06:45] Radio Nuwakot FM (local radio, early bulletin): Debris is blocking the Narjamandap–Rautbesi road. Debris is blocking the Bhalche–Madanpur road. The Betrawati–Laharepauwa road is still passable this morning, drivers say. Around 9 people are believed to be stranded in Kalikasthan (unconfirmed estimate). Debris is blocking the Dupcheshwar–Madanpur road. Around 10 people are believed to be stranded in Thaprek (unconfirmed estimate). Around 6 people are believed to be stranded in Belkot (unconfirmed estimate). Around 10 people are believed to be stranded in Panchakanya (unconfirmed estimate). Heavy rain is forecast to continue through the evening. Residents of Kumari were seen on rooftops last night. Debris is blocking the Laharepauwa–Ramche road. The Battar–Thansing road is still passable this morning, drivers say. Around 6 people are believed to be stranded in Dandagaun (unconfirmed estimate). Around 11 people are believed to be stranded in Rautbesi (unconfirmed estimate). Residents of Dupcheshwar were seen on rooftops last night. The Ghyangphedi–Kumari road is still passable this morning, drivers say. The Bhalche–Lachyang road is still passable this morning, drivers say. Debris is blocking the Bhalche–Ramche road. Around 8 people are believed to be stranded in Battar (unconfirmed estimate). Debris is blocking the Belkot–Laharepauwa road. Debris is blocking the Bhalche–Kumari road. Debris is blocking the Dupcheshwar–Kaule road. Debris is blocking the Dupcheshwar–Panchakanya road. Around 11 people are believed to be stranded in Lachyang (unconfirmed estimate). Debris is blocking the Thansing–Tupche road. Around 9 people are believed to be stranded in Ramche (unconfirmed estimate).
+[09:30] District Police Office (situation report): A government helicopter was seen flying north this morning but did not land. Stranded at the ward office in Bhalche: one injured person (an old man with a head wound), three schoolchildren and two other adults. Stranded at the temple in Tupche: two injured people (a young boy with a badly sprained ankle and a teenage girl with a fractured arm), 2 elderly residents and 5 able-bodied adults. The Battar–Chhap road is open but badly waterlogged; driving it adds 20 minutes to the usual journey. The Bhalche–Dupcheshwar road is under two metres of fast-flowing floodwater. The Kaule–Thaprek road is open but badly waterlogged; driving it adds 15 minutes to the usual journey. The Kumari–Tupche road is open but badly waterlogged; driving it adds a quarter of an hour to the usual journey. Our team counted one injured person (a man with a crushed foot), four children, 3 senior citizens and six able-bodied adults at the health post in Betrawati, all needing evacuation. At Laharepauwa, three injured people (a woman with burns on her arms, a man with a crushed foot and a teenage girl with a fractured arm), 4 children, 2 elderly residents and two able-bodied adults are waiting to be rescued.
+[13:15] Sunita Lama, The Himalayan Times (on the ground): Debris has completely choked the road between Dandagaun and Thaprek. The Dandagaun–Kumari road is open but badly waterlogged; driving it takes twice the usual time. Confirmed headcount: At Panchakanya, a baby, two elderly residents and five other adults are waiting to be rescued. The suspension bridge on the Battar–Thansing route was swept away by the river, cutting a road that was open earlier today. Confirmed headcount: Stranded at the health post in Battar: one injured person (an old man with a head wound), three schoolchildren and six able-bodied adults. The Thansing–Tupche road has been reopened after bulldozers removed the debris; travel times are back to normal. Confirmed headcount: Residents at Belkot say one child and two uninjured adults are still there, sheltering on upper floors. Army engineers have cleared the debris on the Bhalche–Ramche road; it is open again at normal speed. The Bhalche–Lachyang road is under two metres of fast-flowing floodwater, cutting a road that was open earlier today. Dupcheshwar was fully evacuated by the army yesterday; no one remains there. Army engineers have cleared the debris on the Dupcheshwar–Kaule road; it is open again at normal speed. Confirmed headcount: Our team counted four schoolchildren and two able-bodied adults at the school in Thaprek, all needing evacuation. Residents at Madanpur say three injured people (an old man with a head wound, a child with a deep gash on his leg and a teenage girl with a fractured arm) and 6 able-bodied adults are still there, sheltering on upper floors. Livestock losses across the district are reported to be severe. Floodwater has turned the road from Betrawati to Laharepauwa into a river, cutting a road that was open earlier today. The Dupcheshwar–Panchakanya road has been reopened after bulldozers removed the debris; travel times are back to normal. Confirmed headcount: Residents at the temple in Rautbesi say one injured person (an old man with a head wound), four children, two elderly residents and 2 uninjured adults are still there, sheltering on upper floors. Our team counted an elderly couple and four uninjured adults at Narjamandap, all needing evacuation. The Laharepauwa–Ramche road has been reopened after bulldozers removed the debris; travel times are back to normal. Confirmed headcount: Stranded at Ramche: two injured people (a child with a deep gash on his leg and an old man with a head wound), 4 schoolchildren, one senior citizen and five able-bodied adults. Army engineers have cleared the debris on the Bhalche–Madanpur road; it is open again at normal speed. Confirmed headcount: Stranded at the ward office in Kalikasthan: three children, two senior citizens and 6 other adults. Kumari was fully evacuated by the army yesterday; no one remains there. Army engineers have cleared the debris on the Dupcheshwar–Madanpur road; it is open again at normal speed. The Narjamandap–Rautbesi road has been reopened after bulldozers removed the debris; travel times are back to normal. At the health post in Thansing, two injured people (a man with a crushed foot and a young boy with a badly sprained ankle), four children and half a dozen other adults are waiting to be rescued. Confirmed headcount: Our team counted two schoolchildren and two uninjured adults at Dandagaun, all needing evacuation. Confirmed headcount: Stranded at Lachyang: four children and three uninjured adults. Hillside collapse: the Belkot–Kalikasthan road disappeared under a landslide overnight. Army engineers have cleared the debris on the Belkot–Laharepauwa road; it is open again at normal speed. The only bridge linking Ghyangphedi and Kumari has collapsed, cutting a road that was open earlier today. The Dandagaun–Tupche road is open but badly waterlogged; driving it now takes double the normal journey time. The Bhalche–Kumari road has been reopened after bulldozers removed the debris; travel times are back to normal.
+Anything not mentioned in these dispatches is in its usual condition, and no one else is known to be stranded.

@@ -1,0 +1,227 @@
+{
+ "start": "Panchakanya",
+ "shelter": "Panchakanya",
+ "capacity": null,
+ "locations": [
+  {
+   "name": "Panchakanya",
+   "kind": "evacuation point"
+  },
+  {
+   "name": "Gerkhu",
+   "kind": "temple"
+  },
+  {
+   "name": "Bhalche",
+   "kind": "health post"
+  },
+  {
+   "name": "Meghang",
+   "kind": "school"
+  },
+  {
+   "name": "Samundratar",
+   "kind": "temple"
+  },
+  {
+   "name": "Battar",
+   "kind": "school"
+  },
+  {
+   "name": "Kakani",
+   "kind": "village"
+  },
+  {
+   "name": "Laharepauwa",
+   "kind": "health post"
+  },
+  {
+   "name": "Madanpur",
+   "kind": "health post"
+  },
+  {
+   "name": "Betrawati",
+   "kind": "road junction"
+  }
+ ],
+ "roads": [
+  {
+   "between": [
+    "Battar",
+    "Kakani"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Battar",
+    "Laharepauwa"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Betrawati",
+    "Gerkhu"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Betrawati",
+    "Kakani"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Betrawati",
+    "Samundratar"
+   ],
+   "minutes": 10,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Bhalche",
+    "Madanpur"
+   ],
+   "minutes": 30,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Bhalche",
+    "Meghang"
+   ],
+   "minutes": 35,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Bhalche",
+    "Panchakanya"
+   ],
+   "minutes": 50,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Gerkhu",
+    "Kakani"
+   ],
+   "minutes": 25,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Gerkhu",
+    "Samundratar"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kakani",
+    "Laharepauwa"
+   ],
+   "minutes": 15,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Laharepauwa",
+    "Meghang"
+   ],
+   "minutes": 30,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Laharepauwa",
+    "Panchakanya"
+   ],
+   "minutes": 30,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Madanpur",
+    "Meghang"
+   ],
+   "minutes": 25,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Madanpur",
+    "Panchakanya"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Meghang",
+    "Panchakanya"
+   ],
+   "minutes": 15,
+   "status": "blocked"
+  }
+ ],
+ "people": {
+  "Gerkhu": {
+   "injured": 0,
+   "children": 0,
+   "elderly": 0,
+   "adults": 1
+  },
+  "Bhalche": {
+   "injured": 3,
+   "children": 1,
+   "elderly": 2,
+   "adults": 6
+  },
+  "Meghang": {
+   "injured": 0,
+   "children": 9,
+   "elderly": 1,
+   "adults": 1
+  },
+  "Samundratar": {
+   "injured": 1,
+   "children": 3,
+   "elderly": 0,
+   "adults": 5
+  },
+  "Battar": {
+   "injured": 3,
+   "children": 6,
+   "elderly": 1,
+   "adults": 2
+  },
+  "Kakani": {
+   "injured": 0,
+   "children": 1,
+   "elderly": 0,
+   "adults": 3
+  },
+  "Laharepauwa": {
+   "injured": 0,
+   "children": 0,
+   "elderly": 3,
+   "adults": 3
+  },
+  "Madanpur": {
+   "injured": 1,
+   "children": 2,
+   "elderly": 0,
+   "adults": 1
+  }
+ }
+}

@@ -1,0 +1,36 @@
+MISSION SHEET
+- Team base and starting point: Thaprek
+- Shelter where evacuees must be delivered: Thaprek
+- Vehicle capacity: no practical limit (enough vehicles to carry everyone at once)
+- Places on the district map: Thaprek (evacuation point), Dhaibung (temple), Khanigaun (village), Ramche (temple), Shikharbesi (ward office), Belkot (village), Laharepauwa (ward office), Tupche (temple), Betrawati (temple), Kaule (village), Lachyang (village), Chhap (village), Okharpauwa (temple), Sundaradevi (village), Chaughada (temple), Kumari (temple), Taruka (village), Jiling (road junction)
+
+ROAD REGISTER (pre-flood network; usual one-way driving times, roads are two-way)
+- Belkot–Dhaibung: 10 min
+- Belkot–Kaule: 10 min
+- Belkot–Khanigaun: 10 min
+- Betrawati–Okharpauwa: 20 min
+- Betrawati–Ramche: 10 min
+- Betrawati–Shikharbesi: 10 min
+- Betrawati–Taruka: 10 min
+- Betrawati–Tupche: 25 min
+- Chaughada–Laharepauwa: 25 min
+- Chhap–Okharpauwa: 15 min
+- Jiling–Lachyang: 20 min
+- Jiling–Sundaradevi: 15 min
+- Kaule–Laharepauwa: 10 min
+- Kaule–Thaprek: 15 min
+- Kumari–Laharepauwa: 15 min
+- Kumari–Thaprek: 10 min
+- Lachyang–Shikharbesi: 15 min
+- Lachyang–Sundaradevi: 10 min
+- Ramche–Shikharbesi: 10 min
+- Ramche–Thaprek: 10 min
+- Shikharbesi–Sundaradevi: 30 min
+- Shikharbesi–Tupche: 40 min
+- Taruka–Tupche: 15 min
+
+FIELD DISPATCHES (several sources; listed in the order they reached the control room)
+[09:30] District Police Office (situation report): The Ramche–Shikharbesi road is open but badly waterlogged; driving it now takes double the normal journey time. The Jiling–Sundaradevi road is open but badly waterlogged; driving it now takes double the normal journey time. The Home Ministry says relief funds will be released next week. Stranded at Sundaradevi: an elderly couple and three uninjured adults. Stranded at Taruka: three elderly residents and six able-bodied adults. At the temple in Dhaibung, one injured person (an elderly woman with a broken hip) and one uninjured adult are waiting to be rescued. Residents at the ward office in Shikharbesi say three senior citizens and six other adults are still there, sheltering on upper floors. The Betrawati–Taruka road is under two metres of fast-flowing floodwater. The Belkot–Khanigaun road is open but badly waterlogged; driving it takes twice the usual time. Floodwater has turned the road from Kumari to Thaprek into a river.
+[13:15] Sunita Lama, The Himalayan Times (on the ground): Confirmed headcount: At Lachyang, two senior citizens and three other adults are waiting to be rescued. The Shikharbesi–Tupche road is open but badly waterlogged; driving it now takes double the normal journey time. Confirmed headcount: Our team counted three injured people (a teenage girl with a fractured arm, a young boy with a badly sprained ankle and a woman with burns on her arms), three senior citizens and half a dozen other adults at the temple in Kumari, all needing evacuation. The Betrawati–Tupche road is under two metres of fast-flowing floodwater, cutting a road that was open earlier today. Residents at the temple in Betrawati say four schoolchildren and three able-bodied adults are still there, sheltering on upper floors. A landslide has buried the road between Lachyang and Sundaradevi under metres of mud, cutting a road that was open earlier today. Stranded at Kaule: one senior citizen and 1 able-bodied adult. The Kaule–Thaprek road has been reopened after bulldozers removed the debris; travel times are back to normal. In Kathmandu, schools have been closed for three days as a precaution. Confirmed headcount: At Khanigaun, a baby and two uninjured adults are waiting to be rescued. Stranded at Chhap: two children, an old man and four uninjured adults. Confirmed headcount: Our team counted three injured people (a child with a deep gash on his leg, a pregnant woman who was hit by debris and an elderly woman with a broken hip) and two able-bodied adults at the ward office in Laharepauwa, all needing evacuation. Floodwater has turned the road from Lachyang to Shikharbesi into a river, cutting a road that was open earlier today. Stranded at the temple in Tupche: 5 adults. Confirmed headcount: At Belkot, two injured people (a man with a crushed foot and a pregnant woman who was hit by debris), four children and five other adults are waiting to be rescued. Confirmed headcount: Our team counted two schoolchildren, two elderly residents and 5 other adults at the temple in Okharpauwa, all needing evacuation. The Shikharbesi–Sundaradevi road is open but badly waterlogged; driving it adds 20 minutes to the usual journey. Hillside collapse: the Betrawati–Ramche road disappeared under a landslide overnight. Residents at the temple in Chaughada say two injured people (a young boy with a badly sprained ankle and an elderly woman with a broken hip), three children, two senior citizens and 3 uninjured adults are still there, sheltering on upper floors. The Kaule–Laharepauwa road has been reopened after bulldozers removed the debris; travel times are back to normal. Confirmed headcount: Residents at the temple in Ramche say two injured people (a woman with burns on her arms and a pregnant woman who was hit by debris) and four uninjured adults are still there, sheltering on upper floors.
+[06:45] Radio Nuwakot FM (local radio, early bulletin): Around 8 people are believed to be stranded in Laharepauwa (unconfirmed estimate). The Lachyang–Sundaradevi road is still passable this morning, drivers say. Around 15 people are believed to be stranded in Belkot (unconfirmed estimate). Around 14 people are believed to be stranded in Kumari (unconfirmed estimate). Debris is blocking the Kaule–Thaprek road. The Betrawati–Tupche road is still passable this morning, drivers say. Around 13 people are believed to be stranded in Okharpauwa (unconfirmed estimate). Debris is blocking the Kaule–Laharepauwa road. Heavy rain is forecast to continue through the evening. The Lachyang–Shikharbesi road is still passable this morning, drivers say. Around 3 people are believed to be stranded in Ramche (unconfirmed estimate). Around 3 people are believed to be stranded in Lachyang (unconfirmed estimate). Around 1 people are believed to be stranded in Khanigaun (unconfirmed estimate).
+Anything not mentioned in these dispatches is in its usual condition, and no one else is known to be stranded.

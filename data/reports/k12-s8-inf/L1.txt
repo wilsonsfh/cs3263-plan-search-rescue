@@ -1,0 +1,56 @@
+MISSION SHEET
+- Team base and starting point: Betrawati
+- Shelter where evacuees must be delivered: Betrawati
+- Vehicle capacity: no practical limit (enough vehicles to carry everyone at once)
+- Places on the district map: Betrawati (evacuation point), Trishuli (school), Ghyangphedi (village), Haku (village), Chaughada (village), Tadi (village), Sundaradevi (health post), Madanpur (village), Thaprek (village), Kalikasthan (village), Battar (village), Bageshwari (health post), Meghang (village), Belkot (village), Bhalche (village)
+
+ROAD REGISTER (pre-flood network; usual one-way driving times, roads are two-way)
+- Bageshwari–Ghyangphedi: 10 min
+- Bageshwari–Haku: 20 min
+- Bageshwari–Sundaradevi: 15 min
+- Bageshwari–Tadi: 20 min
+- Battar–Bhalche: 20 min
+- Battar–Meghang: 15 min
+- Belkot–Chaughada: 25 min
+- Belkot–Tadi: 10 min
+- Betrawati–Ghyangphedi: 10 min
+- Betrawati–Kalikasthan: 20 min
+- Betrawati–Madanpur: 10 min
+- Bhalche–Chaughada: 10 min
+- Bhalche–Thaprek: 10 min
+- Chaughada–Madanpur: 5 min
+- Chaughada–Thaprek: 10 min
+- Ghyangphedi–Haku: 25 min
+- Ghyangphedi–Madanpur: 15 min
+- Ghyangphedi–Sundaradevi: 20 min
+- Haku–Sundaradevi: 15 min
+- Kalikasthan–Meghang: 10 min
+- Kalikasthan–Trishuli: 15 min
+- Meghang–Trishuli: 15 min
+
+FIELD REPORT (district control room, 12:00)
+Road status changes since the flood:
+- Bageshwari–Ghyangphedi: BLOCKED
+- Bageshwari–Haku: open, travel time now 35 min
+- Battar–Bhalche: BLOCKED
+- Betrawati–Madanpur: BLOCKED
+- Bhalche–Chaughada: open, travel time now 20 min
+- Chaughada–Madanpur: BLOCKED
+- Chaughada–Thaprek: BLOCKED
+- Kalikasthan–Meghang: open, travel time now 20 min
+- Kalikasthan–Trishuli: open, travel time now 30 min
+All other roads: open, usual travel time.
+People waiting for rescue:
+- Trishuli: 0 injured, 6 children, 2 elderly, 1 adults
+- Ghyangphedi: 0 injured, 4 children, 0 elderly, 6 adults
+- Haku: 0 injured, 3 children, 0 elderly, 1 adults
+- Chaughada: 0 injured, 1 children, 0 elderly, 5 adults
+- Tadi: 0 injured, 2 children, 1 elderly, 2 adults
+- Sundaradevi: 0 injured, 1 children, 0 elderly, 3 adults
+- Madanpur: 0 injured, 3 children, 0 elderly, 5 adults
+- Thaprek: 2 injured, 1 children, 3 elderly, 3 adults
+- Kalikasthan: 1 injured, 4 children, 0 elderly, 1 adults
+- Battar: 0 injured, 4 children, 3 elderly, 5 adults
+- Bageshwari: 0 injured, 0 children, 2 elderly, 2 adults
+- Meghang: 0 injured, 2 children, 1 elderly, 2 adults
+No one is waiting at any other location.

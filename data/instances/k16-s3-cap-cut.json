@@ -1,0 +1,530 @@
+{
+  "id": "k16-s3-cap-cut",
+  "locations": [
+    {
+      "id": "ghyangphedi",
+      "name": "Ghyangphedi",
+      "kind": "base"
+    },
+    {
+      "id": "belkot",
+      "name": "Belkot",
+      "kind": "village"
+    },
+    {
+      "id": "thaprek",
+      "name": "Thaprek",
+      "kind": "school"
+    },
+    {
+      "id": "betrawati",
+      "name": "Betrawati",
+      "kind": "health_post"
+    },
+    {
+      "id": "tupche",
+      "name": "Tupche",
+      "kind": "temple"
+    },
+    {
+      "id": "bhalche",
+      "name": "Bhalche",
+      "kind": "ward_office"
+    },
+    {
+      "id": "laharepauwa",
+      "name": "Laharepauwa",
+      "kind": "village"
+    },
+    {
+      "id": "narjamandap",
+      "name": "Narjamandap",
+      "kind": "village"
+    },
+    {
+      "id": "madanpur",
+      "name": "Madanpur",
+      "kind": "village"
+    },
+    {
+      "id": "thansing",
+      "name": "Thansing",
+      "kind": "health_post"
+    },
+    {
+      "id": "lachyang",
+      "name": "Lachyang",
+      "kind": "village"
+    },
+    {
+      "id": "battar",
+      "name": "Battar",
+      "kind": "health_post"
+    },
+    {
+      "id": "ramche",
+      "name": "Ramche",
+      "kind": "village"
+    },
+    {
+      "id": "kalikasthan",
+      "name": "Kalikasthan",
+      "kind": "ward_office"
+    },
+    {
+      "id": "panchakanya",
+      "name": "Panchakanya",
+      "kind": "village"
+    },
+    {
+      "id": "dandagaun",
+      "name": "Dandagaun",
+      "kind": "village"
+    },
+    {
+      "id": "rautbesi",
+      "name": "Rautbesi",
+      "kind": "temple"
+    },
+    {
+      "id": "kumari",
+      "name": "Kumari",
+      "kind": "evacuated_village"
+    },
+    {
+      "id": "kaule",
+      "name": "Kaule",
+      "kind": "junction"
+    },
+    {
+      "id": "chhap",
+      "name": "Chhap",
+      "kind": "junction"
+    },
+    {
+      "id": "dupcheshwar",
+      "name": "Dupcheshwar",
+      "kind": "evacuated_village"
+    }
+  ],
+  "roads": [
+    {
+      "u": "battar",
+      "v": "chhap",
+      "minutes": 30,
+      "open": true,
+      "base_minutes": 10,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "battar",
+      "v": "thansing",
+      "minutes": 15,
+      "open": false,
+      "base_minutes": null,
+      "cause": "bridge",
+      "history": [
+        "open",
+        "blocked"
+      ]
+    },
+    {
+      "u": "belkot",
+      "v": "betrawati",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "belkot",
+      "v": "kalikasthan",
+      "minutes": 20,
+      "open": false,
+      "base_minutes": null,
+      "cause": "landslide",
+      "history": []
+    },
+    {
+      "u": "belkot",
+      "v": "laharepauwa",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "blocked",
+        "cleared"
+      ]
+    },
+    {
+      "u": "betrawati",
+      "v": "lachyang",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "betrawati",
+      "v": "laharepauwa",
+      "minutes": 10,
+      "open": false,
+      "base_minutes": null,
+      "cause": "submerged",
+      "history": [
+        "open",
+        "blocked"
+      ]
+    },
+    {
+      "u": "betrawati",
+      "v": "narjamandap",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "bhalche",
+      "v": "dupcheshwar",
+      "minutes": 5,
+      "open": false,
+      "base_minutes": null,
+      "cause": "submerged",
+      "history": []
+    },
+    {
+      "u": "bhalche",
+      "v": "kumari",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "blocked",
+        "cleared"
+      ]
+    },
+    {
+      "u": "bhalche",
+      "v": "lachyang",
+      "minutes": 15,
+      "open": false,
+      "base_minutes": null,
+      "cause": "submerged",
+      "history": [
+        "open",
+        "blocked"
+      ]
+    },
+    {
+      "u": "bhalche",
+      "v": "madanpur",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "blocked",
+        "cleared"
+      ]
+    },
+    {
+      "u": "bhalche",
+      "v": "panchakanya",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "bhalche",
+      "v": "ramche",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "blocked",
+        "cleared"
+      ]
+    },
+    {
+      "u": "chhap",
+      "v": "thansing",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "dandagaun",
+      "v": "kumari",
+      "minutes": 40,
+      "open": true,
+      "base_minutes": 20,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "dandagaun",
+      "v": "thaprek",
+      "minutes": 15,
+      "open": false,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": []
+    },
+    {
+      "u": "dandagaun",
+      "v": "tupche",
+      "minutes": 30,
+      "open": true,
+      "base_minutes": 15,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "dupcheshwar",
+      "v": "kaule",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "blocked",
+        "cleared"
+      ]
+    },
+    {
+      "u": "dupcheshwar",
+      "v": "madanpur",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "blocked",
+        "cleared"
+      ]
+    },
+    {
+      "u": "dupcheshwar",
+      "v": "panchakanya",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "blocked",
+        "cleared"
+      ]
+    },
+    {
+      "u": "ghyangphedi",
+      "v": "kumari",
+      "minutes": 15,
+      "open": false,
+      "base_minutes": null,
+      "cause": "bridge",
+      "history": [
+        "open",
+        "blocked"
+      ]
+    },
+    {
+      "u": "ghyangphedi",
+      "v": "lachyang",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "ghyangphedi",
+      "v": "narjamandap",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "kaule",
+      "v": "kumari",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "kaule",
+      "v": "thaprek",
+      "minutes": 50,
+      "open": true,
+      "base_minutes": 35,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "kumari",
+      "v": "tupche",
+      "minutes": 35,
+      "open": true,
+      "base_minutes": 20,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "laharepauwa",
+      "v": "ramche",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "blocked",
+        "cleared"
+      ]
+    },
+    {
+      "u": "madanpur",
+      "v": "ramche",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "narjamandap",
+      "v": "rautbesi",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "blocked",
+        "cleared"
+      ]
+    },
+    {
+      "u": "thansing",
+      "v": "tupche",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "blocked",
+        "cleared"
+      ]
+    }
+  ],
+  "people": {
+    "belkot": {
+      "children": 1,
+      "adults": 2
+    },
+    "thaprek": {
+      "children": 4,
+      "adults": 2
+    },
+    "betrawati": {
+      "injured": 1,
+      "children": 4,
+      "elderly": 3,
+      "adults": 6
+    },
+    "tupche": {
+      "injured": 2,
+      "elderly": 2,
+      "adults": 5
+    },
+    "bhalche": {
+      "injured": 1,
+      "children": 3,
+      "adults": 2
+    },
+    "laharepauwa": {
+      "injured": 3,
+      "children": 4,
+      "elderly": 2,
+      "adults": 2
+    },
+    "narjamandap": {
+      "elderly": 2,
+      "adults": 4
+    },
+    "madanpur": {
+      "injured": 3,
+      "adults": 6
+    },
+    "thansing": {
+      "injured": 2,
+      "children": 4,
+      "adults": 6
+    },
+    "lachyang": {
+      "children": 4,
+      "adults": 3
+    },
+    "battar": {
+      "injured": 1,
+      "children": 3,
+      "adults": 6
+    },
+    "ramche": {
+      "injured": 2,
+      "children": 4,
+      "elderly": 1,
+      "adults": 5
+    },
+    "kalikasthan": {
+      "children": 3,
+      "elderly": 2,
+      "adults": 6
+    },
+    "panchakanya": {
+      "children": 1,
+      "elderly": 2,
+      "adults": 5
+    },
+    "dandagaun": {
+      "children": 2,
+      "adults": 2
+    },
+    "rautbesi": {
+      "injured": 1,
+      "children": 4,
+      "elderly": 2,
+      "adults": 2
+    }
+  },
+  "start": "ghyangphedi",
+  "shelter": "ghyangphedi",
+  "capacity": 28,
+  "priority": "tiered",
+  "meta": {
+    "k": 16,
+    "seed": 3,
+    "extra_nodes": 4,
+    "n_roads": 31,
+    "n_blocked": 7,
+    "n_slowed": 5,
+    "cut_off": "kalikasthan",
+    "capacity_mode": "tight",
+    "split": "dev",
+    "rep": 0,
+    "condition": "tight-cut"
+  }
+}

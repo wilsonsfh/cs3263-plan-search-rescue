@@ -1,0 +1,34 @@
+MISSION SHEET
+- Team base and starting point: Laharepauwa
+- Shelter where evacuees must be delivered: Laharepauwa
+- Vehicle capacity: no practical limit (enough vehicles to carry everyone at once)
+- Places on the district map: Laharepauwa (evacuation point), Belkot (village), Goljung (village), Thulogaun (village), Likhu (ward office), Dupcheshwar (health post), Bageshwari (village), Kalikasthan (village), Ghyangphedi (village), Kakani (road junction), Okharpauwa (village), Madanpur (road junction), Suryagadhi (village)
+
+ROAD REGISTER (pre-flood network; usual one-way driving times, roads are two-way)
+- Bageshwari–Kakani: 10 min
+- Bageshwari–Laharepauwa: 15 min
+- Bageshwari–Likhu: 35 min
+- Bageshwari–Thulogaun: 10 min
+- Belkot–Okharpauwa: 10 min
+- Dupcheshwar–Thulogaun: 5 min
+- Ghyangphedi–Goljung: 20 min
+- Ghyangphedi–Kalikasthan: 5 min
+- Ghyangphedi–Laharepauwa: 10 min
+- Ghyangphedi–Madanpur: 25 min
+- Ghyangphedi–Suryagadhi: 30 min
+- Goljung–Kalikasthan: 5 min
+- Goljung–Laharepauwa: 25 min
+- Goljung–Madanpur: 25 min
+- Kakani–Laharepauwa: 5 min
+- Kakani–Suryagadhi: 15 min
+- Kakani–Thulogaun: 20 min
+- Kalikasthan–Laharepauwa: 20 min
+- Kalikasthan–Madanpur: 20 min
+- Likhu–Thulogaun: 40 min
+- Okharpauwa–Thulogaun: 10 min
+
+FIELD DISPATCHES (several sources; listed in the order they reached the control room)
+[13:15] Sunita Lama, The Himalayan Times (on the ground): Okharpauwa was fully evacuated by the army yesterday; no one remains there. Confirmed headcount: At Kalikasthan, three elderly residents and 4 uninjured adults are waiting to be rescued. Mobile networks remain patchy across the district. The Ghyangphedi–Laharepauwa road is under two metres of fast-flowing floodwater. Our team counted three injured people (an old man with a head wound, a child with a deep gash on his leg and a pregnant woman who was hit by debris), four children and four able-bodied adults at the health post in Dupcheshwar, all needing evacuation. Police have checked the Dupcheshwar–Thulogaun road: the social media reports were false and the road is open as normal. The Bageshwari–Thulogaun road is open but badly waterlogged; driving it takes twice the usual time. Army engineers have cleared the debris on the Bageshwari–Likhu road; it is open again at normal speed. Confirmed headcount: Stranded at Belkot: an old man and 5 uninjured adults. At the ward office in Likhu, three injured people (a child with a deep gash on his leg, a pregnant woman who was hit by debris and a woman with burns on her arms), four schoolchildren and 4 uninjured adults are waiting to be rescued. Army engineers have cleared the debris on the Ghyangphedi–Goljung road; it is open again at normal speed. The only bridge linking Kakani and Laharepauwa has collapsed. Residents at Goljung say four schoolchildren and one other adult are still there, sheltering on upper floors. Suryagadhi was fully evacuated by the army yesterday; no one remains there. Our team counted 3 injured people (a teenage girl with a fractured arm, an elderly woman with a broken hip and a man with a crushed foot), 2 elderly residents and two uninjured adults at Bageshwari, all needing evacuation. The Goljung–Kalikasthan road is open but badly waterlogged; driving it takes twice the usual time.
+[06:45] Radio Nuwakot FM (local radio, early bulletin): Debris is blocking the Ghyangphedi–Goljung road. Residents of Suryagadhi were seen on rooftops last night. Residents of Okharpauwa were seen on rooftops last night. Around 9 people are believed to be stranded in Kalikasthan (unconfirmed estimate). Debris is blocking the Bageshwari–Likhu road. Around 9 people are believed to be stranded in Belkot (unconfirmed estimate). The Home Ministry says relief funds will be released next week.
+[09:30] District Police Office (situation report): Unconfirmed posts on social media claim the Dupcheshwar–Thulogaun road has been washed away. In Kathmandu, schools have been closed for three days as a precaution. The suspension bridge on the Kakani–Thulogaun route was swept away by the river. The Bageshwari–Laharepauwa road is open but badly waterlogged; driving it adds 20 minutes to the usual journey. Stranded at Thulogaun: one schoolchild and three uninjured adults. Stranded at Ghyangphedi: one child, one elderly resident and four other adults.
+Anything not mentioned in these dispatches is in its usual condition, and no one else is known to be stranded.

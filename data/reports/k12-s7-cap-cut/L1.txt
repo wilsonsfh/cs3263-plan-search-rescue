@@ -1,0 +1,62 @@
+MISSION SHEET
+- Team base and starting point: Haku
+- Shelter where evacuees must be delivered: Haku
+- Vehicle capacity: 17 people at a time
+- Places on the district map: Haku (evacuation point), Kumari (village), Thaprek (village), Bageshwari (health post), Meghang (ward office), Laharepauwa (village), Trishuli (school), Ramche (village), Bidur (health post), Salme (village), Kaule (village), Syaphru (health post), Taruka (village), Battar (village), Kalikasthan (road junction), Chaughada (village), Shikharbesi (road junction)
+
+ROAD REGISTER (pre-flood network; usual one-way driving times, roads are two-way)
+- Bageshwari–Laharepauwa: 20 min
+- Bageshwari–Thaprek: 10 min
+- Battar–Ramche: 10 min
+- Battar–Salme: 10 min
+- Battar–Trishuli: 20 min
+- Bidur–Kalikasthan: 20 min
+- Bidur–Shikharbesi: 20 min
+- Chaughada–Haku: 20 min
+- Chaughada–Kumari: 15 min
+- Chaughada–Taruka: 15 min
+- Haku–Kalikasthan: 20 min
+- Haku–Syaphru: 10 min
+- Haku–Taruka: 10 min
+- Kalikasthan–Salme: 20 min
+- Kalikasthan–Shikharbesi: 10 min
+- Kalikasthan–Syaphru: 15 min
+- Kaule–Syaphru: 20 min
+- Kumari–Meghang: 25 min
+- Laharepauwa–Taruka: 20 min
+- Laharepauwa–Thaprek: 15 min
+- Meghang–Trishuli: 15 min
+- Ramche–Salme: 10 min
+- Ramche–Trishuli: 15 min
+- Salme–Trishuli: 10 min
+- Shikharbesi–Syaphru: 10 min
+- Syaphru–Taruka: 15 min
+- Taruka–Thaprek: 15 min
+
+FIELD REPORT (district control room, 12:00)
+Road status changes since the flood:
+- Battar–Salme: BLOCKED
+- Bidur–Shikharbesi: open, travel time now 40 min
+- Chaughada–Haku: BLOCKED
+- Chaughada–Kumari: BLOCKED
+- Haku–Taruka: BLOCKED
+- Kaule–Syaphru: BLOCKED
+- Kumari–Meghang: open, travel time now 45 min
+- Meghang–Trishuli: open, travel time now 25 min
+- Ramche–Salme: BLOCKED
+- Salme–Trishuli: open, travel time now 20 min
+All other roads: open, usual travel time.
+People waiting for rescue:
+- Kumari: 0 injured, 1 children, 2 elderly, 3 adults
+- Thaprek: 1 injured, 2 children, 1 elderly, 3 adults
+- Bageshwari: 2 injured, 4 children, 3 elderly, 5 adults
+- Meghang: 3 injured, 2 children, 3 elderly, 3 adults
+- Laharepauwa: 1 injured, 4 children, 2 elderly, 5 adults
+- Trishuli: 0 injured, 4 children, 0 elderly, 1 adults
+- Ramche: 0 injured, 3 children, 1 elderly, 4 adults
+- Bidur: 3 injured, 0 children, 2 elderly, 3 adults
+- Salme: 3 injured, 0 children, 3 elderly, 4 adults
+- Kaule: 0 injured, 4 children, 0 elderly, 4 adults
+- Syaphru: 0 injured, 1 children, 0 elderly, 5 adults
+- Taruka: 1 injured, 1 children, 0 elderly, 1 adults
+No one is waiting at any other location.

@@ -1,0 +1,335 @@
+{
+  "id": "k12-s6-inf-cut",
+  "locations": [
+    {
+      "id": "haku",
+      "name": "Haku",
+      "kind": "base"
+    },
+    {
+      "id": "kispang",
+      "name": "Kispang",
+      "kind": "school"
+    },
+    {
+      "id": "lachyang",
+      "name": "Lachyang",
+      "kind": "village"
+    },
+    {
+      "id": "laharepauwa",
+      "name": "Laharepauwa",
+      "kind": "village"
+    },
+    {
+      "id": "narjamandap",
+      "name": "Narjamandap",
+      "kind": "village"
+    },
+    {
+      "id": "bidur",
+      "name": "Bidur",
+      "kind": "village"
+    },
+    {
+      "id": "tadi",
+      "name": "Tadi",
+      "kind": "temple"
+    },
+    {
+      "id": "suryagadhi",
+      "name": "Suryagadhi",
+      "kind": "temple"
+    },
+    {
+      "id": "taruka",
+      "name": "Taruka",
+      "kind": "village"
+    },
+    {
+      "id": "kaule",
+      "name": "Kaule",
+      "kind": "temple"
+    },
+    {
+      "id": "bageshwari",
+      "name": "Bageshwari",
+      "kind": "school"
+    },
+    {
+      "id": "shikharbesi",
+      "name": "Shikharbesi",
+      "kind": "school"
+    },
+    {
+      "id": "ramche",
+      "name": "Ramche",
+      "kind": "village"
+    },
+    {
+      "id": "salme",
+      "name": "Salme",
+      "kind": "junction"
+    }
+  ],
+  "roads": [
+    {
+      "u": "bageshwari",
+      "v": "tadi",
+      "minutes": 10,
+      "open": false,
+      "base_minutes": null,
+      "cause": "landslide",
+      "history": []
+    },
+    {
+      "u": "bidur",
+      "v": "lachyang",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "bidur",
+      "v": "salme",
+      "minutes": 30,
+      "open": true,
+      "base_minutes": 15,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "bidur",
+      "v": "taruka",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "haku",
+      "v": "laharepauwa",
+      "minutes": 20,
+      "open": false,
+      "base_minutes": null,
+      "cause": "submerged",
+      "history": []
+    },
+    {
+      "u": "haku",
+      "v": "narjamandap",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "haku",
+      "v": "taruka",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "kaule",
+      "v": "kispang",
+      "minutes": 25,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "kaule",
+      "v": "lachyang",
+      "minutes": 40,
+      "open": true,
+      "base_minutes": 20,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "kaule",
+      "v": "taruka",
+      "minutes": 25,
+      "open": false,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": []
+    },
+    {
+      "u": "kispang",
+      "v": "lachyang",
+      "minutes": 20,
+      "open": false,
+      "base_minutes": null,
+      "cause": "landslide",
+      "history": [
+        "open",
+        "blocked"
+      ]
+    },
+    {
+      "u": "kispang",
+      "v": "taruka",
+      "minutes": 5,
+      "open": false,
+      "base_minutes": null,
+      "cause": "submerged",
+      "history": []
+    },
+    {
+      "u": "laharepauwa",
+      "v": "ramche",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": 5,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "laharepauwa",
+      "v": "suryagadhi",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "blocked",
+        "cleared"
+      ]
+    },
+    {
+      "u": "narjamandap",
+      "v": "shikharbesi",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "blocked",
+        "cleared"
+      ]
+    },
+    {
+      "u": "narjamandap",
+      "v": "suryagadhi",
+      "minutes": 15,
+      "open": false,
+      "base_minutes": null,
+      "cause": "submerged",
+      "history": [
+        "open",
+        "blocked"
+      ]
+    },
+    {
+      "u": "ramche",
+      "v": "suryagadhi",
+      "minutes": 40,
+      "open": true,
+      "base_minutes": 25,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "shikharbesi",
+      "v": "suryagadhi",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "shikharbesi",
+      "v": "tadi",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    }
+  ],
+  "people": {
+    "kispang": {
+      "injured": 1,
+      "children": 3,
+      "elderly": 2,
+      "adults": 1
+    },
+    "lachyang": {
+      "children": 3,
+      "elderly": 3,
+      "adults": 6
+    },
+    "laharepauwa": {
+      "injured": 2,
+      "elderly": 2,
+      "adults": 4
+    },
+    "narjamandap": {
+      "children": 4,
+      "adults": 1
+    },
+    "bidur": {
+      "elderly": 1,
+      "adults": 4
+    },
+    "tadi": {
+      "children": 2,
+      "adults": 4
+    },
+    "suryagadhi": {
+      "children": 2,
+      "elderly": 1,
+      "adults": 6
+    },
+    "taruka": {
+      "children": 3,
+      "elderly": 1,
+      "adults": 4
+    },
+    "kaule": {
+      "injured": 3,
+      "children": 1,
+      "adults": 2
+    },
+    "bageshwari": {
+      "children": 3,
+      "elderly": 1,
+      "adults": 2
+    },
+    "shikharbesi": {
+      "children": 7,
+      "elderly": 3,
+      "adults": 1
+    },
+    "ramche": {
+      "adults": 1
+    }
+  },
+  "start": "haku",
+  "shelter": "haku",
+  "capacity": null,
+  "priority": "tiered",
+  "meta": {
+    "k": 12,
+    "seed": 6,
+    "extra_nodes": 1,
+    "n_roads": 19,
+    "n_blocked": 6,
+    "n_slowed": 4,
+    "cut_off": "bageshwari",
+    "capacity_mode": "unlimited",
+    "split": "test",
+    "rep": 1,
+    "condition": "unlimited-cut"
+  }
+}

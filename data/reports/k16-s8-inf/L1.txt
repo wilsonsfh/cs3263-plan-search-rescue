@@ -1,0 +1,66 @@
+MISSION SHEET
+- Team base and starting point: Jiling
+- Shelter where evacuees must be delivered: Jiling
+- Vehicle capacity: no practical limit (enough vehicles to carry everyone at once)
+- Places on the district map: Jiling (evacuation point), Ghyangphedi (village), Laharepauwa (temple), Shikharbesi (school), Tadi (village), Betrawati (village), Madanpur (village), Haku (village), Rautbesi (village), Belkot (village), Kakani (temple), Sundaradevi (ward office), Kispang (school), Bhalche (village), Suryagadhi (health post), Kalikasthan (health post), Syaphru (village), Kaule (village), Battar (village)
+
+ROAD REGISTER (pre-flood network; usual one-way driving times, roads are two-way)
+- Battar–Bhalche: 25 min
+- Battar–Haku: 15 min
+- Battar–Rautbesi: 10 min
+- Belkot–Bhalche: 10 min
+- Belkot–Haku: 15 min
+- Belkot–Jiling: 10 min
+- Betrawati–Kalikasthan: 20 min
+- Betrawati–Madanpur: 5 min
+- Bhalche–Sundaradevi: 15 min
+- Bhalche–Suryagadhi: 25 min
+- Ghyangphedi–Jiling: 15 min
+- Ghyangphedi–Shikharbesi: 10 min
+- Haku–Kaule: 15 min
+- Haku–Rautbesi: 10 min
+- Jiling–Syaphru: 25 min
+- Jiling–Tadi: 10 min
+- Kakani–Shikharbesi: 20 min
+- Kakani–Suryagadhi: 25 min
+- Kalikasthan–Madanpur: 10 min
+- Kalikasthan–Shikharbesi: 10 min
+- Kaule–Laharepauwa: 10 min
+- Kaule–Rautbesi: 20 min
+- Kispang–Laharepauwa: 15 min
+- Kispang–Syaphru: 25 min
+- Sundaradevi–Suryagadhi: 10 min
+- Syaphru–Tadi: 15 min
+
+FIELD REPORT (district control room, 12:00)
+Road status changes since the flood:
+- Battar–Haku: BLOCKED
+- Belkot–Bhalche: open, travel time now 20 min
+- Belkot–Haku: BLOCKED
+- Belkot–Jiling: BLOCKED
+- Ghyangphedi–Jiling: BLOCKED
+- Ghyangphedi–Shikharbesi: open, travel time now 20 min
+- Haku–Kaule: BLOCKED
+- Haku–Rautbesi: open, travel time now 25 min
+- Kalikasthan–Madanpur: BLOCKED
+- Kispang–Laharepauwa: open, travel time now 35 min
+- Syaphru–Tadi: open, travel time now 30 min
+All other roads: open, usual travel time.
+People waiting for rescue:
+- Ghyangphedi: 0 injured, 0 children, 1 elderly, 3 adults
+- Laharepauwa: 3 injured, 1 children, 0 elderly, 6 adults
+- Shikharbesi: 0 injured, 9 children, 1 elderly, 2 adults
+- Tadi: 0 injured, 0 children, 0 elderly, 1 adults
+- Betrawati: 0 injured, 0 children, 1 elderly, 1 adults
+- Madanpur: 0 injured, 1 children, 3 elderly, 1 adults
+- Haku: 0 injured, 0 children, 0 elderly, 2 adults
+- Rautbesi: 0 injured, 2 children, 0 elderly, 5 adults
+- Belkot: 0 injured, 4 children, 0 elderly, 6 adults
+- Kakani: 0 injured, 3 children, 3 elderly, 2 adults
+- Sundaradevi: 0 injured, 1 children, 0 elderly, 2 adults
+- Kispang: 0 injured, 4 children, 3 elderly, 2 adults
+- Bhalche: 3 injured, 3 children, 2 elderly, 6 adults
+- Suryagadhi: 0 injured, 2 children, 3 elderly, 5 adults
+- Kalikasthan: 1 injured, 1 children, 1 elderly, 5 adults
+- Syaphru: 0 injured, 0 children, 3 elderly, 5 adults
+No one is waiting at any other location.

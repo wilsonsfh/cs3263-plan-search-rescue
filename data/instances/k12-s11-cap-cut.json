@@ -1,0 +1,339 @@
+{
+  "id": "k12-s11-cap-cut",
+  "locations": [
+    {
+      "id": "belkot",
+      "name": "Belkot",
+      "kind": "base"
+    },
+    {
+      "id": "likhu",
+      "name": "Likhu",
+      "kind": "temple"
+    },
+    {
+      "id": "shikharbesi",
+      "name": "Shikharbesi",
+      "kind": "village"
+    },
+    {
+      "id": "narjamandap",
+      "name": "Narjamandap",
+      "kind": "village"
+    },
+    {
+      "id": "goljung",
+      "name": "Goljung",
+      "kind": "village"
+    },
+    {
+      "id": "dhaibung",
+      "name": "Dhaibung",
+      "kind": "village"
+    },
+    {
+      "id": "taruka",
+      "name": "Taruka",
+      "kind": "village"
+    },
+    {
+      "id": "thansing",
+      "name": "Thansing",
+      "kind": "village"
+    },
+    {
+      "id": "rautbesi",
+      "name": "Rautbesi",
+      "kind": "ward_office"
+    },
+    {
+      "id": "salme",
+      "name": "Salme",
+      "kind": "ward_office"
+    },
+    {
+      "id": "madanpur",
+      "name": "Madanpur",
+      "kind": "village"
+    },
+    {
+      "id": "jiling",
+      "name": "Jiling",
+      "kind": "school"
+    },
+    {
+      "id": "ghyangphedi",
+      "name": "Ghyangphedi",
+      "kind": "temple"
+    },
+    {
+      "id": "kaule",
+      "name": "Kaule",
+      "kind": "junction"
+    },
+    {
+      "id": "chaughada",
+      "name": "Chaughada",
+      "kind": "evacuated_village"
+    },
+    {
+      "id": "okharpauwa",
+      "name": "Okharpauwa",
+      "kind": "evacuated_village"
+    }
+  ],
+  "roads": [
+    {
+      "u": "belkot",
+      "v": "narjamandap",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": [
+        "rumour"
+      ]
+    },
+    {
+      "u": "belkot",
+      "v": "salme",
+      "minutes": 10,
+      "open": false,
+      "base_minutes": null,
+      "cause": "bridge",
+      "history": []
+    },
+    {
+      "u": "belkot",
+      "v": "taruka",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "chaughada",
+      "v": "dhaibung",
+      "minutes": 20,
+      "open": false,
+      "base_minutes": null,
+      "cause": "submerged",
+      "history": [
+        "open",
+        "blocked"
+      ]
+    },
+    {
+      "u": "chaughada",
+      "v": "thansing",
+      "minutes": 15,
+      "open": false,
+      "base_minutes": null,
+      "cause": "submerged",
+      "history": []
+    },
+    {
+      "u": "dhaibung",
+      "v": "ghyangphedi",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "ghyangphedi",
+      "v": "taruka",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": [
+        "rumour"
+      ]
+    },
+    {
+      "u": "goljung",
+      "v": "salme",
+      "minutes": 20,
+      "open": false,
+      "base_minutes": null,
+      "cause": "landslide",
+      "history": []
+    },
+    {
+      "u": "jiling",
+      "v": "likhu",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "jiling",
+      "v": "rautbesi",
+      "minutes": 25,
+      "open": true,
+      "base_minutes": 10,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "jiling",
+      "v": "taruka",
+      "minutes": 15,
+      "open": false,
+      "base_minutes": null,
+      "cause": "bridge",
+      "history": []
+    },
+    {
+      "u": "kaule",
+      "v": "madanpur",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "kaule",
+      "v": "shikharbesi",
+      "minutes": 30,
+      "open": true,
+      "base_minutes": 15,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "likhu",
+      "v": "taruka",
+      "minutes": 15,
+      "open": false,
+      "base_minutes": null,
+      "cause": "bridge",
+      "history": []
+    },
+    {
+      "u": "narjamandap",
+      "v": "salme",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "narjamandap",
+      "v": "shikharbesi",
+      "minutes": 30,
+      "open": true,
+      "base_minutes": 15,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "okharpauwa",
+      "v": "rautbesi",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": [
+        "rumour"
+      ]
+    },
+    {
+      "u": "okharpauwa",
+      "v": "taruka",
+      "minutes": 35,
+      "open": true,
+      "base_minutes": 25,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "shikharbesi",
+      "v": "thansing",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    }
+  ],
+  "people": {
+    "likhu": {
+      "children": 2,
+      "elderly": 2,
+      "adults": 1
+    },
+    "shikharbesi": {
+      "elderly": 3,
+      "adults": 1
+    },
+    "narjamandap": {
+      "adults": 4
+    },
+    "goljung": {
+      "injured": 3,
+      "children": 4,
+      "adults": 1
+    },
+    "dhaibung": {
+      "children": 4,
+      "elderly": 1,
+      "adults": 5
+    },
+    "taruka": {
+      "elderly": 3,
+      "adults": 3
+    },
+    "thansing": {
+      "children": 3,
+      "elderly": 1,
+      "adults": 2
+    },
+    "rautbesi": {
+      "injured": 2,
+      "adults": 6
+    },
+    "salme": {
+      "injured": 2,
+      "adults": 5
+    },
+    "madanpur": {
+      "children": 4,
+      "adults": 3
+    },
+    "jiling": {
+      "injured": 1,
+      "children": 9,
+      "elderly": 1,
+      "adults": 1
+    },
+    "ghyangphedi": {
+      "children": 1,
+      "adults": 4
+    }
+  },
+  "start": "belkot",
+  "shelter": "belkot",
+  "capacity": 21,
+  "priority": "tiered",
+  "meta": {
+    "k": 12,
+    "seed": 11,
+    "extra_nodes": 3,
+    "n_roads": 19,
+    "n_blocked": 6,
+    "n_slowed": 4,
+    "cut_off": "goljung",
+    "capacity_mode": "tight",
+    "split": "test",
+    "rep": 2,
+    "condition": "tight-cut"
+  }
+}

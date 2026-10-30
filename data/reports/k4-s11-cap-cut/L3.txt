@@ -1,0 +1,23 @@
+MISSION SHEET
+- Team base and starting point: Dupcheshwar
+- Shelter where evacuees must be delivered: Dupcheshwar
+- Vehicle capacity: 14 people at a time
+- Places on the district map: Dupcheshwar (evacuation point), Ramche (ward office), Kispang (school), Taruka (village), Kalikasthan (ward office), Likhu (road junction)
+
+ROAD REGISTER (pre-flood network; usual one-way driving times, roads are two-way)
+- Dupcheshwar–Kalikasthan: 40 min
+- Dupcheshwar–Kispang: 25 min
+- Dupcheshwar–Likhu: 20 min
+- Dupcheshwar–Ramche: 25 min
+- Dupcheshwar–Taruka: 40 min
+- Kalikasthan–Ramche: 10 min
+- Kispang–Likhu: 35 min
+- Kispang–Taruka: 20 min
+- Likhu–Ramche: 30 min
+- Likhu–Taruka: 35 min
+
+FIELD DISPATCHES (several sources; listed in the order they reached the control room)
+[13:15] Sunita Lama, The Himalayan Times (on the ground): The Likhu–Ramche road is open but badly waterlogged; driving it takes twice the usual time. Stranded at Taruka: two injured people (an elderly woman with a broken hip and an old man with a head wound), one senior citizen and two other adults. Boulders and fallen trees make the Dupcheshwar–Kalikasthan road impassable for any vehicle, cutting a road that was open earlier today. The only bridge linking Dupcheshwar and Likhu has collapsed. At the school in Kispang, two injured people (a pregnant woman who was hit by debris and an elderly woman with a broken hip), four children, three senior citizens and two uninjured adults are waiting to be rescued. Confirmed headcount: Our team counted four children, an old man and five uninjured adults at the ward office in Kalikasthan, all needing evacuation. A landslide has buried the road between Kalikasthan and Ramche under metres of mud, cutting a road that was open earlier today. Army engineers have cleared the debris on the Kispang–Likhu road; it is open again at normal speed. Livestock losses across the district are reported to be severe.
+[06:45] Radio Nuwakot FM (local radio, early bulletin): The Dupcheshwar–Kalikasthan road is still passable this morning, drivers say. Debris is blocking the Kispang–Likhu road. Around 8 people are believed to be stranded in Kalikasthan (unconfirmed estimate). Heavy rain is forecast to continue through the evening. The Kalikasthan–Ramche road is still passable this morning, drivers say.
+[09:30] District Police Office (situation report): In Kathmandu, schools have been closed for three days as a precaution. The Dupcheshwar–Kispang road is open but badly waterlogged; driving it now takes double the normal journey time. Our team counted 2 children, three elderly residents and two uninjured adults at the ward office in Ramche, all needing evacuation. The suspension bridge on the Dupcheshwar–Taruka route was swept away by the river.
+Anything not mentioned in these dispatches is in its usual condition, and no one else is known to be stranded.

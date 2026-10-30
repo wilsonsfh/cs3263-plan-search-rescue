@@ -1,0 +1,413 @@
+{
+  "id": "k12-s2-inf-cut",
+  "locations": [
+    {
+      "id": "sundaradevi",
+      "name": "Sundaradevi",
+      "kind": "base"
+    },
+    {
+      "id": "suryagadhi",
+      "name": "Suryagadhi",
+      "kind": "village"
+    },
+    {
+      "id": "rautbesi",
+      "name": "Rautbesi",
+      "kind": "village"
+    },
+    {
+      "id": "shikharbesi",
+      "name": "Shikharbesi",
+      "kind": "village"
+    },
+    {
+      "id": "trishuli",
+      "name": "Trishuli",
+      "kind": "village"
+    },
+    {
+      "id": "khanigaun",
+      "name": "Khanigaun",
+      "kind": "village"
+    },
+    {
+      "id": "likhu",
+      "name": "Likhu",
+      "kind": "health_post"
+    },
+    {
+      "id": "ramche",
+      "name": "Ramche",
+      "kind": "school"
+    },
+    {
+      "id": "kakani",
+      "name": "Kakani",
+      "kind": "village"
+    },
+    {
+      "id": "okharpauwa",
+      "name": "Okharpauwa",
+      "kind": "ward_office"
+    },
+    {
+      "id": "laharepauwa",
+      "name": "Laharepauwa",
+      "kind": "village"
+    },
+    {
+      "id": "kaule",
+      "name": "Kaule",
+      "kind": "temple"
+    },
+    {
+      "id": "thaprek",
+      "name": "Thaprek",
+      "kind": "health_post"
+    },
+    {
+      "id": "narjamandap",
+      "name": "Narjamandap",
+      "kind": "evacuated_village"
+    },
+    {
+      "id": "betrawati",
+      "name": "Betrawati",
+      "kind": "junction"
+    },
+    {
+      "id": "battar",
+      "name": "Battar",
+      "kind": "junction"
+    },
+    {
+      "id": "bhalche",
+      "name": "Bhalche",
+      "kind": "evacuated_village"
+    }
+  ],
+  "roads": [
+    {
+      "u": "battar",
+      "v": "bhalche",
+      "minutes": 25,
+      "open": true,
+      "base_minutes": 10,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "battar",
+      "v": "trishuli",
+      "minutes": 20,
+      "open": false,
+      "base_minutes": null,
+      "cause": "landslide",
+      "history": []
+    },
+    {
+      "u": "betrawati",
+      "v": "kaule",
+      "minutes": 20,
+      "open": false,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": []
+    },
+    {
+      "u": "betrawati",
+      "v": "shikharbesi",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "blocked",
+        "cleared"
+      ]
+    },
+    {
+      "u": "betrawati",
+      "v": "trishuli",
+      "minutes": 25,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "bhalche",
+      "v": "okharpauwa",
+      "minutes": 15,
+      "open": false,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": []
+    },
+    {
+      "u": "kakani",
+      "v": "laharepauwa",
+      "minutes": 15,
+      "open": false,
+      "base_minutes": null,
+      "cause": "bridge",
+      "history": []
+    },
+    {
+      "u": "kaule",
+      "v": "likhu",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "kaule",
+      "v": "narjamandap",
+      "minutes": 25,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "kaule",
+      "v": "shikharbesi",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": 10,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "kaule",
+      "v": "sundaradevi",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "blocked",
+        "cleared"
+      ]
+    },
+    {
+      "u": "khanigaun",
+      "v": "laharepauwa",
+      "minutes": 25,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "khanigaun",
+      "v": "okharpauwa",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": [
+        "rumour"
+      ]
+    },
+    {
+      "u": "khanigaun",
+      "v": "ramche",
+      "minutes": 20,
+      "open": false,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": []
+    },
+    {
+      "u": "khanigaun",
+      "v": "sundaradevi",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "blocked",
+        "cleared"
+      ]
+    },
+    {
+      "u": "khanigaun",
+      "v": "thaprek",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "laharepauwa",
+      "v": "ramche",
+      "minutes": 35,
+      "open": true,
+      "base_minutes": 15,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "likhu",
+      "v": "narjamandap",
+      "minutes": 5,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "likhu",
+      "v": "shikharbesi",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "narjamandap",
+      "v": "suryagadhi",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "blocked",
+        "cleared"
+      ]
+    },
+    {
+      "u": "okharpauwa",
+      "v": "thaprek",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "blocked",
+        "cleared"
+      ]
+    },
+    {
+      "u": "ramche",
+      "v": "thaprek",
+      "minutes": 5,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "rautbesi",
+      "v": "shikharbesi",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "rautbesi",
+      "v": "sundaradevi",
+      "minutes": 5,
+      "open": false,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "open",
+        "blocked"
+      ]
+    },
+    {
+      "u": "rautbesi",
+      "v": "trishuli",
+      "minutes": 30,
+      "open": true,
+      "base_minutes": 20,
+      "cause": "waterlogged",
+      "history": []
+    }
+  ],
+  "people": {
+    "suryagadhi": {
+      "children": 4,
+      "elderly": 1,
+      "adults": 6
+    },
+    "rautbesi": {
+      "injured": 2,
+      "elderly": 1,
+      "adults": 3
+    },
+    "shikharbesi": {
+      "elderly": 3,
+      "adults": 3
+    },
+    "trishuli": {
+      "children": 1,
+      "adults": 3
+    },
+    "khanigaun": {
+      "injured": 2,
+      "elderly": 3,
+      "adults": 5
+    },
+    "likhu": {
+      "children": 2,
+      "elderly": 3,
+      "adults": 1
+    },
+    "ramche": {
+      "injured": 1,
+      "children": 7,
+      "adults": 1
+    },
+    "kakani": {
+      "children": 2,
+      "adults": 5
+    },
+    "okharpauwa": {
+      "injured": 2,
+      "children": 3,
+      "adults": 5
+    },
+    "laharepauwa": {
+      "children": 2,
+      "elderly": 2,
+      "adults": 2
+    },
+    "kaule": {
+      "children": 1,
+      "elderly": 1,
+      "adults": 6
+    },
+    "thaprek": {
+      "children": 3,
+      "elderly": 1,
+      "adults": 2
+    }
+  },
+  "start": "sundaradevi",
+  "shelter": "sundaradevi",
+  "capacity": null,
+  "priority": "tiered",
+  "meta": {
+    "k": 12,
+    "seed": 2,
+    "extra_nodes": 4,
+    "n_roads": 25,
+    "n_blocked": 6,
+    "n_slowed": 4,
+    "cut_off": "kakani",
+    "capacity_mode": "unlimited",
+    "split": "dev",
+    "rep": 0,
+    "condition": "unlimited-cut"
+  }
+}

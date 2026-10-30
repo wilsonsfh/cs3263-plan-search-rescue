@@ -1,0 +1,72 @@
+MISSION SHEET
+- Team base and starting point: Ghyangphedi
+- Shelter where evacuees must be delivered: Ghyangphedi
+- Vehicle capacity: 28 people at a time
+- Places on the district map: Ghyangphedi (evacuation point), Belkot (village), Thaprek (school), Betrawati (health post), Tupche (temple), Bhalche (ward office), Laharepauwa (village), Narjamandap (village), Madanpur (village), Thansing (health post), Lachyang (village), Battar (health post), Ramche (village), Kalikasthan (ward office), Panchakanya (village), Dandagaun (village), Rautbesi (temple), Kumari (village), Kaule (road junction), Chhap (road junction), Dupcheshwar (village)
+
+ROAD REGISTER (pre-flood network; usual one-way driving times, roads are two-way)
+- Battar–Chhap: 10 min
+- Battar–Thansing: 15 min
+- Belkot–Betrawati: 15 min
+- Belkot–Kalikasthan: 20 min
+- Belkot–Laharepauwa: 10 min
+- Betrawati–Lachyang: 15 min
+- Betrawati–Laharepauwa: 10 min
+- Betrawati–Narjamandap: 20 min
+- Bhalche–Dupcheshwar: 5 min
+- Bhalche–Kumari: 20 min
+- Bhalche–Lachyang: 15 min
+- Bhalche–Madanpur: 10 min
+- Bhalche–Panchakanya: 20 min
+- Bhalche–Ramche: 15 min
+- Chhap–Thansing: 10 min
+- Dandagaun–Kumari: 20 min
+- Dandagaun–Thaprek: 15 min
+- Dandagaun–Tupche: 15 min
+- Dupcheshwar–Kaule: 20 min
+- Dupcheshwar–Madanpur: 15 min
+- Dupcheshwar–Panchakanya: 15 min
+- Ghyangphedi–Kumari: 15 min
+- Ghyangphedi–Lachyang: 10 min
+- Ghyangphedi–Narjamandap: 15 min
+- Kaule–Kumari: 10 min
+- Kaule–Thaprek: 35 min
+- Kumari–Tupche: 20 min
+- Laharepauwa–Ramche: 15 min
+- Madanpur–Ramche: 10 min
+- Narjamandap–Rautbesi: 15 min
+- Thansing–Tupche: 20 min
+
+FIELD REPORT (district control room, 12:00)
+Road status changes since the flood:
+- Battar–Chhap: open, travel time now 30 min
+- Battar–Thansing: BLOCKED
+- Belkot–Kalikasthan: BLOCKED
+- Betrawati–Laharepauwa: BLOCKED
+- Bhalche–Dupcheshwar: BLOCKED
+- Bhalche–Lachyang: BLOCKED
+- Dandagaun–Kumari: open, travel time now 40 min
+- Dandagaun–Thaprek: BLOCKED
+- Dandagaun–Tupche: open, travel time now 30 min
+- Ghyangphedi–Kumari: BLOCKED
+- Kaule–Thaprek: open, travel time now 50 min
+- Kumari–Tupche: open, travel time now 35 min
+All other roads: open, usual travel time.
+People waiting for rescue:
+- Belkot: 0 injured, 1 children, 0 elderly, 2 adults
+- Thaprek: 0 injured, 4 children, 0 elderly, 2 adults
+- Betrawati: 1 injured, 4 children, 3 elderly, 6 adults
+- Tupche: 2 injured, 0 children, 2 elderly, 5 adults
+- Bhalche: 1 injured, 3 children, 0 elderly, 2 adults
+- Laharepauwa: 3 injured, 4 children, 2 elderly, 2 adults
+- Narjamandap: 0 injured, 0 children, 2 elderly, 4 adults
+- Madanpur: 3 injured, 0 children, 0 elderly, 6 adults
+- Thansing: 2 injured, 4 children, 0 elderly, 6 adults
+- Lachyang: 0 injured, 4 children, 0 elderly, 3 adults
+- Battar: 1 injured, 3 children, 0 elderly, 6 adults
+- Ramche: 2 injured, 4 children, 1 elderly, 5 adults
+- Kalikasthan: 0 injured, 3 children, 2 elderly, 6 adults
+- Panchakanya: 0 injured, 1 children, 2 elderly, 5 adults
+- Dandagaun: 0 injured, 2 children, 0 elderly, 2 adults
+- Rautbesi: 1 injured, 4 children, 2 elderly, 2 adults
+No one is waiting at any other location.

@@ -1,0 +1,391 @@
+{
+ "start": "Jiling",
+ "shelter": "Jiling",
+ "capacity": null,
+ "locations": [
+  {
+   "name": "Jiling",
+   "kind": "evacuation point"
+  },
+  {
+   "name": "Ghyangphedi",
+   "kind": "village"
+  },
+  {
+   "name": "Laharepauwa",
+   "kind": "temple"
+  },
+  {
+   "name": "Shikharbesi",
+   "kind": "school"
+  },
+  {
+   "name": "Tadi",
+   "kind": "village"
+  },
+  {
+   "name": "Betrawati",
+   "kind": "village"
+  },
+  {
+   "name": "Madanpur",
+   "kind": "village"
+  },
+  {
+   "name": "Haku",
+   "kind": "village"
+  },
+  {
+   "name": "Rautbesi",
+   "kind": "village"
+  },
+  {
+   "name": "Belkot",
+   "kind": "village"
+  },
+  {
+   "name": "Kakani",
+   "kind": "temple"
+  },
+  {
+   "name": "Sundaradevi",
+   "kind": "ward office"
+  },
+  {
+   "name": "Kispang",
+   "kind": "school"
+  },
+  {
+   "name": "Bhalche",
+   "kind": "village"
+  },
+  {
+   "name": "Suryagadhi",
+   "kind": "health post"
+  },
+  {
+   "name": "Kalikasthan",
+   "kind": "health post"
+  },
+  {
+   "name": "Syaphru",
+   "kind": "village"
+  },
+  {
+   "name": "Kaule",
+   "kind": "village"
+  },
+  {
+   "name": "Battar",
+   "kind": "village"
+  }
+ ],
+ "roads": [
+  {
+   "between": [
+    "Battar",
+    "Bhalche"
+   ],
+   "minutes": 25,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Battar",
+    "Haku"
+   ],
+   "minutes": 15,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Battar",
+    "Rautbesi"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Belkot",
+    "Bhalche"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Belkot",
+    "Haku"
+   ],
+   "minutes": 15,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Belkot",
+    "Jiling"
+   ],
+   "minutes": 10,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Betrawati",
+    "Kalikasthan"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Betrawati",
+    "Madanpur"
+   ],
+   "minutes": 5,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Bhalche",
+    "Sundaradevi"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Bhalche",
+    "Suryagadhi"
+   ],
+   "minutes": 25,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Ghyangphedi",
+    "Jiling"
+   ],
+   "minutes": 15,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Ghyangphedi",
+    "Shikharbesi"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Haku",
+    "Kaule"
+   ],
+   "minutes": 15,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Haku",
+    "Rautbesi"
+   ],
+   "minutes": 25,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Jiling",
+    "Syaphru"
+   ],
+   "minutes": 25,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Jiling",
+    "Tadi"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kakani",
+    "Shikharbesi"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kakani",
+    "Suryagadhi"
+   ],
+   "minutes": 25,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kalikasthan",
+    "Madanpur"
+   ],
+   "minutes": 10,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Kalikasthan",
+    "Shikharbesi"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kaule",
+    "Laharepauwa"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kaule",
+    "Rautbesi"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kispang",
+    "Laharepauwa"
+   ],
+   "minutes": 35,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kispang",
+    "Syaphru"
+   ],
+   "minutes": 25,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Sundaradevi",
+    "Suryagadhi"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Syaphru",
+    "Tadi"
+   ],
+   "minutes": 30,
+   "status": "open"
+  }
+ ],
+ "people": {
+  "Ghyangphedi": {
+   "injured": 0,
+   "children": 0,
+   "elderly": 1,
+   "adults": 3
+  },
+  "Laharepauwa": {
+   "injured": 3,
+   "children": 1,
+   "elderly": 0,
+   "adults": 6
+  },
+  "Shikharbesi": {
+   "injured": 0,
+   "children": 9,
+   "elderly": 1,
+   "adults": 2
+  },
+  "Tadi": {
+   "injured": 0,
+   "children": 0,
+   "elderly": 0,
+   "adults": 1
+  },
+  "Betrawati": {
+   "injured": 0,
+   "children": 0,
+   "elderly": 1,
+   "adults": 1
+  },
+  "Madanpur": {
+   "injured": 0,
+   "children": 1,
+   "elderly": 3,
+   "adults": 1
+  },
+  "Haku": {
+   "injured": 0,
+   "children": 0,
+   "elderly": 0,
+   "adults": 2
+  },
+  "Rautbesi": {
+   "injured": 0,
+   "children": 2,
+   "elderly": 0,
+   "adults": 5
+  },
+  "Belkot": {
+   "injured": 0,
+   "children": 4,
+   "elderly": 0,
+   "adults": 6
+  },
+  "Kakani": {
+   "injured": 0,
+   "children": 3,
+   "elderly": 3,
+   "adults": 2
+  },
+  "Sundaradevi": {
+   "injured": 0,
+   "children": 1,
+   "elderly": 0,
+   "adults": 2
+  },
+  "Kispang": {
+   "injured": 0,
+   "children": 4,
+   "elderly": 3,
+   "adults": 2
+  },
+  "Bhalche": {
+   "injured": 3,
+   "children": 3,
+   "elderly": 2,
+   "adults": 6
+  },
+  "Suryagadhi": {
+   "injured": 0,
+   "children": 2,
+   "elderly": 3,
+   "adults": 5
+  },
+  "Kalikasthan": {
+   "injured": 1,
+   "children": 1,
+   "elderly": 1,
+   "adults": 5
+  },
+  "Syaphru": {
+   "injured": 0,
+   "children": 0,
+   "elderly": 3,
+   "adults": 5
+  }
+ }
+}

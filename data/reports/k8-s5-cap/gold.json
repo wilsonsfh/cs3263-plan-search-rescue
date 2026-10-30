@@ -1,0 +1,223 @@
+{
+ "start": "Kispang",
+ "shelter": "Kispang",
+ "capacity": 15,
+ "locations": [
+  {
+   "name": "Kispang",
+   "kind": "evacuation point"
+  },
+  {
+   "name": "Haku",
+   "kind": "school"
+  },
+  {
+   "name": "Salme",
+   "kind": "village"
+  },
+  {
+   "name": "Laharepauwa",
+   "kind": "village"
+  },
+  {
+   "name": "Kalikasthan",
+   "kind": "ward office"
+  },
+  {
+   "name": "Sundaradevi",
+   "kind": "health post"
+  },
+  {
+   "name": "Kakani",
+   "kind": "school"
+  },
+  {
+   "name": "Battar",
+   "kind": "temple"
+  },
+  {
+   "name": "Thansing",
+   "kind": "school"
+  },
+  {
+   "name": "Suryagadhi",
+   "kind": "village"
+  },
+  {
+   "name": "Meghang",
+   "kind": "road junction"
+  }
+ ],
+ "roads": [
+  {
+   "between": [
+    "Battar",
+    "Sundaradevi"
+   ],
+   "minutes": 35,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Battar",
+    "Suryagadhi"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Haku",
+    "Kalikasthan"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Haku",
+    "Sundaradevi"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kakani",
+    "Kalikasthan"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kakani",
+    "Kispang"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kalikasthan",
+    "Kispang"
+   ],
+   "minutes": 20,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Kispang",
+    "Meghang"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kispang",
+    "Sundaradevi"
+   ],
+   "minutes": 40,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Kispang",
+    "Suryagadhi"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Laharepauwa",
+    "Meghang"
+   ],
+   "minutes": 50,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Laharepauwa",
+    "Salme"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Laharepauwa",
+    "Suryagadhi"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Meghang",
+    "Salme"
+   ],
+   "minutes": 20,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Salme",
+    "Thansing"
+   ],
+   "minutes": 15,
+   "status": "open"
+  }
+ ],
+ "people": {
+  "Haku": {
+   "injured": 0,
+   "children": 6,
+   "elderly": 0,
+   "adults": 1
+  },
+  "Salme": {
+   "injured": 0,
+   "children": 0,
+   "elderly": 0,
+   "adults": 3
+  },
+  "Laharepauwa": {
+   "injured": 0,
+   "children": 4,
+   "elderly": 2,
+   "adults": 4
+  },
+  "Kalikasthan": {
+   "injured": 0,
+   "children": 2,
+   "elderly": 0,
+   "adults": 1
+  },
+  "Sundaradevi": {
+   "injured": 0,
+   "children": 4,
+   "elderly": 0,
+   "adults": 2
+  },
+  "Kakani": {
+   "injured": 0,
+   "children": 4,
+   "elderly": 0,
+   "adults": 2
+  },
+  "Battar": {
+   "injured": 1,
+   "children": 1,
+   "elderly": 0,
+   "adults": 6
+  },
+  "Thansing": {
+   "injured": 1,
+   "children": 9,
+   "elderly": 0,
+   "adults": 2
+  }
+ }
+}

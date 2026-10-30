@@ -1,0 +1,39 @@
+MISSION SHEET
+- Team base and starting point: Jiling
+- Shelter where evacuees must be delivered: Jiling
+- Vehicle capacity: no practical limit (enough vehicles to carry everyone at once)
+- Places on the district map: Jiling (evacuation point), Ghyangphedi (village), Laharepauwa (temple), Shikharbesi (school), Tadi (village), Betrawati (village), Madanpur (village), Haku (village), Rautbesi (village), Belkot (village), Kakani (temple), Sundaradevi (ward office), Kispang (school), Bhalche (village), Suryagadhi (health post), Kalikasthan (health post), Syaphru (village), Kaule (village), Battar (village)
+
+ROAD REGISTER (pre-flood network; usual one-way driving times, roads are two-way)
+- Battar–Bhalche: 25 min
+- Battar–Haku: 15 min
+- Battar–Rautbesi: 10 min
+- Belkot–Bhalche: 10 min
+- Belkot–Haku: 15 min
+- Belkot–Jiling: 10 min
+- Betrawati–Kalikasthan: 20 min
+- Betrawati–Madanpur: 5 min
+- Bhalche–Sundaradevi: 15 min
+- Bhalche–Suryagadhi: 25 min
+- Ghyangphedi–Jiling: 15 min
+- Ghyangphedi–Shikharbesi: 10 min
+- Haku–Kaule: 15 min
+- Haku–Rautbesi: 10 min
+- Jiling–Syaphru: 25 min
+- Jiling–Tadi: 10 min
+- Kakani–Shikharbesi: 20 min
+- Kakani–Suryagadhi: 25 min
+- Kalikasthan–Madanpur: 10 min
+- Kalikasthan–Shikharbesi: 10 min
+- Kaule–Laharepauwa: 10 min
+- Kaule–Rautbesi: 20 min
+- Kispang–Laharepauwa: 15 min
+- Kispang–Syaphru: 25 min
+- Sundaradevi–Suryagadhi: 10 min
+- Syaphru–Tadi: 15 min
+
+FIELD DISPATCHES (several sources; listed in the order they reached the control room)
+[13:15] Sunita Lama, The Himalayan Times (on the ground): Battar was fully evacuated by the army yesterday; no one remains there. The Syaphru–Tadi road is open but badly waterlogged; driving it now takes double the normal journey time. Confirmed headcount: Residents at Bhalche say three injured people (a young boy with a badly sprained ankle, a teenage girl with a fractured arm and an elderly woman with a broken hip), 3 schoolchildren, 2 senior citizens and six other adults are still there, sheltering on upper floors. Confirmed headcount: Stranded at Haku: two adults. Confirmed headcount: Residents at Betrawati say an old man and one uninjured adult are still there, sheltering on upper floors. A landslide has buried the road between Haku and Kaule under metres of mud. Confirmed headcount: Residents at the school in Kispang say four children, three elderly residents and two other adults are still there, sheltering on upper floors. In Kathmandu, schools have been closed for three days as a precaution. At Rautbesi, 2 children and five other adults are waiting to be rescued. The Kispang–Syaphru road has been reopened after bulldozers removed the debris; travel times are back to normal. Debris has completely choked the road between Battar and Haku, cutting a road that was open earlier today. Police have checked the Kaule–Rautbesi road: the social media reports were false and the road is open as normal. Police have checked the Kaule–Laharepauwa road: the social media reports were false and the road is open as normal. Residents at Belkot say four children and six other adults are still there, sheltering on upper floors. The Betrawati–Kalikasthan road has been reopened after bulldozers removed the debris; travel times are back to normal. Confirmed headcount: Our team counted 1 adult at Tadi, all needing evacuation. Confirmed headcount: At the health post in Kalikasthan, one injured person (a man with a crushed foot), one child, one elderly resident and 5 other adults are waiting to be rescued. Stranded at Syaphru: three senior citizens and five able-bodied adults. Boulders and fallen trees make the Belkot–Jiling road impassable for any vehicle, cutting a road that was open earlier today. Confirmed headcount: Stranded at the school in Shikharbesi: nine children, one elderly resident and two other adults. The Belkot–Haku road is under two metres of fast-flowing floodwater, cutting a road that was open earlier today. Confirmed headcount: Residents at the ward office in Sundaradevi say one child and two able-bodied adults are still there, sheltering on upper floors. Kaule was fully evacuated by the army yesterday; no one remains there. The suspension bridge on the Ghyangphedi–Jiling route was swept away by the river. Hillside collapse: the Kalikasthan–Madanpur road disappeared under a landslide overnight, cutting a road that was open earlier today. Confirmed headcount: At the health post in Suryagadhi, two schoolchildren, 3 elderly residents and five able-bodied adults are waiting to be rescued. Confirmed headcount: Stranded at Madanpur: one child, three senior citizens and one able-bodied adult. Stranded at Ghyangphedi: an old man and three uninjured adults.
+[06:45] Radio Nuwakot FM (local radio, early bulletin): The Kalikasthan–Madanpur road is still passable this morning, drivers say. Residents of Kaule were seen on rooftops last night. Around 5 people are believed to be stranded in Kalikasthan (unconfirmed estimate). Around 5 people are believed to be stranded in Betrawati (unconfirmed estimate). Around 11 people are believed to be stranded in Bhalche (unconfirmed estimate). Around 5 people are believed to be stranded in Sundaradevi (unconfirmed estimate). Around 1 people are believed to be stranded in Haku (unconfirmed estimate). Around 9 people are believed to be stranded in Madanpur (unconfirmed estimate). Around 14 people are believed to be stranded in Suryagadhi (unconfirmed estimate). Around 10 people are believed to be stranded in Shikharbesi (unconfirmed estimate). Debris is blocking the Kispang–Syaphru road. Residents of Battar were seen on rooftops last night. Debris is blocking the Betrawati–Kalikasthan road. Around 12 people are believed to be stranded in Kispang (unconfirmed estimate). The Belkot–Haku road is still passable this morning, drivers say. Livestock losses across the district are reported to be severe. The Battar–Haku road is still passable this morning, drivers say. Around 5 people are believed to be stranded in Tadi (unconfirmed estimate). The Belkot–Jiling road is still passable this morning, drivers say.
+[09:30] District Police Office (situation report): The Ghyangphedi–Shikharbesi road is open but badly waterlogged; driving it takes twice the usual time. Residents at the temple in Kakani say 3 children, three elderly residents and two uninjured adults are still there, sheltering on upper floors. Heavy rain is forecast to continue through the evening. Our team counted three injured people (a teenage girl with a fractured arm, a young boy with a badly sprained ankle and a pregnant woman who was hit by debris), one child and six other adults at the temple in Laharepauwa, all needing evacuation. The Haku–Rautbesi road is open but badly waterlogged; driving it adds 15 minutes to the usual journey. Unconfirmed posts on social media claim the Kaule–Laharepauwa road has been washed away. The Belkot–Bhalche road is open but badly waterlogged; driving it now takes double the normal journey time. Unconfirmed posts on social media claim the Kaule–Rautbesi road has been washed away. The Kispang–Laharepauwa road is open but badly waterlogged; driving it adds 20 minutes to the usual journey.
+Anything not mentioned in these dispatches is in its usual condition, and no one else is known to be stranded.

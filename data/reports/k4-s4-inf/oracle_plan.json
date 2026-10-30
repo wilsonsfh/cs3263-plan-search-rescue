@@ -1,0 +1,86 @@
+{
+ "steps": [
+  {
+   "action": "move",
+   "from": "Taruka",
+   "to": "Tadi"
+  },
+  {
+   "action": "move",
+   "from": "Tadi",
+   "to": "Chhap"
+  },
+  {
+   "action": "move",
+   "from": "Chhap",
+   "to": "Lachyang"
+  },
+  {
+   "action": "pickup",
+   "location": "Lachyang"
+  },
+  {
+   "action": "move",
+   "from": "Lachyang",
+   "to": "Chhap"
+  },
+  {
+   "action": "move",
+   "from": "Chhap",
+   "to": "Tadi"
+  },
+  {
+   "action": "move",
+   "from": "Tadi",
+   "to": "Bidur"
+  },
+  {
+   "action": "pickup",
+   "location": "Bidur"
+  },
+  {
+   "action": "move",
+   "from": "Bidur",
+   "to": "Bhalche"
+  },
+  {
+   "action": "pickup",
+   "location": "Bhalche"
+  },
+  {
+   "action": "move",
+   "from": "Bhalche",
+   "to": "Bidur"
+  },
+  {
+   "action": "move",
+   "from": "Bidur",
+   "to": "Tadi"
+  },
+  {
+   "action": "move",
+   "from": "Tadi",
+   "to": "Taruka"
+  },
+  {
+   "action": "move",
+   "from": "Taruka",
+   "to": "Thansing"
+  },
+  {
+   "action": "pickup",
+   "location": "Thansing"
+  },
+  {
+   "action": "move",
+   "from": "Thansing",
+   "to": "Taruka"
+  },
+  {
+   "action": "dropoff",
+   "location": "Taruka"
+  }
+ ],
+ "unreachable": [],
+ "claimed_total_minutes": 250.0
+}

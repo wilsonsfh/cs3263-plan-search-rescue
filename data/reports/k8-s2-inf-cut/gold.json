@@ -1,0 +1,235 @@
+{
+ "start": "Thansing",
+ "shelter": "Thansing",
+ "capacity": null,
+ "locations": [
+  {
+   "name": "Thansing",
+   "kind": "evacuation point"
+  },
+  {
+   "name": "Dhaibung",
+   "kind": "health post"
+  },
+  {
+   "name": "Bhalche",
+   "kind": "ward office"
+  },
+  {
+   "name": "Chaughada",
+   "kind": "village"
+  },
+  {
+   "name": "Bidur",
+   "kind": "school"
+  },
+  {
+   "name": "Ramche",
+   "kind": "village"
+  },
+  {
+   "name": "Taruka",
+   "kind": "village"
+  },
+  {
+   "name": "Kumari",
+   "kind": "village"
+  },
+  {
+   "name": "Madanpur",
+   "kind": "ward office"
+  },
+  {
+   "name": "Likhu",
+   "kind": "village"
+  }
+ ],
+ "roads": [
+  {
+   "between": [
+    "Bhalche",
+    "Chaughada"
+   ],
+   "minutes": 15,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Bhalche",
+    "Madanpur"
+   ],
+   "minutes": 45,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Bhalche",
+    "Taruka"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Bidur",
+    "Chaughada"
+   ],
+   "minutes": 15,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Bidur",
+    "Madanpur"
+   ],
+   "minutes": 80,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Bidur",
+    "Taruka"
+   ],
+   "minutes": 25,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Bidur",
+    "Thansing"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Chaughada",
+    "Thansing"
+   ],
+   "minutes": 15,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Dhaibung",
+    "Kumari"
+   ],
+   "minutes": 15,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Dhaibung",
+    "Likhu"
+   ],
+   "minutes": 55,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Dhaibung",
+    "Ramche"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Dhaibung",
+    "Thansing"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kumari",
+    "Likhu"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kumari",
+    "Ramche"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Likhu",
+    "Ramche"
+   ],
+   "minutes": 25,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Madanpur",
+    "Taruka"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Ramche",
+    "Thansing"
+   ],
+   "minutes": 15,
+   "status": "blocked"
+  }
+ ],
+ "people": {
+  "Dhaibung": {
+   "injured": 0,
+   "children": 0,
+   "elderly": 0,
+   "adults": 2
+  },
+  "Bhalche": {
+   "injured": 0,
+   "children": 0,
+   "elderly": 1,
+   "adults": 5
+  },
+  "Chaughada": {
+   "injured": 0,
+   "children": 4,
+   "elderly": 2,
+   "adults": 5
+  },
+  "Bidur": {
+   "injured": 1,
+   "children": 5,
+   "elderly": 0,
+   "adults": 2
+  },
+  "Ramche": {
+   "injured": 0,
+   "children": 1,
+   "elderly": 3,
+   "adults": 6
+  },
+  "Taruka": {
+   "injured": 3,
+   "children": 3,
+   "elderly": 0,
+   "adults": 5
+  },
+  "Kumari": {
+   "injured": 0,
+   "children": 3,
+   "elderly": 0,
+   "adults": 6
+  },
+  "Madanpur": {
+   "injured": 0,
+   "children": 1,
+   "elderly": 1,
+   "adults": 4
+  }
+ }
+}

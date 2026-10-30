@@ -1,0 +1,54 @@
+MISSION SHEET
+- Team base and starting point: Belkot
+- Shelter where evacuees must be delivered: Belkot
+- Vehicle capacity: 21 people at a time
+- Places on the district map: Belkot (evacuation point), Likhu (temple), Shikharbesi (village), Narjamandap (village), Goljung (village), Dhaibung (village), Taruka (village), Thansing (village), Rautbesi (ward office), Salme (ward office), Madanpur (village), Jiling (school), Ghyangphedi (temple), Kaule (road junction), Chaughada (village), Okharpauwa (village)
+
+ROAD REGISTER (pre-flood network; usual one-way driving times, roads are two-way)
+- Belkot–Narjamandap: 15 min
+- Belkot–Salme: 10 min
+- Belkot–Taruka: 15 min
+- Chaughada–Dhaibung: 20 min
+- Chaughada–Thansing: 15 min
+- Dhaibung–Ghyangphedi: 10 min
+- Ghyangphedi–Taruka: 15 min
+- Goljung–Salme: 20 min
+- Jiling–Likhu: 20 min
+- Jiling–Rautbesi: 10 min
+- Jiling–Taruka: 15 min
+- Kaule–Madanpur: 15 min
+- Kaule–Shikharbesi: 15 min
+- Likhu–Taruka: 15 min
+- Narjamandap–Salme: 15 min
+- Narjamandap–Shikharbesi: 15 min
+- Okharpauwa–Rautbesi: 10 min
+- Okharpauwa–Taruka: 25 min
+- Shikharbesi–Thansing: 20 min
+
+FIELD REPORT (district control room, 12:00)
+Road status changes since the flood:
+- Belkot–Salme: BLOCKED
+- Chaughada–Dhaibung: BLOCKED
+- Chaughada–Thansing: BLOCKED
+- Goljung–Salme: BLOCKED
+- Jiling–Rautbesi: open, travel time now 25 min
+- Jiling–Taruka: BLOCKED
+- Kaule–Shikharbesi: open, travel time now 30 min
+- Likhu–Taruka: BLOCKED
+- Narjamandap–Shikharbesi: open, travel time now 30 min
+- Okharpauwa–Taruka: open, travel time now 35 min
+All other roads: open, usual travel time.
+People waiting for rescue:
+- Likhu: 0 injured, 2 children, 2 elderly, 1 adults
+- Shikharbesi: 0 injured, 0 children, 3 elderly, 1 adults
+- Narjamandap: 0 injured, 0 children, 0 elderly, 4 adults
+- Goljung: 3 injured, 4 children, 0 elderly, 1 adults
+- Dhaibung: 0 injured, 4 children, 1 elderly, 5 adults
+- Taruka: 0 injured, 0 children, 3 elderly, 3 adults
+- Thansing: 0 injured, 3 children, 1 elderly, 2 adults
+- Rautbesi: 2 injured, 0 children, 0 elderly, 6 adults
+- Salme: 2 injured, 0 children, 0 elderly, 5 adults
+- Madanpur: 0 injured, 4 children, 0 elderly, 3 adults
+- Jiling: 1 injured, 9 children, 1 elderly, 1 adults
+- Ghyangphedi: 0 injured, 1 children, 0 elderly, 4 adults
+No one is waiting at any other location.

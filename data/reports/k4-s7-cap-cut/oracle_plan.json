@@ -1,0 +1,72 @@
+{
+ "steps": [
+  {
+   "action": "move",
+   "from": "Bhorle",
+   "to": "Kispang"
+  },
+  {
+   "action": "pickup",
+   "location": "Kispang"
+  },
+  {
+   "action": "move",
+   "from": "Kispang",
+   "to": "Bhorle"
+  },
+  {
+   "action": "dropoff",
+   "location": "Bhorle"
+  },
+  {
+   "action": "move",
+   "from": "Bhorle",
+   "to": "Narjamandap"
+  },
+  {
+   "action": "pickup",
+   "location": "Narjamandap"
+  },
+  {
+   "action": "move",
+   "from": "Narjamandap",
+   "to": "Bhorle"
+  },
+  {
+   "action": "dropoff",
+   "location": "Bhorle"
+  },
+  {
+   "action": "move",
+   "from": "Bhorle",
+   "to": "Narjamandap"
+  },
+  {
+   "action": "move",
+   "from": "Narjamandap",
+   "to": "Salme"
+  },
+  {
+   "action": "pickup",
+   "location": "Salme"
+  },
+  {
+   "action": "move",
+   "from": "Salme",
+   "to": "Narjamandap"
+  },
+  {
+   "action": "move",
+   "from": "Narjamandap",
+   "to": "Bhorle"
+  },
+  {
+   "action": "dropoff",
+   "location": "Bhorle"
+  }
+ ],
+ "unreachable": [
+  "Likhu"
+ ],
+ "claimed_total_minutes": 170.0
+}

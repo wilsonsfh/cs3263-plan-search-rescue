@@ -1,0 +1,351 @@
+{
+ "start": "Sundaradevi",
+ "shelter": "Sundaradevi",
+ "capacity": null,
+ "locations": [
+  {
+   "name": "Sundaradevi",
+   "kind": "evacuation point"
+  },
+  {
+   "name": "Suryagadhi",
+   "kind": "village"
+  },
+  {
+   "name": "Rautbesi",
+   "kind": "village"
+  },
+  {
+   "name": "Shikharbesi",
+   "kind": "village"
+  },
+  {
+   "name": "Trishuli",
+   "kind": "village"
+  },
+  {
+   "name": "Khanigaun",
+   "kind": "village"
+  },
+  {
+   "name": "Likhu",
+   "kind": "health post"
+  },
+  {
+   "name": "Ramche",
+   "kind": "school"
+  },
+  {
+   "name": "Kakani",
+   "kind": "village"
+  },
+  {
+   "name": "Okharpauwa",
+   "kind": "ward office"
+  },
+  {
+   "name": "Laharepauwa",
+   "kind": "village"
+  },
+  {
+   "name": "Kaule",
+   "kind": "temple"
+  },
+  {
+   "name": "Thaprek",
+   "kind": "health post"
+  },
+  {
+   "name": "Narjamandap",
+   "kind": "village"
+  },
+  {
+   "name": "Betrawati",
+   "kind": "road junction"
+  },
+  {
+   "name": "Battar",
+   "kind": "road junction"
+  },
+  {
+   "name": "Bhalche",
+   "kind": "village"
+  }
+ ],
+ "roads": [
+  {
+   "between": [
+    "Battar",
+    "Bhalche"
+   ],
+   "minutes": 25,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Battar",
+    "Trishuli"
+   ],
+   "minutes": 20,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Betrawati",
+    "Kaule"
+   ],
+   "minutes": 20,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Betrawati",
+    "Shikharbesi"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Betrawati",
+    "Trishuli"
+   ],
+   "minutes": 25,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Bhalche",
+    "Okharpauwa"
+   ],
+   "minutes": 15,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Kakani",
+    "Laharepauwa"
+   ],
+   "minutes": 15,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Kaule",
+    "Likhu"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kaule",
+    "Narjamandap"
+   ],
+   "minutes": 25,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kaule",
+    "Shikharbesi"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kaule",
+    "Sundaradevi"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Khanigaun",
+    "Laharepauwa"
+   ],
+   "minutes": 25,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Khanigaun",
+    "Okharpauwa"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Khanigaun",
+    "Ramche"
+   ],
+   "minutes": 20,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Khanigaun",
+    "Sundaradevi"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Khanigaun",
+    "Thaprek"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Laharepauwa",
+    "Ramche"
+   ],
+   "minutes": 35,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Likhu",
+    "Narjamandap"
+   ],
+   "minutes": 5,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Likhu",
+    "Shikharbesi"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Narjamandap",
+    "Suryagadhi"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Okharpauwa",
+    "Thaprek"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Ramche",
+    "Thaprek"
+   ],
+   "minutes": 5,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Rautbesi",
+    "Shikharbesi"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Rautbesi",
+    "Sundaradevi"
+   ],
+   "minutes": 5,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Rautbesi",
+    "Trishuli"
+   ],
+   "minutes": 30,
+   "status": "open"
+  }
+ ],
+ "people": {
+  "Suryagadhi": {
+   "injured": 0,
+   "children": 4,
+   "elderly": 1,
+   "adults": 6
+  },
+  "Rautbesi": {
+   "injured": 2,
+   "children": 0,
+   "elderly": 1,
+   "adults": 3
+  },
+  "Shikharbesi": {
+   "injured": 0,
+   "children": 0,
+   "elderly": 3,
+   "adults": 3
+  },
+  "Trishuli": {
+   "injured": 0,
+   "children": 1,
+   "elderly": 0,
+   "adults": 3
+  },
+  "Khanigaun": {
+   "injured": 2,
+   "children": 0,
+   "elderly": 3,
+   "adults": 5
+  },
+  "Likhu": {
+   "injured": 0,
+   "children": 2,
+   "elderly": 3,
+   "adults": 1
+  },
+  "Ramche": {
+   "injured": 1,
+   "children": 7,
+   "elderly": 0,
+   "adults": 1
+  },
+  "Kakani": {
+   "injured": 0,
+   "children": 2,
+   "elderly": 0,
+   "adults": 5
+  },
+  "Okharpauwa": {
+   "injured": 2,
+   "children": 3,
+   "elderly": 0,
+   "adults": 5
+  },
+  "Laharepauwa": {
+   "injured": 0,
+   "children": 2,
+   "elderly": 2,
+   "adults": 2
+  },
+  "Kaule": {
+   "injured": 0,
+   "children": 1,
+   "elderly": 1,
+   "adults": 6
+  },
+  "Thaprek": {
+   "injured": 0,
+   "children": 3,
+   "elderly": 1,
+   "adults": 2
+  }
+ }
+}

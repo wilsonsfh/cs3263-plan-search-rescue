@@ -1,0 +1,251 @@
+{
+ "start": "Chhap",
+ "shelter": "Chhap",
+ "capacity": 10,
+ "locations": [
+  {
+   "name": "Chhap",
+   "kind": "evacuation point"
+  },
+  {
+   "name": "Syaphru",
+   "kind": "village"
+  },
+  {
+   "name": "Dandagaun",
+   "kind": "village"
+  },
+  {
+   "name": "Suryagadhi",
+   "kind": "village"
+  },
+  {
+   "name": "Tupche",
+   "kind": "village"
+  },
+  {
+   "name": "Betrawati",
+   "kind": "village"
+  },
+  {
+   "name": "Taruka",
+   "kind": "village"
+  },
+  {
+   "name": "Samundratar",
+   "kind": "health post"
+  },
+  {
+   "name": "Kalikasthan",
+   "kind": "temple"
+  },
+  {
+   "name": "Dhaibung",
+   "kind": "road junction"
+  },
+  {
+   "name": "Khanigaun",
+   "kind": "road junction"
+  },
+  {
+   "name": "Bageshwari",
+   "kind": "road junction"
+  }
+ ],
+ "roads": [
+  {
+   "between": [
+    "Bageshwari",
+    "Chhap"
+   ],
+   "minutes": 35,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Bageshwari",
+    "Dandagaun"
+   ],
+   "minutes": 40,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Bageshwari",
+    "Khanigaun"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Betrawati",
+    "Dhaibung"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Betrawati",
+    "Taruka"
+   ],
+   "minutes": 10,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Chhap",
+    "Dandagaun"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Chhap",
+    "Dhaibung"
+   ],
+   "minutes": 25,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Chhap",
+    "Kalikasthan"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Chhap",
+    "Tupche"
+   ],
+   "minutes": 30,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Dandagaun",
+    "Tupche"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Dhaibung",
+    "Kalikasthan"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Dhaibung",
+    "Taruka"
+   ],
+   "minutes": 10,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Kalikasthan",
+    "Samundratar"
+   ],
+   "minutes": 15,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Kalikasthan",
+    "Suryagadhi"
+   ],
+   "minutes": 20,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Samundratar",
+    "Suryagadhi"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Samundratar",
+    "Syaphru"
+   ],
+   "minutes": 25,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Suryagadhi",
+    "Syaphru"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Syaphru",
+    "Tupche"
+   ],
+   "minutes": 10,
+   "status": "open"
+  }
+ ],
+ "people": {
+  "Syaphru": {
+   "injured": 2,
+   "children": 2,
+   "elderly": 0,
+   "adults": 3
+  },
+  "Dandagaun": {
+   "injured": 0,
+   "children": 3,
+   "elderly": 0,
+   "adults": 4
+  },
+  "Suryagadhi": {
+   "injured": 0,
+   "children": 4,
+   "elderly": 1,
+   "adults": 5
+  },
+  "Tupche": {
+   "injured": 0,
+   "children": 2,
+   "elderly": 0,
+   "adults": 4
+  },
+  "Betrawati": {
+   "injured": 0,
+   "children": 2,
+   "elderly": 1,
+   "adults": 3
+  },
+  "Taruka": {
+   "injured": 0,
+   "children": 4,
+   "elderly": 1,
+   "adults": 1
+  },
+  "Samundratar": {
+   "injured": 1,
+   "children": 2,
+   "elderly": 0,
+   "adults": 1
+  },
+  "Kalikasthan": {
+   "injured": 0,
+   "children": 2,
+   "elderly": 0,
+   "adults": 5
+  }
+ }
+}

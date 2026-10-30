@@ -1,0 +1,38 @@
+MISSION SHEET
+- Team base and starting point: Sundaradevi
+- Shelter where evacuees must be delivered: Sundaradevi
+- Vehicle capacity: no practical limit (enough vehicles to carry everyone at once)
+- Places on the district map: Sundaradevi (evacuation point), Suryagadhi (village), Rautbesi (village), Shikharbesi (village), Trishuli (village), Khanigaun (village), Likhu (health post), Ramche (school), Kakani (village), Okharpauwa (ward office), Laharepauwa (village), Kaule (temple), Thaprek (health post), Narjamandap (village), Betrawati (road junction), Battar (road junction), Bhalche (village)
+
+ROAD REGISTER (pre-flood network; usual one-way driving times, roads are two-way)
+- Battar–Bhalche: 10 min
+- Battar–Trishuli: 20 min
+- Betrawati–Kaule: 20 min
+- Betrawati–Shikharbesi: 15 min
+- Betrawati–Trishuli: 25 min
+- Bhalche–Okharpauwa: 15 min
+- Kakani–Laharepauwa: 15 min
+- Kaule–Likhu: 15 min
+- Kaule–Narjamandap: 25 min
+- Kaule–Shikharbesi: 10 min
+- Kaule–Sundaradevi: 10 min
+- Khanigaun–Laharepauwa: 25 min
+- Khanigaun–Okharpauwa: 10 min
+- Khanigaun–Ramche: 20 min
+- Khanigaun–Sundaradevi: 20 min
+- Khanigaun–Thaprek: 20 min
+- Laharepauwa–Ramche: 15 min
+- Likhu–Narjamandap: 5 min
+- Likhu–Shikharbesi: 15 min
+- Narjamandap–Suryagadhi: 15 min
+- Okharpauwa–Thaprek: 20 min
+- Ramche–Thaprek: 5 min
+- Rautbesi–Shikharbesi: 20 min
+- Rautbesi–Sundaradevi: 5 min
+- Rautbesi–Trishuli: 20 min
+
+FIELD DISPATCHES (several sources; listed in the order they reached the control room)
+[06:45] Radio Nuwakot FM (local radio, early bulletin): Around 4 people are believed to be stranded in Laharepauwa (unconfirmed estimate). Debris is blocking the Kaule–Sundaradevi road. Residents of Bhalche were seen on rooftops last night. Debris is blocking the Okharpauwa–Thaprek road. Around 14 people are believed to be stranded in Suryagadhi (unconfirmed estimate). Around 10 people are believed to be stranded in Thaprek (unconfirmed estimate). Residents of Narjamandap were seen on rooftops last night. The Rautbesi–Sundaradevi road is still passable this morning, drivers say. Around 12 people are believed to be stranded in Okharpauwa (unconfirmed estimate). Debris is blocking the Narjamandap–Suryagadhi road. Livestock losses across the district are reported to be severe. Around 4 people are believed to be stranded in Likhu (unconfirmed estimate). Debris is blocking the Betrawati–Shikharbesi road. Debris is blocking the Khanigaun–Sundaradevi road.
+[13:15] Sunita Lama, The Himalayan Times (on the ground): Stranded at Trishuli: one schoolchild and three other adults. Confirmed headcount: Stranded at the health post in Likhu: two schoolchildren, three senior citizens and one other adult. Debris has completely choked the road between Khanigaun and Ramche. Army engineers have cleared the debris on the Kaule–Sundaradevi road; it is open again at normal speed. The Okharpauwa–Thaprek road has been reopened after bulldozers removed the debris; travel times are back to normal. Police have checked the Khanigaun–Okharpauwa road: the social media reports were false and the road is open as normal. In Kathmandu, schools have been closed for three days as a precaution. Army engineers have cleared the debris on the Khanigaun–Sundaradevi road; it is open again at normal speed. Confirmed headcount: At Laharepauwa, two schoolchildren, an elderly couple and 2 uninjured adults are waiting to be rescued. The Battar–Bhalche road is open but badly waterlogged; driving it adds a quarter of an hour to the usual journey. The Betrawati–Shikharbesi road has been reopened after bulldozers removed the debris; travel times are back to normal. Stranded at Rautbesi: two injured people (a woman with burns on her arms and a teenage girl with a fractured arm), an old man and three uninjured adults. Debris has completely choked the road between Rautbesi and Sundaradevi, cutting a road that was open earlier today. The Narjamandap–Suryagadhi road has been reopened after bulldozers removed the debris; travel times are back to normal. Confirmed headcount: Residents at the health post in Thaprek say three schoolchildren, one elderly resident and 2 uninjured adults are still there, sheltering on upper floors. Confirmed headcount: At the ward office in Okharpauwa, 2 injured people (an elderly woman with a broken hip and a young boy with a badly sprained ankle), three schoolchildren and 5 uninjured adults are waiting to be rescued. At Khanigaun, 2 injured people (a young boy with a badly sprained ankle and an elderly woman with a broken hip), three senior citizens and five uninjured adults are waiting to be rescued. Confirmed headcount: Our team counted 4 children, one senior citizen and six able-bodied adults at Suryagadhi, all needing evacuation. The Kaule–Shikharbesi road is open but badly waterlogged; driving it now takes double the normal journey time. Everyone from Bhalche has already been airlifted out. Narjamandap was fully evacuated by the army yesterday; no one remains there. A landslide has buried the road between Battar and Trishuli under metres of mud.
+[09:30] District Police Office (situation report): Our team counted a baby, an old man and 6 able-bodied adults at the temple in Kaule, all needing evacuation. Boulders and fallen trees make the Bhalche–Okharpauwa road impassable for any vehicle. Boulders and fallen trees make the Betrawati–Kaule road impassable for any vehicle. Our team counted one injured person (a teenage girl with a fractured arm), seven schoolchildren and one uninjured adult at the school in Ramche, all needing evacuation. The only bridge linking Kakani and Laharepauwa has collapsed. The Laharepauwa–Ramche road is open but badly waterlogged; driving it adds 20 minutes to the usual journey. Heavy rain is forecast to continue through the evening. The Rautbesi–Trishuli road is open but badly waterlogged; driving it adds 10 minutes to the usual journey. Residents at Shikharbesi say three elderly residents and three uninjured adults are still there, sheltering on upper floors. Unconfirmed posts on social media claim the Khanigaun–Okharpauwa road has been washed away. Stranded at Kakani: two children and five other adults.
+Anything not mentioned in these dispatches is in its usual condition, and no one else is known to be stranded.

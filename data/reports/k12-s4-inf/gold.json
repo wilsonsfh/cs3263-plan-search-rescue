@@ -1,0 +1,335 @@
+{
+ "start": "Salme",
+ "shelter": "Salme",
+ "capacity": null,
+ "locations": [
+  {
+   "name": "Salme",
+   "kind": "evacuation point"
+  },
+  {
+   "name": "Dhaibung",
+   "kind": "health post"
+  },
+  {
+   "name": "Ramche",
+   "kind": "village"
+  },
+  {
+   "name": "Kispang",
+   "kind": "health post"
+  },
+  {
+   "name": "Dandagaun",
+   "kind": "village"
+  },
+  {
+   "name": "Kaule",
+   "kind": "village"
+  },
+  {
+   "name": "Chaughada",
+   "kind": "health post"
+  },
+  {
+   "name": "Battar",
+   "kind": "school"
+  },
+  {
+   "name": "Taruka",
+   "kind": "school"
+  },
+  {
+   "name": "Panchakanya",
+   "kind": "village"
+  },
+  {
+   "name": "Betrawati",
+   "kind": "village"
+  },
+  {
+   "name": "Khanigaun",
+   "kind": "health post"
+  },
+  {
+   "name": "Gerkhu",
+   "kind": "village"
+  },
+  {
+   "name": "Dupcheshwar",
+   "kind": "village"
+  },
+  {
+   "name": "Tadi",
+   "kind": "road junction"
+  },
+  {
+   "name": "Laharepauwa",
+   "kind": "village"
+  },
+  {
+   "name": "Likhu",
+   "kind": "village"
+  }
+ ],
+ "roads": [
+  {
+   "between": [
+    "Battar",
+    "Dandagaun"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Battar",
+    "Panchakanya"
+   ],
+   "minutes": 30,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Battar",
+    "Tadi"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Betrawati",
+    "Kaule"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Chaughada",
+    "Khanigaun"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Chaughada",
+    "Kispang"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Dandagaun",
+    "Panchakanya"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Dandagaun",
+    "Tadi"
+   ],
+   "minutes": 15,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Dhaibung",
+    "Dupcheshwar"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Dhaibung",
+    "Taruka"
+   ],
+   "minutes": 30,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Dupcheshwar",
+    "Likhu"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Dupcheshwar",
+    "Taruka"
+   ],
+   "minutes": 10,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Gerkhu",
+    "Likhu"
+   ],
+   "minutes": 30,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Gerkhu",
+    "Salme"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kaule",
+    "Likhu"
+   ],
+   "minutes": 5,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kaule",
+    "Salme"
+   ],
+   "minutes": 25,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Khanigaun",
+    "Laharepauwa"
+   ],
+   "minutes": 15,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Khanigaun",
+    "Tadi"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Laharepauwa",
+    "Ramche"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Laharepauwa",
+    "Salme"
+   ],
+   "minutes": 10,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Laharepauwa",
+    "Tadi"
+   ],
+   "minutes": 10,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Panchakanya",
+    "Ramche"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Ramche",
+    "Salme"
+   ],
+   "minutes": 50,
+   "status": "open"
+  }
+ ],
+ "people": {
+  "Dhaibung": {
+   "injured": 0,
+   "children": 0,
+   "elderly": 1,
+   "adults": 5
+  },
+  "Ramche": {
+   "injured": 0,
+   "children": 1,
+   "elderly": 1,
+   "adults": 1
+  },
+  "Kispang": {
+   "injured": 0,
+   "children": 0,
+   "elderly": 2,
+   "adults": 4
+  },
+  "Dandagaun": {
+   "injured": 0,
+   "children": 3,
+   "elderly": 0,
+   "adults": 3
+  },
+  "Kaule": {
+   "injured": 0,
+   "children": 4,
+   "elderly": 2,
+   "adults": 5
+  },
+  "Chaughada": {
+   "injured": 0,
+   "children": 0,
+   "elderly": 2,
+   "adults": 2
+  },
+  "Battar": {
+   "injured": 2,
+   "children": 8,
+   "elderly": 2,
+   "adults": 1
+  },
+  "Taruka": {
+   "injured": 0,
+   "children": 5,
+   "elderly": 3,
+   "adults": 1
+  },
+  "Panchakanya": {
+   "injured": 0,
+   "children": 0,
+   "elderly": 0,
+   "adults": 2
+  },
+  "Betrawati": {
+   "injured": 0,
+   "children": 0,
+   "elderly": 1,
+   "adults": 4
+  },
+  "Khanigaun": {
+   "injured": 3,
+   "children": 4,
+   "elderly": 1,
+   "adults": 3
+  },
+  "Gerkhu": {
+   "injured": 2,
+   "children": 1,
+   "elderly": 1,
+   "adults": 6
+  }
+ }
+}

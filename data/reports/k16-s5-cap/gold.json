@@ -1,0 +1,471 @@
+{
+ "start": "Belkot",
+ "shelter": "Belkot",
+ "capacity": 14,
+ "locations": [
+  {
+   "name": "Belkot",
+   "kind": "evacuation point"
+  },
+  {
+   "name": "Kalikasthan",
+   "kind": "ward office"
+  },
+  {
+   "name": "Kaule",
+   "kind": "village"
+  },
+  {
+   "name": "Bidur",
+   "kind": "village"
+  },
+  {
+   "name": "Thulogaun",
+   "kind": "village"
+  },
+  {
+   "name": "Goljung",
+   "kind": "village"
+  },
+  {
+   "name": "Chhap",
+   "kind": "temple"
+  },
+  {
+   "name": "Bhorle",
+   "kind": "village"
+  },
+  {
+   "name": "Ghyangphedi",
+   "kind": "ward office"
+  },
+  {
+   "name": "Sundaradevi",
+   "kind": "ward office"
+  },
+  {
+   "name": "Laharepauwa",
+   "kind": "temple"
+  },
+  {
+   "name": "Madanpur",
+   "kind": "village"
+  },
+  {
+   "name": "Haku",
+   "kind": "ward office"
+  },
+  {
+   "name": "Chaughada",
+   "kind": "health post"
+  },
+  {
+   "name": "Meghang",
+   "kind": "village"
+  },
+  {
+   "name": "Thansing",
+   "kind": "village"
+  },
+  {
+   "name": "Ramche",
+   "kind": "village"
+  },
+  {
+   "name": "Panchakanya",
+   "kind": "road junction"
+  },
+  {
+   "name": "Likhu",
+   "kind": "road junction"
+  },
+  {
+   "name": "Syaphru",
+   "kind": "road junction"
+  },
+  {
+   "name": "Kumari",
+   "kind": "village"
+  },
+  {
+   "name": "Salme",
+   "kind": "village"
+  },
+  {
+   "name": "Bhalche",
+   "kind": "road junction"
+  }
+ ],
+ "roads": [
+  {
+   "between": [
+    "Belkot",
+    "Chaughada"
+   ],
+   "minutes": 10,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Belkot",
+    "Kalikasthan"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Belkot",
+    "Kumari"
+   ],
+   "minutes": 30,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Belkot",
+    "Likhu"
+   ],
+   "minutes": 15,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Bhalche",
+    "Syaphru"
+   ],
+   "minutes": 30,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Bhalche",
+    "Thansing"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Bhalche",
+    "Thulogaun"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Bhorle",
+    "Bidur"
+   ],
+   "minutes": 30,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Bhorle",
+    "Syaphru"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Bidur",
+    "Chaughada"
+   ],
+   "minutes": 25,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Bidur",
+    "Madanpur"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Chaughada",
+    "Madanpur"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Chaughada",
+    "Syaphru"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Chhap",
+    "Kalikasthan"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Chhap",
+    "Kaule"
+   ],
+   "minutes": 5,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Chhap",
+    "Likhu"
+   ],
+   "minutes": 25,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Chhap",
+    "Sundaradevi"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Ghyangphedi",
+    "Goljung"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Ghyangphedi",
+    "Kumari"
+   ],
+   "minutes": 10,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Ghyangphedi",
+    "Madanpur"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Goljung",
+    "Laharepauwa"
+   ],
+   "minutes": 10,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Goljung",
+    "Panchakanya"
+   ],
+   "minutes": 25,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Goljung",
+    "Salme"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Haku",
+    "Meghang"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kalikasthan",
+    "Kaule"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kalikasthan",
+    "Likhu"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kaule",
+    "Meghang"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kumari",
+    "Ramche"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Laharepauwa",
+    "Salme"
+   ],
+   "minutes": 5,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Likhu",
+    "Thansing"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Meghang",
+    "Ramche"
+   ],
+   "minutes": 15,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Sundaradevi",
+    "Thansing"
+   ],
+   "minutes": 25,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Sundaradevi",
+    "Thulogaun"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Thansing",
+    "Thulogaun"
+   ],
+   "minutes": 10,
+   "status": "open"
+  }
+ ],
+ "people": {
+  "Kalikasthan": {
+   "injured": 0,
+   "children": 4,
+   "elderly": 1,
+   "adults": 4
+  },
+  "Kaule": {
+   "injured": 0,
+   "children": 2,
+   "elderly": 3,
+   "adults": 6
+  },
+  "Bidur": {
+   "injured": 0,
+   "children": 0,
+   "elderly": 1,
+   "adults": 6
+  },
+  "Thulogaun": {
+   "injured": 0,
+   "children": 2,
+   "elderly": 3,
+   "adults": 3
+  },
+  "Goljung": {
+   "injured": 0,
+   "children": 3,
+   "elderly": 2,
+   "adults": 3
+  },
+  "Chhap": {
+   "injured": 0,
+   "children": 2,
+   "elderly": 0,
+   "adults": 4
+  },
+  "Bhorle": {
+   "injured": 1,
+   "children": 4,
+   "elderly": 2,
+   "adults": 2
+  },
+  "Ghyangphedi": {
+   "injured": 0,
+   "children": 0,
+   "elderly": 0,
+   "adults": 4
+  },
+  "Sundaradevi": {
+   "injured": 0,
+   "children": 4,
+   "elderly": 2,
+   "adults": 1
+  },
+  "Laharepauwa": {
+   "injured": 0,
+   "children": 2,
+   "elderly": 1,
+   "adults": 1
+  },
+  "Madanpur": {
+   "injured": 0,
+   "children": 2,
+   "elderly": 3,
+   "adults": 3
+  },
+  "Haku": {
+   "injured": 0,
+   "children": 2,
+   "elderly": 2,
+   "adults": 3
+  },
+  "Chaughada": {
+   "injured": 3,
+   "children": 0,
+   "elderly": 0,
+   "adults": 3
+  },
+  "Meghang": {
+   "injured": 2,
+   "children": 0,
+   "elderly": 0,
+   "adults": 3
+  },
+  "Thansing": {
+   "injured": 0,
+   "children": 4,
+   "elderly": 1,
+   "adults": 3
+  },
+  "Ramche": {
+   "injured": 0,
+   "children": 0,
+   "elderly": 3,
+   "adults": 4
+  }
+ }
+}

@@ -1,0 +1,409 @@
+{
+  "id": "k12-s9-cap",
+  "locations": [
+    {
+      "id": "battar",
+      "name": "Battar",
+      "kind": "base"
+    },
+    {
+      "id": "narjamandap",
+      "name": "Narjamandap",
+      "kind": "temple"
+    },
+    {
+      "id": "tupche",
+      "name": "Tupche",
+      "kind": "village"
+    },
+    {
+      "id": "dupcheshwar",
+      "name": "Dupcheshwar",
+      "kind": "school"
+    },
+    {
+      "id": "chhap",
+      "name": "Chhap",
+      "kind": "village"
+    },
+    {
+      "id": "thaprek",
+      "name": "Thaprek",
+      "kind": "village"
+    },
+    {
+      "id": "bhorle",
+      "name": "Bhorle",
+      "kind": "village"
+    },
+    {
+      "id": "bageshwari",
+      "name": "Bageshwari",
+      "kind": "village"
+    },
+    {
+      "id": "meghang",
+      "name": "Meghang",
+      "kind": "village"
+    },
+    {
+      "id": "salme",
+      "name": "Salme",
+      "kind": "school"
+    },
+    {
+      "id": "likhu",
+      "name": "Likhu",
+      "kind": "village"
+    },
+    {
+      "id": "betrawati",
+      "name": "Betrawati",
+      "kind": "health_post"
+    },
+    {
+      "id": "gerkhu",
+      "name": "Gerkhu",
+      "kind": "village"
+    },
+    {
+      "id": "kumari",
+      "name": "Kumari",
+      "kind": "junction"
+    },
+    {
+      "id": "panchakanya",
+      "name": "Panchakanya",
+      "kind": "evacuated_village"
+    },
+    {
+      "id": "rautbesi",
+      "name": "Rautbesi",
+      "kind": "evacuated_village"
+    },
+    {
+      "id": "thansing",
+      "name": "Thansing",
+      "kind": "evacuated_village"
+    }
+  ],
+  "roads": [
+    {
+      "u": "bageshwari",
+      "v": "gerkhu",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "blocked",
+        "cleared"
+      ]
+    },
+    {
+      "u": "bageshwari",
+      "v": "narjamandap",
+      "minutes": 40,
+      "open": true,
+      "base_minutes": 20,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "bageshwari",
+      "v": "salme",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "battar",
+      "v": "betrawati",
+      "minutes": 40,
+      "open": true,
+      "base_minutes": 20,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "battar",
+      "v": "panchakanya",
+      "minutes": 35,
+      "open": true,
+      "base_minutes": 15,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "battar",
+      "v": "tupche",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "betrawati",
+      "v": "thansing",
+      "minutes": 20,
+      "open": false,
+      "base_minutes": null,
+      "cause": "bridge",
+      "history": []
+    },
+    {
+      "u": "betrawati",
+      "v": "thaprek",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "betrawati",
+      "v": "tupche",
+      "minutes": 5,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "bhorle",
+      "v": "likhu",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "bhorle",
+      "v": "salme",
+      "minutes": 15,
+      "open": false,
+      "base_minutes": null,
+      "cause": "bridge",
+      "history": []
+    },
+    {
+      "u": "chhap",
+      "v": "narjamandap",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "chhap",
+      "v": "rautbesi",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "dupcheshwar",
+      "v": "kumari",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "blocked",
+        "cleared"
+      ]
+    },
+    {
+      "u": "dupcheshwar",
+      "v": "likhu",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "dupcheshwar",
+      "v": "meghang",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "blocked",
+        "cleared"
+      ]
+    },
+    {
+      "u": "kumari",
+      "v": "likhu",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "kumari",
+      "v": "meghang",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "kumari",
+      "v": "panchakanya",
+      "minutes": 15,
+      "open": false,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": []
+    },
+    {
+      "u": "likhu",
+      "v": "panchakanya",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "meghang",
+      "v": "panchakanya",
+      "minutes": 25,
+      "open": false,
+      "base_minutes": null,
+      "cause": "submerged",
+      "history": [
+        "open",
+        "blocked"
+      ]
+    },
+    {
+      "u": "narjamandap",
+      "v": "salme",
+      "minutes": 10,
+      "open": false,
+      "base_minutes": null,
+      "cause": "bridge",
+      "history": []
+    },
+    {
+      "u": "rautbesi",
+      "v": "thaprek",
+      "minutes": 35,
+      "open": true,
+      "base_minutes": 25,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "thansing",
+      "v": "thaprek",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "thansing",
+      "v": "tupche",
+      "minutes": 30,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "thaprek",
+      "v": "tupche",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    }
+  ],
+  "people": {
+    "narjamandap": {
+      "adults": 6
+    },
+    "tupche": {
+      "elderly": 2,
+      "adults": 2
+    },
+    "dupcheshwar": {
+      "injured": 1,
+      "children": 3,
+      "elderly": 2,
+      "adults": 2
+    },
+    "chhap": {
+      "children": 4,
+      "adults": 6
+    },
+    "thaprek": {
+      "children": 4,
+      "adults": 5
+    },
+    "bhorle": {
+      "injured": 2,
+      "elderly": 3,
+      "adults": 5
+    },
+    "bageshwari": {
+      "injured": 1,
+      "elderly": 2,
+      "adults": 3
+    },
+    "meghang": {
+      "elderly": 1,
+      "adults": 4
+    },
+    "salme": {
+      "children": 5,
+      "adults": 2
+    },
+    "likhu": {
+      "adults": 4
+    },
+    "betrawati": {
+      "injured": 2,
+      "children": 3,
+      "adults": 5
+    },
+    "gerkhu": {
+      "injured": 1,
+      "elderly": 1,
+      "adults": 4
+    }
+  },
+  "start": "battar",
+  "shelter": "battar",
+  "capacity": 14,
+  "priority": "tiered",
+  "meta": {
+    "k": 12,
+    "seed": 9,
+    "extra_nodes": 4,
+    "n_roads": 26,
+    "n_blocked": 5,
+    "n_slowed": 4,
+    "cut_off": null,
+    "capacity_mode": "tight",
+    "split": "test",
+    "rep": 2,
+    "condition": "tight"
+  }
+}

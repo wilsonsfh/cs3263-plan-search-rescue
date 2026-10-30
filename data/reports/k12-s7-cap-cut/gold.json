@@ -1,0 +1,367 @@
+{
+ "start": "Haku",
+ "shelter": "Haku",
+ "capacity": 17,
+ "locations": [
+  {
+   "name": "Haku",
+   "kind": "evacuation point"
+  },
+  {
+   "name": "Kumari",
+   "kind": "village"
+  },
+  {
+   "name": "Thaprek",
+   "kind": "village"
+  },
+  {
+   "name": "Bageshwari",
+   "kind": "health post"
+  },
+  {
+   "name": "Meghang",
+   "kind": "ward office"
+  },
+  {
+   "name": "Laharepauwa",
+   "kind": "village"
+  },
+  {
+   "name": "Trishuli",
+   "kind": "school"
+  },
+  {
+   "name": "Ramche",
+   "kind": "village"
+  },
+  {
+   "name": "Bidur",
+   "kind": "health post"
+  },
+  {
+   "name": "Salme",
+   "kind": "village"
+  },
+  {
+   "name": "Kaule",
+   "kind": "village"
+  },
+  {
+   "name": "Syaphru",
+   "kind": "health post"
+  },
+  {
+   "name": "Taruka",
+   "kind": "village"
+  },
+  {
+   "name": "Battar",
+   "kind": "village"
+  },
+  {
+   "name": "Kalikasthan",
+   "kind": "road junction"
+  },
+  {
+   "name": "Chaughada",
+   "kind": "village"
+  },
+  {
+   "name": "Shikharbesi",
+   "kind": "road junction"
+  }
+ ],
+ "roads": [
+  {
+   "between": [
+    "Bageshwari",
+    "Laharepauwa"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Bageshwari",
+    "Thaprek"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Battar",
+    "Ramche"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Battar",
+    "Salme"
+   ],
+   "minutes": 10,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Battar",
+    "Trishuli"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Bidur",
+    "Kalikasthan"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Bidur",
+    "Shikharbesi"
+   ],
+   "minutes": 40,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Chaughada",
+    "Haku"
+   ],
+   "minutes": 20,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Chaughada",
+    "Kumari"
+   ],
+   "minutes": 15,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Chaughada",
+    "Taruka"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Haku",
+    "Kalikasthan"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Haku",
+    "Syaphru"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Haku",
+    "Taruka"
+   ],
+   "minutes": 10,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Kalikasthan",
+    "Salme"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kalikasthan",
+    "Shikharbesi"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kalikasthan",
+    "Syaphru"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kaule",
+    "Syaphru"
+   ],
+   "minutes": 20,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Kumari",
+    "Meghang"
+   ],
+   "minutes": 45,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Laharepauwa",
+    "Taruka"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Laharepauwa",
+    "Thaprek"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Meghang",
+    "Trishuli"
+   ],
+   "minutes": 25,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Ramche",
+    "Salme"
+   ],
+   "minutes": 10,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Ramche",
+    "Trishuli"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Salme",
+    "Trishuli"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Shikharbesi",
+    "Syaphru"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Syaphru",
+    "Taruka"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Taruka",
+    "Thaprek"
+   ],
+   "minutes": 15,
+   "status": "open"
+  }
+ ],
+ "people": {
+  "Kumari": {
+   "injured": 0,
+   "children": 1,
+   "elderly": 2,
+   "adults": 3
+  },
+  "Thaprek": {
+   "injured": 1,
+   "children": 2,
+   "elderly": 1,
+   "adults": 3
+  },
+  "Bageshwari": {
+   "injured": 2,
+   "children": 4,
+   "elderly": 3,
+   "adults": 5
+  },
+  "Meghang": {
+   "injured": 3,
+   "children": 2,
+   "elderly": 3,
+   "adults": 3
+  },
+  "Laharepauwa": {
+   "injured": 1,
+   "children": 4,
+   "elderly": 2,
+   "adults": 5
+  },
+  "Trishuli": {
+   "injured": 0,
+   "children": 4,
+   "elderly": 0,
+   "adults": 1
+  },
+  "Ramche": {
+   "injured": 0,
+   "children": 3,
+   "elderly": 1,
+   "adults": 4
+  },
+  "Bidur": {
+   "injured": 3,
+   "children": 0,
+   "elderly": 2,
+   "adults": 3
+  },
+  "Salme": {
+   "injured": 3,
+   "children": 0,
+   "elderly": 3,
+   "adults": 4
+  },
+  "Kaule": {
+   "injured": 0,
+   "children": 4,
+   "elderly": 0,
+   "adults": 4
+  },
+  "Syaphru": {
+   "injured": 0,
+   "children": 1,
+   "elderly": 0,
+   "adults": 5
+  },
+  "Taruka": {
+   "injured": 1,
+   "children": 1,
+   "elderly": 0,
+   "adults": 1
+  }
+ }
+}

@@ -1,0 +1,31 @@
+MISSION SHEET
+- Team base and starting point: Salme
+- Shelter where evacuees must be delivered: Salme
+- Vehicle capacity: no practical limit (enough vehicles to carry everyone at once)
+- Places on the district map: Salme (evacuation point), Samundratar (health post), Meghang (health post), Tupche (temple), Likhu (school), Kispang (road junction), Khanigaun (road junction)
+
+ROAD REGISTER (pre-flood network; usual one-way driving times, roads are two-way)
+- Khanigaun–Kispang: 15 min
+- Khanigaun–Meghang: 5 min
+- Khanigaun–Salme: 20 min
+- Khanigaun–Tupche: 35 min
+- Kispang–Meghang: 25 min
+- Kispang–Salme: 25 min
+- Likhu–Samundratar: 15 min
+- Meghang–Salme: 20 min
+- Meghang–Tupche: 20 min
+- Salme–Samundratar: 20 min
+
+FIELD REPORT (district control room, 12:00)
+Road status changes since the flood:
+- Kispang–Meghang: open, travel time now 50 min
+- Kispang–Salme: BLOCKED
+- Meghang–Salme: BLOCKED
+- Salme–Samundratar: open, travel time now 35 min
+All other roads: open, usual travel time.
+People waiting for rescue:
+- Samundratar: 0 injured, 0 children, 0 elderly, 2 adults
+- Meghang: 1 injured, 0 children, 2 elderly, 4 adults
+- Tupche: 0 injured, 0 children, 1 elderly, 1 adults
+- Likhu: 1 injured, 6 children, 0 elderly, 1 adults
+No one is waiting at any other location.

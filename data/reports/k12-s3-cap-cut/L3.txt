@@ -1,0 +1,35 @@
+MISSION SHEET
+- Team base and starting point: Jiling
+- Shelter where evacuees must be delivered: Jiling
+- Vehicle capacity: 16 people at a time
+- Places on the district map: Jiling (evacuation point), Kispang (village), Salme (village), Haku (temple), Khanigaun (ward office), Shikharbesi (village), Kalikasthan (village), Okharpauwa (village), Ramche (village), Chaughada (health post), Rautbesi (temple), Sundaradevi (village), Bhorle (village), Goljung (village), Syaphru (village), Laharepauwa (road junction)
+
+ROAD REGISTER (pre-flood network; usual one-way driving times, roads are two-way)
+- Bhorle–Haku: 15 min
+- Bhorle–Rautbesi: 10 min
+- Bhorle–Syaphru: 10 min
+- Chaughada–Laharepauwa: 20 min
+- Goljung–Jiling: 15 min
+- Goljung–Ramche: 15 min
+- Goljung–Sundaradevi: 10 min
+- Haku–Kalikasthan: 20 min
+- Haku–Kispang: 15 min
+- Jiling–Kalikasthan: 10 min
+- Jiling–Laharepauwa: 10 min
+- Jiling–Okharpauwa: 10 min
+- Jiling–Sundaradevi: 15 min
+- Kalikasthan–Kispang: 15 min
+- Kalikasthan–Okharpauwa: 10 min
+- Khanigaun–Salme: 15 min
+- Kispang–Salme: 15 min
+- Laharepauwa–Sundaradevi: 10 min
+- Okharpauwa–Shikharbesi: 10 min
+- Ramche–Shikharbesi: 25 min
+- Ramche–Sundaradevi: 25 min
+- Rautbesi–Syaphru: 10 min
+
+FIELD DISPATCHES (several sources; listed in the order they reached the control room)
+[06:45] Radio Nuwakot FM (local radio, early bulletin): Debris is blocking the Bhorle–Haku road. Around 8 people are believed to be stranded in Chaughada (unconfirmed estimate). Debris is blocking the Laharepauwa–Sundaradevi road. Around 12 people are believed to be stranded in Sundaradevi (unconfirmed estimate). Around 14 people are believed to be stranded in Ramche (unconfirmed estimate). Around 5 people are believed to be stranded in Khanigaun (unconfirmed estimate). In Kathmandu, schools have been closed for three days as a precaution. Residents of Syaphru were seen on rooftops last night. The Jiling–Sundaradevi road is still passable this morning, drivers say. Around 4 people are believed to be stranded in Rautbesi (unconfirmed estimate). Around 14 people are believed to be stranded in Bhorle (unconfirmed estimate). Residents of Goljung were seen on rooftops last night. The Kalikasthan–Kispang road is still passable this morning, drivers say.
+[13:15] Sunita Lama, The Himalayan Times (on the ground): Boulders and fallen trees make the Jiling–Sundaradevi road impassable for any vehicle, cutting a road that was open earlier today. Goljung was fully evacuated by the army yesterday; no one remains there. Residents at Shikharbesi say two injured people (a man with a crushed foot and an elderly woman with a broken hip), two schoolchildren, one elderly resident and two able-bodied adults are still there, sheltering on upper floors. Hillside collapse: the Jiling–Laharepauwa road disappeared under a landslide overnight. Confirmed headcount: At Sundaradevi, one schoolchild, three senior citizens and six able-bodied adults are waiting to be rescued. The suspension bridge on the Okharpauwa–Shikharbesi route was swept away by the river. A landslide has buried the road between Jiling and Kalikasthan under metres of mud. Residents at Kalikasthan say three injured people (a man with a crushed foot, a young boy with a badly sprained ankle and an elderly woman with a broken hip), one child and one uninjured adult are still there, sheltering on upper floors. Mobile networks remain patchy across the district. Confirmed headcount: Our team counted three injured people (a woman with burns on her arms, a teenage girl with a fractured arm and an elderly woman with a broken hip), one schoolchild, an old man and half a dozen able-bodied adults at the health post in Chaughada, all needing evacuation. Hillside collapse: the Kalikasthan–Kispang road disappeared under a landslide overnight, cutting a road that was open earlier today. Confirmed headcount: Residents at the ward office in Khanigaun say 2 senior citizens and five other adults are still there, sheltering on upper floors. Syaphru was fully evacuated by the army yesterday; no one remains there. Confirmed headcount: At Ramche, two injured people (a woman with burns on her arms and a pregnant woman who was hit by debris), four schoolchildren, three senior citizens and 3 uninjured adults are waiting to be rescued. Police have checked the Ramche–Shikharbesi road: the social media reports were false and the road is open as normal. Army engineers have cleared the debris on the Bhorle–Haku road; it is open again at normal speed. The Laharepauwa–Sundaradevi road has been reopened after bulldozers removed the debris; travel times are back to normal. At the temple in Haku, a baby, two elderly residents and two uninjured adults are waiting to be rescued. Confirmed headcount: Stranded at Bhorle: three injured people (an old man with a head wound, an elderly woman with a broken hip and a woman with burns on her arms), 3 senior citizens and half a dozen uninjured adults. Police have checked the Goljung–Ramche road: the social media reports were false and the road is open as normal. Confirmed headcount: Residents at the temple in Rautbesi say 4 children and two other adults are still there, sheltering on upper floors.
+[09:30] District Police Office (situation report): The Haku–Kispang road is open but badly waterlogged; driving it adds 20 minutes to the usual journey. Floodwater has turned the road from Chaughada to Laharepauwa into a river. Stranded at Okharpauwa: 2 children and three uninjured adults. Unconfirmed posts on social media claim the Goljung–Ramche road has been washed away. Unconfirmed posts on social media claim the Ramche–Shikharbesi road has been washed away. The Home Ministry says relief funds will be released next week. The Bhorle–Rautbesi road is open but badly waterlogged; driving it takes twice the usual time. Residents at Salme say one injured person (a woman with burns on her arms), three elderly residents and four other adults are still there, sheltering on upper floors. The Goljung–Sundaradevi road is open but badly waterlogged; driving it takes twice the usual time. The Rautbesi–Syaphru road is open but badly waterlogged; driving it takes twice the usual time. Stranded at Kispang: four children, one senior citizen and one uninjured adult.
+Anything not mentioned in these dispatches is in its usual condition, and no one else is known to be stranded.

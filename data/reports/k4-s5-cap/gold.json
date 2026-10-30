@@ -1,0 +1,135 @@
+{
+ "start": "Taruka",
+ "shelter": "Taruka",
+ "capacity": 17,
+ "locations": [
+  {
+   "name": "Taruka",
+   "kind": "evacuation point"
+  },
+  {
+   "name": "Thaprek",
+   "kind": "village"
+  },
+  {
+   "name": "Suryagadhi",
+   "kind": "village"
+  },
+  {
+   "name": "Chaughada",
+   "kind": "village"
+  },
+  {
+   "name": "Likhu",
+   "kind": "temple"
+  },
+  {
+   "name": "Samundratar",
+   "kind": "village"
+  },
+  {
+   "name": "Sundaradevi",
+   "kind": "road junction"
+  }
+ ],
+ "roads": [
+  {
+   "between": [
+    "Chaughada",
+    "Likhu"
+   ],
+   "minutes": 35,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Chaughada",
+    "Samundratar"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Chaughada",
+    "Taruka"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Chaughada",
+    "Thaprek"
+   ],
+   "minutes": 30,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Likhu",
+    "Sundaradevi"
+   ],
+   "minutes": 70,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Likhu",
+    "Taruka"
+   ],
+   "minutes": 25,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Sundaradevi",
+    "Suryagadhi"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Suryagadhi",
+    "Taruka"
+   ],
+   "minutes": 30,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Taruka",
+    "Thaprek"
+   ],
+   "minutes": 25,
+   "status": "blocked"
+  }
+ ],
+ "people": {
+  "Thaprek": {
+   "injured": 1,
+   "children": 2,
+   "elderly": 2,
+   "adults": 5
+  },
+  "Suryagadhi": {
+   "injured": 0,
+   "children": 0,
+   "elderly": 2,
+   "adults": 5
+  },
+  "Chaughada": {
+   "injured": 0,
+   "children": 2,
+   "elderly": 1,
+   "adults": 1
+  },
+  "Likhu": {
+   "injured": 0,
+   "children": 3,
+   "elderly": 3,
+   "adults": 2
+  }
+ }
+}

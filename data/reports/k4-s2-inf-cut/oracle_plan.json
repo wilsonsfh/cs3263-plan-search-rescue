@@ -1,0 +1,64 @@
+{
+ "steps": [
+  {
+   "action": "move",
+   "from": "Goljung",
+   "to": "Kakani"
+  },
+  {
+   "action": "move",
+   "from": "Kakani",
+   "to": "Battar"
+  },
+  {
+   "action": "pickup",
+   "location": "Battar"
+  },
+  {
+   "action": "move",
+   "from": "Battar",
+   "to": "Bageshwari"
+  },
+  {
+   "action": "pickup",
+   "location": "Bageshwari"
+  },
+  {
+   "action": "move",
+   "from": "Bageshwari",
+   "to": "Syaphru"
+  },
+  {
+   "action": "pickup",
+   "location": "Syaphru"
+  },
+  {
+   "action": "move",
+   "from": "Syaphru",
+   "to": "Bageshwari"
+  },
+  {
+   "action": "move",
+   "from": "Bageshwari",
+   "to": "Battar"
+  },
+  {
+   "action": "move",
+   "from": "Battar",
+   "to": "Kakani"
+  },
+  {
+   "action": "move",
+   "from": "Kakani",
+   "to": "Goljung"
+  },
+  {
+   "action": "dropoff",
+   "location": "Goljung"
+  }
+ ],
+ "unreachable": [
+  "Panchakanya"
+ ],
+ "claimed_total_minutes": 230.0
+}

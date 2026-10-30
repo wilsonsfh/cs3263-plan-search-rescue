@@ -1,0 +1,23 @@
+MISSION SHEET
+- Team base and starting point: Madanpur
+- Shelter where evacuees must be delivered: Madanpur
+- Vehicle capacity: 17 people at a time
+- Places on the district map: Madanpur (evacuation point), Tupche (village), Thaprek (village), Kalikasthan (village), Ramche (school), Meghang (village)
+
+ROAD REGISTER (pre-flood network; usual one-way driving times, roads are two-way)
+- Kalikasthan–Madanpur: 15 min
+- Kalikasthan–Meghang: 15 min
+- Kalikasthan–Ramche: 45 min
+- Kalikasthan–Thaprek: 35 min
+- Madanpur–Meghang: 10 min
+- Madanpur–Thaprek: 35 min
+- Madanpur–Tupche: 20 min
+- Meghang–Thaprek: 20 min
+- Meghang–Tupche: 20 min
+- Ramche–Tupche: 35 min
+
+FIELD DISPATCHES (several sources; listed in the order they reached the control room)
+[13:15] Sunita Lama, The Himalayan Times (on the ground): Confirmed headcount: Residents at Thaprek say three schoolchildren, 2 elderly residents and two other adults are still there, sheltering on upper floors. Confirmed headcount: At the school in Ramche, four schoolchildren, three senior citizens and two uninjured adults are waiting to be rescued. Meghang was fully evacuated by the army yesterday; no one remains there. Confirmed headcount: Residents at Tupche say 6 adults are still there, sheltering on upper floors. Confirmed headcount: Residents at Kalikasthan say 4 schoolchildren and two uninjured adults are still there, sheltering on upper floors. A government helicopter was seen flying north this morning but did not land. Police have checked the Madanpur–Thaprek road: the social media reports were false and the road is open as normal. The suspension bridge on the Madanpur–Meghang route was swept away by the river, cutting a road that was open earlier today. The Meghang–Tupche road is open but badly waterlogged; driving it takes twice the usual time.
+[09:30] District Police Office (situation report): In Kathmandu, schools have been closed for three days as a precaution. A landslide has buried the road between Madanpur and Tupche under metres of mud. The Kalikasthan–Thaprek road is open but badly waterlogged; driving it adds 15 minutes to the usual journey. Unconfirmed posts on social media claim the Madanpur–Thaprek road has been washed away.
+[06:45] Radio Nuwakot FM (local radio, early bulletin): The Madanpur–Meghang road is still passable this morning, drivers say. Around 11 people are believed to be stranded in Thaprek (unconfirmed estimate). Around 8 people are believed to be stranded in Tupche (unconfirmed estimate). Around 9 people are believed to be stranded in Kalikasthan (unconfirmed estimate). Residents of Meghang were seen on rooftops last night. Around 12 people are believed to be stranded in Ramche (unconfirmed estimate). Livestock losses across the district are reported to be severe.
+Anything not mentioned in these dispatches is in its usual condition, and no one else is known to be stranded.

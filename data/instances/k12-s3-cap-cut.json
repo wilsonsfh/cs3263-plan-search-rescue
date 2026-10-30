@@ -1,0 +1,380 @@
+{
+  "id": "k12-s3-cap-cut",
+  "locations": [
+    {
+      "id": "jiling",
+      "name": "Jiling",
+      "kind": "base"
+    },
+    {
+      "id": "kispang",
+      "name": "Kispang",
+      "kind": "village"
+    },
+    {
+      "id": "salme",
+      "name": "Salme",
+      "kind": "village"
+    },
+    {
+      "id": "haku",
+      "name": "Haku",
+      "kind": "temple"
+    },
+    {
+      "id": "khanigaun",
+      "name": "Khanigaun",
+      "kind": "ward_office"
+    },
+    {
+      "id": "shikharbesi",
+      "name": "Shikharbesi",
+      "kind": "village"
+    },
+    {
+      "id": "kalikasthan",
+      "name": "Kalikasthan",
+      "kind": "village"
+    },
+    {
+      "id": "okharpauwa",
+      "name": "Okharpauwa",
+      "kind": "village"
+    },
+    {
+      "id": "ramche",
+      "name": "Ramche",
+      "kind": "village"
+    },
+    {
+      "id": "chaughada",
+      "name": "Chaughada",
+      "kind": "health_post"
+    },
+    {
+      "id": "rautbesi",
+      "name": "Rautbesi",
+      "kind": "temple"
+    },
+    {
+      "id": "sundaradevi",
+      "name": "Sundaradevi",
+      "kind": "village"
+    },
+    {
+      "id": "bhorle",
+      "name": "Bhorle",
+      "kind": "village"
+    },
+    {
+      "id": "goljung",
+      "name": "Goljung",
+      "kind": "evacuated_village"
+    },
+    {
+      "id": "syaphru",
+      "name": "Syaphru",
+      "kind": "evacuated_village"
+    },
+    {
+      "id": "laharepauwa",
+      "name": "Laharepauwa",
+      "kind": "junction"
+    }
+  ],
+  "roads": [
+    {
+      "u": "bhorle",
+      "v": "haku",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "blocked",
+        "cleared"
+      ]
+    },
+    {
+      "u": "bhorle",
+      "v": "rautbesi",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": 10,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "bhorle",
+      "v": "syaphru",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "chaughada",
+      "v": "laharepauwa",
+      "minutes": 20,
+      "open": false,
+      "base_minutes": null,
+      "cause": "submerged",
+      "history": []
+    },
+    {
+      "u": "goljung",
+      "v": "jiling",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "goljung",
+      "v": "ramche",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": [
+        "rumour"
+      ]
+    },
+    {
+      "u": "goljung",
+      "v": "sundaradevi",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": 10,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "haku",
+      "v": "kalikasthan",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "haku",
+      "v": "kispang",
+      "minutes": 35,
+      "open": true,
+      "base_minutes": 15,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "jiling",
+      "v": "kalikasthan",
+      "minutes": 10,
+      "open": false,
+      "base_minutes": null,
+      "cause": "landslide",
+      "history": []
+    },
+    {
+      "u": "jiling",
+      "v": "laharepauwa",
+      "minutes": 10,
+      "open": false,
+      "base_minutes": null,
+      "cause": "landslide",
+      "history": []
+    },
+    {
+      "u": "jiling",
+      "v": "okharpauwa",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "jiling",
+      "v": "sundaradevi",
+      "minutes": 15,
+      "open": false,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "open",
+        "blocked"
+      ]
+    },
+    {
+      "u": "kalikasthan",
+      "v": "kispang",
+      "minutes": 15,
+      "open": false,
+      "base_minutes": null,
+      "cause": "landslide",
+      "history": [
+        "open",
+        "blocked"
+      ]
+    },
+    {
+      "u": "kalikasthan",
+      "v": "okharpauwa",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "khanigaun",
+      "v": "salme",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "kispang",
+      "v": "salme",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "laharepauwa",
+      "v": "sundaradevi",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "blocked",
+        "cleared"
+      ]
+    },
+    {
+      "u": "okharpauwa",
+      "v": "shikharbesi",
+      "minutes": 10,
+      "open": false,
+      "base_minutes": null,
+      "cause": "bridge",
+      "history": []
+    },
+    {
+      "u": "ramche",
+      "v": "shikharbesi",
+      "minutes": 25,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": [
+        "rumour"
+      ]
+    },
+    {
+      "u": "ramche",
+      "v": "sundaradevi",
+      "minutes": 25,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "rautbesi",
+      "v": "syaphru",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": 10,
+      "cause": "waterlogged",
+      "history": []
+    }
+  ],
+  "people": {
+    "kispang": {
+      "children": 4,
+      "elderly": 1,
+      "adults": 1
+    },
+    "salme": {
+      "injured": 1,
+      "elderly": 3,
+      "adults": 4
+    },
+    "haku": {
+      "children": 1,
+      "elderly": 2,
+      "adults": 2
+    },
+    "khanigaun": {
+      "elderly": 2,
+      "adults": 5
+    },
+    "shikharbesi": {
+      "injured": 2,
+      "children": 2,
+      "elderly": 1,
+      "adults": 2
+    },
+    "kalikasthan": {
+      "injured": 3,
+      "children": 1,
+      "adults": 1
+    },
+    "okharpauwa": {
+      "children": 2,
+      "adults": 3
+    },
+    "ramche": {
+      "injured": 2,
+      "children": 4,
+      "elderly": 3,
+      "adults": 3
+    },
+    "chaughada": {
+      "injured": 3,
+      "children": 1,
+      "elderly": 1,
+      "adults": 6
+    },
+    "rautbesi": {
+      "children": 4,
+      "adults": 2
+    },
+    "sundaradevi": {
+      "children": 1,
+      "elderly": 3,
+      "adults": 6
+    },
+    "bhorle": {
+      "injured": 3,
+      "elderly": 3,
+      "adults": 6
+    }
+  },
+  "start": "jiling",
+  "shelter": "jiling",
+  "capacity": 16,
+  "priority": "tiered",
+  "meta": {
+    "k": 12,
+    "seed": 3,
+    "extra_nodes": 3,
+    "n_roads": 22,
+    "n_blocked": 6,
+    "n_slowed": 4,
+    "cut_off": "chaughada",
+    "capacity_mode": "tight",
+    "split": "dev",
+    "rep": 0,
+    "condition": "tight-cut"
+  }
+}

@@ -1,0 +1,291 @@
+{
+ "start": "Haku",
+ "shelter": "Haku",
+ "capacity": null,
+ "locations": [
+  {
+   "name": "Haku",
+   "kind": "evacuation point"
+  },
+  {
+   "name": "Kispang",
+   "kind": "school"
+  },
+  {
+   "name": "Lachyang",
+   "kind": "village"
+  },
+  {
+   "name": "Laharepauwa",
+   "kind": "village"
+  },
+  {
+   "name": "Narjamandap",
+   "kind": "village"
+  },
+  {
+   "name": "Bidur",
+   "kind": "village"
+  },
+  {
+   "name": "Tadi",
+   "kind": "temple"
+  },
+  {
+   "name": "Suryagadhi",
+   "kind": "temple"
+  },
+  {
+   "name": "Taruka",
+   "kind": "village"
+  },
+  {
+   "name": "Kaule",
+   "kind": "temple"
+  },
+  {
+   "name": "Bageshwari",
+   "kind": "school"
+  },
+  {
+   "name": "Shikharbesi",
+   "kind": "school"
+  },
+  {
+   "name": "Ramche",
+   "kind": "village"
+  },
+  {
+   "name": "Salme",
+   "kind": "road junction"
+  }
+ ],
+ "roads": [
+  {
+   "between": [
+    "Bageshwari",
+    "Tadi"
+   ],
+   "minutes": 10,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Bidur",
+    "Lachyang"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Bidur",
+    "Salme"
+   ],
+   "minutes": 30,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Bidur",
+    "Taruka"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Haku",
+    "Laharepauwa"
+   ],
+   "minutes": 20,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Haku",
+    "Narjamandap"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Haku",
+    "Taruka"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kaule",
+    "Kispang"
+   ],
+   "minutes": 25,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kaule",
+    "Lachyang"
+   ],
+   "minutes": 40,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kaule",
+    "Taruka"
+   ],
+   "minutes": 25,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Kispang",
+    "Lachyang"
+   ],
+   "minutes": 20,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Kispang",
+    "Taruka"
+   ],
+   "minutes": 5,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Laharepauwa",
+    "Ramche"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Laharepauwa",
+    "Suryagadhi"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Narjamandap",
+    "Shikharbesi"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Narjamandap",
+    "Suryagadhi"
+   ],
+   "minutes": 15,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Ramche",
+    "Suryagadhi"
+   ],
+   "minutes": 40,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Shikharbesi",
+    "Suryagadhi"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Shikharbesi",
+    "Tadi"
+   ],
+   "minutes": 15,
+   "status": "open"
+  }
+ ],
+ "people": {
+  "Kispang": {
+   "injured": 1,
+   "children": 3,
+   "elderly": 2,
+   "adults": 1
+  },
+  "Lachyang": {
+   "injured": 0,
+   "children": 3,
+   "elderly": 3,
+   "adults": 6
+  },
+  "Laharepauwa": {
+   "injured": 2,
+   "children": 0,
+   "elderly": 2,
+   "adults": 4
+  },
+  "Narjamandap": {
+   "injured": 0,
+   "children": 4,
+   "elderly": 0,
+   "adults": 1
+  },
+  "Bidur": {
+   "injured": 0,
+   "children": 0,
+   "elderly": 1,
+   "adults": 4
+  },
+  "Tadi": {
+   "injured": 0,
+   "children": 2,
+   "elderly": 0,
+   "adults": 4
+  },
+  "Suryagadhi": {
+   "injured": 0,
+   "children": 2,
+   "elderly": 1,
+   "adults": 6
+  },
+  "Taruka": {
+   "injured": 0,
+   "children": 3,
+   "elderly": 1,
+   "adults": 4
+  },
+  "Kaule": {
+   "injured": 3,
+   "children": 1,
+   "elderly": 0,
+   "adults": 2
+  },
+  "Bageshwari": {
+   "injured": 0,
+   "children": 3,
+   "elderly": 1,
+   "adults": 2
+  },
+  "Shikharbesi": {
+   "injured": 0,
+   "children": 7,
+   "elderly": 3,
+   "adults": 1
+  },
+  "Ramche": {
+   "injured": 0,
+   "children": 0,
+   "elderly": 0,
+   "adults": 1
+  }
+ }
+}

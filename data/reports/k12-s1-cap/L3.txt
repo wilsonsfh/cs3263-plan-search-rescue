@@ -1,0 +1,34 @@
+MISSION SHEET
+- Team base and starting point: Ramche
+- Shelter where evacuees must be delivered: Ramche
+- Vehicle capacity: 17 people at a time
+- Places on the district map: Ramche (evacuation point), Bhalche (village), Likhu (health post), Rautbesi (village), Khanigaun (village), Dupcheshwar (village), Dandagaun (village), Syaphru (village), Kalikasthan (health post), Jiling (village), Kispang (temple), Salme (village), Taruka (health post), Chaughada (road junction), Laharepauwa (road junction)
+
+ROAD REGISTER (pre-flood network; usual one-way driving times, roads are two-way)
+- Bhalche–Dupcheshwar: 10 min
+- Bhalche–Kispang: 10 min
+- Bhalche–Taruka: 10 min
+- Chaughada–Dandagaun: 15 min
+- Chaughada–Ramche: 15 min
+- Chaughada–Syaphru: 10 min
+- Dandagaun–Salme: 10 min
+- Dupcheshwar–Kispang: 15 min
+- Jiling–Kalikasthan: 20 min
+- Jiling–Kispang: 15 min
+- Jiling–Laharepauwa: 20 min
+- Jiling–Likhu: 10 min
+- Jiling–Ramche: 20 min
+- Kalikasthan–Khanigaun: 25 min
+- Kalikasthan–Laharepauwa: 20 min
+- Kalikasthan–Rautbesi: 20 min
+- Khanigaun–Rautbesi: 15 min
+- Likhu–Ramche: 10 min
+- Likhu–Rautbesi: 20 min
+- Salme–Syaphru: 40 min
+- Syaphru–Taruka: 5 min
+
+FIELD DISPATCHES (several sources; listed in the order they reached the control room)
+[09:30] District Police Office (situation report): Residents at the health post in Kalikasthan say one injured person (a woman with burns on her arms), two elderly residents and two able-bodied adults are still there, sheltering on upper floors. Our team counted four children, three senior citizens and six uninjured adults at Khanigaun, all needing evacuation. The Kalikasthan–Rautbesi road is open but badly waterlogged; driving it now takes double the normal journey time. Our team counted one senior citizen and one uninjured adult at Jiling, all needing evacuation. The suspension bridge on the Khanigaun–Rautbesi route was swept away by the river. Heavy rain is forecast to continue through the evening. The Jiling–Laharepauwa road is open but badly waterlogged; driving it now takes double the normal journey time.
+[13:15] Sunita Lama, The Himalayan Times (on the ground): The Syaphru–Taruka road has been reopened after bulldozers removed the debris; travel times are back to normal. At Dandagaun, two children and 4 able-bodied adults are waiting to be rescued. Boulders and fallen trees make the Chaughada–Dandagaun road impassable for any vehicle. Residents at Syaphru say three injured people (an elderly woman with a broken hip, a child with a deep gash on his leg and a man with a crushed foot), one child, three senior citizens and four able-bodied adults are still there, sheltering on upper floors. Stranded at Dupcheshwar: one injured person (a woman with burns on her arms) and four other adults. Confirmed headcount: Residents at the health post in Likhu say three injured people (a teenage girl with a fractured arm, an elderly woman with a broken hip and a child with a deep gash on his leg), three elderly residents and five able-bodied adults are still there, sheltering on upper floors. Confirmed headcount: Our team counted four children, an old man and 6 able-bodied adults at Bhalche, all needing evacuation. Floodwater has turned the road from Dupcheshwar to Kispang into a river, cutting a road that was open earlier today. Confirmed headcount: At Rautbesi, three injured people (an elderly woman with a broken hip, a man with a crushed foot and a teenage girl with a fractured arm), a baby and 5 other adults are waiting to be rescued. Confirmed headcount: Stranded at Salme: a baby, an elderly couple and one uninjured adult. Stranded at the temple in Kispang: three injured people (an elderly woman with a broken hip, a woman with burns on her arms and a pregnant woman who was hit by debris), three children and two able-bodied adults. The Dandagaun–Salme road is open but badly waterlogged; driving it now takes double the normal journey time. The Chaughada–Syaphru road is open but badly waterlogged; driving it adds 20 minutes to the usual journey. A landslide has buried the road between Likhu and Ramche under metres of mud. Confirmed headcount: Residents at the health post in Taruka say one injured person (an old man with a head wound), two schoolchildren and six able-bodied adults are still there, sheltering on upper floors. A government helicopter was seen flying north this morning but did not land. The only bridge linking Bhalche and Taruka has collapsed, cutting a road that was open earlier today.
+[06:45] Radio Nuwakot FM (local radio, early bulletin): Around 6 people are believed to be stranded in Taruka (unconfirmed estimate). Around 14 people are believed to be stranded in Bhalche (unconfirmed estimate). Debris is blocking the Syaphru–Taruka road. Around 13 people are believed to be stranded in Rautbesi (unconfirmed estimate). Livestock losses across the district are reported to be severe. Around 8 people are believed to be stranded in Likhu (unconfirmed estimate). The Bhalche–Taruka road is still passable this morning, drivers say. The Dupcheshwar–Kispang road is still passable this morning, drivers say. Around 2 people are believed to be stranded in Salme (unconfirmed estimate).
+Anything not mentioned in these dispatches is in its usual condition, and no one else is known to be stranded.

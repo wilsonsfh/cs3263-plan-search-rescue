@@ -1,0 +1,47 @@
+MISSION SHEET
+- Team base and starting point: Chhap
+- Shelter where evacuees must be delivered: Chhap
+- Vehicle capacity: 10 people at a time
+- Places on the district map: Chhap (evacuation point), Syaphru (village), Dandagaun (village), Suryagadhi (village), Tupche (village), Betrawati (village), Taruka (village), Samundratar (health post), Kalikasthan (temple), Dhaibung (road junction), Khanigaun (road junction), Bageshwari (road junction)
+
+ROAD REGISTER (pre-flood network; usual one-way driving times, roads are two-way)
+- Bageshwari–Chhap: 35 min
+- Bageshwari–Dandagaun: 20 min
+- Bageshwari–Khanigaun: 15 min
+- Betrawati–Dhaibung: 20 min
+- Betrawati–Taruka: 10 min
+- Chhap–Dandagaun: 20 min
+- Chhap–Dhaibung: 15 min
+- Chhap–Kalikasthan: 15 min
+- Chhap–Tupche: 30 min
+- Dandagaun–Tupche: 15 min
+- Dhaibung–Kalikasthan: 5 min
+- Dhaibung–Taruka: 10 min
+- Kalikasthan–Samundratar: 15 min
+- Kalikasthan–Suryagadhi: 20 min
+- Samundratar–Suryagadhi: 10 min
+- Samundratar–Syaphru: 25 min
+- Suryagadhi–Syaphru: 15 min
+- Syaphru–Tupche: 10 min
+
+FIELD REPORT (district control room, 12:00)
+Road status changes since the flood:
+- Bageshwari–Chhap: BLOCKED
+- Bageshwari–Dandagaun: open, travel time now 40 min
+- Betrawati–Taruka: BLOCKED
+- Chhap–Dhaibung: open, travel time now 25 min
+- Dhaibung–Kalikasthan: open, travel time now 20 min
+- Dhaibung–Taruka: BLOCKED
+- Kalikasthan–Samundratar: BLOCKED
+- Kalikasthan–Suryagadhi: BLOCKED
+All other roads: open, usual travel time.
+People waiting for rescue:
+- Syaphru: 2 injured, 2 children, 0 elderly, 3 adults
+- Dandagaun: 0 injured, 3 children, 0 elderly, 4 adults
+- Suryagadhi: 0 injured, 4 children, 1 elderly, 5 adults
+- Tupche: 0 injured, 2 children, 0 elderly, 4 adults
+- Betrawati: 0 injured, 2 children, 1 elderly, 3 adults
+- Taruka: 0 injured, 4 children, 1 elderly, 1 adults
+- Samundratar: 1 injured, 2 children, 0 elderly, 1 adults
+- Kalikasthan: 0 injured, 2 children, 0 elderly, 5 adults
+No one is waiting at any other location.

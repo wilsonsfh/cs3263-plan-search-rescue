@@ -1,0 +1,299 @@
+{
+ "start": "Belkot",
+ "shelter": "Belkot",
+ "capacity": 21,
+ "locations": [
+  {
+   "name": "Belkot",
+   "kind": "evacuation point"
+  },
+  {
+   "name": "Likhu",
+   "kind": "temple"
+  },
+  {
+   "name": "Shikharbesi",
+   "kind": "village"
+  },
+  {
+   "name": "Narjamandap",
+   "kind": "village"
+  },
+  {
+   "name": "Goljung",
+   "kind": "village"
+  },
+  {
+   "name": "Dhaibung",
+   "kind": "village"
+  },
+  {
+   "name": "Taruka",
+   "kind": "village"
+  },
+  {
+   "name": "Thansing",
+   "kind": "village"
+  },
+  {
+   "name": "Rautbesi",
+   "kind": "ward office"
+  },
+  {
+   "name": "Salme",
+   "kind": "ward office"
+  },
+  {
+   "name": "Madanpur",
+   "kind": "village"
+  },
+  {
+   "name": "Jiling",
+   "kind": "school"
+  },
+  {
+   "name": "Ghyangphedi",
+   "kind": "temple"
+  },
+  {
+   "name": "Kaule",
+   "kind": "road junction"
+  },
+  {
+   "name": "Chaughada",
+   "kind": "village"
+  },
+  {
+   "name": "Okharpauwa",
+   "kind": "village"
+  }
+ ],
+ "roads": [
+  {
+   "between": [
+    "Belkot",
+    "Narjamandap"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Belkot",
+    "Salme"
+   ],
+   "minutes": 10,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Belkot",
+    "Taruka"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Chaughada",
+    "Dhaibung"
+   ],
+   "minutes": 20,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Chaughada",
+    "Thansing"
+   ],
+   "minutes": 15,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Dhaibung",
+    "Ghyangphedi"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Ghyangphedi",
+    "Taruka"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Goljung",
+    "Salme"
+   ],
+   "minutes": 20,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Jiling",
+    "Likhu"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Jiling",
+    "Rautbesi"
+   ],
+   "minutes": 25,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Jiling",
+    "Taruka"
+   ],
+   "minutes": 15,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Kaule",
+    "Madanpur"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kaule",
+    "Shikharbesi"
+   ],
+   "minutes": 30,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Likhu",
+    "Taruka"
+   ],
+   "minutes": 15,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Narjamandap",
+    "Salme"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Narjamandap",
+    "Shikharbesi"
+   ],
+   "minutes": 30,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Okharpauwa",
+    "Rautbesi"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Okharpauwa",
+    "Taruka"
+   ],
+   "minutes": 35,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Shikharbesi",
+    "Thansing"
+   ],
+   "minutes": 20,
+   "status": "open"
+  }
+ ],
+ "people": {
+  "Likhu": {
+   "injured": 0,
+   "children": 2,
+   "elderly": 2,
+   "adults": 1
+  },
+  "Shikharbesi": {
+   "injured": 0,
+   "children": 0,
+   "elderly": 3,
+   "adults": 1
+  },
+  "Narjamandap": {
+   "injured": 0,
+   "children": 0,
+   "elderly": 0,
+   "adults": 4
+  },
+  "Goljung": {
+   "injured": 3,
+   "children": 4,
+   "elderly": 0,
+   "adults": 1
+  },
+  "Dhaibung": {
+   "injured": 0,
+   "children": 4,
+   "elderly": 1,
+   "adults": 5
+  },
+  "Taruka": {
+   "injured": 0,
+   "children": 0,
+   "elderly": 3,
+   "adults": 3
+  },
+  "Thansing": {
+   "injured": 0,
+   "children": 3,
+   "elderly": 1,
+   "adults": 2
+  },
+  "Rautbesi": {
+   "injured": 2,
+   "children": 0,
+   "elderly": 0,
+   "adults": 6
+  },
+  "Salme": {
+   "injured": 2,
+   "children": 0,
+   "elderly": 0,
+   "adults": 5
+  },
+  "Madanpur": {
+   "injured": 0,
+   "children": 4,
+   "elderly": 0,
+   "adults": 3
+  },
+  "Jiling": {
+   "injured": 1,
+   "children": 9,
+   "elderly": 1,
+   "adults": 1
+  },
+  "Ghyangphedi": {
+   "injured": 0,
+   "children": 1,
+   "elderly": 0,
+   "adults": 4
+  }
+ }
+}

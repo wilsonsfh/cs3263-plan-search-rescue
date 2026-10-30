@@ -1,0 +1,157 @@
+{
+  "id": "k4-s1-cap",
+  "locations": [
+    {
+      "id": "chaughada",
+      "name": "Chaughada",
+      "kind": "base"
+    },
+    {
+      "id": "battar",
+      "name": "Battar",
+      "kind": "temple"
+    },
+    {
+      "id": "madanpur",
+      "name": "Madanpur",
+      "kind": "village"
+    },
+    {
+      "id": "lachyang",
+      "name": "Lachyang",
+      "kind": "temple"
+    },
+    {
+      "id": "chhap",
+      "name": "Chhap",
+      "kind": "health_post"
+    },
+    {
+      "id": "dupcheshwar",
+      "name": "Dupcheshwar",
+      "kind": "evacuated_village"
+    }
+  ],
+  "roads": [
+    {
+      "u": "battar",
+      "v": "chaughada",
+      "minutes": 25,
+      "open": false,
+      "base_minutes": null,
+      "cause": "bridge",
+      "history": []
+    },
+    {
+      "u": "battar",
+      "v": "chhap",
+      "minutes": 45,
+      "open": true,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "blocked",
+        "cleared"
+      ]
+    },
+    {
+      "u": "battar",
+      "v": "dupcheshwar",
+      "minutes": 80,
+      "open": true,
+      "base_minutes": 40,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "chaughada",
+      "v": "chhap",
+      "minutes": 20,
+      "open": false,
+      "base_minutes": null,
+      "cause": "submerged",
+      "history": [
+        "open",
+        "blocked"
+      ]
+    },
+    {
+      "u": "chaughada",
+      "v": "dupcheshwar",
+      "minutes": 45,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "chaughada",
+      "v": "madanpur",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "blocked",
+        "cleared"
+      ]
+    },
+    {
+      "u": "chhap",
+      "v": "lachyang",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": 10,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "dupcheshwar",
+      "v": "madanpur",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    }
+  ],
+  "people": {
+    "battar": {
+      "injured": 3,
+      "children": 4,
+      "elderly": 1,
+      "adults": 5
+    },
+    "madanpur": {
+      "children": 1,
+      "elderly": 2,
+      "adults": 3
+    },
+    "lachyang": {
+      "children": 3,
+      "adults": 1
+    },
+    "chhap": {
+      "injured": 2,
+      "children": 4,
+      "adults": 4
+    }
+  },
+  "start": "chaughada",
+  "shelter": "chaughada",
+  "capacity": 17,
+  "priority": "tiered",
+  "meta": {
+    "k": 4,
+    "seed": 1,
+    "extra_nodes": 1,
+    "n_roads": 8,
+    "n_blocked": 2,
+    "n_slowed": 2,
+    "cut_off": null,
+    "capacity_mode": "tight",
+    "split": "dev",
+    "rep": 0,
+    "condition": "tight"
+  }
+}

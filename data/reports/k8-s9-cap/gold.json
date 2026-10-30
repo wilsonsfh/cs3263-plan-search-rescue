@@ -1,0 +1,211 @@
+{
+ "start": "Chaughada",
+ "shelter": "Chaughada",
+ "capacity": 15,
+ "locations": [
+  {
+   "name": "Chaughada",
+   "kind": "evacuation point"
+  },
+  {
+   "name": "Trishuli",
+   "kind": "village"
+  },
+  {
+   "name": "Samundratar",
+   "kind": "village"
+  },
+  {
+   "name": "Sundaradevi",
+   "kind": "school"
+  },
+  {
+   "name": "Jiling",
+   "kind": "village"
+  },
+  {
+   "name": "Suryagadhi",
+   "kind": "village"
+  },
+  {
+   "name": "Narjamandap",
+   "kind": "village"
+  },
+  {
+   "name": "Dupcheshwar",
+   "kind": "village"
+  },
+  {
+   "name": "Meghang",
+   "kind": "temple"
+  },
+  {
+   "name": "Kumari",
+   "kind": "road junction"
+  }
+ ],
+ "roads": [
+  {
+   "between": [
+    "Chaughada",
+    "Meghang"
+   ],
+   "minutes": 30,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Chaughada",
+    "Narjamandap"
+   ],
+   "minutes": 10,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Chaughada",
+    "Sundaradevi"
+   ],
+   "minutes": 40,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Chaughada",
+    "Suryagadhi"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Dupcheshwar",
+    "Kumari"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Dupcheshwar",
+    "Narjamandap"
+   ],
+   "minutes": 50,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Dupcheshwar",
+    "Samundratar"
+   ],
+   "minutes": 15,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Jiling",
+    "Suryagadhi"
+   ],
+   "minutes": 20,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Jiling",
+    "Trishuli"
+   ],
+   "minutes": 25,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kumari",
+    "Samundratar"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Meghang",
+    "Narjamandap"
+   ],
+   "minutes": 25,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Meghang",
+    "Sundaradevi"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Narjamandap",
+    "Sundaradevi"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Suryagadhi",
+    "Trishuli"
+   ],
+   "minutes": 40,
+   "status": "open"
+  }
+ ],
+ "people": {
+  "Trishuli": {
+   "injured": 3,
+   "children": 2,
+   "elderly": 0,
+   "adults": 5
+  },
+  "Samundratar": {
+   "injured": 1,
+   "children": 1,
+   "elderly": 1,
+   "adults": 2
+  },
+  "Sundaradevi": {
+   "injured": 0,
+   "children": 4,
+   "elderly": 0,
+   "adults": 2
+  },
+  "Jiling": {
+   "injured": 0,
+   "children": 1,
+   "elderly": 0,
+   "adults": 3
+  },
+  "Suryagadhi": {
+   "injured": 1,
+   "children": 4,
+   "elderly": 0,
+   "adults": 6
+  },
+  "Narjamandap": {
+   "injured": 0,
+   "children": 0,
+   "elderly": 0,
+   "adults": 3
+  },
+  "Dupcheshwar": {
+   "injured": 0,
+   "children": 1,
+   "elderly": 0,
+   "adults": 2
+  },
+  "Meghang": {
+   "injured": 0,
+   "children": 0,
+   "elderly": 0,
+   "adults": 1
+  }
+ }
+}

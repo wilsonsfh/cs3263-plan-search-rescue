@@ -1,0 +1,31 @@
+MISSION SHEET
+- Team base and starting point: Likhu
+- Shelter where evacuees must be delivered: Likhu
+- Vehicle capacity: no practical limit (enough vehicles to carry everyone at once)
+- Places on the district map: Likhu (evacuation point), Kumari (school), Sundaradevi (school), Goljung (village), Tupche (village), Ramche (ward office), Tadi (temple), Kaule (health post), Meghang (temple), Thansing (village), Haku (school), Panchakanya (village), Salme (school), Taruka (road junction)
+
+ROAD REGISTER (pre-flood network; usual one-way driving times, roads are two-way)
+- Goljung–Likhu: 15 min
+- Goljung–Meghang: 10 min
+- Goljung–Panchakanya: 15 min
+- Goljung–Thansing: 15 min
+- Haku–Kumari: 5 min
+- Haku–Tupche: 20 min
+- Kaule–Salme: 15 min
+- Kaule–Tadi: 20 min
+- Kaule–Taruka: 10 min
+- Kumari–Sundaradevi: 20 min
+- Likhu–Panchakanya: 5 min
+- Meghang–Salme: 15 min
+- Meghang–Taruka: 15 min
+- Panchakanya–Ramche: 15 min
+- Salme–Sundaradevi: 20 min
+- Salme–Tadi: 10 min
+- Salme–Taruka: 20 min
+- Sundaradevi–Tadi: 25 min
+
+FIELD DISPATCHES (several sources; listed in the order they reached the control room)
+[13:15] Sunita Lama, The Himalayan Times (on the ground): Stranded at Thansing: two injured people (a man with a crushed foot and a teenage girl with a fractured arm), two children and 1 able-bodied adult. Confirmed headcount: Residents at Tupche say two injured people (a man with a crushed foot and a pregnant woman who was hit by debris), a baby, three elderly residents and four uninjured adults are still there, sheltering on upper floors. Confirmed headcount: Our team counted four schoolchildren and one uninjured adult at the school in Kumari, all needing evacuation. The Kaule–Salme road is open but badly waterlogged; driving it takes twice the usual time. Debris has completely choked the road between Salme and Tadi, cutting a road that was open earlier today. Stranded at the health post in Kaule: one senior citizen and half a dozen other adults. Army engineers have cleared the debris on the Haku–Kumari road; it is open again at normal speed. Mobile networks remain patchy across the district. Confirmed headcount: Stranded at the ward office in Ramche: four children, three senior citizens and one uninjured adult. Confirmed headcount: At Panchakanya, an elderly couple and three uninjured adults are waiting to be rescued. Residents at the school in Salme say 9 schoolchildren, 2 senior citizens and one uninjured adult are still there, sheltering on upper floors. Police have checked the Meghang–Taruka road: the social media reports were false and the road is open as normal. Our team counted one injured person (a child with a deep gash on his leg), nine children, an elderly couple and one able-bodied adult at the school in Sundaradevi, all needing evacuation. Police have checked the Goljung–Panchakanya road: the social media reports were false and the road is open as normal. A landslide has buried the road between Meghang and Salme under metres of mud. Hillside collapse: the Likhu–Panchakanya road disappeared under a landslide overnight. The suspension bridge on the Kaule–Taruka route was swept away by the river. At Goljung, a baby, an old man and 5 able-bodied adults are waiting to be rescued.
+[06:45] Radio Nuwakot FM (local radio, early bulletin): The Home Ministry says relief funds will be released next week. Debris is blocking the Haku–Kumari road. Around 3 people are believed to be stranded in Kumari (unconfirmed estimate). Around 7 people are believed to be stranded in Tupche (unconfirmed estimate). Around 8 people are believed to be stranded in Panchakanya (unconfirmed estimate). The Salme–Tadi road is still passable this morning, drivers say. Around 11 people are believed to be stranded in Ramche (unconfirmed estimate).
+[09:30] District Police Office (situation report): A government helicopter was seen flying north this morning but did not land. The Kumari–Sundaradevi road is open but badly waterlogged; driving it takes twice the usual time. Our team counted 3 children, an old man and 1 uninjured adult at the school in Haku, all needing evacuation. Unconfirmed posts on social media claim the Meghang–Taruka road has been washed away. The Goljung–Likhu road is open but badly waterlogged; driving it now takes double the normal journey time. Stranded at the temple in Meghang: one injured person (a child with a deep gash on his leg), four schoolchildren, three elderly residents and half a dozen uninjured adults. Boulders and fallen trees make the Salme–Sundaradevi road impassable for any vehicle. Unconfirmed posts on social media claim the Goljung–Panchakanya road has been washed away. The Salme–Taruka road is open but badly waterlogged; driving it takes twice the usual time. Residents at the temple in Tadi say one schoolchild, one elderly resident and 2 other adults are still there, sheltering on upper floors.
+Anything not mentioned in these dispatches is in its usual condition, and no one else is known to be stranded.

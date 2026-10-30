@@ -1,0 +1,33 @@
+MISSION SHEET
+- Team base and starting point: Dupcheshwar
+- Shelter where evacuees must be delivered: Dupcheshwar
+- Vehicle capacity: 14 people at a time
+- Places on the district map: Dupcheshwar (evacuation point), Ramche (ward office), Kispang (school), Taruka (village), Kalikasthan (ward office), Likhu (road junction)
+
+ROAD REGISTER (pre-flood network; usual one-way driving times, roads are two-way)
+- Dupcheshwar–Kalikasthan: 40 min
+- Dupcheshwar–Kispang: 25 min
+- Dupcheshwar–Likhu: 20 min
+- Dupcheshwar–Ramche: 25 min
+- Dupcheshwar–Taruka: 40 min
+- Kalikasthan–Ramche: 10 min
+- Kispang–Likhu: 35 min
+- Kispang–Taruka: 20 min
+- Likhu–Ramche: 30 min
+- Likhu–Taruka: 35 min
+
+FIELD REPORT (district control room, 12:00)
+Road status changes since the flood:
+- Dupcheshwar–Kalikasthan: BLOCKED
+- Dupcheshwar–Kispang: open, travel time now 50 min
+- Dupcheshwar–Likhu: BLOCKED
+- Dupcheshwar–Taruka: BLOCKED
+- Kalikasthan–Ramche: BLOCKED
+- Likhu–Ramche: open, travel time now 60 min
+All other roads: open, usual travel time.
+People waiting for rescue:
+- Ramche: 0 injured, 2 children, 3 elderly, 2 adults
+- Kispang: 2 injured, 4 children, 3 elderly, 2 adults
+- Taruka: 2 injured, 0 children, 1 elderly, 2 adults
+- Kalikasthan: 0 injured, 4 children, 1 elderly, 5 adults
+No one is waiting at any other location.

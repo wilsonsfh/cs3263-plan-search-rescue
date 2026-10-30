@@ -1,0 +1,168 @@
+{
+  "id": "k4-s9-cap",
+  "locations": [
+    {
+      "id": "madanpur",
+      "name": "Madanpur",
+      "kind": "base"
+    },
+    {
+      "id": "tupche",
+      "name": "Tupche",
+      "kind": "village"
+    },
+    {
+      "id": "thaprek",
+      "name": "Thaprek",
+      "kind": "village"
+    },
+    {
+      "id": "kalikasthan",
+      "name": "Kalikasthan",
+      "kind": "village"
+    },
+    {
+      "id": "ramche",
+      "name": "Ramche",
+      "kind": "school"
+    },
+    {
+      "id": "meghang",
+      "name": "Meghang",
+      "kind": "evacuated_village"
+    }
+  ],
+  "roads": [
+    {
+      "u": "kalikasthan",
+      "v": "madanpur",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "kalikasthan",
+      "v": "meghang",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "kalikasthan",
+      "v": "ramche",
+      "minutes": 45,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "kalikasthan",
+      "v": "thaprek",
+      "minutes": 50,
+      "open": true,
+      "base_minutes": 35,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "madanpur",
+      "v": "meghang",
+      "minutes": 10,
+      "open": false,
+      "base_minutes": null,
+      "cause": "bridge",
+      "history": [
+        "open",
+        "blocked"
+      ]
+    },
+    {
+      "u": "madanpur",
+      "v": "thaprek",
+      "minutes": 35,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": [
+        "rumour"
+      ]
+    },
+    {
+      "u": "madanpur",
+      "v": "tupche",
+      "minutes": 20,
+      "open": false,
+      "base_minutes": null,
+      "cause": "landslide",
+      "history": []
+    },
+    {
+      "u": "meghang",
+      "v": "thaprek",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "meghang",
+      "v": "tupche",
+      "minutes": 40,
+      "open": true,
+      "base_minutes": 20,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "ramche",
+      "v": "tupche",
+      "minutes": 35,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    }
+  ],
+  "people": {
+    "tupche": {
+      "adults": 6
+    },
+    "thaprek": {
+      "children": 3,
+      "elderly": 2,
+      "adults": 2
+    },
+    "kalikasthan": {
+      "children": 4,
+      "adults": 2
+    },
+    "ramche": {
+      "children": 4,
+      "elderly": 3,
+      "adults": 2
+    }
+  },
+  "start": "madanpur",
+  "shelter": "madanpur",
+  "capacity": 17,
+  "priority": "tiered",
+  "meta": {
+    "k": 4,
+    "seed": 9,
+    "extra_nodes": 1,
+    "n_roads": 10,
+    "n_blocked": 2,
+    "n_slowed": 2,
+    "cut_off": null,
+    "capacity_mode": "tight",
+    "split": "test",
+    "rep": 2,
+    "condition": "tight"
+  }
+}

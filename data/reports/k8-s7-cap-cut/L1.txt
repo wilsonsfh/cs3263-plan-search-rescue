@@ -1,0 +1,46 @@
+MISSION SHEET
+- Team base and starting point: Rautbesi
+- Shelter where evacuees must be delivered: Rautbesi
+- Vehicle capacity: 19 people at a time
+- Places on the district map: Rautbesi (evacuation point), Kumari (health post), Meghang (school), Ramche (temple), Dhaibung (village), Dupcheshwar (temple), Haku (village), Shikharbesi (village), Goljung (village), Kalikasthan (village), Kispang (road junction)
+
+ROAD REGISTER (pre-flood network; usual one-way driving times, roads are two-way)
+- Dhaibung–Haku: 35 min
+- Dhaibung–Kumari: 30 min
+- Dhaibung–Ramche: 15 min
+- Dupcheshwar–Goljung: 15 min
+- Dupcheshwar–Kalikasthan: 10 min
+- Dupcheshwar–Meghang: 20 min
+- Dupcheshwar–Rautbesi: 10 min
+- Goljung–Kalikasthan: 20 min
+- Goljung–Kumari: 10 min
+- Haku–Rautbesi: 25 min
+- Haku–Shikharbesi: 15 min
+- Kalikasthan–Kispang: 25 min
+- Kalikasthan–Rautbesi: 20 min
+- Kispang–Meghang: 15 min
+- Kumari–Ramche: 15 min
+- Meghang–Shikharbesi: 30 min
+- Rautbesi–Shikharbesi: 35 min
+
+FIELD REPORT (district control room, 12:00)
+Road status changes since the flood:
+- Dhaibung–Ramche: BLOCKED
+- Dupcheshwar–Goljung: BLOCKED
+- Dupcheshwar–Kalikasthan: open, travel time now 20 min
+- Dupcheshwar–Meghang: open, travel time now 35 min
+- Dupcheshwar–Rautbesi: BLOCKED
+- Goljung–Kumari: BLOCKED
+- Haku–Shikharbesi: open, travel time now 30 min
+- Kumari–Ramche: BLOCKED
+All other roads: open, usual travel time.
+People waiting for rescue:
+- Kumari: 0 injured, 2 children, 0 elderly, 3 adults
+- Meghang: 0 injured, 9 children, 0 elderly, 1 adults
+- Ramche: 1 injured, 0 children, 2 elderly, 2 adults
+- Dhaibung: 0 injured, 1 children, 1 elderly, 5 adults
+- Dupcheshwar: 0 injured, 2 children, 1 elderly, 2 adults
+- Haku: 0 injured, 0 children, 2 elderly, 5 adults
+- Shikharbesi: 3 injured, 0 children, 0 elderly, 2 adults
+- Goljung: 0 injured, 4 children, 0 elderly, 6 adults
+No one is waiting at any other location.

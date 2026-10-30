@@ -1,0 +1,247 @@
+{
+  "id": "k8-s6-inf-cut",
+  "locations": [
+    {
+      "id": "kumari",
+      "name": "Kumari",
+      "kind": "base"
+    },
+    {
+      "id": "narjamandap",
+      "name": "Narjamandap",
+      "kind": "village"
+    },
+    {
+      "id": "trishuli",
+      "name": "Trishuli",
+      "kind": "village"
+    },
+    {
+      "id": "bageshwari",
+      "name": "Bageshwari",
+      "kind": "school"
+    },
+    {
+      "id": "suryagadhi",
+      "name": "Suryagadhi",
+      "kind": "school"
+    },
+    {
+      "id": "thaprek",
+      "name": "Thaprek",
+      "kind": "temple"
+    },
+    {
+      "id": "kakani",
+      "name": "Kakani",
+      "kind": "temple"
+    },
+    {
+      "id": "thansing",
+      "name": "Thansing",
+      "kind": "village"
+    },
+    {
+      "id": "taruka",
+      "name": "Taruka",
+      "kind": "village"
+    },
+    {
+      "id": "bhorle",
+      "name": "Bhorle",
+      "kind": "junction"
+    }
+  ],
+  "roads": [
+    {
+      "u": "bageshwari",
+      "v": "bhorle",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "blocked",
+        "cleared"
+      ]
+    },
+    {
+      "u": "bageshwari",
+      "v": "kakani",
+      "minutes": 5,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "bageshwari",
+      "v": "taruka",
+      "minutes": 20,
+      "open": false,
+      "base_minutes": null,
+      "cause": "landslide",
+      "history": []
+    },
+    {
+      "u": "bhorle",
+      "v": "suryagadhi",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "bhorle",
+      "v": "taruka",
+      "minutes": 30,
+      "open": true,
+      "base_minutes": 10,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "kakani",
+      "v": "taruka",
+      "minutes": 25,
+      "open": false,
+      "base_minutes": null,
+      "cause": "landslide",
+      "history": [
+        "open",
+        "blocked"
+      ]
+    },
+    {
+      "u": "kumari",
+      "v": "narjamandap",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "kumari",
+      "v": "taruka",
+      "minutes": 30,
+      "open": true,
+      "base_minutes": 10,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "kumari",
+      "v": "thansing",
+      "minutes": 25,
+      "open": false,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": []
+    },
+    {
+      "u": "narjamandap",
+      "v": "taruka",
+      "minutes": 45,
+      "open": true,
+      "base_minutes": 25,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "narjamandap",
+      "v": "thansing",
+      "minutes": 30,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "suryagadhi",
+      "v": "taruka",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "thansing",
+      "v": "trishuli",
+      "minutes": 25,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "thaprek",
+      "v": "trishuli",
+      "minutes": 10,
+      "open": false,
+      "base_minutes": null,
+      "cause": "submerged",
+      "history": []
+    }
+  ],
+  "people": {
+    "narjamandap": {
+      "children": 3,
+      "elderly": 2,
+      "adults": 4
+    },
+    "trishuli": {
+      "children": 1,
+      "adults": 2
+    },
+    "bageshwari": {
+      "injured": 1,
+      "children": 9,
+      "elderly": 2,
+      "adults": 2
+    },
+    "suryagadhi": {
+      "injured": 2,
+      "children": 8,
+      "elderly": 3,
+      "adults": 2
+    },
+    "thaprek": {
+      "children": 2,
+      "elderly": 1,
+      "adults": 2
+    },
+    "kakani": {
+      "elderly": 1,
+      "adults": 6
+    },
+    "thansing": {
+      "children": 3,
+      "elderly": 3,
+      "adults": 2
+    },
+    "taruka": {
+      "children": 3,
+      "adults": 2
+    }
+  },
+  "start": "kumari",
+  "shelter": "kumari",
+  "capacity": null,
+  "priority": "tiered",
+  "meta": {
+    "k": 8,
+    "seed": 6,
+    "extra_nodes": 1,
+    "n_roads": 14,
+    "n_blocked": 4,
+    "n_slowed": 3,
+    "cut_off": "thaprek",
+    "capacity_mode": "unlimited",
+    "split": "test",
+    "rep": 1,
+    "condition": "unlimited-cut"
+  }
+}

@@ -1,0 +1,31 @@
+MISSION SHEET
+- Team base and starting point: Suryagadhi
+- Shelter where evacuees must be delivered: Suryagadhi
+- Vehicle capacity: 26 people at a time
+- Places on the district map: Suryagadhi (evacuation point), Dandagaun (health post), Battar (village), Salme (temple), Kakani (village), Dupcheshwar (ward office), Tadi (village), Gerkhu (health post), Meghang (village), Kalikasthan (road junction), Sundaradevi (village), Thaprek (road junction)
+
+ROAD REGISTER (pre-flood network; usual one-way driving times, roads are two-way)
+- Battar–Dandagaun: 15 min
+- Battar–Kalikasthan: 10 min
+- Battar–Suryagadhi: 5 min
+- Battar–Thaprek: 25 min
+- Dandagaun–Meghang: 5 min
+- Dandagaun–Salme: 15 min
+- Dupcheshwar–Salme: 25 min
+- Dupcheshwar–Sundaradevi: 15 min
+- Dupcheshwar–Suryagadhi: 25 min
+- Gerkhu–Meghang: 10 min
+- Kakani–Suryagadhi: 15 min
+- Kakani–Tadi: 15 min
+- Kalikasthan–Suryagadhi: 15 min
+- Kalikasthan–Tadi: 15 min
+- Kalikasthan–Thaprek: 15 min
+- Meghang–Salme: 5 min
+- Sundaradevi–Suryagadhi: 20 min
+- Suryagadhi–Tadi: 10 min
+
+FIELD DISPATCHES (several sources; listed in the order they reached the control room)
+[09:30] District Police Office (situation report): The Dupcheshwar–Salme road is open but badly waterlogged; driving it adds a quarter of an hour to the usual journey. Our team counted two injured people (a teenage girl with a fractured arm and a man with a crushed foot), three schoolchildren, an elderly couple and one other adult at the ward office in Dupcheshwar, all needing evacuation. Residents at Tadi say three injured people (a pregnant woman who was hit by debris, a child with a deep gash on his leg and a man with a crushed foot), three schoolchildren, an elderly couple and five other adults are still there, sheltering on upper floors. Residents at the health post in Dandagaun say two schoolchildren, an elderly couple and four able-bodied adults are still there, sheltering on upper floors. Unconfirmed posts on social media claim the Kakani–Suryagadhi road has been washed away. The Battar–Kalikasthan road is open but badly waterlogged; driving it takes twice the usual time. The Home Ministry says relief funds will be released next week. Stranded at Meghang: three children and 1 able-bodied adult. The Battar–Suryagadhi road is under two metres of fast-flowing floodwater. The Suryagadhi–Tadi road is under two metres of fast-flowing floodwater. Residents at Kakani say three injured people (a pregnant woman who was hit by debris, an old man with a head wound and a man with a crushed foot), four schoolchildren and four uninjured adults are still there, sheltering on upper floors.
+[06:45] Radio Nuwakot FM (local radio, early bulletin): Around 12 people are believed to be stranded in Battar (unconfirmed estimate). Residents of Sundaradevi were seen on rooftops last night. The Gerkhu–Meghang road is still passable this morning, drivers say. The Dupcheshwar–Suryagadhi road is still passable this morning, drivers say. Debris is blocking the Kalikasthan–Thaprek road. Livestock losses across the district are reported to be severe. Debris is blocking the Dandagaun–Salme road. Debris is blocking the Kalikasthan–Suryagadhi road. Around 10 people are believed to be stranded in Salme (unconfirmed estimate).
+[13:15] Sunita Lama, The Himalayan Times (on the ground): Sundaradevi was fully evacuated by the army yesterday; no one remains there. The Kakani–Tadi road is open but badly waterlogged; driving it now takes double the normal journey time. Confirmed headcount: Residents at the temple in Salme say four children and three other adults are still there, sheltering on upper floors. The Dandagaun–Salme road has been reopened after bulldozers removed the debris; travel times are back to normal. Residents at the health post in Gerkhu say one senior citizen and half a dozen other adults are still there, sheltering on upper floors. A landslide has buried the road between Gerkhu and Meghang under metres of mud, cutting a road that was open earlier today. Heavy rain is forecast to continue through the evening. The Kalikasthan–Suryagadhi road has been reopened after bulldozers removed the debris; travel times are back to normal. The only bridge linking Dupcheshwar and Suryagadhi has collapsed, cutting a road that was open earlier today. Confirmed headcount: At Battar, two schoolchildren, an old man and five other adults are waiting to be rescued. Police have checked the Kakani–Suryagadhi road: the social media reports were false and the road is open as normal. Army engineers have cleared the debris on the Kalikasthan–Thaprek road; it is open again at normal speed.
+Anything not mentioned in these dispatches is in its usual condition, and no one else is known to be stranded.

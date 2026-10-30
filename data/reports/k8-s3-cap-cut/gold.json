@@ -1,0 +1,251 @@
+{
+ "start": "Suryagadhi",
+ "shelter": "Suryagadhi",
+ "capacity": 26,
+ "locations": [
+  {
+   "name": "Suryagadhi",
+   "kind": "evacuation point"
+  },
+  {
+   "name": "Dandagaun",
+   "kind": "health post"
+  },
+  {
+   "name": "Battar",
+   "kind": "village"
+  },
+  {
+   "name": "Salme",
+   "kind": "temple"
+  },
+  {
+   "name": "Kakani",
+   "kind": "village"
+  },
+  {
+   "name": "Dupcheshwar",
+   "kind": "ward office"
+  },
+  {
+   "name": "Tadi",
+   "kind": "village"
+  },
+  {
+   "name": "Gerkhu",
+   "kind": "health post"
+  },
+  {
+   "name": "Meghang",
+   "kind": "village"
+  },
+  {
+   "name": "Kalikasthan",
+   "kind": "road junction"
+  },
+  {
+   "name": "Sundaradevi",
+   "kind": "village"
+  },
+  {
+   "name": "Thaprek",
+   "kind": "road junction"
+  }
+ ],
+ "roads": [
+  {
+   "between": [
+    "Battar",
+    "Dandagaun"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Battar",
+    "Kalikasthan"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Battar",
+    "Suryagadhi"
+   ],
+   "minutes": 5,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Battar",
+    "Thaprek"
+   ],
+   "minutes": 25,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Dandagaun",
+    "Meghang"
+   ],
+   "minutes": 5,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Dandagaun",
+    "Salme"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Dupcheshwar",
+    "Salme"
+   ],
+   "minutes": 40,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Dupcheshwar",
+    "Sundaradevi"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Dupcheshwar",
+    "Suryagadhi"
+   ],
+   "minutes": 25,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Gerkhu",
+    "Meghang"
+   ],
+   "minutes": 10,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Kakani",
+    "Suryagadhi"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kakani",
+    "Tadi"
+   ],
+   "minutes": 30,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kalikasthan",
+    "Suryagadhi"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kalikasthan",
+    "Tadi"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kalikasthan",
+    "Thaprek"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Meghang",
+    "Salme"
+   ],
+   "minutes": 5,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Sundaradevi",
+    "Suryagadhi"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Suryagadhi",
+    "Tadi"
+   ],
+   "minutes": 10,
+   "status": "blocked"
+  }
+ ],
+ "people": {
+  "Dandagaun": {
+   "injured": 0,
+   "children": 2,
+   "elderly": 2,
+   "adults": 4
+  },
+  "Battar": {
+   "injured": 0,
+   "children": 2,
+   "elderly": 1,
+   "adults": 5
+  },
+  "Salme": {
+   "injured": 0,
+   "children": 4,
+   "elderly": 0,
+   "adults": 3
+  },
+  "Kakani": {
+   "injured": 3,
+   "children": 4,
+   "elderly": 0,
+   "adults": 4
+  },
+  "Dupcheshwar": {
+   "injured": 2,
+   "children": 3,
+   "elderly": 2,
+   "adults": 1
+  },
+  "Tadi": {
+   "injured": 3,
+   "children": 3,
+   "elderly": 2,
+   "adults": 5
+  },
+  "Gerkhu": {
+   "injured": 0,
+   "children": 0,
+   "elderly": 1,
+   "adults": 6
+  },
+  "Meghang": {
+   "injured": 0,
+   "children": 3,
+   "elderly": 0,
+   "adults": 1
+  }
+ }
+}

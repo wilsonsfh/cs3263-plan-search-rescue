@@ -1,0 +1,41 @@
+MISSION SHEET
+- Team base and starting point: Chaughada
+- Shelter where evacuees must be delivered: Chaughada
+- Vehicle capacity: 15 people at a time
+- Places on the district map: Chaughada (evacuation point), Trishuli (village), Samundratar (village), Sundaradevi (school), Jiling (village), Suryagadhi (village), Narjamandap (village), Dupcheshwar (village), Meghang (temple), Kumari (road junction)
+
+ROAD REGISTER (pre-flood network; usual one-way driving times, roads are two-way)
+- Chaughada–Meghang: 30 min
+- Chaughada–Narjamandap: 10 min
+- Chaughada–Sundaradevi: 20 min
+- Chaughada–Suryagadhi: 10 min
+- Dupcheshwar–Kumari: 15 min
+- Dupcheshwar–Narjamandap: 25 min
+- Dupcheshwar–Samundratar: 15 min
+- Jiling–Suryagadhi: 20 min
+- Jiling–Trishuli: 25 min
+- Kumari–Samundratar: 10 min
+- Meghang–Narjamandap: 25 min
+- Meghang–Sundaradevi: 15 min
+- Narjamandap–Sundaradevi: 20 min
+- Suryagadhi–Trishuli: 20 min
+
+FIELD REPORT (district control room, 12:00)
+Road status changes since the flood:
+- Chaughada–Narjamandap: BLOCKED
+- Chaughada–Sundaradevi: open, travel time now 40 min
+- Dupcheshwar–Narjamandap: open, travel time now 50 min
+- Dupcheshwar–Samundratar: BLOCKED
+- Jiling–Suryagadhi: BLOCKED
+- Suryagadhi–Trishuli: open, travel time now 40 min
+All other roads: open, usual travel time.
+People waiting for rescue:
+- Trishuli: 3 injured, 2 children, 0 elderly, 5 adults
+- Samundratar: 1 injured, 1 children, 1 elderly, 2 adults
+- Sundaradevi: 0 injured, 4 children, 0 elderly, 2 adults
+- Jiling: 0 injured, 1 children, 0 elderly, 3 adults
+- Suryagadhi: 1 injured, 4 children, 0 elderly, 6 adults
+- Narjamandap: 0 injured, 0 children, 0 elderly, 3 adults
+- Dupcheshwar: 0 injured, 1 children, 0 elderly, 2 adults
+- Meghang: 0 injured, 0 children, 0 elderly, 1 adults
+No one is waiting at any other location.

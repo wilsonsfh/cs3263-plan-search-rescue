@@ -1,0 +1,407 @@
+{
+  "id": "k16-s4-inf",
+  "locations": [
+    {
+      "id": "thaprek",
+      "name": "Thaprek",
+      "kind": "base"
+    },
+    {
+      "id": "dhaibung",
+      "name": "Dhaibung",
+      "kind": "temple"
+    },
+    {
+      "id": "khanigaun",
+      "name": "Khanigaun",
+      "kind": "village"
+    },
+    {
+      "id": "ramche",
+      "name": "Ramche",
+      "kind": "temple"
+    },
+    {
+      "id": "shikharbesi",
+      "name": "Shikharbesi",
+      "kind": "ward_office"
+    },
+    {
+      "id": "belkot",
+      "name": "Belkot",
+      "kind": "village"
+    },
+    {
+      "id": "laharepauwa",
+      "name": "Laharepauwa",
+      "kind": "ward_office"
+    },
+    {
+      "id": "tupche",
+      "name": "Tupche",
+      "kind": "temple"
+    },
+    {
+      "id": "betrawati",
+      "name": "Betrawati",
+      "kind": "temple"
+    },
+    {
+      "id": "kaule",
+      "name": "Kaule",
+      "kind": "village"
+    },
+    {
+      "id": "lachyang",
+      "name": "Lachyang",
+      "kind": "village"
+    },
+    {
+      "id": "chhap",
+      "name": "Chhap",
+      "kind": "village"
+    },
+    {
+      "id": "okharpauwa",
+      "name": "Okharpauwa",
+      "kind": "temple"
+    },
+    {
+      "id": "sundaradevi",
+      "name": "Sundaradevi",
+      "kind": "village"
+    },
+    {
+      "id": "chaughada",
+      "name": "Chaughada",
+      "kind": "temple"
+    },
+    {
+      "id": "kumari",
+      "name": "Kumari",
+      "kind": "temple"
+    },
+    {
+      "id": "taruka",
+      "name": "Taruka",
+      "kind": "village"
+    },
+    {
+      "id": "jiling",
+      "name": "Jiling",
+      "kind": "junction"
+    }
+  ],
+  "roads": [
+    {
+      "u": "belkot",
+      "v": "dhaibung",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "belkot",
+      "v": "kaule",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "belkot",
+      "v": "khanigaun",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": 10,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "betrawati",
+      "v": "okharpauwa",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "betrawati",
+      "v": "ramche",
+      "minutes": 10,
+      "open": false,
+      "base_minutes": null,
+      "cause": "landslide",
+      "history": []
+    },
+    {
+      "u": "betrawati",
+      "v": "shikharbesi",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "betrawati",
+      "v": "taruka",
+      "minutes": 10,
+      "open": false,
+      "base_minutes": null,
+      "cause": "submerged",
+      "history": []
+    },
+    {
+      "u": "betrawati",
+      "v": "tupche",
+      "minutes": 25,
+      "open": false,
+      "base_minutes": null,
+      "cause": "submerged",
+      "history": [
+        "open",
+        "blocked"
+      ]
+    },
+    {
+      "u": "chaughada",
+      "v": "laharepauwa",
+      "minutes": 25,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "chhap",
+      "v": "okharpauwa",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "jiling",
+      "v": "lachyang",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "jiling",
+      "v": "sundaradevi",
+      "minutes": 30,
+      "open": true,
+      "base_minutes": 15,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "kaule",
+      "v": "laharepauwa",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "blocked",
+        "cleared"
+      ]
+    },
+    {
+      "u": "kaule",
+      "v": "thaprek",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "blocked",
+        "cleared"
+      ]
+    },
+    {
+      "u": "kumari",
+      "v": "laharepauwa",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "kumari",
+      "v": "thaprek",
+      "minutes": 10,
+      "open": false,
+      "base_minutes": null,
+      "cause": "submerged",
+      "history": []
+    },
+    {
+      "u": "lachyang",
+      "v": "shikharbesi",
+      "minutes": 15,
+      "open": false,
+      "base_minutes": null,
+      "cause": "submerged",
+      "history": [
+        "open",
+        "blocked"
+      ]
+    },
+    {
+      "u": "lachyang",
+      "v": "sundaradevi",
+      "minutes": 10,
+      "open": false,
+      "base_minutes": null,
+      "cause": "landslide",
+      "history": [
+        "open",
+        "blocked"
+      ]
+    },
+    {
+      "u": "ramche",
+      "v": "shikharbesi",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": 10,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "ramche",
+      "v": "thaprek",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "shikharbesi",
+      "v": "sundaradevi",
+      "minutes": 50,
+      "open": true,
+      "base_minutes": 30,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "shikharbesi",
+      "v": "tupche",
+      "minutes": 80,
+      "open": true,
+      "base_minutes": 40,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "taruka",
+      "v": "tupche",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    }
+  ],
+  "people": {
+    "dhaibung": {
+      "injured": 1,
+      "adults": 1
+    },
+    "khanigaun": {
+      "children": 1,
+      "adults": 2
+    },
+    "ramche": {
+      "injured": 2,
+      "adults": 4
+    },
+    "shikharbesi": {
+      "elderly": 3,
+      "adults": 6
+    },
+    "belkot": {
+      "injured": 2,
+      "children": 4,
+      "adults": 5
+    },
+    "laharepauwa": {
+      "injured": 3,
+      "adults": 2
+    },
+    "tupche": {
+      "adults": 5
+    },
+    "betrawati": {
+      "children": 4,
+      "adults": 3
+    },
+    "kaule": {
+      "elderly": 1,
+      "adults": 1
+    },
+    "lachyang": {
+      "elderly": 2,
+      "adults": 3
+    },
+    "chhap": {
+      "children": 2,
+      "elderly": 1,
+      "adults": 4
+    },
+    "okharpauwa": {
+      "children": 2,
+      "elderly": 2,
+      "adults": 5
+    },
+    "sundaradevi": {
+      "elderly": 2,
+      "adults": 3
+    },
+    "chaughada": {
+      "injured": 2,
+      "children": 3,
+      "elderly": 2,
+      "adults": 3
+    },
+    "kumari": {
+      "injured": 3,
+      "elderly": 3,
+      "adults": 6
+    },
+    "taruka": {
+      "elderly": 3,
+      "adults": 6
+    }
+  },
+  "start": "thaprek",
+  "shelter": "thaprek",
+  "capacity": null,
+  "priority": "tiered",
+  "meta": {
+    "k": 16,
+    "seed": 4,
+    "extra_nodes": 1,
+    "n_roads": 23,
+    "n_blocked": 6,
+    "n_slowed": 5,
+    "cut_off": null,
+    "capacity_mode": "unlimited",
+    "split": "test",
+    "rep": 1,
+    "condition": "unlimited"
+  }
+}

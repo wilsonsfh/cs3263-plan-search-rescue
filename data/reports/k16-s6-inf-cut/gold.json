@@ -1,0 +1,415 @@
+{
+ "start": "Betrawati",
+ "shelter": "Betrawati",
+ "capacity": null,
+ "locations": [
+  {
+   "name": "Betrawati",
+   "kind": "evacuation point"
+  },
+  {
+   "name": "Thansing",
+   "kind": "village"
+  },
+  {
+   "name": "Goljung",
+   "kind": "village"
+  },
+  {
+   "name": "Ramche",
+   "kind": "health post"
+  },
+  {
+   "name": "Haku",
+   "kind": "village"
+  },
+  {
+   "name": "Bhalche",
+   "kind": "village"
+  },
+  {
+   "name": "Taruka",
+   "kind": "village"
+  },
+  {
+   "name": "Battar",
+   "kind": "ward office"
+  },
+  {
+   "name": "Tadi",
+   "kind": "ward office"
+  },
+  {
+   "name": "Thaprek",
+   "kind": "village"
+  },
+  {
+   "name": "Laharepauwa",
+   "kind": "village"
+  },
+  {
+   "name": "Chaughada",
+   "kind": "school"
+  },
+  {
+   "name": "Shikharbesi",
+   "kind": "health post"
+  },
+  {
+   "name": "Panchakanya",
+   "kind": "ward office"
+  },
+  {
+   "name": "Kakani",
+   "kind": "village"
+  },
+  {
+   "name": "Bageshwari",
+   "kind": "health post"
+  },
+  {
+   "name": "Dandagaun",
+   "kind": "school"
+  },
+  {
+   "name": "Dupcheshwar",
+   "kind": "road junction"
+  },
+  {
+   "name": "Kispang",
+   "kind": "village"
+  },
+  {
+   "name": "Bidur",
+   "kind": "village"
+  },
+  {
+   "name": "Kaule",
+   "kind": "village"
+  }
+ ],
+ "roads": [
+  {
+   "between": [
+    "Bageshwari",
+    "Battar"
+   ],
+   "minutes": 20,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Bageshwari",
+    "Betrawati"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Bageshwari",
+    "Laharepauwa"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Bageshwari",
+    "Taruka"
+   ],
+   "minutes": 10,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Battar",
+    "Kaule"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Betrawati",
+    "Chaughada"
+   ],
+   "minutes": 30,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Betrawati",
+    "Goljung"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Betrawati",
+    "Kakani"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Bhalche",
+    "Shikharbesi"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Bhalche",
+    "Thansing"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Bidur",
+    "Shikharbesi"
+   ],
+   "minutes": 10,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Bidur",
+    "Tadi"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Bidur",
+    "Thaprek"
+   ],
+   "minutes": 10,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Chaughada",
+    "Thansing"
+   ],
+   "minutes": 10,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Dandagaun",
+    "Kakani"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Dandagaun",
+    "Kaule"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Dandagaun",
+    "Kispang"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Dandagaun",
+    "Ramche"
+   ],
+   "minutes": 10,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Dupcheshwar",
+    "Kispang"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Dupcheshwar",
+    "Panchakanya"
+   ],
+   "minutes": 15,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Dupcheshwar",
+    "Thansing"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Goljung",
+    "Taruka"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Goljung",
+    "Thaprek"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Haku",
+    "Laharepauwa"
+   ],
+   "minutes": 35,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kakani",
+    "Kaule"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kispang",
+    "Ramche"
+   ],
+   "minutes": 30,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Laharepauwa",
+    "Taruka"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Tadi",
+    "Thaprek"
+   ],
+   "minutes": 20,
+   "status": "open"
+  }
+ ],
+ "people": {
+  "Thansing": {
+   "injured": 0,
+   "children": 0,
+   "elderly": 1,
+   "adults": 1
+  },
+  "Goljung": {
+   "injured": 0,
+   "children": 1,
+   "elderly": 1,
+   "adults": 3
+  },
+  "Ramche": {
+   "injured": 1,
+   "children": 4,
+   "elderly": 0,
+   "adults": 4
+  },
+  "Haku": {
+   "injured": 0,
+   "children": 4,
+   "elderly": 1,
+   "adults": 4
+  },
+  "Bhalche": {
+   "injured": 0,
+   "children": 0,
+   "elderly": 0,
+   "adults": 4
+  },
+  "Taruka": {
+   "injured": 0,
+   "children": 1,
+   "elderly": 3,
+   "adults": 2
+  },
+  "Battar": {
+   "injured": 0,
+   "children": 2,
+   "elderly": 0,
+   "adults": 3
+  },
+  "Tadi": {
+   "injured": 0,
+   "children": 3,
+   "elderly": 2,
+   "adults": 2
+  },
+  "Thaprek": {
+   "injured": 0,
+   "children": 2,
+   "elderly": 1,
+   "adults": 4
+  },
+  "Laharepauwa": {
+   "injured": 0,
+   "children": 3,
+   "elderly": 2,
+   "adults": 6
+  },
+  "Chaughada": {
+   "injured": 0,
+   "children": 4,
+   "elderly": 0,
+   "adults": 1
+  },
+  "Shikharbesi": {
+   "injured": 1,
+   "children": 0,
+   "elderly": 0,
+   "adults": 6
+  },
+  "Panchakanya": {
+   "injured": 3,
+   "children": 2,
+   "elderly": 3,
+   "adults": 3
+  },
+  "Kakani": {
+   "injured": 0,
+   "children": 0,
+   "elderly": 3,
+   "adults": 1
+  },
+  "Bageshwari": {
+   "injured": 0,
+   "children": 1,
+   "elderly": 2,
+   "adults": 6
+  },
+  "Dandagaun": {
+   "injured": 3,
+   "children": 3,
+   "elderly": 3,
+   "adults": 2
+  }
+ }
+}

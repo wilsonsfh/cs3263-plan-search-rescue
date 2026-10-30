@@ -1,0 +1,30 @@
+MISSION SHEET
+- Team base and starting point: Taruka
+- Shelter where evacuees must be delivered: Taruka
+- Vehicle capacity: no practical limit (enough vehicles to carry everyone at once)
+- Places on the district map: Taruka (evacuation point), Thansing (ward office), Lachyang (village), Bidur (school), Bhalche (village), Kalikasthan (road junction), Tadi (village), Chhap (village)
+
+ROAD REGISTER (pre-flood network; usual one-way driving times, roads are two-way)
+- Bhalche–Bidur: 10 min
+- Bhalche–Tadi: 20 min
+- Bidur–Kalikasthan: 15 min
+- Bidur–Tadi: 20 min
+- Chhap–Lachyang: 25 min
+- Chhap–Tadi: 10 min
+- Chhap–Taruka: 10 min
+- Tadi–Taruka: 10 min
+- Taruka–Thansing: 40 min
+
+FIELD REPORT (district control room, 12:00)
+Road status changes since the flood:
+- Bhalche–Tadi: BLOCKED
+- Bidur–Kalikasthan: open, travel time now 35 min
+- Chhap–Taruka: BLOCKED
+- Taruka–Thansing: open, travel time now 50 min
+All other roads: open, usual travel time.
+People waiting for rescue:
+- Thansing: 0 injured, 4 children, 1 elderly, 4 adults
+- Lachyang: 3 injured, 4 children, 0 elderly, 3 adults
+- Bidur: 0 injured, 6 children, 0 elderly, 2 adults
+- Bhalche: 0 injured, 4 children, 2 elderly, 3 adults
+No one is waiting at any other location.

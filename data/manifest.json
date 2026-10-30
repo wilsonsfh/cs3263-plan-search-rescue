@@ -1,0 +1,674 @@
+[
+ {
+  "id": "k4-s0-inf",
+  "split": "dev",
+  "k": 4,
+  "nodes": 7,
+  "roads": 10,
+  "blocked": 2,
+  "capacity": null,
+  "unreachable": [],
+  "oracle_cost": 260.0,
+  "expanded": 12,
+  "state_bound": 192
+ },
+ {
+  "id": "k4-s1-cap",
+  "split": "dev",
+  "k": 4,
+  "nodes": 6,
+  "roads": 8,
+  "blocked": 2,
+  "capacity": 17,
+  "unreachable": [],
+  "oracle_cost": 620.0,
+  "expanded": 16,
+  "state_bound": 1728
+ },
+ {
+  "id": "k4-s2-inf-cut",
+  "split": "dev",
+  "k": 4,
+  "nodes": 7,
+  "roads": 9,
+  "blocked": 4,
+  "capacity": null,
+  "unreachable": [
+   "Panchakanya"
+  ],
+  "oracle_cost": 230.0,
+  "expanded": 20,
+  "state_bound": 80
+ },
+ {
+  "id": "k4-s3-cap-cut",
+  "split": "dev",
+  "k": 4,
+  "nodes": 8,
+  "roads": 12,
+  "blocked": 4,
+  "capacity": 17,
+  "unreachable": [
+   "Ramche"
+  ],
+  "oracle_cost": 110.0,
+  "expanded": 14,
+  "state_bound": 720
+ },
+ {
+  "id": "k4-s4-inf",
+  "split": "test",
+  "k": 4,
+  "nodes": 8,
+  "roads": 9,
+  "blocked": 2,
+  "capacity": null,
+  "unreachable": [],
+  "oracle_cost": 250.0,
+  "expanded": 22,
+  "state_bound": 192
+ },
+ {
+  "id": "k4-s5-cap",
+  "split": "test",
+  "k": 4,
+  "nodes": 7,
+  "roads": 9,
+  "blocked": 2,
+  "capacity": 17,
+  "unreachable": [],
+  "oracle_cost": 330.0,
+  "expanded": 28,
+  "state_bound": 1728
+ },
+ {
+  "id": "k4-s6-inf-cut",
+  "split": "test",
+  "k": 4,
+  "nodes": 8,
+  "roads": 11,
+  "blocked": 4,
+  "capacity": null,
+  "unreachable": [
+   "Thansing"
+  ],
+  "oracle_cost": 120.0,
+  "expanded": 20,
+  "state_bound": 80
+ },
+ {
+  "id": "k4-s7-cap-cut",
+  "split": "test",
+  "k": 4,
+  "nodes": 7,
+  "roads": 11,
+  "blocked": 4,
+  "capacity": 9,
+  "unreachable": [
+   "Likhu"
+  ],
+  "oracle_cost": 170.0,
+  "expanded": 10,
+  "state_bound": 400
+ },
+ {
+  "id": "k4-s8-inf",
+  "split": "test",
+  "k": 4,
+  "nodes": 8,
+  "roads": 11,
+  "blocked": 2,
+  "capacity": null,
+  "unreachable": [],
+  "oracle_cost": 220.0,
+  "expanded": 22,
+  "state_bound": 192
+ },
+ {
+  "id": "k4-s9-cap",
+  "split": "test",
+  "k": 4,
+  "nodes": 6,
+  "roads": 10,
+  "blocked": 2,
+  "capacity": 17,
+  "unreachable": [],
+  "oracle_cost": 250.0,
+  "expanded": 36,
+  "state_bound": 1728
+ },
+ {
+  "id": "k4-s10-inf-cut",
+  "split": "test",
+  "k": 4,
+  "nodes": 8,
+  "roads": 13,
+  "blocked": 4,
+  "capacity": null,
+  "unreachable": [
+   "Shikharbesi"
+  ],
+  "oracle_cost": 195.0,
+  "expanded": 10,
+  "state_bound": 80
+ },
+ {
+  "id": "k4-s11-cap-cut",
+  "split": "test",
+  "k": 4,
+  "nodes": 6,
+  "roads": 10,
+  "blocked": 4,
+  "capacity": 14,
+  "unreachable": [
+   "Kalikasthan"
+  ],
+  "oracle_cost": 290.0,
+  "expanded": 11,
+  "state_bound": 600
+ },
+ {
+  "id": "k8-s0-inf",
+  "split": "dev",
+  "k": 8,
+  "nodes": 10,
+  "roads": 16,
+  "blocked": 3,
+  "capacity": null,
+  "unreachable": [],
+  "oracle_cost": 420.0,
+  "expanded": 69,
+  "state_bound": 5120
+ },
+ {
+  "id": "k8-s1-cap",
+  "split": "dev",
+  "k": 8,
+  "nodes": 12,
+  "roads": 16,
+  "blocked": 3,
+  "capacity": 19,
+  "unreachable": [],
+  "oracle_cost": 570.0,
+  "expanded": 242,
+  "state_bound": 51200
+ },
+ {
+  "id": "k8-s2-inf-cut",
+  "split": "dev",
+  "k": 8,
+  "nodes": 10,
+  "roads": 17,
+  "blocked": 6,
+  "capacity": null,
+  "unreachable": [
+   "Chaughada"
+  ],
+  "oracle_cost": 320.0,
+  "expanded": 45,
+  "state_bound": 2304
+ },
+ {
+  "id": "k8-s3-cap-cut",
+  "split": "dev",
+  "k": 8,
+  "nodes": 12,
+  "roads": 18,
+  "blocked": 4,
+  "capacity": 26,
+  "unreachable": [
+   "Gerkhu"
+  ],
+  "oracle_cost": 310.0,
+  "expanded": 185,
+  "state_bound": 31104
+ },
+ {
+  "id": "k8-s4-inf",
+  "split": "test",
+  "k": 8,
+  "nodes": 11,
+  "roads": 16,
+  "blocked": 3,
+  "capacity": null,
+  "unreachable": [],
+  "oracle_cost": 460.0,
+  "expanded": 63,
+  "state_bound": 5120
+ },
+ {
+  "id": "k8-s5-cap",
+  "split": "test",
+  "k": 8,
+  "nodes": 11,
+  "roads": 15,
+  "blocked": 3,
+  "capacity": 15,
+  "unreachable": [],
+  "oracle_cost": 495.0,
+  "expanded": 240,
+  "state_bound": 40960
+ },
+ {
+  "id": "k8-s6-inf-cut",
+  "split": "test",
+  "k": 8,
+  "nodes": 10,
+  "roads": 14,
+  "blocked": 4,
+  "capacity": null,
+  "unreachable": [
+   "Thaprek"
+  ],
+  "oracle_cost": 300.0,
+  "expanded": 99,
+  "state_bound": 2304
+ },
+ {
+  "id": "k8-s7-cap-cut",
+  "split": "test",
+  "k": 8,
+  "nodes": 11,
+  "roads": 17,
+  "blocked": 5,
+  "capacity": 19,
+  "unreachable": [
+   "Ramche"
+  ],
+  "oracle_cost": 425.0,
+  "expanded": 633,
+  "state_bound": 23040
+ },
+ {
+  "id": "k8-s8-inf",
+  "split": "test",
+  "k": 8,
+  "nodes": 13,
+  "roads": 21,
+  "blocked": 3,
+  "capacity": null,
+  "unreachable": [],
+  "oracle_cost": 275.0,
+  "expanded": 106,
+  "state_bound": 5120
+ },
+ {
+  "id": "k8-s9-cap",
+  "split": "test",
+  "k": 8,
+  "nodes": 10,
+  "roads": 14,
+  "blocked": 3,
+  "capacity": 15,
+  "unreachable": [],
+  "oracle_cost": 645.0,
+  "expanded": 90,
+  "state_bound": 40960
+ },
+ {
+  "id": "k8-s10-inf-cut",
+  "split": "test",
+  "k": 8,
+  "nodes": 13,
+  "roads": 17,
+  "blocked": 4,
+  "capacity": null,
+  "unreachable": [
+   "Ramche"
+  ],
+  "oracle_cost": 320.0,
+  "expanded": 99,
+  "state_bound": 2304
+ },
+ {
+  "id": "k8-s11-cap-cut",
+  "split": "test",
+  "k": 8,
+  "nodes": 12,
+  "roads": 18,
+  "blocked": 5,
+  "capacity": 10,
+  "unreachable": [
+   "Taruka"
+  ],
+  "oracle_cost": 480.0,
+  "expanded": 119,
+  "state_bound": 12672
+ },
+ {
+  "id": "k12-s0-inf",
+  "split": "dev",
+  "k": 12,
+  "nodes": 14,
+  "roads": 18,
+  "blocked": 5,
+  "capacity": null,
+  "unreachable": [],
+  "oracle_cost": 560.0,
+  "expanded": 783,
+  "state_bound": 114688
+ },
+ {
+  "id": "k12-s1-cap",
+  "split": "dev",
+  "k": 12,
+  "nodes": 15,
+  "roads": 21,
+  "blocked": 5,
+  "capacity": 17,
+  "unreachable": [],
+  "oracle_cost": 870.0,
+  "expanded": 1512,
+  "state_bound": 1032192
+ },
+ {
+  "id": "k12-s2-inf-cut",
+  "split": "dev",
+  "k": 12,
+  "nodes": 17,
+  "roads": 25,
+  "blocked": 6,
+  "capacity": null,
+  "unreachable": [
+   "Kakani"
+  ],
+  "oracle_cost": 425.0,
+  "expanded": 623,
+  "state_bound": 53248
+ },
+ {
+  "id": "k12-s3-cap-cut",
+  "split": "dev",
+  "k": 12,
+  "nodes": 16,
+  "roads": 22,
+  "blocked": 6,
+  "capacity": 16,
+  "unreachable": [
+   "Chaughada"
+  ],
+  "oracle_cost": 890.0,
+  "expanded": 849,
+  "state_bound": 452608
+ },
+ {
+  "id": "k12-s4-inf",
+  "split": "test",
+  "k": 12,
+  "nodes": 17,
+  "roads": 23,
+  "blocked": 5,
+  "capacity": null,
+  "unreachable": [],
+  "oracle_cost": 650.0,
+  "expanded": 1301,
+  "state_bound": 114688
+ },
+ {
+  "id": "k12-s5-cap",
+  "split": "test",
+  "k": 12,
+  "nodes": 18,
+  "roads": 25,
+  "blocked": 5,
+  "capacity": 24,
+  "unreachable": [],
+  "oracle_cost": 500.0,
+  "expanded": 1677,
+  "state_bound": 1433600
+ },
+ {
+  "id": "k12-s6-inf-cut",
+  "split": "test",
+  "k": 12,
+  "nodes": 14,
+  "roads": 19,
+  "blocked": 6,
+  "capacity": null,
+  "unreachable": [
+   "Bageshwari"
+  ],
+  "oracle_cost": 450.0,
+  "expanded": 597,
+  "state_bound": 53248
+ },
+ {
+  "id": "k12-s7-cap-cut",
+  "split": "test",
+  "k": 12,
+  "nodes": 17,
+  "roads": 27,
+  "blocked": 6,
+  "capacity": 17,
+  "unreachable": [
+   "Kaule"
+  ],
+  "oracle_cost": 845.0,
+  "expanded": 1199,
+  "state_bound": 479232
+ },
+ {
+  "id": "k12-s8-inf",
+  "split": "test",
+  "k": 12,
+  "nodes": 15,
+  "roads": 22,
+  "blocked": 5,
+  "capacity": null,
+  "unreachable": [],
+  "oracle_cost": 485.0,
+  "expanded": 5334,
+  "state_bound": 114688
+ },
+ {
+  "id": "k12-s9-cap",
+  "split": "test",
+  "k": 12,
+  "nodes": 17,
+  "roads": 26,
+  "blocked": 5,
+  "capacity": 14,
+  "unreachable": [],
+  "oracle_cost": 1170.0,
+  "expanded": 379,
+  "state_bound": 860160
+ },
+ {
+  "id": "k12-s10-inf-cut",
+  "split": "test",
+  "k": 12,
+  "nodes": 15,
+  "roads": 21,
+  "blocked": 6,
+  "capacity": null,
+  "unreachable": [
+   "Dandagaun"
+  ],
+  "oracle_cost": 670.0,
+  "expanded": 597,
+  "state_bound": 53248
+ },
+ {
+  "id": "k12-s11-cap-cut",
+  "split": "test",
+  "k": 12,
+  "nodes": 16,
+  "roads": 19,
+  "blocked": 6,
+  "capacity": 21,
+  "unreachable": [
+   "Goljung"
+  ],
+  "oracle_cost": 690.0,
+  "expanded": 2533,
+  "state_bound": 585728
+ },
+ {
+  "id": "k16-s0-inf",
+  "split": "dev",
+  "k": 16,
+  "nodes": 20,
+  "roads": 28,
+  "blocked": 6,
+  "capacity": null,
+  "unreachable": [],
+  "oracle_cost": 820.0,
+  "expanded": 1542,
+  "state_bound": 2359296
+ },
+ {
+  "id": "k16-s1-cap",
+  "split": "dev",
+  "k": 16,
+  "nodes": 22,
+  "roads": 28,
+  "blocked": 6,
+  "capacity": 9,
+  "unreachable": [],
+  "oracle_cost": 2370.0,
+  "expanded": 15781,
+  "state_bound": 11796480
+ },
+ {
+  "id": "k16-s2-inf-cut",
+  "split": "dev",
+  "k": 16,
+  "nodes": 19,
+  "roads": 31,
+  "blocked": 8,
+  "capacity": null,
+  "unreachable": [
+   "Jiling"
+  ],
+  "oracle_cost": 670.0,
+  "expanded": 2929,
+  "state_bound": 1114112
+ },
+ {
+  "id": "k16-s3-cap-cut",
+  "split": "dev",
+  "k": 16,
+  "nodes": 21,
+  "roads": 31,
+  "blocked": 7,
+  "capacity": 28,
+  "unreachable": [
+   "Kalikasthan"
+  ],
+  "oracle_cost": 1240.0,
+  "expanded": 15010,
+  "state_bound": 16154624
+ },
+ {
+  "id": "k16-s4-inf",
+  "split": "test",
+  "k": 16,
+  "nodes": 18,
+  "roads": 23,
+  "blocked": 6,
+  "capacity": null,
+  "unreachable": [],
+  "oracle_cost": 770.0,
+  "expanded": 3057,
+  "state_bound": 2359296
+ },
+ {
+  "id": "k16-s5-cap",
+  "split": "test",
+  "k": 16,
+  "nodes": 23,
+  "roads": 34,
+  "blocked": 6,
+  "capacity": 14,
+  "unreachable": [],
+  "oracle_cost": 1670.0,
+  "expanded": 63890,
+  "state_bound": 17694720
+ },
+ {
+  "id": "k16-s6-inf-cut",
+  "split": "test",
+  "k": 16,
+  "nodes": 21,
+  "roads": 28,
+  "blocked": 7,
+  "capacity": null,
+  "unreachable": [
+   "Panchakanya"
+  ],
+  "oracle_cost": 715.0,
+  "expanded": 13333,
+  "state_bound": 1114112
+ },
+ {
+  "id": "k16-s7-cap-cut",
+  "split": "test",
+  "k": 16,
+  "nodes": 19,
+  "roads": 29,
+  "blocked": 8,
+  "capacity": 22,
+  "unreachable": [
+   "Betrawati"
+  ],
+  "oracle_cost": 925.0,
+  "expanded": 40960,
+  "state_bound": 12812288
+ },
+ {
+  "id": "k16-s8-inf",
+  "split": "test",
+  "k": 16,
+  "nodes": 19,
+  "roads": 26,
+  "blocked": 6,
+  "capacity": null,
+  "unreachable": [],
+  "oracle_cost": 835.0,
+  "expanded": 13338,
+  "state_bound": 2359296
+ },
+ {
+  "id": "k16-s9-cap",
+  "split": "test",
+  "k": 16,
+  "nodes": 21,
+  "roads": 26,
+  "blocked": 6,
+  "capacity": 19,
+  "unreachable": [],
+  "oracle_cost": 1430.0,
+  "expanded": 13270,
+  "state_bound": 23592960
+ },
+ {
+  "id": "k16-s10-inf-cut",
+  "split": "test",
+  "k": 16,
+  "nodes": 19,
+  "roads": 26,
+  "blocked": 7,
+  "capacity": null,
+  "unreachable": [
+   "Samundratar"
+  ],
+  "oracle_cost": 520.0,
+  "expanded": 278528,
+  "state_bound": 1114112
+ },
+ {
+  "id": "k16-s11-cap-cut",
+  "split": "test",
+  "k": 16,
+  "nodes": 18,
+  "roads": 20,
+  "blocked": 4,
+  "capacity": 17,
+  "unreachable": [
+   "Gerkhu"
+  ],
+  "oracle_cost": 980.0,
+  "expanded": 4491,
+  "state_bound": 10027008
+ }
+]

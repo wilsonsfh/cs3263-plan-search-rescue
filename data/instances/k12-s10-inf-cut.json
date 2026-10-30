@@ -1,0 +1,366 @@
+{
+  "id": "k12-s10-inf-cut",
+  "locations": [
+    {
+      "id": "belkot",
+      "name": "Belkot",
+      "kind": "base"
+    },
+    {
+      "id": "ghyangphedi",
+      "name": "Ghyangphedi",
+      "kind": "village"
+    },
+    {
+      "id": "khanigaun",
+      "name": "Khanigaun",
+      "kind": "village"
+    },
+    {
+      "id": "likhu",
+      "name": "Likhu",
+      "kind": "health_post"
+    },
+    {
+      "id": "kispang",
+      "name": "Kispang",
+      "kind": "school"
+    },
+    {
+      "id": "goljung",
+      "name": "Goljung",
+      "kind": "village"
+    },
+    {
+      "id": "lachyang",
+      "name": "Lachyang",
+      "kind": "village"
+    },
+    {
+      "id": "syaphru",
+      "name": "Syaphru",
+      "kind": "school"
+    },
+    {
+      "id": "dandagaun",
+      "name": "Dandagaun",
+      "kind": "village"
+    },
+    {
+      "id": "haku",
+      "name": "Haku",
+      "kind": "village"
+    },
+    {
+      "id": "rautbesi",
+      "name": "Rautbesi",
+      "kind": "village"
+    },
+    {
+      "id": "narjamandap",
+      "name": "Narjamandap",
+      "kind": "village"
+    },
+    {
+      "id": "sundaradevi",
+      "name": "Sundaradevi",
+      "kind": "village"
+    },
+    {
+      "id": "ramche",
+      "name": "Ramche",
+      "kind": "evacuated_village"
+    },
+    {
+      "id": "okharpauwa",
+      "name": "Okharpauwa",
+      "kind": "junction"
+    }
+  ],
+  "roads": [
+    {
+      "u": "belkot",
+      "v": "ghyangphedi",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": [
+        "rumour"
+      ]
+    },
+    {
+      "u": "belkot",
+      "v": "khanigaun",
+      "minutes": 50,
+      "open": true,
+      "base_minutes": 25,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "belkot",
+      "v": "ramche",
+      "minutes": 10,
+      "open": false,
+      "base_minutes": null,
+      "cause": "landslide",
+      "history": []
+    },
+    {
+      "u": "belkot",
+      "v": "rautbesi",
+      "minutes": 10,
+      "open": false,
+      "base_minutes": null,
+      "cause": "submerged",
+      "history": []
+    },
+    {
+      "u": "dandagaun",
+      "v": "goljung",
+      "minutes": 20,
+      "open": false,
+      "base_minutes": null,
+      "cause": "landslide",
+      "history": []
+    },
+    {
+      "u": "ghyangphedi",
+      "v": "kispang",
+      "minutes": 20,
+      "open": false,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "open",
+        "blocked"
+      ]
+    },
+    {
+      "u": "ghyangphedi",
+      "v": "likhu",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "ghyangphedi",
+      "v": "rautbesi",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "goljung",
+      "v": "okharpauwa",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "blocked",
+        "cleared"
+      ]
+    },
+    {
+      "u": "goljung",
+      "v": "syaphru",
+      "minutes": 30,
+      "open": true,
+      "base_minutes": 10,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "haku",
+      "v": "khanigaun",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": [
+        "rumour"
+      ]
+    },
+    {
+      "u": "haku",
+      "v": "lachyang",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": [
+        "rumour"
+      ]
+    },
+    {
+      "u": "khanigaun",
+      "v": "ramche",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "kispang",
+      "v": "likhu",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "kispang",
+      "v": "rautbesi",
+      "minutes": 30,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": [
+        "rumour"
+      ]
+    },
+    {
+      "u": "lachyang",
+      "v": "sundaradevi",
+      "minutes": 10,
+      "open": false,
+      "base_minutes": null,
+      "cause": "bridge",
+      "history": [
+        "open",
+        "blocked"
+      ]
+    },
+    {
+      "u": "narjamandap",
+      "v": "okharpauwa",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "narjamandap",
+      "v": "rautbesi",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "okharpauwa",
+      "v": "rautbesi",
+      "minutes": 30,
+      "open": true,
+      "base_minutes": 15,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "okharpauwa",
+      "v": "syaphru",
+      "minutes": 20,
+      "open": false,
+      "base_minutes": null,
+      "cause": "landslide",
+      "history": [
+        "open",
+        "blocked"
+      ]
+    },
+    {
+      "u": "ramche",
+      "v": "sundaradevi",
+      "minutes": 30,
+      "open": true,
+      "base_minutes": 15,
+      "cause": "waterlogged",
+      "history": []
+    }
+  ],
+  "people": {
+    "ghyangphedi": {
+      "children": 2,
+      "elderly": 2,
+      "adults": 5
+    },
+    "khanigaun": {
+      "injured": 2,
+      "elderly": 2,
+      "adults": 3
+    },
+    "likhu": {
+      "adults": 1
+    },
+    "kispang": {
+      "injured": 3,
+      "children": 3,
+      "elderly": 2,
+      "adults": 2
+    },
+    "goljung": {
+      "elderly": 3,
+      "adults": 4
+    },
+    "lachyang": {
+      "children": 1,
+      "elderly": 3,
+      "adults": 4
+    },
+    "syaphru": {
+      "injured": 1,
+      "children": 9,
+      "adults": 2
+    },
+    "dandagaun": {
+      "children": 4,
+      "elderly": 3,
+      "adults": 4
+    },
+    "haku": {
+      "children": 1,
+      "elderly": 1,
+      "adults": 2
+    },
+    "rautbesi": {
+      "children": 1,
+      "adults": 2
+    },
+    "narjamandap": {
+      "elderly": 3,
+      "adults": 1
+    },
+    "sundaradevi": {
+      "children": 1,
+      "elderly": 3,
+      "adults": 6
+    }
+  },
+  "start": "belkot",
+  "shelter": "belkot",
+  "capacity": null,
+  "priority": "tiered",
+  "meta": {
+    "k": 12,
+    "seed": 10,
+    "extra_nodes": 2,
+    "n_roads": 21,
+    "n_blocked": 6,
+    "n_slowed": 4,
+    "cut_off": "dandagaun",
+    "capacity_mode": "unlimited",
+    "split": "test",
+    "rep": 2,
+    "condition": "unlimited-cut"
+  }
+}

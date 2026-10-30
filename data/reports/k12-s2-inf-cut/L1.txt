@@ -1,0 +1,60 @@
+MISSION SHEET
+- Team base and starting point: Sundaradevi
+- Shelter where evacuees must be delivered: Sundaradevi
+- Vehicle capacity: no practical limit (enough vehicles to carry everyone at once)
+- Places on the district map: Sundaradevi (evacuation point), Suryagadhi (village), Rautbesi (village), Shikharbesi (village), Trishuli (village), Khanigaun (village), Likhu (health post), Ramche (school), Kakani (village), Okharpauwa (ward office), Laharepauwa (village), Kaule (temple), Thaprek (health post), Narjamandap (village), Betrawati (road junction), Battar (road junction), Bhalche (village)
+
+ROAD REGISTER (pre-flood network; usual one-way driving times, roads are two-way)
+- Battar–Bhalche: 10 min
+- Battar–Trishuli: 20 min
+- Betrawati–Kaule: 20 min
+- Betrawati–Shikharbesi: 15 min
+- Betrawati–Trishuli: 25 min
+- Bhalche–Okharpauwa: 15 min
+- Kakani–Laharepauwa: 15 min
+- Kaule–Likhu: 15 min
+- Kaule–Narjamandap: 25 min
+- Kaule–Shikharbesi: 10 min
+- Kaule–Sundaradevi: 10 min
+- Khanigaun–Laharepauwa: 25 min
+- Khanigaun–Okharpauwa: 10 min
+- Khanigaun–Ramche: 20 min
+- Khanigaun–Sundaradevi: 20 min
+- Khanigaun–Thaprek: 20 min
+- Laharepauwa–Ramche: 15 min
+- Likhu–Narjamandap: 5 min
+- Likhu–Shikharbesi: 15 min
+- Narjamandap–Suryagadhi: 15 min
+- Okharpauwa–Thaprek: 20 min
+- Ramche–Thaprek: 5 min
+- Rautbesi–Shikharbesi: 20 min
+- Rautbesi–Sundaradevi: 5 min
+- Rautbesi–Trishuli: 20 min
+
+FIELD REPORT (district control room, 12:00)
+Road status changes since the flood:
+- Battar–Bhalche: open, travel time now 25 min
+- Battar–Trishuli: BLOCKED
+- Betrawati–Kaule: BLOCKED
+- Bhalche–Okharpauwa: BLOCKED
+- Kakani–Laharepauwa: BLOCKED
+- Kaule–Shikharbesi: open, travel time now 20 min
+- Khanigaun–Ramche: BLOCKED
+- Laharepauwa–Ramche: open, travel time now 35 min
+- Rautbesi–Sundaradevi: BLOCKED
+- Rautbesi–Trishuli: open, travel time now 30 min
+All other roads: open, usual travel time.
+People waiting for rescue:
+- Suryagadhi: 0 injured, 4 children, 1 elderly, 6 adults
+- Rautbesi: 2 injured, 0 children, 1 elderly, 3 adults
+- Shikharbesi: 0 injured, 0 children, 3 elderly, 3 adults
+- Trishuli: 0 injured, 1 children, 0 elderly, 3 adults
+- Khanigaun: 2 injured, 0 children, 3 elderly, 5 adults
+- Likhu: 0 injured, 2 children, 3 elderly, 1 adults
+- Ramche: 1 injured, 7 children, 0 elderly, 1 adults
+- Kakani: 0 injured, 2 children, 0 elderly, 5 adults
+- Okharpauwa: 2 injured, 3 children, 0 elderly, 5 adults
+- Laharepauwa: 0 injured, 2 children, 2 elderly, 2 adults
+- Kaule: 0 injured, 1 children, 1 elderly, 6 adults
+- Thaprek: 0 injured, 3 children, 1 elderly, 2 adults
+No one is waiting at any other location.

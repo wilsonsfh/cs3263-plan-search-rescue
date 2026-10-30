@@ -1,0 +1,421 @@
+{
+  "id": "k12-s7-cap-cut",
+  "locations": [
+    {
+      "id": "haku",
+      "name": "Haku",
+      "kind": "base"
+    },
+    {
+      "id": "kumari",
+      "name": "Kumari",
+      "kind": "village"
+    },
+    {
+      "id": "thaprek",
+      "name": "Thaprek",
+      "kind": "village"
+    },
+    {
+      "id": "bageshwari",
+      "name": "Bageshwari",
+      "kind": "health_post"
+    },
+    {
+      "id": "meghang",
+      "name": "Meghang",
+      "kind": "ward_office"
+    },
+    {
+      "id": "laharepauwa",
+      "name": "Laharepauwa",
+      "kind": "village"
+    },
+    {
+      "id": "trishuli",
+      "name": "Trishuli",
+      "kind": "school"
+    },
+    {
+      "id": "ramche",
+      "name": "Ramche",
+      "kind": "village"
+    },
+    {
+      "id": "bidur",
+      "name": "Bidur",
+      "kind": "health_post"
+    },
+    {
+      "id": "salme",
+      "name": "Salme",
+      "kind": "village"
+    },
+    {
+      "id": "kaule",
+      "name": "Kaule",
+      "kind": "village"
+    },
+    {
+      "id": "syaphru",
+      "name": "Syaphru",
+      "kind": "health_post"
+    },
+    {
+      "id": "taruka",
+      "name": "Taruka",
+      "kind": "village"
+    },
+    {
+      "id": "battar",
+      "name": "Battar",
+      "kind": "evacuated_village"
+    },
+    {
+      "id": "kalikasthan",
+      "name": "Kalikasthan",
+      "kind": "junction"
+    },
+    {
+      "id": "chaughada",
+      "name": "Chaughada",
+      "kind": "evacuated_village"
+    },
+    {
+      "id": "shikharbesi",
+      "name": "Shikharbesi",
+      "kind": "junction"
+    }
+  ],
+  "roads": [
+    {
+      "u": "bageshwari",
+      "v": "laharepauwa",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": [
+        "blocked",
+        "cleared"
+      ]
+    },
+    {
+      "u": "bageshwari",
+      "v": "thaprek",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "battar",
+      "v": "ramche",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "battar",
+      "v": "salme",
+      "minutes": 10,
+      "open": false,
+      "base_minutes": null,
+      "cause": "landslide",
+      "history": []
+    },
+    {
+      "u": "battar",
+      "v": "trishuli",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "bidur",
+      "v": "kalikasthan",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "bidur",
+      "v": "shikharbesi",
+      "minutes": 40,
+      "open": true,
+      "base_minutes": 20,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "chaughada",
+      "v": "haku",
+      "minutes": 20,
+      "open": false,
+      "base_minutes": null,
+      "cause": "landslide",
+      "history": []
+    },
+    {
+      "u": "chaughada",
+      "v": "kumari",
+      "minutes": 15,
+      "open": false,
+      "base_minutes": null,
+      "cause": "debris",
+      "history": []
+    },
+    {
+      "u": "chaughada",
+      "v": "taruka",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "haku",
+      "v": "kalikasthan",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "haku",
+      "v": "syaphru",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "haku",
+      "v": "taruka",
+      "minutes": 10,
+      "open": false,
+      "base_minutes": null,
+      "cause": "submerged",
+      "history": []
+    },
+    {
+      "u": "kalikasthan",
+      "v": "salme",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "kalikasthan",
+      "v": "shikharbesi",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "kalikasthan",
+      "v": "syaphru",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "kaule",
+      "v": "syaphru",
+      "minutes": 20,
+      "open": false,
+      "base_minutes": null,
+      "cause": "submerged",
+      "history": [
+        "open",
+        "blocked"
+      ]
+    },
+    {
+      "u": "kumari",
+      "v": "meghang",
+      "minutes": 45,
+      "open": true,
+      "base_minutes": 25,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "laharepauwa",
+      "v": "taruka",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "laharepauwa",
+      "v": "thaprek",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "meghang",
+      "v": "trishuli",
+      "minutes": 25,
+      "open": true,
+      "base_minutes": 15,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "ramche",
+      "v": "salme",
+      "minutes": 10,
+      "open": false,
+      "base_minutes": null,
+      "cause": "bridge",
+      "history": []
+    },
+    {
+      "u": "ramche",
+      "v": "trishuli",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "salme",
+      "v": "trishuli",
+      "minutes": 20,
+      "open": true,
+      "base_minutes": 10,
+      "cause": "waterlogged",
+      "history": []
+    },
+    {
+      "u": "shikharbesi",
+      "v": "syaphru",
+      "minutes": 10,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "syaphru",
+      "v": "taruka",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    },
+    {
+      "u": "taruka",
+      "v": "thaprek",
+      "minutes": 15,
+      "open": true,
+      "base_minutes": null,
+      "cause": null,
+      "history": []
+    }
+  ],
+  "people": {
+    "kumari": {
+      "children": 1,
+      "elderly": 2,
+      "adults": 3
+    },
+    "thaprek": {
+      "injured": 1,
+      "children": 2,
+      "elderly": 1,
+      "adults": 3
+    },
+    "bageshwari": {
+      "injured": 2,
+      "children": 4,
+      "elderly": 3,
+      "adults": 5
+    },
+    "meghang": {
+      "injured": 3,
+      "children": 2,
+      "elderly": 3,
+      "adults": 3
+    },
+    "laharepauwa": {
+      "injured": 1,
+      "children": 4,
+      "elderly": 2,
+      "adults": 5
+    },
+    "trishuli": {
+      "children": 4,
+      "adults": 1
+    },
+    "ramche": {
+      "children": 3,
+      "elderly": 1,
+      "adults": 4
+    },
+    "bidur": {
+      "injured": 3,
+      "elderly": 2,
+      "adults": 3
+    },
+    "salme": {
+      "injured": 3,
+      "elderly": 3,
+      "adults": 4
+    },
+    "kaule": {
+      "children": 4,
+      "adults": 4
+    },
+    "syaphru": {
+      "children": 1,
+      "adults": 5
+    },
+    "taruka": {
+      "injured": 1,
+      "children": 1,
+      "adults": 1
+    }
+  },
+  "start": "haku",
+  "shelter": "haku",
+  "capacity": 17,
+  "priority": "tiered",
+  "meta": {
+    "k": 12,
+    "seed": 7,
+    "extra_nodes": 4,
+    "n_roads": 27,
+    "n_blocked": 6,
+    "n_slowed": 4,
+    "cut_off": "kaule",
+    "capacity_mode": "tight",
+    "split": "test",
+    "rep": 1,
+    "condition": "tight-cut"
+  }
+}

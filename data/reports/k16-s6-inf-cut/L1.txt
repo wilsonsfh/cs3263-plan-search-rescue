@@ -1,0 +1,69 @@
+MISSION SHEET
+- Team base and starting point: Betrawati
+- Shelter where evacuees must be delivered: Betrawati
+- Vehicle capacity: no practical limit (enough vehicles to carry everyone at once)
+- Places on the district map: Betrawati (evacuation point), Thansing (village), Goljung (village), Ramche (health post), Haku (village), Bhalche (village), Taruka (village), Battar (ward office), Tadi (ward office), Thaprek (village), Laharepauwa (village), Chaughada (school), Shikharbesi (health post), Panchakanya (ward office), Kakani (village), Bageshwari (health post), Dandagaun (school), Dupcheshwar (road junction), Kispang (village), Bidur (village), Kaule (village)
+
+ROAD REGISTER (pre-flood network; usual one-way driving times, roads are two-way)
+- Bageshwari–Battar: 20 min
+- Bageshwari–Betrawati: 10 min
+- Bageshwari–Laharepauwa: 15 min
+- Bageshwari–Taruka: 10 min
+- Battar–Kaule: 10 min
+- Betrawati–Chaughada: 15 min
+- Betrawati–Goljung: 10 min
+- Betrawati–Kakani: 10 min
+- Bhalche–Shikharbesi: 15 min
+- Bhalche–Thansing: 15 min
+- Bidur–Shikharbesi: 10 min
+- Bidur–Tadi: 15 min
+- Bidur–Thaprek: 10 min
+- Chaughada–Thansing: 10 min
+- Dandagaun–Kakani: 10 min
+- Dandagaun–Kaule: 15 min
+- Dandagaun–Kispang: 10 min
+- Dandagaun–Ramche: 10 min
+- Dupcheshwar–Kispang: 20 min
+- Dupcheshwar–Panchakanya: 15 min
+- Dupcheshwar–Thansing: 10 min
+- Goljung–Taruka: 10 min
+- Goljung–Thaprek: 15 min
+- Haku–Laharepauwa: 15 min
+- Kakani–Kaule: 10 min
+- Kispang–Ramche: 15 min
+- Laharepauwa–Taruka: 15 min
+- Tadi–Thaprek: 20 min
+
+FIELD REPORT (district control room, 12:00)
+Road status changes since the flood:
+- Bageshwari–Battar: BLOCKED
+- Bageshwari–Betrawati: open, travel time now 20 min
+- Bageshwari–Taruka: BLOCKED
+- Battar–Kaule: open, travel time now 20 min
+- Betrawati–Chaughada: open, travel time now 30 min
+- Bidur–Shikharbesi: BLOCKED
+- Bidur–Thaprek: BLOCKED
+- Chaughada–Thansing: BLOCKED
+- Dandagaun–Ramche: BLOCKED
+- Dupcheshwar–Panchakanya: BLOCKED
+- Haku–Laharepauwa: open, travel time now 35 min
+- Kispang–Ramche: open, travel time now 30 min
+All other roads: open, usual travel time.
+People waiting for rescue:
+- Thansing: 0 injured, 0 children, 1 elderly, 1 adults
+- Goljung: 0 injured, 1 children, 1 elderly, 3 adults
+- Ramche: 1 injured, 4 children, 0 elderly, 4 adults
+- Haku: 0 injured, 4 children, 1 elderly, 4 adults
+- Bhalche: 0 injured, 0 children, 0 elderly, 4 adults
+- Taruka: 0 injured, 1 children, 3 elderly, 2 adults
+- Battar: 0 injured, 2 children, 0 elderly, 3 adults
+- Tadi: 0 injured, 3 children, 2 elderly, 2 adults
+- Thaprek: 0 injured, 2 children, 1 elderly, 4 adults
+- Laharepauwa: 0 injured, 3 children, 2 elderly, 6 adults
+- Chaughada: 0 injured, 4 children, 0 elderly, 1 adults
+- Shikharbesi: 1 injured, 0 children, 0 elderly, 6 adults
+- Panchakanya: 3 injured, 2 children, 3 elderly, 3 adults
+- Kakani: 0 injured, 0 children, 3 elderly, 1 adults
+- Bageshwari: 0 injured, 1 children, 2 elderly, 6 adults
+- Dandagaun: 3 injured, 3 children, 3 elderly, 2 adults
+No one is waiting at any other location.

@@ -1,0 +1,359 @@
+{
+ "start": "Battar",
+ "shelter": "Battar",
+ "capacity": 14,
+ "locations": [
+  {
+   "name": "Battar",
+   "kind": "evacuation point"
+  },
+  {
+   "name": "Narjamandap",
+   "kind": "temple"
+  },
+  {
+   "name": "Tupche",
+   "kind": "village"
+  },
+  {
+   "name": "Dupcheshwar",
+   "kind": "school"
+  },
+  {
+   "name": "Chhap",
+   "kind": "village"
+  },
+  {
+   "name": "Thaprek",
+   "kind": "village"
+  },
+  {
+   "name": "Bhorle",
+   "kind": "village"
+  },
+  {
+   "name": "Bageshwari",
+   "kind": "village"
+  },
+  {
+   "name": "Meghang",
+   "kind": "village"
+  },
+  {
+   "name": "Salme",
+   "kind": "school"
+  },
+  {
+   "name": "Likhu",
+   "kind": "village"
+  },
+  {
+   "name": "Betrawati",
+   "kind": "health post"
+  },
+  {
+   "name": "Gerkhu",
+   "kind": "village"
+  },
+  {
+   "name": "Kumari",
+   "kind": "road junction"
+  },
+  {
+   "name": "Panchakanya",
+   "kind": "village"
+  },
+  {
+   "name": "Rautbesi",
+   "kind": "village"
+  },
+  {
+   "name": "Thansing",
+   "kind": "village"
+  }
+ ],
+ "roads": [
+  {
+   "between": [
+    "Bageshwari",
+    "Gerkhu"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Bageshwari",
+    "Narjamandap"
+   ],
+   "minutes": 40,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Bageshwari",
+    "Salme"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Battar",
+    "Betrawati"
+   ],
+   "minutes": 40,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Battar",
+    "Panchakanya"
+   ],
+   "minutes": 35,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Battar",
+    "Tupche"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Betrawati",
+    "Thansing"
+   ],
+   "minutes": 20,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Betrawati",
+    "Thaprek"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Betrawati",
+    "Tupche"
+   ],
+   "minutes": 5,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Bhorle",
+    "Likhu"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Bhorle",
+    "Salme"
+   ],
+   "minutes": 15,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Chhap",
+    "Narjamandap"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Chhap",
+    "Rautbesi"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Dupcheshwar",
+    "Kumari"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Dupcheshwar",
+    "Likhu"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Dupcheshwar",
+    "Meghang"
+   ],
+   "minutes": 15,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kumari",
+    "Likhu"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kumari",
+    "Meghang"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Kumari",
+    "Panchakanya"
+   ],
+   "minutes": 15,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Likhu",
+    "Panchakanya"
+   ],
+   "minutes": 10,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Meghang",
+    "Panchakanya"
+   ],
+   "minutes": 25,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Narjamandap",
+    "Salme"
+   ],
+   "minutes": 10,
+   "status": "blocked"
+  },
+  {
+   "between": [
+    "Rautbesi",
+    "Thaprek"
+   ],
+   "minutes": 35,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Thansing",
+    "Thaprek"
+   ],
+   "minutes": 20,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Thansing",
+    "Tupche"
+   ],
+   "minutes": 30,
+   "status": "open"
+  },
+  {
+   "between": [
+    "Thaprek",
+    "Tupche"
+   ],
+   "minutes": 10,
+   "status": "open"
+  }
+ ],
+ "people": {
+  "Narjamandap": {
+   "injured": 0,
+   "children": 0,
+   "elderly": 0,
+   "adults": 6
+  },
+  "Tupche": {
+   "injured": 0,
+   "children": 0,
+   "elderly": 2,
+   "adults": 2
+  },
+  "Dupcheshwar": {
+   "injured": 1,
+   "children": 3,
+   "elderly": 2,
+   "adults": 2
+  },
+  "Chhap": {
+   "injured": 0,
+   "children": 4,
+   "elderly": 0,
+   "adults": 6
+  },
+  "Thaprek": {
+   "injured": 0,
+   "children": 4,
+   "elderly": 0,
+   "adults": 5
+  },
+  "Bhorle": {
+   "injured": 2,
+   "children": 0,
+   "elderly": 3,
+   "adults": 5
+  },
+  "Bageshwari": {
+   "injured": 1,
+   "children": 0,
+   "elderly": 2,
+   "adults": 3
+  },
+  "Meghang": {
+   "injured": 0,
+   "children": 0,
+   "elderly": 1,
+   "adults": 4
+  },
+  "Salme": {
+   "injured": 0,
+   "children": 5,
+   "elderly": 0,
+   "adults": 2
+  },
+  "Likhu": {
+   "injured": 0,
+   "children": 0,
+   "elderly": 0,
+   "adults": 4
+  },
+  "Betrawati": {
+   "injured": 2,
+   "children": 3,
+   "elderly": 0,
+   "adults": 5
+  },
+  "Gerkhu": {
+   "injured": 1,
+   "children": 0,
+   "elderly": 1,
+   "adults": 4
+  }
+ }
+}
