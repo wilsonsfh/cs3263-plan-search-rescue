@@ -1,7 +1,7 @@
 # Walkthrough: everything in the LLM-only part, and how to check it yourself
 
 *Written 30 Oct 2026. Companion to `NEXT_STEPS.md` (what to do) — this file explains what exists and why.*
-Project root: `~/Downloads/cs3263-plan-search-rescue/`
+Project root: `~/Downloads/cs3263-plan-search-rescue/wilson/llm-pipeline-only/`
 
 ---
 
