@@ -1,0 +1,259 @@
+{
+  "id": "medium-14",
+  "size": "medium",
+  "seed": 14,
+  "penalty_per_person": {
+    "injured": 80,
+    "child": 60,
+    "elderly": 50,
+    "adult": 20
+  },
+  "locations": [
+    {
+      "id": "dupcheshwar-shelter",
+      "name": "Dupcheshwar",
+      "kind": "shelter",
+      "evac": true,
+      "x": 14.9,
+      "y": 43.8
+    },
+    {
+      "id": "panchakanya-hospital",
+      "name": "Panchakanya",
+      "kind": "hospital",
+      "evac": true,
+      "x": 2.4,
+      "y": 47.6
+    },
+    {
+      "id": "benighat-market",
+      "name": "Benighat",
+      "kind": "market",
+      "evac": false,
+      "x": 20.5,
+      "y": 42.7
+    },
+    {
+      "id": "myagang-care-home",
+      "name": "Myagang",
+      "kind": "care-home",
+      "evac": false,
+      "x": 17.4,
+      "y": 22.7
+    },
+    {
+      "id": "uttargaya-care-home",
+      "name": "Uttargaya",
+      "kind": "care-home",
+      "evac": false,
+      "x": 29.1,
+      "y": 2.8
+    },
+    {
+      "id": "tarkeshwar-care-home",
+      "name": "Tarkeshwar",
+      "kind": "care-home",
+      "evac": false,
+      "x": 31.7,
+      "y": 16.1
+    },
+    {
+      "id": "syaphru-temple",
+      "name": "Syaphru",
+      "kind": "temple",
+      "evac": false,
+      "x": 23.2,
+      "y": 49.3
+    },
+    {
+      "id": "tadi-school",
+      "name": "Tadi",
+      "kind": "school",
+      "evac": false,
+      "x": 16.8,
+      "y": 53.3
+    },
+    {
+      "id": "trishuli-market",
+      "name": "Trishuli",
+      "kind": "market",
+      "evac": false,
+      "x": 54.9,
+      "y": 8.7
+    }
+  ],
+  "roads": [
+    {
+      "from": "dupcheshwar-shelter",
+      "to": "benighat-market",
+      "minutes": 6,
+      "damaged": false
+    },
+    {
+      "from": "dupcheshwar-shelter",
+      "to": "tadi-school",
+      "minutes": 10,
+      "damaged": false
+    },
+    {
+      "from": "panchakanya-hospital",
+      "to": "benighat-market",
+      "minutes": 19,
+      "damaged": true
+    },
+    {
+      "from": "panchakanya-hospital",
+      "to": "tadi-school",
+      "minutes": 16,
+      "damaged": false
+    },
+    {
+      "from": "panchakanya-hospital",
+      "to": "trishuli-market",
+      "minutes": 65,
+      "damaged": false
+    },
+    {
+      "from": "benighat-market",
+      "to": "myagang-care-home",
+      "minutes": 20,
+      "damaged": false
+    },
+    {
+      "from": "benighat-market",
+      "to": "syaphru-temple",
+      "minutes": 7,
+      "damaged": true
+    },
+    {
+      "from": "benighat-market",
+      "to": "tadi-school",
+      "minutes": 11,
+      "damaged": false
+    },
+    {
+      "from": "myagang-care-home",
+      "to": "uttargaya-care-home",
+      "minutes": 23,
+      "damaged": false
+    },
+    {
+      "from": "myagang-care-home",
+      "to": "tarkeshwar-care-home",
+      "minutes": 16,
+      "damaged": false
+    },
+    {
+      "from": "uttargaya-care-home",
+      "to": "tarkeshwar-care-home",
+      "minutes": 14,
+      "damaged": false
+    },
+    {
+      "from": "syaphru-temple",
+      "to": "tadi-school",
+      "minutes": 8,
+      "damaged": false
+    }
+  ],
+  "people": [
+    {
+      "location": "trishuli-market",
+      "band": "elderly",
+      "count": 4
+    },
+    {
+      "location": "trishuli-market",
+      "band": "adult",
+      "count": 4
+    },
+    {
+      "location": "tadi-school",
+      "band": "child",
+      "count": 1
+    },
+    {
+      "location": "uttargaya-care-home",
+      "band": "adult",
+      "count": 4
+    },
+    {
+      "location": "tarkeshwar-care-home",
+      "band": "adult",
+      "count": 1
+    },
+    {
+      "location": "benighat-market",
+      "band": "elderly",
+      "count": 3
+    },
+    {
+      "location": "tarkeshwar-care-home",
+      "band": "elderly",
+      "count": 3
+    }
+  ],
+  "cars": [
+    {
+      "id": "car1",
+      "start": "dupcheshwar-shelter",
+      "seats": 4
+    },
+    {
+      "id": "car2",
+      "start": "panchakanya-hospital",
+      "seats": 4
+    }
+  ],
+  "groups": [
+    {
+      "id": "trishuli-market-elderly",
+      "location": "trishuli-market",
+      "band": "elderly",
+      "size": 4,
+      "penalty": 200
+    },
+    {
+      "id": "trishuli-market-adult",
+      "location": "trishuli-market",
+      "band": "adult",
+      "size": 4,
+      "penalty": 80
+    },
+    {
+      "id": "tadi-school-child",
+      "location": "tadi-school",
+      "band": "child",
+      "size": 1,
+      "penalty": 60
+    },
+    {
+      "id": "uttargaya-care-home-adult",
+      "location": "uttargaya-care-home",
+      "band": "adult",
+      "size": 4,
+      "penalty": 80
+    },
+    {
+      "id": "tarkeshwar-care-home-adult",
+      "location": "tarkeshwar-care-home",
+      "band": "adult",
+      "size": 1,
+      "penalty": 20
+    },
+    {
+      "id": "benighat-market-elderly",
+      "location": "benighat-market",
+      "band": "elderly",
+      "size": 3,
+      "penalty": 150
+    },
+    {
+      "id": "tarkeshwar-care-home-elderly",
+      "location": "tarkeshwar-care-home",
+      "band": "elderly",
+      "size": 3,
+      "penalty": 150
+    }
+  ]
+}

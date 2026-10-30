@@ -1,0 +1,249 @@
+{
+  "id": "medium-09",
+  "size": "medium",
+  "seed": 9,
+  "penalty_per_person": {
+    "injured": 80,
+    "child": 60,
+    "elderly": 50,
+    "adult": 20
+  },
+  "locations": [
+    {
+      "id": "thakre-shelter",
+      "name": "Thakre",
+      "kind": "shelter",
+      "evac": true,
+      "x": 54.4,
+      "y": 21.2
+    },
+    {
+      "id": "benighat-care-home",
+      "name": "Benighat",
+      "kind": "care-home",
+      "evac": false,
+      "x": 1.0,
+      "y": 35.1
+    },
+    {
+      "id": "tadi-market",
+      "name": "Tadi",
+      "kind": "market",
+      "evac": false,
+      "x": 15.0,
+      "y": 47.3
+    },
+    {
+      "id": "kakani-school",
+      "name": "Kakani",
+      "kind": "school",
+      "evac": false,
+      "x": 38.5,
+      "y": 53.8
+    },
+    {
+      "id": "dhunche-market",
+      "name": "Dhunche",
+      "kind": "market",
+      "evac": false,
+      "x": 42.2,
+      "y": 41.1
+    },
+    {
+      "id": "shivapuri-village",
+      "name": "Shivapuri",
+      "kind": "village",
+      "evac": false,
+      "x": 12.5,
+      "y": 7.6
+    },
+    {
+      "id": "nilkantha-village",
+      "name": "Nilkantha",
+      "kind": "village",
+      "evac": false,
+      "x": 51.8,
+      "y": 20.4
+    },
+    {
+      "id": "myagang-care-home",
+      "name": "Myagang",
+      "kind": "care-home",
+      "evac": false,
+      "x": 30.8,
+      "y": 29.8
+    },
+    {
+      "id": "tarkeshwar-care-home",
+      "name": "Tarkeshwar",
+      "kind": "care-home",
+      "evac": false,
+      "x": 12.2,
+      "y": 57.1
+    }
+  ],
+  "roads": [
+    {
+      "from": "thakre-shelter",
+      "to": "dhunche-market",
+      "minutes": 23,
+      "damaged": false
+    },
+    {
+      "from": "thakre-shelter",
+      "to": "shivapuri-village",
+      "minutes": 44,
+      "damaged": false
+    },
+    {
+      "from": "thakre-shelter",
+      "to": "nilkantha-village",
+      "minutes": 5,
+      "damaged": false
+    },
+    {
+      "from": "thakre-shelter",
+      "to": "myagang-care-home",
+      "minutes": 25,
+      "damaged": false
+    },
+    {
+      "from": "benighat-care-home",
+      "to": "shivapuri-village",
+      "minutes": 30,
+      "damaged": false
+    },
+    {
+      "from": "benighat-care-home",
+      "to": "tarkeshwar-care-home",
+      "minutes": 25,
+      "damaged": false
+    },
+    {
+      "from": "tadi-market",
+      "to": "kakani-school",
+      "minutes": 24,
+      "damaged": false
+    },
+    {
+      "from": "tadi-market",
+      "to": "myagang-care-home",
+      "minutes": 24,
+      "damaged": false
+    },
+    {
+      "from": "tadi-market",
+      "to": "tarkeshwar-care-home",
+      "minutes": 10,
+      "damaged": false
+    },
+    {
+      "from": "kakani-school",
+      "to": "dhunche-market",
+      "minutes": 13,
+      "damaged": false
+    },
+    {
+      "from": "dhunche-market",
+      "to": "nilkantha-village",
+      "minutes": 23,
+      "damaged": true
+    },
+    {
+      "from": "dhunche-market",
+      "to": "myagang-care-home",
+      "minutes": 16,
+      "damaged": false
+    }
+  ],
+  "people": [
+    {
+      "location": "tadi-market",
+      "band": "adult",
+      "count": 7
+    },
+    {
+      "location": "myagang-care-home",
+      "band": "elderly",
+      "count": 3
+    },
+    {
+      "location": "dhunche-market",
+      "band": "injured",
+      "count": 4
+    },
+    {
+      "location": "dhunche-market",
+      "band": "adult",
+      "count": 2
+    },
+    {
+      "location": "shivapuri-village",
+      "band": "child",
+      "count": 1
+    }
+  ],
+  "cars": [
+    {
+      "id": "car1",
+      "start": "thakre-shelter",
+      "seats": 4
+    },
+    {
+      "id": "car2",
+      "start": "thakre-shelter",
+      "seats": 4
+    }
+  ],
+  "groups": [
+    {
+      "id": "tadi-market-adult",
+      "location": "tadi-market",
+      "band": "adult",
+      "size": 1,
+      "penalty": 20
+    },
+    {
+      "id": "myagang-care-home-elderly",
+      "location": "myagang-care-home",
+      "band": "elderly",
+      "size": 3,
+      "penalty": 150
+    },
+    {
+      "id": "dhunche-market-injured",
+      "location": "dhunche-market",
+      "band": "injured",
+      "size": 4,
+      "penalty": 320
+    },
+    {
+      "id": "dhunche-market-adult",
+      "location": "dhunche-market",
+      "band": "adult",
+      "size": 2,
+      "penalty": 40
+    },
+    {
+      "id": "tadi-market-adult-2",
+      "location": "tadi-market",
+      "band": "adult",
+      "size": 3,
+      "penalty": 60
+    },
+    {
+      "id": "tadi-market-adult-3",
+      "location": "tadi-market",
+      "band": "adult",
+      "size": 3,
+      "penalty": 60
+    },
+    {
+      "id": "shivapuri-village-child",
+      "location": "shivapuri-village",
+      "band": "child",
+      "size": 1,
+      "penalty": 60
+    }
+  ]
+}

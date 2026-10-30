@@ -1,0 +1,164 @@
+{
+  "id": "small-03",
+  "size": "small",
+  "seed": 3,
+  "penalty_per_person": {
+    "injured": 80,
+    "child": 60,
+    "elderly": 50,
+    "adult": 20
+  },
+  "locations": [
+    {
+      "id": "myagang-shelter",
+      "name": "Myagang",
+      "kind": "shelter",
+      "evac": true,
+      "x": 43.6,
+      "y": 28.6
+    },
+    {
+      "id": "bidur-village",
+      "name": "Bidur",
+      "kind": "village",
+      "evac": false,
+      "x": 47.7,
+      "y": 1.8
+    },
+    {
+      "id": "jwalamukhi-village",
+      "name": "Jwalamukhi",
+      "kind": "village",
+      "evac": false,
+      "x": 16.2,
+      "y": 30.2
+    },
+    {
+      "id": "nilkantha-market",
+      "name": "Nilkantha",
+      "kind": "market",
+      "evac": false,
+      "x": 57.9,
+      "y": 17.9
+    },
+    {
+      "id": "benighat-temple",
+      "name": "Benighat",
+      "kind": "temple",
+      "evac": false,
+      "x": 1.6,
+      "y": 54.5
+    },
+    {
+      "id": "syaphru-school",
+      "name": "Syaphru",
+      "kind": "school",
+      "evac": false,
+      "x": 26.1,
+      "y": 28.1
+    }
+  ],
+  "roads": [
+    {
+      "from": "myagang-shelter",
+      "to": "bidur-village",
+      "minutes": 27,
+      "damaged": false
+    },
+    {
+      "from": "myagang-shelter",
+      "to": "jwalamukhi-village",
+      "minutes": 27,
+      "damaged": true
+    },
+    {
+      "from": "myagang-shelter",
+      "to": "nilkantha-market",
+      "minutes": 18,
+      "damaged": false
+    },
+    {
+      "from": "myagang-shelter",
+      "to": "syaphru-school",
+      "minutes": 18,
+      "damaged": false
+    },
+    {
+      "from": "bidur-village",
+      "to": "nilkantha-market",
+      "minutes": 19,
+      "damaged": false
+    },
+    {
+      "from": "jwalamukhi-village",
+      "to": "syaphru-school",
+      "minutes": 10,
+      "damaged": false
+    },
+    {
+      "from": "benighat-temple",
+      "to": "syaphru-school",
+      "minutes": 36,
+      "damaged": false
+    }
+  ],
+  "people": [
+    {
+      "location": "nilkantha-market",
+      "band": "adult",
+      "count": 2
+    },
+    {
+      "location": "nilkantha-market",
+      "band": "injured",
+      "count": 4
+    },
+    {
+      "location": "syaphru-school",
+      "band": "adult",
+      "count": 1
+    },
+    {
+      "location": "bidur-village",
+      "band": "adult",
+      "count": 4
+    }
+  ],
+  "cars": [
+    {
+      "id": "car1",
+      "start": "myagang-shelter",
+      "seats": 4
+    }
+  ],
+  "groups": [
+    {
+      "id": "nilkantha-market-adult",
+      "location": "nilkantha-market",
+      "band": "adult",
+      "size": 2,
+      "penalty": 40
+    },
+    {
+      "id": "nilkantha-market-injured",
+      "location": "nilkantha-market",
+      "band": "injured",
+      "size": 4,
+      "penalty": 320
+    },
+    {
+      "id": "syaphru-school-adult",
+      "location": "syaphru-school",
+      "band": "adult",
+      "size": 1,
+      "penalty": 20
+    },
+    {
+      "id": "bidur-village-adult",
+      "location": "bidur-village",
+      "band": "adult",
+      "size": 4,
+      "penalty": 80
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "id": "medium-08",
+  "size": "medium",
+  "seed": 8,
+  "penalty_per_person": {
+    "injured": 80,
+    "child": 60,
+    "elderly": 50,
+    "adult": 20
+  },
+  "locations": [
+    {
+      "id": "uttargaya-shelter",
+      "name": "Uttargaya",
+      "kind": "shelter",
+      "evac": true,
+      "x": 28.8,
+      "y": 16.5
+    },
+    {
+      "id": "gajuri-farm",
+      "name": "Gajuri",
+      "kind": "farm",
+      "evac": false,
+      "x": 9.6,
+      "y": 9.6
+    },
+    {
+      "id": "galchhi-temple",
+      "name": "Galchhi",
+      "kind": "temple",
+      "evac": false,
+      "x": 41.2,
+      "y": 40.8
+    },
+    {
+      "id": "kakani-temple",
+      "name": "Kakani",
+      "kind": "temple",
+      "evac": false,
+      "x": 7.3,
+      "y": 59.0
+    },
+    {
+      "id": "syaphru-farm",
+      "name": "Syaphru",
+      "kind": "farm",
+      "evac": false,
+      "x": 39.2,
+      "y": 21.2
+    },
+    {
+      "id": "trishuli-village",
+      "name": "Trishuli",
+      "kind": "village",
+      "evac": false,
+      "x": 37.6,
+      "y": 13.1
+    },
+    {
+      "id": "bidur-temple",
+      "name": "Bidur",
+      "kind": "temple",
+      "evac": false,
+      "x": 44.7,
+      "y": 11.9
+    }
+  ],
+  "roads": [
+    {
+      "from": "uttargaya-shelter",
+      "to": "gajuri-farm",
+      "minutes": 20,
+      "damaged": true
+    },
+    {
+      "from": "uttargaya-shelter",
+      "to": "kakani-temple",
+      "minutes": 48,
+      "damaged": false
+    },
+    {
+      "from": "uttargaya-shelter",
+      "to": "syaphru-farm",
+      "minutes": 11,
+      "damaged": true
+    },
+    {
+      "from": "uttargaya-shelter",
+      "to": "bidur-temple",
+      "minutes": 17,
+      "damaged": false
+    },
+    {
+      "from": "galchhi-temple",
+      "to": "syaphru-farm",
+      "minutes": 20,
+      "damaged": false
+    },
+    {
+      "from": "galchhi-temple",
+      "to": "trishuli-village",
+      "minutes": 28,
+      "damaged": true
+    },
+    {
+      "from": "syaphru-farm",
+      "to": "trishuli-village",
+      "minutes": 8,
+      "damaged": false
+    },
+    {
+      "from": "syaphru-farm",
+      "to": "bidur-temple",
+      "minutes": 11,
+      "damaged": false
+    },
+    {
+      "from": "trishuli-village",
+      "to": "bidur-temple",
+      "minutes": 7,
+      "damaged": false
+    }
+  ],
+  "people": [
+    {
+      "location": "kakani-temple",
+      "band": "elderly",
+      "count": 3
+    },
+    {
+      "location": "bidur-temple",
+      "band": "adult",
+      "count": 3
+    },
+    {
+      "location": "syaphru-farm",
+      "band": "elderly",
+      "count": 3
+    },
+    {
+      "location": "trishuli-village",
+      "band": "injured",
+      "count": 3
+    },
+    {
+      "location": "kakani-temple",
+      "band": "adult",
+      "count": 4
+    }
+  ],
+  "cars": [
+    {
+      "id": "car1",
+      "start": "uttargaya-shelter",
+      "seats": 4
+    },
+    {
+      "id": "car2",
+      "start": "uttargaya-shelter",
+      "seats": 4
+    }
+  ],
+  "groups": [
+    {
+      "id": "kakani-temple-elderly",
+      "location": "kakani-temple",
+      "band": "elderly",
+      "size": 3,
+      "penalty": 150
+    },
+    {
+      "id": "bidur-temple-adult",
+      "location": "bidur-temple",
+      "band": "adult",
+      "size": 3,
+      "penalty": 60
+    },
+    {
+      "id": "syaphru-farm-elderly",
+      "location": "syaphru-farm",
+      "band": "elderly",
+      "size": 3,
+      "penalty": 150
+    },
+    {
+      "id": "trishuli-village-injured",
+      "location": "trishuli-village",
+      "band": "injured",
+      "size": 3,
+      "penalty": 240
+    },
+    {
+      "id": "kakani-temple-adult",
+      "location": "kakani-temple",
+      "band": "adult",
+      "size": 4,
+      "penalty": 80
+    }
+  ]
+}

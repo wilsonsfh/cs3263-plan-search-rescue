@@ -1,0 +1,311 @@
+{
+  "id": "large-13",
+  "size": "large",
+  "seed": 13,
+  "penalty_per_person": {
+    "injured": 80,
+    "child": 60,
+    "elderly": 50,
+    "adult": 20
+  },
+  "locations": [
+    {
+      "id": "kalika-shelter",
+      "name": "Kalika",
+      "kind": "shelter",
+      "evac": true,
+      "x": 34.1,
+      "y": 2.3
+    },
+    {
+      "id": "dhunche-hospital",
+      "name": "Dhunche",
+      "kind": "hospital",
+      "evac": true,
+      "x": 49.2,
+      "y": 45.5
+    },
+    {
+      "id": "kakani-village",
+      "name": "Kakani",
+      "kind": "village",
+      "evac": false,
+      "x": 48.1,
+      "y": 4.2
+    },
+    {
+      "id": "belkot-farm",
+      "name": "Belkot",
+      "kind": "farm",
+      "evac": false,
+      "x": 23.0,
+      "y": 46.7
+    },
+    {
+      "id": "naukunda-market",
+      "name": "Naukunda",
+      "kind": "market",
+      "evac": false,
+      "x": 52.2,
+      "y": 20.1
+    },
+    {
+      "id": "benighat-farm",
+      "name": "Benighat",
+      "kind": "farm",
+      "evac": false,
+      "x": 56.1,
+      "y": 18.1
+    },
+    {
+      "id": "gajuri-farm",
+      "name": "Gajuri",
+      "kind": "farm",
+      "evac": false,
+      "x": 2.3,
+      "y": 41.3
+    },
+    {
+      "id": "syaphru-care-home",
+      "name": "Syaphru",
+      "kind": "care-home",
+      "evac": false,
+      "x": 28.3,
+      "y": 14.7
+    },
+    {
+      "id": "gosaikunda-village",
+      "name": "Gosaikunda",
+      "kind": "village",
+      "evac": false,
+      "x": 26.4,
+      "y": 49.5
+    },
+    {
+      "id": "dupcheshwar-temple",
+      "name": "Dupcheshwar",
+      "kind": "temple",
+      "evac": false,
+      "x": 23.3,
+      "y": 59.6
+    },
+    {
+      "id": "jwalamukhi-school",
+      "name": "Jwalamukhi",
+      "kind": "school",
+      "evac": false,
+      "x": 54.5,
+      "y": 38.0
+    }
+  ],
+  "roads": [
+    {
+      "from": "kalika-shelter",
+      "to": "kakani-village",
+      "minutes": 14,
+      "damaged": false
+    },
+    {
+      "from": "kalika-shelter",
+      "to": "benighat-farm",
+      "minutes": 27,
+      "damaged": false
+    },
+    {
+      "from": "kalika-shelter",
+      "to": "syaphru-care-home",
+      "minutes": 14,
+      "damaged": true
+    },
+    {
+      "from": "dhunche-hospital",
+      "to": "gosaikunda-village",
+      "minutes": 23,
+      "damaged": false
+    },
+    {
+      "from": "dhunche-hospital",
+      "to": "jwalamukhi-school",
+      "minutes": 9,
+      "damaged": false
+    },
+    {
+      "from": "kakani-village",
+      "to": "benighat-farm",
+      "minutes": 16,
+      "damaged": false
+    },
+    {
+      "from": "kakani-village",
+      "to": "syaphru-care-home",
+      "minutes": 22,
+      "damaged": false
+    },
+    {
+      "from": "belkot-farm",
+      "to": "gajuri-farm",
+      "minutes": 21,
+      "damaged": true
+    },
+    {
+      "from": "belkot-farm",
+      "to": "gosaikunda-village",
+      "minutes": 5,
+      "damaged": false
+    },
+    {
+      "from": "belkot-farm",
+      "to": "dupcheshwar-temple",
+      "minutes": 13,
+      "damaged": false
+    },
+    {
+      "from": "naukunda-market",
+      "to": "benighat-farm",
+      "minutes": 5,
+      "damaged": false
+    },
+    {
+      "from": "naukunda-market",
+      "to": "syaphru-care-home",
+      "minutes": 25,
+      "damaged": false
+    },
+    {
+      "from": "naukunda-market",
+      "to": "jwalamukhi-school",
+      "minutes": 18,
+      "damaged": false
+    },
+    {
+      "from": "benighat-farm",
+      "to": "jwalamukhi-school",
+      "minutes": 20,
+      "damaged": false
+    },
+    {
+      "from": "gajuri-farm",
+      "to": "syaphru-care-home",
+      "minutes": 37,
+      "damaged": false
+    },
+    {
+      "from": "gosaikunda-village",
+      "to": "dupcheshwar-temple",
+      "minutes": 11,
+      "damaged": true
+    }
+  ],
+  "people": [
+    {
+      "location": "gosaikunda-village",
+      "band": "injured",
+      "count": 4
+    },
+    {
+      "location": "kakani-village",
+      "band": "injured",
+      "count": 3
+    },
+    {
+      "location": "jwalamukhi-school",
+      "band": "injured",
+      "count": 3
+    },
+    {
+      "location": "gosaikunda-village",
+      "band": "adult",
+      "count": 2
+    },
+    {
+      "location": "naukunda-market",
+      "band": "adult",
+      "count": 3
+    },
+    {
+      "location": "kakani-village",
+      "band": "child",
+      "count": 1
+    },
+    {
+      "location": "gosaikunda-village",
+      "band": "child",
+      "count": 3
+    },
+    {
+      "location": "jwalamukhi-school",
+      "band": "child",
+      "count": 2
+    }
+  ],
+  "cars": [
+    {
+      "id": "car1",
+      "start": "kalika-shelter",
+      "seats": 4
+    },
+    {
+      "id": "car2",
+      "start": "dhunche-hospital",
+      "seats": 4
+    }
+  ],
+  "groups": [
+    {
+      "id": "gosaikunda-village-injured",
+      "location": "gosaikunda-village",
+      "band": "injured",
+      "size": 4,
+      "penalty": 320
+    },
+    {
+      "id": "kakani-village-injured",
+      "location": "kakani-village",
+      "band": "injured",
+      "size": 3,
+      "penalty": 240
+    },
+    {
+      "id": "jwalamukhi-school-injured",
+      "location": "jwalamukhi-school",
+      "band": "injured",
+      "size": 3,
+      "penalty": 240
+    },
+    {
+      "id": "gosaikunda-village-adult",
+      "location": "gosaikunda-village",
+      "band": "adult",
+      "size": 2,
+      "penalty": 40
+    },
+    {
+      "id": "naukunda-market-adult",
+      "location": "naukunda-market",
+      "band": "adult",
+      "size": 3,
+      "penalty": 60
+    },
+    {
+      "id": "kakani-village-child",
+      "location": "kakani-village",
+      "band": "child",
+      "size": 1,
+      "penalty": 60
+    },
+    {
+      "id": "gosaikunda-village-child",
+      "location": "gosaikunda-village",
+      "band": "child",
+      "size": 3,
+      "penalty": 180
+    },
+    {
+      "id": "jwalamukhi-school-child",
+      "location": "jwalamukhi-school",
+      "band": "child",
+      "size": 2,
+      "penalty": 120
+    }
+  ]
+}

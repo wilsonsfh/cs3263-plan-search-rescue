@@ -1,0 +1,164 @@
+{
+  "id": "small-08",
+  "size": "small",
+  "seed": 8,
+  "penalty_per_person": {
+    "injured": 80,
+    "child": 60,
+    "elderly": 50,
+    "adult": 20
+  },
+  "locations": [
+    {
+      "id": "jwalamukhi-shelter",
+      "name": "Jwalamukhi",
+      "kind": "shelter",
+      "evac": true,
+      "x": 50.8,
+      "y": 10.5
+    },
+    {
+      "id": "dupcheshwar-temple",
+      "name": "Dupcheshwar",
+      "kind": "temple",
+      "evac": false,
+      "x": 46.5,
+      "y": 21.6
+    },
+    {
+      "id": "trishuli-market",
+      "name": "Trishuli",
+      "kind": "market",
+      "evac": false,
+      "x": 24.9,
+      "y": 56.9
+    },
+    {
+      "id": "thakre-market",
+      "name": "Thakre",
+      "kind": "market",
+      "evac": false,
+      "x": 9.7,
+      "y": 45.0
+    },
+    {
+      "id": "likhu-school",
+      "name": "Likhu",
+      "kind": "school",
+      "evac": false,
+      "x": 19.6,
+      "y": 35.7
+    },
+    {
+      "id": "gosaikunda-school",
+      "name": "Gosaikunda",
+      "kind": "school",
+      "evac": false,
+      "x": 41.5,
+      "y": 51.7
+    }
+  ],
+  "roads": [
+    {
+      "from": "jwalamukhi-shelter",
+      "to": "dupcheshwar-temple",
+      "minutes": 12,
+      "damaged": false
+    },
+    {
+      "from": "dupcheshwar-temple",
+      "to": "thakre-market",
+      "minutes": 44,
+      "damaged": true
+    },
+    {
+      "from": "dupcheshwar-temple",
+      "to": "gosaikunda-school",
+      "minutes": 31,
+      "damaged": false
+    },
+    {
+      "from": "trishuli-market",
+      "to": "thakre-market",
+      "minutes": 19,
+      "damaged": false
+    },
+    {
+      "from": "trishuli-market",
+      "to": "likhu-school",
+      "minutes": 22,
+      "damaged": true
+    },
+    {
+      "from": "trishuli-market",
+      "to": "gosaikunda-school",
+      "minutes": 17,
+      "damaged": false
+    },
+    {
+      "from": "thakre-market",
+      "to": "likhu-school",
+      "minutes": 14,
+      "damaged": true
+    }
+  ],
+  "people": [
+    {
+      "location": "likhu-school",
+      "band": "child",
+      "count": 1
+    },
+    {
+      "location": "thakre-market",
+      "band": "adult",
+      "count": 3
+    },
+    {
+      "location": "trishuli-market",
+      "band": "adult",
+      "count": 4
+    },
+    {
+      "location": "likhu-school",
+      "band": "injured",
+      "count": 4
+    }
+  ],
+  "cars": [
+    {
+      "id": "car1",
+      "start": "jwalamukhi-shelter",
+      "seats": 4
+    }
+  ],
+  "groups": [
+    {
+      "id": "likhu-school-child",
+      "location": "likhu-school",
+      "band": "child",
+      "size": 1,
+      "penalty": 60
+    },
+    {
+      "id": "thakre-market-adult",
+      "location": "thakre-market",
+      "band": "adult",
+      "size": 3,
+      "penalty": 60
+    },
+    {
+      "id": "trishuli-market-adult",
+      "location": "trishuli-market",
+      "band": "adult",
+      "size": 4,
+      "penalty": 80
+    },
+    {
+      "id": "likhu-school-injured",
+      "location": "likhu-school",
+      "band": "injured",
+      "size": 4,
+      "penalty": 320
+    }
+  ]
+}

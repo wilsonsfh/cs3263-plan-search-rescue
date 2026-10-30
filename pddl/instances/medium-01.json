@@ -1,0 +1,248 @@
+{
+  "id": "medium-01",
+  "size": "medium",
+  "seed": 1,
+  "penalty_per_person": {
+    "injured": 80,
+    "child": 60,
+    "elderly": 50,
+    "adult": 20
+  },
+  "locations": [
+    {
+      "id": "kakani-shelter",
+      "name": "Kakani",
+      "kind": "shelter",
+      "evac": true,
+      "x": 47.9,
+      "y": 28.9
+    },
+    {
+      "id": "tarkeshwar-school",
+      "name": "Tarkeshwar",
+      "kind": "school",
+      "evac": false,
+      "x": 38.1,
+      "y": 34.9
+    },
+    {
+      "id": "benighat-farm",
+      "name": "Benighat",
+      "kind": "farm",
+      "evac": false,
+      "x": 50.7,
+      "y": 40.2
+    },
+    {
+      "id": "myagang-market",
+      "name": "Myagang",
+      "kind": "market",
+      "evac": false,
+      "x": 14.9,
+      "y": 0.2
+    },
+    {
+      "id": "gosaikunda-temple",
+      "name": "Gosaikunda",
+      "kind": "temple",
+      "evac": false,
+      "x": 22.3,
+      "y": 57.0
+    },
+    {
+      "id": "tadi-school",
+      "name": "Tadi",
+      "kind": "school",
+      "evac": false,
+      "x": 32.3,
+      "y": 31.0
+    },
+    {
+      "id": "uttargaya-farm",
+      "name": "Uttargaya",
+      "kind": "farm",
+      "evac": false,
+      "x": 17.9,
+      "y": 58.9
+    },
+    {
+      "id": "naukunda-school",
+      "name": "Naukunda",
+      "kind": "school",
+      "evac": false,
+      "x": 23.3,
+      "y": 27.5
+    },
+    {
+      "id": "belkot-farm",
+      "name": "Belkot",
+      "kind": "farm",
+      "evac": false,
+      "x": 6.9,
+      "y": 57.5
+    }
+  ],
+  "roads": [
+    {
+      "from": "kakani-shelter",
+      "to": "tarkeshwar-school",
+      "minutes": 12,
+      "damaged": false
+    },
+    {
+      "from": "kakani-shelter",
+      "to": "naukunda-school",
+      "minutes": 25,
+      "damaged": false
+    },
+    {
+      "from": "tarkeshwar-school",
+      "to": "benighat-farm",
+      "minutes": 14,
+      "damaged": false
+    },
+    {
+      "from": "tarkeshwar-school",
+      "to": "tadi-school",
+      "minutes": 7,
+      "damaged": true
+    },
+    {
+      "from": "tarkeshwar-school",
+      "to": "naukunda-school",
+      "minutes": 17,
+      "damaged": false
+    },
+    {
+      "from": "benighat-farm",
+      "to": "myagang-market",
+      "minutes": 54,
+      "damaged": true
+    },
+    {
+      "from": "benighat-farm",
+      "to": "tadi-school",
+      "minutes": 21,
+      "damaged": false
+    },
+    {
+      "from": "benighat-farm",
+      "to": "uttargaya-farm",
+      "minutes": 38,
+      "damaged": false
+    },
+    {
+      "from": "myagang-market",
+      "to": "naukunda-school",
+      "minutes": 29,
+      "damaged": false
+    },
+    {
+      "from": "gosaikunda-temple",
+      "to": "uttargaya-farm",
+      "minutes": 5,
+      "damaged": false
+    },
+    {
+      "from": "uttargaya-farm",
+      "to": "belkot-farm",
+      "minutes": 11,
+      "damaged": true
+    }
+  ],
+  "people": [
+    {
+      "location": "myagang-market",
+      "band": "adult",
+      "count": 4
+    },
+    {
+      "location": "benighat-farm",
+      "band": "adult",
+      "count": 4
+    },
+    {
+      "location": "tarkeshwar-school",
+      "band": "injured",
+      "count": 4
+    },
+    {
+      "location": "tarkeshwar-school",
+      "band": "child",
+      "count": 1
+    },
+    {
+      "location": "belkot-farm",
+      "band": "adult",
+      "count": 2
+    },
+    {
+      "location": "naukunda-school",
+      "band": "child",
+      "count": 3
+    }
+  ],
+  "cars": [
+    {
+      "id": "car1",
+      "start": "kakani-shelter",
+      "seats": 4
+    },
+    {
+      "id": "car2",
+      "start": "kakani-shelter",
+      "seats": 4
+    }
+  ],
+  "groups": [
+    {
+      "id": "myagang-market-adult",
+      "location": "myagang-market",
+      "band": "adult",
+      "size": 4,
+      "penalty": 80
+    },
+    {
+      "id": "benighat-farm-adult",
+      "location": "benighat-farm",
+      "band": "adult",
+      "size": 2,
+      "penalty": 40
+    },
+    {
+      "id": "tarkeshwar-school-injured",
+      "location": "tarkeshwar-school",
+      "band": "injured",
+      "size": 4,
+      "penalty": 320
+    },
+    {
+      "id": "tarkeshwar-school-child",
+      "location": "tarkeshwar-school",
+      "band": "child",
+      "size": 1,
+      "penalty": 60
+    },
+    {
+      "id": "belkot-farm-adult",
+      "location": "belkot-farm",
+      "band": "adult",
+      "size": 2,
+      "penalty": 40
+    },
+    {
+      "id": "naukunda-school-child",
+      "location": "naukunda-school",
+      "band": "child",
+      "size": 3,
+      "penalty": 180
+    },
+    {
+      "id": "benighat-farm-adult-2",
+      "location": "benighat-farm",
+      "band": "adult",
+      "size": 2,
+      "penalty": 40
+    }
+  ]
+}

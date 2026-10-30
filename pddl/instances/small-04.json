@@ -1,0 +1,133 @@
+{
+  "id": "small-04",
+  "size": "small",
+  "seed": 4,
+  "penalty_per_person": {
+    "injured": 80,
+    "child": 60,
+    "elderly": 50,
+    "adult": 20
+  },
+  "locations": [
+    {
+      "id": "naukunda-shelter",
+      "name": "Naukunda",
+      "kind": "shelter",
+      "evac": true,
+      "x": 41.3,
+      "y": 55.1
+    },
+    {
+      "id": "kakani-market",
+      "name": "Kakani",
+      "kind": "market",
+      "evac": false,
+      "x": 48.5,
+      "y": 18.7
+    },
+    {
+      "id": "likhu-school",
+      "name": "Likhu",
+      "kind": "school",
+      "evac": false,
+      "x": 44.6,
+      "y": 34.2
+    },
+    {
+      "id": "benighat-farm",
+      "name": "Benighat",
+      "kind": "farm",
+      "evac": false,
+      "x": 51.8,
+      "y": 54.8
+    },
+    {
+      "id": "jwalamukhi-temple",
+      "name": "Jwalamukhi",
+      "kind": "temple",
+      "evac": false,
+      "x": 10.7,
+      "y": 6.0
+    }
+  ],
+  "roads": [
+    {
+      "from": "naukunda-shelter",
+      "to": "likhu-school",
+      "minutes": 21,
+      "damaged": false
+    },
+    {
+      "from": "naukunda-shelter",
+      "to": "benighat-farm",
+      "minutes": 11,
+      "damaged": true
+    },
+    {
+      "from": "kakani-market",
+      "to": "likhu-school",
+      "minutes": 16,
+      "damaged": false
+    },
+    {
+      "from": "kakani-market",
+      "to": "benighat-farm",
+      "minutes": 36,
+      "damaged": false
+    },
+    {
+      "from": "likhu-school",
+      "to": "benighat-farm",
+      "minutes": 22,
+      "damaged": false
+    },
+    {
+      "from": "likhu-school",
+      "to": "jwalamukhi-temple",
+      "minutes": 44,
+      "damaged": false
+    }
+  ],
+  "people": [
+    {
+      "location": "benighat-farm",
+      "band": "adult",
+      "count": 3
+    },
+    {
+      "location": "likhu-school",
+      "band": "adult",
+      "count": 3
+    }
+  ],
+  "cars": [
+    {
+      "id": "car1",
+      "start": "naukunda-shelter",
+      "seats": 4
+    }
+  ],
+  "groups": [
+    {
+      "id": "benighat-farm-adult",
+      "location": "benighat-farm",
+      "band": "adult",
+      "size": 1,
+      "penalty": 20
+    },
+    {
+      "id": "benighat-farm-adult-2",
+      "location": "benighat-farm",
+      "band": "adult",
+      "size": 2,
+      "penalty": 40
+    },
+    {
+      "id": "likhu-school-adult",
+      "location": "likhu-school",
+      "band": "adult",
+      "size": 3,
+      "penalty": 60
+    }
+  ]
+}

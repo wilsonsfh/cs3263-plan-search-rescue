@@ -1,0 +1,222 @@
+{
+  "id": "medium-03",
+  "size": "medium",
+  "seed": 3,
+  "penalty_per_person": {
+    "injured": 80,
+    "child": 60,
+    "elderly": 50,
+    "adult": 20
+  },
+  "locations": [
+    {
+      "id": "uttargaya-shelter",
+      "name": "Uttargaya",
+      "kind": "shelter",
+      "evac": true,
+      "x": 22.0,
+      "y": 33.2
+    },
+    {
+      "id": "thakre-hospital",
+      "name": "Thakre",
+      "kind": "hospital",
+      "evac": true,
+      "x": 41.5,
+      "y": 11.9
+    },
+    {
+      "id": "bidur-care-home",
+      "name": "Bidur",
+      "kind": "care-home",
+      "evac": false,
+      "x": 28.7,
+      "y": 29.5
+    },
+    {
+      "id": "kalika-temple",
+      "name": "Kalika",
+      "kind": "temple",
+      "evac": false,
+      "x": 26.5,
+      "y": 43.1
+    },
+    {
+      "id": "belkot-village",
+      "name": "Belkot",
+      "kind": "village",
+      "evac": false,
+      "x": 25.1,
+      "y": 48.8
+    },
+    {
+      "id": "naukunda-village",
+      "name": "Naukunda",
+      "kind": "village",
+      "evac": false,
+      "x": 38.7,
+      "y": 51.4
+    },
+    {
+      "id": "kakani-temple",
+      "name": "Kakani",
+      "kind": "temple",
+      "evac": false,
+      "x": 7.8,
+      "y": 18.9
+    },
+    {
+      "id": "suryagadhi-school",
+      "name": "Suryagadhi",
+      "kind": "school",
+      "evac": false,
+      "x": 10.0,
+      "y": 12.9
+    }
+  ],
+  "roads": [
+    {
+      "from": "uttargaya-shelter",
+      "to": "bidur-care-home",
+      "minutes": 8,
+      "damaged": false
+    },
+    {
+      "from": "uttargaya-shelter",
+      "to": "kalika-temple",
+      "minutes": 11,
+      "damaged": false
+    },
+    {
+      "from": "uttargaya-shelter",
+      "to": "belkot-village",
+      "minutes": 16,
+      "damaged": false
+    },
+    {
+      "from": "uttargaya-shelter",
+      "to": "kakani-temple",
+      "minutes": 20,
+      "damaged": true
+    },
+    {
+      "from": "thakre-hospital",
+      "to": "bidur-care-home",
+      "minutes": 22,
+      "damaged": false
+    },
+    {
+      "from": "bidur-care-home",
+      "to": "kalika-temple",
+      "minutes": 14,
+      "damaged": false
+    },
+    {
+      "from": "kalika-temple",
+      "to": "belkot-village",
+      "minutes": 6,
+      "damaged": false
+    },
+    {
+      "from": "kalika-temple",
+      "to": "naukunda-village",
+      "minutes": 15,
+      "damaged": false
+    },
+    {
+      "from": "belkot-village",
+      "to": "naukunda-village",
+      "minutes": 14,
+      "damaged": false
+    },
+    {
+      "from": "kakani-temple",
+      "to": "suryagadhi-school",
+      "minutes": 6,
+      "damaged": false
+    }
+  ],
+  "people": [
+    {
+      "location": "kalika-temple",
+      "band": "elderly",
+      "count": 4
+    },
+    {
+      "location": "kakani-temple",
+      "band": "elderly",
+      "count": 1
+    },
+    {
+      "location": "suryagadhi-school",
+      "band": "child",
+      "count": 6
+    },
+    {
+      "location": "kakani-temple",
+      "band": "adult",
+      "count": 4
+    },
+    {
+      "location": "bidur-care-home",
+      "band": "elderly",
+      "count": 3
+    }
+  ],
+  "cars": [
+    {
+      "id": "car1",
+      "start": "uttargaya-shelter",
+      "seats": 4
+    },
+    {
+      "id": "car2",
+      "start": "thakre-hospital",
+      "seats": 4
+    }
+  ],
+  "groups": [
+    {
+      "id": "kalika-temple-elderly",
+      "location": "kalika-temple",
+      "band": "elderly",
+      "size": 4,
+      "penalty": 200
+    },
+    {
+      "id": "kakani-temple-elderly",
+      "location": "kakani-temple",
+      "band": "elderly",
+      "size": 1,
+      "penalty": 50
+    },
+    {
+      "id": "suryagadhi-school-child",
+      "location": "suryagadhi-school",
+      "band": "child",
+      "size": 2,
+      "penalty": 120
+    },
+    {
+      "id": "suryagadhi-school-child-2",
+      "location": "suryagadhi-school",
+      "band": "child",
+      "size": 4,
+      "penalty": 240
+    },
+    {
+      "id": "kakani-temple-adult",
+      "location": "kakani-temple",
+      "band": "adult",
+      "size": 4,
+      "penalty": 80
+    },
+    {
+      "id": "bidur-care-home-elderly",
+      "location": "bidur-care-home",
+      "band": "elderly",
+      "size": 3,
+      "penalty": 150
+    }
+  ]
+}
