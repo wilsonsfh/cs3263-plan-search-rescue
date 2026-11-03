@@ -1,0 +1,32 @@
+FIELD REPORT - Nuwakot district flood response (scenario large-05)
+
+VEHICLES: 2 car(s), 4 passenger seats each. Positions: [car1] at Thakre shelter [thakre-shelter]; [car2] at Nilkantha hospital [nilkantha-hospital].
+
+EVACUATION POINTS (people may only be dropped off here): Thakre shelter [thakre-shelter], Nilkantha hospital [nilkantha-hospital].
+
+ROADS
+- Thakre shelter [thakre-shelter] <-> Panchakanya farm [panchakanya-farm]: 5 min, IMPASSABLE (damaged)
+- Thakre shelter [thakre-shelter] <-> Trishuli care home [trishuli-care-home]: 23 min, IMPASSABLE (damaged)
+- Nilkantha hospital [nilkantha-hospital] <-> Tadi village [tadi-village]: 10 min, open
+- Uttargaya market [uttargaya-market] <-> Trishuli care home [trishuli-care-home]: 13 min, open
+- Uttargaya market [uttargaya-market] <-> Likhu temple [likhu-temple]: 21 min, IMPASSABLE (damaged)
+- Trishuli care home [trishuli-care-home] <-> Likhu temple [likhu-temple]: 13 min, IMPASSABLE (damaged)
+- Trishuli care home [trishuli-care-home] <-> Tadi village [tadi-village]: 5 min, open
+- Syaphru care home [syaphru-care-home] <-> Gajuri care home [gajuri-care-home]: 12 min, open
+- Naukunda temple [naukunda-temple] <-> Likhu temple [likhu-temple]: 17 min, open
+- Likhu temple [likhu-temple] <-> Suryagadhi market [suryagadhi-market]: 33 min, open
+- Likhu temple [likhu-temple] <-> Gajuri care home [gajuri-care-home]: 20 min, open
+- Likhu temple [likhu-temple] <-> Kispang farm [kispang-farm]: 29 min, open
+- Likhu temple [likhu-temple] <-> Kalika village [kalika-village]: 10 min, IMPASSABLE (damaged)
+- Suryagadhi market [suryagadhi-market] <-> Gajuri care home [gajuri-care-home]: 21 min, IMPASSABLE (damaged)
+- Belkot village [belkot-village] <-> Tadi village [tadi-village]: 21 min, open
+- Belkot village [belkot-village] <-> Kispang farm [kispang-farm]: 21 min, open
+Any road not listed here does not exist or cannot be used.
+
+PEOPLE AWAITING RESCUE
+- Suryagadhi market [suryagadhi-market]: 4 elderly people, 6 adults, 2 children
+- Trishuli care home [trishuli-care-home]: 3 elderly people
+- Panchakanya farm [panchakanya-farm]: 1 adult
+- Uttargaya market [uttargaya-market]: 4 adults
+- Belkot village [belkot-village]: 1 adult
+People at the same location may be split between cars or trips.

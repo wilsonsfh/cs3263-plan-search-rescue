@@ -1,0 +1,22 @@
+FIELD REPORT - Nuwakot district flood response (scenario small-01)
+
+Our team has one car available, able to carry four passengers. Currently: [car1] at Myagang shelter [myagang-shelter].
+
+SAFE LOCATIONS
+Myagang shelter [myagang-shelter] is above the flood line and is taking in evacuees.
+Uttargaya school [uttargaya-school] sits on higher ground, but it has no food, water or medical staff and the authorities have not designated it as a place to bring people.
+
+ROAD CONDITIONS
+- The Myagang shelter [myagang-shelter] to Dhunche village [dhunche-village] road is muddy but passable, about 46 minutes by car.
+- Drivers report the road between Nilkantha market [nilkantha-market] and Syaphru temple [syaphru-temple] is clear; it takes roughly 31 minutes.
+- The drive from Nilkantha market [nilkantha-market] to Dupcheshwar village [dupcheshwar-village] takes about 16 minutes.
+- The Uttargaya school [uttargaya-school] to Nilkantha market [nilkantha-market] road is muddy but passable, about 8 minutes by car.
+- The bridge on the Myagang shelter [myagang-shelter] to Nilkantha market [nilkantha-market] road (35 minutes in normal conditions) was washed away last night.
+- The Uttargaya school [uttargaya-school] to Dupcheshwar village [dupcheshwar-village] road is muddy but passable, about 9 minutes by car.
+- The Myagang shelter [myagang-shelter] to Uttargaya school [uttargaya-school] road is muddy but passable, about 28 minutes by car.
+Any road not listed here does not exist or cannot be used.
+
+STRANDED CIVILIANS
+- At Syaphru temple [syaphru-temple], residents report a farmer and two pensioners waiting for help.
+- At Uttargaya school [uttargaya-school], residents report two pupils waiting for help.
+Families have said they are willing to travel separately if needed.

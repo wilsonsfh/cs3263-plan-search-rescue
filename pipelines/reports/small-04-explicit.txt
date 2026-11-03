@@ -1,0 +1,19 @@
+FIELD REPORT - Nuwakot district flood response (scenario small-04)
+
+VEHICLES: 1 car(s), 4 passenger seats each. Positions: [car1] at Naukunda shelter [naukunda-shelter].
+
+EVACUATION POINTS (people may only be dropped off here): Naukunda shelter [naukunda-shelter].
+
+ROADS
+- Naukunda shelter [naukunda-shelter] <-> Likhu school [likhu-school]: 21 min, open
+- Naukunda shelter [naukunda-shelter] <-> Benighat farm [benighat-farm]: 11 min, IMPASSABLE (damaged)
+- Kakani market [kakani-market] <-> Likhu school [likhu-school]: 16 min, open
+- Kakani market [kakani-market] <-> Benighat farm [benighat-farm]: 36 min, open
+- Likhu school [likhu-school] <-> Benighat farm [benighat-farm]: 22 min, open
+- Likhu school [likhu-school] <-> Jwalamukhi temple [jwalamukhi-temple]: 44 min, open
+Any road not listed here does not exist or cannot be used.
+
+PEOPLE AWAITING RESCUE
+- Benighat farm [benighat-farm]: 3 adults
+- Likhu school [likhu-school]: 3 adults
+People at the same location may be split between cars or trips.

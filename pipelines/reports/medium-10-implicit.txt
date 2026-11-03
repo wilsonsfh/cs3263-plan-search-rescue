@@ -1,0 +1,28 @@
+FIELD REPORT - Nuwakot district flood response (scenario medium-10)
+
+Our team has two cars available, each able to carry four passengers. Currently: [car1], [car2] at Kispang shelter [kispang-shelter].
+
+SAFE LOCATIONS
+Kispang shelter [kispang-shelter] is above the flood line and is taking in evacuees.
+Galchhi temple [galchhi-temple] sits on higher ground, but it has no food, water or medical staff and the authorities have not designated it as a place to bring people.
+
+ROAD CONDITIONS
+- The drive from Thakre care home [thakre-care-home] to Myagang temple [myagang-temple] takes about 32 minutes.
+- Floodwater is running fast over the Kispang shelter [kispang-shelter] to Thakre care home [thakre-care-home] road; a truck was swept off it this morning. The drive usually takes 20 minutes.
+- Floodwater is running fast over the Tadi market [tadi-market] to Galchhi temple [galchhi-temple] road; a truck was swept off it this morning. The drive usually takes 23 minutes.
+- The drive from Tadi market [tadi-market] to Naukunda farm [naukunda-farm] takes about 11 minutes.
+- The drive from Kispang shelter [kispang-shelter] to Myagang temple [myagang-temple] takes about 16 minutes.
+- Drivers report the road between Kispang shelter [kispang-shelter] and Dupcheshwar temple [dupcheshwar-temple] is clear; it takes roughly 26 minutes.
+- A landslide has buried the road between Gosaikunda temple [gosaikunda-temple] and Dupcheshwar temple [dupcheshwar-temple] (normally a 23-minute drive).
+- The drive from Gosaikunda temple [gosaikunda-temple] to Thakre care home [thakre-care-home] takes about 11 minutes.
+- Drivers report the road between Gosaikunda temple [gosaikunda-temple] and Galchhi temple [galchhi-temple] is clear; it takes roughly 17 minutes.
+- It is a 24-minute drive between Kispang shelter [kispang-shelter] and Gosaikunda temple [gosaikunda-temple], with some debris but no blockages.
+Any road not listed here does not exist or cannot be used.
+
+STRANDED CIVILIANS
+- At Galchhi temple [galchhi-temple], residents report four young children waiting for help.
+- At Dupcheshwar temple [dupcheshwar-temple], residents report an old man who cannot walk unaided waiting for help.
+- At Myagang temple [myagang-temple], residents report three wounded villagers, three shopkeepers and an elderly couple waiting for help.
+- At Naukunda farm [naukunda-farm], residents report two working-age adults waiting for help.
+- At Tadi market [tadi-market], residents report three residents with fractures and cuts waiting for help.
+Families have said they are willing to travel separately if needed.

@@ -1,0 +1,21 @@
+FIELD REPORT - Nuwakot district flood response (scenario small-08)
+
+VEHICLES: 1 car(s), 4 passenger seats each. Positions: [car1] at Jwalamukhi shelter [jwalamukhi-shelter].
+
+EVACUATION POINTS (people may only be dropped off here): Jwalamukhi shelter [jwalamukhi-shelter].
+
+ROADS
+- Jwalamukhi shelter [jwalamukhi-shelter] <-> Dupcheshwar temple [dupcheshwar-temple]: 12 min, open
+- Dupcheshwar temple [dupcheshwar-temple] <-> Thakre market [thakre-market]: 44 min, IMPASSABLE (damaged)
+- Dupcheshwar temple [dupcheshwar-temple] <-> Gosaikunda school [gosaikunda-school]: 31 min, open
+- Trishuli market [trishuli-market] <-> Thakre market [thakre-market]: 19 min, open
+- Trishuli market [trishuli-market] <-> Likhu school [likhu-school]: 22 min, IMPASSABLE (damaged)
+- Trishuli market [trishuli-market] <-> Gosaikunda school [gosaikunda-school]: 17 min, open
+- Thakre market [thakre-market] <-> Likhu school [likhu-school]: 14 min, IMPASSABLE (damaged)
+Any road not listed here does not exist or cannot be used.
+
+PEOPLE AWAITING RESCUE
+- Likhu school [likhu-school]: 1 child, 4 injured people
+- Thakre market [thakre-market]: 3 adults
+- Trishuli market [trishuli-market]: 4 adults
+People at the same location may be split between cars or trips.

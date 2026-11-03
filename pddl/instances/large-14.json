@@ -1,0 +1,351 @@
+{
+  "id": "large-14",
+  "size": "large",
+  "seed": 14,
+  "penalty_per_person": {
+    "injured": 80,
+    "child": 60,
+    "elderly": 50,
+    "adult": 20
+  },
+  "locations": [
+    {
+      "id": "trishuli-shelter",
+      "name": "Trishuli",
+      "kind": "shelter",
+      "evac": true,
+      "x": 13.3,
+      "y": 22.2
+    },
+    {
+      "id": "dhunche-hospital",
+      "name": "Dhunche",
+      "kind": "hospital",
+      "evac": true,
+      "x": 33.3,
+      "y": 12.6
+    },
+    {
+      "id": "benighat-care-home",
+      "name": "Benighat",
+      "kind": "care-home",
+      "evac": false,
+      "x": 51.3,
+      "y": 57.4
+    },
+    {
+      "id": "bidur-temple",
+      "name": "Bidur",
+      "kind": "temple",
+      "evac": false,
+      "x": 17.2,
+      "y": 28.4
+    },
+    {
+      "id": "dupcheshwar-care-home",
+      "name": "Dupcheshwar",
+      "kind": "care-home",
+      "evac": false,
+      "x": 28.6,
+      "y": 32.6
+    },
+    {
+      "id": "tarkeshwar-market",
+      "name": "Tarkeshwar",
+      "kind": "market",
+      "evac": false,
+      "x": 42.1,
+      "y": 55.0
+    },
+    {
+      "id": "syaphru-market",
+      "name": "Syaphru",
+      "kind": "market",
+      "evac": false,
+      "x": 23.2,
+      "y": 57.6
+    },
+    {
+      "id": "gajuri-market",
+      "name": "Gajuri",
+      "kind": "market",
+      "evac": false,
+      "x": 39.9,
+      "y": 42.3
+    },
+    {
+      "id": "panchakanya-care-home",
+      "name": "Panchakanya",
+      "kind": "care-home",
+      "evac": false,
+      "x": 58.4,
+      "y": 54.4
+    },
+    {
+      "id": "jwalamukhi-market",
+      "name": "Jwalamukhi",
+      "kind": "market",
+      "evac": false,
+      "x": 38.5,
+      "y": 55.9
+    },
+    {
+      "id": "uttargaya-farm",
+      "name": "Uttargaya",
+      "kind": "farm",
+      "evac": false,
+      "x": 6.5,
+      "y": 44.8
+    },
+    {
+      "id": "shivapuri-care-home",
+      "name": "Shivapuri",
+      "kind": "care-home",
+      "evac": false,
+      "x": 6.9,
+      "y": 46.1
+    },
+    {
+      "id": "tadi-care-home",
+      "name": "Tadi",
+      "kind": "care-home",
+      "evac": false,
+      "x": 1.3,
+      "y": 54.9
+    }
+  ],
+  "roads": [
+    {
+      "from": "trishuli-shelter",
+      "to": "bidur-temple",
+      "minutes": 7,
+      "damaged": false
+    },
+    {
+      "from": "trishuli-shelter",
+      "to": "dupcheshwar-care-home",
+      "minutes": 19,
+      "damaged": false
+    },
+    {
+      "from": "trishuli-shelter",
+      "to": "uttargaya-farm",
+      "minutes": 24,
+      "damaged": false
+    },
+    {
+      "from": "dhunche-hospital",
+      "to": "dupcheshwar-care-home",
+      "minutes": 21,
+      "damaged": true
+    },
+    {
+      "from": "benighat-care-home",
+      "to": "tarkeshwar-market",
+      "minutes": 9,
+      "damaged": false
+    },
+    {
+      "from": "benighat-care-home",
+      "to": "gajuri-market",
+      "minutes": 19,
+      "damaged": true
+    },
+    {
+      "from": "benighat-care-home",
+      "to": "panchakanya-care-home",
+      "minutes": 8,
+      "damaged": false
+    },
+    {
+      "from": "benighat-care-home",
+      "to": "jwalamukhi-market",
+      "minutes": 13,
+      "damaged": false
+    },
+    {
+      "from": "dupcheshwar-care-home",
+      "to": "gajuri-market",
+      "minutes": 15,
+      "damaged": false
+    },
+    {
+      "from": "tarkeshwar-market",
+      "to": "syaphru-market",
+      "minutes": 19,
+      "damaged": false
+    },
+    {
+      "from": "tarkeshwar-market",
+      "to": "gajuri-market",
+      "minutes": 13,
+      "damaged": false
+    },
+    {
+      "from": "tarkeshwar-market",
+      "to": "panchakanya-care-home",
+      "minutes": 16,
+      "damaged": false
+    },
+    {
+      "from": "tarkeshwar-market",
+      "to": "jwalamukhi-market",
+      "minutes": 5,
+      "damaged": false
+    },
+    {
+      "from": "syaphru-market",
+      "to": "panchakanya-care-home",
+      "minutes": 35,
+      "damaged": false
+    },
+    {
+      "from": "syaphru-market",
+      "to": "uttargaya-farm",
+      "minutes": 21,
+      "damaged": true
+    },
+    {
+      "from": "uttargaya-farm",
+      "to": "shivapuri-care-home",
+      "minutes": 5,
+      "damaged": true
+    },
+    {
+      "from": "uttargaya-farm",
+      "to": "tadi-care-home",
+      "minutes": 11,
+      "damaged": false
+    },
+    {
+      "from": "shivapuri-care-home",
+      "to": "tadi-care-home",
+      "minutes": 10,
+      "damaged": false
+    }
+  ],
+  "people": [
+    {
+      "location": "gajuri-market",
+      "band": "adult",
+      "count": 1
+    },
+    {
+      "location": "syaphru-market",
+      "band": "injured",
+      "count": 4
+    },
+    {
+      "location": "gajuri-market",
+      "band": "injured",
+      "count": 1
+    },
+    {
+      "location": "uttargaya-farm",
+      "band": "injured",
+      "count": 3
+    },
+    {
+      "location": "tarkeshwar-market",
+      "band": "adult",
+      "count": 2
+    },
+    {
+      "location": "tadi-care-home",
+      "band": "elderly",
+      "count": 4
+    },
+    {
+      "location": "dupcheshwar-care-home",
+      "band": "elderly",
+      "count": 4
+    },
+    {
+      "location": "benighat-care-home",
+      "band": "elderly",
+      "count": 1
+    },
+    {
+      "location": "jwalamukhi-market",
+      "band": "adult",
+      "count": 2
+    }
+  ],
+  "cars": [
+    {
+      "id": "car1",
+      "start": "trishuli-shelter",
+      "seats": 4
+    },
+    {
+      "id": "car2",
+      "start": "dhunche-hospital",
+      "seats": 4
+    }
+  ],
+  "groups": [
+    {
+      "id": "gajuri-market-adult",
+      "location": "gajuri-market",
+      "band": "adult",
+      "size": 1,
+      "penalty": 20
+    },
+    {
+      "id": "syaphru-market-injured",
+      "location": "syaphru-market",
+      "band": "injured",
+      "size": 4,
+      "penalty": 320
+    },
+    {
+      "id": "gajuri-market-injured",
+      "location": "gajuri-market",
+      "band": "injured",
+      "size": 1,
+      "penalty": 80
+    },
+    {
+      "id": "uttargaya-farm-injured",
+      "location": "uttargaya-farm",
+      "band": "injured",
+      "size": 3,
+      "penalty": 240
+    },
+    {
+      "id": "tarkeshwar-market-adult",
+      "location": "tarkeshwar-market",
+      "band": "adult",
+      "size": 2,
+      "penalty": 40
+    },
+    {
+      "id": "tadi-care-home-elderly",
+      "location": "tadi-care-home",
+      "band": "elderly",
+      "size": 4,
+      "penalty": 200
+    },
+    {
+      "id": "dupcheshwar-care-home-elderly",
+      "location": "dupcheshwar-care-home",
+      "band": "elderly",
+      "size": 4,
+      "penalty": 200
+    },
+    {
+      "id": "benighat-care-home-elderly",
+      "location": "benighat-care-home",
+      "band": "elderly",
+      "size": 1,
+      "penalty": 50
+    },
+    {
+      "id": "jwalamukhi-market-adult",
+      "location": "jwalamukhi-market",
+      "band": "adult",
+      "size": 2,
+      "penalty": 40
+    }
+  ]
+}

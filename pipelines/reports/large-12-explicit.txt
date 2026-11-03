@@ -1,0 +1,35 @@
+FIELD REPORT - Nuwakot district flood response (scenario large-12)
+
+VEHICLES: 2 car(s), 4 passenger seats each. Positions: [car1] at Benighat shelter [benighat-shelter]; [car2] at Kalika hospital [kalika-hospital].
+
+EVACUATION POINTS (people may only be dropped off here): Benighat shelter [benighat-shelter], Kalika hospital [kalika-hospital].
+
+ROADS
+- Benighat shelter [benighat-shelter] <-> Jwalamukhi village [jwalamukhi-village]: 14 min, open
+- Benighat shelter [benighat-shelter] <-> Myagang market [myagang-market]: 17 min, IMPASSABLE (damaged)
+- Benighat shelter [benighat-shelter] <-> Dupcheshwar temple [dupcheshwar-temple]: 14 min, open
+- Benighat shelter [benighat-shelter] <-> Belkot school [belkot-school]: 5 min, open
+- Kalika hospital [kalika-hospital] <-> Likhu market [likhu-market]: 13 min, open
+- Kakani farm [kakani-farm] <-> Galchhi temple [galchhi-temple]: 12 min, open
+- Jwalamukhi village [jwalamukhi-village] <-> Likhu market [likhu-market]: 11 min, open
+- Jwalamukhi village [jwalamukhi-village] <-> Tarkeshwar village [tarkeshwar-village]: 16 min, IMPASSABLE (damaged)
+- Jwalamukhi village [jwalamukhi-village] <-> Belkot school [belkot-school]: 18 min, open
+- Tadi farm [tadi-farm] <-> Galchhi temple [galchhi-temple]: 20 min, open
+- Likhu market [likhu-market] <-> Dupcheshwar temple [dupcheshwar-temple]: 31 min, IMPASSABLE (damaged)
+- Tarkeshwar village [tarkeshwar-village] <-> Belkot school [belkot-school]: 9 min, open
+- Myagang market [myagang-market] <-> Dupcheshwar temple [dupcheshwar-temple]: 5 min, open
+- Myagang market [myagang-market] <-> Belkot school [belkot-school]: 12 min, IMPASSABLE (damaged)
+- Dupcheshwar temple [dupcheshwar-temple] <-> Belkot school [belkot-school]: 10 min, open
+- Dupcheshwar temple [dupcheshwar-temple] <-> Galchhi temple [galchhi-temple]: 19 min, open
+Any road not listed here does not exist or cannot be used.
+
+PEOPLE AWAITING RESCUE
+- Tarkeshwar village [tarkeshwar-village]: 1 injured person
+- Likhu market [likhu-market]: 1 adult
+- Jwalamukhi village [jwalamukhi-village]: 3 elderly people, 1 adult
+- Kakani farm [kakani-farm]: 2 elderly people, 2 adults
+- Belkot school [belkot-school]: 3 adults
+- Myagang market [myagang-market]: 4 adults, 3 children
+- Tadi farm [tadi-farm]: 2 adults
+- Galchhi temple [galchhi-temple]: 1 elderly person
+People at the same location may be split between cars or trips.

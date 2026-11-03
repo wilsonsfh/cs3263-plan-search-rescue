@@ -1,0 +1,318 @@
+{
+  "id": "large-02",
+  "size": "large",
+  "seed": 2,
+  "penalty_per_person": {
+    "injured": 80,
+    "child": 60,
+    "elderly": 50,
+    "adult": 20
+  },
+  "locations": [
+    {
+      "id": "bidur-shelter",
+      "name": "Bidur",
+      "kind": "shelter",
+      "evac": true,
+      "x": 24.3,
+      "y": 10.9
+    },
+    {
+      "id": "suryagadhi-hospital",
+      "name": "Suryagadhi",
+      "kind": "hospital",
+      "evac": true,
+      "x": 57.6,
+      "y": 29.0
+    },
+    {
+      "id": "kalika-village",
+      "name": "Kalika",
+      "kind": "village",
+      "evac": false,
+      "x": 11.7,
+      "y": 12.7
+    },
+    {
+      "id": "dupcheshwar-school",
+      "name": "Dupcheshwar",
+      "kind": "school",
+      "evac": false,
+      "x": 7.5,
+      "y": 48.7
+    },
+    {
+      "id": "syaphru-school",
+      "name": "Syaphru",
+      "kind": "school",
+      "evac": false,
+      "x": 35.6,
+      "y": 58.6
+    },
+    {
+      "id": "trishuli-care-home",
+      "name": "Trishuli",
+      "kind": "care-home",
+      "evac": false,
+      "x": 46.7,
+      "y": 45.9
+    },
+    {
+      "id": "likhu-market",
+      "name": "Likhu",
+      "kind": "market",
+      "evac": false,
+      "x": 50.6,
+      "y": 22.2
+    },
+    {
+      "id": "nilkantha-farm",
+      "name": "Nilkantha",
+      "kind": "farm",
+      "evac": false,
+      "x": 29.7,
+      "y": 7.2
+    },
+    {
+      "id": "tadi-village",
+      "name": "Tadi",
+      "kind": "village",
+      "evac": false,
+      "x": 4.0,
+      "y": 22.7
+    },
+    {
+      "id": "jwalamukhi-market",
+      "name": "Jwalamukhi",
+      "kind": "market",
+      "evac": false,
+      "x": 12.7,
+      "y": 4.8
+    },
+    {
+      "id": "tarkeshwar-school",
+      "name": "Tarkeshwar",
+      "kind": "school",
+      "evac": false,
+      "x": 0.4,
+      "y": 22.0
+    }
+  ],
+  "roads": [
+    {
+      "from": "bidur-shelter",
+      "to": "kalika-village",
+      "minutes": 13,
+      "damaged": true
+    },
+    {
+      "from": "bidur-shelter",
+      "to": "nilkantha-farm",
+      "minutes": 7,
+      "damaged": false
+    },
+    {
+      "from": "suryagadhi-hospital",
+      "to": "syaphru-school",
+      "minutes": 37,
+      "damaged": true
+    },
+    {
+      "from": "suryagadhi-hospital",
+      "to": "trishuli-care-home",
+      "minutes": 20,
+      "damaged": false
+    },
+    {
+      "from": "suryagadhi-hospital",
+      "to": "likhu-market",
+      "minutes": 10,
+      "damaged": true
+    },
+    {
+      "from": "kalika-village",
+      "to": "nilkantha-farm",
+      "minutes": 19,
+      "damaged": false
+    },
+    {
+      "from": "kalika-village",
+      "to": "tadi-village",
+      "minutes": 13,
+      "damaged": false
+    },
+    {
+      "from": "kalika-village",
+      "to": "jwalamukhi-market",
+      "minutes": 8,
+      "damaged": false
+    },
+    {
+      "from": "dupcheshwar-school",
+      "to": "tadi-village",
+      "minutes": 26,
+      "damaged": false
+    },
+    {
+      "from": "dupcheshwar-school",
+      "to": "tarkeshwar-school",
+      "minutes": 28,
+      "damaged": false
+    },
+    {
+      "from": "syaphru-school",
+      "to": "trishuli-care-home",
+      "minutes": 17,
+      "damaged": false
+    },
+    {
+      "from": "syaphru-school",
+      "to": "tadi-village",
+      "minutes": 48,
+      "damaged": false
+    },
+    {
+      "from": "likhu-market",
+      "to": "nilkantha-farm",
+      "minutes": 26,
+      "damaged": true
+    },
+    {
+      "from": "nilkantha-farm",
+      "to": "jwalamukhi-market",
+      "minutes": 17,
+      "damaged": false
+    },
+    {
+      "from": "tadi-village",
+      "to": "tarkeshwar-school",
+      "minutes": 5,
+      "damaged": false
+    },
+    {
+      "from": "jwalamukhi-market",
+      "to": "tarkeshwar-school",
+      "minutes": 21,
+      "damaged": false
+    }
+  ],
+  "people": [
+    {
+      "location": "kalika-village",
+      "band": "elderly",
+      "count": 2
+    },
+    {
+      "location": "syaphru-school",
+      "band": "child",
+      "count": 6
+    },
+    {
+      "location": "kalika-village",
+      "band": "adult",
+      "count": 3
+    },
+    {
+      "location": "jwalamukhi-market",
+      "band": "adult",
+      "count": 4
+    },
+    {
+      "location": "nilkantha-farm",
+      "band": "adult",
+      "count": 1
+    },
+    {
+      "location": "trishuli-care-home",
+      "band": "elderly",
+      "count": 4
+    },
+    {
+      "location": "kalika-village",
+      "band": "child",
+      "count": 2
+    },
+    {
+      "location": "tarkeshwar-school",
+      "band": "child",
+      "count": 4
+    }
+  ],
+  "cars": [
+    {
+      "id": "car1",
+      "start": "bidur-shelter",
+      "seats": 4
+    },
+    {
+      "id": "car2",
+      "start": "suryagadhi-hospital",
+      "seats": 4
+    }
+  ],
+  "groups": [
+    {
+      "id": "kalika-village-elderly",
+      "location": "kalika-village",
+      "band": "elderly",
+      "size": 2,
+      "penalty": 100
+    },
+    {
+      "id": "syaphru-school-child",
+      "location": "syaphru-school",
+      "band": "child",
+      "size": 4,
+      "penalty": 240
+    },
+    {
+      "id": "kalika-village-adult",
+      "location": "kalika-village",
+      "band": "adult",
+      "size": 3,
+      "penalty": 60
+    },
+    {
+      "id": "jwalamukhi-market-adult",
+      "location": "jwalamukhi-market",
+      "band": "adult",
+      "size": 4,
+      "penalty": 80
+    },
+    {
+      "id": "syaphru-school-child-2",
+      "location": "syaphru-school",
+      "band": "child",
+      "size": 2,
+      "penalty": 120
+    },
+    {
+      "id": "nilkantha-farm-adult",
+      "location": "nilkantha-farm",
+      "band": "adult",
+      "size": 1,
+      "penalty": 20
+    },
+    {
+      "id": "trishuli-care-home-elderly",
+      "location": "trishuli-care-home",
+      "band": "elderly",
+      "size": 4,
+      "penalty": 200
+    },
+    {
+      "id": "kalika-village-child",
+      "location": "kalika-village",
+      "band": "child",
+      "size": 2,
+      "penalty": 120
+    },
+    {
+      "id": "tarkeshwar-school-child",
+      "location": "tarkeshwar-school",
+      "band": "child",
+      "size": 4,
+      "penalty": 240
+    }
+  ]
+}

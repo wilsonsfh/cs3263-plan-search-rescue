@@ -1,0 +1,301 @@
+{
+  "id": "large-11",
+  "size": "large",
+  "seed": 11,
+  "penalty_per_person": {
+    "injured": 80,
+    "child": 60,
+    "elderly": 50,
+    "adult": 20
+  },
+  "locations": [
+    {
+      "id": "tarkeshwar-shelter",
+      "name": "Tarkeshwar",
+      "kind": "shelter",
+      "evac": true,
+      "x": 41.2,
+      "y": 48.6
+    },
+    {
+      "id": "dupcheshwar-hospital",
+      "name": "Dupcheshwar",
+      "kind": "hospital",
+      "evac": true,
+      "x": 5.1,
+      "y": 50.4
+    },
+    {
+      "id": "syaphru-village",
+      "name": "Syaphru",
+      "kind": "village",
+      "evac": false,
+      "x": 24.9,
+      "y": 22.8
+    },
+    {
+      "id": "galchhi-village",
+      "name": "Galchhi",
+      "kind": "village",
+      "evac": false,
+      "x": 25.9,
+      "y": 36.3
+    },
+    {
+      "id": "bidur-village",
+      "name": "Bidur",
+      "kind": "village",
+      "evac": false,
+      "x": 26.1,
+      "y": 47.9
+    },
+    {
+      "id": "gajuri-school",
+      "name": "Gajuri",
+      "kind": "school",
+      "evac": false,
+      "x": 50.7,
+      "y": 49.8
+    },
+    {
+      "id": "myagang-temple",
+      "name": "Myagang",
+      "kind": "temple",
+      "evac": false,
+      "x": 12.1,
+      "y": 38.8
+    },
+    {
+      "id": "panchakanya-farm",
+      "name": "Panchakanya",
+      "kind": "farm",
+      "evac": false,
+      "x": 19.1,
+      "y": 15.8
+    },
+    {
+      "id": "naukunda-school",
+      "name": "Naukunda",
+      "kind": "school",
+      "evac": false,
+      "x": 13.4,
+      "y": 3.5
+    },
+    {
+      "id": "trishuli-temple",
+      "name": "Trishuli",
+      "kind": "temple",
+      "evac": false,
+      "x": 13.3,
+      "y": 4.8
+    },
+    {
+      "id": "nilkantha-care-home",
+      "name": "Nilkantha",
+      "kind": "care-home",
+      "evac": false,
+      "x": 3.1,
+      "y": 32.7
+    }
+  ],
+  "roads": [
+    {
+      "from": "tarkeshwar-shelter",
+      "to": "galchhi-village",
+      "minutes": 20,
+      "damaged": false
+    },
+    {
+      "from": "tarkeshwar-shelter",
+      "to": "bidur-village",
+      "minutes": 15,
+      "damaged": false
+    },
+    {
+      "from": "tarkeshwar-shelter",
+      "to": "gajuri-school",
+      "minutes": 10,
+      "damaged": false
+    },
+    {
+      "from": "tarkeshwar-shelter",
+      "to": "trishuli-temple",
+      "minutes": 52,
+      "damaged": false
+    },
+    {
+      "from": "dupcheshwar-hospital",
+      "to": "bidur-village",
+      "minutes": 21,
+      "damaged": false
+    },
+    {
+      "from": "dupcheshwar-hospital",
+      "to": "nilkantha-care-home",
+      "minutes": 18,
+      "damaged": false
+    },
+    {
+      "from": "syaphru-village",
+      "to": "galchhi-village",
+      "minutes": 14,
+      "damaged": false
+    },
+    {
+      "from": "syaphru-village",
+      "to": "panchakanya-farm",
+      "minutes": 9,
+      "damaged": false
+    },
+    {
+      "from": "syaphru-village",
+      "to": "trishuli-temple",
+      "minutes": 21,
+      "damaged": false
+    },
+    {
+      "from": "galchhi-village",
+      "to": "bidur-village",
+      "minutes": 12,
+      "damaged": false
+    },
+    {
+      "from": "galchhi-village",
+      "to": "myagang-temple",
+      "minutes": 14,
+      "damaged": true
+    },
+    {
+      "from": "galchhi-village",
+      "to": "panchakanya-farm",
+      "minutes": 22,
+      "damaged": false
+    },
+    {
+      "from": "bidur-village",
+      "to": "myagang-temple",
+      "minutes": 17,
+      "damaged": false
+    },
+    {
+      "from": "myagang-temple",
+      "to": "nilkantha-care-home",
+      "minutes": 11,
+      "damaged": false
+    },
+    {
+      "from": "panchakanya-farm",
+      "to": "trishuli-temple",
+      "minutes": 12,
+      "damaged": true
+    },
+    {
+      "from": "naukunda-school",
+      "to": "trishuli-temple",
+      "minutes": 5,
+      "damaged": false
+    }
+  ],
+  "people": [
+    {
+      "location": "panchakanya-farm",
+      "band": "adult",
+      "count": 6
+    },
+    {
+      "location": "syaphru-village",
+      "band": "adult",
+      "count": 5
+    },
+    {
+      "location": "galchhi-village",
+      "band": "injured",
+      "count": 1
+    },
+    {
+      "location": "naukunda-school",
+      "band": "child",
+      "count": 4
+    },
+    {
+      "location": "nilkantha-care-home",
+      "band": "adult",
+      "count": 2
+    },
+    {
+      "location": "bidur-village",
+      "band": "elderly",
+      "count": 2
+    }
+  ],
+  "cars": [
+    {
+      "id": "car1",
+      "start": "tarkeshwar-shelter",
+      "seats": 4
+    },
+    {
+      "id": "car2",
+      "start": "dupcheshwar-hospital",
+      "seats": 4
+    }
+  ],
+  "groups": [
+    {
+      "id": "panchakanya-farm-adult",
+      "location": "panchakanya-farm",
+      "band": "adult",
+      "size": 4,
+      "penalty": 80
+    },
+    {
+      "id": "panchakanya-farm-adult-2",
+      "location": "panchakanya-farm",
+      "band": "adult",
+      "size": 2,
+      "penalty": 40
+    },
+    {
+      "id": "syaphru-village-adult",
+      "location": "syaphru-village",
+      "band": "adult",
+      "size": 2,
+      "penalty": 40
+    },
+    {
+      "id": "galchhi-village-injured",
+      "location": "galchhi-village",
+      "band": "injured",
+      "size": 1,
+      "penalty": 80
+    },
+    {
+      "id": "naukunda-school-child",
+      "location": "naukunda-school",
+      "band": "child",
+      "size": 4,
+      "penalty": 240
+    },
+    {
+      "id": "nilkantha-care-home-adult",
+      "location": "nilkantha-care-home",
+      "band": "adult",
+      "size": 2,
+      "penalty": 40
+    },
+    {
+      "id": "bidur-village-elderly",
+      "location": "bidur-village",
+      "band": "elderly",
+      "size": 2,
+      "penalty": 100
+    },
+    {
+      "id": "syaphru-village-adult-2",
+      "location": "syaphru-village",
+      "band": "adult",
+      "size": 3,
+      "penalty": 60
+    }
+  ]
+}

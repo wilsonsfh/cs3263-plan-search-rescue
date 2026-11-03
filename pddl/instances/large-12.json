@@ -1,0 +1,354 @@
+{
+  "id": "large-12",
+  "size": "large",
+  "seed": 12,
+  "penalty_per_person": {
+    "injured": 80,
+    "child": 60,
+    "elderly": 50,
+    "adult": 20
+  },
+  "locations": [
+    {
+      "id": "benighat-shelter",
+      "name": "Benighat",
+      "kind": "shelter",
+      "evac": true,
+      "x": 30.4,
+      "y": 20.1
+    },
+    {
+      "id": "kalika-hospital",
+      "name": "Kalika",
+      "kind": "hospital",
+      "evac": true,
+      "x": 4.8,
+      "y": 10.7
+    },
+    {
+      "id": "kakani-farm",
+      "name": "Kakani",
+      "kind": "farm",
+      "evac": false,
+      "x": 42.4,
+      "y": 55.4
+    },
+    {
+      "id": "jwalamukhi-village",
+      "name": "Jwalamukhi",
+      "kind": "village",
+      "evac": false,
+      "x": 25.4,
+      "y": 6.5
+    },
+    {
+      "id": "tadi-farm",
+      "name": "Tadi",
+      "kind": "farm",
+      "evac": false,
+      "x": 59.2,
+      "y": 51.1
+    },
+    {
+      "id": "likhu-market",
+      "name": "Likhu",
+      "kind": "market",
+      "evac": false,
+      "x": 14.8,
+      "y": 3.1
+    },
+    {
+      "id": "tarkeshwar-village",
+      "name": "Tarkeshwar",
+      "kind": "village",
+      "evac": false,
+      "x": 36.3,
+      "y": 18.1
+    },
+    {
+      "id": "myagang-market",
+      "name": "Myagang",
+      "kind": "market",
+      "evac": false,
+      "x": 27.8,
+      "y": 36.7
+    },
+    {
+      "id": "dupcheshwar-temple",
+      "name": "Dupcheshwar",
+      "kind": "temple",
+      "evac": false,
+      "x": 24.6,
+      "y": 32.7
+    },
+    {
+      "id": "belkot-school",
+      "name": "Belkot",
+      "kind": "school",
+      "evac": false,
+      "x": 29.5,
+      "y": 24.3
+    },
+    {
+      "id": "galchhi-temple",
+      "name": "Galchhi",
+      "kind": "temple",
+      "evac": false,
+      "x": 40.4,
+      "y": 43.5
+    }
+  ],
+  "roads": [
+    {
+      "from": "benighat-shelter",
+      "to": "jwalamukhi-village",
+      "minutes": 14,
+      "damaged": false
+    },
+    {
+      "from": "benighat-shelter",
+      "to": "myagang-market",
+      "minutes": 17,
+      "damaged": true
+    },
+    {
+      "from": "benighat-shelter",
+      "to": "dupcheshwar-temple",
+      "minutes": 14,
+      "damaged": false
+    },
+    {
+      "from": "benighat-shelter",
+      "to": "belkot-school",
+      "minutes": 5,
+      "damaged": false
+    },
+    {
+      "from": "kalika-hospital",
+      "to": "likhu-market",
+      "minutes": 13,
+      "damaged": false
+    },
+    {
+      "from": "kakani-farm",
+      "to": "galchhi-temple",
+      "minutes": 12,
+      "damaged": false
+    },
+    {
+      "from": "jwalamukhi-village",
+      "to": "likhu-market",
+      "minutes": 11,
+      "damaged": false
+    },
+    {
+      "from": "jwalamukhi-village",
+      "to": "tarkeshwar-village",
+      "minutes": 16,
+      "damaged": true
+    },
+    {
+      "from": "jwalamukhi-village",
+      "to": "belkot-school",
+      "minutes": 18,
+      "damaged": false
+    },
+    {
+      "from": "tadi-farm",
+      "to": "galchhi-temple",
+      "minutes": 20,
+      "damaged": false
+    },
+    {
+      "from": "likhu-market",
+      "to": "dupcheshwar-temple",
+      "minutes": 31,
+      "damaged": true
+    },
+    {
+      "from": "tarkeshwar-village",
+      "to": "belkot-school",
+      "minutes": 9,
+      "damaged": false
+    },
+    {
+      "from": "myagang-market",
+      "to": "dupcheshwar-temple",
+      "minutes": 5,
+      "damaged": false
+    },
+    {
+      "from": "myagang-market",
+      "to": "belkot-school",
+      "minutes": 12,
+      "damaged": true
+    },
+    {
+      "from": "dupcheshwar-temple",
+      "to": "belkot-school",
+      "minutes": 10,
+      "damaged": false
+    },
+    {
+      "from": "dupcheshwar-temple",
+      "to": "galchhi-temple",
+      "minutes": 19,
+      "damaged": false
+    }
+  ],
+  "people": [
+    {
+      "location": "tarkeshwar-village",
+      "band": "injured",
+      "count": 1
+    },
+    {
+      "location": "likhu-market",
+      "band": "adult",
+      "count": 1
+    },
+    {
+      "location": "jwalamukhi-village",
+      "band": "elderly",
+      "count": 3
+    },
+    {
+      "location": "kakani-farm",
+      "band": "elderly",
+      "count": 2
+    },
+    {
+      "location": "kakani-farm",
+      "band": "adult",
+      "count": 2
+    },
+    {
+      "location": "belkot-school",
+      "band": "adult",
+      "count": 3
+    },
+    {
+      "location": "myagang-market",
+      "band": "adult",
+      "count": 4
+    },
+    {
+      "location": "tadi-farm",
+      "band": "adult",
+      "count": 2
+    },
+    {
+      "location": "jwalamukhi-village",
+      "band": "adult",
+      "count": 1
+    },
+    {
+      "location": "myagang-market",
+      "band": "child",
+      "count": 3
+    },
+    {
+      "location": "galchhi-temple",
+      "band": "elderly",
+      "count": 1
+    }
+  ],
+  "cars": [
+    {
+      "id": "car1",
+      "start": "benighat-shelter",
+      "seats": 4
+    },
+    {
+      "id": "car2",
+      "start": "kalika-hospital",
+      "seats": 4
+    }
+  ],
+  "groups": [
+    {
+      "id": "tarkeshwar-village-injured",
+      "location": "tarkeshwar-village",
+      "band": "injured",
+      "size": 1,
+      "penalty": 80
+    },
+    {
+      "id": "likhu-market-adult",
+      "location": "likhu-market",
+      "band": "adult",
+      "size": 1,
+      "penalty": 20
+    },
+    {
+      "id": "jwalamukhi-village-elderly",
+      "location": "jwalamukhi-village",
+      "band": "elderly",
+      "size": 3,
+      "penalty": 150
+    },
+    {
+      "id": "kakani-farm-elderly",
+      "location": "kakani-farm",
+      "band": "elderly",
+      "size": 2,
+      "penalty": 100
+    },
+    {
+      "id": "kakani-farm-adult",
+      "location": "kakani-farm",
+      "band": "adult",
+      "size": 2,
+      "penalty": 40
+    },
+    {
+      "id": "belkot-school-adult",
+      "location": "belkot-school",
+      "band": "adult",
+      "size": 3,
+      "penalty": 60
+    },
+    {
+      "id": "myagang-market-adult",
+      "location": "myagang-market",
+      "band": "adult",
+      "size": 4,
+      "penalty": 80
+    },
+    {
+      "id": "tadi-farm-adult",
+      "location": "tadi-farm",
+      "band": "adult",
+      "size": 1,
+      "penalty": 20
+    },
+    {
+      "id": "jwalamukhi-village-adult",
+      "location": "jwalamukhi-village",
+      "band": "adult",
+      "size": 1,
+      "penalty": 20
+    },
+    {
+      "id": "myagang-market-child",
+      "location": "myagang-market",
+      "band": "child",
+      "size": 3,
+      "penalty": 180
+    },
+    {
+      "id": "tadi-farm-adult-2",
+      "location": "tadi-farm",
+      "band": "adult",
+      "size": 1,
+      "penalty": 20
+    },
+    {
+      "id": "galchhi-temple-elderly",
+      "location": "galchhi-temple",
+      "band": "elderly",
+      "size": 1,
+      "penalty": 50
+    }
+  ]
+}

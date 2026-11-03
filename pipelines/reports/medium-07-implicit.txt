@@ -1,0 +1,28 @@
+FIELD REPORT - Nuwakot district flood response (scenario medium-07)
+
+Our team has one car available, able to carry four passengers. Currently: [car1] at Kakani shelter [kakani-shelter].
+
+SAFE LOCATIONS
+Kakani shelter [kakani-shelter] is above the flood line and is taking in evacuees.
+Myagang hospital [myagang-hospital] is on high ground and its staff are receiving evacuees.
+Panchakanya school [panchakanya-school] sits on higher ground, but it has no food, water or medical staff and the authorities have not designated it as a place to bring people.
+
+ROAD CONDITIONS
+- Drivers report the road between Panchakanya school [panchakanya-school] and Dupcheshwar farm [dupcheshwar-farm] is clear; it takes roughly 27 minutes.
+- Floodwater is running fast over the Myagang hospital [myagang-hospital] to Gajuri market [gajuri-market] road; a truck was swept off it this morning. The drive usually takes 11 minutes.
+- The drive from Gajuri market [gajuri-market] to Panchakanya school [panchakanya-school] takes about 23 minutes.
+- The drive from Kakani shelter [kakani-shelter] to Dupcheshwar farm [dupcheshwar-farm] takes about 23 minutes.
+- The Benighat school [benighat-school] to Jwalamukhi school [jwalamukhi-school] road is muddy but passable, about 7 minutes by car.
+- Floodwater is running fast over the Kakani shelter [kakani-shelter] to Gajuri market [gajuri-market] road; a truck was swept off it this morning. The drive usually takes 23 minutes.
+- The drive from Kakani shelter [kakani-shelter] to Jwalamukhi school [jwalamukhi-school] takes about 40 minutes.
+- Drivers report the road between Myagang hospital [myagang-hospital] and Panchakanya school [panchakanya-school] is clear; it takes roughly 33 minutes.
+- It is a 18-minute drive between Kakani shelter [kakani-shelter] and Myagang hospital [myagang-hospital], with some debris but no blockages.
+Any road not listed here does not exist or cannot be used.
+
+STRANDED CIVILIANS
+- At Panchakanya school [panchakanya-school], residents report three young children waiting for help.
+- At Benighat school [benighat-school], residents report four young children and four people hurt by falling debris waiting for help.
+- At Gajuri market [gajuri-market], residents report three working-age adults waiting for help.
+- At Dupcheshwar farm [dupcheshwar-farm], residents report a seven-year-old child waiting for help.
+- At Jwalamukhi school [jwalamukhi-school], residents report four adult labourers waiting for help.
+Families have said they are willing to travel separately if needed.

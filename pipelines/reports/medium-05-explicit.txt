@@ -1,0 +1,24 @@
+FIELD REPORT - Nuwakot district flood response (scenario medium-05)
+
+VEHICLES: 1 car(s), 4 passenger seats each. Positions: [car1] at Thakre shelter [thakre-shelter].
+
+EVACUATION POINTS (people may only be dropped off here): Thakre shelter [thakre-shelter], Tarkeshwar hospital [tarkeshwar-hospital].
+
+ROADS
+- Thakre shelter [thakre-shelter] <-> Myagang care home [myagang-care-home]: 24 min, open
+- Thakre shelter [thakre-shelter] <-> Gajuri care home [gajuri-care-home]: 7 min, open
+- Tarkeshwar hospital [tarkeshwar-hospital] <-> Suryagadhi care home [suryagadhi-care-home]: 17 min, IMPASSABLE (damaged)
+- Tarkeshwar hospital [tarkeshwar-hospital] <-> Likhu farm [likhu-farm]: 24 min, IMPASSABLE (damaged)
+- Myagang care home [myagang-care-home] <-> Suryagadhi care home [suryagadhi-care-home]: 9 min, IMPASSABLE (damaged)
+- Myagang care home [myagang-care-home] <-> Gajuri care home [gajuri-care-home]: 25 min, IMPASSABLE (damaged)
+- Suryagadhi care home [suryagadhi-care-home] <-> Gajuri care home [gajuri-care-home]: 29 min, IMPASSABLE (damaged)
+- Suryagadhi care home [suryagadhi-care-home] <-> Likhu farm [likhu-farm]: 24 min, open
+- Likhu farm [likhu-farm] <-> Panchakanya care home [panchakanya-care-home]: 26 min, open
+Any road not listed here does not exist or cannot be used.
+
+PEOPLE AWAITING RESCUE
+- Myagang care home [myagang-care-home]: 1 elderly person
+- Panchakanya care home [panchakanya-care-home]: 2 injured people, 1 elderly person
+- Likhu farm [likhu-farm]: 7 adults
+- Gajuri care home [gajuri-care-home]: 1 elderly person
+People at the same location may be split between cars or trips.

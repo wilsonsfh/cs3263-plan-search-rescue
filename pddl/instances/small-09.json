@@ -1,0 +1,147 @@
+{
+  "id": "small-09",
+  "size": "small",
+  "seed": 9,
+  "penalty_per_person": {
+    "injured": 80,
+    "child": 60,
+    "elderly": 50,
+    "adult": 20
+  },
+  "locations": [
+    {
+      "id": "kispang-shelter",
+      "name": "Kispang",
+      "kind": "shelter",
+      "evac": true,
+      "x": 0.4,
+      "y": 7.5
+    },
+    {
+      "id": "galchhi-school",
+      "name": "Galchhi",
+      "kind": "school",
+      "evac": false,
+      "x": 5.8,
+      "y": 17.4
+    },
+    {
+      "id": "nilkantha-village",
+      "name": "Nilkantha",
+      "kind": "village",
+      "evac": false,
+      "x": 9.6,
+      "y": 9.4
+    },
+    {
+      "id": "thakre-temple",
+      "name": "Thakre",
+      "kind": "temple",
+      "evac": false,
+      "x": 32.7,
+      "y": 20.6
+    },
+    {
+      "id": "kalika-market",
+      "name": "Kalika",
+      "kind": "market",
+      "evac": false,
+      "x": 22.1,
+      "y": 30.0
+    },
+    {
+      "id": "tadi-village",
+      "name": "Tadi",
+      "kind": "village",
+      "evac": false,
+      "x": 42.0,
+      "y": 56.5
+    }
+  ],
+  "roads": [
+    {
+      "from": "kispang-shelter",
+      "to": "nilkantha-village",
+      "minutes": 9,
+      "damaged": true
+    },
+    {
+      "from": "galchhi-school",
+      "to": "nilkantha-village",
+      "minutes": 9,
+      "damaged": false
+    },
+    {
+      "from": "galchhi-school",
+      "to": "thakre-temple",
+      "minutes": 27,
+      "damaged": false
+    },
+    {
+      "from": "galchhi-school",
+      "to": "kalika-market",
+      "minutes": 21,
+      "damaged": false
+    },
+    {
+      "from": "nilkantha-village",
+      "to": "thakre-temple",
+      "minutes": 26,
+      "damaged": false
+    },
+    {
+      "from": "thakre-temple",
+      "to": "kalika-market",
+      "minutes": 14,
+      "damaged": false
+    },
+    {
+      "from": "thakre-temple",
+      "to": "tadi-village",
+      "minutes": 37,
+      "damaged": false
+    }
+  ],
+  "people": [
+    {
+      "location": "kalika-market",
+      "band": "child",
+      "count": 3
+    },
+    {
+      "location": "galchhi-school",
+      "band": "child",
+      "count": 4
+    }
+  ],
+  "cars": [
+    {
+      "id": "car1",
+      "start": "kispang-shelter",
+      "seats": 4
+    }
+  ],
+  "groups": [
+    {
+      "id": "kalika-market-child",
+      "location": "kalika-market",
+      "band": "child",
+      "size": 1,
+      "penalty": 60
+    },
+    {
+      "id": "galchhi-school-child",
+      "location": "galchhi-school",
+      "band": "child",
+      "size": 4,
+      "penalty": 240
+    },
+    {
+      "id": "kalika-market-child-2",
+      "location": "kalika-market",
+      "band": "child",
+      "size": 2,
+      "penalty": 120
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+FIELD REPORT - Nuwakot district flood response (scenario medium-03)
+
+VEHICLES: 2 car(s), 4 passenger seats each. Positions: [car1] at Uttargaya shelter [uttargaya-shelter]; [car2] at Thakre hospital [thakre-hospital].
+
+EVACUATION POINTS (people may only be dropped off here): Uttargaya shelter [uttargaya-shelter], Thakre hospital [thakre-hospital].
+
+ROADS
+- Uttargaya shelter [uttargaya-shelter] <-> Bidur care home [bidur-care-home]: 8 min, open
+- Uttargaya shelter [uttargaya-shelter] <-> Kalika temple [kalika-temple]: 11 min, open
+- Uttargaya shelter [uttargaya-shelter] <-> Belkot village [belkot-village]: 16 min, open
+- Uttargaya shelter [uttargaya-shelter] <-> Kakani temple [kakani-temple]: 20 min, IMPASSABLE (damaged)
+- Thakre hospital [thakre-hospital] <-> Bidur care home [bidur-care-home]: 22 min, open
+- Bidur care home [bidur-care-home] <-> Kalika temple [kalika-temple]: 14 min, open
+- Kalika temple [kalika-temple] <-> Belkot village [belkot-village]: 6 min, open
+- Kalika temple [kalika-temple] <-> Naukunda village [naukunda-village]: 15 min, open
+- Belkot village [belkot-village] <-> Naukunda village [naukunda-village]: 14 min, open
+- Kakani temple [kakani-temple] <-> Suryagadhi school [suryagadhi-school]: 6 min, open
+Any road not listed here does not exist or cannot be used.
+
+PEOPLE AWAITING RESCUE
+- Kalika temple [kalika-temple]: 4 elderly people
+- Kakani temple [kakani-temple]: 1 elderly person, 4 adults
+- Suryagadhi school [suryagadhi-school]: 6 children
+- Bidur care home [bidur-care-home]: 3 elderly people
+People at the same location may be split between cars or trips.

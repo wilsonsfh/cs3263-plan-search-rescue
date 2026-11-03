@@ -1,0 +1,43 @@
+FIELD REPORT - Nuwakot district flood response (scenario large-04)
+
+Our team has two cars available, each able to carry four passengers. Currently: [car1] at Shivapuri shelter [shivapuri-shelter]; [car2] at Trishuli hospital [trishuli-hospital].
+
+SAFE LOCATIONS
+Volunteers at Shivapuri shelter [shivapuri-shelter] say they have room for more families.
+Trishuli hospital [trishuli-hospital] is on high ground and its staff are receiving evacuees.
+Bidur school [bidur-school] sits on higher ground, but it has no food, water or medical staff and the authorities have not designated it as a place to bring people.
+
+ROAD CONDITIONS
+- It is a 18-minute drive between Shivapuri shelter [shivapuri-shelter] and Jwalamukhi care home [jwalamukhi-care-home], with some debris but no blockages.
+- Floodwater is running fast over the Shivapuri shelter [shivapuri-shelter] to Bidur school [bidur-school] road; a truck was swept off it this morning. The drive usually takes 11 minutes.
+- The Bidur school [bidur-school] to Belkot care home [belkot-care-home] road is muddy but passable, about 10 minutes by car.
+- Police have closed the Jwalamukhi care home [jwalamukhi-care-home] to Belkot care home [belkot-care-home] road after part of it collapsed into the river. It is normally 21 minutes by car.
+- A landslide has buried the road between Kakani farm [kakani-farm] and Thakre care home [thakre-care-home] (normally a 7-minute drive).
+- The Benighat farm [benighat-farm] to Dupcheshwar village [dupcheshwar-village] road is muddy but passable, about 12 minutes by car.
+- The drive from Syaphru village [syaphru-village] to Belkot care home [belkot-care-home] takes about 20 minutes.
+- The drive from Trishuli hospital [trishuli-hospital] to Syaphru village [syaphru-village] takes about 10 minutes.
+- The Bidur school [bidur-school] to Thakre care home [thakre-care-home] road is muddy but passable, about 19 minutes by car.
+- A landslide has buried the road between Jwalamukhi care home [jwalamukhi-care-home] and Dupcheshwar village [dupcheshwar-village] (normally a 22-minute drive).
+- Floodwater is running fast over the Kakani farm [kakani-farm] to Syaphru village [syaphru-village] road; a truck was swept off it this morning. The drive usually takes 5 minutes.
+- Drivers report the road between Trishuli hospital [trishuli-hospital] and Thakre care home [thakre-care-home] is clear; it takes roughly 13 minutes.
+- Drivers report the road between Benighat farm [benighat-farm] and Panchakanya temple [panchakanya-temple] is clear; it takes roughly 7 minutes.
+- The Belkot care home [belkot-care-home] to Thakre care home [thakre-care-home] road is muddy but passable, about 15 minutes by car.
+- The drive from Kispang farm [kispang-farm] to Likhu care home [likhu-care-home] takes about 10 minutes.
+- The drive from Syaphru village [syaphru-village] to Thakre care home [thakre-care-home] takes about 8 minutes.
+- The bridge on the Kalika village [kalika-village] to Likhu care home [likhu-care-home] road (16 minutes in normal conditions) was washed away last night.
+- A landslide has buried the road between Shivapuri shelter [shivapuri-shelter] and Belkot care home [belkot-care-home] (normally a 5-minute drive).
+- The drive from Dupcheshwar village [dupcheshwar-village] to Panchakanya temple [panchakanya-temple] takes about 5 minutes.
+- A landslide has buried the road between Syaphru village [syaphru-village] and Likhu care home [likhu-care-home] (normally a 52-minute drive).
+Any road not listed here does not exist or cannot be used.
+
+STRANDED CIVILIANS
+- At Syaphru village [syaphru-village], residents report two shopkeepers waiting for help.
+- At Thakre care home [thakre-care-home], residents report an elderly widow and a woman with a deep head wound waiting for help.
+- At Kakani farm [kakani-farm], residents report three working-age adults waiting for help.
+- At Jwalamukhi care home [jwalamukhi-care-home], residents report four frail senior citizens waiting for help.
+- At Bidur school [bidur-school], residents report a farmer with a badly cut arm waiting for help.
+- At Kispang farm [kispang-farm], residents report four shopkeepers waiting for help.
+- At Benighat farm [benighat-farm], residents report four young children waiting for help.
+- At Kalika village [kalika-village], residents report three men and women from the cooperative waiting for help.
+- At Belkot care home [belkot-care-home], residents report three elderly residents waiting for help.
+Families have said they are willing to travel separately if needed.

@@ -1,0 +1,203 @@
+{
+  "id": "medium-05",
+  "size": "medium",
+  "seed": 5,
+  "penalty_per_person": {
+    "injured": 80,
+    "child": 60,
+    "elderly": 50,
+    "adult": 20
+  },
+  "locations": [
+    {
+      "id": "thakre-shelter",
+      "name": "Thakre",
+      "kind": "shelter",
+      "evac": true,
+      "x": 47.1,
+      "y": 41.2
+    },
+    {
+      "id": "tarkeshwar-hospital",
+      "name": "Tarkeshwar",
+      "kind": "hospital",
+      "evac": true,
+      "x": 33.5,
+      "y": 3.8
+    },
+    {
+      "id": "myagang-care-home",
+      "name": "Myagang",
+      "kind": "care-home",
+      "evac": false,
+      "x": 54.4,
+      "y": 18.1
+    },
+    {
+      "id": "suryagadhi-care-home",
+      "name": "Suryagadhi",
+      "kind": "care-home",
+      "evac": false,
+      "x": 45.6,
+      "y": 15.7
+    },
+    {
+      "id": "gajuri-care-home",
+      "name": "Gajuri",
+      "kind": "care-home",
+      "evac": false,
+      "x": 53.8,
+      "y": 43.4
+    },
+    {
+      "id": "likhu-farm",
+      "name": "Likhu",
+      "kind": "farm",
+      "evac": false,
+      "x": 23.1,
+      "y": 25.4
+    },
+    {
+      "id": "panchakanya-care-home",
+      "name": "Panchakanya",
+      "kind": "care-home",
+      "evac": false,
+      "x": 0.5,
+      "y": 12.0
+    }
+  ],
+  "roads": [
+    {
+      "from": "thakre-shelter",
+      "to": "myagang-care-home",
+      "minutes": 24,
+      "damaged": false
+    },
+    {
+      "from": "thakre-shelter",
+      "to": "gajuri-care-home",
+      "minutes": 7,
+      "damaged": false
+    },
+    {
+      "from": "tarkeshwar-hospital",
+      "to": "suryagadhi-care-home",
+      "minutes": 17,
+      "damaged": true
+    },
+    {
+      "from": "tarkeshwar-hospital",
+      "to": "likhu-farm",
+      "minutes": 24,
+      "damaged": true
+    },
+    {
+      "from": "myagang-care-home",
+      "to": "suryagadhi-care-home",
+      "minutes": 9,
+      "damaged": true
+    },
+    {
+      "from": "myagang-care-home",
+      "to": "gajuri-care-home",
+      "minutes": 25,
+      "damaged": true
+    },
+    {
+      "from": "suryagadhi-care-home",
+      "to": "gajuri-care-home",
+      "minutes": 29,
+      "damaged": true
+    },
+    {
+      "from": "suryagadhi-care-home",
+      "to": "likhu-farm",
+      "minutes": 24,
+      "damaged": false
+    },
+    {
+      "from": "likhu-farm",
+      "to": "panchakanya-care-home",
+      "minutes": 26,
+      "damaged": false
+    }
+  ],
+  "people": [
+    {
+      "location": "myagang-care-home",
+      "band": "elderly",
+      "count": 1
+    },
+    {
+      "location": "panchakanya-care-home",
+      "band": "injured",
+      "count": 2
+    },
+    {
+      "location": "likhu-farm",
+      "band": "adult",
+      "count": 7
+    },
+    {
+      "location": "gajuri-care-home",
+      "band": "elderly",
+      "count": 1
+    },
+    {
+      "location": "panchakanya-care-home",
+      "band": "elderly",
+      "count": 1
+    }
+  ],
+  "cars": [
+    {
+      "id": "car1",
+      "start": "thakre-shelter",
+      "seats": 4
+    }
+  ],
+  "groups": [
+    {
+      "id": "myagang-care-home-elderly",
+      "location": "myagang-care-home",
+      "band": "elderly",
+      "size": 1,
+      "penalty": 50
+    },
+    {
+      "id": "panchakanya-care-home-injured",
+      "location": "panchakanya-care-home",
+      "band": "injured",
+      "size": 2,
+      "penalty": 160
+    },
+    {
+      "id": "likhu-farm-adult",
+      "location": "likhu-farm",
+      "band": "adult",
+      "size": 4,
+      "penalty": 80
+    },
+    {
+      "id": "likhu-farm-adult-2",
+      "location": "likhu-farm",
+      "band": "adult",
+      "size": 3,
+      "penalty": 60
+    },
+    {
+      "id": "gajuri-care-home-elderly",
+      "location": "gajuri-care-home",
+      "band": "elderly",
+      "size": 1,
+      "penalty": 50
+    },
+    {
+      "id": "panchakanya-care-home-elderly",
+      "location": "panchakanya-care-home",
+      "band": "elderly",
+      "size": 1,
+      "penalty": 50
+    }
+  ]
+}

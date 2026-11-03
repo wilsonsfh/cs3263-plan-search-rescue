@@ -1,0 +1,19 @@
+FIELD REPORT - Nuwakot district flood response (scenario small-11)
+
+VEHICLES: 1 car(s), 4 passenger seats each. Positions: [car1] at Myagang shelter [myagang-shelter].
+
+EVACUATION POINTS (people may only be dropped off here): Myagang shelter [myagang-shelter].
+
+ROADS
+- Myagang shelter [myagang-shelter] <-> Gosaikunda temple [gosaikunda-temple]: 51 min, open
+- Myagang shelter [myagang-shelter] <-> Suryagadhi market [suryagadhi-market]: 26 min, open
+- Myagang shelter [myagang-shelter] <-> Galchhi village [galchhi-village]: 14 min, open
+- Dhunche farm [dhunche-farm] <-> Gosaikunda temple [gosaikunda-temple]: 19 min, IMPASSABLE (damaged)
+- Dhunche farm [dhunche-farm] <-> Galchhi village [galchhi-village]: 45 min, open
+- Suryagadhi market [suryagadhi-market] <-> Galchhi village [galchhi-village]: 25 min, open
+Any road not listed here does not exist or cannot be used.
+
+PEOPLE AWAITING RESCUE
+- Gosaikunda temple [gosaikunda-temple]: 1 adult, 2 elderly people
+- Suryagadhi market [suryagadhi-market]: 3 injured people
+People at the same location may be split between cars or trips.

@@ -1,0 +1,367 @@
+{
+  "id": "large-01",
+  "size": "large",
+  "seed": 1,
+  "penalty_per_person": {
+    "injured": 80,
+    "child": 60,
+    "elderly": 50,
+    "adult": 20
+  },
+  "locations": [
+    {
+      "id": "myagang-shelter",
+      "name": "Myagang",
+      "kind": "shelter",
+      "evac": true,
+      "x": 15.1,
+      "y": 31.6
+    },
+    {
+      "id": "uttargaya-hospital",
+      "name": "Uttargaya",
+      "kind": "hospital",
+      "evac": true,
+      "x": 34.2,
+      "y": 13.0
+    },
+    {
+      "id": "shivapuri-farm",
+      "name": "Shivapuri",
+      "kind": "farm",
+      "evac": false,
+      "x": 42.8,
+      "y": 5.7
+    },
+    {
+      "id": "galchhi-school",
+      "name": "Galchhi",
+      "kind": "school",
+      "evac": false,
+      "x": 19.8,
+      "y": 26.2
+    },
+    {
+      "id": "kalika-village",
+      "name": "Kalika",
+      "kind": "village",
+      "evac": false,
+      "x": 38.5,
+      "y": 32.4
+    },
+    {
+      "id": "trishuli-farm",
+      "name": "Trishuli",
+      "kind": "farm",
+      "evac": false,
+      "x": 5.9,
+      "y": 13.4
+    },
+    {
+      "id": "gosaikunda-school",
+      "name": "Gosaikunda",
+      "kind": "school",
+      "evac": false,
+      "x": 23.6,
+      "y": 12.7
+    },
+    {
+      "id": "tarkeshwar-care-home",
+      "name": "Tarkeshwar",
+      "kind": "care-home",
+      "evac": false,
+      "x": 10.2,
+      "y": 5.3
+    },
+    {
+      "id": "suryagadhi-temple",
+      "name": "Suryagadhi",
+      "kind": "temple",
+      "evac": false,
+      "x": 19.8,
+      "y": 24.6
+    },
+    {
+      "id": "bidur-farm",
+      "name": "Bidur",
+      "kind": "farm",
+      "evac": false,
+      "x": 1.6,
+      "y": 4.4
+    },
+    {
+      "id": "likhu-temple",
+      "name": "Likhu",
+      "kind": "temple",
+      "evac": false,
+      "x": 50.2,
+      "y": 12.2
+    },
+    {
+      "id": "dhunche-school",
+      "name": "Dhunche",
+      "kind": "school",
+      "evac": false,
+      "x": 16.2,
+      "y": 36.8
+    },
+    {
+      "id": "jwalamukhi-market",
+      "name": "Jwalamukhi",
+      "kind": "market",
+      "evac": false,
+      "x": 54.7,
+      "y": 7.2
+    },
+    {
+      "id": "tadi-temple",
+      "name": "Tadi",
+      "kind": "temple",
+      "evac": false,
+      "x": 47.3,
+      "y": 19.3
+    }
+  ],
+  "roads": [
+    {
+      "from": "myagang-shelter",
+      "to": "suryagadhi-temple",
+      "minutes": 8,
+      "damaged": false
+    },
+    {
+      "from": "myagang-shelter",
+      "to": "dhunche-school",
+      "minutes": 5,
+      "damaged": false
+    },
+    {
+      "from": "uttargaya-hospital",
+      "to": "shivapuri-farm",
+      "minutes": 11,
+      "damaged": false
+    },
+    {
+      "from": "uttargaya-hospital",
+      "to": "gosaikunda-school",
+      "minutes": 11,
+      "damaged": false
+    },
+    {
+      "from": "uttargaya-hospital",
+      "to": "likhu-temple",
+      "minutes": 16,
+      "damaged": true
+    },
+    {
+      "from": "uttargaya-hospital",
+      "to": "tadi-temple",
+      "minutes": 15,
+      "damaged": false
+    },
+    {
+      "from": "shivapuri-farm",
+      "to": "suryagadhi-temple",
+      "minutes": 30,
+      "damaged": true
+    },
+    {
+      "from": "shivapuri-farm",
+      "to": "jwalamukhi-market",
+      "minutes": 12,
+      "damaged": false
+    },
+    {
+      "from": "galchhi-school",
+      "to": "suryagadhi-temple",
+      "minutes": 5,
+      "damaged": true
+    },
+    {
+      "from": "galchhi-school",
+      "to": "dhunche-school",
+      "minutes": 11,
+      "damaged": false
+    },
+    {
+      "from": "kalika-village",
+      "to": "suryagadhi-temple",
+      "minutes": 20,
+      "damaged": false
+    },
+    {
+      "from": "trishuli-farm",
+      "to": "tarkeshwar-care-home",
+      "minutes": 9,
+      "damaged": false
+    },
+    {
+      "from": "gosaikunda-school",
+      "to": "suryagadhi-temple",
+      "minutes": 13,
+      "damaged": false
+    },
+    {
+      "from": "tarkeshwar-care-home",
+      "to": "suryagadhi-temple",
+      "minutes": 22,
+      "damaged": true
+    },
+    {
+      "from": "tarkeshwar-care-home",
+      "to": "bidur-farm",
+      "minutes": 9,
+      "damaged": false
+    },
+    {
+      "from": "suryagadhi-temple",
+      "to": "dhunche-school",
+      "minutes": 13,
+      "damaged": false
+    },
+    {
+      "from": "likhu-temple",
+      "to": "jwalamukhi-market",
+      "minutes": 7,
+      "damaged": true
+    },
+    {
+      "from": "likhu-temple",
+      "to": "tadi-temple",
+      "minutes": 8,
+      "damaged": false
+    },
+    {
+      "from": "jwalamukhi-market",
+      "to": "tadi-temple",
+      "minutes": 14,
+      "damaged": false
+    }
+  ],
+  "people": [
+    {
+      "location": "dhunche-school",
+      "band": "adult",
+      "count": 3
+    },
+    {
+      "location": "shivapuri-farm",
+      "band": "adult",
+      "count": 3
+    },
+    {
+      "location": "bidur-farm",
+      "band": "adult",
+      "count": 2
+    },
+    {
+      "location": "suryagadhi-temple",
+      "band": "elderly",
+      "count": 2
+    },
+    {
+      "location": "trishuli-farm",
+      "band": "adult",
+      "count": 1
+    },
+    {
+      "location": "galchhi-school",
+      "band": "adult",
+      "count": 3
+    },
+    {
+      "location": "gosaikunda-school",
+      "band": "child",
+      "count": 7
+    },
+    {
+      "location": "kalika-village",
+      "band": "child",
+      "count": 4
+    }
+  ],
+  "cars": [
+    {
+      "id": "car1",
+      "start": "myagang-shelter",
+      "seats": 4
+    },
+    {
+      "id": "car2",
+      "start": "uttargaya-hospital",
+      "seats": 4
+    }
+  ],
+  "groups": [
+    {
+      "id": "dhunche-school-adult",
+      "location": "dhunche-school",
+      "band": "adult",
+      "size": 3,
+      "penalty": 60
+    },
+    {
+      "id": "shivapuri-farm-adult",
+      "location": "shivapuri-farm",
+      "band": "adult",
+      "size": 3,
+      "penalty": 60
+    },
+    {
+      "id": "bidur-farm-adult",
+      "location": "bidur-farm",
+      "band": "adult",
+      "size": 2,
+      "penalty": 40
+    },
+    {
+      "id": "suryagadhi-temple-elderly",
+      "location": "suryagadhi-temple",
+      "band": "elderly",
+      "size": 2,
+      "penalty": 100
+    },
+    {
+      "id": "trishuli-farm-adult",
+      "location": "trishuli-farm",
+      "band": "adult",
+      "size": 1,
+      "penalty": 20
+    },
+    {
+      "id": "galchhi-school-adult",
+      "location": "galchhi-school",
+      "band": "adult",
+      "size": 3,
+      "penalty": 60
+    },
+    {
+      "id": "gosaikunda-school-child",
+      "location": "gosaikunda-school",
+      "band": "child",
+      "size": 2,
+      "penalty": 120
+    },
+    {
+      "id": "gosaikunda-school-child-2",
+      "location": "gosaikunda-school",
+      "band": "child",
+      "size": 2,
+      "penalty": 120
+    },
+    {
+      "id": "gosaikunda-school-child-3",
+      "location": "gosaikunda-school",
+      "band": "child",
+      "size": 3,
+      "penalty": 180
+    },
+    {
+      "id": "kalika-village-child",
+      "location": "kalika-village",
+      "band": "child",
+      "size": 4,
+      "penalty": 240
+    }
+  ]
+}

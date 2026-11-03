@@ -1,0 +1,23 @@
+FIELD REPORT - Nuwakot district flood response (scenario small-12)
+
+Our team has one car available, able to carry four passengers. Currently: [car1] at Trishuli shelter [trishuli-shelter].
+
+SAFE LOCATIONS
+Trishuli shelter [trishuli-shelter] is above the flood line and is taking in evacuees.
+Dupcheshwar temple [dupcheshwar-temple] sits on higher ground, but it has no food, water or medical staff and the authorities have not designated it as a place to bring people.
+
+ROAD CONDITIONS
+- It is a 12-minute drive between Gosaikunda temple [gosaikunda-temple] and Naukunda farm [naukunda-farm], with some debris but no blockages.
+- The drive from Trishuli shelter [trishuli-shelter] to Gosaikunda temple [gosaikunda-temple] takes about 11 minutes.
+- Drivers report the road between Gosaikunda temple [gosaikunda-temple] and Belkot farm [belkot-farm] is clear; it takes roughly 46 minutes.
+- Drivers report the road between Dupcheshwar temple [dupcheshwar-temple] and Gosaikunda temple [gosaikunda-temple] is clear; it takes roughly 25 minutes.
+- The drive from Bidur village [bidur-village] to Belkot farm [belkot-farm] takes about 23 minutes.
+- The Bidur village [bidur-village] to Dupcheshwar temple [dupcheshwar-temple] road is muddy but passable, about 22 minutes by car.
+- Police have closed the Trishuli shelter [trishuli-shelter] to Naukunda farm [naukunda-farm] road after part of it collapsed into the river. It is normally 21 minutes by car.
+Any road not listed here does not exist or cannot be used.
+
+STRANDED CIVILIANS
+- At Bidur village [bidur-village], residents report two shopkeepers waiting for help.
+- At Dupcheshwar temple [dupcheshwar-temple], residents report four adult labourers waiting for help.
+- At Naukunda farm [naukunda-farm], residents report four adult labourers waiting for help.
+Families have said they are willing to travel separately if needed.

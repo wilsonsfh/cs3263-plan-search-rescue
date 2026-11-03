@@ -1,0 +1,351 @@
+{
+  "id": "large-15",
+  "size": "large",
+  "seed": 15,
+  "penalty_per_person": {
+    "injured": 80,
+    "child": 60,
+    "elderly": 50,
+    "adult": 20
+  },
+  "locations": [
+    {
+      "id": "suryagadhi-shelter",
+      "name": "Suryagadhi",
+      "kind": "shelter",
+      "evac": true,
+      "x": 59.4,
+      "y": 51.0
+    },
+    {
+      "id": "kalika-hospital",
+      "name": "Kalika",
+      "kind": "hospital",
+      "evac": true,
+      "x": 40.2,
+      "y": 59.4
+    },
+    {
+      "id": "gajuri-farm",
+      "name": "Gajuri",
+      "kind": "farm",
+      "evac": false,
+      "x": 33.4,
+      "y": 59.9
+    },
+    {
+      "id": "likhu-temple",
+      "name": "Likhu",
+      "kind": "temple",
+      "evac": false,
+      "x": 17.2,
+      "y": 59.6
+    },
+    {
+      "id": "galchhi-village",
+      "name": "Galchhi",
+      "kind": "village",
+      "evac": false,
+      "x": 50.9,
+      "y": 59.9
+    },
+    {
+      "id": "nilkantha-market",
+      "name": "Nilkantha",
+      "kind": "market",
+      "evac": false,
+      "x": 3.7,
+      "y": 35.0
+    },
+    {
+      "id": "kispang-market",
+      "name": "Kispang",
+      "kind": "market",
+      "evac": false,
+      "x": 29.7,
+      "y": 29.0
+    },
+    {
+      "id": "thakre-farm",
+      "name": "Thakre",
+      "kind": "farm",
+      "evac": false,
+      "x": 6.8,
+      "y": 33.1
+    },
+    {
+      "id": "tadi-temple",
+      "name": "Tadi",
+      "kind": "temple",
+      "evac": false,
+      "x": 18.0,
+      "y": 38.0
+    },
+    {
+      "id": "tarkeshwar-farm",
+      "name": "Tarkeshwar",
+      "kind": "farm",
+      "evac": false,
+      "x": 44.0,
+      "y": 29.1
+    },
+    {
+      "id": "myagang-village",
+      "name": "Myagang",
+      "kind": "village",
+      "evac": false,
+      "x": 58.1,
+      "y": 23.1
+    },
+    {
+      "id": "dhunche-school",
+      "name": "Dhunche",
+      "kind": "school",
+      "evac": false,
+      "x": 42.4,
+      "y": 14.4
+    }
+  ],
+  "roads": [
+    {
+      "from": "suryagadhi-shelter",
+      "to": "gajuri-farm",
+      "minutes": 27,
+      "damaged": false
+    },
+    {
+      "from": "suryagadhi-shelter",
+      "to": "galchhi-village",
+      "minutes": 12,
+      "damaged": false
+    },
+    {
+      "from": "kalika-hospital",
+      "to": "gajuri-farm",
+      "minutes": 7,
+      "damaged": false
+    },
+    {
+      "from": "kalika-hospital",
+      "to": "galchhi-village",
+      "minutes": 11,
+      "damaged": false
+    },
+    {
+      "from": "gajuri-farm",
+      "to": "likhu-temple",
+      "minutes": 16,
+      "damaged": false
+    },
+    {
+      "from": "gajuri-farm",
+      "to": "galchhi-village",
+      "minutes": 17,
+      "damaged": false
+    },
+    {
+      "from": "likhu-temple",
+      "to": "nilkantha-market",
+      "minutes": 28,
+      "damaged": false
+    },
+    {
+      "from": "likhu-temple",
+      "to": "myagang-village",
+      "minutes": 55,
+      "damaged": false
+    },
+    {
+      "from": "nilkantha-market",
+      "to": "thakre-farm",
+      "minutes": 5,
+      "damaged": false
+    },
+    {
+      "from": "nilkantha-market",
+      "to": "tadi-temple",
+      "minutes": 15,
+      "damaged": false
+    },
+    {
+      "from": "kispang-market",
+      "to": "tadi-temple",
+      "minutes": 15,
+      "damaged": false
+    },
+    {
+      "from": "kispang-market",
+      "to": "tarkeshwar-farm",
+      "minutes": 14,
+      "damaged": true
+    },
+    {
+      "from": "kispang-market",
+      "to": "dhunche-school",
+      "minutes": 19,
+      "damaged": false
+    },
+    {
+      "from": "thakre-farm",
+      "to": "tadi-temple",
+      "minutes": 12,
+      "damaged": true
+    },
+    {
+      "from": "tarkeshwar-farm",
+      "to": "myagang-village",
+      "minutes": 15,
+      "damaged": false
+    },
+    {
+      "from": "tarkeshwar-farm",
+      "to": "dhunche-school",
+      "minutes": 15,
+      "damaged": true
+    },
+    {
+      "from": "myagang-village",
+      "to": "dhunche-school",
+      "minutes": 18,
+      "damaged": true
+    }
+  ],
+  "people": [
+    {
+      "location": "nilkantha-market",
+      "band": "elderly",
+      "count": 4
+    },
+    {
+      "location": "tadi-temple",
+      "band": "elderly",
+      "count": 1
+    },
+    {
+      "location": "likhu-temple",
+      "band": "elderly",
+      "count": 4
+    },
+    {
+      "location": "gajuri-farm",
+      "band": "adult",
+      "count": 4
+    },
+    {
+      "location": "galchhi-village",
+      "band": "elderly",
+      "count": 2
+    },
+    {
+      "location": "tarkeshwar-farm",
+      "band": "adult",
+      "count": 4
+    },
+    {
+      "location": "tadi-temple",
+      "band": "adult",
+      "count": 3
+    },
+    {
+      "location": "nilkantha-market",
+      "band": "injured",
+      "count": 2
+    },
+    {
+      "location": "thakre-farm",
+      "band": "adult",
+      "count": 2
+    }
+  ],
+  "cars": [
+    {
+      "id": "car1",
+      "start": "suryagadhi-shelter",
+      "seats": 4
+    },
+    {
+      "id": "car2",
+      "start": "kalika-hospital",
+      "seats": 4
+    }
+  ],
+  "groups": [
+    {
+      "id": "nilkantha-market-elderly",
+      "location": "nilkantha-market",
+      "band": "elderly",
+      "size": 2,
+      "penalty": 100
+    },
+    {
+      "id": "tadi-temple-elderly",
+      "location": "tadi-temple",
+      "band": "elderly",
+      "size": 1,
+      "penalty": 50
+    },
+    {
+      "id": "likhu-temple-elderly",
+      "location": "likhu-temple",
+      "band": "elderly",
+      "size": 4,
+      "penalty": 200
+    },
+    {
+      "id": "gajuri-farm-adult",
+      "location": "gajuri-farm",
+      "band": "adult",
+      "size": 3,
+      "penalty": 60
+    },
+    {
+      "id": "galchhi-village-elderly",
+      "location": "galchhi-village",
+      "band": "elderly",
+      "size": 2,
+      "penalty": 100
+    },
+    {
+      "id": "tarkeshwar-farm-adult",
+      "location": "tarkeshwar-farm",
+      "band": "adult",
+      "size": 4,
+      "penalty": 80
+    },
+    {
+      "id": "tadi-temple-adult",
+      "location": "tadi-temple",
+      "band": "adult",
+      "size": 3,
+      "penalty": 60
+    },
+    {
+      "id": "nilkantha-market-injured",
+      "location": "nilkantha-market",
+      "band": "injured",
+      "size": 2,
+      "penalty": 160
+    },
+    {
+      "id": "nilkantha-market-elderly-2",
+      "location": "nilkantha-market",
+      "band": "elderly",
+      "size": 2,
+      "penalty": 100
+    },
+    {
+      "id": "gajuri-farm-adult-2",
+      "location": "gajuri-farm",
+      "band": "adult",
+      "size": 1,
+      "penalty": 20
+    },
+    {
+      "id": "thakre-farm-adult",
+      "location": "thakre-farm",
+      "band": "adult",
+      "size": 2,
+      "penalty": 40
+    }
+  ]
+}

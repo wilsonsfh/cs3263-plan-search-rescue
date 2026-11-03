@@ -1,0 +1,19 @@
+FIELD REPORT - Nuwakot district flood response (scenario small-05)
+
+VEHICLES: 1 car(s), 4 passenger seats each. Positions: [car1] at Shivapuri shelter [shivapuri-shelter].
+
+EVACUATION POINTS (people may only be dropped off here): Shivapuri shelter [shivapuri-shelter].
+
+ROADS
+- Shivapuri shelter [shivapuri-shelter] <-> Dhunche temple [dhunche-temple]: 13 min, open
+- Shivapuri shelter [shivapuri-shelter] <-> Likhu market [likhu-market]: 23 min, IMPASSABLE (damaged)
+- Shivapuri shelter [shivapuri-shelter] <-> Galchhi school [galchhi-school]: 33 min, open
+- Dhunche temple [dhunche-temple] <-> Likhu market [likhu-market]: 30 min, open
+- Dhunche temple [dhunche-temple] <-> Galchhi school [galchhi-school]: 20 min, IMPASSABLE (damaged)
+- Likhu market [likhu-market] <-> Myagang care home [myagang-care-home]: 12 min, IMPASSABLE (damaged)
+Any road not listed here does not exist or cannot be used.
+
+PEOPLE AWAITING RESCUE
+- Dhunche temple [dhunche-temple]: 6 injured people
+- Myagang care home [myagang-care-home]: 1 elderly person
+People at the same location may be split between cars or trips.

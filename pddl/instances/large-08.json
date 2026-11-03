@@ -1,0 +1,301 @@
+{
+  "id": "large-08",
+  "size": "large",
+  "seed": 8,
+  "penalty_per_person": {
+    "injured": 80,
+    "child": 60,
+    "elderly": 50,
+    "adult": 20
+  },
+  "locations": [
+    {
+      "id": "kakani-shelter",
+      "name": "Kakani",
+      "kind": "shelter",
+      "evac": true,
+      "x": 23.4,
+      "y": 16.9
+    },
+    {
+      "id": "kalika-hospital",
+      "name": "Kalika",
+      "kind": "hospital",
+      "evac": true,
+      "x": 23.3,
+      "y": 12.9
+    },
+    {
+      "id": "thakre-temple",
+      "name": "Thakre",
+      "kind": "temple",
+      "evac": false,
+      "x": 47.1,
+      "y": 32.8
+    },
+    {
+      "id": "likhu-farm",
+      "name": "Likhu",
+      "kind": "farm",
+      "evac": false,
+      "x": 10.6,
+      "y": 33.7
+    },
+    {
+      "id": "panchakanya-care-home",
+      "name": "Panchakanya",
+      "kind": "care-home",
+      "evac": false,
+      "x": 44.3,
+      "y": 43.1
+    },
+    {
+      "id": "suryagadhi-care-home",
+      "name": "Suryagadhi",
+      "kind": "care-home",
+      "evac": false,
+      "x": 12.9,
+      "y": 32.0
+    },
+    {
+      "id": "syaphru-village",
+      "name": "Syaphru",
+      "kind": "village",
+      "evac": false,
+      "x": 16.5,
+      "y": 49.0
+    },
+    {
+      "id": "belkot-school",
+      "name": "Belkot",
+      "kind": "school",
+      "evac": false,
+      "x": 38.0,
+      "y": 6.5
+    },
+    {
+      "id": "naukunda-school",
+      "name": "Naukunda",
+      "kind": "school",
+      "evac": false,
+      "x": 1.7,
+      "y": 0.4
+    },
+    {
+      "id": "benighat-temple",
+      "name": "Benighat",
+      "kind": "temple",
+      "evac": false,
+      "x": 51.6,
+      "y": 35.0
+    },
+    {
+      "id": "gajuri-temple",
+      "name": "Gajuri",
+      "kind": "temple",
+      "evac": false,
+      "x": 26.9,
+      "y": 22.0
+    }
+  ],
+  "roads": [
+    {
+      "from": "kakani-shelter",
+      "to": "kalika-hospital",
+      "minutes": 5,
+      "damaged": true
+    },
+    {
+      "from": "kakani-shelter",
+      "to": "likhu-farm",
+      "minutes": 21,
+      "damaged": true
+    },
+    {
+      "from": "kakani-shelter",
+      "to": "suryagadhi-care-home",
+      "minutes": 18,
+      "damaged": false
+    },
+    {
+      "from": "kakani-shelter",
+      "to": "belkot-school",
+      "minutes": 18,
+      "damaged": true
+    },
+    {
+      "from": "kalika-hospital",
+      "to": "suryagadhi-care-home",
+      "minutes": 22,
+      "damaged": false
+    },
+    {
+      "from": "kalika-hospital",
+      "to": "belkot-school",
+      "minutes": 16,
+      "damaged": false
+    },
+    {
+      "from": "kalika-hospital",
+      "to": "naukunda-school",
+      "minutes": 25,
+      "damaged": false
+    },
+    {
+      "from": "kalika-hospital",
+      "to": "benighat-temple",
+      "minutes": 36,
+      "damaged": false
+    },
+    {
+      "from": "kalika-hospital",
+      "to": "gajuri-temple",
+      "minutes": 10,
+      "damaged": false
+    },
+    {
+      "from": "thakre-temple",
+      "to": "panchakanya-care-home",
+      "minutes": 11,
+      "damaged": true
+    },
+    {
+      "from": "thakre-temple",
+      "to": "benighat-temple",
+      "minutes": 5,
+      "damaged": false
+    },
+    {
+      "from": "likhu-farm",
+      "to": "suryagadhi-care-home",
+      "minutes": 5,
+      "damaged": false
+    },
+    {
+      "from": "likhu-farm",
+      "to": "gajuri-temple",
+      "minutes": 20,
+      "damaged": false
+    },
+    {
+      "from": "panchakanya-care-home",
+      "to": "syaphru-village",
+      "minutes": 28,
+      "damaged": false
+    },
+    {
+      "from": "suryagadhi-care-home",
+      "to": "syaphru-village",
+      "minutes": 17,
+      "damaged": false
+    },
+    {
+      "from": "suryagadhi-care-home",
+      "to": "gajuri-temple",
+      "minutes": 17,
+      "damaged": false
+    }
+  ],
+  "people": [
+    {
+      "location": "suryagadhi-care-home",
+      "band": "elderly",
+      "count": 2
+    },
+    {
+      "location": "belkot-school",
+      "band": "child",
+      "count": 5
+    },
+    {
+      "location": "syaphru-village",
+      "band": "child",
+      "count": 4
+    },
+    {
+      "location": "syaphru-village",
+      "band": "adult",
+      "count": 3
+    },
+    {
+      "location": "panchakanya-care-home",
+      "band": "elderly",
+      "count": 2
+    },
+    {
+      "location": "thakre-temple",
+      "band": "elderly",
+      "count": 1
+    }
+  ],
+  "cars": [
+    {
+      "id": "car1",
+      "start": "kakani-shelter",
+      "seats": 4
+    },
+    {
+      "id": "car2",
+      "start": "kalika-hospital",
+      "seats": 4
+    }
+  ],
+  "groups": [
+    {
+      "id": "suryagadhi-care-home-elderly",
+      "location": "suryagadhi-care-home",
+      "band": "elderly",
+      "size": 2,
+      "penalty": 100
+    },
+    {
+      "id": "belkot-school-child",
+      "location": "belkot-school",
+      "band": "child",
+      "size": 3,
+      "penalty": 180
+    },
+    {
+      "id": "syaphru-village-child",
+      "location": "syaphru-village",
+      "band": "child",
+      "size": 4,
+      "penalty": 240
+    },
+    {
+      "id": "syaphru-village-adult",
+      "location": "syaphru-village",
+      "band": "adult",
+      "size": 1,
+      "penalty": 20
+    },
+    {
+      "id": "belkot-school-child-2",
+      "location": "belkot-school",
+      "band": "child",
+      "size": 2,
+      "penalty": 120
+    },
+    {
+      "id": "panchakanya-care-home-elderly",
+      "location": "panchakanya-care-home",
+      "band": "elderly",
+      "size": 2,
+      "penalty": 100
+    },
+    {
+      "id": "thakre-temple-elderly",
+      "location": "thakre-temple",
+      "band": "elderly",
+      "size": 1,
+      "penalty": 50
+    },
+    {
+      "id": "syaphru-village-adult-2",
+      "location": "syaphru-village",
+      "band": "adult",
+      "size": 2,
+      "penalty": 40
+    }
+  ]
+}

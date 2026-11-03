@@ -1,0 +1,26 @@
+FIELD REPORT - Nuwakot district flood response (scenario medium-05)
+
+Our team has one car available, able to carry four passengers. Currently: [car1] at Thakre shelter [thakre-shelter].
+
+SAFE LOCATIONS
+Volunteers at Thakre shelter [thakre-shelter] say they have room for more families.
+Tarkeshwar hospital [tarkeshwar-hospital] is accepting people brought in from the flooded areas.
+
+ROAD CONDITIONS
+- The bridge on the Tarkeshwar hospital [tarkeshwar-hospital] to Likhu farm [likhu-farm] road (24 minutes in normal conditions) was washed away last night.
+- Floodwater is running fast over the Myagang care home [myagang-care-home] to Suryagadhi care home [suryagadhi-care-home] road; a truck was swept off it this morning. The drive usually takes 9 minutes.
+- Floodwater is running fast over the Tarkeshwar hospital [tarkeshwar-hospital] to Suryagadhi care home [suryagadhi-care-home] road; a truck was swept off it this morning. The drive usually takes 17 minutes.
+- The Thakre shelter [thakre-shelter] to Gajuri care home [gajuri-care-home] road is muddy but passable, about 7 minutes by car.
+- The Suryagadhi care home [suryagadhi-care-home] to Likhu farm [likhu-farm] road is muddy but passable, about 24 minutes by car.
+- The drive from Likhu farm [likhu-farm] to Panchakanya care home [panchakanya-care-home] takes about 26 minutes.
+- Floodwater is running fast over the Myagang care home [myagang-care-home] to Gajuri care home [gajuri-care-home] road; a truck was swept off it this morning. The drive usually takes 25 minutes.
+- Police have closed the Suryagadhi care home [suryagadhi-care-home] to Gajuri care home [gajuri-care-home] road after part of it collapsed into the river. It is normally 29 minutes by car.
+- The drive from Thakre shelter [thakre-shelter] to Myagang care home [myagang-care-home] takes about 24 minutes.
+Any road not listed here does not exist or cannot be used.
+
+STRANDED CIVILIANS
+- At Myagang care home [myagang-care-home], residents report a grandmother in her eighties waiting for help.
+- At Panchakanya care home [panchakanya-care-home], residents report two people hurt by falling debris and an elderly widow waiting for help.
+- At Likhu farm [likhu-farm], residents report seven working-age adults waiting for help.
+- At Gajuri care home [gajuri-care-home], residents report an elderly widow waiting for help.
+Families have said they are willing to travel separately if needed.

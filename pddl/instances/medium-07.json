@@ -1,0 +1,215 @@
+{
+  "id": "medium-07",
+  "size": "medium",
+  "seed": 7,
+  "penalty_per_person": {
+    "injured": 80,
+    "child": 60,
+    "elderly": 50,
+    "adult": 20
+  },
+  "locations": [
+    {
+      "id": "kakani-shelter",
+      "name": "Kakani",
+      "kind": "shelter",
+      "evac": true,
+      "x": 54.4,
+      "y": 12.6
+    },
+    {
+      "id": "myagang-hospital",
+      "name": "Myagang",
+      "kind": "hospital",
+      "evac": true,
+      "x": 40.9,
+      "y": 0.0
+    },
+    {
+      "id": "benighat-school",
+      "name": "Benighat",
+      "kind": "school",
+      "evac": false,
+      "x": 54.0,
+      "y": 58.2
+    },
+    {
+      "id": "gajuri-market",
+      "name": "Gajuri",
+      "kind": "market",
+      "evac": false,
+      "x": 32.4,
+      "y": 7.4
+    },
+    {
+      "id": "panchakanya-school",
+      "name": "Panchakanya",
+      "kind": "school",
+      "evac": false,
+      "x": 9.2,
+      "y": 10.6
+    },
+    {
+      "id": "jwalamukhi-school",
+      "name": "Jwalamukhi",
+      "kind": "school",
+      "evac": false,
+      "x": 57.8,
+      "y": 52.8
+    },
+    {
+      "id": "dupcheshwar-farm",
+      "name": "Dupcheshwar",
+      "kind": "farm",
+      "evac": false,
+      "x": 33.5,
+      "y": 23.3
+    }
+  ],
+  "roads": [
+    {
+      "from": "kakani-shelter",
+      "to": "myagang-hospital",
+      "minutes": 18,
+      "damaged": false
+    },
+    {
+      "from": "kakani-shelter",
+      "to": "gajuri-market",
+      "minutes": 23,
+      "damaged": true
+    },
+    {
+      "from": "kakani-shelter",
+      "to": "jwalamukhi-school",
+      "minutes": 40,
+      "damaged": false
+    },
+    {
+      "from": "kakani-shelter",
+      "to": "dupcheshwar-farm",
+      "minutes": 23,
+      "damaged": false
+    },
+    {
+      "from": "myagang-hospital",
+      "to": "gajuri-market",
+      "minutes": 11,
+      "damaged": true
+    },
+    {
+      "from": "myagang-hospital",
+      "to": "panchakanya-school",
+      "minutes": 33,
+      "damaged": false
+    },
+    {
+      "from": "benighat-school",
+      "to": "jwalamukhi-school",
+      "minutes": 7,
+      "damaged": false
+    },
+    {
+      "from": "gajuri-market",
+      "to": "panchakanya-school",
+      "minutes": 23,
+      "damaged": false
+    },
+    {
+      "from": "panchakanya-school",
+      "to": "dupcheshwar-farm",
+      "minutes": 27,
+      "damaged": false
+    }
+  ],
+  "people": [
+    {
+      "location": "panchakanya-school",
+      "band": "child",
+      "count": 3
+    },
+    {
+      "location": "benighat-school",
+      "band": "child",
+      "count": 4
+    },
+    {
+      "location": "gajuri-market",
+      "band": "adult",
+      "count": 3
+    },
+    {
+      "location": "benighat-school",
+      "band": "injured",
+      "count": 4
+    },
+    {
+      "location": "dupcheshwar-farm",
+      "band": "child",
+      "count": 1
+    },
+    {
+      "location": "jwalamukhi-school",
+      "band": "adult",
+      "count": 4
+    }
+  ],
+  "cars": [
+    {
+      "id": "car1",
+      "start": "kakani-shelter",
+      "seats": 4
+    }
+  ],
+  "groups": [
+    {
+      "id": "panchakanya-school-child",
+      "location": "panchakanya-school",
+      "band": "child",
+      "size": 3,
+      "penalty": 180
+    },
+    {
+      "id": "benighat-school-child",
+      "location": "benighat-school",
+      "band": "child",
+      "size": 2,
+      "penalty": 120
+    },
+    {
+      "id": "gajuri-market-adult",
+      "location": "gajuri-market",
+      "band": "adult",
+      "size": 3,
+      "penalty": 60
+    },
+    {
+      "id": "benighat-school-child-2",
+      "location": "benighat-school",
+      "band": "child",
+      "size": 2,
+      "penalty": 120
+    },
+    {
+      "id": "benighat-school-injured",
+      "location": "benighat-school",
+      "band": "injured",
+      "size": 4,
+      "penalty": 320
+    },
+    {
+      "id": "dupcheshwar-farm-child",
+      "location": "dupcheshwar-farm",
+      "band": "child",
+      "size": 1,
+      "penalty": 60
+    },
+    {
+      "id": "jwalamukhi-school-adult",
+      "location": "jwalamukhi-school",
+      "band": "adult",
+      "size": 4,
+      "penalty": 80
+    }
+  ]
+}

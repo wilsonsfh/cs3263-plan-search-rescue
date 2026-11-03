@@ -1,0 +1,26 @@
+FIELD REPORT - Nuwakot district flood response (scenario medium-13)
+
+Our team has one car available, able to carry four passengers. Currently: [car1] at Tarkeshwar shelter [tarkeshwar-shelter].
+
+SAFE LOCATIONS
+Volunteers at Tarkeshwar shelter [tarkeshwar-shelter] say they have room for more families.
+Panchakanya temple [panchakanya-temple] sits on higher ground, but it has no food, water or medical staff and the authorities have not designated it as a place to bring people.
+
+ROAD CONDITIONS
+- It is a 11-minute drive between Tarkeshwar shelter [tarkeshwar-shelter] and Dhunche village [dhunche-village], with some debris but no blockages.
+- It is a 21-minute drive between Kalika farm [kalika-farm] and Gajuri farm [gajuri-farm], with some debris but no blockages.
+- The Panchakanya temple [panchakanya-temple] to Gajuri farm [gajuri-farm] road is muddy but passable, about 16 minutes by car.
+- A landslide has buried the road between Kalika farm [kalika-farm] and Panchakanya temple [panchakanya-temple] (normally a 7-minute drive).
+- Drivers report the road between Trishuli care home [trishuli-care-home] and Gajuri farm [gajuri-farm] is clear; it takes roughly 5 minutes.
+- Drivers report the road between Dhunche village [dhunche-village] and Gajuri farm [gajuri-farm] is clear; it takes roughly 21 minutes.
+- Floodwater is running fast over the Trishuli care home [trishuli-care-home] to Nilkantha temple [nilkantha-temple] road; a truck was swept off it this morning. The drive usually takes 7 minutes.
+- A landslide has buried the road between Kalika farm [kalika-farm] and Dhunche village [dhunche-village] (normally a 40-minute drive).
+- The Kalika farm [kalika-farm] to Gosaikunda care home [gosaikunda-care-home] road is muddy but passable, about 27 minutes by car.
+- The Kalika farm [kalika-farm] to Nilkantha temple [nilkantha-temple] road is muddy but passable, about 20 minutes by car.
+Any road not listed here does not exist or cannot be used.
+
+STRANDED CIVILIANS
+- At Dhunche village [dhunche-village], residents report a farmer with a badly cut arm and two pupils waiting for help.
+- At Gajuri farm [gajuri-farm], residents report five working-age adults waiting for help.
+- At Gosaikunda care home [gosaikunda-care-home], residents report three men and women from the cooperative waiting for help.
+Families have said they are willing to travel separately if needed.

@@ -1,0 +1,22 @@
+FIELD REPORT - Nuwakot district flood response (scenario small-09)
+
+Our team has one car available, able to carry four passengers. Currently: [car1] at Kispang shelter [kispang-shelter].
+
+SAFE LOCATIONS
+Kispang shelter [kispang-shelter] is above the flood line and is taking in evacuees.
+Galchhi school [galchhi-school] sits on higher ground, but it has no food, water or medical staff and the authorities have not designated it as a place to bring people.
+
+ROAD CONDITIONS
+- The Nilkantha village [nilkantha-village] to Thakre temple [thakre-temple] road is muddy but passable, about 26 minutes by car.
+- The drive from Thakre temple [thakre-temple] to Kalika market [kalika-market] takes about 14 minutes.
+- Floodwater is running fast over the Kispang shelter [kispang-shelter] to Nilkantha village [nilkantha-village] road; a truck was swept off it this morning. The drive usually takes 9 minutes.
+- Drivers report the road between Galchhi school [galchhi-school] and Kalika market [kalika-market] is clear; it takes roughly 21 minutes.
+- The Galchhi school [galchhi-school] to Nilkantha village [nilkantha-village] road is muddy but passable, about 9 minutes by car.
+- It is a 37-minute drive between Thakre temple [thakre-temple] and Tadi village [tadi-village], with some debris but no blockages.
+- Drivers report the road between Galchhi school [galchhi-school] and Thakre temple [thakre-temple] is clear; it takes roughly 27 minutes.
+Any road not listed here does not exist or cannot be used.
+
+STRANDED CIVILIANS
+- At Kalika market [kalika-market], residents report three kids from the nursery class waiting for help.
+- At Galchhi school [galchhi-school], residents report four kids from the nursery class waiting for help.
+Families have said they are willing to travel separately if needed.

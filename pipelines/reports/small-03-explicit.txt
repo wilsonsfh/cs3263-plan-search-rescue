@@ -1,0 +1,21 @@
+FIELD REPORT - Nuwakot district flood response (scenario small-03)
+
+VEHICLES: 1 car(s), 4 passenger seats each. Positions: [car1] at Myagang shelter [myagang-shelter].
+
+EVACUATION POINTS (people may only be dropped off here): Myagang shelter [myagang-shelter].
+
+ROADS
+- Myagang shelter [myagang-shelter] <-> Bidur village [bidur-village]: 27 min, open
+- Myagang shelter [myagang-shelter] <-> Jwalamukhi village [jwalamukhi-village]: 27 min, IMPASSABLE (damaged)
+- Myagang shelter [myagang-shelter] <-> Nilkantha market [nilkantha-market]: 18 min, open
+- Myagang shelter [myagang-shelter] <-> Syaphru school [syaphru-school]: 18 min, open
+- Bidur village [bidur-village] <-> Nilkantha market [nilkantha-market]: 19 min, open
+- Jwalamukhi village [jwalamukhi-village] <-> Syaphru school [syaphru-school]: 10 min, open
+- Benighat temple [benighat-temple] <-> Syaphru school [syaphru-school]: 36 min, open
+Any road not listed here does not exist or cannot be used.
+
+PEOPLE AWAITING RESCUE
+- Nilkantha market [nilkantha-market]: 2 adults, 4 injured people
+- Syaphru school [syaphru-school]: 1 adult
+- Bidur village [bidur-village]: 4 adults
+People at the same location may be split between cars or trips.

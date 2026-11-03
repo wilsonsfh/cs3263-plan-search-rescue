@@ -1,0 +1,28 @@
+FIELD REPORT - Nuwakot district flood response (scenario medium-03)
+
+Our team has two cars available, each able to carry four passengers. Currently: [car1] at Uttargaya shelter [uttargaya-shelter]; [car2] at Thakre hospital [thakre-hospital].
+
+SAFE LOCATIONS
+Uttargaya shelter [uttargaya-shelter] is above the flood line and is taking in evacuees.
+Thakre hospital [thakre-hospital] is on high ground and its staff are receiving evacuees.
+Kalika temple [kalika-temple] sits on higher ground, but it has no food, water or medical staff and the authorities have not designated it as a place to bring people.
+
+ROAD CONDITIONS
+- Drivers report the road between Uttargaya shelter [uttargaya-shelter] and Belkot village [belkot-village] is clear; it takes roughly 16 minutes.
+- Drivers report the road between Kalika temple [kalika-temple] and Naukunda village [naukunda-village] is clear; it takes roughly 15 minutes.
+- The bridge on the Uttargaya shelter [uttargaya-shelter] to Kakani temple [kakani-temple] road (20 minutes in normal conditions) was washed away last night.
+- It is a 8-minute drive between Uttargaya shelter [uttargaya-shelter] and Bidur care home [bidur-care-home], with some debris but no blockages.
+- It is a 14-minute drive between Belkot village [belkot-village] and Naukunda village [naukunda-village], with some debris but no blockages.
+- Drivers report the road between Kakani temple [kakani-temple] and Suryagadhi school [suryagadhi-school] is clear; it takes roughly 6 minutes.
+- The drive from Uttargaya shelter [uttargaya-shelter] to Kalika temple [kalika-temple] takes about 11 minutes.
+- It is a 22-minute drive between Thakre hospital [thakre-hospital] and Bidur care home [bidur-care-home], with some debris but no blockages.
+- Drivers report the road between Bidur care home [bidur-care-home] and Kalika temple [kalika-temple] is clear; it takes roughly 14 minutes.
+- It is a 6-minute drive between Kalika temple [kalika-temple] and Belkot village [belkot-village], with some debris but no blockages.
+Any road not listed here does not exist or cannot be used.
+
+STRANDED CIVILIANS
+- At Kalika temple [kalika-temple], residents report four frail senior citizens waiting for help.
+- At Kakani temple [kakani-temple], residents report an old man who cannot walk unaided and four adult labourers waiting for help.
+- At Suryagadhi school [suryagadhi-school], residents report six pupils waiting for help.
+- At Bidur care home [bidur-care-home], residents report three elderly residents waiting for help.
+Families have said they are willing to travel separately if needed.

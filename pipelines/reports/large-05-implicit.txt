@@ -1,0 +1,35 @@
+FIELD REPORT - Nuwakot district flood response (scenario large-05)
+
+Our team has two cars available, each able to carry four passengers. Currently: [car1] at Thakre shelter [thakre-shelter]; [car2] at Nilkantha hospital [nilkantha-hospital].
+
+SAFE LOCATIONS
+Thakre shelter [thakre-shelter] is above the flood line and is taking in evacuees.
+Nilkantha hospital [nilkantha-hospital] is accepting people brought in from the flooded areas.
+Naukunda temple [naukunda-temple] sits on higher ground, but it has no food, water or medical staff and the authorities have not designated it as a place to bring people.
+
+ROAD CONDITIONS
+- Police have closed the Trishuli care home [trishuli-care-home] to Likhu temple [likhu-temple] road after part of it collapsed into the river. It is normally 13 minutes by car.
+- The Naukunda temple [naukunda-temple] to Likhu temple [likhu-temple] road is muddy but passable, about 17 minutes by car.
+- It is a 20-minute drive between Likhu temple [likhu-temple] and Gajuri care home [gajuri-care-home], with some debris but no blockages.
+- It is a 29-minute drive between Likhu temple [likhu-temple] and Kispang farm [kispang-farm], with some debris but no blockages.
+- It is a 21-minute drive between Belkot village [belkot-village] and Tadi village [tadi-village], with some debris but no blockages.
+- Floodwater is running fast over the Thakre shelter [thakre-shelter] to Trishuli care home [trishuli-care-home] road; a truck was swept off it this morning. The drive usually takes 23 minutes.
+- The drive from Likhu temple [likhu-temple] to Suryagadhi market [suryagadhi-market] takes about 33 minutes.
+- The bridge on the Uttargaya market [uttargaya-market] to Likhu temple [likhu-temple] road (21 minutes in normal conditions) was washed away last night.
+- Drivers report the road between Belkot village [belkot-village] and Kispang farm [kispang-farm] is clear; it takes roughly 21 minutes.
+- The Trishuli care home [trishuli-care-home] to Tadi village [tadi-village] road is muddy but passable, about 5 minutes by car.
+- The Syaphru care home [syaphru-care-home] to Gajuri care home [gajuri-care-home] road is muddy but passable, about 12 minutes by car.
+- The bridge on the Thakre shelter [thakre-shelter] to Panchakanya farm [panchakanya-farm] road (5 minutes in normal conditions) was washed away last night.
+- The bridge on the Likhu temple [likhu-temple] to Kalika village [kalika-village] road (10 minutes in normal conditions) was washed away last night.
+- The Nilkantha hospital [nilkantha-hospital] to Tadi village [tadi-village] road is muddy but passable, about 10 minutes by car.
+- The bridge on the Suryagadhi market [suryagadhi-market] to Gajuri care home [gajuri-care-home] road (21 minutes in normal conditions) was washed away last night.
+- The drive from Uttargaya market [uttargaya-market] to Trishuli care home [trishuli-care-home] takes about 13 minutes.
+Any road not listed here does not exist or cannot be used.
+
+STRANDED CIVILIANS
+- At Suryagadhi market [suryagadhi-market], residents report four elderly residents, six adult labourers and two kids from the nursery class waiting for help.
+- At Trishuli care home [trishuli-care-home], residents report three people in their late seventies and eighties waiting for help.
+- At Panchakanya farm [panchakanya-farm], residents report a shopkeeper waiting for help.
+- At Uttargaya market [uttargaya-market], residents report four working-age adults waiting for help.
+- At Belkot village [belkot-village], residents report a shopkeeper waiting for help.
+Families have said they are willing to travel separately if needed.

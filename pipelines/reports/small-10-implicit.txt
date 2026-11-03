@@ -1,0 +1,22 @@
+FIELD REPORT - Nuwakot district flood response (scenario small-10)
+
+Our team has one car available, able to carry four passengers. Currently: [car1] at Tarkeshwar shelter [tarkeshwar-shelter].
+
+SAFE LOCATIONS
+Volunteers at Tarkeshwar shelter [tarkeshwar-shelter] say they have room for more families.
+Dhunche school [dhunche-school] sits on higher ground, but it has no food, water or medical staff and the authorities have not designated it as a place to bring people.
+
+ROAD CONDITIONS
+- It is a 22-minute drive between Benighat care home [benighat-care-home] and Kalika farm [kalika-farm], with some debris but no blockages.
+- It is a 19-minute drive between Tarkeshwar shelter [tarkeshwar-shelter] and Kalika farm [kalika-farm], with some debris but no blockages.
+- The Tarkeshwar shelter [tarkeshwar-shelter] to Thakre care home [thakre-care-home] road is muddy but passable, about 36 minutes by car.
+- The drive from Thakre care home [thakre-care-home] to Dhunche school [dhunche-school] takes about 30 minutes.
+- Drivers report the road between Benighat care home [benighat-care-home] and Dhunche school [dhunche-school] is clear; it takes roughly 52 minutes.
+- It is a 6-minute drive between Tarkeshwar shelter [tarkeshwar-shelter] and Benighat care home [benighat-care-home], with some debris but no blockages.
+Any road not listed here does not exist or cannot be used.
+
+STRANDED CIVILIANS
+- At Thakre care home [thakre-care-home], residents report an elderly couple waiting for help.
+- At Benighat care home [benighat-care-home], residents report two pensioners waiting for help.
+- At Dhunche school [dhunche-school], residents report two pupils waiting for help.
+Families have said they are willing to travel separately if needed.

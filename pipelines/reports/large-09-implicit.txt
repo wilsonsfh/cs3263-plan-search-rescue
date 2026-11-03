@@ -1,0 +1,37 @@
+FIELD REPORT - Nuwakot district flood response (scenario large-09)
+
+Our team has two cars available, each able to carry four passengers. Currently: [car1] at Panchakanya shelter [panchakanya-shelter]; [car2] at Myagang hospital [myagang-hospital].
+
+SAFE LOCATIONS
+Volunteers at Panchakanya shelter [panchakanya-shelter] say they have room for more families.
+Myagang hospital [myagang-hospital] is on high ground and its staff are receiving evacuees.
+Suryagadhi school [suryagadhi-school] sits on higher ground, but it has no food, water or medical staff and the authorities have not designated it as a place to bring people.
+
+ROAD CONDITIONS
+- Drivers report the road between Jwalamukhi market [jwalamukhi-market] and Kalika school [kalika-school] is clear; it takes roughly 19 minutes.
+- It is a 8-minute drive between Gajuri village [gajuri-village] and Kalika school [kalika-school], with some debris but no blockages.
+- Floodwater is running fast over the Jwalamukhi market [jwalamukhi-market] to Shivapuri care home [shivapuri-care-home] road; a truck was swept off it this morning. The drive usually takes 14 minutes.
+- The bridge on the Panchakanya shelter [panchakanya-shelter] to Tarkeshwar care home [tarkeshwar-care-home] road (7 minutes in normal conditions) was washed away last night.
+- Drivers report the road between Myagang hospital [myagang-hospital] and Kakani market [kakani-market] is clear; it takes roughly 9 minutes.
+- The drive from Benighat temple [benighat-temple] to Uttargaya care home [uttargaya-care-home] takes about 20 minutes.
+- Floodwater is running fast over the Panchakanya shelter [panchakanya-shelter] to Suryagadhi school [suryagadhi-school] road; a truck was swept off it this morning. The drive usually takes 36 minutes.
+- It is a 31-minute drive between Gajuri village [gajuri-village] and Suryagadhi school [suryagadhi-school], with some debris but no blockages.
+- The Suryagadhi school [suryagadhi-school] to Uttargaya care home [uttargaya-care-home] road is muddy but passable, about 19 minutes by car.
+- Drivers report the road between Naukunda temple [naukunda-temple] and Suryagadhi school [suryagadhi-school] is clear; it takes roughly 6 minutes.
+- The bridge on the Benighat temple [benighat-temple] to Kalika school [kalika-school] road (13 minutes in normal conditions) was washed away last night.
+- Drivers report the road between Myagang hospital [myagang-hospital] and Shivapuri care home [shivapuri-care-home] is clear; it takes roughly 28 minutes.
+- Police have closed the Kalika school [kalika-school] to Uttargaya care home [uttargaya-care-home] road after part of it collapsed into the river. It is normally 25 minutes by car.
+- It is a 15-minute drive between Jwalamukhi market [jwalamukhi-market] and Gajuri village [gajuri-village], with some debris but no blockages.
+- The Benighat temple [benighat-temple] to Shivapuri care home [shivapuri-care-home] road is muddy but passable, about 20 minutes by car.
+- The bridge on the Jwalamukhi market [jwalamukhi-market] to Kakani market [kakani-market] road (23 minutes in normal conditions) was washed away last night.
+- It is a 11-minute drive between Gajuri village [gajuri-village] and Shivapuri care home [shivapuri-care-home], with some debris but no blockages.
+Any road not listed here does not exist or cannot be used.
+
+STRANDED CIVILIANS
+- At Kakani market [kakani-market], residents report six men and women from the cooperative and three residents with fractures and cuts waiting for help.
+- At Jwalamukhi market [jwalamukhi-market], residents report four men and women from the cooperative and three kids from the nursery class waiting for help.
+- At Kalika school [kalika-school], residents report five young children waiting for help.
+- At Tarkeshwar care home [tarkeshwar-care-home], residents report three people injured when their house collapsed and three frail senior citizens waiting for help.
+- At Shivapuri care home [shivapuri-care-home], residents report a farmer waiting for help.
+- At Naukunda temple [naukunda-temple], residents report three shopkeepers waiting for help.
+Families have said they are willing to travel separately if needed.

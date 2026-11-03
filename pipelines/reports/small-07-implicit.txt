@@ -1,0 +1,21 @@
+FIELD REPORT - Nuwakot district flood response (scenario small-07)
+
+Our team has one car available, able to carry four passengers. Currently: [car1] at Naukunda shelter [naukunda-shelter].
+
+SAFE LOCATIONS
+Naukunda shelter [naukunda-shelter] is above the flood line and is taking in evacuees.
+Gosaikunda school [gosaikunda-school] sits on higher ground, but it has no food, water or medical staff and the authorities have not designated it as a place to bring people.
+
+ROAD CONDITIONS
+- The Naukunda shelter [naukunda-shelter] to Gosaikunda school [gosaikunda-school] road is muddy but passable, about 28 minutes by car.
+- It is a 47-minute drive between Gosaikunda school [gosaikunda-school] and Shivapuri care home [shivapuri-care-home], with some debris but no blockages.
+- The Naukunda shelter [naukunda-shelter] to Myagang care home [myagang-care-home] road is muddy but passable, about 5 minutes by car.
+- It is a 27-minute drive between Myagang care home [myagang-care-home] and Kalika care home [kalika-care-home], with some debris but no blockages.
+- The drive from Naukunda shelter [naukunda-shelter] to Kalika care home [kalika-care-home] takes about 26 minutes.
+- Drivers report the road between Gosaikunda school [gosaikunda-school] and Kalika care home [kalika-care-home] is clear; it takes roughly 5 minutes.
+Any road not listed here does not exist or cannot be used.
+
+STRANDED CIVILIANS
+- At Gosaikunda school [gosaikunda-school], residents report four pupils and four residents with fractures and cuts waiting for help.
+- At Myagang care home [myagang-care-home], residents report three people in their late seventies and eighties waiting for help.
+Families have said they are willing to travel separately if needed.

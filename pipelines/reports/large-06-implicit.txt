@@ -1,0 +1,38 @@
+FIELD REPORT - Nuwakot district flood response (scenario large-06)
+
+Our team has two cars available, each able to carry four passengers. Currently: [car1] at Kispang shelter [kispang-shelter]; [car2] at Benighat hospital [benighat-hospital].
+
+SAFE LOCATIONS
+Kispang shelter [kispang-shelter] is above the flood line and is taking in evacuees.
+Benighat hospital [benighat-hospital] is accepting people brought in from the flooded areas.
+Dhunche temple [dhunche-temple] sits on higher ground, but it has no food, water or medical staff and the authorities have not designated it as a place to bring people.
+
+ROAD CONDITIONS
+- Drivers report the road between Myagang farm [myagang-farm] and Dhunche temple [dhunche-temple] is clear; it takes roughly 24 minutes.
+- It is a 21-minute drive between Jwalamukhi market [jwalamukhi-market] and Syaphru care home [syaphru-care-home], with some debris but no blockages.
+- The drive from Jwalamukhi market [jwalamukhi-market] to Dhunche temple [dhunche-temple] takes about 18 minutes.
+- The drive from Benighat hospital [benighat-hospital] to Dhunche temple [dhunche-temple] takes about 16 minutes.
+- The bridge on the Galchhi temple [galchhi-temple] to Trishuli care home [trishuli-care-home] road (20 minutes in normal conditions) was washed away last night.
+- Floodwater is running fast over the Kakani temple [kakani-temple] to Dhunche temple [dhunche-temple] road; a truck was swept off it this morning. The drive usually takes 58 minutes.
+- Drivers report the road between Benighat hospital [benighat-hospital] and Myagang farm [myagang-farm] is clear; it takes roughly 8 minutes.
+- It is a 10-minute drive between Tarkeshwar farm [tarkeshwar-farm] and Syaphru care home [syaphru-care-home], with some debris but no blockages.
+- Drivers report the road between Gajuri school [gajuri-school] and Jwalamukhi market [jwalamukhi-market] is clear; it takes roughly 11 minutes.
+- Drivers report the road between Jwalamukhi market [jwalamukhi-market] and Trishuli care home [trishuli-care-home] is clear; it takes roughly 18 minutes.
+- Drivers report the road between Kispang shelter [kispang-shelter] and Kakani temple [kakani-temple] is clear; it takes roughly 5 minutes.
+- It is a 19-minute drive between Myagang farm [myagang-farm] and Gajuri school [gajuri-school], with some debris but no blockages.
+- The Benighat hospital [benighat-hospital] to Gajuri school [gajuri-school] road is muddy but passable, about 12 minutes by car.
+- Drivers report the road between Kakani temple [kakani-temple] and Galchhi temple [galchhi-temple] is clear; it takes roughly 45 minutes.
+- The drive from Galchhi temple [galchhi-temple] to Shivapuri care home [shivapuri-care-home] takes about 5 minutes.
+- Police have closed the Trishuli care home [trishuli-care-home] to Syaphru care home [syaphru-care-home] road after part of it collapsed into the river. It is normally 21 minutes by car.
+- It is a 9-minute drive between Gajuri school [gajuri-school] and Dhunche temple [dhunche-temple], with some debris but no blockages.
+Any road not listed here does not exist or cannot be used.
+
+STRANDED CIVILIANS
+- At Tarkeshwar farm [tarkeshwar-farm], residents report four shopkeepers waiting for help.
+- At Myagang farm [myagang-farm], residents report six men and women from the cooperative waiting for help.
+- At Syaphru care home [syaphru-care-home], residents report five people in their late seventies and eighties waiting for help.
+- At Gajuri school [gajuri-school], residents report three adult labourers and four schoolchildren waiting for help.
+- At Shivapuri care home [shivapuri-care-home], residents report two pensioners waiting for help.
+- At Kakani temple [kakani-temple], residents report three shopkeepers waiting for help.
+- At Jwalamukhi market [jwalamukhi-market], residents report two young children waiting for help.
+Families have said they are willing to travel separately if needed.

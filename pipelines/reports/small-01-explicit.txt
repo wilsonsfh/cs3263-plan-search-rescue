@@ -1,0 +1,20 @@
+FIELD REPORT - Nuwakot district flood response (scenario small-01)
+
+VEHICLES: 1 car(s), 4 passenger seats each. Positions: [car1] at Myagang shelter [myagang-shelter].
+
+EVACUATION POINTS (people may only be dropped off here): Myagang shelter [myagang-shelter].
+
+ROADS
+- Myagang shelter [myagang-shelter] <-> Uttargaya school [uttargaya-school]: 28 min, open
+- Myagang shelter [myagang-shelter] <-> Dhunche village [dhunche-village]: 46 min, open
+- Myagang shelter [myagang-shelter] <-> Nilkantha market [nilkantha-market]: 35 min, IMPASSABLE (damaged)
+- Uttargaya school [uttargaya-school] <-> Nilkantha market [nilkantha-market]: 8 min, open
+- Uttargaya school [uttargaya-school] <-> Dupcheshwar village [dupcheshwar-village]: 9 min, open
+- Nilkantha market [nilkantha-market] <-> Syaphru temple [syaphru-temple]: 31 min, open
+- Nilkantha market [nilkantha-market] <-> Dupcheshwar village [dupcheshwar-village]: 16 min, open
+Any road not listed here does not exist or cannot be used.
+
+PEOPLE AWAITING RESCUE
+- Syaphru temple [syaphru-temple]: 1 adult, 2 elderly people
+- Uttargaya school [uttargaya-school]: 2 children
+People at the same location may be split between cars or trips.

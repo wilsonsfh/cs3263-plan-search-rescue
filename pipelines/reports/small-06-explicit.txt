@@ -1,0 +1,20 @@
+FIELD REPORT - Nuwakot district flood response (scenario small-06)
+
+VEHICLES: 1 car(s), 4 passenger seats each. Positions: [car1] at Galchhi shelter [galchhi-shelter].
+
+EVACUATION POINTS (people may only be dropped off here): Galchhi shelter [galchhi-shelter].
+
+ROADS
+- Galchhi shelter [galchhi-shelter] <-> Nilkantha market [nilkantha-market]: 9 min, open
+- Galchhi shelter [galchhi-shelter] <-> Dhunche farm [dhunche-farm]: 23 min, open
+- Galchhi shelter [galchhi-shelter] <-> Gosaikunda farm [gosaikunda-farm]: 24 min, open
+- Panchakanya school [panchakanya-school] <-> Gosaikunda farm [gosaikunda-farm]: 29 min, open
+- Jwalamukhi farm [jwalamukhi-farm] <-> Gosaikunda farm [gosaikunda-farm]: 18 min, IMPASSABLE (damaged)
+- Nilkantha market [nilkantha-market] <-> Gosaikunda farm [gosaikunda-farm]: 23 min, open
+- Dhunche farm [dhunche-farm] <-> Gosaikunda farm [gosaikunda-farm]: 29 min, open
+Any road not listed here does not exist or cannot be used.
+
+PEOPLE AWAITING RESCUE
+- Gosaikunda farm [gosaikunda-farm]: 3 injured people, 3 adults
+- Nilkantha market [nilkantha-market]: 3 adults
+People at the same location may be split between cars or trips.

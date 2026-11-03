@@ -1,0 +1,31 @@
+FIELD REPORT - Nuwakot district flood response (scenario large-13)
+
+VEHICLES: 2 car(s), 4 passenger seats each. Positions: [car1] at Kalika shelter [kalika-shelter]; [car2] at Dhunche hospital [dhunche-hospital].
+
+EVACUATION POINTS (people may only be dropped off here): Kalika shelter [kalika-shelter], Dhunche hospital [dhunche-hospital].
+
+ROADS
+- Kalika shelter [kalika-shelter] <-> Kakani village [kakani-village]: 14 min, open
+- Kalika shelter [kalika-shelter] <-> Benighat farm [benighat-farm]: 27 min, open
+- Kalika shelter [kalika-shelter] <-> Syaphru care home [syaphru-care-home]: 14 min, IMPASSABLE (damaged)
+- Dhunche hospital [dhunche-hospital] <-> Gosaikunda village [gosaikunda-village]: 23 min, open
+- Dhunche hospital [dhunche-hospital] <-> Jwalamukhi school [jwalamukhi-school]: 9 min, open
+- Kakani village [kakani-village] <-> Benighat farm [benighat-farm]: 16 min, open
+- Kakani village [kakani-village] <-> Syaphru care home [syaphru-care-home]: 22 min, open
+- Belkot farm [belkot-farm] <-> Gajuri farm [gajuri-farm]: 21 min, IMPASSABLE (damaged)
+- Belkot farm [belkot-farm] <-> Gosaikunda village [gosaikunda-village]: 5 min, open
+- Belkot farm [belkot-farm] <-> Dupcheshwar temple [dupcheshwar-temple]: 13 min, open
+- Naukunda market [naukunda-market] <-> Benighat farm [benighat-farm]: 5 min, open
+- Naukunda market [naukunda-market] <-> Syaphru care home [syaphru-care-home]: 25 min, open
+- Naukunda market [naukunda-market] <-> Jwalamukhi school [jwalamukhi-school]: 18 min, open
+- Benighat farm [benighat-farm] <-> Jwalamukhi school [jwalamukhi-school]: 20 min, open
+- Gajuri farm [gajuri-farm] <-> Syaphru care home [syaphru-care-home]: 37 min, open
+- Gosaikunda village [gosaikunda-village] <-> Dupcheshwar temple [dupcheshwar-temple]: 11 min, IMPASSABLE (damaged)
+Any road not listed here does not exist or cannot be used.
+
+PEOPLE AWAITING RESCUE
+- Gosaikunda village [gosaikunda-village]: 4 injured people, 2 adults, 3 children
+- Kakani village [kakani-village]: 3 injured people, 1 child
+- Jwalamukhi school [jwalamukhi-school]: 3 injured people, 2 children
+- Naukunda market [naukunda-market]: 3 adults
+People at the same location may be split between cars or trips.

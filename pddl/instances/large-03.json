@@ -1,0 +1,358 @@
+{
+  "id": "large-03",
+  "size": "large",
+  "seed": 3,
+  "penalty_per_person": {
+    "injured": 80,
+    "child": 60,
+    "elderly": 50,
+    "adult": 20
+  },
+  "locations": [
+    {
+      "id": "benighat-shelter",
+      "name": "Benighat",
+      "kind": "shelter",
+      "evac": true,
+      "x": 49.6,
+      "y": 25.5
+    },
+    {
+      "id": "gajuri-hospital",
+      "name": "Gajuri",
+      "kind": "hospital",
+      "evac": true,
+      "x": 44.6,
+      "y": 44.4
+    },
+    {
+      "id": "likhu-temple",
+      "name": "Likhu",
+      "kind": "temple",
+      "evac": false,
+      "x": 59.4,
+      "y": 23.9
+    },
+    {
+      "id": "dupcheshwar-farm",
+      "name": "Dupcheshwar",
+      "kind": "farm",
+      "evac": false,
+      "x": 12.8,
+      "y": 26.5
+    },
+    {
+      "id": "shivapuri-school",
+      "name": "Shivapuri",
+      "kind": "school",
+      "evac": false,
+      "x": 28.2,
+      "y": 5.9
+    },
+    {
+      "id": "naukunda-village",
+      "name": "Naukunda",
+      "kind": "village",
+      "evac": false,
+      "x": 40.7,
+      "y": 35.0
+    },
+    {
+      "id": "suryagadhi-farm",
+      "name": "Suryagadhi",
+      "kind": "farm",
+      "evac": false,
+      "x": 53.6,
+      "y": 39.7
+    },
+    {
+      "id": "trishuli-farm",
+      "name": "Trishuli",
+      "kind": "farm",
+      "evac": false,
+      "x": 47.8,
+      "y": 36.8
+    },
+    {
+      "id": "kispang-care-home",
+      "name": "Kispang",
+      "kind": "care-home",
+      "evac": false,
+      "x": 13.7,
+      "y": 47.0
+    },
+    {
+      "id": "gosaikunda-village",
+      "name": "Gosaikunda",
+      "kind": "village",
+      "evac": false,
+      "x": 40.1,
+      "y": 31.1
+    },
+    {
+      "id": "syaphru-school",
+      "name": "Syaphru",
+      "kind": "school",
+      "evac": false,
+      "x": 59.1,
+      "y": 28.0
+    },
+    {
+      "id": "kalika-care-home",
+      "name": "Kalika",
+      "kind": "care-home",
+      "evac": false,
+      "x": 39.9,
+      "y": 13.8
+    }
+  ],
+  "roads": [
+    {
+      "from": "benighat-shelter",
+      "to": "gajuri-hospital",
+      "minutes": 20,
+      "damaged": false
+    },
+    {
+      "from": "benighat-shelter",
+      "to": "likhu-temple",
+      "minutes": 10,
+      "damaged": false
+    },
+    {
+      "from": "benighat-shelter",
+      "to": "trishuli-farm",
+      "minutes": 11,
+      "damaged": true
+    },
+    {
+      "from": "benighat-shelter",
+      "to": "gosaikunda-village",
+      "minutes": 11,
+      "damaged": false
+    },
+    {
+      "from": "benighat-shelter",
+      "to": "syaphru-school",
+      "minutes": 10,
+      "damaged": true
+    },
+    {
+      "from": "benighat-shelter",
+      "to": "kalika-care-home",
+      "minutes": 15,
+      "damaged": false
+    },
+    {
+      "from": "gajuri-hospital",
+      "to": "naukunda-village",
+      "minutes": 10,
+      "damaged": false
+    },
+    {
+      "from": "gajuri-hospital",
+      "to": "suryagadhi-farm",
+      "minutes": 10,
+      "damaged": false
+    },
+    {
+      "from": "gajuri-hospital",
+      "to": "trishuli-farm",
+      "minutes": 8,
+      "damaged": false
+    },
+    {
+      "from": "gajuri-hospital",
+      "to": "kispang-care-home",
+      "minutes": 31,
+      "damaged": false
+    },
+    {
+      "from": "likhu-temple",
+      "to": "syaphru-school",
+      "minutes": 5,
+      "damaged": false
+    },
+    {
+      "from": "dupcheshwar-farm",
+      "to": "kispang-care-home",
+      "minutes": 21,
+      "damaged": false
+    },
+    {
+      "from": "shivapuri-school",
+      "to": "kalika-care-home",
+      "minutes": 14,
+      "damaged": false
+    },
+    {
+      "from": "naukunda-village",
+      "to": "trishuli-farm",
+      "minutes": 7,
+      "damaged": false
+    },
+    {
+      "from": "naukunda-village",
+      "to": "gosaikunda-village",
+      "minutes": 5,
+      "damaged": false
+    },
+    {
+      "from": "suryagadhi-farm",
+      "to": "trishuli-farm",
+      "minutes": 7,
+      "damaged": true
+    },
+    {
+      "from": "trishuli-farm",
+      "to": "gosaikunda-village",
+      "minutes": 10,
+      "damaged": false
+    }
+  ],
+  "people": [
+    {
+      "location": "suryagadhi-farm",
+      "band": "adult",
+      "count": 6
+    },
+    {
+      "location": "kalika-care-home",
+      "band": "elderly",
+      "count": 4
+    },
+    {
+      "location": "naukunda-village",
+      "band": "elderly",
+      "count": 3
+    },
+    {
+      "location": "kispang-care-home",
+      "band": "elderly",
+      "count": 5
+    },
+    {
+      "location": "shivapuri-school",
+      "band": "child",
+      "count": 4
+    },
+    {
+      "location": "kalika-care-home",
+      "band": "injured",
+      "count": 1
+    },
+    {
+      "location": "likhu-temple",
+      "band": "elderly",
+      "count": 1
+    },
+    {
+      "location": "naukunda-village",
+      "band": "child",
+      "count": 2
+    },
+    {
+      "location": "dupcheshwar-farm",
+      "band": "elderly",
+      "count": 4
+    }
+  ],
+  "cars": [
+    {
+      "id": "car1",
+      "start": "benighat-shelter",
+      "seats": 4
+    },
+    {
+      "id": "car2",
+      "start": "gajuri-hospital",
+      "seats": 4
+    }
+  ],
+  "groups": [
+    {
+      "id": "suryagadhi-farm-adult",
+      "location": "suryagadhi-farm",
+      "band": "adult",
+      "size": 3,
+      "penalty": 60
+    },
+    {
+      "id": "kalika-care-home-elderly",
+      "location": "kalika-care-home",
+      "band": "elderly",
+      "size": 1,
+      "penalty": 50
+    },
+    {
+      "id": "suryagadhi-farm-adult-2",
+      "location": "suryagadhi-farm",
+      "band": "adult",
+      "size": 3,
+      "penalty": 60
+    },
+    {
+      "id": "naukunda-village-elderly",
+      "location": "naukunda-village",
+      "band": "elderly",
+      "size": 3,
+      "penalty": 150
+    },
+    {
+      "id": "kispang-care-home-elderly",
+      "location": "kispang-care-home",
+      "band": "elderly",
+      "size": 3,
+      "penalty": 150
+    },
+    {
+      "id": "kispang-care-home-elderly-2",
+      "location": "kispang-care-home",
+      "band": "elderly",
+      "size": 2,
+      "penalty": 100
+    },
+    {
+      "id": "shivapuri-school-child",
+      "location": "shivapuri-school",
+      "band": "child",
+      "size": 4,
+      "penalty": 240
+    },
+    {
+      "id": "kalika-care-home-injured",
+      "location": "kalika-care-home",
+      "band": "injured",
+      "size": 1,
+      "penalty": 80
+    },
+    {
+      "id": "kalika-care-home-elderly-2",
+      "location": "kalika-care-home",
+      "band": "elderly",
+      "size": 3,
+      "penalty": 150
+    },
+    {
+      "id": "likhu-temple-elderly",
+      "location": "likhu-temple",
+      "band": "elderly",
+      "size": 1,
+      "penalty": 50
+    },
+    {
+      "id": "naukunda-village-child",
+      "location": "naukunda-village",
+      "band": "child",
+      "size": 2,
+      "penalty": 120
+    },
+    {
+      "id": "dupcheshwar-farm-elderly",
+      "location": "dupcheshwar-farm",
+      "band": "elderly",
+      "size": 4,
+      "penalty": 200
+    }
+  ]
+}

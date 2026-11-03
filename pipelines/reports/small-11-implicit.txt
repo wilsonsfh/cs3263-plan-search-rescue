@@ -1,0 +1,21 @@
+FIELD REPORT - Nuwakot district flood response (scenario small-11)
+
+Our team has one car available, able to carry four passengers. Currently: [car1] at Myagang shelter [myagang-shelter].
+
+SAFE LOCATIONS
+Myagang shelter [myagang-shelter] is above the flood line and is taking in evacuees.
+Gosaikunda temple [gosaikunda-temple] sits on higher ground, but it has no food, water or medical staff and the authorities have not designated it as a place to bring people.
+
+ROAD CONDITIONS
+- It is a 45-minute drive between Dhunche farm [dhunche-farm] and Galchhi village [galchhi-village], with some debris but no blockages.
+- The Myagang shelter [myagang-shelter] to Gosaikunda temple [gosaikunda-temple] road is muddy but passable, about 51 minutes by car.
+- Floodwater is running fast over the Dhunche farm [dhunche-farm] to Gosaikunda temple [gosaikunda-temple] road; a truck was swept off it this morning. The drive usually takes 19 minutes.
+- It is a 26-minute drive between Myagang shelter [myagang-shelter] and Suryagadhi market [suryagadhi-market], with some debris but no blockages.
+- It is a 25-minute drive between Suryagadhi market [suryagadhi-market] and Galchhi village [galchhi-village], with some debris but no blockages.
+- The Myagang shelter [myagang-shelter] to Galchhi village [galchhi-village] road is muddy but passable, about 14 minutes by car.
+Any road not listed here does not exist or cannot be used.
+
+STRANDED CIVILIANS
+- At Gosaikunda temple [gosaikunda-temple], residents report a farmer and an elderly couple waiting for help.
+- At Suryagadhi market [suryagadhi-market], residents report three people hurt by falling debris waiting for help.
+Families have said they are willing to travel separately if needed.

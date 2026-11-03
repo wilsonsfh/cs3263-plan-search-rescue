@@ -1,0 +1,222 @@
+{
+  "id": "medium-04",
+  "size": "medium",
+  "seed": 4,
+  "penalty_per_person": {
+    "injured": 80,
+    "child": 60,
+    "elderly": 50,
+    "adult": 20
+  },
+  "locations": [
+    {
+      "id": "myagang-shelter",
+      "name": "Myagang",
+      "kind": "shelter",
+      "evac": true,
+      "x": 4.3,
+      "y": 56.5
+    },
+    {
+      "id": "galchhi-village",
+      "name": "Galchhi",
+      "kind": "village",
+      "evac": false,
+      "x": 41.0,
+      "y": 24.0
+    },
+    {
+      "id": "dhunche-farm",
+      "name": "Dhunche",
+      "kind": "farm",
+      "evac": false,
+      "x": 28.3,
+      "y": 0.2
+    },
+    {
+      "id": "nilkantha-temple",
+      "name": "Nilkantha",
+      "kind": "temple",
+      "evac": false,
+      "x": 35.1,
+      "y": 58.1
+    },
+    {
+      "id": "shivapuri-care-home",
+      "name": "Shivapuri",
+      "kind": "care-home",
+      "evac": false,
+      "x": 31.1,
+      "y": 26.2
+    },
+    {
+      "id": "naukunda-village",
+      "name": "Naukunda",
+      "kind": "village",
+      "evac": false,
+      "x": 49.2,
+      "y": 5.0
+    },
+    {
+      "id": "thakre-village",
+      "name": "Thakre",
+      "kind": "village",
+      "evac": false,
+      "x": 13.6,
+      "y": 58.5
+    },
+    {
+      "id": "bidur-school",
+      "name": "Bidur",
+      "kind": "school",
+      "evac": false,
+      "x": 20.5,
+      "y": 9.6
+    }
+  ],
+  "roads": [
+    {
+      "from": "myagang-shelter",
+      "to": "nilkantha-temple",
+      "minutes": 31,
+      "damaged": false
+    },
+    {
+      "from": "myagang-shelter",
+      "to": "thakre-village",
+      "minutes": 10,
+      "damaged": false
+    },
+    {
+      "from": "galchhi-village",
+      "to": "shivapuri-care-home",
+      "minutes": 10,
+      "damaged": true
+    },
+    {
+      "from": "galchhi-village",
+      "to": "naukunda-village",
+      "minutes": 21,
+      "damaged": false
+    },
+    {
+      "from": "galchhi-village",
+      "to": "bidur-school",
+      "minutes": 25,
+      "damaged": true
+    },
+    {
+      "from": "dhunche-farm",
+      "to": "shivapuri-care-home",
+      "minutes": 26,
+      "damaged": true
+    },
+    {
+      "from": "dhunche-farm",
+      "to": "naukunda-village",
+      "minutes": 21,
+      "damaged": false
+    },
+    {
+      "from": "dhunche-farm",
+      "to": "bidur-school",
+      "minutes": 12,
+      "damaged": false
+    },
+    {
+      "from": "nilkantha-temple",
+      "to": "naukunda-village",
+      "minutes": 55,
+      "damaged": false
+    },
+    {
+      "from": "shivapuri-care-home",
+      "to": "bidur-school",
+      "minutes": 20,
+      "damaged": false
+    }
+  ],
+  "people": [
+    {
+      "location": "galchhi-village",
+      "band": "child",
+      "count": 3
+    },
+    {
+      "location": "nilkantha-temple",
+      "band": "adult",
+      "count": 7
+    },
+    {
+      "location": "bidur-school",
+      "band": "child",
+      "count": 3
+    },
+    {
+      "location": "shivapuri-care-home",
+      "band": "elderly",
+      "count": 4
+    },
+    {
+      "location": "galchhi-village",
+      "band": "injured",
+      "count": 1
+    }
+  ],
+  "cars": [
+    {
+      "id": "car1",
+      "start": "myagang-shelter",
+      "seats": 4
+    },
+    {
+      "id": "car2",
+      "start": "myagang-shelter",
+      "seats": 4
+    }
+  ],
+  "groups": [
+    {
+      "id": "galchhi-village-child",
+      "location": "galchhi-village",
+      "band": "child",
+      "size": 3,
+      "penalty": 180
+    },
+    {
+      "id": "nilkantha-temple-adult",
+      "location": "nilkantha-temple",
+      "band": "adult",
+      "size": 4,
+      "penalty": 80
+    },
+    {
+      "id": "bidur-school-child",
+      "location": "bidur-school",
+      "band": "child",
+      "size": 3,
+      "penalty": 180
+    },
+    {
+      "id": "shivapuri-care-home-elderly",
+      "location": "shivapuri-care-home",
+      "band": "elderly",
+      "size": 4,
+      "penalty": 200
+    },
+    {
+      "id": "galchhi-village-injured",
+      "location": "galchhi-village",
+      "band": "injured",
+      "size": 1,
+      "penalty": 80
+    },
+    {
+      "id": "nilkantha-temple-adult-2",
+      "location": "nilkantha-temple",
+      "band": "adult",
+      "size": 3,
+      "penalty": 60
+    }
+  ]
+}

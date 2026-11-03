@@ -1,0 +1,152 @@
+{
+  "id": "small-01",
+  "size": "small",
+  "seed": 1,
+  "penalty_per_person": {
+    "injured": 80,
+    "child": 60,
+    "elderly": 50,
+    "adult": 20
+  },
+  "locations": [
+    {
+      "id": "myagang-shelter",
+      "name": "Myagang",
+      "kind": "shelter",
+      "evac": true,
+      "x": 57.4,
+      "y": 5.8
+    },
+    {
+      "id": "uttargaya-school",
+      "name": "Uttargaya",
+      "kind": "school",
+      "evac": false,
+      "x": 54.5,
+      "y": 33.9
+    },
+    {
+      "id": "dhunche-village",
+      "name": "Dhunche",
+      "kind": "village",
+      "evac": false,
+      "x": 15.5,
+      "y": 24.4
+    },
+    {
+      "id": "nilkantha-market",
+      "name": "Nilkantha",
+      "kind": "market",
+      "evac": false,
+      "x": 48.3,
+      "y": 39.6
+    },
+    {
+      "id": "syaphru-temple",
+      "name": "Syaphru",
+      "kind": "temple",
+      "evac": false,
+      "x": 25.0,
+      "y": 59.5
+    },
+    {
+      "id": "dupcheshwar-village",
+      "name": "Dupcheshwar",
+      "kind": "village",
+      "evac": false,
+      "x": 55.3,
+      "y": 25.4
+    }
+  ],
+  "roads": [
+    {
+      "from": "myagang-shelter",
+      "to": "uttargaya-school",
+      "minutes": 28,
+      "damaged": false
+    },
+    {
+      "from": "myagang-shelter",
+      "to": "dhunche-village",
+      "minutes": 46,
+      "damaged": false
+    },
+    {
+      "from": "myagang-shelter",
+      "to": "nilkantha-market",
+      "minutes": 35,
+      "damaged": true
+    },
+    {
+      "from": "uttargaya-school",
+      "to": "nilkantha-market",
+      "minutes": 8,
+      "damaged": false
+    },
+    {
+      "from": "uttargaya-school",
+      "to": "dupcheshwar-village",
+      "minutes": 9,
+      "damaged": false
+    },
+    {
+      "from": "nilkantha-market",
+      "to": "syaphru-temple",
+      "minutes": 31,
+      "damaged": false
+    },
+    {
+      "from": "nilkantha-market",
+      "to": "dupcheshwar-village",
+      "minutes": 16,
+      "damaged": false
+    }
+  ],
+  "people": [
+    {
+      "location": "syaphru-temple",
+      "band": "adult",
+      "count": 1
+    },
+    {
+      "location": "syaphru-temple",
+      "band": "elderly",
+      "count": 2
+    },
+    {
+      "location": "uttargaya-school",
+      "band": "child",
+      "count": 2
+    }
+  ],
+  "cars": [
+    {
+      "id": "car1",
+      "start": "myagang-shelter",
+      "seats": 4
+    }
+  ],
+  "groups": [
+    {
+      "id": "syaphru-temple-adult",
+      "location": "syaphru-temple",
+      "band": "adult",
+      "size": 1,
+      "penalty": 20
+    },
+    {
+      "id": "syaphru-temple-elderly",
+      "location": "syaphru-temple",
+      "band": "elderly",
+      "size": 2,
+      "penalty": 100
+    },
+    {
+      "id": "uttargaya-school-child",
+      "location": "uttargaya-school",
+      "band": "child",
+      "size": 2,
+      "penalty": 120
+    }
+  ]
+}

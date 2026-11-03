@@ -1,0 +1,38 @@
+FIELD REPORT - Nuwakot district flood response (scenario large-03)
+
+Our team has two cars available, each able to carry four passengers. Currently: [car1] at Benighat shelter [benighat-shelter]; [car2] at Gajuri hospital [gajuri-hospital].
+
+SAFE LOCATIONS
+Volunteers at Benighat shelter [benighat-shelter] say they have room for more families.
+Gajuri hospital [gajuri-hospital] is on high ground and its staff are receiving evacuees.
+Syaphru school [syaphru-school] sits on higher ground, but it has no food, water or medical staff and the authorities have not designated it as a place to bring people.
+
+ROAD CONDITIONS
+- The drive from Naukunda village [naukunda-village] to Gosaikunda village [gosaikunda-village] takes about 5 minutes.
+- The Benighat shelter [benighat-shelter] to Kalika care home [kalika-care-home] road is muddy but passable, about 15 minutes by car.
+- Police have closed the Benighat shelter [benighat-shelter] to Trishuli farm [trishuli-farm] road after part of it collapsed into the river. It is normally 11 minutes by car.
+- The Benighat shelter [benighat-shelter] to Gosaikunda village [gosaikunda-village] road is muddy but passable, about 11 minutes by car.
+- A landslide has buried the road between Benighat shelter [benighat-shelter] and Syaphru school [syaphru-school] (normally a 10-minute drive).
+- A landslide has buried the road between Suryagadhi farm [suryagadhi-farm] and Trishuli farm [trishuli-farm] (normally a 7-minute drive).
+- Drivers report the road between Benighat shelter [benighat-shelter] and Gajuri hospital [gajuri-hospital] is clear; it takes roughly 20 minutes.
+- Drivers report the road between Trishuli farm [trishuli-farm] and Gosaikunda village [gosaikunda-village] is clear; it takes roughly 10 minutes.
+- It is a 5-minute drive between Likhu temple [likhu-temple] and Syaphru school [syaphru-school], with some debris but no blockages.
+- The drive from Gajuri hospital [gajuri-hospital] to Kispang care home [kispang-care-home] takes about 31 minutes.
+- Drivers report the road between Benighat shelter [benighat-shelter] and Likhu temple [likhu-temple] is clear; it takes roughly 10 minutes.
+- Drivers report the road between Shivapuri school [shivapuri-school] and Kalika care home [kalika-care-home] is clear; it takes roughly 14 minutes.
+- Drivers report the road between Gajuri hospital [gajuri-hospital] and Suryagadhi farm [suryagadhi-farm] is clear; it takes roughly 10 minutes.
+- The drive from Dupcheshwar farm [dupcheshwar-farm] to Kispang care home [kispang-care-home] takes about 21 minutes.
+- It is a 7-minute drive between Naukunda village [naukunda-village] and Trishuli farm [trishuli-farm], with some debris but no blockages.
+- It is a 8-minute drive between Gajuri hospital [gajuri-hospital] and Trishuli farm [trishuli-farm], with some debris but no blockages.
+- The Gajuri hospital [gajuri-hospital] to Naukunda village [naukunda-village] road is muddy but passable, about 10 minutes by car.
+Any road not listed here does not exist or cannot be used.
+
+STRANDED CIVILIANS
+- At Suryagadhi farm [suryagadhi-farm], residents report six men and women from the cooperative waiting for help.
+- At Kalika care home [kalika-care-home], residents report four elderly residents and a woman with a deep head wound waiting for help.
+- At Naukunda village [naukunda-village], residents report three frail senior citizens and two pupils waiting for help.
+- At Kispang care home [kispang-care-home], residents report five frail senior citizens waiting for help.
+- At Shivapuri school [shivapuri-school], residents report four schoolchildren waiting for help.
+- At Likhu temple [likhu-temple], residents report a grandmother in her eighties waiting for help.
+- At Dupcheshwar farm [dupcheshwar-farm], residents report four people in their late seventies and eighties waiting for help.
+Families have said they are willing to travel separately if needed.

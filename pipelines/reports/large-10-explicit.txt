@@ -1,0 +1,31 @@
+FIELD REPORT - Nuwakot district flood response (scenario large-10)
+
+VEHICLES: 2 car(s), 4 passenger seats each. Positions: [car1] at Panchakanya shelter [panchakanya-shelter]; [car2] at Tadi hospital [tadi-hospital].
+
+EVACUATION POINTS (people may only be dropped off here): Panchakanya shelter [panchakanya-shelter], Tadi hospital [tadi-hospital].
+
+ROADS
+- Panchakanya shelter [panchakanya-shelter] <-> Tadi hospital [tadi-hospital]: 42 min, open
+- Panchakanya shelter [panchakanya-shelter] <-> Dhunche temple [dhunche-temple]: 12 min, open
+- Panchakanya shelter [panchakanya-shelter] <-> Syaphru farm [syaphru-farm]: 34 min, open
+- Panchakanya shelter [panchakanya-shelter] <-> Thakre market [thakre-market]: 14 min, IMPASSABLE (damaged)
+- Dhunche temple [dhunche-temple] <-> Jwalamukhi care home [jwalamukhi-care-home]: 17 min, open
+- Dhunche temple [dhunche-temple] <-> Thakre market [thakre-market]: 10 min, open
+- Jwalamukhi care home [jwalamukhi-care-home] <-> Thakre market [thakre-market]: 9 min, open
+- Trishuli care home [trishuli-care-home] <-> Gajuri market [gajuri-market]: 11 min, IMPASSABLE (damaged)
+- Trishuli care home [trishuli-care-home] <-> Myagang farm [myagang-farm]: 12 min, open
+- Gajuri market [gajuri-market] <-> Syaphru farm [syaphru-farm]: 9 min, open
+- Gajuri market [gajuri-market] <-> Myagang farm [myagang-farm]: 5 min, IMPASSABLE (damaged)
+- Likhu school [likhu-school] <-> Syaphru farm [syaphru-farm]: 5 min, open
+- Likhu school [likhu-school] <-> Myagang farm [myagang-farm]: 7 min, IMPASSABLE (damaged)
+- Syaphru farm [syaphru-farm] <-> Myagang farm [myagang-farm]: 6 min, open
+Any road not listed here does not exist or cannot be used.
+
+PEOPLE AWAITING RESCUE
+- Myagang farm [myagang-farm]: 1 adult
+- Syaphru farm [syaphru-farm]: 3 adults
+- Gajuri market [gajuri-market]: 1 adult, 2 children
+- Thakre market [thakre-market]: 3 adults
+- Dhunche temple [dhunche-temple]: 4 adults, 1 child
+- Trishuli care home [trishuli-care-home]: 7 elderly people
+People at the same location may be split between cars or trips.

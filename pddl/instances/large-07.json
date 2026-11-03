@@ -1,0 +1,358 @@
+{
+  "id": "large-07",
+  "size": "large",
+  "seed": 7,
+  "penalty_per_person": {
+    "injured": 80,
+    "child": 60,
+    "elderly": 50,
+    "adult": 20
+  },
+  "locations": [
+    {
+      "id": "galchhi-shelter",
+      "name": "Galchhi",
+      "kind": "shelter",
+      "evac": true,
+      "x": 5.3,
+      "y": 8.5
+    },
+    {
+      "id": "shivapuri-hospital",
+      "name": "Shivapuri",
+      "kind": "hospital",
+      "evac": true,
+      "x": 40.3,
+      "y": 18.2
+    },
+    {
+      "id": "bidur-temple",
+      "name": "Bidur",
+      "kind": "temple",
+      "evac": false,
+      "x": 42.4,
+      "y": 4.2
+    },
+    {
+      "id": "gosaikunda-village",
+      "name": "Gosaikunda",
+      "kind": "village",
+      "evac": false,
+      "x": 26.5,
+      "y": 9.4
+    },
+    {
+      "id": "suryagadhi-farm",
+      "name": "Suryagadhi",
+      "kind": "farm",
+      "evac": false,
+      "x": 51.7,
+      "y": 50.5
+    },
+    {
+      "id": "naukunda-care-home",
+      "name": "Naukunda",
+      "kind": "care-home",
+      "evac": false,
+      "x": 15.0,
+      "y": 5.0
+    },
+    {
+      "id": "kispang-temple",
+      "name": "Kispang",
+      "kind": "temple",
+      "evac": false,
+      "x": 21.3,
+      "y": 3.5
+    },
+    {
+      "id": "likhu-care-home",
+      "name": "Likhu",
+      "kind": "care-home",
+      "evac": false,
+      "x": 18.2,
+      "y": 44.4
+    },
+    {
+      "id": "thakre-care-home",
+      "name": "Thakre",
+      "kind": "care-home",
+      "evac": false,
+      "x": 35.8,
+      "y": 39.5
+    },
+    {
+      "id": "kakani-village",
+      "name": "Kakani",
+      "kind": "village",
+      "evac": false,
+      "x": 0.5,
+      "y": 9.9
+    },
+    {
+      "id": "myagang-care-home",
+      "name": "Myagang",
+      "kind": "care-home",
+      "evac": false,
+      "x": 30.9,
+      "y": 39.3
+    },
+    {
+      "id": "kalika-farm",
+      "name": "Kalika",
+      "kind": "farm",
+      "evac": false,
+      "x": 14.5,
+      "y": 24.8
+    },
+    {
+      "id": "belkot-farm",
+      "name": "Belkot",
+      "kind": "farm",
+      "evac": false,
+      "x": 23.4,
+      "y": 22.4
+    }
+  ],
+  "roads": [
+    {
+      "from": "galchhi-shelter",
+      "to": "naukunda-care-home",
+      "minutes": 10,
+      "damaged": false
+    },
+    {
+      "from": "galchhi-shelter",
+      "to": "kispang-temple",
+      "minutes": 17,
+      "damaged": false
+    },
+    {
+      "from": "galchhi-shelter",
+      "to": "kakani-village",
+      "minutes": 5,
+      "damaged": false
+    },
+    {
+      "from": "galchhi-shelter",
+      "to": "belkot-farm",
+      "minutes": 23,
+      "damaged": false
+    },
+    {
+      "from": "shivapuri-hospital",
+      "to": "bidur-temple",
+      "minutes": 14,
+      "damaged": true
+    },
+    {
+      "from": "shivapuri-hospital",
+      "to": "belkot-farm",
+      "minutes": 17,
+      "damaged": true
+    },
+    {
+      "from": "bidur-temple",
+      "to": "belkot-farm",
+      "minutes": 26,
+      "damaged": false
+    },
+    {
+      "from": "gosaikunda-village",
+      "to": "naukunda-care-home",
+      "minutes": 12,
+      "damaged": false
+    },
+    {
+      "from": "gosaikunda-village",
+      "to": "kispang-temple",
+      "minutes": 8,
+      "damaged": false
+    },
+    {
+      "from": "gosaikunda-village",
+      "to": "belkot-farm",
+      "minutes": 13,
+      "damaged": false
+    },
+    {
+      "from": "suryagadhi-farm",
+      "to": "belkot-farm",
+      "minutes": 40,
+      "damaged": false
+    },
+    {
+      "from": "naukunda-care-home",
+      "to": "kispang-temple",
+      "minutes": 7,
+      "damaged": false
+    },
+    {
+      "from": "likhu-care-home",
+      "to": "thakre-care-home",
+      "minutes": 18,
+      "damaged": false
+    },
+    {
+      "from": "likhu-care-home",
+      "to": "myagang-care-home",
+      "minutes": 14,
+      "damaged": false
+    },
+    {
+      "from": "likhu-care-home",
+      "to": "kalika-farm",
+      "minutes": 20,
+      "damaged": false
+    },
+    {
+      "from": "thakre-care-home",
+      "to": "myagang-care-home",
+      "minutes": 5,
+      "damaged": true
+    },
+    {
+      "from": "myagang-care-home",
+      "to": "belkot-farm",
+      "minutes": 18,
+      "damaged": false
+    },
+    {
+      "from": "kalika-farm",
+      "to": "belkot-farm",
+      "minutes": 9,
+      "damaged": false
+    }
+  ],
+  "people": [
+    {
+      "location": "thakre-care-home",
+      "band": "injured",
+      "count": 1
+    },
+    {
+      "location": "gosaikunda-village",
+      "band": "adult",
+      "count": 2
+    },
+    {
+      "location": "gosaikunda-village",
+      "band": "child",
+      "count": 4
+    },
+    {
+      "location": "kalika-farm",
+      "band": "adult",
+      "count": 6
+    },
+    {
+      "location": "belkot-farm",
+      "band": "elderly",
+      "count": 4
+    },
+    {
+      "location": "gosaikunda-village",
+      "band": "elderly",
+      "count": 1
+    },
+    {
+      "location": "naukunda-care-home",
+      "band": "elderly",
+      "count": 1
+    },
+    {
+      "location": "likhu-care-home",
+      "band": "elderly",
+      "count": 3
+    },
+    {
+      "location": "likhu-care-home",
+      "band": "injured",
+      "count": 1
+    }
+  ],
+  "cars": [
+    {
+      "id": "car1",
+      "start": "galchhi-shelter",
+      "seats": 4
+    },
+    {
+      "id": "car2",
+      "start": "shivapuri-hospital",
+      "seats": 4
+    }
+  ],
+  "groups": [
+    {
+      "id": "thakre-care-home-injured",
+      "location": "thakre-care-home",
+      "band": "injured",
+      "size": 1,
+      "penalty": 80
+    },
+    {
+      "id": "gosaikunda-village-adult",
+      "location": "gosaikunda-village",
+      "band": "adult",
+      "size": 2,
+      "penalty": 40
+    },
+    {
+      "id": "gosaikunda-village-child",
+      "location": "gosaikunda-village",
+      "band": "child",
+      "size": 4,
+      "penalty": 240
+    },
+    {
+      "id": "kalika-farm-adult",
+      "location": "kalika-farm",
+      "band": "adult",
+      "size": 4,
+      "penalty": 80
+    },
+    {
+      "id": "belkot-farm-elderly",
+      "location": "belkot-farm",
+      "band": "elderly",
+      "size": 4,
+      "penalty": 200
+    },
+    {
+      "id": "gosaikunda-village-elderly",
+      "location": "gosaikunda-village",
+      "band": "elderly",
+      "size": 1,
+      "penalty": 50
+    },
+    {
+      "id": "kalika-farm-adult-2",
+      "location": "kalika-farm",
+      "band": "adult",
+      "size": 2,
+      "penalty": 40
+    },
+    {
+      "id": "naukunda-care-home-elderly",
+      "location": "naukunda-care-home",
+      "band": "elderly",
+      "size": 1,
+      "penalty": 50
+    },
+    {
+      "id": "likhu-care-home-elderly",
+      "location": "likhu-care-home",
+      "band": "elderly",
+      "size": 3,
+      "penalty": 150
+    },
+    {
+      "id": "likhu-care-home-injured",
+      "location": "likhu-care-home",
+      "band": "injured",
+      "size": 1,
+      "penalty": 80
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "id": "small-12",
+  "size": "small",
+  "seed": 12,
+  "penalty_per_person": {
+    "injured": 80,
+    "child": 60,
+    "elderly": 50,
+    "adult": 20
+  },
+  "locations": [
+    {
+      "id": "trishuli-shelter",
+      "name": "Trishuli",
+      "kind": "shelter",
+      "evac": true,
+      "x": 27.8,
+      "y": 4.5
+    },
+    {
+      "id": "bidur-village",
+      "name": "Bidur",
+      "kind": "village",
+      "evac": false,
+      "x": 26.1,
+      "y": 43.2
+    },
+    {
+      "id": "dupcheshwar-temple",
+      "name": "Dupcheshwar",
+      "kind": "temple",
+      "evac": false,
+      "x": 45.1,
+      "y": 31.4
+    },
+    {
+      "id": "gosaikunda-temple",
+      "name": "Gosaikunda",
+      "kind": "temple",
+      "evac": false,
+      "x": 25.9,
+      "y": 15.8
+    },
+    {
+      "id": "belkot-farm",
+      "name": "Belkot",
+      "kind": "farm",
+      "evac": false,
+      "x": 8.1,
+      "y": 58.2
+    },
+    {
+      "id": "naukunda-farm",
+      "name": "Naukunda",
+      "kind": "farm",
+      "evac": false,
+      "x": 15.1,
+      "y": 21.4
+    }
+  ],
+  "roads": [
+    {
+      "from": "trishuli-shelter",
+      "to": "gosaikunda-temple",
+      "minutes": 11,
+      "damaged": false
+    },
+    {
+      "from": "trishuli-shelter",
+      "to": "naukunda-farm",
+      "minutes": 21,
+      "damaged": true
+    },
+    {
+      "from": "bidur-village",
+      "to": "dupcheshwar-temple",
+      "minutes": 22,
+      "damaged": false
+    },
+    {
+      "from": "bidur-village",
+      "to": "belkot-farm",
+      "minutes": 23,
+      "damaged": false
+    },
+    {
+      "from": "dupcheshwar-temple",
+      "to": "gosaikunda-temple",
+      "minutes": 25,
+      "damaged": false
+    },
+    {
+      "from": "gosaikunda-temple",
+      "to": "belkot-farm",
+      "minutes": 46,
+      "damaged": false
+    },
+    {
+      "from": "gosaikunda-temple",
+      "to": "naukunda-farm",
+      "minutes": 12,
+      "damaged": false
+    }
+  ],
+  "people": [
+    {
+      "location": "bidur-village",
+      "band": "adult",
+      "count": 2
+    },
+    {
+      "location": "dupcheshwar-temple",
+      "band": "adult",
+      "count": 4
+    },
+    {
+      "location": "naukunda-farm",
+      "band": "adult",
+      "count": 4
+    }
+  ],
+  "cars": [
+    {
+      "id": "car1",
+      "start": "trishuli-shelter",
+      "seats": 4
+    }
+  ],
+  "groups": [
+    {
+      "id": "bidur-village-adult",
+      "location": "bidur-village",
+      "band": "adult",
+      "size": 2,
+      "penalty": 40
+    },
+    {
+      "id": "dupcheshwar-temple-adult",
+      "location": "dupcheshwar-temple",
+      "band": "adult",
+      "size": 4,
+      "penalty": 80
+    },
+    {
+      "id": "naukunda-farm-adult",
+      "location": "naukunda-farm",
+      "band": "adult",
+      "size": 4,
+      "penalty": 80
+    }
+  ]
+}

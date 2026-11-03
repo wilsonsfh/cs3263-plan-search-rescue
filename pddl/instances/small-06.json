@@ -1,0 +1,152 @@
+{
+  "id": "small-06",
+  "size": "small",
+  "seed": 6,
+  "penalty_per_person": {
+    "injured": 80,
+    "child": 60,
+    "elderly": 50,
+    "adult": 20
+  },
+  "locations": [
+    {
+      "id": "galchhi-shelter",
+      "name": "Galchhi",
+      "kind": "shelter",
+      "evac": true,
+      "x": 44.9,
+      "y": 34.3
+    },
+    {
+      "id": "panchakanya-school",
+      "name": "Panchakanya",
+      "kind": "school",
+      "evac": false,
+      "x": 7.2,
+      "y": 40.7
+    },
+    {
+      "id": "jwalamukhi-farm",
+      "name": "Jwalamukhi",
+      "kind": "farm",
+      "evac": false,
+      "x": 25.5,
+      "y": 0.9
+    },
+    {
+      "id": "nilkantha-market",
+      "name": "Nilkantha",
+      "kind": "market",
+      "evac": false,
+      "x": 37.2,
+      "y": 39.2
+    },
+    {
+      "id": "dhunche-farm",
+      "name": "Dhunche",
+      "kind": "farm",
+      "evac": false,
+      "x": 54.6,
+      "y": 13.5
+    },
+    {
+      "id": "gosaikunda-farm",
+      "name": "Gosaikunda",
+      "kind": "farm",
+      "evac": false,
+      "x": 26.0,
+      "y": 19.1
+    }
+  ],
+  "roads": [
+    {
+      "from": "galchhi-shelter",
+      "to": "nilkantha-market",
+      "minutes": 9,
+      "damaged": false
+    },
+    {
+      "from": "galchhi-shelter",
+      "to": "dhunche-farm",
+      "minutes": 23,
+      "damaged": false
+    },
+    {
+      "from": "galchhi-shelter",
+      "to": "gosaikunda-farm",
+      "minutes": 24,
+      "damaged": false
+    },
+    {
+      "from": "panchakanya-school",
+      "to": "gosaikunda-farm",
+      "minutes": 29,
+      "damaged": false
+    },
+    {
+      "from": "jwalamukhi-farm",
+      "to": "gosaikunda-farm",
+      "minutes": 18,
+      "damaged": true
+    },
+    {
+      "from": "nilkantha-market",
+      "to": "gosaikunda-farm",
+      "minutes": 23,
+      "damaged": false
+    },
+    {
+      "from": "dhunche-farm",
+      "to": "gosaikunda-farm",
+      "minutes": 29,
+      "damaged": false
+    }
+  ],
+  "people": [
+    {
+      "location": "gosaikunda-farm",
+      "band": "injured",
+      "count": 3
+    },
+    {
+      "location": "gosaikunda-farm",
+      "band": "adult",
+      "count": 3
+    },
+    {
+      "location": "nilkantha-market",
+      "band": "adult",
+      "count": 3
+    }
+  ],
+  "cars": [
+    {
+      "id": "car1",
+      "start": "galchhi-shelter",
+      "seats": 4
+    }
+  ],
+  "groups": [
+    {
+      "id": "gosaikunda-farm-injured",
+      "location": "gosaikunda-farm",
+      "band": "injured",
+      "size": 3,
+      "penalty": 240
+    },
+    {
+      "id": "gosaikunda-farm-adult",
+      "location": "gosaikunda-farm",
+      "band": "adult",
+      "size": 3,
+      "penalty": 60
+    },
+    {
+      "id": "nilkantha-market-adult",
+      "location": "nilkantha-market",
+      "band": "adult",
+      "size": 3,
+      "penalty": 60
+    }
+  ]
+}

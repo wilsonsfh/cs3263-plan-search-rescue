@@ -1,0 +1,358 @@
+{
+  "id": "large-09",
+  "size": "large",
+  "seed": 9,
+  "penalty_per_person": {
+    "injured": 80,
+    "child": 60,
+    "elderly": 50,
+    "adult": 20
+  },
+  "locations": [
+    {
+      "id": "panchakanya-shelter",
+      "name": "Panchakanya",
+      "kind": "shelter",
+      "evac": true,
+      "x": 19.5,
+      "y": 55.3
+    },
+    {
+      "id": "myagang-hospital",
+      "name": "Myagang",
+      "kind": "hospital",
+      "evac": true,
+      "x": 48.4,
+      "y": 49.2
+    },
+    {
+      "id": "tarkeshwar-care-home",
+      "name": "Tarkeshwar",
+      "kind": "care-home",
+      "evac": false,
+      "x": 16.7,
+      "y": 48.7
+    },
+    {
+      "id": "naukunda-temple",
+      "name": "Naukunda",
+      "kind": "temple",
+      "evac": false,
+      "x": 11.4,
+      "y": 16.5
+    },
+    {
+      "id": "jwalamukhi-market",
+      "name": "Jwalamukhi",
+      "kind": "market",
+      "evac": false,
+      "x": 56.4,
+      "y": 36.6
+    },
+    {
+      "id": "gajuri-village",
+      "name": "Gajuri",
+      "kind": "village",
+      "evac": false,
+      "x": 47.6,
+      "y": 24.4
+    },
+    {
+      "id": "kakani-market",
+      "name": "Kakani",
+      "kind": "market",
+      "evac": false,
+      "x": 47.6,
+      "y": 58.4
+    },
+    {
+      "id": "suryagadhi-school",
+      "name": "Suryagadhi",
+      "kind": "school",
+      "evac": false,
+      "x": 16.5,
+      "y": 19.9
+    },
+    {
+      "id": "benighat-temple",
+      "name": "Benighat",
+      "kind": "temple",
+      "evac": false,
+      "x": 49.7,
+      "y": 5.2
+    },
+    {
+      "id": "kalika-school",
+      "name": "Kalika",
+      "kind": "school",
+      "evac": false,
+      "x": 52.5,
+      "y": 18.3
+    },
+    {
+      "id": "shivapuri-care-home",
+      "name": "Shivapuri",
+      "kind": "care-home",
+      "evac": false,
+      "x": 58.9,
+      "y": 23.1
+    },
+    {
+      "id": "uttargaya-care-home",
+      "name": "Uttargaya",
+      "kind": "care-home",
+      "evac": false,
+      "x": 30.3,
+      "y": 6.3
+    }
+  ],
+  "roads": [
+    {
+      "from": "panchakanya-shelter",
+      "to": "tarkeshwar-care-home",
+      "minutes": 7,
+      "damaged": true
+    },
+    {
+      "from": "panchakanya-shelter",
+      "to": "suryagadhi-school",
+      "minutes": 36,
+      "damaged": true
+    },
+    {
+      "from": "myagang-hospital",
+      "to": "kakani-market",
+      "minutes": 9,
+      "damaged": false
+    },
+    {
+      "from": "myagang-hospital",
+      "to": "shivapuri-care-home",
+      "minutes": 28,
+      "damaged": false
+    },
+    {
+      "from": "naukunda-temple",
+      "to": "suryagadhi-school",
+      "minutes": 6,
+      "damaged": false
+    },
+    {
+      "from": "jwalamukhi-market",
+      "to": "gajuri-village",
+      "minutes": 15,
+      "damaged": false
+    },
+    {
+      "from": "jwalamukhi-market",
+      "to": "kakani-market",
+      "minutes": 23,
+      "damaged": true
+    },
+    {
+      "from": "jwalamukhi-market",
+      "to": "kalika-school",
+      "minutes": 19,
+      "damaged": false
+    },
+    {
+      "from": "jwalamukhi-market",
+      "to": "shivapuri-care-home",
+      "minutes": 14,
+      "damaged": true
+    },
+    {
+      "from": "gajuri-village",
+      "to": "suryagadhi-school",
+      "minutes": 31,
+      "damaged": false
+    },
+    {
+      "from": "gajuri-village",
+      "to": "kalika-school",
+      "minutes": 8,
+      "damaged": false
+    },
+    {
+      "from": "gajuri-village",
+      "to": "shivapuri-care-home",
+      "minutes": 11,
+      "damaged": false
+    },
+    {
+      "from": "suryagadhi-school",
+      "to": "uttargaya-care-home",
+      "minutes": 19,
+      "damaged": false
+    },
+    {
+      "from": "benighat-temple",
+      "to": "kalika-school",
+      "minutes": 13,
+      "damaged": true
+    },
+    {
+      "from": "benighat-temple",
+      "to": "shivapuri-care-home",
+      "minutes": 20,
+      "damaged": false
+    },
+    {
+      "from": "benighat-temple",
+      "to": "uttargaya-care-home",
+      "minutes": 20,
+      "damaged": false
+    },
+    {
+      "from": "kalika-school",
+      "to": "uttargaya-care-home",
+      "minutes": 25,
+      "damaged": true
+    }
+  ],
+  "people": [
+    {
+      "location": "kakani-market",
+      "band": "adult",
+      "count": 6
+    },
+    {
+      "location": "jwalamukhi-market",
+      "band": "adult",
+      "count": 4
+    },
+    {
+      "location": "kalika-school",
+      "band": "child",
+      "count": 5
+    },
+    {
+      "location": "tarkeshwar-care-home",
+      "band": "injured",
+      "count": 3
+    },
+    {
+      "location": "tarkeshwar-care-home",
+      "band": "elderly",
+      "count": 3
+    },
+    {
+      "location": "shivapuri-care-home",
+      "band": "adult",
+      "count": 1
+    },
+    {
+      "location": "jwalamukhi-market",
+      "band": "child",
+      "count": 3
+    },
+    {
+      "location": "kakani-market",
+      "band": "injured",
+      "count": 3
+    },
+    {
+      "location": "naukunda-temple",
+      "band": "adult",
+      "count": 3
+    }
+  ],
+  "cars": [
+    {
+      "id": "car1",
+      "start": "panchakanya-shelter",
+      "seats": 4
+    },
+    {
+      "id": "car2",
+      "start": "myagang-hospital",
+      "seats": 4
+    }
+  ],
+  "groups": [
+    {
+      "id": "kakani-market-adult",
+      "location": "kakani-market",
+      "band": "adult",
+      "size": 3,
+      "penalty": 60
+    },
+    {
+      "id": "jwalamukhi-market-adult",
+      "location": "jwalamukhi-market",
+      "band": "adult",
+      "size": 4,
+      "penalty": 80
+    },
+    {
+      "id": "kalika-school-child",
+      "location": "kalika-school",
+      "band": "child",
+      "size": 1,
+      "penalty": 60
+    },
+    {
+      "id": "tarkeshwar-care-home-injured",
+      "location": "tarkeshwar-care-home",
+      "band": "injured",
+      "size": 3,
+      "penalty": 240
+    },
+    {
+      "id": "tarkeshwar-care-home-elderly",
+      "location": "tarkeshwar-care-home",
+      "band": "elderly",
+      "size": 1,
+      "penalty": 50
+    },
+    {
+      "id": "kalika-school-child-2",
+      "location": "kalika-school",
+      "band": "child",
+      "size": 4,
+      "penalty": 240
+    },
+    {
+      "id": "shivapuri-care-home-adult",
+      "location": "shivapuri-care-home",
+      "band": "adult",
+      "size": 1,
+      "penalty": 20
+    },
+    {
+      "id": "kakani-market-adult-2",
+      "location": "kakani-market",
+      "band": "adult",
+      "size": 3,
+      "penalty": 60
+    },
+    {
+      "id": "tarkeshwar-care-home-elderly-2",
+      "location": "tarkeshwar-care-home",
+      "band": "elderly",
+      "size": 2,
+      "penalty": 100
+    },
+    {
+      "id": "jwalamukhi-market-child",
+      "location": "jwalamukhi-market",
+      "band": "child",
+      "size": 3,
+      "penalty": 180
+    },
+    {
+      "id": "kakani-market-injured",
+      "location": "kakani-market",
+      "band": "injured",
+      "size": 3,
+      "penalty": 240
+    },
+    {
+      "id": "naukunda-temple-adult",
+      "location": "naukunda-temple",
+      "band": "adult",
+      "size": 3,
+      "penalty": 60
+    }
+  ]
+}

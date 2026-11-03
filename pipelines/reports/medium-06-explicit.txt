@@ -1,0 +1,24 @@
+FIELD REPORT - Nuwakot district flood response (scenario medium-06)
+
+VEHICLES: 1 car(s), 4 passenger seats each. Positions: [car1] at Jwalamukhi shelter [jwalamukhi-shelter].
+
+EVACUATION POINTS (people may only be dropped off here): Jwalamukhi shelter [jwalamukhi-shelter].
+
+ROADS
+- Jwalamukhi shelter [jwalamukhi-shelter] <-> Gajuri school [gajuri-school]: 19 min, open
+- Jwalamukhi shelter [jwalamukhi-shelter] <-> Belkot farm [belkot-farm]: 20 min, open
+- Jwalamukhi shelter [jwalamukhi-shelter] <-> Syaphru care home [syaphru-care-home]: 56 min, IMPASSABLE (damaged)
+- Suryagadhi market [suryagadhi-market] <-> Nilkantha temple [nilkantha-temple]: 5 min, open
+- Gajuri school [gajuri-school] <-> Belkot farm [belkot-farm]: 19 min, open
+- Gajuri school [gajuri-school] <-> Kalika temple [kalika-temple]: 19 min, open
+- Belkot farm [belkot-farm] <-> Kalika temple [kalika-temple]: 23 min, IMPASSABLE (damaged)
+- Syaphru care home [syaphru-care-home] <-> Kalika temple [kalika-temple]: 30 min, open
+- Kalika temple [kalika-temple] <-> Nilkantha temple [nilkantha-temple]: 12 min, IMPASSABLE (damaged)
+Any road not listed here does not exist or cannot be used.
+
+PEOPLE AWAITING RESCUE
+- Kalika temple [kalika-temple]: 6 elderly people
+- Nilkantha temple [nilkantha-temple]: 1 elderly person
+- Suryagadhi market [suryagadhi-market]: 1 adult
+- Syaphru care home [syaphru-care-home]: 1 injured person
+People at the same location may be split between cars or trips.

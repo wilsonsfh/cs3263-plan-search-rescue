@@ -1,0 +1,36 @@
+FIELD REPORT - Nuwakot district flood response (scenario large-02)
+
+Our team has two cars available, each able to carry four passengers. Currently: [car1] at Bidur shelter [bidur-shelter]; [car2] at Suryagadhi hospital [suryagadhi-hospital].
+
+SAFE LOCATIONS
+Bidur shelter [bidur-shelter] is above the flood line and is taking in evacuees.
+Suryagadhi hospital [suryagadhi-hospital] is accepting people brought in from the flooded areas.
+Tarkeshwar school [tarkeshwar-school] sits on higher ground, but it has no food, water or medical staff and the authorities have not designated it as a place to bring people.
+
+ROAD CONDITIONS
+- Drivers report the road between Kalika village [kalika-village] and Tadi village [tadi-village] is clear; it takes roughly 13 minutes.
+- Floodwater is running fast over the Likhu market [likhu-market] to Nilkantha farm [nilkantha-farm] road; a truck was swept off it this morning. The drive usually takes 26 minutes.
+- The drive from Tadi village [tadi-village] to Tarkeshwar school [tarkeshwar-school] takes about 5 minutes.
+- It is a 28-minute drive between Dupcheshwar school [dupcheshwar-school] and Tarkeshwar school [tarkeshwar-school], with some debris but no blockages.
+- Police have closed the Suryagadhi hospital [suryagadhi-hospital] to Likhu market [likhu-market] road after part of it collapsed into the river. It is normally 10 minutes by car.
+- It is a 7-minute drive between Bidur shelter [bidur-shelter] and Nilkantha farm [nilkantha-farm], with some debris but no blockages.
+- It is a 26-minute drive between Dupcheshwar school [dupcheshwar-school] and Tadi village [tadi-village], with some debris but no blockages.
+- It is a 20-minute drive between Suryagadhi hospital [suryagadhi-hospital] and Trishuli care home [trishuli-care-home], with some debris but no blockages.
+- It is a 17-minute drive between Nilkantha farm [nilkantha-farm] and Jwalamukhi market [jwalamukhi-market], with some debris but no blockages.
+- It is a 21-minute drive between Jwalamukhi market [jwalamukhi-market] and Tarkeshwar school [tarkeshwar-school], with some debris but no blockages.
+- Drivers report the road between Kalika village [kalika-village] and Nilkantha farm [nilkantha-farm] is clear; it takes roughly 19 minutes.
+- Drivers report the road between Kalika village [kalika-village] and Jwalamukhi market [jwalamukhi-market] is clear; it takes roughly 8 minutes.
+- A landslide has buried the road between Bidur shelter [bidur-shelter] and Kalika village [kalika-village] (normally a 13-minute drive).
+- The Syaphru school [syaphru-school] to Trishuli care home [trishuli-care-home] road is muddy but passable, about 17 minutes by car.
+- The bridge on the Suryagadhi hospital [suryagadhi-hospital] to Syaphru school [syaphru-school] road (37 minutes in normal conditions) was washed away last night.
+- The drive from Syaphru school [syaphru-school] to Tadi village [tadi-village] takes about 48 minutes.
+Any road not listed here does not exist or cannot be used.
+
+STRANDED CIVILIANS
+- At Kalika village [kalika-village], residents report two pensioners, three men and women from the cooperative and two schoolchildren waiting for help.
+- At Syaphru school [syaphru-school], residents report six kids from the nursery class waiting for help.
+- At Jwalamukhi market [jwalamukhi-market], residents report four adult labourers waiting for help.
+- At Nilkantha farm [nilkantha-farm], residents report a farmer waiting for help.
+- At Trishuli care home [trishuli-care-home], residents report four people in their late seventies and eighties waiting for help.
+- At Tarkeshwar school [tarkeshwar-school], residents report four kids from the nursery class waiting for help.
+Families have said they are willing to travel separately if needed.

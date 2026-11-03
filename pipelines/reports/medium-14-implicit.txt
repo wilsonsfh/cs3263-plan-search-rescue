@@ -1,0 +1,31 @@
+FIELD REPORT - Nuwakot district flood response (scenario medium-14)
+
+Our team has two cars available, each able to carry four passengers. Currently: [car1] at Dupcheshwar shelter [dupcheshwar-shelter]; [car2] at Panchakanya hospital [panchakanya-hospital].
+
+SAFE LOCATIONS
+Volunteers at Dupcheshwar shelter [dupcheshwar-shelter] say they have room for more families.
+Panchakanya hospital [panchakanya-hospital] is accepting people brought in from the flooded areas.
+Tadi school [tadi-school] sits on higher ground, but it has no food, water or medical staff and the authorities have not designated it as a place to bring people.
+
+ROAD CONDITIONS
+- The Dupcheshwar shelter [dupcheshwar-shelter] to Tadi school [tadi-school] road is muddy but passable, about 10 minutes by car.
+- The Syaphru temple [syaphru-temple] to Tadi school [tadi-school] road is muddy but passable, about 8 minutes by car.
+- It is a 6-minute drive between Dupcheshwar shelter [dupcheshwar-shelter] and Benighat market [benighat-market], with some debris but no blockages.
+- Drivers report the road between Panchakanya hospital [panchakanya-hospital] and Tadi school [tadi-school] is clear; it takes roughly 16 minutes.
+- Floodwater is running fast over the Benighat market [benighat-market] to Syaphru temple [syaphru-temple] road; a truck was swept off it this morning. The drive usually takes 7 minutes.
+- The drive from Benighat market [benighat-market] to Tadi school [tadi-school] takes about 11 minutes.
+- The Myagang care home [myagang-care-home] to Uttargaya care home [uttargaya-care-home] road is muddy but passable, about 23 minutes by car.
+- The Panchakanya hospital [panchakanya-hospital] to Trishuli market [trishuli-market] road is muddy but passable, about 65 minutes by car.
+- It is a 16-minute drive between Myagang care home [myagang-care-home] and Tarkeshwar care home [tarkeshwar-care-home], with some debris but no blockages.
+- Floodwater is running fast over the Panchakanya hospital [panchakanya-hospital] to Benighat market [benighat-market] road; a truck was swept off it this morning. The drive usually takes 19 minutes.
+- It is a 14-minute drive between Uttargaya care home [uttargaya-care-home] and Tarkeshwar care home [tarkeshwar-care-home], with some debris but no blockages.
+- Drivers report the road between Benighat market [benighat-market] and Myagang care home [myagang-care-home] is clear; it takes roughly 20 minutes.
+Any road not listed here does not exist or cannot be used.
+
+STRANDED CIVILIANS
+- At Trishuli market [trishuli-market], residents report four elderly residents and four adult labourers waiting for help.
+- At Tadi school [tadi-school], residents report a seven-year-old child waiting for help.
+- At Uttargaya care home [uttargaya-care-home], residents report four working-age adults waiting for help.
+- At Tarkeshwar care home [tarkeshwar-care-home], residents report a farmer and three people in their late seventies and eighties waiting for help.
+- At Benighat market [benighat-market], residents report three frail senior citizens waiting for help.
+Families have said they are willing to travel separately if needed.

@@ -1,0 +1,133 @@
+{
+  "id": "small-05",
+  "size": "small",
+  "seed": 5,
+  "penalty_per_person": {
+    "injured": 80,
+    "child": 60,
+    "elderly": 50,
+    "adult": 20
+  },
+  "locations": [
+    {
+      "id": "shivapuri-shelter",
+      "name": "Shivapuri",
+      "kind": "shelter",
+      "evac": true,
+      "x": 37.1,
+      "y": 49.7
+    },
+    {
+      "id": "dhunche-temple",
+      "name": "Dhunche",
+      "kind": "temple",
+      "evac": false,
+      "x": 38.1,
+      "y": 36.5
+    },
+    {
+      "id": "likhu-market",
+      "name": "Likhu",
+      "kind": "market",
+      "evac": false,
+      "x": 14.9,
+      "y": 56.0
+    },
+    {
+      "id": "galchhi-school",
+      "name": "Galchhi",
+      "kind": "school",
+      "evac": false,
+      "x": 45.2,
+      "y": 17.5
+    },
+    {
+      "id": "myagang-care-home",
+      "name": "Myagang",
+      "kind": "care-home",
+      "evac": false,
+      "x": 2.8,
+      "y": 54.8
+    }
+  ],
+  "roads": [
+    {
+      "from": "shivapuri-shelter",
+      "to": "dhunche-temple",
+      "minutes": 13,
+      "damaged": false
+    },
+    {
+      "from": "shivapuri-shelter",
+      "to": "likhu-market",
+      "minutes": 23,
+      "damaged": true
+    },
+    {
+      "from": "shivapuri-shelter",
+      "to": "galchhi-school",
+      "minutes": 33,
+      "damaged": false
+    },
+    {
+      "from": "dhunche-temple",
+      "to": "likhu-market",
+      "minutes": 30,
+      "damaged": false
+    },
+    {
+      "from": "dhunche-temple",
+      "to": "galchhi-school",
+      "minutes": 20,
+      "damaged": true
+    },
+    {
+      "from": "likhu-market",
+      "to": "myagang-care-home",
+      "minutes": 12,
+      "damaged": true
+    }
+  ],
+  "people": [
+    {
+      "location": "dhunche-temple",
+      "band": "injured",
+      "count": 6
+    },
+    {
+      "location": "myagang-care-home",
+      "band": "elderly",
+      "count": 1
+    }
+  ],
+  "cars": [
+    {
+      "id": "car1",
+      "start": "shivapuri-shelter",
+      "seats": 4
+    }
+  ],
+  "groups": [
+    {
+      "id": "dhunche-temple-injured",
+      "location": "dhunche-temple",
+      "band": "injured",
+      "size": 4,
+      "penalty": 320
+    },
+    {
+      "id": "dhunche-temple-injured-2",
+      "location": "dhunche-temple",
+      "band": "injured",
+      "size": 2,
+      "penalty": 160
+    },
+    {
+      "id": "myagang-care-home-elderly",
+      "location": "myagang-care-home",
+      "band": "elderly",
+      "size": 1,
+      "penalty": 50
+    }
+  ]
+}

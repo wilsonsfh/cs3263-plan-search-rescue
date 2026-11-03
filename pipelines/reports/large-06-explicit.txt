@@ -1,0 +1,35 @@
+FIELD REPORT - Nuwakot district flood response (scenario large-06)
+
+VEHICLES: 2 car(s), 4 passenger seats each. Positions: [car1] at Kispang shelter [kispang-shelter]; [car2] at Benighat hospital [benighat-hospital].
+
+EVACUATION POINTS (people may only be dropped off here): Kispang shelter [kispang-shelter], Benighat hospital [benighat-hospital].
+
+ROADS
+- Kispang shelter [kispang-shelter] <-> Kakani temple [kakani-temple]: 5 min, open
+- Benighat hospital [benighat-hospital] <-> Myagang farm [myagang-farm]: 8 min, open
+- Benighat hospital [benighat-hospital] <-> Gajuri school [gajuri-school]: 12 min, open
+- Benighat hospital [benighat-hospital] <-> Dhunche temple [dhunche-temple]: 16 min, open
+- Kakani temple [kakani-temple] <-> Galchhi temple [galchhi-temple]: 45 min, open
+- Kakani temple [kakani-temple] <-> Dhunche temple [dhunche-temple]: 58 min, IMPASSABLE (damaged)
+- Galchhi temple [galchhi-temple] <-> Shivapuri care home [shivapuri-care-home]: 5 min, open
+- Galchhi temple [galchhi-temple] <-> Trishuli care home [trishuli-care-home]: 20 min, IMPASSABLE (damaged)
+- Myagang farm [myagang-farm] <-> Gajuri school [gajuri-school]: 19 min, open
+- Myagang farm [myagang-farm] <-> Dhunche temple [dhunche-temple]: 24 min, open
+- Gajuri school [gajuri-school] <-> Jwalamukhi market [jwalamukhi-market]: 11 min, open
+- Gajuri school [gajuri-school] <-> Dhunche temple [dhunche-temple]: 9 min, open
+- Jwalamukhi market [jwalamukhi-market] <-> Trishuli care home [trishuli-care-home]: 18 min, open
+- Jwalamukhi market [jwalamukhi-market] <-> Dhunche temple [dhunche-temple]: 18 min, open
+- Jwalamukhi market [jwalamukhi-market] <-> Syaphru care home [syaphru-care-home]: 21 min, open
+- Trishuli care home [trishuli-care-home] <-> Syaphru care home [syaphru-care-home]: 21 min, IMPASSABLE (damaged)
+- Tarkeshwar farm [tarkeshwar-farm] <-> Syaphru care home [syaphru-care-home]: 10 min, open
+Any road not listed here does not exist or cannot be used.
+
+PEOPLE AWAITING RESCUE
+- Tarkeshwar farm [tarkeshwar-farm]: 4 adults
+- Myagang farm [myagang-farm]: 6 adults
+- Syaphru care home [syaphru-care-home]: 5 elderly people
+- Gajuri school [gajuri-school]: 3 adults, 4 children
+- Shivapuri care home [shivapuri-care-home]: 2 elderly people
+- Kakani temple [kakani-temple]: 3 adults
+- Jwalamukhi market [jwalamukhi-market]: 2 children
+People at the same location may be split between cars or trips.
