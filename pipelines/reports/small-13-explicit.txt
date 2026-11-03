@@ -1,0 +1,18 @@
+FIELD REPORT - Nuwakot district flood response (scenario small-13)
+
+VEHICLES: 1 car(s), 4 passenger seats each. Positions: [car1] at Bidur shelter [bidur-shelter].
+
+EVACUATION POINTS (people may only be dropped off here): Bidur shelter [bidur-shelter].
+
+ROADS
+- Bidur shelter [bidur-shelter] <-> Nilkantha market [nilkantha-market]: 45 min, IMPASSABLE (damaged)
+- Bidur shelter [bidur-shelter] <-> Suryagadhi farm [suryagadhi-farm]: 20 min, open
+- Belkot village [belkot-village] <-> Likhu care home [likhu-care-home]: 22 min, open
+- Likhu care home [likhu-care-home] <-> Suryagadhi farm [suryagadhi-farm]: 51 min, open
+- Nilkantha market [nilkantha-market] <-> Suryagadhi farm [suryagadhi-farm]: 28 min, IMPASSABLE (damaged)
+Any road not listed here does not exist or cannot be used.
+
+PEOPLE AWAITING RESCUE
+- Belkot village [belkot-village]: 1 child
+- Nilkantha market [nilkantha-market]: 3 adults
+People at the same location may be split between cars or trips.

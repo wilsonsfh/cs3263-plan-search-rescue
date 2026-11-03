@@ -1,0 +1,27 @@
+FIELD REPORT - Nuwakot district flood response (scenario medium-04)
+
+Our team has two cars available, each able to carry four passengers. Currently: [car1], [car2] at Myagang shelter [myagang-shelter].
+
+SAFE LOCATIONS
+Myagang shelter [myagang-shelter] is above the flood line and is taking in evacuees.
+Nilkantha temple [nilkantha-temple] sits on higher ground, but it has no food, water or medical staff and the authorities have not designated it as a place to bring people.
+
+ROAD CONDITIONS
+- It is a 21-minute drive between Galchhi village [galchhi-village] and Naukunda village [naukunda-village], with some debris but no blockages.
+- The Myagang shelter [myagang-shelter] to Thakre village [thakre-village] road is muddy but passable, about 10 minutes by car.
+- Police have closed the Galchhi village [galchhi-village] to Shivapuri care home [shivapuri-care-home] road after part of it collapsed into the river. It is normally 10 minutes by car.
+- The Dhunche farm [dhunche-farm] to Naukunda village [naukunda-village] road is muddy but passable, about 21 minutes by car.
+- The Dhunche farm [dhunche-farm] to Bidur school [bidur-school] road is muddy but passable, about 12 minutes by car.
+- Floodwater is running fast over the Galchhi village [galchhi-village] to Bidur school [bidur-school] road; a truck was swept off it this morning. The drive usually takes 25 minutes.
+- The Myagang shelter [myagang-shelter] to Nilkantha temple [nilkantha-temple] road is muddy but passable, about 31 minutes by car.
+- The Shivapuri care home [shivapuri-care-home] to Bidur school [bidur-school] road is muddy but passable, about 20 minutes by car.
+- Police have closed the Dhunche farm [dhunche-farm] to Shivapuri care home [shivapuri-care-home] road after part of it collapsed into the river. It is normally 26 minutes by car.
+- Drivers report the road between Nilkantha temple [nilkantha-temple] and Naukunda village [naukunda-village] is clear; it takes roughly 55 minutes.
+Any road not listed here does not exist or cannot be used.
+
+STRANDED CIVILIANS
+- At Galchhi village [galchhi-village], residents report three young children and a woman with a deep head wound waiting for help.
+- At Nilkantha temple [nilkantha-temple], residents report seven working-age adults waiting for help.
+- At Bidur school [bidur-school], residents report three pupils waiting for help.
+- At Shivapuri care home [shivapuri-care-home], residents report four frail senior citizens waiting for help.
+Families have said they are willing to travel separately if needed.

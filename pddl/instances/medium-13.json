@@ -1,0 +1,205 @@
+{
+  "id": "medium-13",
+  "size": "medium",
+  "seed": 13,
+  "penalty_per_person": {
+    "injured": 80,
+    "child": 60,
+    "elderly": 50,
+    "adult": 20
+  },
+  "locations": [
+    {
+      "id": "tarkeshwar-shelter",
+      "name": "Tarkeshwar",
+      "kind": "shelter",
+      "evac": true,
+      "x": 10.0,
+      "y": 9.2
+    },
+    {
+      "id": "kalika-farm",
+      "name": "Kalika",
+      "kind": "farm",
+      "evac": false,
+      "x": 54.0,
+      "y": 21.5
+    },
+    {
+      "id": "trishuli-care-home",
+      "name": "Trishuli",
+      "kind": "care-home",
+      "evac": false,
+      "x": 41.4,
+      "y": 2.6
+    },
+    {
+      "id": "panchakanya-temple",
+      "name": "Panchakanya",
+      "kind": "temple",
+      "evac": false,
+      "x": 53.1,
+      "y": 14.6
+    },
+    {
+      "id": "gosaikunda-care-home",
+      "name": "Gosaikunda",
+      "kind": "care-home",
+      "evac": false,
+      "x": 41.5,
+      "y": 45.2
+    },
+    {
+      "id": "dhunche-village",
+      "name": "Dhunche",
+      "kind": "village",
+      "evac": false,
+      "x": 18.7,
+      "y": 2.5
+    },
+    {
+      "id": "nilkantha-temple",
+      "name": "Nilkantha",
+      "kind": "temple",
+      "evac": false,
+      "x": 48.7,
+      "y": 2.5
+    },
+    {
+      "id": "gajuri-farm",
+      "name": "Gajuri",
+      "kind": "farm",
+      "evac": false,
+      "x": 40.0,
+      "y": 5.3
+    }
+  ],
+  "roads": [
+    {
+      "from": "tarkeshwar-shelter",
+      "to": "dhunche-village",
+      "minutes": 11,
+      "damaged": false
+    },
+    {
+      "from": "kalika-farm",
+      "to": "panchakanya-temple",
+      "minutes": 7,
+      "damaged": true
+    },
+    {
+      "from": "kalika-farm",
+      "to": "gosaikunda-care-home",
+      "minutes": 27,
+      "damaged": false
+    },
+    {
+      "from": "kalika-farm",
+      "to": "dhunche-village",
+      "minutes": 40,
+      "damaged": true
+    },
+    {
+      "from": "kalika-farm",
+      "to": "nilkantha-temple",
+      "minutes": 20,
+      "damaged": false
+    },
+    {
+      "from": "kalika-farm",
+      "to": "gajuri-farm",
+      "minutes": 21,
+      "damaged": false
+    },
+    {
+      "from": "trishuli-care-home",
+      "to": "nilkantha-temple",
+      "minutes": 7,
+      "damaged": true
+    },
+    {
+      "from": "trishuli-care-home",
+      "to": "gajuri-farm",
+      "minutes": 5,
+      "damaged": false
+    },
+    {
+      "from": "panchakanya-temple",
+      "to": "gajuri-farm",
+      "minutes": 16,
+      "damaged": false
+    },
+    {
+      "from": "dhunche-village",
+      "to": "gajuri-farm",
+      "minutes": 21,
+      "damaged": false
+    }
+  ],
+  "people": [
+    {
+      "location": "dhunche-village",
+      "band": "injured",
+      "count": 1
+    },
+    {
+      "location": "gajuri-farm",
+      "band": "adult",
+      "count": 5
+    },
+    {
+      "location": "dhunche-village",
+      "band": "child",
+      "count": 2
+    },
+    {
+      "location": "gosaikunda-care-home",
+      "band": "adult",
+      "count": 3
+    }
+  ],
+  "cars": [
+    {
+      "id": "car1",
+      "start": "tarkeshwar-shelter",
+      "seats": 4
+    }
+  ],
+  "groups": [
+    {
+      "id": "dhunche-village-injured",
+      "location": "dhunche-village",
+      "band": "injured",
+      "size": 1,
+      "penalty": 80
+    },
+    {
+      "id": "gajuri-farm-adult",
+      "location": "gajuri-farm",
+      "band": "adult",
+      "size": 2,
+      "penalty": 40
+    },
+    {
+      "id": "dhunche-village-child",
+      "location": "dhunche-village",
+      "band": "child",
+      "size": 2,
+      "penalty": 120
+    },
+    {
+      "id": "gajuri-farm-adult-2",
+      "location": "gajuri-farm",
+      "band": "adult",
+      "size": 3,
+      "penalty": 60
+    },
+    {
+      "id": "gosaikunda-care-home-adult",
+      "location": "gosaikunda-care-home",
+      "band": "adult",
+      "size": 3,
+      "penalty": 60
+    }
+  ]
+}

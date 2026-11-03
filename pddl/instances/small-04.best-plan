@@ -1,0 +1,5 @@
+drive car1 naukunda-shelter likhu-school
+load car1 adult 3
+drive car1 likhu-school naukunda-shelter
+unload car1 adult 3
+defer benighat-farm adult 3

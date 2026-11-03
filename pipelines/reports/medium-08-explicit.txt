@@ -1,0 +1,24 @@
+FIELD REPORT - Nuwakot district flood response (scenario medium-08)
+
+VEHICLES: 2 car(s), 4 passenger seats each. Positions: [car1], [car2] at Uttargaya shelter [uttargaya-shelter].
+
+EVACUATION POINTS (people may only be dropped off here): Uttargaya shelter [uttargaya-shelter].
+
+ROADS
+- Uttargaya shelter [uttargaya-shelter] <-> Gajuri farm [gajuri-farm]: 20 min, IMPASSABLE (damaged)
+- Uttargaya shelter [uttargaya-shelter] <-> Kakani temple [kakani-temple]: 48 min, open
+- Uttargaya shelter [uttargaya-shelter] <-> Syaphru farm [syaphru-farm]: 11 min, IMPASSABLE (damaged)
+- Uttargaya shelter [uttargaya-shelter] <-> Bidur temple [bidur-temple]: 17 min, open
+- Galchhi temple [galchhi-temple] <-> Syaphru farm [syaphru-farm]: 20 min, open
+- Galchhi temple [galchhi-temple] <-> Trishuli village [trishuli-village]: 28 min, IMPASSABLE (damaged)
+- Syaphru farm [syaphru-farm] <-> Trishuli village [trishuli-village]: 8 min, open
+- Syaphru farm [syaphru-farm] <-> Bidur temple [bidur-temple]: 11 min, open
+- Trishuli village [trishuli-village] <-> Bidur temple [bidur-temple]: 7 min, open
+Any road not listed here does not exist or cannot be used.
+
+PEOPLE AWAITING RESCUE
+- Kakani temple [kakani-temple]: 3 elderly people, 4 adults
+- Bidur temple [bidur-temple]: 3 adults
+- Syaphru farm [syaphru-farm]: 3 elderly people
+- Trishuli village [trishuli-village]: 3 injured people
+People at the same location may be split between cars or trips.

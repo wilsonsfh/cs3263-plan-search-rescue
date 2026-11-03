@@ -1,0 +1,21 @@
+FIELD REPORT - Nuwakot district flood response (scenario small-04)
+
+Our team has one car available, able to carry four passengers. Currently: [car1] at Naukunda shelter [naukunda-shelter].
+
+SAFE LOCATIONS
+Volunteers at Naukunda shelter [naukunda-shelter] say they have room for more families.
+Likhu school [likhu-school] sits on higher ground, but it has no food, water or medical staff and the authorities have not designated it as a place to bring people.
+
+ROAD CONDITIONS
+- A landslide has buried the road between Naukunda shelter [naukunda-shelter] and Benighat farm [benighat-farm] (normally a 11-minute drive).
+- Drivers report the road between Naukunda shelter [naukunda-shelter] and Likhu school [likhu-school] is clear; it takes roughly 21 minutes.
+- It is a 36-minute drive between Kakani market [kakani-market] and Benighat farm [benighat-farm], with some debris but no blockages.
+- The Kakani market [kakani-market] to Likhu school [likhu-school] road is muddy but passable, about 16 minutes by car.
+- The drive from Likhu school [likhu-school] to Jwalamukhi temple [jwalamukhi-temple] takes about 44 minutes.
+- The Likhu school [likhu-school] to Benighat farm [benighat-farm] road is muddy but passable, about 22 minutes by car.
+Any road not listed here does not exist or cannot be used.
+
+STRANDED CIVILIANS
+- At Benighat farm [benighat-farm], residents report three working-age adults waiting for help.
+- At Likhu school [likhu-school], residents report three men and women from the cooperative waiting for help.
+Families have said they are willing to travel separately if needed.

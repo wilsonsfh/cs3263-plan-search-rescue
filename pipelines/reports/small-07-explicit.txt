@@ -1,0 +1,19 @@
+FIELD REPORT - Nuwakot district flood response (scenario small-07)
+
+VEHICLES: 1 car(s), 4 passenger seats each. Positions: [car1] at Naukunda shelter [naukunda-shelter].
+
+EVACUATION POINTS (people may only be dropped off here): Naukunda shelter [naukunda-shelter].
+
+ROADS
+- Naukunda shelter [naukunda-shelter] <-> Gosaikunda school [gosaikunda-school]: 28 min, open
+- Naukunda shelter [naukunda-shelter] <-> Myagang care home [myagang-care-home]: 5 min, open
+- Naukunda shelter [naukunda-shelter] <-> Kalika care home [kalika-care-home]: 26 min, open
+- Gosaikunda school [gosaikunda-school] <-> Kalika care home [kalika-care-home]: 5 min, open
+- Gosaikunda school [gosaikunda-school] <-> Shivapuri care home [shivapuri-care-home]: 47 min, open
+- Myagang care home [myagang-care-home] <-> Kalika care home [kalika-care-home]: 27 min, open
+Any road not listed here does not exist or cannot be used.
+
+PEOPLE AWAITING RESCUE
+- Gosaikunda school [gosaikunda-school]: 4 children, 4 injured people
+- Myagang care home [myagang-care-home]: 3 elderly people
+People at the same location may be split between cars or trips.

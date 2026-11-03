@@ -1,0 +1,138 @@
+{
+  "id": "small-07",
+  "size": "small",
+  "seed": 7,
+  "penalty_per_person": {
+    "injured": 80,
+    "child": 60,
+    "elderly": 50,
+    "adult": 20
+  },
+  "locations": [
+    {
+      "id": "naukunda-shelter",
+      "name": "Naukunda",
+      "kind": "shelter",
+      "evac": true,
+      "x": 57.5,
+      "y": 4.6
+    },
+    {
+      "id": "gosaikunda-school",
+      "name": "Gosaikunda",
+      "kind": "school",
+      "evac": false,
+      "x": 29.7,
+      "y": 1.2
+    },
+    {
+      "id": "myagang-care-home",
+      "name": "Myagang",
+      "kind": "care-home",
+      "evac": false,
+      "x": 58.2,
+      "y": 4.4
+    },
+    {
+      "id": "kalika-care-home",
+      "name": "Kalika",
+      "kind": "care-home",
+      "evac": false,
+      "x": 31.5,
+      "y": 2.6
+    },
+    {
+      "id": "shivapuri-care-home",
+      "name": "Shivapuri",
+      "kind": "care-home",
+      "evac": false,
+      "x": 22.7,
+      "y": 48.1
+    }
+  ],
+  "roads": [
+    {
+      "from": "naukunda-shelter",
+      "to": "gosaikunda-school",
+      "minutes": 28,
+      "damaged": false
+    },
+    {
+      "from": "naukunda-shelter",
+      "to": "myagang-care-home",
+      "minutes": 5,
+      "damaged": false
+    },
+    {
+      "from": "naukunda-shelter",
+      "to": "kalika-care-home",
+      "minutes": 26,
+      "damaged": false
+    },
+    {
+      "from": "gosaikunda-school",
+      "to": "kalika-care-home",
+      "minutes": 5,
+      "damaged": false
+    },
+    {
+      "from": "gosaikunda-school",
+      "to": "shivapuri-care-home",
+      "minutes": 47,
+      "damaged": false
+    },
+    {
+      "from": "myagang-care-home",
+      "to": "kalika-care-home",
+      "minutes": 27,
+      "damaged": false
+    }
+  ],
+  "people": [
+    {
+      "location": "gosaikunda-school",
+      "band": "child",
+      "count": 4
+    },
+    {
+      "location": "gosaikunda-school",
+      "band": "injured",
+      "count": 4
+    },
+    {
+      "location": "myagang-care-home",
+      "band": "elderly",
+      "count": 3
+    }
+  ],
+  "cars": [
+    {
+      "id": "car1",
+      "start": "naukunda-shelter",
+      "seats": 4
+    }
+  ],
+  "groups": [
+    {
+      "id": "gosaikunda-school-child",
+      "location": "gosaikunda-school",
+      "band": "child",
+      "size": 4,
+      "penalty": 240
+    },
+    {
+      "id": "gosaikunda-school-injured",
+      "location": "gosaikunda-school",
+      "band": "injured",
+      "size": 4,
+      "penalty": 320
+    },
+    {
+      "id": "myagang-care-home-elderly",
+      "location": "myagang-care-home",
+      "band": "elderly",
+      "size": 3,
+      "penalty": 150
+    }
+  ]
+}

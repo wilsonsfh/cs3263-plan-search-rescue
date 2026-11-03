@@ -1,0 +1,23 @@
+FIELD REPORT - Nuwakot district flood response (scenario small-08)
+
+Our team has one car available, able to carry four passengers. Currently: [car1] at Jwalamukhi shelter [jwalamukhi-shelter].
+
+SAFE LOCATIONS
+Volunteers at Jwalamukhi shelter [jwalamukhi-shelter] say they have room for more families.
+Dupcheshwar temple [dupcheshwar-temple] sits on higher ground, but it has no food, water or medical staff and the authorities have not designated it as a place to bring people.
+
+ROAD CONDITIONS
+- The Trishuli market [trishuli-market] to Gosaikunda school [gosaikunda-school] road is muddy but passable, about 17 minutes by car.
+- The bridge on the Thakre market [thakre-market] to Likhu school [likhu-school] road (14 minutes in normal conditions) was washed away last night.
+- The Jwalamukhi shelter [jwalamukhi-shelter] to Dupcheshwar temple [dupcheshwar-temple] road is muddy but passable, about 12 minutes by car.
+- The bridge on the Trishuli market [trishuli-market] to Likhu school [likhu-school] road (22 minutes in normal conditions) was washed away last night.
+- Drivers report the road between Dupcheshwar temple [dupcheshwar-temple] and Gosaikunda school [gosaikunda-school] is clear; it takes roughly 31 minutes.
+- The bridge on the Dupcheshwar temple [dupcheshwar-temple] to Thakre market [thakre-market] road (44 minutes in normal conditions) was washed away last night.
+- The drive from Trishuli market [trishuli-market] to Thakre market [thakre-market] takes about 19 minutes.
+Any road not listed here does not exist or cannot be used.
+
+STRANDED CIVILIANS
+- At Likhu school [likhu-school], residents report a schoolgirl and four people injured when their house collapsed waiting for help.
+- At Thakre market [thakre-market], residents report three men and women from the cooperative waiting for help.
+- At Trishuli market [trishuli-market], residents report four shopkeepers waiting for help.
+Families have said they are willing to travel separately if needed.

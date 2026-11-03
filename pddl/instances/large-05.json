@@ -1,0 +1,330 @@
+{
+  "id": "large-05",
+  "size": "large",
+  "seed": 5,
+  "penalty_per_person": {
+    "injured": 80,
+    "child": 60,
+    "elderly": 50,
+    "adult": 20
+  },
+  "locations": [
+    {
+      "id": "thakre-shelter",
+      "name": "Thakre",
+      "kind": "shelter",
+      "evac": true,
+      "x": 52.7,
+      "y": 55.0
+    },
+    {
+      "id": "nilkantha-hospital",
+      "name": "Nilkantha",
+      "kind": "hospital",
+      "evac": true,
+      "x": 49.3,
+      "y": 30.4
+    },
+    {
+      "id": "uttargaya-market",
+      "name": "Uttargaya",
+      "kind": "market",
+      "evac": false,
+      "x": 28.4,
+      "y": 46.9
+    },
+    {
+      "id": "panchakanya-farm",
+      "name": "Panchakanya",
+      "kind": "farm",
+      "evac": false,
+      "x": 55.8,
+      "y": 54.7
+    },
+    {
+      "id": "trishuli-care-home",
+      "name": "Trishuli",
+      "kind": "care-home",
+      "evac": false,
+      "x": 37.8,
+      "y": 37.4
+    },
+    {
+      "id": "syaphru-care-home",
+      "name": "Syaphru",
+      "kind": "care-home",
+      "evac": false,
+      "x": 1.2,
+      "y": 33.1
+    },
+    {
+      "id": "naukunda-temple",
+      "name": "Naukunda",
+      "kind": "temple",
+      "evac": false,
+      "x": 36.9,
+      "y": 9.9
+    },
+    {
+      "id": "likhu-temple",
+      "name": "Likhu",
+      "kind": "temple",
+      "evac": false,
+      "x": 31.2,
+      "y": 26.2
+    },
+    {
+      "id": "suryagadhi-market",
+      "name": "Suryagadhi",
+      "kind": "market",
+      "evac": false,
+      "x": 4.3,
+      "y": 6.6
+    },
+    {
+      "id": "belkot-village",
+      "name": "Belkot",
+      "kind": "village",
+      "evac": false,
+      "x": 59.7,
+      "y": 33.3
+    },
+    {
+      "id": "gajuri-care-home",
+      "name": "Gajuri",
+      "kind": "care-home",
+      "evac": false,
+      "x": 11.5,
+      "y": 26.2
+    },
+    {
+      "id": "tadi-village",
+      "name": "Tadi",
+      "kind": "village",
+      "evac": false,
+      "x": 39.2,
+      "y": 32.8
+    },
+    {
+      "id": "kispang-farm",
+      "name": "Kispang",
+      "kind": "farm",
+      "evac": false,
+      "x": 56.5,
+      "y": 12.4
+    },
+    {
+      "id": "kalika-village",
+      "name": "Kalika",
+      "kind": "village",
+      "evac": false,
+      "x": 22.1,
+      "y": 23.0
+    }
+  ],
+  "roads": [
+    {
+      "from": "thakre-shelter",
+      "to": "panchakanya-farm",
+      "minutes": 5,
+      "damaged": true
+    },
+    {
+      "from": "thakre-shelter",
+      "to": "trishuli-care-home",
+      "minutes": 23,
+      "damaged": true
+    },
+    {
+      "from": "nilkantha-hospital",
+      "to": "tadi-village",
+      "minutes": 10,
+      "damaged": false
+    },
+    {
+      "from": "uttargaya-market",
+      "to": "trishuli-care-home",
+      "minutes": 13,
+      "damaged": false
+    },
+    {
+      "from": "uttargaya-market",
+      "to": "likhu-temple",
+      "minutes": 21,
+      "damaged": true
+    },
+    {
+      "from": "trishuli-care-home",
+      "to": "likhu-temple",
+      "minutes": 13,
+      "damaged": true
+    },
+    {
+      "from": "trishuli-care-home",
+      "to": "tadi-village",
+      "minutes": 5,
+      "damaged": false
+    },
+    {
+      "from": "syaphru-care-home",
+      "to": "gajuri-care-home",
+      "minutes": 12,
+      "damaged": false
+    },
+    {
+      "from": "naukunda-temple",
+      "to": "likhu-temple",
+      "minutes": 17,
+      "damaged": false
+    },
+    {
+      "from": "likhu-temple",
+      "to": "suryagadhi-market",
+      "minutes": 33,
+      "damaged": false
+    },
+    {
+      "from": "likhu-temple",
+      "to": "gajuri-care-home",
+      "minutes": 20,
+      "damaged": false
+    },
+    {
+      "from": "likhu-temple",
+      "to": "kispang-farm",
+      "minutes": 29,
+      "damaged": false
+    },
+    {
+      "from": "likhu-temple",
+      "to": "kalika-village",
+      "minutes": 10,
+      "damaged": true
+    },
+    {
+      "from": "suryagadhi-market",
+      "to": "gajuri-care-home",
+      "minutes": 21,
+      "damaged": true
+    },
+    {
+      "from": "belkot-village",
+      "to": "tadi-village",
+      "minutes": 21,
+      "damaged": false
+    },
+    {
+      "from": "belkot-village",
+      "to": "kispang-farm",
+      "minutes": 21,
+      "damaged": false
+    }
+  ],
+  "people": [
+    {
+      "location": "suryagadhi-market",
+      "band": "elderly",
+      "count": 4
+    },
+    {
+      "location": "trishuli-care-home",
+      "band": "elderly",
+      "count": 3
+    },
+    {
+      "location": "suryagadhi-market",
+      "band": "adult",
+      "count": 6
+    },
+    {
+      "location": "panchakanya-farm",
+      "band": "adult",
+      "count": 1
+    },
+    {
+      "location": "uttargaya-market",
+      "band": "adult",
+      "count": 4
+    },
+    {
+      "location": "belkot-village",
+      "band": "adult",
+      "count": 1
+    },
+    {
+      "location": "suryagadhi-market",
+      "band": "child",
+      "count": 2
+    }
+  ],
+  "cars": [
+    {
+      "id": "car1",
+      "start": "thakre-shelter",
+      "seats": 4
+    },
+    {
+      "id": "car2",
+      "start": "nilkantha-hospital",
+      "seats": 4
+    }
+  ],
+  "groups": [
+    {
+      "id": "suryagadhi-market-elderly",
+      "location": "suryagadhi-market",
+      "band": "elderly",
+      "size": 4,
+      "penalty": 200
+    },
+    {
+      "id": "trishuli-care-home-elderly",
+      "location": "trishuli-care-home",
+      "band": "elderly",
+      "size": 3,
+      "penalty": 150
+    },
+    {
+      "id": "suryagadhi-market-adult",
+      "location": "suryagadhi-market",
+      "band": "adult",
+      "size": 2,
+      "penalty": 40
+    },
+    {
+      "id": "suryagadhi-market-adult-2",
+      "location": "suryagadhi-market",
+      "band": "adult",
+      "size": 4,
+      "penalty": 80
+    },
+    {
+      "id": "panchakanya-farm-adult",
+      "location": "panchakanya-farm",
+      "band": "adult",
+      "size": 1,
+      "penalty": 20
+    },
+    {
+      "id": "uttargaya-market-adult",
+      "location": "uttargaya-market",
+      "band": "adult",
+      "size": 4,
+      "penalty": 80
+    },
+    {
+      "id": "belkot-village-adult",
+      "location": "belkot-village",
+      "band": "adult",
+      "size": 1,
+      "penalty": 20
+    },
+    {
+      "id": "suryagadhi-market-child",
+      "location": "suryagadhi-market",
+      "band": "child",
+      "size": 2,
+      "penalty": 120
+    }
+  ]
+}

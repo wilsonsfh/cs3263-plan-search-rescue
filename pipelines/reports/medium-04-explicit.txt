@@ -1,0 +1,25 @@
+FIELD REPORT - Nuwakot district flood response (scenario medium-04)
+
+VEHICLES: 2 car(s), 4 passenger seats each. Positions: [car1], [car2] at Myagang shelter [myagang-shelter].
+
+EVACUATION POINTS (people may only be dropped off here): Myagang shelter [myagang-shelter].
+
+ROADS
+- Myagang shelter [myagang-shelter] <-> Nilkantha temple [nilkantha-temple]: 31 min, open
+- Myagang shelter [myagang-shelter] <-> Thakre village [thakre-village]: 10 min, open
+- Galchhi village [galchhi-village] <-> Shivapuri care home [shivapuri-care-home]: 10 min, IMPASSABLE (damaged)
+- Galchhi village [galchhi-village] <-> Naukunda village [naukunda-village]: 21 min, open
+- Galchhi village [galchhi-village] <-> Bidur school [bidur-school]: 25 min, IMPASSABLE (damaged)
+- Dhunche farm [dhunche-farm] <-> Shivapuri care home [shivapuri-care-home]: 26 min, IMPASSABLE (damaged)
+- Dhunche farm [dhunche-farm] <-> Naukunda village [naukunda-village]: 21 min, open
+- Dhunche farm [dhunche-farm] <-> Bidur school [bidur-school]: 12 min, open
+- Nilkantha temple [nilkantha-temple] <-> Naukunda village [naukunda-village]: 55 min, open
+- Shivapuri care home [shivapuri-care-home] <-> Bidur school [bidur-school]: 20 min, open
+Any road not listed here does not exist or cannot be used.
+
+PEOPLE AWAITING RESCUE
+- Galchhi village [galchhi-village]: 3 children, 1 injured person
+- Nilkantha temple [nilkantha-temple]: 7 adults
+- Bidur school [bidur-school]: 3 children
+- Shivapuri care home [shivapuri-care-home]: 4 elderly people
+People at the same location may be split between cars or trips.

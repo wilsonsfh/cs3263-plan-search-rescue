@@ -1,0 +1,7 @@
+(defer-rescue uttargaya-farm adult n2)
+(defer-rescue dupcheshwar-market adult n1)
+(drive car1 shivapuri-shelter kalika-farm)
+(load car1 kalika-farm adult n3 n3 n0 n0 n3 n4 n1)
+(drive car1 kalika-farm shivapuri-shelter)
+(unload car1 shivapuri-shelter adult n3 n1 n4)
+; cost = 74 (general cost)

@@ -1,0 +1,27 @@
+FIELD REPORT - Nuwakot district flood response (scenario medium-01)
+
+VEHICLES: 2 car(s), 4 passenger seats each. Positions: [car1], [car2] at Kakani shelter [kakani-shelter].
+
+EVACUATION POINTS (people may only be dropped off here): Kakani shelter [kakani-shelter].
+
+ROADS
+- Kakani shelter [kakani-shelter] <-> Tarkeshwar school [tarkeshwar-school]: 12 min, open
+- Kakani shelter [kakani-shelter] <-> Naukunda school [naukunda-school]: 25 min, open
+- Tarkeshwar school [tarkeshwar-school] <-> Benighat farm [benighat-farm]: 14 min, open
+- Tarkeshwar school [tarkeshwar-school] <-> Tadi school [tadi-school]: 7 min, IMPASSABLE (damaged)
+- Tarkeshwar school [tarkeshwar-school] <-> Naukunda school [naukunda-school]: 17 min, open
+- Benighat farm [benighat-farm] <-> Myagang market [myagang-market]: 54 min, IMPASSABLE (damaged)
+- Benighat farm [benighat-farm] <-> Tadi school [tadi-school]: 21 min, open
+- Benighat farm [benighat-farm] <-> Uttargaya farm [uttargaya-farm]: 38 min, open
+- Myagang market [myagang-market] <-> Naukunda school [naukunda-school]: 29 min, open
+- Gosaikunda temple [gosaikunda-temple] <-> Uttargaya farm [uttargaya-farm]: 5 min, open
+- Uttargaya farm [uttargaya-farm] <-> Belkot farm [belkot-farm]: 11 min, IMPASSABLE (damaged)
+Any road not listed here does not exist or cannot be used.
+
+PEOPLE AWAITING RESCUE
+- Myagang market [myagang-market]: 4 adults
+- Benighat farm [benighat-farm]: 4 adults
+- Tarkeshwar school [tarkeshwar-school]: 4 injured people, 1 child
+- Belkot farm [belkot-farm]: 2 adults
+- Naukunda school [naukunda-school]: 3 children
+People at the same location may be split between cars or trips.

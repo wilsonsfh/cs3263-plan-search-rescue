@@ -1,0 +1,38 @@
+FIELD REPORT - Nuwakot district flood response (scenario large-07)
+
+Our team has two cars available, each able to carry four passengers. Currently: [car1] at Galchhi shelter [galchhi-shelter]; [car2] at Shivapuri hospital [shivapuri-hospital].
+
+SAFE LOCATIONS
+Galchhi shelter [galchhi-shelter] is above the flood line and is taking in evacuees.
+Shivapuri hospital [shivapuri-hospital] is on high ground and its staff are receiving evacuees.
+Bidur temple [bidur-temple] sits on higher ground, but it has no food, water or medical staff and the authorities have not designated it as a place to bring people.
+
+ROAD CONDITIONS
+- The Likhu care home [likhu-care-home] to Kalika farm [kalika-farm] road is muddy but passable, about 20 minutes by car.
+- It is a 18-minute drive between Myagang care home [myagang-care-home] and Belkot farm [belkot-farm], with some debris but no blockages.
+- The drive from Naukunda care home [naukunda-care-home] to Kispang temple [kispang-temple] takes about 7 minutes.
+- It is a 12-minute drive between Gosaikunda village [gosaikunda-village] and Naukunda care home [naukunda-care-home], with some debris but no blockages.
+- The bridge on the Thakre care home [thakre-care-home] to Myagang care home [myagang-care-home] road (5 minutes in normal conditions) was washed away last night.
+- It is a 14-minute drive between Likhu care home [likhu-care-home] and Myagang care home [myagang-care-home], with some debris but no blockages.
+- The drive from Galchhi shelter [galchhi-shelter] to Naukunda care home [naukunda-care-home] takes about 10 minutes.
+- Drivers report the road between Bidur temple [bidur-temple] and Belkot farm [belkot-farm] is clear; it takes roughly 26 minutes.
+- The bridge on the Shivapuri hospital [shivapuri-hospital] to Bidur temple [bidur-temple] road (14 minutes in normal conditions) was washed away last night.
+- The Galchhi shelter [galchhi-shelter] to Kakani village [kakani-village] road is muddy but passable, about 5 minutes by car.
+- It is a 17-minute drive between Galchhi shelter [galchhi-shelter] and Kispang temple [kispang-temple], with some debris but no blockages.
+- The drive from Suryagadhi farm [suryagadhi-farm] to Belkot farm [belkot-farm] takes about 40 minutes.
+- The Likhu care home [likhu-care-home] to Thakre care home [thakre-care-home] road is muddy but passable, about 18 minutes by car.
+- The drive from Gosaikunda village [gosaikunda-village] to Kispang temple [kispang-temple] takes about 8 minutes.
+- A landslide has buried the road between Shivapuri hospital [shivapuri-hospital] and Belkot farm [belkot-farm] (normally a 17-minute drive).
+- The drive from Galchhi shelter [galchhi-shelter] to Belkot farm [belkot-farm] takes about 23 minutes.
+- Drivers report the road between Kalika farm [kalika-farm] and Belkot farm [belkot-farm] is clear; it takes roughly 9 minutes.
+- The Gosaikunda village [gosaikunda-village] to Belkot farm [belkot-farm] road is muddy but passable, about 13 minutes by car.
+Any road not listed here does not exist or cannot be used.
+
+STRANDED CIVILIANS
+- At Thakre care home [thakre-care-home], residents report a woman with a deep head wound waiting for help.
+- At Gosaikunda village [gosaikunda-village], residents report two adult labourers, four young children and a grandmother in her eighties waiting for help.
+- At Kalika farm [kalika-farm], residents report six shopkeepers waiting for help.
+- At Belkot farm [belkot-farm], residents report four people in their late seventies and eighties waiting for help.
+- At Naukunda care home [naukunda-care-home], residents report an elderly widow waiting for help.
+- At Likhu care home [likhu-care-home], residents report three frail senior citizens and a man with a broken leg waiting for help.
+Families have said they are willing to travel separately if needed.

@@ -1,0 +1,27 @@
+FIELD REPORT - Nuwakot district flood response (scenario medium-12)
+
+Our team has two cars available, each able to carry four passengers. Currently: [car1] at Panchakanya shelter [panchakanya-shelter]; [car2] at Shivapuri hospital [shivapuri-hospital].
+
+SAFE LOCATIONS
+Panchakanya shelter [panchakanya-shelter] is above the flood line and is taking in evacuees.
+Shivapuri hospital [shivapuri-hospital] is on high ground and its staff are receiving evacuees.
+Trishuli temple [trishuli-temple] sits on higher ground, but it has no food, water or medical staff and the authorities have not designated it as a place to bring people.
+
+ROAD CONDITIONS
+- Drivers report the road between Suryagadhi village [suryagadhi-village] and Kakani farm [kakani-farm] is clear; it takes roughly 6 minutes.
+- Drivers report the road between Trishuli temple [trishuli-temple] and Kakani farm [kakani-farm] is clear; it takes roughly 8 minutes.
+- It is a 19-minute drive between Panchakanya shelter [panchakanya-shelter] and Galchhi market [galchhi-market], with some debris but no blockages.
+- It is a 27-minute drive between Panchakanya shelter [panchakanya-shelter] and Jwalamukhi village [jwalamukhi-village], with some debris but no blockages.
+- It is a 40-minute drive between Panchakanya shelter [panchakanya-shelter] and Kakani farm [kakani-farm], with some debris but no blockages.
+- The drive from Shivapuri hospital [shivapuri-hospital] to Galchhi market [galchhi-market] takes about 40 minutes.
+- The drive from Panchakanya shelter [panchakanya-shelter] to Shivapuri hospital [shivapuri-hospital] takes about 26 minutes.
+- Drivers report the road between Panchakanya shelter [panchakanya-shelter] and Suryagadhi village [suryagadhi-village] is clear; it takes roughly 37 minutes.
+- It is a 30-minute drive between Shivapuri hospital [shivapuri-hospital] and Suryagadhi village [suryagadhi-village], with some debris but no blockages.
+Any road not listed here does not exist or cannot be used.
+
+STRANDED CIVILIANS
+- At Kakani farm [kakani-farm], residents report four men and women from the cooperative waiting for help.
+- At Jwalamukhi village [jwalamukhi-village], residents report four pupils and three adult labourers waiting for help.
+- At Galchhi market [galchhi-market], residents report four residents with fractures and cuts waiting for help.
+- At Suryagadhi village [suryagadhi-village], residents report four frail senior citizens waiting for help.
+Families have said they are willing to travel separately if needed.

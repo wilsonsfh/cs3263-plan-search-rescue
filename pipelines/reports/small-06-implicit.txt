@@ -1,0 +1,22 @@
+FIELD REPORT - Nuwakot district flood response (scenario small-06)
+
+Our team has one car available, able to carry four passengers. Currently: [car1] at Galchhi shelter [galchhi-shelter].
+
+SAFE LOCATIONS
+Volunteers at Galchhi shelter [galchhi-shelter] say they have room for more families.
+Panchakanya school [panchakanya-school] sits on higher ground, but it has no food, water or medical staff and the authorities have not designated it as a place to bring people.
+
+ROAD CONDITIONS
+- The drive from Nilkantha market [nilkantha-market] to Gosaikunda farm [gosaikunda-farm] takes about 23 minutes.
+- It is a 29-minute drive between Panchakanya school [panchakanya-school] and Gosaikunda farm [gosaikunda-farm], with some debris but no blockages.
+- The drive from Galchhi shelter [galchhi-shelter] to Gosaikunda farm [gosaikunda-farm] takes about 24 minutes.
+- It is a 9-minute drive between Galchhi shelter [galchhi-shelter] and Nilkantha market [nilkantha-market], with some debris but no blockages.
+- The Galchhi shelter [galchhi-shelter] to Dhunche farm [dhunche-farm] road is muddy but passable, about 23 minutes by car.
+- The bridge on the Jwalamukhi farm [jwalamukhi-farm] to Gosaikunda farm [gosaikunda-farm] road (18 minutes in normal conditions) was washed away last night.
+- Drivers report the road between Dhunche farm [dhunche-farm] and Gosaikunda farm [gosaikunda-farm] is clear; it takes roughly 29 minutes.
+Any road not listed here does not exist or cannot be used.
+
+STRANDED CIVILIANS
+- At Gosaikunda farm [gosaikunda-farm], residents report three wounded villagers and three shopkeepers waiting for help.
+- At Nilkantha market [nilkantha-market], residents report three shopkeepers waiting for help.
+Families have said they are willing to travel separately if needed.

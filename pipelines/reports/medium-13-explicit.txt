@@ -1,0 +1,24 @@
+FIELD REPORT - Nuwakot district flood response (scenario medium-13)
+
+VEHICLES: 1 car(s), 4 passenger seats each. Positions: [car1] at Tarkeshwar shelter [tarkeshwar-shelter].
+
+EVACUATION POINTS (people may only be dropped off here): Tarkeshwar shelter [tarkeshwar-shelter].
+
+ROADS
+- Tarkeshwar shelter [tarkeshwar-shelter] <-> Dhunche village [dhunche-village]: 11 min, open
+- Kalika farm [kalika-farm] <-> Panchakanya temple [panchakanya-temple]: 7 min, IMPASSABLE (damaged)
+- Kalika farm [kalika-farm] <-> Gosaikunda care home [gosaikunda-care-home]: 27 min, open
+- Kalika farm [kalika-farm] <-> Dhunche village [dhunche-village]: 40 min, IMPASSABLE (damaged)
+- Kalika farm [kalika-farm] <-> Nilkantha temple [nilkantha-temple]: 20 min, open
+- Kalika farm [kalika-farm] <-> Gajuri farm [gajuri-farm]: 21 min, open
+- Trishuli care home [trishuli-care-home] <-> Nilkantha temple [nilkantha-temple]: 7 min, IMPASSABLE (damaged)
+- Trishuli care home [trishuli-care-home] <-> Gajuri farm [gajuri-farm]: 5 min, open
+- Panchakanya temple [panchakanya-temple] <-> Gajuri farm [gajuri-farm]: 16 min, open
+- Dhunche village [dhunche-village] <-> Gajuri farm [gajuri-farm]: 21 min, open
+Any road not listed here does not exist or cannot be used.
+
+PEOPLE AWAITING RESCUE
+- Dhunche village [dhunche-village]: 1 injured person, 2 children
+- Gajuri farm [gajuri-farm]: 5 adults
+- Gosaikunda care home [gosaikunda-care-home]: 3 adults
+People at the same location may be split between cars or trips.

@@ -1,0 +1,24 @@
+FIELD REPORT - Nuwakot district flood response (scenario medium-15)
+
+VEHICLES: 2 car(s), 4 passenger seats each. Positions: [car1] at Jwalamukhi shelter [jwalamukhi-shelter]; [car2] at Gosaikunda hospital [gosaikunda-hospital].
+
+EVACUATION POINTS (people may only be dropped off here): Jwalamukhi shelter [jwalamukhi-shelter], Gosaikunda hospital [gosaikunda-hospital].
+
+ROADS
+- Jwalamukhi shelter [jwalamukhi-shelter] <-> Gosaikunda hospital [gosaikunda-hospital]: 18 min, open
+- Jwalamukhi shelter [jwalamukhi-shelter] <-> Galchhi farm [galchhi-farm]: 28 min, IMPASSABLE (damaged)
+- Jwalamukhi shelter [jwalamukhi-shelter] <-> Tadi farm [tadi-farm]: 5 min, open
+- Gosaikunda hospital [gosaikunda-hospital] <-> Gajuri market [gajuri-market]: 49 min, open
+- Gosaikunda hospital [gosaikunda-hospital] <-> Galchhi farm [galchhi-farm]: 43 min, open
+- Gosaikunda hospital [gosaikunda-hospital] <-> Kakani village [kakani-village]: 5 min, open
+- Gosaikunda hospital [gosaikunda-hospital] <-> Tadi farm [tadi-farm]: 22 min, open
+- Gajuri market [gajuri-market] <-> Shivapuri care home [shivapuri-care-home]: 17 min, open
+- Dupcheshwar market [dupcheshwar-market] <-> Kakani village [kakani-village]: 19 min, open
+Any road not listed here does not exist or cannot be used.
+
+PEOPLE AWAITING RESCUE
+- Tadi farm [tadi-farm]: 2 adults
+- Dupcheshwar market [dupcheshwar-market]: 6 adults
+- Kakani village [kakani-village]: 3 adults
+- Galchhi farm [galchhi-farm]: 2 elderly people
+People at the same location may be split between cars or trips.

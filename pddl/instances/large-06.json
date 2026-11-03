@@ -1,0 +1,339 @@
+{
+  "id": "large-06",
+  "size": "large",
+  "seed": 6,
+  "penalty_per_person": {
+    "injured": 80,
+    "child": 60,
+    "elderly": 50,
+    "adult": 20
+  },
+  "locations": [
+    {
+      "id": "kispang-shelter",
+      "name": "Kispang",
+      "kind": "shelter",
+      "evac": true,
+      "x": 6.1,
+      "y": 58.0
+    },
+    {
+      "id": "benighat-hospital",
+      "name": "Benighat",
+      "kind": "hospital",
+      "evac": true,
+      "x": 56.2,
+      "y": 8.5
+    },
+    {
+      "id": "kakani-temple",
+      "name": "Kakani",
+      "kind": "temple",
+      "evac": false,
+      "x": 4.5,
+      "y": 55.2
+    },
+    {
+      "id": "galchhi-temple",
+      "name": "Galchhi",
+      "kind": "temple",
+      "evac": false,
+      "x": 3.8,
+      "y": 10.1
+    },
+    {
+      "id": "myagang-farm",
+      "name": "Myagang",
+      "kind": "farm",
+      "evac": false,
+      "x": 57.2,
+      "y": 1.0
+    },
+    {
+      "id": "gajuri-school",
+      "name": "Gajuri",
+      "kind": "school",
+      "evac": false,
+      "x": 48.2,
+      "y": 17.6
+    },
+    {
+      "id": "shivapuri-care-home",
+      "name": "Shivapuri",
+      "kind": "care-home",
+      "evac": false,
+      "x": 6.7,
+      "y": 8.1
+    },
+    {
+      "id": "jwalamukhi-market",
+      "name": "Jwalamukhi",
+      "kind": "market",
+      "evac": false,
+      "x": 37.0,
+      "y": 18.1
+    },
+    {
+      "id": "trishuli-care-home",
+      "name": "Trishuli",
+      "kind": "care-home",
+      "evac": false,
+      "x": 23.5,
+      "y": 6.4
+    },
+    {
+      "id": "tarkeshwar-farm",
+      "name": "Tarkeshwar",
+      "kind": "farm",
+      "evac": false,
+      "x": 21.1,
+      "y": 35.8
+    },
+    {
+      "id": "dhunche-temple",
+      "name": "Dhunche",
+      "kind": "temple",
+      "evac": false,
+      "x": 53.5,
+      "y": 24.3
+    },
+    {
+      "id": "syaphru-care-home",
+      "name": "Syaphru",
+      "kind": "care-home",
+      "evac": false,
+      "x": 17.4,
+      "y": 26.0
+    }
+  ],
+  "roads": [
+    {
+      "from": "kispang-shelter",
+      "to": "kakani-temple",
+      "minutes": 5,
+      "damaged": false
+    },
+    {
+      "from": "benighat-hospital",
+      "to": "myagang-farm",
+      "minutes": 8,
+      "damaged": false
+    },
+    {
+      "from": "benighat-hospital",
+      "to": "gajuri-school",
+      "minutes": 12,
+      "damaged": false
+    },
+    {
+      "from": "benighat-hospital",
+      "to": "dhunche-temple",
+      "minutes": 16,
+      "damaged": false
+    },
+    {
+      "from": "kakani-temple",
+      "to": "galchhi-temple",
+      "minutes": 45,
+      "damaged": false
+    },
+    {
+      "from": "kakani-temple",
+      "to": "dhunche-temple",
+      "minutes": 58,
+      "damaged": true
+    },
+    {
+      "from": "galchhi-temple",
+      "to": "shivapuri-care-home",
+      "minutes": 5,
+      "damaged": false
+    },
+    {
+      "from": "galchhi-temple",
+      "to": "trishuli-care-home",
+      "minutes": 20,
+      "damaged": true
+    },
+    {
+      "from": "myagang-farm",
+      "to": "gajuri-school",
+      "minutes": 19,
+      "damaged": false
+    },
+    {
+      "from": "myagang-farm",
+      "to": "dhunche-temple",
+      "minutes": 24,
+      "damaged": false
+    },
+    {
+      "from": "gajuri-school",
+      "to": "jwalamukhi-market",
+      "minutes": 11,
+      "damaged": false
+    },
+    {
+      "from": "gajuri-school",
+      "to": "dhunche-temple",
+      "minutes": 9,
+      "damaged": false
+    },
+    {
+      "from": "jwalamukhi-market",
+      "to": "trishuli-care-home",
+      "minutes": 18,
+      "damaged": false
+    },
+    {
+      "from": "jwalamukhi-market",
+      "to": "dhunche-temple",
+      "minutes": 18,
+      "damaged": false
+    },
+    {
+      "from": "jwalamukhi-market",
+      "to": "syaphru-care-home",
+      "minutes": 21,
+      "damaged": false
+    },
+    {
+      "from": "trishuli-care-home",
+      "to": "syaphru-care-home",
+      "minutes": 21,
+      "damaged": true
+    },
+    {
+      "from": "tarkeshwar-farm",
+      "to": "syaphru-care-home",
+      "minutes": 10,
+      "damaged": false
+    }
+  ],
+  "people": [
+    {
+      "location": "tarkeshwar-farm",
+      "band": "adult",
+      "count": 4
+    },
+    {
+      "location": "myagang-farm",
+      "band": "adult",
+      "count": 6
+    },
+    {
+      "location": "syaphru-care-home",
+      "band": "elderly",
+      "count": 5
+    },
+    {
+      "location": "gajuri-school",
+      "band": "adult",
+      "count": 3
+    },
+    {
+      "location": "gajuri-school",
+      "band": "child",
+      "count": 4
+    },
+    {
+      "location": "shivapuri-care-home",
+      "band": "elderly",
+      "count": 2
+    },
+    {
+      "location": "kakani-temple",
+      "band": "adult",
+      "count": 3
+    },
+    {
+      "location": "jwalamukhi-market",
+      "band": "child",
+      "count": 2
+    }
+  ],
+  "cars": [
+    {
+      "id": "car1",
+      "start": "kispang-shelter",
+      "seats": 4
+    },
+    {
+      "id": "car2",
+      "start": "benighat-hospital",
+      "seats": 4
+    }
+  ],
+  "groups": [
+    {
+      "id": "tarkeshwar-farm-adult",
+      "location": "tarkeshwar-farm",
+      "band": "adult",
+      "size": 4,
+      "penalty": 80
+    },
+    {
+      "id": "myagang-farm-adult",
+      "location": "myagang-farm",
+      "band": "adult",
+      "size": 4,
+      "penalty": 80
+    },
+    {
+      "id": "syaphru-care-home-elderly",
+      "location": "syaphru-care-home",
+      "band": "elderly",
+      "size": 3,
+      "penalty": 150
+    },
+    {
+      "id": "gajuri-school-adult",
+      "location": "gajuri-school",
+      "band": "adult",
+      "size": 3,
+      "penalty": 60
+    },
+    {
+      "id": "gajuri-school-child",
+      "location": "gajuri-school",
+      "band": "child",
+      "size": 4,
+      "penalty": 240
+    },
+    {
+      "id": "shivapuri-care-home-elderly",
+      "location": "shivapuri-care-home",
+      "band": "elderly",
+      "size": 2,
+      "penalty": 100
+    },
+    {
+      "id": "kakani-temple-adult",
+      "location": "kakani-temple",
+      "band": "adult",
+      "size": 3,
+      "penalty": 60
+    },
+    {
+      "id": "jwalamukhi-market-child",
+      "location": "jwalamukhi-market",
+      "band": "child",
+      "size": 2,
+      "penalty": 120
+    },
+    {
+      "id": "syaphru-care-home-elderly-2",
+      "location": "syaphru-care-home",
+      "band": "elderly",
+      "size": 2,
+      "penalty": 100
+    },
+    {
+      "id": "myagang-farm-adult-2",
+      "location": "myagang-farm",
+      "band": "adult",
+      "size": 2,
+      "penalty": 40
+    }
+  ]
+}

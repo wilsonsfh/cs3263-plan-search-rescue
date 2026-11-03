@@ -1,0 +1,127 @@
+{
+  "id": "small-13",
+  "size": "small",
+  "seed": 13,
+  "penalty_per_person": {
+    "injured": 80,
+    "child": 60,
+    "elderly": 50,
+    "adult": 20
+  },
+  "locations": [
+    {
+      "id": "bidur-shelter",
+      "name": "Bidur",
+      "kind": "shelter",
+      "evac": true,
+      "x": 15.0,
+      "y": 25.0
+    },
+    {
+      "id": "belkot-village",
+      "name": "Belkot",
+      "kind": "village",
+      "evac": false,
+      "x": 32.6,
+      "y": 41.7
+    },
+    {
+      "id": "likhu-care-home",
+      "name": "Likhu",
+      "kind": "care-home",
+      "evac": false,
+      "x": 45.3,
+      "y": 59.2
+    },
+    {
+      "id": "nilkantha-market",
+      "name": "Nilkantha",
+      "kind": "market",
+      "evac": false,
+      "x": 57.7,
+      "y": 11.6
+    },
+    {
+      "id": "suryagadhi-farm",
+      "name": "Suryagadhi",
+      "kind": "farm",
+      "evac": false,
+      "x": 29.9,
+      "y": 11.0
+    }
+  ],
+  "roads": [
+    {
+      "from": "bidur-shelter",
+      "to": "nilkantha-market",
+      "minutes": 45,
+      "damaged": true
+    },
+    {
+      "from": "bidur-shelter",
+      "to": "suryagadhi-farm",
+      "minutes": 20,
+      "damaged": false
+    },
+    {
+      "from": "belkot-village",
+      "to": "likhu-care-home",
+      "minutes": 22,
+      "damaged": false
+    },
+    {
+      "from": "likhu-care-home",
+      "to": "suryagadhi-farm",
+      "minutes": 51,
+      "damaged": false
+    },
+    {
+      "from": "nilkantha-market",
+      "to": "suryagadhi-farm",
+      "minutes": 28,
+      "damaged": true
+    }
+  ],
+  "people": [
+    {
+      "location": "belkot-village",
+      "band": "child",
+      "count": 1
+    },
+    {
+      "location": "nilkantha-market",
+      "band": "adult",
+      "count": 3
+    }
+  ],
+  "cars": [
+    {
+      "id": "car1",
+      "start": "bidur-shelter",
+      "seats": 4
+    }
+  ],
+  "groups": [
+    {
+      "id": "belkot-village-child",
+      "location": "belkot-village",
+      "band": "child",
+      "size": 1,
+      "penalty": 60
+    },
+    {
+      "id": "nilkantha-market-adult",
+      "location": "nilkantha-market",
+      "band": "adult",
+      "size": 1,
+      "penalty": 20
+    },
+    {
+      "id": "nilkantha-market-adult-2",
+      "location": "nilkantha-market",
+      "band": "adult",
+      "size": 2,
+      "penalty": 40
+    }
+  ]
+}

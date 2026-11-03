@@ -1,0 +1,26 @@
+FIELD REPORT - Nuwakot district flood response (scenario medium-02)
+
+Our team has two cars available, each able to carry four passengers. Currently: [car1] at Benighat shelter [benighat-shelter]; [car2] at Dhunche hospital [dhunche-hospital].
+
+SAFE LOCATIONS
+Benighat shelter [benighat-shelter] is above the flood line and is taking in evacuees.
+Dhunche hospital [dhunche-hospital] is accepting people brought in from the flooded areas.
+Kalika temple [kalika-temple] sits on higher ground, but it has no food, water or medical staff and the authorities have not designated it as a place to bring people.
+
+ROAD CONDITIONS
+- Drivers report the road between Likhu village [likhu-village] and Kalika temple [kalika-temple] is clear; it takes roughly 11 minutes.
+- Drivers report the road between Benighat shelter [benighat-shelter] and Jwalamukhi care home [jwalamukhi-care-home] is clear; it takes roughly 21 minutes.
+- The drive from Dhunche hospital [dhunche-hospital] to Uttargaya care home [uttargaya-care-home] takes about 12 minutes.
+- It is a 30-minute drive between Dhunche hospital [dhunche-hospital] and Kalika temple [kalika-temple], with some debris but no blockages.
+- The drive from Jwalamukhi care home [jwalamukhi-care-home] to Kalika temple [kalika-temple] takes about 19 minutes.
+- The Dhunche hospital [dhunche-hospital] to Likhu village [likhu-village] road is muddy but passable, about 22 minutes by car.
+- A landslide has buried the road between Benighat shelter [benighat-shelter] and Kalika temple [kalika-temple] (normally a 8-minute drive).
+- Drivers report the road between Jwalamukhi care home [jwalamukhi-care-home] and Nilkantha farm [nilkantha-farm] is clear; it takes roughly 19 minutes.
+- Drivers report the road between Benighat shelter [benighat-shelter] and Nilkantha farm [nilkantha-farm] is clear; it takes roughly 22 minutes.
+Any road not listed here does not exist or cannot be used.
+
+STRANDED CIVILIANS
+- At Likhu village [likhu-village], residents report four men and women from the cooperative and four people hurt by falling debris waiting for help.
+- At Nilkantha farm [nilkantha-farm], residents report a young woman in her twenties and two residents with fractures and cuts waiting for help.
+- At Kalika temple [kalika-temple], residents report two pensioners waiting for help.
+Families have said they are willing to travel separately if needed.

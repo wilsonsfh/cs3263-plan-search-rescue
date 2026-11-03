@@ -1,0 +1,198 @@
+{
+  "id": "medium-06",
+  "size": "medium",
+  "seed": 6,
+  "penalty_per_person": {
+    "injured": 80,
+    "child": 60,
+    "elderly": 50,
+    "adult": 20
+  },
+  "locations": [
+    {
+      "id": "jwalamukhi-shelter",
+      "name": "Jwalamukhi",
+      "kind": "shelter",
+      "evac": true,
+      "x": 10.5,
+      "y": 1.7
+    },
+    {
+      "id": "suryagadhi-market",
+      "name": "Suryagadhi",
+      "kind": "market",
+      "evac": false,
+      "x": 28.2,
+      "y": 48.3
+    },
+    {
+      "id": "gajuri-school",
+      "name": "Gajuri",
+      "kind": "school",
+      "evac": false,
+      "x": 23.0,
+      "y": 15.9
+    },
+    {
+      "id": "belkot-farm",
+      "name": "Belkot",
+      "kind": "farm",
+      "evac": false,
+      "x": 4.5,
+      "y": 20.9
+    },
+    {
+      "id": "syaphru-care-home",
+      "name": "Syaphru",
+      "kind": "care-home",
+      "evac": false,
+      "x": 52.4,
+      "y": 39.3
+    },
+    {
+      "id": "kalika-temple",
+      "name": "Kalika",
+      "kind": "temple",
+      "evac": false,
+      "x": 22.8,
+      "y": 34.6
+    },
+    {
+      "id": "nilkantha-temple",
+      "name": "Nilkantha",
+      "kind": "temple",
+      "evac": false,
+      "x": 27.4,
+      "y": 46.1
+    }
+  ],
+  "roads": [
+    {
+      "from": "jwalamukhi-shelter",
+      "to": "gajuri-school",
+      "minutes": 19,
+      "damaged": false
+    },
+    {
+      "from": "jwalamukhi-shelter",
+      "to": "belkot-farm",
+      "minutes": 20,
+      "damaged": false
+    },
+    {
+      "from": "jwalamukhi-shelter",
+      "to": "syaphru-care-home",
+      "minutes": 56,
+      "damaged": true
+    },
+    {
+      "from": "suryagadhi-market",
+      "to": "nilkantha-temple",
+      "minutes": 5,
+      "damaged": false
+    },
+    {
+      "from": "gajuri-school",
+      "to": "belkot-farm",
+      "minutes": 19,
+      "damaged": false
+    },
+    {
+      "from": "gajuri-school",
+      "to": "kalika-temple",
+      "minutes": 19,
+      "damaged": false
+    },
+    {
+      "from": "belkot-farm",
+      "to": "kalika-temple",
+      "minutes": 23,
+      "damaged": true
+    },
+    {
+      "from": "syaphru-care-home",
+      "to": "kalika-temple",
+      "minutes": 30,
+      "damaged": false
+    },
+    {
+      "from": "kalika-temple",
+      "to": "nilkantha-temple",
+      "minutes": 12,
+      "damaged": true
+    }
+  ],
+  "people": [
+    {
+      "location": "kalika-temple",
+      "band": "elderly",
+      "count": 6
+    },
+    {
+      "location": "nilkantha-temple",
+      "band": "elderly",
+      "count": 1
+    },
+    {
+      "location": "suryagadhi-market",
+      "band": "adult",
+      "count": 1
+    },
+    {
+      "location": "syaphru-care-home",
+      "band": "injured",
+      "count": 1
+    }
+  ],
+  "cars": [
+    {
+      "id": "car1",
+      "start": "jwalamukhi-shelter",
+      "seats": 4
+    }
+  ],
+  "groups": [
+    {
+      "id": "kalika-temple-elderly",
+      "location": "kalika-temple",
+      "band": "elderly",
+      "size": 1,
+      "penalty": 50
+    },
+    {
+      "id": "nilkantha-temple-elderly",
+      "location": "nilkantha-temple",
+      "band": "elderly",
+      "size": 1,
+      "penalty": 50
+    },
+    {
+      "id": "kalika-temple-elderly-2",
+      "location": "kalika-temple",
+      "band": "elderly",
+      "size": 4,
+      "penalty": 200
+    },
+    {
+      "id": "suryagadhi-market-adult",
+      "location": "suryagadhi-market",
+      "band": "adult",
+      "size": 1,
+      "penalty": 20
+    },
+    {
+      "id": "syaphru-care-home-injured",
+      "location": "syaphru-care-home",
+      "band": "injured",
+      "size": 1,
+      "penalty": 80
+    },
+    {
+      "id": "kalika-temple-elderly-3",
+      "location": "kalika-temple",
+      "band": "elderly",
+      "size": 1,
+      "penalty": 50
+    }
+  ]
+}

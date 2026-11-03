@@ -1,0 +1,26 @@
+FIELD REPORT - Nuwakot district flood response (scenario medium-15)
+
+Our team has two cars available, each able to carry four passengers. Currently: [car1] at Jwalamukhi shelter [jwalamukhi-shelter]; [car2] at Gosaikunda hospital [gosaikunda-hospital].
+
+SAFE LOCATIONS
+Volunteers at Jwalamukhi shelter [jwalamukhi-shelter] say they have room for more families.
+Gosaikunda hospital [gosaikunda-hospital] is on high ground and its staff are receiving evacuees.
+
+ROAD CONDITIONS
+- Drivers report the road between Gosaikunda hospital [gosaikunda-hospital] and Gajuri market [gajuri-market] is clear; it takes roughly 49 minutes.
+- It is a 43-minute drive between Gosaikunda hospital [gosaikunda-hospital] and Galchhi farm [galchhi-farm], with some debris but no blockages.
+- A landslide has buried the road between Jwalamukhi shelter [jwalamukhi-shelter] and Galchhi farm [galchhi-farm] (normally a 28-minute drive).
+- Drivers report the road between Gosaikunda hospital [gosaikunda-hospital] and Tadi farm [tadi-farm] is clear; it takes roughly 22 minutes.
+- The drive from Jwalamukhi shelter [jwalamukhi-shelter] to Tadi farm [tadi-farm] takes about 5 minutes.
+- The drive from Dupcheshwar market [dupcheshwar-market] to Kakani village [kakani-village] takes about 19 minutes.
+- It is a 17-minute drive between Gajuri market [gajuri-market] and Shivapuri care home [shivapuri-care-home], with some debris but no blockages.
+- Drivers report the road between Jwalamukhi shelter [jwalamukhi-shelter] and Gosaikunda hospital [gosaikunda-hospital] is clear; it takes roughly 18 minutes.
+- It is a 5-minute drive between Gosaikunda hospital [gosaikunda-hospital] and Kakani village [kakani-village], with some debris but no blockages.
+Any road not listed here does not exist or cannot be used.
+
+STRANDED CIVILIANS
+- At Tadi farm [tadi-farm], residents report two shopkeepers waiting for help.
+- At Dupcheshwar market [dupcheshwar-market], residents report six adult labourers waiting for help.
+- At Kakani village [kakani-village], residents report three men and women from the cooperative waiting for help.
+- At Galchhi farm [galchhi-farm], residents report two pensioners waiting for help.
+Families have said they are willing to travel separately if needed.

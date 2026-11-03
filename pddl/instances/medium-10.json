@@ -1,0 +1,239 @@
+{
+  "id": "medium-10",
+  "size": "medium",
+  "seed": 10,
+  "penalty_per_person": {
+    "injured": 80,
+    "child": 60,
+    "elderly": 50,
+    "adult": 20
+  },
+  "locations": [
+    {
+      "id": "kispang-shelter",
+      "name": "Kispang",
+      "kind": "shelter",
+      "evac": true,
+      "x": 45.4,
+      "y": 15.4
+    },
+    {
+      "id": "tadi-market",
+      "name": "Tadi",
+      "kind": "market",
+      "evac": false,
+      "x": 7.6,
+      "y": 58.5
+    },
+    {
+      "id": "gosaikunda-temple",
+      "name": "Gosaikunda",
+      "kind": "temple",
+      "evac": false,
+      "x": 39.5,
+      "y": 38.7
+    },
+    {
+      "id": "naukunda-farm",
+      "name": "Naukunda",
+      "kind": "farm",
+      "evac": false,
+      "x": 17.3,
+      "y": 52.5
+    },
+    {
+      "id": "thakre-care-home",
+      "name": "Thakre",
+      "kind": "care-home",
+      "evac": false,
+      "x": 49.3,
+      "y": 34.6
+    },
+    {
+      "id": "dupcheshwar-temple",
+      "name": "Dupcheshwar",
+      "kind": "temple",
+      "evac": false,
+      "x": 21.2,
+      "y": 25.6
+    },
+    {
+      "id": "myagang-temple",
+      "name": "Myagang",
+      "kind": "temple",
+      "evac": false,
+      "x": 55.9,
+      "y": 3.6
+    },
+    {
+      "id": "galchhi-temple",
+      "name": "Galchhi",
+      "kind": "temple",
+      "evac": false,
+      "x": 30.1,
+      "y": 53.4
+    }
+  ],
+  "roads": [
+    {
+      "from": "kispang-shelter",
+      "to": "gosaikunda-temple",
+      "minutes": 24,
+      "damaged": false
+    },
+    {
+      "from": "kispang-shelter",
+      "to": "thakre-care-home",
+      "minutes": 20,
+      "damaged": true
+    },
+    {
+      "from": "kispang-shelter",
+      "to": "dupcheshwar-temple",
+      "minutes": 26,
+      "damaged": false
+    },
+    {
+      "from": "kispang-shelter",
+      "to": "myagang-temple",
+      "minutes": 16,
+      "damaged": false
+    },
+    {
+      "from": "tadi-market",
+      "to": "naukunda-farm",
+      "minutes": 11,
+      "damaged": false
+    },
+    {
+      "from": "tadi-market",
+      "to": "galchhi-temple",
+      "minutes": 23,
+      "damaged": true
+    },
+    {
+      "from": "gosaikunda-temple",
+      "to": "thakre-care-home",
+      "minutes": 11,
+      "damaged": false
+    },
+    {
+      "from": "gosaikunda-temple",
+      "to": "dupcheshwar-temple",
+      "minutes": 23,
+      "damaged": true
+    },
+    {
+      "from": "gosaikunda-temple",
+      "to": "galchhi-temple",
+      "minutes": 17,
+      "damaged": false
+    },
+    {
+      "from": "thakre-care-home",
+      "to": "myagang-temple",
+      "minutes": 32,
+      "damaged": false
+    }
+  ],
+  "people": [
+    {
+      "location": "galchhi-temple",
+      "band": "child",
+      "count": 4
+    },
+    {
+      "location": "dupcheshwar-temple",
+      "band": "elderly",
+      "count": 1
+    },
+    {
+      "location": "myagang-temple",
+      "band": "injured",
+      "count": 3
+    },
+    {
+      "location": "myagang-temple",
+      "band": "adult",
+      "count": 3
+    },
+    {
+      "location": "naukunda-farm",
+      "band": "adult",
+      "count": 2
+    },
+    {
+      "location": "tadi-market",
+      "band": "injured",
+      "count": 3
+    },
+    {
+      "location": "myagang-temple",
+      "band": "elderly",
+      "count": 2
+    }
+  ],
+  "cars": [
+    {
+      "id": "car1",
+      "start": "kispang-shelter",
+      "seats": 4
+    },
+    {
+      "id": "car2",
+      "start": "kispang-shelter",
+      "seats": 4
+    }
+  ],
+  "groups": [
+    {
+      "id": "galchhi-temple-child",
+      "location": "galchhi-temple",
+      "band": "child",
+      "size": 4,
+      "penalty": 240
+    },
+    {
+      "id": "dupcheshwar-temple-elderly",
+      "location": "dupcheshwar-temple",
+      "band": "elderly",
+      "size": 1,
+      "penalty": 50
+    },
+    {
+      "id": "myagang-temple-injured",
+      "location": "myagang-temple",
+      "band": "injured",
+      "size": 3,
+      "penalty": 240
+    },
+    {
+      "id": "myagang-temple-adult",
+      "location": "myagang-temple",
+      "band": "adult",
+      "size": 3,
+      "penalty": 60
+    },
+    {
+      "id": "naukunda-farm-adult",
+      "location": "naukunda-farm",
+      "band": "adult",
+      "size": 2,
+      "penalty": 40
+    },
+    {
+      "id": "tadi-market-injured",
+      "location": "tadi-market",
+      "band": "injured",
+      "size": 3,
+      "penalty": 240
+    },
+    {
+      "id": "myagang-temple-elderly",
+      "location": "myagang-temple",
+      "band": "elderly",
+      "size": 2,
+      "penalty": 100
+    }
+  ]
+}

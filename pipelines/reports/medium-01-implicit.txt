@@ -1,0 +1,29 @@
+FIELD REPORT - Nuwakot district flood response (scenario medium-01)
+
+Our team has two cars available, each able to carry four passengers. Currently: [car1], [car2] at Kakani shelter [kakani-shelter].
+
+SAFE LOCATIONS
+Volunteers at Kakani shelter [kakani-shelter] say they have room for more families.
+Tarkeshwar school [tarkeshwar-school] sits on higher ground, but it has no food, water or medical staff and the authorities have not designated it as a place to bring people.
+
+ROAD CONDITIONS
+- It is a 38-minute drive between Benighat farm [benighat-farm] and Uttargaya farm [uttargaya-farm], with some debris but no blockages.
+- The bridge on the Benighat farm [benighat-farm] to Myagang market [myagang-market] road (54 minutes in normal conditions) was washed away last night.
+- The drive from Tarkeshwar school [tarkeshwar-school] to Naukunda school [naukunda-school] takes about 17 minutes.
+- The Myagang market [myagang-market] to Naukunda school [naukunda-school] road is muddy but passable, about 29 minutes by car.
+- The Tarkeshwar school [tarkeshwar-school] to Benighat farm [benighat-farm] road is muddy but passable, about 14 minutes by car.
+- Drivers report the road between Kakani shelter [kakani-shelter] and Naukunda school [naukunda-school] is clear; it takes roughly 25 minutes.
+- Police have closed the Uttargaya farm [uttargaya-farm] to Belkot farm [belkot-farm] road after part of it collapsed into the river. It is normally 11 minutes by car.
+- The bridge on the Tarkeshwar school [tarkeshwar-school] to Tadi school [tadi-school] road (7 minutes in normal conditions) was washed away last night.
+- The Gosaikunda temple [gosaikunda-temple] to Uttargaya farm [uttargaya-farm] road is muddy but passable, about 5 minutes by car.
+- The Benighat farm [benighat-farm] to Tadi school [tadi-school] road is muddy but passable, about 21 minutes by car.
+- The Kakani shelter [kakani-shelter] to Tarkeshwar school [tarkeshwar-school] road is muddy but passable, about 12 minutes by car.
+Any road not listed here does not exist or cannot be used.
+
+STRANDED CIVILIANS
+- At Myagang market [myagang-market], residents report four working-age adults waiting for help.
+- At Benighat farm [benighat-farm], residents report four working-age adults waiting for help.
+- At Tarkeshwar school [tarkeshwar-school], residents report four people hurt by falling debris and a seven-year-old child waiting for help.
+- At Belkot farm [belkot-farm], residents report two shopkeepers waiting for help.
+- At Naukunda school [naukunda-school], residents report three kids from the nursery class waiting for help.
+Families have said they are willing to travel separately if needed.

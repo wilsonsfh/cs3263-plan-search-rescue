@@ -1,0 +1,152 @@
+{
+  "id": "small-14",
+  "size": "small",
+  "seed": 14,
+  "penalty_per_person": {
+    "injured": 80,
+    "child": 60,
+    "elderly": 50,
+    "adult": 20
+  },
+  "locations": [
+    {
+      "id": "tarkeshwar-shelter",
+      "name": "Tarkeshwar",
+      "kind": "shelter",
+      "evac": true,
+      "x": 7.3,
+      "y": 47.2
+    },
+    {
+      "id": "shivapuri-farm",
+      "name": "Shivapuri",
+      "kind": "farm",
+      "evac": false,
+      "x": 41.5,
+      "y": 29.1
+    },
+    {
+      "id": "gosaikunda-village",
+      "name": "Gosaikunda",
+      "kind": "village",
+      "evac": false,
+      "x": 57.5,
+      "y": 49.5
+    },
+    {
+      "id": "tadi-farm",
+      "name": "Tadi",
+      "kind": "farm",
+      "evac": false,
+      "x": 7.1,
+      "y": 20.5
+    },
+    {
+      "id": "benighat-farm",
+      "name": "Benighat",
+      "kind": "farm",
+      "evac": false,
+      "x": 35.6,
+      "y": 52.7
+    },
+    {
+      "id": "myagang-temple",
+      "name": "Myagang",
+      "kind": "temple",
+      "evac": false,
+      "x": 23.6,
+      "y": 34.8
+    }
+  ],
+  "roads": [
+    {
+      "from": "tarkeshwar-shelter",
+      "to": "myagang-temple",
+      "minutes": 20,
+      "damaged": false
+    },
+    {
+      "from": "shivapuri-farm",
+      "to": "gosaikunda-village",
+      "minutes": 26,
+      "damaged": true
+    },
+    {
+      "from": "shivapuri-farm",
+      "to": "benighat-farm",
+      "minutes": 24,
+      "damaged": true
+    },
+    {
+      "from": "shivapuri-farm",
+      "to": "myagang-temple",
+      "minutes": 19,
+      "damaged": false
+    },
+    {
+      "from": "gosaikunda-village",
+      "to": "tadi-farm",
+      "minutes": 58,
+      "damaged": false
+    },
+    {
+      "from": "tadi-farm",
+      "to": "myagang-temple",
+      "minutes": 22,
+      "damaged": false
+    },
+    {
+      "from": "benighat-farm",
+      "to": "myagang-temple",
+      "minutes": 21,
+      "damaged": false
+    }
+  ],
+  "people": [
+    {
+      "location": "myagang-temple",
+      "band": "elderly",
+      "count": 3
+    },
+    {
+      "location": "myagang-temple",
+      "band": "adult",
+      "count": 3
+    },
+    {
+      "location": "tadi-farm",
+      "band": "adult",
+      "count": 2
+    }
+  ],
+  "cars": [
+    {
+      "id": "car1",
+      "start": "tarkeshwar-shelter",
+      "seats": 4
+    }
+  ],
+  "groups": [
+    {
+      "id": "myagang-temple-elderly",
+      "location": "myagang-temple",
+      "band": "elderly",
+      "size": 3,
+      "penalty": 150
+    },
+    {
+      "id": "myagang-temple-adult",
+      "location": "myagang-temple",
+      "band": "adult",
+      "size": 3,
+      "penalty": 60
+    },
+    {
+      "id": "tadi-farm-adult",
+      "location": "tadi-farm",
+      "band": "adult",
+      "size": 2,
+      "penalty": 40
+    }
+  ]
+}

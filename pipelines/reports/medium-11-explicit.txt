@@ -1,0 +1,24 @@
+FIELD REPORT - Nuwakot district flood response (scenario medium-11)
+
+VEHICLES: 1 car(s), 4 passenger seats each. Positions: [car1] at Naukunda shelter [naukunda-shelter].
+
+EVACUATION POINTS (people may only be dropped off here): Naukunda shelter [naukunda-shelter].
+
+ROADS
+- Naukunda shelter [naukunda-shelter] <-> Gosaikunda care home [gosaikunda-care-home]: 20 min, open
+- Naukunda shelter [naukunda-shelter] <-> Dupcheshwar market [dupcheshwar-market]: 7 min, IMPASSABLE (damaged)
+- Naukunda shelter [naukunda-shelter] <-> Shivapuri market [shivapuri-market]: 16 min, open
+- Galchhi care home [galchhi-care-home] <-> Gosaikunda care home [gosaikunda-care-home]: 55 min, open
+- Benighat market [benighat-market] <-> Gosaikunda care home [gosaikunda-care-home]: 8 min, open
+- Gosaikunda care home [gosaikunda-care-home] <-> Panchakanya temple [panchakanya-temple]: 34 min, open
+- Gosaikunda care home [gosaikunda-care-home] <-> Shivapuri market [shivapuri-market]: 13 min, IMPASSABLE (damaged)
+- Dupcheshwar market [dupcheshwar-market] <-> Syaphru school [syaphru-school]: 21 min, IMPASSABLE (damaged)
+- Dupcheshwar market [dupcheshwar-market] <-> Shivapuri market [shivapuri-market]: 24 min, open
+Any road not listed here does not exist or cannot be used.
+
+PEOPLE AWAITING RESCUE
+- Benighat market [benighat-market]: 4 adults
+- Gosaikunda care home [gosaikunda-care-home]: 3 adults
+- Syaphru school [syaphru-school]: 4 children
+- Dupcheshwar market [dupcheshwar-market]: 7 elderly people
+People at the same location may be split between cars or trips.

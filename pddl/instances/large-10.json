@@ -1,0 +1,305 @@
+{
+  "id": "large-10",
+  "size": "large",
+  "seed": 10,
+  "penalty_per_person": {
+    "injured": 80,
+    "child": 60,
+    "elderly": 50,
+    "adult": 20
+  },
+  "locations": [
+    {
+      "id": "panchakanya-shelter",
+      "name": "Panchakanya",
+      "kind": "shelter",
+      "evac": true,
+      "x": 31.2,
+      "y": 35.7
+    },
+    {
+      "id": "tadi-hospital",
+      "name": "Tadi",
+      "kind": "hospital",
+      "evac": true,
+      "x": 59.8,
+      "y": 4.4
+    },
+    {
+      "id": "dhunche-temple",
+      "name": "Dhunche",
+      "kind": "temple",
+      "evac": false,
+      "x": 42.8,
+      "y": 32.9
+    },
+    {
+      "id": "jwalamukhi-care-home",
+      "name": "Jwalamukhi",
+      "kind": "care-home",
+      "evac": false,
+      "x": 50.8,
+      "y": 48.2
+    },
+    {
+      "id": "trishuli-care-home",
+      "name": "Trishuli",
+      "kind": "care-home",
+      "evac": false,
+      "x": 2.1,
+      "y": 25.2
+    },
+    {
+      "id": "gajuri-market",
+      "name": "Gajuri",
+      "kind": "market",
+      "evac": false,
+      "x": 3.0,
+      "y": 14.6
+    },
+    {
+      "id": "likhu-school",
+      "name": "Likhu",
+      "kind": "school",
+      "evac": false,
+      "x": 13.7,
+      "y": 11.7
+    },
+    {
+      "id": "syaphru-farm",
+      "name": "Syaphru",
+      "kind": "farm",
+      "evac": false,
+      "x": 10.2,
+      "y": 9.3
+    },
+    {
+      "id": "myagang-farm",
+      "name": "Myagang",
+      "kind": "farm",
+      "evac": false,
+      "x": 7.5,
+      "y": 14.6
+    },
+    {
+      "id": "thakre-market",
+      "name": "Thakre",
+      "kind": "market",
+      "evac": false,
+      "x": 43.1,
+      "y": 43.1
+    }
+  ],
+  "roads": [
+    {
+      "from": "panchakanya-shelter",
+      "to": "tadi-hospital",
+      "minutes": 42,
+      "damaged": false
+    },
+    {
+      "from": "panchakanya-shelter",
+      "to": "dhunche-temple",
+      "minutes": 12,
+      "damaged": false
+    },
+    {
+      "from": "panchakanya-shelter",
+      "to": "syaphru-farm",
+      "minutes": 34,
+      "damaged": false
+    },
+    {
+      "from": "panchakanya-shelter",
+      "to": "thakre-market",
+      "minutes": 14,
+      "damaged": true
+    },
+    {
+      "from": "dhunche-temple",
+      "to": "jwalamukhi-care-home",
+      "minutes": 17,
+      "damaged": false
+    },
+    {
+      "from": "dhunche-temple",
+      "to": "thakre-market",
+      "minutes": 10,
+      "damaged": false
+    },
+    {
+      "from": "jwalamukhi-care-home",
+      "to": "thakre-market",
+      "minutes": 9,
+      "damaged": false
+    },
+    {
+      "from": "trishuli-care-home",
+      "to": "gajuri-market",
+      "minutes": 11,
+      "damaged": true
+    },
+    {
+      "from": "trishuli-care-home",
+      "to": "myagang-farm",
+      "minutes": 12,
+      "damaged": false
+    },
+    {
+      "from": "gajuri-market",
+      "to": "syaphru-farm",
+      "minutes": 9,
+      "damaged": false
+    },
+    {
+      "from": "gajuri-market",
+      "to": "myagang-farm",
+      "minutes": 5,
+      "damaged": true
+    },
+    {
+      "from": "likhu-school",
+      "to": "syaphru-farm",
+      "minutes": 5,
+      "damaged": false
+    },
+    {
+      "from": "likhu-school",
+      "to": "myagang-farm",
+      "minutes": 7,
+      "damaged": true
+    },
+    {
+      "from": "syaphru-farm",
+      "to": "myagang-farm",
+      "minutes": 6,
+      "damaged": false
+    }
+  ],
+  "people": [
+    {
+      "location": "myagang-farm",
+      "band": "adult",
+      "count": 1
+    },
+    {
+      "location": "syaphru-farm",
+      "band": "adult",
+      "count": 3
+    },
+    {
+      "location": "gajuri-market",
+      "band": "adult",
+      "count": 1
+    },
+    {
+      "location": "gajuri-market",
+      "band": "child",
+      "count": 2
+    },
+    {
+      "location": "thakre-market",
+      "band": "adult",
+      "count": 3
+    },
+    {
+      "location": "dhunche-temple",
+      "band": "adult",
+      "count": 4
+    },
+    {
+      "location": "trishuli-care-home",
+      "band": "elderly",
+      "count": 7
+    },
+    {
+      "location": "dhunche-temple",
+      "band": "child",
+      "count": 1
+    }
+  ],
+  "cars": [
+    {
+      "id": "car1",
+      "start": "panchakanya-shelter",
+      "seats": 4
+    },
+    {
+      "id": "car2",
+      "start": "tadi-hospital",
+      "seats": 4
+    }
+  ],
+  "groups": [
+    {
+      "id": "myagang-farm-adult",
+      "location": "myagang-farm",
+      "band": "adult",
+      "size": 1,
+      "penalty": 20
+    },
+    {
+      "id": "syaphru-farm-adult",
+      "location": "syaphru-farm",
+      "band": "adult",
+      "size": 3,
+      "penalty": 60
+    },
+    {
+      "id": "gajuri-market-adult",
+      "location": "gajuri-market",
+      "band": "adult",
+      "size": 1,
+      "penalty": 20
+    },
+    {
+      "id": "gajuri-market-child",
+      "location": "gajuri-market",
+      "band": "child",
+      "size": 2,
+      "penalty": 120
+    },
+    {
+      "id": "thakre-market-adult",
+      "location": "thakre-market",
+      "band": "adult",
+      "size": 1,
+      "penalty": 20
+    },
+    {
+      "id": "dhunche-temple-adult",
+      "location": "dhunche-temple",
+      "band": "adult",
+      "size": 4,
+      "penalty": 80
+    },
+    {
+      "id": "thakre-market-adult-2",
+      "location": "thakre-market",
+      "band": "adult",
+      "size": 2,
+      "penalty": 40
+    },
+    {
+      "id": "trishuli-care-home-elderly",
+      "location": "trishuli-care-home",
+      "band": "elderly",
+      "size": 3,
+      "penalty": 150
+    },
+    {
+      "id": "trishuli-care-home-elderly-2",
+      "location": "trishuli-care-home",
+      "band": "elderly",
+      "size": 4,
+      "penalty": 200
+    },
+    {
+      "id": "dhunche-temple-child",
+      "location": "dhunche-temple",
+      "band": "child",
+      "size": 1,
+      "penalty": 60
+    }
+  ]
+}

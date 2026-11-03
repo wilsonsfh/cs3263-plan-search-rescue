@@ -1,0 +1,41 @@
+FIELD REPORT - Nuwakot district flood response (scenario large-01)
+
+Our team has two cars available, each able to carry four passengers. Currently: [car1] at Myagang shelter [myagang-shelter]; [car2] at Uttargaya hospital [uttargaya-hospital].
+
+SAFE LOCATIONS
+Volunteers at Myagang shelter [myagang-shelter] say they have room for more families.
+Uttargaya hospital [uttargaya-hospital] is on high ground and its staff are receiving evacuees.
+Tadi temple [tadi-temple] sits on higher ground, but it has no food, water or medical staff and the authorities have not designated it as a place to bring people.
+
+ROAD CONDITIONS
+- The drive from Tarkeshwar care home [tarkeshwar-care-home] to Bidur farm [bidur-farm] takes about 9 minutes.
+- Floodwater is running fast over the Likhu temple [likhu-temple] to Jwalamukhi market [jwalamukhi-market] road; a truck was swept off it this morning. The drive usually takes 7 minutes.
+- A landslide has buried the road between Uttargaya hospital [uttargaya-hospital] and Likhu temple [likhu-temple] (normally a 16-minute drive).
+- The drive from Uttargaya hospital [uttargaya-hospital] to Tadi temple [tadi-temple] takes about 15 minutes.
+- The drive from Uttargaya hospital [uttargaya-hospital] to Gosaikunda school [gosaikunda-school] takes about 11 minutes.
+- It is a 8-minute drive between Likhu temple [likhu-temple] and Tadi temple [tadi-temple], with some debris but no blockages.
+- It is a 14-minute drive between Jwalamukhi market [jwalamukhi-market] and Tadi temple [tadi-temple], with some debris but no blockages.
+- The Shivapuri farm [shivapuri-farm] to Jwalamukhi market [jwalamukhi-market] road is muddy but passable, about 12 minutes by car.
+- Police have closed the Galchhi school [galchhi-school] to Suryagadhi temple [suryagadhi-temple] road after part of it collapsed into the river. It is normally 5 minutes by car.
+- The Myagang shelter [myagang-shelter] to Dhunche school [dhunche-school] road is muddy but passable, about 5 minutes by car.
+- It is a 9-minute drive between Trishuli farm [trishuli-farm] and Tarkeshwar care home [tarkeshwar-care-home], with some debris but no blockages.
+- A landslide has buried the road between Tarkeshwar care home [tarkeshwar-care-home] and Suryagadhi temple [suryagadhi-temple] (normally a 22-minute drive).
+- Floodwater is running fast over the Shivapuri farm [shivapuri-farm] to Suryagadhi temple [suryagadhi-temple] road; a truck was swept off it this morning. The drive usually takes 30 minutes.
+- The Galchhi school [galchhi-school] to Dhunche school [dhunche-school] road is muddy but passable, about 11 minutes by car.
+- The Suryagadhi temple [suryagadhi-temple] to Dhunche school [dhunche-school] road is muddy but passable, about 13 minutes by car.
+- The drive from Gosaikunda school [gosaikunda-school] to Suryagadhi temple [suryagadhi-temple] takes about 13 minutes.
+- The drive from Myagang shelter [myagang-shelter] to Suryagadhi temple [suryagadhi-temple] takes about 8 minutes.
+- Drivers report the road between Uttargaya hospital [uttargaya-hospital] and Shivapuri farm [shivapuri-farm] is clear; it takes roughly 11 minutes.
+- The Kalika village [kalika-village] to Suryagadhi temple [suryagadhi-temple] road is muddy but passable, about 20 minutes by car.
+Any road not listed here does not exist or cannot be used.
+
+STRANDED CIVILIANS
+- At Dhunche school [dhunche-school], residents report three men and women from the cooperative waiting for help.
+- At Shivapuri farm [shivapuri-farm], residents report three adult labourers waiting for help.
+- At Bidur farm [bidur-farm], residents report two working-age adults waiting for help.
+- At Suryagadhi temple [suryagadhi-temple], residents report an elderly couple waiting for help.
+- At Trishuli farm [trishuli-farm], residents report a farmer waiting for help.
+- At Galchhi school [galchhi-school], residents report three men and women from the cooperative waiting for help.
+- At Gosaikunda school [gosaikunda-school], residents report seven pupils waiting for help.
+- At Kalika village [kalika-village], residents report four schoolchildren waiting for help.
+Families have said they are willing to travel separately if needed.

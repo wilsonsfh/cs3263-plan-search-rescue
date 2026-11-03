@@ -1,0 +1,25 @@
+FIELD REPORT - Nuwakot district flood response (scenario medium-07)
+
+VEHICLES: 1 car(s), 4 passenger seats each. Positions: [car1] at Kakani shelter [kakani-shelter].
+
+EVACUATION POINTS (people may only be dropped off here): Kakani shelter [kakani-shelter], Myagang hospital [myagang-hospital].
+
+ROADS
+- Kakani shelter [kakani-shelter] <-> Myagang hospital [myagang-hospital]: 18 min, open
+- Kakani shelter [kakani-shelter] <-> Gajuri market [gajuri-market]: 23 min, IMPASSABLE (damaged)
+- Kakani shelter [kakani-shelter] <-> Jwalamukhi school [jwalamukhi-school]: 40 min, open
+- Kakani shelter [kakani-shelter] <-> Dupcheshwar farm [dupcheshwar-farm]: 23 min, open
+- Myagang hospital [myagang-hospital] <-> Gajuri market [gajuri-market]: 11 min, IMPASSABLE (damaged)
+- Myagang hospital [myagang-hospital] <-> Panchakanya school [panchakanya-school]: 33 min, open
+- Benighat school [benighat-school] <-> Jwalamukhi school [jwalamukhi-school]: 7 min, open
+- Gajuri market [gajuri-market] <-> Panchakanya school [panchakanya-school]: 23 min, open
+- Panchakanya school [panchakanya-school] <-> Dupcheshwar farm [dupcheshwar-farm]: 27 min, open
+Any road not listed here does not exist or cannot be used.
+
+PEOPLE AWAITING RESCUE
+- Panchakanya school [panchakanya-school]: 3 children
+- Benighat school [benighat-school]: 4 children, 4 injured people
+- Gajuri market [gajuri-market]: 3 adults
+- Dupcheshwar farm [dupcheshwar-farm]: 1 child
+- Jwalamukhi school [jwalamukhi-school]: 4 adults
+People at the same location may be split between cars or trips.

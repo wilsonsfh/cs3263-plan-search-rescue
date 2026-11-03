@@ -1,0 +1,199 @@
+{
+  "id": "medium-11",
+  "size": "medium",
+  "seed": 11,
+  "penalty_per_person": {
+    "injured": 80,
+    "child": 60,
+    "elderly": 50,
+    "adult": 20
+  },
+  "locations": [
+    {
+      "id": "naukunda-shelter",
+      "name": "Naukunda",
+      "kind": "shelter",
+      "evac": true,
+      "x": 8.9,
+      "y": 19.3
+    },
+    {
+      "id": "galchhi-care-home",
+      "name": "Galchhi",
+      "kind": "care-home",
+      "evac": false,
+      "x": 59.9,
+      "y": 46.7
+    },
+    {
+      "id": "benighat-market",
+      "name": "Benighat",
+      "kind": "market",
+      "evac": false,
+      "x": 20.7,
+      "y": 13.2
+    },
+    {
+      "id": "gosaikunda-care-home",
+      "name": "Gosaikunda",
+      "kind": "care-home",
+      "evac": false,
+      "x": 23.1,
+      "y": 5.6
+    },
+    {
+      "id": "dupcheshwar-market",
+      "name": "Dupcheshwar",
+      "kind": "market",
+      "evac": false,
+      "x": 9.5,
+      "y": 26.4
+    },
+    {
+      "id": "syaphru-school",
+      "name": "Syaphru",
+      "kind": "school",
+      "evac": false,
+      "x": 14.2,
+      "y": 47.2
+    },
+    {
+      "id": "panchakanya-temple",
+      "name": "Panchakanya",
+      "kind": "temple",
+      "evac": false,
+      "x": 57.3,
+      "y": 3.9
+    },
+    {
+      "id": "shivapuri-market",
+      "name": "Shivapuri",
+      "kind": "market",
+      "evac": false,
+      "x": 10.6,
+      "y": 2.9
+    }
+  ],
+  "roads": [
+    {
+      "from": "naukunda-shelter",
+      "to": "gosaikunda-care-home",
+      "minutes": 20,
+      "damaged": false
+    },
+    {
+      "from": "naukunda-shelter",
+      "to": "dupcheshwar-market",
+      "minutes": 7,
+      "damaged": true
+    },
+    {
+      "from": "naukunda-shelter",
+      "to": "shivapuri-market",
+      "minutes": 16,
+      "damaged": false
+    },
+    {
+      "from": "galchhi-care-home",
+      "to": "gosaikunda-care-home",
+      "minutes": 55,
+      "damaged": false
+    },
+    {
+      "from": "benighat-market",
+      "to": "gosaikunda-care-home",
+      "minutes": 8,
+      "damaged": false
+    },
+    {
+      "from": "gosaikunda-care-home",
+      "to": "panchakanya-temple",
+      "minutes": 34,
+      "damaged": false
+    },
+    {
+      "from": "gosaikunda-care-home",
+      "to": "shivapuri-market",
+      "minutes": 13,
+      "damaged": true
+    },
+    {
+      "from": "dupcheshwar-market",
+      "to": "syaphru-school",
+      "minutes": 21,
+      "damaged": true
+    },
+    {
+      "from": "dupcheshwar-market",
+      "to": "shivapuri-market",
+      "minutes": 24,
+      "damaged": false
+    }
+  ],
+  "people": [
+    {
+      "location": "benighat-market",
+      "band": "adult",
+      "count": 4
+    },
+    {
+      "location": "gosaikunda-care-home",
+      "band": "adult",
+      "count": 3
+    },
+    {
+      "location": "syaphru-school",
+      "band": "child",
+      "count": 4
+    },
+    {
+      "location": "dupcheshwar-market",
+      "band": "elderly",
+      "count": 7
+    }
+  ],
+  "cars": [
+    {
+      "id": "car1",
+      "start": "naukunda-shelter",
+      "seats": 4
+    }
+  ],
+  "groups": [
+    {
+      "id": "benighat-market-adult",
+      "location": "benighat-market",
+      "band": "adult",
+      "size": 4,
+      "penalty": 80
+    },
+    {
+      "id": "gosaikunda-care-home-adult",
+      "location": "gosaikunda-care-home",
+      "band": "adult",
+      "size": 3,
+      "penalty": 60
+    },
+    {
+      "id": "syaphru-school-child",
+      "location": "syaphru-school",
+      "band": "child",
+      "size": 4,
+      "penalty": 240
+    },
+    {
+      "id": "dupcheshwar-market-elderly",
+      "location": "dupcheshwar-market",
+      "band": "elderly",
+      "size": 3,
+      "penalty": 150
+    },
+    {
+      "id": "dupcheshwar-market-elderly-2",
+      "location": "dupcheshwar-market",
+      "band": "elderly",
+      "size": 4,
+      "penalty": 200
+    }
+  ]
+}

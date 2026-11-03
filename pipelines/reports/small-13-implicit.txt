@@ -1,0 +1,19 @@
+FIELD REPORT - Nuwakot district flood response (scenario small-13)
+
+Our team has one car available, able to carry four passengers. Currently: [car1] at Bidur shelter [bidur-shelter].
+
+SAFE LOCATIONS
+Volunteers at Bidur shelter [bidur-shelter] say they have room for more families.
+
+ROAD CONDITIONS
+- The drive from Belkot village [belkot-village] to Likhu care home [likhu-care-home] takes about 22 minutes.
+- The bridge on the Nilkantha market [nilkantha-market] to Suryagadhi farm [suryagadhi-farm] road (28 minutes in normal conditions) was washed away last night.
+- It is a 51-minute drive between Likhu care home [likhu-care-home] and Suryagadhi farm [suryagadhi-farm], with some debris but no blockages.
+- A landslide has buried the road between Bidur shelter [bidur-shelter] and Nilkantha market [nilkantha-market] (normally a 45-minute drive).
+- The drive from Bidur shelter [bidur-shelter] to Suryagadhi farm [suryagadhi-farm] takes about 20 minutes.
+Any road not listed here does not exist or cannot be used.
+
+STRANDED CIVILIANS
+- At Belkot village [belkot-village], residents report a toddler waiting for help.
+- At Nilkantha market [nilkantha-market], residents report three working-age adults waiting for help.
+Families have said they are willing to travel separately if needed.

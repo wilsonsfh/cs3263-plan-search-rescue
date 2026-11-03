@@ -1,0 +1,35 @@
+FIELD REPORT - Nuwakot district flood response (scenario large-07)
+
+VEHICLES: 2 car(s), 4 passenger seats each. Positions: [car1] at Galchhi shelter [galchhi-shelter]; [car2] at Shivapuri hospital [shivapuri-hospital].
+
+EVACUATION POINTS (people may only be dropped off here): Galchhi shelter [galchhi-shelter], Shivapuri hospital [shivapuri-hospital].
+
+ROADS
+- Galchhi shelter [galchhi-shelter] <-> Naukunda care home [naukunda-care-home]: 10 min, open
+- Galchhi shelter [galchhi-shelter] <-> Kispang temple [kispang-temple]: 17 min, open
+- Galchhi shelter [galchhi-shelter] <-> Kakani village [kakani-village]: 5 min, open
+- Galchhi shelter [galchhi-shelter] <-> Belkot farm [belkot-farm]: 23 min, open
+- Shivapuri hospital [shivapuri-hospital] <-> Bidur temple [bidur-temple]: 14 min, IMPASSABLE (damaged)
+- Shivapuri hospital [shivapuri-hospital] <-> Belkot farm [belkot-farm]: 17 min, IMPASSABLE (damaged)
+- Bidur temple [bidur-temple] <-> Belkot farm [belkot-farm]: 26 min, open
+- Gosaikunda village [gosaikunda-village] <-> Naukunda care home [naukunda-care-home]: 12 min, open
+- Gosaikunda village [gosaikunda-village] <-> Kispang temple [kispang-temple]: 8 min, open
+- Gosaikunda village [gosaikunda-village] <-> Belkot farm [belkot-farm]: 13 min, open
+- Suryagadhi farm [suryagadhi-farm] <-> Belkot farm [belkot-farm]: 40 min, open
+- Naukunda care home [naukunda-care-home] <-> Kispang temple [kispang-temple]: 7 min, open
+- Likhu care home [likhu-care-home] <-> Thakre care home [thakre-care-home]: 18 min, open
+- Likhu care home [likhu-care-home] <-> Myagang care home [myagang-care-home]: 14 min, open
+- Likhu care home [likhu-care-home] <-> Kalika farm [kalika-farm]: 20 min, open
+- Thakre care home [thakre-care-home] <-> Myagang care home [myagang-care-home]: 5 min, IMPASSABLE (damaged)
+- Myagang care home [myagang-care-home] <-> Belkot farm [belkot-farm]: 18 min, open
+- Kalika farm [kalika-farm] <-> Belkot farm [belkot-farm]: 9 min, open
+Any road not listed here does not exist or cannot be used.
+
+PEOPLE AWAITING RESCUE
+- Thakre care home [thakre-care-home]: 1 injured person
+- Gosaikunda village [gosaikunda-village]: 2 adults, 4 children, 1 elderly person
+- Kalika farm [kalika-farm]: 6 adults
+- Belkot farm [belkot-farm]: 4 elderly people
+- Naukunda care home [naukunda-care-home]: 1 elderly person
+- Likhu care home [likhu-care-home]: 3 elderly people, 1 injured person
+People at the same location may be split between cars or trips.

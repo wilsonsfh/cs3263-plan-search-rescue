@@ -1,0 +1,34 @@
+FIELD REPORT - Nuwakot district flood response (scenario large-09)
+
+VEHICLES: 2 car(s), 4 passenger seats each. Positions: [car1] at Panchakanya shelter [panchakanya-shelter]; [car2] at Myagang hospital [myagang-hospital].
+
+EVACUATION POINTS (people may only be dropped off here): Panchakanya shelter [panchakanya-shelter], Myagang hospital [myagang-hospital].
+
+ROADS
+- Panchakanya shelter [panchakanya-shelter] <-> Tarkeshwar care home [tarkeshwar-care-home]: 7 min, IMPASSABLE (damaged)
+- Panchakanya shelter [panchakanya-shelter] <-> Suryagadhi school [suryagadhi-school]: 36 min, IMPASSABLE (damaged)
+- Myagang hospital [myagang-hospital] <-> Kakani market [kakani-market]: 9 min, open
+- Myagang hospital [myagang-hospital] <-> Shivapuri care home [shivapuri-care-home]: 28 min, open
+- Naukunda temple [naukunda-temple] <-> Suryagadhi school [suryagadhi-school]: 6 min, open
+- Jwalamukhi market [jwalamukhi-market] <-> Gajuri village [gajuri-village]: 15 min, open
+- Jwalamukhi market [jwalamukhi-market] <-> Kakani market [kakani-market]: 23 min, IMPASSABLE (damaged)
+- Jwalamukhi market [jwalamukhi-market] <-> Kalika school [kalika-school]: 19 min, open
+- Jwalamukhi market [jwalamukhi-market] <-> Shivapuri care home [shivapuri-care-home]: 14 min, IMPASSABLE (damaged)
+- Gajuri village [gajuri-village] <-> Suryagadhi school [suryagadhi-school]: 31 min, open
+- Gajuri village [gajuri-village] <-> Kalika school [kalika-school]: 8 min, open
+- Gajuri village [gajuri-village] <-> Shivapuri care home [shivapuri-care-home]: 11 min, open
+- Suryagadhi school [suryagadhi-school] <-> Uttargaya care home [uttargaya-care-home]: 19 min, open
+- Benighat temple [benighat-temple] <-> Kalika school [kalika-school]: 13 min, IMPASSABLE (damaged)
+- Benighat temple [benighat-temple] <-> Shivapuri care home [shivapuri-care-home]: 20 min, open
+- Benighat temple [benighat-temple] <-> Uttargaya care home [uttargaya-care-home]: 20 min, open
+- Kalika school [kalika-school] <-> Uttargaya care home [uttargaya-care-home]: 25 min, IMPASSABLE (damaged)
+Any road not listed here does not exist or cannot be used.
+
+PEOPLE AWAITING RESCUE
+- Kakani market [kakani-market]: 6 adults, 3 injured people
+- Jwalamukhi market [jwalamukhi-market]: 4 adults, 3 children
+- Kalika school [kalika-school]: 5 children
+- Tarkeshwar care home [tarkeshwar-care-home]: 3 injured people, 3 elderly people
+- Shivapuri care home [shivapuri-care-home]: 1 adult
+- Naukunda temple [naukunda-temple]: 3 adults
+People at the same location may be split between cars or trips.

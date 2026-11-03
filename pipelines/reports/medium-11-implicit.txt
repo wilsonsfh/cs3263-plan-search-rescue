@@ -1,0 +1,26 @@
+FIELD REPORT - Nuwakot district flood response (scenario medium-11)
+
+Our team has one car available, able to carry four passengers. Currently: [car1] at Naukunda shelter [naukunda-shelter].
+
+SAFE LOCATIONS
+Naukunda shelter [naukunda-shelter] is above the flood line and is taking in evacuees.
+Syaphru school [syaphru-school] sits on higher ground, but it has no food, water or medical staff and the authorities have not designated it as a place to bring people.
+
+ROAD CONDITIONS
+- The Galchhi care home [galchhi-care-home] to Gosaikunda care home [gosaikunda-care-home] road is muddy but passable, about 55 minutes by car.
+- The drive from Dupcheshwar market [dupcheshwar-market] to Shivapuri market [shivapuri-market] takes about 24 minutes.
+- Drivers report the road between Gosaikunda care home [gosaikunda-care-home] and Panchakanya temple [panchakanya-temple] is clear; it takes roughly 34 minutes.
+- It is a 16-minute drive between Naukunda shelter [naukunda-shelter] and Shivapuri market [shivapuri-market], with some debris but no blockages.
+- A landslide has buried the road between Naukunda shelter [naukunda-shelter] and Dupcheshwar market [dupcheshwar-market] (normally a 7-minute drive).
+- Drivers report the road between Naukunda shelter [naukunda-shelter] and Gosaikunda care home [gosaikunda-care-home] is clear; it takes roughly 20 minutes.
+- A landslide has buried the road between Gosaikunda care home [gosaikunda-care-home] and Shivapuri market [shivapuri-market] (normally a 13-minute drive).
+- Police have closed the Dupcheshwar market [dupcheshwar-market] to Syaphru school [syaphru-school] road after part of it collapsed into the river. It is normally 21 minutes by car.
+- It is a 8-minute drive between Benighat market [benighat-market] and Gosaikunda care home [gosaikunda-care-home], with some debris but no blockages.
+Any road not listed here does not exist or cannot be used.
+
+STRANDED CIVILIANS
+- At Benighat market [benighat-market], residents report four shopkeepers waiting for help.
+- At Gosaikunda care home [gosaikunda-care-home], residents report three shopkeepers waiting for help.
+- At Syaphru school [syaphru-school], residents report four kids from the nursery class waiting for help.
+- At Dupcheshwar market [dupcheshwar-market], residents report seven frail senior citizens waiting for help.
+Families have said they are willing to travel separately if needed.

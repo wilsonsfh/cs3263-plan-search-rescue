@@ -1,0 +1,201 @@
+{
+  "id": "medium-02",
+  "size": "medium",
+  "seed": 2,
+  "penalty_per_person": {
+    "injured": 80,
+    "child": 60,
+    "elderly": 50,
+    "adult": 20
+  },
+  "locations": [
+    {
+      "id": "benighat-shelter",
+      "name": "Benighat",
+      "kind": "shelter",
+      "evac": true,
+      "x": 4.8,
+      "y": 30.2
+    },
+    {
+      "id": "dhunche-hospital",
+      "name": "Dhunche",
+      "kind": "hospital",
+      "evac": true,
+      "x": 39.0,
+      "y": 47.1
+    },
+    {
+      "id": "jwalamukhi-care-home",
+      "name": "Jwalamukhi",
+      "kind": "care-home",
+      "evac": false,
+      "x": 22.8,
+      "y": 20.1
+    },
+    {
+      "id": "uttargaya-care-home",
+      "name": "Uttargaya",
+      "kind": "care-home",
+      "evac": false,
+      "x": 46.6,
+      "y": 55.8
+    },
+    {
+      "id": "nilkantha-farm",
+      "name": "Nilkantha",
+      "kind": "farm",
+      "evac": false,
+      "x": 7.6,
+      "y": 8.5
+    },
+    {
+      "id": "likhu-village",
+      "name": "Likhu",
+      "kind": "village",
+      "evac": false,
+      "x": 17.4,
+      "y": 44.1
+    },
+    {
+      "id": "kalika-temple",
+      "name": "Kalika",
+      "kind": "temple",
+      "evac": false,
+      "x": 10.9,
+      "y": 35.4
+    }
+  ],
+  "roads": [
+    {
+      "from": "benighat-shelter",
+      "to": "jwalamukhi-care-home",
+      "minutes": 21,
+      "damaged": false
+    },
+    {
+      "from": "benighat-shelter",
+      "to": "nilkantha-farm",
+      "minutes": 22,
+      "damaged": false
+    },
+    {
+      "from": "benighat-shelter",
+      "to": "kalika-temple",
+      "minutes": 8,
+      "damaged": true
+    },
+    {
+      "from": "dhunche-hospital",
+      "to": "uttargaya-care-home",
+      "minutes": 12,
+      "damaged": false
+    },
+    {
+      "from": "dhunche-hospital",
+      "to": "likhu-village",
+      "minutes": 22,
+      "damaged": false
+    },
+    {
+      "from": "dhunche-hospital",
+      "to": "kalika-temple",
+      "minutes": 30,
+      "damaged": false
+    },
+    {
+      "from": "jwalamukhi-care-home",
+      "to": "nilkantha-farm",
+      "minutes": 19,
+      "damaged": false
+    },
+    {
+      "from": "jwalamukhi-care-home",
+      "to": "kalika-temple",
+      "minutes": 19,
+      "damaged": false
+    },
+    {
+      "from": "likhu-village",
+      "to": "kalika-temple",
+      "minutes": 11,
+      "damaged": false
+    }
+  ],
+  "people": [
+    {
+      "location": "likhu-village",
+      "band": "adult",
+      "count": 4
+    },
+    {
+      "location": "nilkantha-farm",
+      "band": "adult",
+      "count": 1
+    },
+    {
+      "location": "kalika-temple",
+      "band": "elderly",
+      "count": 2
+    },
+    {
+      "location": "nilkantha-farm",
+      "band": "injured",
+      "count": 2
+    },
+    {
+      "location": "likhu-village",
+      "band": "injured",
+      "count": 4
+    }
+  ],
+  "cars": [
+    {
+      "id": "car1",
+      "start": "benighat-shelter",
+      "seats": 4
+    },
+    {
+      "id": "car2",
+      "start": "dhunche-hospital",
+      "seats": 4
+    }
+  ],
+  "groups": [
+    {
+      "id": "likhu-village-adult",
+      "location": "likhu-village",
+      "band": "adult",
+      "size": 4,
+      "penalty": 80
+    },
+    {
+      "id": "nilkantha-farm-adult",
+      "location": "nilkantha-farm",
+      "band": "adult",
+      "size": 1,
+      "penalty": 20
+    },
+    {
+      "id": "kalika-temple-elderly",
+      "location": "kalika-temple",
+      "band": "elderly",
+      "size": 2,
+      "penalty": 100
+    },
+    {
+      "id": "nilkantha-farm-injured",
+      "location": "nilkantha-farm",
+      "band": "injured",
+      "size": 2,
+      "penalty": 160
+    },
+    {
+      "id": "likhu-village-injured",
+      "location": "likhu-village",
+      "band": "injured",
+      "size": 4,
+      "penalty": 320
+    }
+  ]
+}

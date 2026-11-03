@@ -1,0 +1,19 @@
+FIELD REPORT - Nuwakot district flood response (scenario small-02)
+
+VEHICLES: 1 car(s), 4 passenger seats each. Positions: [car1] at Shivapuri shelter [shivapuri-shelter].
+
+EVACUATION POINTS (people may only be dropped off here): Shivapuri shelter [shivapuri-shelter].
+
+ROADS
+- Shivapuri shelter [shivapuri-shelter] <-> Kalika village [kalika-village]: 7 min, open
+- Shivapuri shelter [shivapuri-shelter] <-> Trishuli farm [trishuli-farm]: 39 min, open
+- Shivapuri shelter [shivapuri-shelter] <-> Kispang temple [kispang-temple]: 45 min, open
+- Trishuli farm [trishuli-farm] <-> Kispang temple [kispang-temple]: 9 min, open
+- Trishuli farm [trishuli-farm] <-> Belkot market [belkot-market]: 16 min, open
+- Kispang temple [kispang-temple] <-> Belkot market [belkot-market]: 6 min, open
+Any road not listed here does not exist or cannot be used.
+
+PEOPLE AWAITING RESCUE
+- Trishuli farm [trishuli-farm]: 7 elderly people
+- Kalika village [kalika-village]: 4 elderly people
+People at the same location may be split between cars or trips.

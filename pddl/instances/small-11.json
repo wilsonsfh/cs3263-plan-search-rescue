@@ -1,0 +1,138 @@
+{
+  "id": "small-11",
+  "size": "small",
+  "seed": 11,
+  "penalty_per_person": {
+    "injured": 80,
+    "child": 60,
+    "elderly": 50,
+    "adult": 20
+  },
+  "locations": [
+    {
+      "id": "myagang-shelter",
+      "name": "Myagang",
+      "kind": "shelter",
+      "evac": true,
+      "x": 0.3,
+      "y": 42.7
+    },
+    {
+      "id": "dhunche-farm",
+      "name": "Dhunche",
+      "kind": "farm",
+      "evac": false,
+      "x": 52.7,
+      "y": 18.1
+    },
+    {
+      "id": "gosaikunda-temple",
+      "name": "Gosaikunda",
+      "kind": "temple",
+      "evac": false,
+      "x": 36.9,
+      "y": 7.3
+    },
+    {
+      "id": "suryagadhi-market",
+      "name": "Suryagadhi",
+      "kind": "market",
+      "evac": false,
+      "x": 7.1,
+      "y": 17.6
+    },
+    {
+      "id": "galchhi-village",
+      "name": "Galchhi",
+      "kind": "village",
+      "evac": false,
+      "x": 14.7,
+      "y": 41.6
+    }
+  ],
+  "roads": [
+    {
+      "from": "myagang-shelter",
+      "to": "gosaikunda-temple",
+      "minutes": 51,
+      "damaged": false
+    },
+    {
+      "from": "myagang-shelter",
+      "to": "suryagadhi-market",
+      "minutes": 26,
+      "damaged": false
+    },
+    {
+      "from": "myagang-shelter",
+      "to": "galchhi-village",
+      "minutes": 14,
+      "damaged": false
+    },
+    {
+      "from": "dhunche-farm",
+      "to": "gosaikunda-temple",
+      "minutes": 19,
+      "damaged": true
+    },
+    {
+      "from": "dhunche-farm",
+      "to": "galchhi-village",
+      "minutes": 45,
+      "damaged": false
+    },
+    {
+      "from": "suryagadhi-market",
+      "to": "galchhi-village",
+      "minutes": 25,
+      "damaged": false
+    }
+  ],
+  "people": [
+    {
+      "location": "gosaikunda-temple",
+      "band": "adult",
+      "count": 1
+    },
+    {
+      "location": "gosaikunda-temple",
+      "band": "elderly",
+      "count": 2
+    },
+    {
+      "location": "suryagadhi-market",
+      "band": "injured",
+      "count": 3
+    }
+  ],
+  "cars": [
+    {
+      "id": "car1",
+      "start": "myagang-shelter",
+      "seats": 4
+    }
+  ],
+  "groups": [
+    {
+      "id": "gosaikunda-temple-adult",
+      "location": "gosaikunda-temple",
+      "band": "adult",
+      "size": 1,
+      "penalty": 20
+    },
+    {
+      "id": "gosaikunda-temple-elderly",
+      "location": "gosaikunda-temple",
+      "band": "elderly",
+      "size": 2,
+      "penalty": 100
+    },
+    {
+      "id": "suryagadhi-market-injured",
+      "location": "suryagadhi-market",
+      "band": "injured",
+      "size": 3,
+      "penalty": 240
+    }
+  ]
+}

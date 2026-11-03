@@ -1,0 +1,204 @@
+{
+  "id": "medium-15",
+  "size": "medium",
+  "seed": 15,
+  "penalty_per_person": {
+    "injured": 80,
+    "child": 60,
+    "elderly": 50,
+    "adult": 20
+  },
+  "locations": [
+    {
+      "id": "jwalamukhi-shelter",
+      "name": "Jwalamukhi",
+      "kind": "shelter",
+      "evac": true,
+      "x": 45.4,
+      "y": 14.2
+    },
+    {
+      "id": "gosaikunda-hospital",
+      "name": "Gosaikunda",
+      "kind": "hospital",
+      "evac": true,
+      "x": 28.0,
+      "y": 8.5
+    },
+    {
+      "id": "gajuri-market",
+      "name": "Gajuri",
+      "kind": "market",
+      "evac": false,
+      "x": 17.7,
+      "y": 56.0
+    },
+    {
+      "id": "shivapuri-care-home",
+      "name": "Shivapuri",
+      "kind": "care-home",
+      "evac": false,
+      "x": 30.8,
+      "y": 44.6
+    },
+    {
+      "id": "galchhi-farm",
+      "name": "Galchhi",
+      "kind": "farm",
+      "evac": false,
+      "x": 58.6,
+      "y": 38.8
+    },
+    {
+      "id": "dupcheshwar-market",
+      "name": "Dupcheshwar",
+      "kind": "market",
+      "evac": false,
+      "x": 5.3,
+      "y": 12.7
+    },
+    {
+      "id": "kakani-village",
+      "name": "Kakani",
+      "kind": "village",
+      "evac": false,
+      "x": 24.1,
+      "y": 10.4
+    },
+    {
+      "id": "tadi-farm",
+      "name": "Tadi",
+      "kind": "farm",
+      "evac": false,
+      "x": 49.9,
+      "y": 12.1
+    }
+  ],
+  "roads": [
+    {
+      "from": "jwalamukhi-shelter",
+      "to": "gosaikunda-hospital",
+      "minutes": 18,
+      "damaged": false
+    },
+    {
+      "from": "jwalamukhi-shelter",
+      "to": "galchhi-farm",
+      "minutes": 28,
+      "damaged": true
+    },
+    {
+      "from": "jwalamukhi-shelter",
+      "to": "tadi-farm",
+      "minutes": 5,
+      "damaged": false
+    },
+    {
+      "from": "gosaikunda-hospital",
+      "to": "gajuri-market",
+      "minutes": 49,
+      "damaged": false
+    },
+    {
+      "from": "gosaikunda-hospital",
+      "to": "galchhi-farm",
+      "minutes": 43,
+      "damaged": false
+    },
+    {
+      "from": "gosaikunda-hospital",
+      "to": "kakani-village",
+      "minutes": 5,
+      "damaged": false
+    },
+    {
+      "from": "gosaikunda-hospital",
+      "to": "tadi-farm",
+      "minutes": 22,
+      "damaged": false
+    },
+    {
+      "from": "gajuri-market",
+      "to": "shivapuri-care-home",
+      "minutes": 17,
+      "damaged": false
+    },
+    {
+      "from": "dupcheshwar-market",
+      "to": "kakani-village",
+      "minutes": 19,
+      "damaged": false
+    }
+  ],
+  "people": [
+    {
+      "location": "tadi-farm",
+      "band": "adult",
+      "count": 2
+    },
+    {
+      "location": "dupcheshwar-market",
+      "band": "adult",
+      "count": 6
+    },
+    {
+      "location": "kakani-village",
+      "band": "adult",
+      "count": 3
+    },
+    {
+      "location": "galchhi-farm",
+      "band": "elderly",
+      "count": 2
+    }
+  ],
+  "cars": [
+    {
+      "id": "car1",
+      "start": "jwalamukhi-shelter",
+      "seats": 4
+    },
+    {
+      "id": "car2",
+      "start": "gosaikunda-hospital",
+      "seats": 4
+    }
+  ],
+  "groups": [
+    {
+      "id": "tadi-farm-adult",
+      "location": "tadi-farm",
+      "band": "adult",
+      "size": 2,
+      "penalty": 40
+    },
+    {
+      "id": "dupcheshwar-market-adult",
+      "location": "dupcheshwar-market",
+      "band": "adult",
+      "size": 2,
+      "penalty": 40
+    },
+    {
+      "id": "kakani-village-adult",
+      "location": "kakani-village",
+      "band": "adult",
+      "size": 3,
+      "penalty": 60
+    },
+    {
+      "id": "galchhi-farm-elderly",
+      "location": "galchhi-farm",
+      "band": "elderly",
+      "size": 2,
+      "penalty": 100
+    },
+    {
+      "id": "dupcheshwar-market-adult-2",
+      "location": "dupcheshwar-market",
+      "band": "adult",
+      "size": 4,
+      "penalty": 80
+    }
+  ]
+}

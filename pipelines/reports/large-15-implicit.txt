@@ -1,0 +1,38 @@
+FIELD REPORT - Nuwakot district flood response (scenario large-15)
+
+Our team has two cars available, each able to carry four passengers. Currently: [car1] at Suryagadhi shelter [suryagadhi-shelter]; [car2] at Kalika hospital [kalika-hospital].
+
+SAFE LOCATIONS
+Suryagadhi shelter [suryagadhi-shelter] is above the flood line and is taking in evacuees.
+Kalika hospital [kalika-hospital] is on high ground and its staff are receiving evacuees.
+Tadi temple [tadi-temple] sits on higher ground, but it has no food, water or medical staff and the authorities have not designated it as a place to bring people.
+
+ROAD CONDITIONS
+- The Likhu temple [likhu-temple] to Myagang village [myagang-village] road is muddy but passable, about 55 minutes by car.
+- A landslide has buried the road between Kispang market [kispang-market] and Tarkeshwar farm [tarkeshwar-farm] (normally a 14-minute drive).
+- It is a 12-minute drive between Suryagadhi shelter [suryagadhi-shelter] and Galchhi village [galchhi-village], with some debris but no blockages.
+- It is a 5-minute drive between Nilkantha market [nilkantha-market] and Thakre farm [thakre-farm], with some debris but no blockages.
+- Drivers report the road between Kispang market [kispang-market] and Dhunche school [dhunche-school] is clear; it takes roughly 19 minutes.
+- It is a 15-minute drive between Tarkeshwar farm [tarkeshwar-farm] and Myagang village [myagang-village], with some debris but no blockages.
+- The Gajuri farm [gajuri-farm] to Likhu temple [likhu-temple] road is muddy but passable, about 16 minutes by car.
+- The drive from Likhu temple [likhu-temple] to Nilkantha market [nilkantha-market] takes about 28 minutes.
+- Drivers report the road between Gajuri farm [gajuri-farm] and Galchhi village [galchhi-village] is clear; it takes roughly 17 minutes.
+- The Kispang market [kispang-market] to Tadi temple [tadi-temple] road is muddy but passable, about 15 minutes by car.
+- The Kalika hospital [kalika-hospital] to Galchhi village [galchhi-village] road is muddy but passable, about 11 minutes by car.
+- Floodwater is running fast over the Thakre farm [thakre-farm] to Tadi temple [tadi-temple] road; a truck was swept off it this morning. The drive usually takes 12 minutes.
+- The bridge on the Myagang village [myagang-village] to Dhunche school [dhunche-school] road (18 minutes in normal conditions) was washed away last night.
+- It is a 27-minute drive between Suryagadhi shelter [suryagadhi-shelter] and Gajuri farm [gajuri-farm], with some debris but no blockages.
+- Floodwater is running fast over the Tarkeshwar farm [tarkeshwar-farm] to Dhunche school [dhunche-school] road; a truck was swept off it this morning. The drive usually takes 15 minutes.
+- Drivers report the road between Nilkantha market [nilkantha-market] and Tadi temple [tadi-temple] is clear; it takes roughly 15 minutes.
+- Drivers report the road between Kalika hospital [kalika-hospital] and Gajuri farm [gajuri-farm] is clear; it takes roughly 7 minutes.
+Any road not listed here does not exist or cannot be used.
+
+STRANDED CIVILIANS
+- At Nilkantha market [nilkantha-market], residents report four people in their late seventies and eighties and two residents with fractures and cuts waiting for help.
+- At Tadi temple [tadi-temple], residents report an old man who cannot walk unaided and three adult labourers waiting for help.
+- At Likhu temple [likhu-temple], residents report four frail senior citizens waiting for help.
+- At Gajuri farm [gajuri-farm], residents report four adult labourers waiting for help.
+- At Galchhi village [galchhi-village], residents report two pensioners waiting for help.
+- At Tarkeshwar farm [tarkeshwar-farm], residents report four shopkeepers waiting for help.
+- At Thakre farm [thakre-farm], residents report two working-age adults waiting for help.
+Families have said they are willing to travel separately if needed.

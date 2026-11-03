@@ -1,0 +1,23 @@
+FIELD REPORT - Nuwakot district flood response (scenario small-15)
+
+Our team has one car available, able to carry four passengers. Currently: [car1] at Shivapuri shelter [shivapuri-shelter].
+
+SAFE LOCATIONS
+Volunteers at Shivapuri shelter [shivapuri-shelter] say they have room for more families.
+Dhunche temple [dhunche-temple] sits on higher ground, but it has no food, water or medical staff and the authorities have not designated it as a place to bring people.
+
+ROAD CONDITIONS
+- The drive from Kispang care home [kispang-care-home] to Dhunche temple [dhunche-temple] takes about 23 minutes.
+- The drive from Uttargaya farm [uttargaya-farm] to Dupcheshwar market [dupcheshwar-market] takes about 23 minutes.
+- Drivers report the road between Uttargaya farm [uttargaya-farm] and Dhunche temple [dhunche-temple] is clear; it takes roughly 9 minutes.
+- Drivers report the road between Shivapuri shelter [shivapuri-shelter] and Dupcheshwar market [dupcheshwar-market] is clear; it takes roughly 32 minutes.
+- The drive from Dupcheshwar market [dupcheshwar-market] to Kispang care home [kispang-care-home] takes about 29 minutes.
+- The Shivapuri shelter [shivapuri-shelter] to Kalika farm [kalika-farm] road is muddy but passable, about 7 minutes by car.
+- The Uttargaya farm [uttargaya-farm] to Kispang care home [kispang-care-home] road is muddy but passable, about 32 minutes by car.
+Any road not listed here does not exist or cannot be used.
+
+STRANDED CIVILIANS
+- At Kalika farm [kalika-farm], residents report three men and women from the cooperative waiting for help.
+- At Dupcheshwar market [dupcheshwar-market], residents report a shopkeeper waiting for help.
+- At Uttargaya farm [uttargaya-farm], residents report two shopkeepers waiting for help.
+Families have said they are willing to travel separately if needed.

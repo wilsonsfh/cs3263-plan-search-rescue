@@ -1,0 +1,35 @@
+FIELD REPORT - Nuwakot district flood response (scenario large-03)
+
+VEHICLES: 2 car(s), 4 passenger seats each. Positions: [car1] at Benighat shelter [benighat-shelter]; [car2] at Gajuri hospital [gajuri-hospital].
+
+EVACUATION POINTS (people may only be dropped off here): Benighat shelter [benighat-shelter], Gajuri hospital [gajuri-hospital].
+
+ROADS
+- Benighat shelter [benighat-shelter] <-> Gajuri hospital [gajuri-hospital]: 20 min, open
+- Benighat shelter [benighat-shelter] <-> Likhu temple [likhu-temple]: 10 min, open
+- Benighat shelter [benighat-shelter] <-> Trishuli farm [trishuli-farm]: 11 min, IMPASSABLE (damaged)
+- Benighat shelter [benighat-shelter] <-> Gosaikunda village [gosaikunda-village]: 11 min, open
+- Benighat shelter [benighat-shelter] <-> Syaphru school [syaphru-school]: 10 min, IMPASSABLE (damaged)
+- Benighat shelter [benighat-shelter] <-> Kalika care home [kalika-care-home]: 15 min, open
+- Gajuri hospital [gajuri-hospital] <-> Naukunda village [naukunda-village]: 10 min, open
+- Gajuri hospital [gajuri-hospital] <-> Suryagadhi farm [suryagadhi-farm]: 10 min, open
+- Gajuri hospital [gajuri-hospital] <-> Trishuli farm [trishuli-farm]: 8 min, open
+- Gajuri hospital [gajuri-hospital] <-> Kispang care home [kispang-care-home]: 31 min, open
+- Likhu temple [likhu-temple] <-> Syaphru school [syaphru-school]: 5 min, open
+- Dupcheshwar farm [dupcheshwar-farm] <-> Kispang care home [kispang-care-home]: 21 min, open
+- Shivapuri school [shivapuri-school] <-> Kalika care home [kalika-care-home]: 14 min, open
+- Naukunda village [naukunda-village] <-> Trishuli farm [trishuli-farm]: 7 min, open
+- Naukunda village [naukunda-village] <-> Gosaikunda village [gosaikunda-village]: 5 min, open
+- Suryagadhi farm [suryagadhi-farm] <-> Trishuli farm [trishuli-farm]: 7 min, IMPASSABLE (damaged)
+- Trishuli farm [trishuli-farm] <-> Gosaikunda village [gosaikunda-village]: 10 min, open
+Any road not listed here does not exist or cannot be used.
+
+PEOPLE AWAITING RESCUE
+- Suryagadhi farm [suryagadhi-farm]: 6 adults
+- Kalika care home [kalika-care-home]: 4 elderly people, 1 injured person
+- Naukunda village [naukunda-village]: 3 elderly people, 2 children
+- Kispang care home [kispang-care-home]: 5 elderly people
+- Shivapuri school [shivapuri-school]: 4 children
+- Likhu temple [likhu-temple]: 1 elderly person
+- Dupcheshwar farm [dupcheshwar-farm]: 4 elderly people
+People at the same location may be split between cars or trips.

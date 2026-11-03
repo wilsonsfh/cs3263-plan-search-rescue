@@ -1,0 +1,32 @@
+FIELD REPORT - Nuwakot district flood response (scenario large-08)
+
+VEHICLES: 2 car(s), 4 passenger seats each. Positions: [car1] at Kakani shelter [kakani-shelter]; [car2] at Kalika hospital [kalika-hospital].
+
+EVACUATION POINTS (people may only be dropped off here): Kakani shelter [kakani-shelter], Kalika hospital [kalika-hospital].
+
+ROADS
+- Kakani shelter [kakani-shelter] <-> Kalika hospital [kalika-hospital]: 5 min, IMPASSABLE (damaged)
+- Kakani shelter [kakani-shelter] <-> Likhu farm [likhu-farm]: 21 min, IMPASSABLE (damaged)
+- Kakani shelter [kakani-shelter] <-> Suryagadhi care home [suryagadhi-care-home]: 18 min, open
+- Kakani shelter [kakani-shelter] <-> Belkot school [belkot-school]: 18 min, IMPASSABLE (damaged)
+- Kalika hospital [kalika-hospital] <-> Suryagadhi care home [suryagadhi-care-home]: 22 min, open
+- Kalika hospital [kalika-hospital] <-> Belkot school [belkot-school]: 16 min, open
+- Kalika hospital [kalika-hospital] <-> Naukunda school [naukunda-school]: 25 min, open
+- Kalika hospital [kalika-hospital] <-> Benighat temple [benighat-temple]: 36 min, open
+- Kalika hospital [kalika-hospital] <-> Gajuri temple [gajuri-temple]: 10 min, open
+- Thakre temple [thakre-temple] <-> Panchakanya care home [panchakanya-care-home]: 11 min, IMPASSABLE (damaged)
+- Thakre temple [thakre-temple] <-> Benighat temple [benighat-temple]: 5 min, open
+- Likhu farm [likhu-farm] <-> Suryagadhi care home [suryagadhi-care-home]: 5 min, open
+- Likhu farm [likhu-farm] <-> Gajuri temple [gajuri-temple]: 20 min, open
+- Panchakanya care home [panchakanya-care-home] <-> Syaphru village [syaphru-village]: 28 min, open
+- Suryagadhi care home [suryagadhi-care-home] <-> Syaphru village [syaphru-village]: 17 min, open
+- Suryagadhi care home [suryagadhi-care-home] <-> Gajuri temple [gajuri-temple]: 17 min, open
+Any road not listed here does not exist or cannot be used.
+
+PEOPLE AWAITING RESCUE
+- Suryagadhi care home [suryagadhi-care-home]: 2 elderly people
+- Belkot school [belkot-school]: 5 children
+- Syaphru village [syaphru-village]: 4 children, 3 adults
+- Panchakanya care home [panchakanya-care-home]: 2 elderly people
+- Thakre temple [thakre-temple]: 1 elderly person
+People at the same location may be split between cars or trips.

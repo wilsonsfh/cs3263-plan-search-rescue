@@ -1,0 +1,133 @@
+{
+  "id": "small-02",
+  "size": "small",
+  "seed": 2,
+  "penalty_per_person": {
+    "injured": 80,
+    "child": 60,
+    "elderly": 50,
+    "adult": 20
+  },
+  "locations": [
+    {
+      "id": "shivapuri-shelter",
+      "name": "Shivapuri",
+      "kind": "shelter",
+      "evac": true,
+      "x": 22.1,
+      "y": 50.2
+    },
+    {
+      "id": "kalika-village",
+      "name": "Kalika",
+      "kind": "village",
+      "evac": false,
+      "x": 15.5,
+      "y": 48.6
+    },
+    {
+      "id": "trishuli-farm",
+      "name": "Trishuli",
+      "kind": "farm",
+      "evac": false,
+      "x": 56.6,
+      "y": 32.9
+    },
+    {
+      "id": "kispang-temple",
+      "name": "Kispang",
+      "kind": "temple",
+      "evac": false,
+      "x": 58.3,
+      "y": 23.6
+    },
+    {
+      "id": "belkot-market",
+      "name": "Belkot",
+      "kind": "market",
+      "evac": false,
+      "x": 59.5,
+      "y": 17.3
+    }
+  ],
+  "roads": [
+    {
+      "from": "shivapuri-shelter",
+      "to": "kalika-village",
+      "minutes": 7,
+      "damaged": false
+    },
+    {
+      "from": "shivapuri-shelter",
+      "to": "trishuli-farm",
+      "minutes": 39,
+      "damaged": false
+    },
+    {
+      "from": "shivapuri-shelter",
+      "to": "kispang-temple",
+      "minutes": 45,
+      "damaged": false
+    },
+    {
+      "from": "trishuli-farm",
+      "to": "kispang-temple",
+      "minutes": 9,
+      "damaged": false
+    },
+    {
+      "from": "trishuli-farm",
+      "to": "belkot-market",
+      "minutes": 16,
+      "damaged": false
+    },
+    {
+      "from": "kispang-temple",
+      "to": "belkot-market",
+      "minutes": 6,
+      "damaged": false
+    }
+  ],
+  "people": [
+    {
+      "location": "trishuli-farm",
+      "band": "elderly",
+      "count": 7
+    },
+    {
+      "location": "kalika-village",
+      "band": "elderly",
+      "count": 4
+    }
+  ],
+  "cars": [
+    {
+      "id": "car1",
+      "start": "shivapuri-shelter",
+      "seats": 4
+    }
+  ],
+  "groups": [
+    {
+      "id": "trishuli-farm-elderly",
+      "location": "trishuli-farm",
+      "band": "elderly",
+      "size": 3,
+      "penalty": 150
+    },
+    {
+      "id": "kalika-village-elderly",
+      "location": "kalika-village",
+      "band": "elderly",
+      "size": 4,
+      "penalty": 200
+    },
+    {
+      "id": "trishuli-farm-elderly-2",
+      "location": "trishuli-farm",
+      "band": "elderly",
+      "size": 4,
+      "penalty": 200
+    }
+  ]
+}

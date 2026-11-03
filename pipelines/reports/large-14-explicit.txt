@@ -1,0 +1,37 @@
+FIELD REPORT - Nuwakot district flood response (scenario large-14)
+
+VEHICLES: 2 car(s), 4 passenger seats each. Positions: [car1] at Trishuli shelter [trishuli-shelter]; [car2] at Dhunche hospital [dhunche-hospital].
+
+EVACUATION POINTS (people may only be dropped off here): Trishuli shelter [trishuli-shelter], Dhunche hospital [dhunche-hospital].
+
+ROADS
+- Trishuli shelter [trishuli-shelter] <-> Bidur temple [bidur-temple]: 7 min, open
+- Trishuli shelter [trishuli-shelter] <-> Dupcheshwar care home [dupcheshwar-care-home]: 19 min, open
+- Trishuli shelter [trishuli-shelter] <-> Uttargaya farm [uttargaya-farm]: 24 min, open
+- Dhunche hospital [dhunche-hospital] <-> Dupcheshwar care home [dupcheshwar-care-home]: 21 min, IMPASSABLE (damaged)
+- Benighat care home [benighat-care-home] <-> Tarkeshwar market [tarkeshwar-market]: 9 min, open
+- Benighat care home [benighat-care-home] <-> Gajuri market [gajuri-market]: 19 min, IMPASSABLE (damaged)
+- Benighat care home [benighat-care-home] <-> Panchakanya care home [panchakanya-care-home]: 8 min, open
+- Benighat care home [benighat-care-home] <-> Jwalamukhi market [jwalamukhi-market]: 13 min, open
+- Dupcheshwar care home [dupcheshwar-care-home] <-> Gajuri market [gajuri-market]: 15 min, open
+- Tarkeshwar market [tarkeshwar-market] <-> Syaphru market [syaphru-market]: 19 min, open
+- Tarkeshwar market [tarkeshwar-market] <-> Gajuri market [gajuri-market]: 13 min, open
+- Tarkeshwar market [tarkeshwar-market] <-> Panchakanya care home [panchakanya-care-home]: 16 min, open
+- Tarkeshwar market [tarkeshwar-market] <-> Jwalamukhi market [jwalamukhi-market]: 5 min, open
+- Syaphru market [syaphru-market] <-> Panchakanya care home [panchakanya-care-home]: 35 min, open
+- Syaphru market [syaphru-market] <-> Uttargaya farm [uttargaya-farm]: 21 min, IMPASSABLE (damaged)
+- Uttargaya farm [uttargaya-farm] <-> Shivapuri care home [shivapuri-care-home]: 5 min, IMPASSABLE (damaged)
+- Uttargaya farm [uttargaya-farm] <-> Tadi care home [tadi-care-home]: 11 min, open
+- Shivapuri care home [shivapuri-care-home] <-> Tadi care home [tadi-care-home]: 10 min, open
+Any road not listed here does not exist or cannot be used.
+
+PEOPLE AWAITING RESCUE
+- Gajuri market [gajuri-market]: 1 adult, 1 injured person
+- Syaphru market [syaphru-market]: 4 injured people
+- Uttargaya farm [uttargaya-farm]: 3 injured people
+- Tarkeshwar market [tarkeshwar-market]: 2 adults
+- Tadi care home [tadi-care-home]: 4 elderly people
+- Dupcheshwar care home [dupcheshwar-care-home]: 4 elderly people
+- Benighat care home [benighat-care-home]: 1 elderly person
+- Jwalamukhi market [jwalamukhi-market]: 2 adults
+People at the same location may be split between cars or trips.

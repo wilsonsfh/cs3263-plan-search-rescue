@@ -1,0 +1,40 @@
+FIELD REPORT - Nuwakot district flood response (scenario large-04)
+
+VEHICLES: 2 car(s), 4 passenger seats each. Positions: [car1] at Shivapuri shelter [shivapuri-shelter]; [car2] at Trishuli hospital [trishuli-hospital].
+
+EVACUATION POINTS (people may only be dropped off here): Shivapuri shelter [shivapuri-shelter], Trishuli hospital [trishuli-hospital].
+
+ROADS
+- Shivapuri shelter [shivapuri-shelter] <-> Bidur school [bidur-school]: 11 min, IMPASSABLE (damaged)
+- Shivapuri shelter [shivapuri-shelter] <-> Jwalamukhi care home [jwalamukhi-care-home]: 18 min, open
+- Shivapuri shelter [shivapuri-shelter] <-> Belkot care home [belkot-care-home]: 5 min, IMPASSABLE (damaged)
+- Trishuli hospital [trishuli-hospital] <-> Syaphru village [syaphru-village]: 10 min, open
+- Trishuli hospital [trishuli-hospital] <-> Thakre care home [thakre-care-home]: 13 min, open
+- Benighat farm [benighat-farm] <-> Dupcheshwar village [dupcheshwar-village]: 12 min, open
+- Benighat farm [benighat-farm] <-> Panchakanya temple [panchakanya-temple]: 7 min, open
+- Bidur school [bidur-school] <-> Belkot care home [belkot-care-home]: 10 min, open
+- Bidur school [bidur-school] <-> Thakre care home [thakre-care-home]: 19 min, open
+- Jwalamukhi care home [jwalamukhi-care-home] <-> Dupcheshwar village [dupcheshwar-village]: 22 min, IMPASSABLE (damaged)
+- Jwalamukhi care home [jwalamukhi-care-home] <-> Belkot care home [belkot-care-home]: 21 min, IMPASSABLE (damaged)
+- Kakani farm [kakani-farm] <-> Syaphru village [syaphru-village]: 5 min, IMPASSABLE (damaged)
+- Kakani farm [kakani-farm] <-> Thakre care home [thakre-care-home]: 7 min, IMPASSABLE (damaged)
+- Dupcheshwar village [dupcheshwar-village] <-> Panchakanya temple [panchakanya-temple]: 5 min, open
+- Syaphru village [syaphru-village] <-> Belkot care home [belkot-care-home]: 20 min, open
+- Syaphru village [syaphru-village] <-> Thakre care home [thakre-care-home]: 8 min, open
+- Syaphru village [syaphru-village] <-> Likhu care home [likhu-care-home]: 52 min, IMPASSABLE (damaged)
+- Belkot care home [belkot-care-home] <-> Thakre care home [thakre-care-home]: 15 min, open
+- Kalika village [kalika-village] <-> Likhu care home [likhu-care-home]: 16 min, IMPASSABLE (damaged)
+- Kispang farm [kispang-farm] <-> Likhu care home [likhu-care-home]: 10 min, open
+Any road not listed here does not exist or cannot be used.
+
+PEOPLE AWAITING RESCUE
+- Syaphru village [syaphru-village]: 2 adults
+- Thakre care home [thakre-care-home]: 1 elderly person, 1 injured person
+- Kakani farm [kakani-farm]: 3 adults
+- Jwalamukhi care home [jwalamukhi-care-home]: 4 elderly people
+- Bidur school [bidur-school]: 1 injured person
+- Kispang farm [kispang-farm]: 4 adults
+- Benighat farm [benighat-farm]: 4 children
+- Kalika village [kalika-village]: 3 adults
+- Belkot care home [belkot-care-home]: 3 elderly people
+People at the same location may be split between cars or trips.

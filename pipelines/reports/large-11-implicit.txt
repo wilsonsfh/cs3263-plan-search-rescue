@@ -1,0 +1,36 @@
+FIELD REPORT - Nuwakot district flood response (scenario large-11)
+
+Our team has two cars available, each able to carry four passengers. Currently: [car1] at Tarkeshwar shelter [tarkeshwar-shelter]; [car2] at Dupcheshwar hospital [dupcheshwar-hospital].
+
+SAFE LOCATIONS
+Tarkeshwar shelter [tarkeshwar-shelter] is above the flood line and is taking in evacuees.
+Dupcheshwar hospital [dupcheshwar-hospital] is accepting people brought in from the flooded areas.
+Myagang temple [myagang-temple] sits on higher ground, but it has no food, water or medical staff and the authorities have not designated it as a place to bring people.
+
+ROAD CONDITIONS
+- It is a 21-minute drive between Dupcheshwar hospital [dupcheshwar-hospital] and Bidur village [bidur-village], with some debris but no blockages.
+- The drive from Syaphru village [syaphru-village] to Panchakanya farm [panchakanya-farm] takes about 9 minutes.
+- The Tarkeshwar shelter [tarkeshwar-shelter] to Galchhi village [galchhi-village] road is muddy but passable, about 20 minutes by car.
+- The drive from Tarkeshwar shelter [tarkeshwar-shelter] to Bidur village [bidur-village] takes about 15 minutes.
+- Drivers report the road between Syaphru village [syaphru-village] and Trishuli temple [trishuli-temple] is clear; it takes roughly 21 minutes.
+- The Syaphru village [syaphru-village] to Galchhi village [galchhi-village] road is muddy but passable, about 14 minutes by car.
+- The drive from Tarkeshwar shelter [tarkeshwar-shelter] to Trishuli temple [trishuli-temple] takes about 52 minutes.
+- Police have closed the Panchakanya farm [panchakanya-farm] to Trishuli temple [trishuli-temple] road after part of it collapsed into the river. It is normally 12 minutes by car.
+- The Bidur village [bidur-village] to Myagang temple [myagang-temple] road is muddy but passable, about 17 minutes by car.
+- The drive from Galchhi village [galchhi-village] to Panchakanya farm [panchakanya-farm] takes about 22 minutes.
+- It is a 18-minute drive between Dupcheshwar hospital [dupcheshwar-hospital] and Nilkantha care home [nilkantha-care-home], with some debris but no blockages.
+- It is a 10-minute drive between Tarkeshwar shelter [tarkeshwar-shelter] and Gajuri school [gajuri-school], with some debris but no blockages.
+- It is a 11-minute drive between Myagang temple [myagang-temple] and Nilkantha care home [nilkantha-care-home], with some debris but no blockages.
+- It is a 5-minute drive between Naukunda school [naukunda-school] and Trishuli temple [trishuli-temple], with some debris but no blockages.
+- The Galchhi village [galchhi-village] to Bidur village [bidur-village] road is muddy but passable, about 12 minutes by car.
+- Floodwater is running fast over the Galchhi village [galchhi-village] to Myagang temple [myagang-temple] road; a truck was swept off it this morning. The drive usually takes 14 minutes.
+Any road not listed here does not exist or cannot be used.
+
+STRANDED CIVILIANS
+- At Panchakanya farm [panchakanya-farm], residents report six working-age adults waiting for help.
+- At Syaphru village [syaphru-village], residents report five adult labourers waiting for help.
+- At Galchhi village [galchhi-village], residents report a man with a broken leg waiting for help.
+- At Naukunda school [naukunda-school], residents report four schoolchildren waiting for help.
+- At Nilkantha care home [nilkantha-care-home], residents report two adult labourers waiting for help.
+- At Bidur village [bidur-village], residents report an elderly couple waiting for help.
+Families have said they are willing to travel separately if needed.

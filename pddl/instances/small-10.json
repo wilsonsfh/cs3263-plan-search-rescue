@@ -1,0 +1,138 @@
+{
+  "id": "small-10",
+  "size": "small",
+  "seed": 10,
+  "penalty_per_person": {
+    "injured": 80,
+    "child": 60,
+    "elderly": 50,
+    "adult": 20
+  },
+  "locations": [
+    {
+      "id": "tarkeshwar-shelter",
+      "name": "Tarkeshwar",
+      "kind": "shelter",
+      "evac": true,
+      "x": 48.4,
+      "y": 23.7
+    },
+    {
+      "id": "benighat-care-home",
+      "name": "Benighat",
+      "kind": "care-home",
+      "evac": false,
+      "x": 53.8,
+      "y": 26.3
+    },
+    {
+      "id": "thakre-care-home",
+      "name": "Thakre",
+      "kind": "care-home",
+      "evac": false,
+      "x": 27.3,
+      "y": 52.8
+    },
+    {
+      "id": "dhunche-school",
+      "name": "Dhunche",
+      "kind": "school",
+      "evac": false,
+      "x": 2.6,
+      "y": 35.0
+    },
+    {
+      "id": "kalika-farm",
+      "name": "Kalika",
+      "kind": "farm",
+      "evac": false,
+      "x": 49.8,
+      "y": 4.7
+    }
+  ],
+  "roads": [
+    {
+      "from": "tarkeshwar-shelter",
+      "to": "benighat-care-home",
+      "minutes": 6,
+      "damaged": false
+    },
+    {
+      "from": "tarkeshwar-shelter",
+      "to": "thakre-care-home",
+      "minutes": 36,
+      "damaged": false
+    },
+    {
+      "from": "tarkeshwar-shelter",
+      "to": "kalika-farm",
+      "minutes": 19,
+      "damaged": false
+    },
+    {
+      "from": "benighat-care-home",
+      "to": "dhunche-school",
+      "minutes": 52,
+      "damaged": false
+    },
+    {
+      "from": "benighat-care-home",
+      "to": "kalika-farm",
+      "minutes": 22,
+      "damaged": false
+    },
+    {
+      "from": "thakre-care-home",
+      "to": "dhunche-school",
+      "minutes": 30,
+      "damaged": false
+    }
+  ],
+  "people": [
+    {
+      "location": "thakre-care-home",
+      "band": "elderly",
+      "count": 2
+    },
+    {
+      "location": "benighat-care-home",
+      "band": "elderly",
+      "count": 2
+    },
+    {
+      "location": "dhunche-school",
+      "band": "child",
+      "count": 2
+    }
+  ],
+  "cars": [
+    {
+      "id": "car1",
+      "start": "tarkeshwar-shelter",
+      "seats": 4
+    }
+  ],
+  "groups": [
+    {
+      "id": "thakre-care-home-elderly",
+      "location": "thakre-care-home",
+      "band": "elderly",
+      "size": 2,
+      "penalty": 100
+    },
+    {
+      "id": "benighat-care-home-elderly",
+      "location": "benighat-care-home",
+      "band": "elderly",
+      "size": 2,
+      "penalty": 100
+    },
+    {
+      "id": "dhunche-school-child",
+      "location": "dhunche-school",
+      "band": "child",
+      "size": 2,
+      "penalty": 120
+    }
+  ]
+}
