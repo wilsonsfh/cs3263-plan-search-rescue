@@ -1,0 +1,54 @@
+{
+  "pipeline": "direct",
+  "instance": "small-14",
+  "size": "small",
+  "level": "implicit",
+  "model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1876,
+    "output_tokens": 1425,
+    "calls": 1,
+    "seconds": 14.9
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 120,
+    "travel_minutes": 40,
+    "deferred_penalty": 80,
+    "rescued": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 3,
+      "adult": 1
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 4
+    },
+    "people_rescued": 4,
+    "priority_people_rescued": 3
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 tarkeshwar-shelter myagang-temple",
+        "load car1 elderly 3",
+        "load car1 adult 1",
+        "drive car1 myagang-temple tarkeshwar-shelter",
+        "unload car1 elderly 3",
+        "unload car1 adult 1",
+        "defer myagang-temple adult 2",
+        "defer tadi-farm adult 2"
+      ],
+      "claimed_cost": 120,
+      "text": "Only Tarkeshwar shelter is a designated evacuation point, so Myagang temple can't be a drop-off. I read \"two men and women\" at Tadi farm as 2 adults, since the report is ambiguous.\n\n- **First trip:** Myagang is 20 minutes each way, so the round trip is 40 minutes. The car takes the 3 elderly people and 1 adult. Deferring them instead would cost 170, so the trip is worth it.\n- **Second Myagang trip:** This would cost another 40 minutes to save the remaining 2 adults, which is exactly their deferral penalty (2 \u00d7 20 = 40). It is a tie, so I defer them.\n- **Tadi farm:** The detour is 44 extra minutes (22 each way) to save 2 adults worth 40, so I defer them.\n\nTotal: 40 minutes of driving plus 4 deferred adults at 20 each (80 in penalties) is 120.\n\n<plan>\ndrive car1 tarkeshwar-shelter myagang-temple\nload car1 elderly 3\nload car1 adult 1\ndrive car1 myagang-temple tarkeshwar-shelter\nunload car1 elderly 3\nunload car1 adult 1\ndefer myagang-temple adult 2\ndefer tadi-farm adult 2\n</plan>\nCOST: 120"
+    }
+  ]
+}

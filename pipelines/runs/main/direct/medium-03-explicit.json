@@ -1,0 +1,57 @@
+{
+  "pipeline": "direct",
+  "instance": "medium-03",
+  "size": "medium",
+  "level": "explicit",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1896,
+    "output_tokens": 1149,
+    "calls": 1,
+    "seconds": 13.4
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 528,
+    "travel_minutes": 38,
+    "deferred_penalty": 490,
+    "rescued": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 7,
+      "adult": 0
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 6,
+      "elderly": 1,
+      "adult": 4
+    },
+    "people_rescued": 7,
+    "priority_people_rescued": 7
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 uttargaya-shelter kalika-temple",
+        "load car1 elderly 4",
+        "drive car1 kalika-temple uttargaya-shelter",
+        "unload car1 elderly 4",
+        "drive car1 uttargaya-shelter bidur-care-home",
+        "load car1 elderly 3",
+        "drive car1 bidur-care-home uttargaya-shelter",
+        "unload car1 elderly 3",
+        "defer kakani-temple elderly 1",
+        "defer kakani-temple adult 4",
+        "defer suryagadhi-school child 6"
+      ],
+      "claimed_cost": 528,
+      "text": "Kakani temple and Suryagadhi school cannot be reached, so the 11 people there are deferred. Car1 rescues the 7 elderly at Kalika temple and Bidur care home in two round trips. Car2 stays at Thakre hospital.\n\n<plan>\ndrive car1 uttargaya-shelter kalika-temple\nload car1 elderly 4\ndrive car1 kalika-temple uttargaya-shelter\nunload car1 elderly 4\ndrive car1 uttargaya-shelter bidur-care-home\nload car1 elderly 3\ndrive car1 bidur-care-home uttargaya-shelter\nunload car1 elderly 3\ndefer kakani-temple elderly 1\ndefer kakani-temple adult 4\ndefer suryagadhi-school child 6\n</plan>\n\n**Why the deferrals are forced**\n- The only road to Kakani temple is the one from Uttargaya shelter, and it is impassable.\n- Suryagadhi school connects only to Kakani temple, so it is cut off as well.\n- The 11 people at these two sites cannot be reached by any car and must wait for a later wave.\n\n**How the rescue works**\n- **First trip:** Car1 drives to Kalika temple and back (11 + 11 = 22 min), bringing all 4 elderly to Uttargaya shelter.\n- **Second trip:** Car1 drives to Bidur care home and back (8 + 8 = 16 min), bringing all 3 elderly to Uttargaya shelter.\n- **Why car2 doesn't help:** Reaching Bidur care home from Thakre hospital takes 22 min, which already costs more than car1's whole Bidur round trip.\n- **Why two trips:** The 7 elderly need two trips because each car holds 4. Every trip has to return to an evacuation point, so 38 minutes is the lowest possible driving time.\n\n**Cost breakdown**\n- Driving: 22 + 16 = 38\n- Penalties:\n  - 1 elderly \u00d7 50 = 50\n  - 4 adults \u00d7 20 = 80\n  - 6 children \u00d7 60 = 360\n  - Total penalties: 490\n- Total: 38 + 490 = 528\n\nCOST: 528"
+    }
+  ]
+}

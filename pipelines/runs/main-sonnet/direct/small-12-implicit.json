@@ -1,0 +1,59 @@
+{
+  "pipeline": "direct",
+  "instance": "small-12",
+  "size": "small",
+  "level": "implicit",
+  "model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1899,
+    "output_tokens": 1655,
+    "calls": 1,
+    "seconds": 15.0
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 158,
+    "travel_minutes": 118,
+    "deferred_penalty": 40,
+    "rescued": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 8
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 2
+    },
+    "people_rescued": 8,
+    "priority_people_rescued": 0
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 trishuli-shelter gosaikunda-temple",
+        "drive car1 gosaikunda-temple naukunda-farm",
+        "load car1 adult 4",
+        "drive car1 naukunda-farm gosaikunda-temple",
+        "drive car1 gosaikunda-temple trishuli-shelter",
+        "unload car1 adult 4",
+        "drive car1 trishuli-shelter gosaikunda-temple",
+        "drive car1 gosaikunda-temple dupcheshwar-temple",
+        "load car1 adult 4",
+        "drive car1 dupcheshwar-temple gosaikunda-temple",
+        "drive car1 gosaikunda-temple trishuli-shelter",
+        "unload car1 adult 4",
+        "defer bidur-village adult 2"
+      ],
+      "claimed_cost": 158,
+      "text": "This plan rescues 8 of the 10 people and defers the 2 shopkeepers at Bidur village, for a total cost of 158.\n\nTrishuli shelter is the only evacuation point, so every rescued person has to end up there. The Trishuli\u2013Naukunda road is closed, so both trips go through Gosaikunda temple.\n\n- **Naukunda farm trip (46 min):** This rescues 4 adults and avoids a deferral penalty of 80.\n- **Dupcheshwar temple trip (72 min):** This rescues 4 adults and avoids a deferral penalty of 80, a net saving of only 8, but still a saving.\n- **Bidur village (2 adults):** Deferring them costs 40. Reaching them adds 44 minutes of driving, and the car would be full, so deferring is cheaper.\n\nTotal cost is 46 + 72 driving minutes + 40 deferral penalty = 158.\n\n<plan>\ndrive car1 trishuli-shelter gosaikunda-temple\ndrive car1 gosaikunda-temple naukunda-farm\nload car1 adult 4\ndrive car1 naukunda-farm gosaikunda-temple\ndrive car1 gosaikunda-temple trishuli-shelter\nunload car1 adult 4\ndrive car1 trishuli-shelter gosaikunda-temple\ndrive car1 gosaikunda-temple dupcheshwar-temple\nload car1 adult 4\ndrive car1 dupcheshwar-temple gosaikunda-temple\ndrive car1 gosaikunda-temple trishuli-shelter\nunload car1 adult 4\ndefer bidur-village adult 2\n</plan>\n\nCOST: 158"
+    }
+  ]
+}

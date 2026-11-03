@@ -1,0 +1,51 @@
+{
+  "pipeline": "direct",
+  "instance": "small-04",
+  "size": "small",
+  "level": "explicit",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1607,
+    "output_tokens": 958,
+    "calls": 1,
+    "seconds": 10.9
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 102,
+    "travel_minutes": 42,
+    "deferred_penalty": 60,
+    "rescued": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 3
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 3
+    },
+    "people_rescued": 3,
+    "priority_people_rescued": 0
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 naukunda-shelter likhu-school",
+        "load car1 adult 3",
+        "drive car1 likhu-school naukunda-shelter",
+        "unload car1 adult 3",
+        "defer benighat-farm adult 3"
+      ],
+      "claimed_cost": 102,
+      "text": "The cheapest plan is to rescue the 3 adults at Likhu school and defer the 3 adults at Benighat farm, for a total cost of 102.\n\n**Why:** The direct road from Naukunda shelter to Benighat farm is impassable. The only way to reach Benighat farm is through Likhu school, which takes 43 min each way. A round trip from the shelter to Likhu school takes 42 min.\n\n**Options compared:**\n\n| Option | Driving | Penalty | Total |\n|---|---|---|---|\n| Rescue everyone (two trips needed, since the car holds 4) | 86 + 42 = 128 | 0 | 128 |\n| Rescue 4: 3 from Benighat plus 1 from Likhu (or 1 from Benighat plus 3 from Likhu), defer 2 | 86 | 40 | 126 |\n| Rescue the 3 at Likhu, defer the 3 at Benighat | 42 | 60 | **102** |\n| Defer everyone | 0 | 120 | 120 |\n\n<plan>\ndrive car1 naukunda-shelter likhu-school\nload car1 adult 3\ndrive car1 likhu-school naukunda-shelter\nunload car1 adult 3\ndefer benighat-farm adult 3\n</plan>\n\nCOST: 102"
+    }
+  ]
+}

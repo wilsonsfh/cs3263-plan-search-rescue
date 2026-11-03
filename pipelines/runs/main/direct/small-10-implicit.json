@@ -1,0 +1,58 @@
+{
+  "pipeline": "direct",
+  "instance": "small-10",
+  "size": "small",
+  "level": "implicit",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1817,
+    "output_tokens": 1529,
+    "calls": 1,
+    "seconds": 19.9
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 136,
+    "travel_minutes": 136,
+    "deferred_penalty": 0,
+    "rescued": {
+      "injured": 0,
+      "child": 2,
+      "elderly": 4,
+      "adult": 0
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 0
+    },
+    "people_rescued": 6,
+    "priority_people_rescued": 6
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 tarkeshwar-shelter thakre-care-home",
+        "load car1 elderly 2",
+        "drive car1 thakre-care-home dhunche-school",
+        "load car1 child 2",
+        "drive car1 dhunche-school benighat-care-home",
+        "drive car1 benighat-care-home tarkeshwar-shelter",
+        "unload car1 elderly 2",
+        "unload car1 child 2",
+        "drive car1 tarkeshwar-shelter benighat-care-home",
+        "load car1 elderly 2",
+        "drive car1 benighat-care-home tarkeshwar-shelter",
+        "unload car1 elderly 2"
+      ],
+      "claimed_cost": 136,
+      "text": "The car can carry four people, so the six stranded civilians need two trips back to Tarkeshwar shelter. The total cost is 136 and nobody is deferred.\n\n- **Drop-off point:** Tarkeshwar shelter is the only designated evacuation point. Dhunche school is on higher ground but has not been designated, so nobody can be dropped there.\n- **Trip 1 (124 minutes):** The car drives Tarkeshwar \u2192 Thakre (36), picks up the elderly couple, then goes to Dhunche (30) for the two pupils. That fills the car. It returns via Benighat (52) and Tarkeshwar (6), which is the shortest loop that reaches both Thakre and Dhunche.\n- **Trip 2 (12 minutes):** The car makes a quick round trip to Benighat to bring back the two pensioners.\n\n**Why this beats deferring anyone:**\n- Leaving the pupils for a later wave costs 120, but reaching Dhunche and back costs at least 116 minutes on its own.\n- Leaving the Thakre couple costs 100, compared with 72 minutes to fetch them on their own.\n- Leaving the Benighat pensioners costs 100, compared with 12 minutes to fetch them.\n\n<plan>\ndrive car1 tarkeshwar-shelter thakre-care-home\nload car1 elderly 2\ndrive car1 thakre-care-home dhunche-school\nload car1 child 2\ndrive car1 dhunche-school benighat-care-home\ndrive car1 benighat-care-home tarkeshwar-shelter\nunload car1 elderly 2\nunload car1 child 2\ndrive car1 tarkeshwar-shelter benighat-care-home\nload car1 elderly 2\ndrive car1 benighat-care-home tarkeshwar-shelter\nunload car1 elderly 2\n</plan>\n\nCOST: 136"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "pipeline": "direct",
+  "instance": "medium-09",
+  "size": "medium",
+  "level": "explicit",
+  "model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1930,
+    "output_tokens": 1472,
+    "calls": 1,
+    "seconds": 14.5
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 330,
+    "travel_minutes": 110,
+    "deferred_penalty": 220,
+    "rescued": {
+      "injured": 4,
+      "child": 0,
+      "elderly": 3,
+      "adult": 1
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 1,
+      "elderly": 0,
+      "adult": 8
+    },
+    "people_rescued": 8,
+    "priority_people_rescued": 7
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 thakre-shelter dhunche-market",
+        "load car1 injured 4",
+        "drive car1 dhunche-market thakre-shelter",
+        "unload car1 injured 4",
+        "drive car2 thakre-shelter myagang-care-home",
+        "load car2 elderly 3",
+        "drive car2 myagang-care-home dhunche-market",
+        "load car2 adult 1",
+        "drive car2 dhunche-market thakre-shelter",
+        "unload car2 elderly 3",
+        "unload car2 adult 1",
+        "defer dhunche-market adult 1",
+        "defer tadi-market adult 7",
+        "defer shivapuri-village child 1"
+      ],
+      "claimed_cost": 330,
+      "text": "<plan>\ndrive car1 thakre-shelter dhunche-market\nload car1 injured 4\ndrive car1 dhunche-market thakre-shelter\nunload car1 injured 4\ndrive car2 thakre-shelter myagang-care-home\nload car2 elderly 3\ndrive car2 myagang-care-home dhunche-market\nload car2 adult 1\ndrive car2 dhunche-market thakre-shelter\nunload car2 elderly 3\nunload car2 adult 1\ndefer dhunche-market adult 1\ndefer tadi-market adult 7\ndefer shivapuri-village child 1\n</plan>\nCOST: 330"
+    }
+  ]
+}

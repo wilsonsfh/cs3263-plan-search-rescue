@@ -1,0 +1,57 @@
+{
+  "pipeline": "direct",
+  "instance": "medium-05",
+  "size": "medium",
+  "level": "explicit",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1930,
+    "output_tokens": 902,
+    "calls": 1,
+    "seconds": 10.4
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 412,
+    "travel_minutes": 62,
+    "deferred_penalty": 350,
+    "rescued": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 2,
+      "adult": 0
+    },
+    "deferred": {
+      "injured": 2,
+      "child": 0,
+      "elderly": 1,
+      "adult": 7
+    },
+    "people_rescued": 2,
+    "priority_people_rescued": 2
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 thakre-shelter gajuri-care-home",
+        "load car1 elderly 1",
+        "drive car1 gajuri-care-home thakre-shelter",
+        "unload car1 elderly 1",
+        "drive car1 thakre-shelter myagang-care-home",
+        "load car1 elderly 1",
+        "drive car1 myagang-care-home thakre-shelter",
+        "unload car1 elderly 1",
+        "defer panchakanya-care-home injured 2",
+        "defer panchakanya-care-home elderly 1",
+        "defer likhu-farm adult 7"
+      ],
+      "claimed_cost": 412,
+      "text": "The car can rescue the two elderly people at Gajuri and Myagang, but everyone at Likhu farm and Panchakanya care home must be deferred. **Total cost: 412.**\n\n**Which places the car can reach**\n- The only open roads from Thakre shelter go to Gajuri care home (7 min) and Myagang care home (24 min).\n- Likhu farm and Panchakanya care home are linked only to each other and to Suryagadhi care home.\n- Every road connecting that group to Thakre, Tarkeshwar hospital, Myagang or Gajuri is impassable.\n- So the car cannot reach Likhu or Panchakanya, and those 10 people must be deferred:\n  - 2 injured \u00d7 80 = 160\n  - 1 elderly \u00d7 50 = 50\n  - 7 adults \u00d7 20 = 140\n  - Deferral penalty: 350\n\n**Rescuing the reachable people**\n- **Gajuri elderly person:** the round trip to Thakre is 14 min, which is less than the deferral penalty of 50, so rescue.\n- **Myagang elderly person:** the round trip to Thakre is 48 min, which is less than the deferral penalty of 50, so rescue.\n- Myagang and Gajuri have no usable road between them. Each pickup is therefore a separate round trip through Thakre, adding up to 7 + 7 + 24 + 24 = 62 min of driving.\n\n<plan>\ndrive car1 thakre-shelter gajuri-care-home\nload car1 elderly 1\ndrive car1 gajuri-care-home thakre-shelter\nunload car1 elderly 1\ndrive car1 thakre-shelter myagang-care-home\nload car1 elderly 1\ndrive car1 myagang-care-home thakre-shelter\nunload car1 elderly 1\ndefer panchakanya-care-home injured 2\ndefer panchakanya-care-home elderly 1\ndefer likhu-farm adult 7\n</plan>\n\nTotal cost = 62 minutes of driving + 350 in deferral penalties = 412.\n\nCOST: 412"
+    }
+  ]
+}

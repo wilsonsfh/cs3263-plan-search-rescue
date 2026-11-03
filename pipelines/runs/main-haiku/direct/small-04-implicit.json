@@ -1,0 +1,51 @@
+{
+  "pipeline": "direct",
+  "instance": "small-04",
+  "size": "small",
+  "level": "implicit",
+  "model": "claude-haiku-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1766,
+    "output_tokens": 2895,
+    "calls": 1,
+    "seconds": 14.7
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 102,
+    "travel_minutes": 42,
+    "deferred_penalty": 60,
+    "rescued": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 3
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 3
+    },
+    "people_rescued": 3,
+    "priority_people_rescued": 0
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 naukunda-shelter likhu-school",
+        "load car1 adult 3",
+        "drive car1 likhu-school naukunda-shelter",
+        "unload car1 adult 3",
+        "defer benighat-farm adult 3"
+      ],
+      "claimed_cost": 102,
+      "text": "<plan>\ndrive car1 naukunda-shelter likhu-school\nload car1 adult 3\ndrive car1 likhu-school naukunda-shelter\nunload car1 adult 3\ndefer benighat-farm adult 3\n</plan>\nCOST: 102\n\nNotes:\n- Naukunda shelter is the only designated evacuation point, so all rescued people are dropped there. Likhu school is not designated, so the car does not unload there.\n- The Naukunda\u2013Benighat road is blocked, so reaching Benighat requires going through Likhu school (21 + 22 minutes each way).\n- Rescuing the three Benighat adults would cost at least 86 minutes of driving, more than the 60-minute deferral penalty for them, so the plan rescues the three Likhu school adults and defers the Benighat group to a later wave.\n- I assumed roads can be driven in both directions.\n- If the authorities designate Likhu school or another site as a drop-off point, or a second vehicle becomes available, the Benighat group could be reconsidered."
+    }
+  ]
+}

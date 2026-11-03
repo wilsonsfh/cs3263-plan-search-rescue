@@ -1,0 +1,69 @@
+{
+  "pipeline": "direct",
+  "instance": "medium-14",
+  "size": "medium",
+  "level": "implicit",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 2347,
+    "output_tokens": 1989,
+    "calls": 1,
+    "seconds": 19.7
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 401,
+    "travel_minutes": 241,
+    "deferred_penalty": 160,
+    "rescued": {
+      "injured": 0,
+      "child": 1,
+      "elderly": 10,
+      "adult": 1
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 8
+    },
+    "people_rescued": 12,
+    "priority_people_rescued": 11
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 dupcheshwar-shelter tadi-school",
+        "load car1 child 1",
+        "drive car1 tadi-school benighat-market",
+        "load car1 elderly 3",
+        "drive car1 benighat-market dupcheshwar-shelter",
+        "unload car1 child 1",
+        "unload car1 elderly 3",
+        "drive car1 dupcheshwar-shelter benighat-market",
+        "drive car1 benighat-market myagang-care-home",
+        "drive car1 myagang-care-home tarkeshwar-care-home",
+        "load car1 adult 1",
+        "load car1 elderly 3",
+        "drive car1 tarkeshwar-care-home myagang-care-home",
+        "drive car1 myagang-care-home benighat-market",
+        "drive car1 benighat-market dupcheshwar-shelter",
+        "unload car1 adult 1",
+        "unload car1 elderly 3",
+        "drive car2 panchakanya-hospital trishuli-market",
+        "load car2 elderly 4",
+        "drive car2 trishuli-market panchakanya-hospital",
+        "unload car2 elderly 4",
+        "defer trishuli-market adult 4",
+        "defer uttargaya-care-home adult 4"
+      ],
+      "claimed_cost": 401,
+      "text": "**Assumptions**\n- **Evacuation points:** only Dupcheshwar shelter and Panchakanya hospital. Tadi school is not designated, so nobody is dropped there.\n- **Blocked roads:** Benighat\u2013Syaphru and Panchakanya\u2013Benighat are excluded because of the fast-running floodwater.\n- **Tarkeshwar care home:** the farmer is counted as 1 adult, and the three people in their late seventies and eighties as 3 elderly.\n\n**Plan reasoning**\n- **Car1, first trip (27 min):** collect the child at Tadi school and the 3 elderly at Benighat market, then return to Dupcheshwar. Deferring these four would cost 60 + 150 = 210.\n- **Car1, second trip (84 min):** a round trip from Dupcheshwar to Tarkeshwar care home for the adult and 3 elderly. Deferring them would cost 170.\n- **Uttargaya's 4 adults:** deferred (penalty 80). A round trip there takes at least 98 minutes, which costs more than the penalty.\n- **Car2, Trishuli market (130 min):** the round trip from Panchakanya takes 130 minutes. One car fits 4 people, so car2 takes the 4 elderly (deferring them would cost 200).\n- **Trishuli's 4 adults:** deferred (penalty 80). A second 130-minute trip would cost more than the penalty.\n\n<plan>\ndrive car1 dupcheshwar-shelter tadi-school\nload car1 child 1\ndrive car1 tadi-school benighat-market\nload car1 elderly 3\ndrive car1 benighat-market dupcheshwar-shelter\nunload car1 child 1\nunload car1 elderly 3\ndrive car1 dupcheshwar-shelter benighat-market\ndrive car1 benighat-market myagang-care-home\ndrive car1 myagang-care-home tarkeshwar-care-home\nload car1 adult 1\nload car1 elderly 3\ndrive car1 tarkeshwar-care-home myagang-care-home\ndrive car1 myagang-care-home benighat-market\ndrive car1 benighat-market dupcheshwar-shelter\nunload car1 adult 1\nunload car1 elderly 3\ndrive car2 panchakanya-hospital trishuli-market\nload car2 elderly 4\ndrive car2 trishuli-market panchakanya-hospital\nunload car2 elderly 4\ndefer trishuli-market adult 4\ndefer uttargaya-care-home adult 4\n</plan>\n\n**Cost breakdown**\n- Car1 driving: 27 + 84 = 111\n- Car2 driving: 130\n- Deferral penalties: 80 (Trishuli adults) + 80 (Uttargaya adults) = 160\n- Total: 111 + 130 + 160 = 401\n\nCOST: 401"
+    }
+  ]
+}

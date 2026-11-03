@@ -1,0 +1,80 @@
+{
+  "pipeline": "direct",
+  "instance": "large-01",
+  "size": "large",
+  "level": "explicit",
+  "model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 2502,
+    "output_tokens": 3125,
+    "calls": 1,
+    "seconds": 23.8
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 240,
+    "travel_minutes": 180,
+    "deferred_penalty": 60,
+    "rescued": {
+      "injured": 0,
+      "child": 11,
+      "elderly": 2,
+      "adult": 9
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 3
+    },
+    "people_rescued": 22,
+    "priority_people_rescued": 13
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 myagang-shelter suryagadhi-temple",
+        "drive car1 suryagadhi-temple kalika-village",
+        "load car1 child 4",
+        "drive car1 kalika-village suryagadhi-temple",
+        "drive car1 suryagadhi-temple myagang-shelter",
+        "unload car1 child 4",
+        "drive car1 myagang-shelter suryagadhi-temple",
+        "load car1 elderly 2",
+        "drive car1 suryagadhi-temple myagang-shelter",
+        "unload car1 elderly 2",
+        "drive car1 myagang-shelter dhunche-school",
+        "load car1 adult 3",
+        "drive car1 dhunche-school myagang-shelter",
+        "unload car1 adult 3",
+        "drive car1 myagang-shelter dhunche-school",
+        "drive car1 dhunche-school galchhi-school",
+        "load car1 adult 3",
+        "drive car1 galchhi-school dhunche-school",
+        "drive car1 dhunche-school myagang-shelter",
+        "unload car1 adult 3",
+        "drive car2 uttargaya-hospital shivapuri-farm",
+        "load car2 adult 3",
+        "drive car2 shivapuri-farm uttargaya-hospital",
+        "unload car2 adult 3",
+        "drive car2 uttargaya-hospital gosaikunda-school",
+        "load car2 child 4",
+        "drive car2 gosaikunda-school uttargaya-hospital",
+        "unload car2 child 4",
+        "drive car2 uttargaya-hospital gosaikunda-school",
+        "load car2 child 3",
+        "drive car2 gosaikunda-school uttargaya-hospital",
+        "unload car2 child 3",
+        "defer bidur-farm adult 2",
+        "defer trishuli-farm adult 1"
+      ],
+      "claimed_cost": 240,
+      "text": "This plan costs 240: 180 minutes of driving plus 60 for the three deferred adults.\n\n- **Deferred:** Bidur farm (2 adults) and Trishuli farm (1 adult) can only reach Tarkeshwar care home. Every road from there toward an evacuation point is damaged, so they are deferred at 20 each (60).\n- **Car2:** takes the 3 adults at Shivapuri farm, then moves the 7 children at Gosaikunda school in two trips (4, then 3).\n- **Car1:** brings the 4 children from Kalika village, then the 2 elderly at Suryagadhi temple. It then brings the adults from Dhunche school and Galchhi school, each as its own trip.\n\n<plan>\ndrive car1 myagang-shelter suryagadhi-temple\ndrive car1 suryagadhi-temple kalika-village\nload car1 child 4\ndrive car1 kalika-village suryagadhi-temple\ndrive car1 suryagadhi-temple myagang-shelter\nunload car1 child 4\ndrive car1 myagang-shelter suryagadhi-temple\nload car1 elderly 2\ndrive car1 suryagadhi-temple myagang-shelter\nunload car1 elderly 2\ndrive car1 myagang-shelter dhunche-school\nload car1 adult 3\ndrive car1 dhunche-school myagang-shelter\nunload car1 adult 3\ndrive car1 myagang-shelter dhunche-school\ndrive car1 dhunche-school galchhi-school\nload car1 adult 3\ndrive car1 galchhi-school dhunche-school\ndrive car1 dhunche-school myagang-shelter\nunload car1 adult 3\ndrive car2 uttargaya-hospital shivapuri-farm\nload car2 adult 3\ndrive car2 shivapuri-farm uttargaya-hospital\nunload car2 adult 3\ndrive car2 uttargaya-hospital gosaikunda-school\nload car2 child 4\ndrive car2 gosaikunda-school uttargaya-hospital\nunload car2 child 4\ndrive car2 uttargaya-hospital gosaikunda-school\nload car2 child 3\ndrive car2 gosaikunda-school uttargaya-hospital\nunload car2 child 3\ndefer bidur-farm adult 2\ndefer trishuli-farm adult 1\n</plan>\n\nCOST: 240"
+    }
+  ]
+}

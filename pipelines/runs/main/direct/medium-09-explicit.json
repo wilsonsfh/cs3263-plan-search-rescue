@@ -1,0 +1,60 @@
+{
+  "pipeline": "direct",
+  "instance": "medium-09",
+  "size": "medium",
+  "level": "explicit",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1928,
+    "output_tokens": 1558,
+    "calls": 1,
+    "seconds": 16.9
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 330,
+    "travel_minutes": 110,
+    "deferred_penalty": 220,
+    "rescued": {
+      "injured": 4,
+      "child": 0,
+      "elderly": 3,
+      "adult": 1
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 1,
+      "elderly": 0,
+      "adult": 8
+    },
+    "people_rescued": 8,
+    "priority_people_rescued": 7
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 thakre-shelter dhunche-market",
+        "load car1 injured 4",
+        "drive car1 dhunche-market thakre-shelter",
+        "unload car1 injured 4",
+        "drive car2 thakre-shelter myagang-care-home",
+        "load car2 elderly 3",
+        "drive car2 myagang-care-home dhunche-market",
+        "load car2 adult 1",
+        "drive car2 dhunche-market thakre-shelter",
+        "unload car2 elderly 3",
+        "unload car2 adult 1",
+        "defer dhunche-market adult 1",
+        "defer shivapuri-village child 1",
+        "defer tadi-market adult 7"
+      ],
+      "claimed_cost": 330,
+      "text": "Total cost is **330**: 110 minutes of driving plus 220 in deferral penalties. Everyone injured and elderly is rescued. The child, eight adults and no one else are deferred.\n\n<plan>\ndrive car1 thakre-shelter dhunche-market\nload car1 injured 4\ndrive car1 dhunche-market thakre-shelter\nunload car1 injured 4\ndrive car2 thakre-shelter myagang-care-home\nload car2 elderly 3\ndrive car2 myagang-care-home dhunche-market\nload car2 adult 1\ndrive car2 dhunche-market thakre-shelter\nunload car2 elderly 3\nunload car2 adult 1\ndefer dhunche-market adult 1\ndefer shivapuri-village child 1\ndefer tadi-market adult 7\n</plan>\n\n**Driving (110 min)**\n- **car1 (46 min):** It drives to Dhunche market and brings back the 4 injured people. That is 23 + 23 minutes.\n- **car2 (64 min):** It drives to Myagang care home and picks up the 3 elderly people. It then goes to Dhunche market, takes 1 adult in its last free seat, and returns to the shelter. That is 25 + 16 + 23 minutes.\n  - Collecting only the elderly would take 50 minutes and leave that adult deferred (20). Picking up the adult on the way costs 64, which is 6 less overall.\n\n**Deferrals (220)**\n- **1 adult at Dhunche market (20):** A separate round trip for the remaining Dhunche adult would take 46 minutes, more than the 20 penalty.\n- **1 child at Shivapuri village (60):** The round trip would take 88 minutes, more than the 60 penalty.\n- **7 adults at Tadi market (140):** The quickest round trip is 98 minutes and carries at most 4 adults, saving only 80 in penalties.\n\nCOST: 330"
+    }
+  ]
+}

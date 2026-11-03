@@ -1,0 +1,63 @@
+{
+  "pipeline": "direct",
+  "instance": "medium-04",
+  "size": "medium",
+  "level": "implicit",
+  "model": "claude-haiku-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 2128,
+    "output_tokens": 13271,
+    "calls": 1,
+    "seconds": 61.9
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 716,
+    "travel_minutes": 276,
+    "deferred_penalty": 440,
+    "rescued": {
+      "injured": 1,
+      "child": 3,
+      "elderly": 0,
+      "adult": 4
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 3,
+      "elderly": 4,
+      "adult": 3
+    },
+    "people_rescued": 8,
+    "priority_people_rescued": 4
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car2 myagang-shelter nilkantha-temple",
+        "load car2 adult 4",
+        "drive car2 nilkantha-temple myagang-shelter",
+        "unload car2 adult 4",
+        "drive car1 myagang-shelter nilkantha-temple",
+        "drive car1 nilkantha-temple naukunda-village",
+        "drive car1 naukunda-village galchhi-village",
+        "load car1 child 3",
+        "load car1 injured 1",
+        "drive car1 galchhi-village naukunda-village",
+        "drive car1 naukunda-village nilkantha-temple",
+        "drive car1 nilkantha-temple myagang-shelter",
+        "unload car1 child 3",
+        "unload car1 injured 1",
+        "defer nilkantha-temple adult 3",
+        "defer bidur-school child 3",
+        "defer shivapuri-care-home elderly 4"
+      ],
+      "claimed_cost": 716,
+      "text": "<plan>\ndrive car2 myagang-shelter nilkantha-temple\nload car2 adult 4\ndrive car2 nilkantha-temple myagang-shelter\nunload car2 adult 4\ndrive car1 myagang-shelter nilkantha-temple\ndrive car1 nilkantha-temple naukunda-village\ndrive car1 naukunda-village galchhi-village\nload car1 child 3\nload car1 injured 1\ndrive car1 galchhi-village naukunda-village\ndrive car1 naukunda-village nilkantha-temple\ndrive car1 nilkantha-temple myagang-shelter\nunload car1 child 3\nunload car1 injured 1\ndefer nilkantha-temple adult 3\ndefer bidur-school child 3\ndefer shivapuri-care-home elderly 4\n</plan>\nCOST: 716\n\nNotes on the plan:\n- Car1 rescues the Galchhi group (three children and the injured woman), which fills the car. The round trip costs 214 minutes and avoids 260 in penalties.\n- Car2 makes one trip to Nilkantha for four adults (62 minutes), avoiding 80 in penalties. Rescuing the remaining three adults would cost 62 minutes to avoid only 60, so they are deferred.\n- The Bidur children and Shivapuri elderly are deferred. Each rescue trip to those sites costs more in driving than the penalties it would avoid.\n- I treated the flooded Galchhi\u2013Bidur road as unusable, as the report says a truck was swept off it. The plan does not depend on it.\n- I assumed the listed roads can be driven in either direction. Cars do not need to return to Myagang after their final drop-off, but the plan above has both cars ending there."
+    }
+  ]
+}

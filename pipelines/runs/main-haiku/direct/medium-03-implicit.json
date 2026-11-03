@@ -1,0 +1,57 @@
+{
+  "pipeline": "direct",
+  "instance": "medium-03",
+  "size": "medium",
+  "level": "implicit",
+  "model": "claude-haiku-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 2165,
+    "output_tokens": 2753,
+    "calls": 1,
+    "seconds": 14.0
+  },
+  "result": {
+    "valid": false,
+    "error": "step 9: cannot defer 1 injured at kakani-temple (0 waiting)",
+    "cost": null,
+    "travel_minutes": 38,
+    "deferred_penalty": 0,
+    "rescued": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 7,
+      "adult": 0
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 0
+    },
+    "people_rescued": 7,
+    "priority_people_rescued": 7
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 uttargaya-shelter bidur-care-home",
+        "load car1 elderly 3",
+        "drive car1 bidur-care-home uttargaya-shelter",
+        "unload car1 elderly 3",
+        "drive car1 uttargaya-shelter kalika-temple",
+        "load car1 elderly 4",
+        "drive car1 kalika-temple uttargaya-shelter",
+        "unload car1 elderly 4",
+        "defer kakani-temple injured 1",
+        "defer kakani-temple adult 4",
+        "defer suryagadhi-school child 6"
+      ],
+      "claimed_cost": 558,
+      "text": "<plan>\ndrive car1 uttargaya-shelter bidur-care-home\nload car1 elderly 3\ndrive car1 bidur-care-home uttargaya-shelter\nunload car1 elderly 3\ndrive car1 uttargaya-shelter kalika-temple\nload car1 elderly 4\ndrive car1 kalika-temple uttargaya-shelter\nunload car1 elderly 4\ndefer kakani-temple injured 1\ndefer kakani-temple adult 4\ndefer suryagadhi-school child 6\n</plan>\n\nCOST: 558\n\nNotes:\n- Kakani temple and Suryagadhi school form an isolated pair. The washed-away bridge removes the only link to Uttargaya, and Kakani temple has no other listed road, so these 11 people cannot be reached and are deferred.\n- I classed the old man who cannot walk unaided as injured (80). If he is treated as elderly (50), the cost is 528.\n- The four frail seniors at Kalika temple are rescued by taking them to Uttargaya shelter, since Kalika temple is not a designated drop-off point.\n- Car2 is not needed. Sending it to Bidur would cost far more than car1's route."
+    }
+  ]
+}

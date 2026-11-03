@@ -1,0 +1,57 @@
+{
+  "pipeline": "direct",
+  "instance": "medium-03",
+  "size": "medium",
+  "level": "implicit",
+  "model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 2143,
+    "output_tokens": 1403,
+    "calls": 1,
+    "seconds": 14.5
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 528,
+    "travel_minutes": 38,
+    "deferred_penalty": 490,
+    "rescued": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 7,
+      "adult": 0
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 6,
+      "elderly": 1,
+      "adult": 4
+    },
+    "people_rescued": 7,
+    "priority_people_rescued": 7
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 uttargaya-shelter kalika-temple",
+        "load car1 elderly 4",
+        "drive car1 kalika-temple uttargaya-shelter",
+        "unload car1 elderly 4",
+        "drive car1 uttargaya-shelter bidur-care-home",
+        "load car1 elderly 3",
+        "drive car1 bidur-care-home uttargaya-shelter",
+        "unload car1 elderly 3",
+        "defer kakani-temple elderly 1",
+        "defer kakani-temple adult 4",
+        "defer suryagadhi-school child 6"
+      ],
+      "claimed_cost": 528,
+      "text": "This plan rescues the 7 elderly people at Kalika temple and Bidur care home and defers the 11 people at Kakani temple and Suryagadhi school, whom no car can reach.\n\n- **Unreachable:** The bridge from Uttargaya shelter to Kakani temple is washed away. Kakani temple and Suryagadhi school connect only to each other, so no car can reach them. Their 11 people must be deferred: 1 elderly (50), 4 adults (80) and 6 children (360), for 490 in total.\n- **Kalika temple:** Kalika temple is not an evacuation point, so its 4 elderly must be driven to Uttargaya shelter. That costs 22 minutes round trip from the shelter, against a deferral penalty of 200, so it is worth doing.\n- **Bidur care home:** The 3 elderly there cost 16 minutes round trip from the shelter, against a penalty of 150, so this is also worth doing.\n- **Car choice:** car1 handling both trips costs 38 minutes. Sending car2 to Bidur from Thakre hospital instead would cost 30 for that trip alone, 52 in total, so car2 stays put.\n\nTotal cost is 38 minutes of driving plus 490 in penalties, which makes 528.\n\n<plan>\ndrive car1 uttargaya-shelter kalika-temple\nload car1 elderly 4\ndrive car1 kalika-temple uttargaya-shelter\nunload car1 elderly 4\ndrive car1 uttargaya-shelter bidur-care-home\nload car1 elderly 3\ndrive car1 bidur-care-home uttargaya-shelter\nunload car1 elderly 3\ndefer kakani-temple elderly 1\ndefer kakani-temple adult 4\ndefer suryagadhi-school child 6\n</plan>\n\nCOST: 528"
+    }
+  ]
+}

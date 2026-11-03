@@ -1,0 +1,56 @@
+{
+  "pipeline": "direct",
+  "instance": "small-04",
+  "size": "small",
+  "level": "explicit",
+  "model": "claude-haiku-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1632,
+    "output_tokens": 2328,
+    "calls": 1,
+    "seconds": 11.9
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 128,
+    "travel_minutes": 128,
+    "deferred_penalty": 0,
+    "rescued": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 6
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 0
+    },
+    "people_rescued": 6,
+    "priority_people_rescued": 0
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 naukunda-shelter likhu-school",
+        "load car1 adult 3",
+        "drive car1 likhu-school naukunda-shelter",
+        "unload car1 adult 3",
+        "drive car1 naukunda-shelter likhu-school",
+        "drive car1 likhu-school benighat-farm",
+        "load car1 adult 3",
+        "drive car1 benighat-farm likhu-school",
+        "drive car1 likhu-school naukunda-shelter",
+        "unload car1 adult 3"
+      ],
+      "claimed_cost": 128,
+      "text": "<plan>\ndrive car1 naukunda-shelter likhu-school\nload car1 adult 3\ndrive car1 likhu-school naukunda-shelter\nunload car1 adult 3\ndrive car1 naukunda-shelter likhu-school\ndrive car1 likhu-school benighat-farm\nload car1 adult 3\ndrive car1 benighat-farm likhu-school\ndrive car1 likhu-school naukunda-shelter\nunload car1 adult 3\n</plan>\nCOST: 128\n\nAll six adults are rescued, so there are no deferral penalties. The Benighat farm road from Naukunda is blocked, so the car must go through Likhu school. Two round trips to Naukunda are needed because the car holds only four people, and the second trip includes the Benighat detour. This route is the minimum possible: 42 minutes for the first round trip plus 86 for the second, which covers the 44-minute Benighat detour."
+    }
+  ]
+}

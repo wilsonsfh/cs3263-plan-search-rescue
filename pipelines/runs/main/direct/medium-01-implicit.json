@@ -1,0 +1,64 @@
+{
+  "pipeline": "direct",
+  "instance": "medium-01",
+  "size": "medium",
+  "level": "implicit",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 2182,
+    "output_tokens": 1850,
+    "calls": 1,
+    "seconds": 20.0
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 250,
+    "travel_minutes": 130,
+    "deferred_penalty": 120,
+    "rescued": {
+      "injured": 4,
+      "child": 4,
+      "elderly": 0,
+      "adult": 4
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 6
+    },
+    "people_rescued": 12,
+    "priority_people_rescued": 8
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 kakani-shelter tarkeshwar-school",
+        "load car1 injured 4",
+        "drive car1 tarkeshwar-school kakani-shelter",
+        "unload car1 injured 4",
+        "drive car2 kakani-shelter naukunda-school",
+        "load car2 child 3",
+        "drive car2 naukunda-school tarkeshwar-school",
+        "load car2 child 1",
+        "drive car2 tarkeshwar-school kakani-shelter",
+        "unload car2 child 4",
+        "drive car1 kakani-shelter tarkeshwar-school",
+        "drive car1 tarkeshwar-school benighat-farm",
+        "load car1 adult 4",
+        "drive car1 benighat-farm tarkeshwar-school",
+        "drive car1 tarkeshwar-school kakani-shelter",
+        "unload car1 adult 4",
+        "defer myagang-market adult 4",
+        "defer belkot-farm adult 2"
+      ],
+      "claimed_cost": 250,
+      "text": "The plan rescues 14 people and defers 6, for a **total cost of 250**.\n\n**Assumptions**\n- **Drop-off point:** Kakani shelter is the only evacuation point. Tarkeshwar school has not been designated, so drop-offs there would not count.\n- **Belkot farm (2 adults):** The only road to Belkot, from Uttargaya, is closed. They cannot be reached, so they must be deferred (penalty 2 \u00d7 20 = 40).\n- **Myagang market (4 adults):** The Benighat road is washed out, so the only route is through Naukunda. A dedicated round trip from Kakani is 108 minutes, which is more than the 80 deferral penalty, so deferring is cheaper.\n\n**Trips**\n- **Car 1, first trip:** Kakani \u2192 Tarkeshwar \u2192 Kakani with the 4 injured people. This takes 24 minutes.\n- **Car 1, second trip:** Kakani \u2192 Tarkeshwar \u2192 Benighat \u2192 Tarkeshwar \u2192 Kakani with the 4 Benighat adults. This takes 52 minutes, which is less than their 80 deferral penalty.\n- **Car 2:** Kakani \u2192 Naukunda (3 nursery children) \u2192 Tarkeshwar (the 7-year-old) \u2192 Kakani. This takes 54 minutes.\n\n<plan>\ndrive car1 kakani-shelter tarkeshwar-school\nload car1 injured 4\ndrive car1 tarkeshwar-school kakani-shelter\nunload car1 injured 4\ndrive car2 kakani-shelter naukunda-school\nload car2 child 3\ndrive car2 naukunda-school tarkeshwar-school\nload car2 child 1\ndrive car2 tarkeshwar-school kakani-shelter\nunload car2 child 4\ndrive car1 kakani-shelter tarkeshwar-school\ndrive car1 tarkeshwar-school benighat-farm\nload car1 adult 4\ndrive car1 benighat-farm tarkeshwar-school\ndrive car1 tarkeshwar-school kakani-shelter\nunload car1 adult 4\ndefer myagang-market adult 4\ndefer belkot-farm adult 2\n</plan>\n\n**Cost breakdown**\n- Driving: 24 + 52 + 54 = 130 minutes\n- Penalties: Myagang 80 + Belkot 40 = 120\n\nCOST: 250"
+    }
+  ]
+}

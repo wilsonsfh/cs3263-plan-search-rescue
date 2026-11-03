@@ -1,0 +1,52 @@
+{
+  "pipeline": "direct",
+  "instance": "small-01",
+  "size": "small",
+  "level": "implicit",
+  "model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1837,
+    "output_tokens": 1404,
+    "calls": 1,
+    "seconds": 12.5
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 176,
+    "travel_minutes": 56,
+    "deferred_penalty": 120,
+    "rescued": {
+      "injured": 0,
+      "child": 2,
+      "elderly": 0,
+      "adult": 0
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 2,
+      "adult": 1
+    },
+    "people_rescued": 2,
+    "priority_people_rescued": 2
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 myagang-shelter uttargaya-school",
+        "load car1 child 2",
+        "drive car1 uttargaya-school myagang-shelter",
+        "unload car1 child 2",
+        "defer syaphru-temple adult 1",
+        "defer syaphru-temple elderly 2"
+      ],
+      "claimed_cost": 176,
+      "text": "The only designated evacuation point is Myagang shelter. Uttargaya school is not one, so people dropped there would not count as rescued.\n\n- **Children at Uttargaya school:** A round trip from Myagang costs 56 minutes (28 each way). Deferring the two children would cost 120, so rescuing them is cheaper.\n- **Group at Syaphru temple (one adult, two elderly):** Reaching them means 28 + 8 + 31 = 67 minutes each way, so a round trip costs 134. Deferring them costs 20 + 50 + 50 = 120, which is cheaper.\n- **Combining the trips:** Taking everyone in one run would put five people in a four-seat car. Rescuing everyone costs 190 whether the children are ferried first or one child is picked up on the way back. Both are worse than 56 + 120 = 176.\n\n<plan>\ndrive car1 myagang-shelter uttargaya-school\nload car1 child 2\ndrive car1 uttargaya-school myagang-shelter\nunload car1 child 2\ndefer syaphru-temple adult 1\ndefer syaphru-temple elderly 2\n</plan>\n\nCOST: 176"
+    }
+  ]
+}

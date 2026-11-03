@@ -1,0 +1,57 @@
+{
+  "pipeline": "direct",
+  "instance": "medium-03",
+  "size": "medium",
+  "level": "implicit",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 2141,
+    "output_tokens": 1260,
+    "calls": 1,
+    "seconds": 12.9
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 528,
+    "travel_minutes": 38,
+    "deferred_penalty": 490,
+    "rescued": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 7,
+      "adult": 0
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 6,
+      "elderly": 1,
+      "adult": 4
+    },
+    "people_rescued": 7,
+    "priority_people_rescued": 7
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 uttargaya-shelter kalika-temple",
+        "load car1 elderly 4",
+        "drive car1 kalika-temple uttargaya-shelter",
+        "unload car1 elderly 4",
+        "drive car1 uttargaya-shelter bidur-care-home",
+        "load car1 elderly 3",
+        "drive car1 bidur-care-home uttargaya-shelter",
+        "unload car1 elderly 3",
+        "defer kakani-temple elderly 1",
+        "defer kakani-temple adult 4",
+        "defer suryagadhi-school child 6"
+      ],
+      "claimed_cost": 528,
+      "text": "The plan rescues the 7 elderly people at Kalika temple and Bidur care home using car1 only. The 11 people at Kakani temple and Suryagadhi school have to be deferred because no usable road reaches them.\n\n**Why Kakani and Suryagadhi are cut off:** The only road into Kakani temple from outside was the Uttargaya shelter road, and its bridge has been washed away. The road between Kakani temple and Suryagadhi school only links those two places to each other.\n\n**Why Kalika temple is not a drop-off point:** It is on high ground, but it has not been designated as an evacuation point. The 4 seniors there must be taken to Uttargaya shelter.\n\n**Why car1 does all the driving:** Both rescue runs can start and end at Uttargaya shelter, so they cost 22 + 16 = 38 minutes. Sending car2 from Thakre hospital to Bidur care home would cost more (22 + 8 = 30 minutes, against 16 for car1). Deferring the 3 elderly residents at Bidur care home instead would cost a penalty of 150.\n\n<plan>\ndrive car1 uttargaya-shelter kalika-temple\nload car1 elderly 4\ndrive car1 kalika-temple uttargaya-shelter\nunload car1 elderly 4\ndrive car1 uttargaya-shelter bidur-care-home\nload car1 elderly 3\ndrive car1 bidur-care-home uttargaya-shelter\nunload car1 elderly 3\ndefer kakani-temple elderly 1\ndefer kakani-temple adult 4\ndefer suryagadhi-school child 6\n</plan>\n\n**Cost breakdown:**\n- **Driving:** 11 + 11 + 8 + 8 = 38 minutes\n- **Deferral penalties:** 1 elderly (50) + 4 adults (80) + 6 children (360) = 490\n\nCOST: 528"
+    }
+  ]
+}

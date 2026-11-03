@@ -1,0 +1,72 @@
+{
+  "pipeline": "direct",
+  "instance": "large-04",
+  "size": "large",
+  "level": "explicit",
+  "model": "claude-haiku-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 2578,
+    "output_tokens": 6735,
+    "calls": 1,
+    "seconds": 29.3
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 577,
+    "travel_minutes": 137,
+    "deferred_penalty": 440,
+    "rescued": {
+      "injured": 2,
+      "child": 0,
+      "elderly": 8,
+      "adult": 2
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 4,
+      "elderly": 0,
+      "adult": 10
+    },
+    "people_rescued": 12,
+    "priority_people_rescued": 10
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 shivapuri-shelter jwalamukhi-care-home",
+        "load car1 elderly 4",
+        "drive car1 jwalamukhi-care-home shivapuri-shelter",
+        "unload car1 elderly 4",
+        "drive car2 trishuli-hospital syaphru-village",
+        "load car2 adult 2",
+        "drive car2 syaphru-village thakre-care-home",
+        "load car2 elderly 1",
+        "load car2 injured 1",
+        "drive car2 thakre-care-home trishuli-hospital",
+        "unload car2 adult 2",
+        "unload car2 elderly 1",
+        "unload car2 injured 1",
+        "drive car2 trishuli-hospital thakre-care-home",
+        "drive car2 thakre-care-home belkot-care-home",
+        "load car2 elderly 3",
+        "drive car2 belkot-care-home bidur-school",
+        "load car2 injured 1",
+        "drive car2 bidur-school thakre-care-home",
+        "drive car2 thakre-care-home trishuli-hospital",
+        "unload car2 elderly 3",
+        "unload car2 injured 1",
+        "defer kispang-farm adult 4",
+        "defer kalika-village adult 3",
+        "defer kakani-farm adult 3",
+        "defer benighat-farm child 4"
+      ],
+      "claimed_cost": 577,
+      "text": "<plan>\ndrive car1 shivapuri-shelter jwalamukhi-care-home\nload car1 elderly 4\ndrive car1 jwalamukhi-care-home shivapuri-shelter\nunload car1 elderly 4\ndrive car2 trishuli-hospital syaphru-village\nload car2 adult 2\ndrive car2 syaphru-village thakre-care-home\nload car2 elderly 1\nload car2 injured 1\ndrive car2 thakre-care-home trishuli-hospital\nunload car2 adult 2\nunload car2 elderly 1\nunload car2 injured 1\ndrive car2 trishuli-hospital thakre-care-home\ndrive car2 thakre-care-home belkot-care-home\nload car2 elderly 3\ndrive car2 belkot-care-home bidur-school\nload car2 injured 1\ndrive car2 bidur-school thakre-care-home\ndrive car2 thakre-care-home trishuli-hospital\nunload car2 elderly 3\nunload car2 injured 1\ndefer kispang-farm adult 4\ndefer kalika-village adult 3\ndefer kakani-farm adult 3\ndefer benighat-farm child 4\n</plan>\nCOST: 577\n\nNotes:\n- Car1 can only reach Jwalamukhi (its other roads are damaged), so it makes one round trip for the 4 elderly there.\n- Kispang, Kalika and Kakani are cut off by damaged roads, and Benighat, Dupcheshwar and Panchakanya form an isolated group. Those 15 people are deferred.\n- Car2 does two tours from Trishuli: the first collects 2 adults at Syaphru and 1 elderly and 1 injured at Thakre (31 min); the second collects 3 elderly at Belkot and 1 injured at Bidur (70 min).\n- Driving totals 137 min (car1 36, car2 101). Deferral penalties total 440 (4 children 240, 4 adults 80, 3 adults 60, 3 adults 60)."
+    }
+  ]
+}

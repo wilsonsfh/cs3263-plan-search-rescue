@@ -1,0 +1,48 @@
+{
+  "pipeline": "direct",
+  "instance": "small-13",
+  "size": "small",
+  "level": "implicit",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1649,
+    "output_tokens": 554,
+    "calls": 1,
+    "seconds": 9.2
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 120,
+    "travel_minutes": 0,
+    "deferred_penalty": 120,
+    "rescued": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 0
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 1,
+      "elderly": 0,
+      "adult": 3
+    },
+    "people_rescued": 0,
+    "priority_people_rescued": 0
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "defer nilkantha-market adult 3",
+        "defer belkot-village child 1"
+      ],
+      "claimed_cost": 120,
+      "text": "Both reachable trips cost more than deferring, so the cheapest plan is to defer everyone.\n\n**Roads that can be used**\n- Bidur shelter to Suryagadhi farm: 20 minutes\n- Suryagadhi farm to Likhu care home: 51 minutes\n- Likhu care home to Belkot village: 22 minutes\n\nThe roads into Nilkantha market are both closed: the bridge to Suryagadhi farm washed away and a landslide buried the road to Bidur shelter.\n\n**The three adults at Nilkantha market**\nNo open road reaches the market, so they cannot be rescued and must be deferred. The penalty is 3 \u00d7 20 = 60.\n\n**The toddler at Belkot village**\n- The only route from Bidur is through Suryagadhi farm and Likhu care home, which takes 20 + 51 + 22 = 93 minutes each way.\n- A rescue trip would therefore cost 186 minutes of driving.\n- Deferring the child costs 60, so deferring is cheaper.\n\n<plan>\ndefer nilkantha-market adult 3\ndefer belkot-village child 1\n</plan>\n\nThe total is 60 for the adults plus 60 for the child.\n\nCOST: 120"
+    }
+  ]
+}

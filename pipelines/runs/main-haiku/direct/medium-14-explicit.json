@@ -1,0 +1,69 @@
+{
+  "pipeline": "direct",
+  "instance": "medium-14",
+  "size": "medium",
+  "level": "explicit",
+  "model": "claude-haiku-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 2089,
+    "output_tokens": 9103,
+    "calls": 1,
+    "seconds": 42.2
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 407,
+    "travel_minutes": 247,
+    "deferred_penalty": 160,
+    "rescued": {
+      "injured": 0,
+      "child": 1,
+      "elderly": 10,
+      "adult": 1
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 8
+    },
+    "people_rescued": 12,
+    "priority_people_rescued": 11
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 dupcheshwar-shelter benighat-market",
+        "drive car1 benighat-market myagang-care-home",
+        "drive car1 myagang-care-home tarkeshwar-care-home",
+        "load car1 adult 1",
+        "load car1 elderly 3",
+        "drive car1 tarkeshwar-care-home myagang-care-home",
+        "drive car1 myagang-care-home benighat-market",
+        "drive car1 benighat-market dupcheshwar-shelter",
+        "unload car1 adult 1",
+        "unload car1 elderly 3",
+        "drive car2 panchakanya-hospital trishuli-market",
+        "load car2 elderly 4",
+        "drive car2 trishuli-market panchakanya-hospital",
+        "unload car2 elderly 4",
+        "drive car2 panchakanya-hospital tadi-school",
+        "load car2 child 1",
+        "drive car2 tadi-school benighat-market",
+        "load car2 elderly 3",
+        "drive car2 benighat-market dupcheshwar-shelter",
+        "unload car2 child 1",
+        "unload car2 elderly 3",
+        "defer trishuli-market adult 4",
+        "defer uttargaya-care-home adult 4"
+      ],
+      "claimed_cost": 407,
+      "text": "<plan>\ndrive car1 dupcheshwar-shelter benighat-market\ndrive car1 benighat-market myagang-care-home\ndrive car1 myagang-care-home tarkeshwar-care-home\nload car1 adult 1\nload car1 elderly 3\ndrive car1 tarkeshwar-care-home myagang-care-home\ndrive car1 myagang-care-home benighat-market\ndrive car1 benighat-market dupcheshwar-shelter\nunload car1 adult 1\nunload car1 elderly 3\ndrive car2 panchakanya-hospital trishuli-market\nload car2 elderly 4\ndrive car2 trishuli-market panchakanya-hospital\nunload car2 elderly 4\ndrive car2 panchakanya-hospital tadi-school\nload car2 child 1\ndrive car2 tadi-school benighat-market\nload car2 elderly 3\ndrive car2 benighat-market dupcheshwar-shelter\nunload car2 child 1\nunload car2 elderly 3\ndefer trishuli-market adult 4\ndefer uttargaya-care-home adult 4\n</plan>\nCOST: 407\n\nDriving: car1 84 min, car2 163 min (247 total). Deferred: 8 adults at 20 each (160). Rescuing the 8 adults would need dedicated trips of 98+ minutes each, which costs more than the penalty, so they are deferred. The Trishuli elderly trip (130 min) is worth it because deferring 4 elderly would cost 200."
+    }
+  ]
+}

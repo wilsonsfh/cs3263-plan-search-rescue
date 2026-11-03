@@ -1,0 +1,87 @@
+{
+  "pipeline": "direct",
+  "instance": "large-14",
+  "size": "large",
+  "level": "implicit",
+  "model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 2855,
+    "output_tokens": 5879,
+    "calls": 1,
+    "seconds": 43.4
+  },
+  "result": {
+    "valid": false,
+    "error": "step 40: cannot defer 3 adult at tarkeshwar-market (1 waiting)",
+    "cost": null,
+    "travel_minutes": 400,
+    "deferred_penalty": 0,
+    "rescued": {
+      "injured": 8,
+      "child": 0,
+      "elderly": 9,
+      "adult": 2
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 0
+    },
+    "people_rescued": 19,
+    "priority_people_rescued": 17
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 trishuli-shelter dupcheshwar-care-home",
+        "load car1 elderly 4",
+        "drive car1 dupcheshwar-care-home trishuli-shelter",
+        "unload car1 elderly 4",
+        "drive car1 trishuli-shelter uttargaya-farm",
+        "load car1 injured 3",
+        "drive car1 uttargaya-farm trishuli-shelter",
+        "unload car1 injured 3",
+        "drive car1 trishuli-shelter uttargaya-farm",
+        "drive car1 uttargaya-farm tadi-care-home",
+        "load car1 elderly 4",
+        "drive car1 tadi-care-home uttargaya-farm",
+        "drive car1 uttargaya-farm trishuli-shelter",
+        "unload car1 elderly 4",
+        "drive car1 trishuli-shelter dupcheshwar-care-home",
+        "drive car1 dupcheshwar-care-home gajuri-market",
+        "drive car1 gajuri-market tarkeshwar-market",
+        "drive car1 tarkeshwar-market syaphru-market",
+        "load car1 injured 4",
+        "drive car1 syaphru-market tarkeshwar-market",
+        "drive car1 tarkeshwar-market gajuri-market",
+        "drive car1 gajuri-market dupcheshwar-care-home",
+        "drive car1 dupcheshwar-care-home trishuli-shelter",
+        "unload car1 injured 4",
+        "drive car1 trishuli-shelter dupcheshwar-care-home",
+        "drive car1 dupcheshwar-care-home gajuri-market",
+        "drive car1 gajuri-market tarkeshwar-market",
+        "drive car1 tarkeshwar-market benighat-care-home",
+        "load car1 elderly 1",
+        "drive car1 benighat-care-home tarkeshwar-market",
+        "load car1 adult 1",
+        "drive car1 tarkeshwar-market gajuri-market",
+        "load car1 injured 1",
+        "load car1 adult 1",
+        "drive car1 gajuri-market dupcheshwar-care-home",
+        "drive car1 dupcheshwar-care-home trishuli-shelter",
+        "unload car1 injured 1",
+        "unload car1 elderly 1",
+        "unload car1 adult 2",
+        "defer tarkeshwar-market adult 3",
+        "defer jwalamukhi-market adult 2"
+      ],
+      "claimed_cost": 500,
+      "text": "Only car1 can work. Car2 is stuck at Dhunche hospital because the landslide buried its only road.\n\n- **Unusable roads:** I treated the washed-out Syaphru\u2013Uttargaya bridge, the closed Uttargaya\u2013Shivapuri road, the buried Dhunche\u2013Dupcheshwar road and the flooded, dangerous Benighat\u2013Gajuri road as unusable.\n- **Not a drop-off:** Bidur temple is not an evacuation point, so no one is dropped there.\n- **Assumed headcount:** I read \"two men and women from the cooperative\" at Tarkeshwar as 2 men and 2 women, so 4 adults. If the real count differs, the defer line for Tarkeshwar needs adjusting.\n- **Deferred:** The remaining Tarkeshwar adults and the 2 Jwalamukhi adults are deferred. A trip for them costs more than the 20-minute penalty each.\n\n<plan>\ndrive car1 trishuli-shelter dupcheshwar-care-home\nload car1 elderly 4\ndrive car1 dupcheshwar-care-home trishuli-shelter\nunload car1 elderly 4\ndrive car1 trishuli-shelter uttargaya-farm\nload car1 injured 3\ndrive car1 uttargaya-farm trishuli-shelter\nunload car1 injured 3\ndrive car1 trishuli-shelter uttargaya-farm\ndrive car1 uttargaya-farm tadi-care-home\nload car1 elderly 4\ndrive car1 tadi-care-home uttargaya-farm\ndrive car1 uttargaya-farm trishuli-shelter\nunload car1 elderly 4\ndrive car1 trishuli-shelter dupcheshwar-care-home\ndrive car1 dupcheshwar-care-home gajuri-market\ndrive car1 gajuri-market tarkeshwar-market\ndrive car1 tarkeshwar-market syaphru-market\nload car1 injured 4\ndrive car1 syaphru-market tarkeshwar-market\ndrive car1 tarkeshwar-market gajuri-market\ndrive car1 gajuri-market dupcheshwar-care-home\ndrive car1 dupcheshwar-care-home trishuli-shelter\nunload car1 injured 4\ndrive car1 trishuli-shelter dupcheshwar-care-home\ndrive car1 dupcheshwar-care-home gajuri-market\ndrive car1 gajuri-market tarkeshwar-market\ndrive car1 tarkeshwar-market benighat-care-home\nload car1 elderly 1\ndrive car1 benighat-care-home tarkeshwar-market\nload car1 adult 1\ndrive car1 tarkeshwar-market gajuri-market\nload car1 injured 1\nload car1 adult 1\ndrive car1 gajuri-market dupcheshwar-care-home\ndrive car1 dupcheshwar-care-home trishuli-shelter\nunload car1 injured 1\nunload car1 elderly 1\nunload car1 adult 2\ndefer tarkeshwar-market adult 3\ndefer jwalamukhi-market adult 2\n</plan>\nCOST: 500"
+    }
+  ]
+}

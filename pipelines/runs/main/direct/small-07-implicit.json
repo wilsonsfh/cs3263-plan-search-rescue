@@ -1,0 +1,58 @@
+{
+  "pipeline": "direct",
+  "instance": "small-07",
+  "size": "small",
+  "level": "implicit",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1798,
+    "output_tokens": 1098,
+    "calls": 1,
+    "seconds": 12.6
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 122,
+    "travel_minutes": 122,
+    "deferred_penalty": 0,
+    "rescued": {
+      "injured": 4,
+      "child": 4,
+      "elderly": 3,
+      "adult": 0
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 0
+    },
+    "people_rescued": 11,
+    "priority_people_rescued": 11
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 naukunda-shelter myagang-care-home",
+        "load car1 elderly 3",
+        "drive car1 myagang-care-home naukunda-shelter",
+        "unload car1 elderly 3",
+        "drive car1 naukunda-shelter gosaikunda-school",
+        "load car1 injured 4",
+        "drive car1 gosaikunda-school naukunda-shelter",
+        "unload car1 injured 4",
+        "drive car1 naukunda-shelter gosaikunda-school",
+        "load car1 child 4",
+        "drive car1 gosaikunda-school naukunda-shelter",
+        "unload car1 child 4"
+      ],
+      "claimed_cost": 122,
+      "text": "The plan rescues all 11 people for a total cost of **122 driving minutes**, with nobody deferred.\n\n**Key points from the field report**\n- **Drop-off point:** Naukunda shelter is the only designated evacuation point. Gosaikunda school is on high ground but is not designated, so nobody can be dropped there.\n- **Gosaikunda school (8 people):** 4 children and 4 injured. Deferring them would cost 240 + 320 = 560. The quickest route to the shelter is the direct road, 28 minutes each way, so a round trip is 56. The route through Kalika care home takes 31 minutes.\n- **Myagang care home (3 elderly):** A round trip takes 10 minutes, which is far less than the 150 penalty for deferring them.\n- **Trips needed:** The car carries 4, so it needs 3 loaded trips. Gosaikunda needs two trips of 4 people each (2 \u00d7 56). Myagang needs one trip (10). Combining stops would only add driving, so 122 is the lowest possible cost.\n\n<plan>\ndrive car1 naukunda-shelter myagang-care-home\nload car1 elderly 3\ndrive car1 myagang-care-home naukunda-shelter\nunload car1 elderly 3\ndrive car1 naukunda-shelter gosaikunda-school\nload car1 injured 4\ndrive car1 gosaikunda-school naukunda-shelter\nunload car1 injured 4\ndrive car1 naukunda-shelter gosaikunda-school\nload car1 child 4\ndrive car1 gosaikunda-school naukunda-shelter\nunload car1 child 4\n</plan>\n\nCOST: 122"
+    }
+  ]
+}

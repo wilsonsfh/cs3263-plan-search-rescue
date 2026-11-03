@@ -1,0 +1,70 @@
+{
+  "pipeline": "direct",
+  "instance": "medium-08",
+  "size": "medium",
+  "level": "implicit",
+  "model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 2069,
+    "output_tokens": 2046,
+    "calls": 1,
+    "seconds": 41.5
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 280,
+    "travel_minutes": 200,
+    "deferred_penalty": 80,
+    "rescued": {
+      "injured": 3,
+      "child": 0,
+      "elderly": 6,
+      "adult": 3
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 4
+    },
+    "people_rescued": 12,
+    "priority_people_rescued": 9
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car2 uttargaya-shelter kakani-temple",
+        "load car2 elderly 3",
+        "load car2 adult 1",
+        "drive car2 kakani-temple uttargaya-shelter",
+        "unload car2 elderly 3",
+        "unload car2 adult 1",
+        "drive car1 uttargaya-shelter bidur-temple",
+        "drive car1 bidur-temple trishuli-village",
+        "load car1 injured 3",
+        "drive car1 trishuli-village bidur-temple",
+        "load car1 adult 1",
+        "drive car1 bidur-temple uttargaya-shelter",
+        "unload car1 injured 3",
+        "unload car1 adult 1",
+        "drive car1 uttargaya-shelter bidur-temple",
+        "drive car1 bidur-temple syaphru-farm",
+        "load car1 elderly 3",
+        "drive car1 syaphru-farm bidur-temple",
+        "load car1 adult 1",
+        "drive car1 bidur-temple uttargaya-shelter",
+        "unload car1 elderly 3",
+        "unload car1 adult 1",
+        "defer kakani-temple adult 3",
+        "defer bidur-temple adult 1"
+      ],
+      "claimed_cost": 280,
+      "text": "<plan>\ndrive car2 uttargaya-shelter kakani-temple\nload car2 elderly 3\nload car2 adult 1\ndrive car2 kakani-temple uttargaya-shelter\nunload car2 elderly 3\nunload car2 adult 1\ndrive car1 uttargaya-shelter bidur-temple\ndrive car1 bidur-temple trishuli-village\nload car1 injured 3\ndrive car1 trishuli-village bidur-temple\nload car1 adult 1\ndrive car1 bidur-temple uttargaya-shelter\nunload car1 injured 3\nunload car1 adult 1\ndrive car1 uttargaya-shelter bidur-temple\ndrive car1 bidur-temple syaphru-farm\nload car1 elderly 3\ndrive car1 syaphru-farm bidur-temple\nload car1 adult 1\ndrive car1 bidur-temple uttargaya-shelter\nunload car1 elderly 3\nunload car1 adult 1\ndefer kakani-temple adult 3\ndefer bidur-temple adult 1\n</plan>\nCOST: 280"
+    }
+  ]
+}

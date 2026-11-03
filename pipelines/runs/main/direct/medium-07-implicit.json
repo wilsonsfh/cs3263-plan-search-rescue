@@ -1,0 +1,66 @@
+{
+  "pipeline": "direct",
+  "instance": "medium-07",
+  "size": "medium",
+  "level": "implicit",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 2118,
+    "output_tokens": 1961,
+    "calls": 1,
+    "seconds": 18.5
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 411,
+    "travel_minutes": 271,
+    "deferred_penalty": 140,
+    "rescued": {
+      "injured": 4,
+      "child": 8,
+      "elderly": 0,
+      "adult": 0
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 7
+    },
+    "people_rescued": 12,
+    "priority_people_rescued": 12
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 kakani-shelter jwalamukhi-school",
+        "drive car1 jwalamukhi-school benighat-school",
+        "load car1 injured 4",
+        "drive car1 benighat-school jwalamukhi-school",
+        "drive car1 jwalamukhi-school kakani-shelter",
+        "unload car1 injured 4",
+        "drive car1 kakani-shelter jwalamukhi-school",
+        "drive car1 jwalamukhi-school benighat-school",
+        "load car1 child 4",
+        "drive car1 benighat-school jwalamukhi-school",
+        "drive car1 jwalamukhi-school kakani-shelter",
+        "unload car1 child 4",
+        "defer jwalamukhi-school adult 4",
+        "drive car1 kakani-shelter dupcheshwar-farm",
+        "load car1 child 1",
+        "drive car1 dupcheshwar-farm panchakanya-school",
+        "load car1 child 3",
+        "drive car1 panchakanya-school myagang-hospital",
+        "unload car1 child 4",
+        "defer gajuri-market adult 3"
+      ],
+      "claimed_cost": 411,
+      "text": "Panchakanya school is not a designated evacuation point, so only Kakani shelter and Myagang hospital count as drop-offs. The Gajuri roads to Myagang and Kakani are flooded, so the only way to Gajuri is through Panchakanya.\n\n**Strategy**\n- **Benighat (4 injured, 4 children):** The only route is Kakani \u2192 Jwalamukhi \u2192 Benighat, 47 minutes each way. Each 94-minute round trip saves either 320 (injured) or 240 (children) in penalties, so we make two trips.\n- **Jwalamukhi (4 adults):** A separate round trip would cost 80 minutes, the same as the 80 deferral penalty, because the car is full on both Benighat trips. We defer them.\n- **Dupcheshwar (1 child) and Panchakanya (3 children):** The route Kakani \u2192 Dupcheshwar \u2192 Panchakanya \u2192 Myagang takes 83 minutes and saves 240. This fills the car exactly, and the plan ends at Myagang.\n- **Gajuri (3 adults):** Rescuing them would need at least 112 extra minutes (Myagang \u2192 Panchakanya \u2192 Gajuri and back). That is more than the 60 deferral penalty, so we defer them.\n\n<plan>\ndrive car1 kakani-shelter jwalamukhi-school\ndrive car1 jwalamukhi-school benighat-school\nload car1 injured 4\ndrive car1 benighat-school jwalamukhi-school\ndrive car1 jwalamukhi-school kakani-shelter\nunload car1 injured 4\ndrive car1 kakani-shelter jwalamukhi-school\ndrive car1 jwalamukhi-school benighat-school\nload car1 child 4\ndrive car1 benighat-school jwalamukhi-school\ndrive car1 jwalamukhi-school kakani-shelter\nunload car1 child 4\ndefer jwalamukhi-school adult 4\ndrive car1 kakani-shelter dupcheshwar-farm\nload car1 child 1\ndrive car1 dupcheshwar-farm panchakanya-school\nload car1 child 3\ndrive car1 panchakanya-school myagang-hospital\nunload car1 child 4\ndefer gajuri-market adult 3\n</plan>\n\n**Cost breakdown**\n| Item | Cost |\n|---|---|\n| Benighat trips: 2 \u00d7 94 minutes | 188 |\n| Dupcheshwar/Panchakanya route: 23 + 27 + 33 minutes | 83 |\n| Deferral penalty, Jwalamukhi: 4 adults \u00d7 20 | 80 |\n| Deferral penalty, Gajuri: 3 adults \u00d7 20 | 60 |\n| **Total** | **411** |\n\nCOST: 411"
+    }
+  ]
+}

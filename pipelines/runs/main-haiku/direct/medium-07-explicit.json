@@ -1,0 +1,69 @@
+{
+  "pipeline": "direct",
+  "instance": "medium-07",
+  "size": "medium",
+  "level": "explicit",
+  "model": "claude-haiku-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1906,
+    "output_tokens": 10079,
+    "calls": 1,
+    "seconds": 48.6
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 411,
+    "travel_minutes": 351,
+    "deferred_penalty": 60,
+    "rescued": {
+      "injured": 4,
+      "child": 8,
+      "elderly": 0,
+      "adult": 4
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 3
+    },
+    "people_rescued": 16,
+    "priority_people_rescued": 12
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 kakani-shelter jwalamukhi-school",
+        "drive car1 jwalamukhi-school benighat-school",
+        "load car1 injured 4",
+        "drive car1 benighat-school jwalamukhi-school",
+        "drive car1 jwalamukhi-school kakani-shelter",
+        "unload car1 injured 4",
+        "drive car1 kakani-shelter jwalamukhi-school",
+        "drive car1 jwalamukhi-school benighat-school",
+        "load car1 child 4",
+        "drive car1 benighat-school jwalamukhi-school",
+        "drive car1 jwalamukhi-school kakani-shelter",
+        "unload car1 child 4",
+        "drive car1 kakani-shelter jwalamukhi-school",
+        "load car1 adult 4",
+        "drive car1 jwalamukhi-school kakani-shelter",
+        "unload car1 adult 4",
+        "drive car1 kakani-shelter dupcheshwar-farm",
+        "load car1 child 1",
+        "drive car1 dupcheshwar-farm panchakanya-school",
+        "load car1 child 3",
+        "drive car1 panchakanya-school myagang-hospital",
+        "unload car1 child 4",
+        "defer gajuri-market adult 3"
+      ],
+      "claimed_cost": 411,
+      "text": "<plan>\ndrive car1 kakani-shelter jwalamukhi-school\ndrive car1 jwalamukhi-school benighat-school\nload car1 injured 4\ndrive car1 benighat-school jwalamukhi-school\ndrive car1 jwalamukhi-school kakani-shelter\nunload car1 injured 4\ndrive car1 kakani-shelter jwalamukhi-school\ndrive car1 jwalamukhi-school benighat-school\nload car1 child 4\ndrive car1 benighat-school jwalamukhi-school\ndrive car1 jwalamukhi-school kakani-shelter\nunload car1 child 4\ndrive car1 kakani-shelter jwalamukhi-school\nload car1 adult 4\ndrive car1 jwalamukhi-school kakani-shelter\nunload car1 adult 4\ndrive car1 kakani-shelter dupcheshwar-farm\nload car1 child 1\ndrive car1 dupcheshwar-farm panchakanya-school\nload car1 child 3\ndrive car1 panchakanya-school myagang-hospital\nunload car1 child 4\ndefer gajuri-market adult 3\n</plan>\nCOST: 411\n\nNotes on the plan:\n- Benighat is a dead end reachable only through Jwalamukhi, and its 8 people need two full car loads. Each round trip costs 94 minutes.\n- The Jwalamukhi adults cost 80 minutes to fetch, which equals the 80-point penalty for deferring them. I rescued them, but deferring them would give the same total cost.\n- The Gajuri adults can only be reached through Panchakanya, and fetching them would cost at least 112 minutes, more than the 60-point penalty for deferring them. I deferred them.\n- Driving: 94 + 94 + 80 + 83 = 351. Penalties: 3 adults \u00d7 20 = 60. Total: 411."
+    }
+  ]
+}

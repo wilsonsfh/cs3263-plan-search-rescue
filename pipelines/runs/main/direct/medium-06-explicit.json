@@ -1,0 +1,64 @@
+{
+  "pipeline": "direct",
+  "instance": "medium-06",
+  "size": "medium",
+  "level": "explicit",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1870,
+    "output_tokens": 1487,
+    "calls": 1,
+    "seconds": 14.9
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 282,
+    "travel_minutes": 212,
+    "deferred_penalty": 70,
+    "rescued": {
+      "injured": 1,
+      "child": 0,
+      "elderly": 6,
+      "adult": 0
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 1,
+      "adult": 1
+    },
+    "people_rescued": 7,
+    "priority_people_rescued": 7
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "defer nilkantha-temple elderly 1",
+        "defer suryagadhi-market adult 1",
+        "drive car1 jwalamukhi-shelter gajuri-school",
+        "drive car1 gajuri-school kalika-temple",
+        "load car1 elderly 4",
+        "drive car1 kalika-temple gajuri-school",
+        "drive car1 gajuri-school jwalamukhi-shelter",
+        "unload car1 elderly 4",
+        "drive car1 jwalamukhi-shelter gajuri-school",
+        "drive car1 gajuri-school kalika-temple",
+        "drive car1 kalika-temple syaphru-care-home",
+        "load car1 injured 1",
+        "drive car1 syaphru-care-home kalika-temple",
+        "load car1 elderly 2",
+        "drive car1 kalika-temple gajuri-school",
+        "drive car1 gajuri-school jwalamukhi-shelter",
+        "unload car1 injured 1",
+        "unload car1 elderly 2"
+      ],
+      "claimed_cost": 282,
+      "text": "The best plan rescues everyone at Kalika temple and Syaphru care home in two round trips, and defers the 2 people who can't be reached. Total cost is 282.\n\n**Unreachable people.** Nilkantha temple and Suryagadhi market connect only to each other. The road from Kalika temple to Nilkantha temple is impassable, so no car can get there. The 1 elderly person (50) and 1 adult (20) must be deferred, for a penalty of 70.\n\n**Routes.**\n- Jwalamukhi shelter to Kalika temple goes through Gajuri school: 19 + 19 = 38 min. The direct road from Belkot farm to Kalika temple is impassable.\n- Syaphru care home can only be reached through Kalika temple: 38 + 30 = 68 min. Its direct road to the shelter is impassable.\n\n**Why two trips.** There are 7 reachable people (6 elderly and 1 injured) and only 4 seats, so at least two trips are needed.\n- **Trip 1:** collect 4 elderly at Kalika temple. This takes 38 + 38 = 76 min.\n- **Trip 2:** drive to Syaphru, collect the injured person, then collect the last 2 elderly at Kalika on the way back. This takes 68 + 30 + 38 = 136 min.\n\nFetching the injured person adds 60 min, which is cheaper than deferring them (80). Making the second trip at all saves money too. Skipping it would mean deferring 2 elderly plus the injured person, a penalty of 180 instead of 136 min of driving.\n\n<plan>\ndefer nilkantha-temple elderly 1\ndefer suryagadhi-market adult 1\ndrive car1 jwalamukhi-shelter gajuri-school\ndrive car1 gajuri-school kalika-temple\nload car1 elderly 4\ndrive car1 kalika-temple gajuri-school\ndrive car1 gajuri-school jwalamukhi-shelter\nunload car1 elderly 4\ndrive car1 jwalamukhi-shelter gajuri-school\ndrive car1 gajuri-school kalika-temple\ndrive car1 kalika-temple syaphru-care-home\nload car1 injured 1\ndrive car1 syaphru-care-home kalika-temple\nload car1 elderly 2\ndrive car1 kalika-temple gajuri-school\ndrive car1 gajuri-school jwalamukhi-shelter\nunload car1 injured 1\nunload car1 elderly 2\n</plan>\n\n**Cost.** Driving is 76 + 136 = 212 min. Adding the 70 penalty for the 2 deferred people gives 282.\n\nCOST: 282"
+    }
+  ]
+}

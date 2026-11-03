@@ -1,0 +1,64 @@
+{
+  "pipeline": "direct",
+  "instance": "medium-02",
+  "size": "medium",
+  "level": "explicit",
+  "model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1864,
+    "output_tokens": 2222,
+    "calls": 1,
+    "seconds": 18.6
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 191,
+    "travel_minutes": 151,
+    "deferred_penalty": 40,
+    "rescued": {
+      "injured": 6,
+      "child": 0,
+      "elderly": 2,
+      "adult": 3
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 2
+    },
+    "people_rescued": 11,
+    "priority_people_rescued": 8
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 benighat-shelter nilkantha-farm",
+        "load car1 injured 2",
+        "load car1 adult 1",
+        "drive car1 nilkantha-farm benighat-shelter",
+        "unload car1 injured 2",
+        "unload car1 adult 1",
+        "drive car2 dhunche-hospital likhu-village",
+        "load car2 injured 4",
+        "drive car2 likhu-village dhunche-hospital",
+        "unload car2 injured 4",
+        "drive car2 dhunche-hospital likhu-village",
+        "load car2 adult 2",
+        "drive car2 likhu-village kalika-temple",
+        "load car2 elderly 2",
+        "drive car2 kalika-temple dhunche-hospital",
+        "unload car2 adult 2",
+        "unload car2 elderly 2",
+        "defer likhu-village adult 2"
+      ],
+      "claimed_cost": 191,
+      "text": "This plan costs 191 minutes. Car1 rescues the Nilkantha group. Car2 makes two trips from Dhunche hospital: one for the four injured at Likhu, then one for two adults and the two elderly. Two adults at Likhu are deferred.\n\n- **Car1:** Benighat shelter to Nilkantha farm (22 min), load 1 adult and 2 injured, and return (22 min). Total 44.\n- **Car2, trip 1:** Dhunche hospital to Likhu village (22 min), load 4 injured, and return (22 min). Total 44.\n- **Car2, trip 2:** Dhunche hospital to Likhu village (22 min), load 2 adults, then Kalika temple (11 min), load 2 elderly, then Dhunche hospital (30 min). Total 63.\n- **Deferred:** 2 adults at Likhu village, 2 \u00d7 20 = 40.\n\nAnother trip for the last 2 adults would cost 44 minutes against a 40 penalty, so deferring them is slightly cheaper.\n\n<plan>\ndrive car1 benighat-shelter nilkantha-farm\nload car1 injured 2\nload car1 adult 1\ndrive car1 nilkantha-farm benighat-shelter\nunload car1 injured 2\nunload car1 adult 1\ndrive car2 dhunche-hospital likhu-village\nload car2 injured 4\ndrive car2 likhu-village dhunche-hospital\nunload car2 injured 4\ndrive car2 dhunche-hospital likhu-village\nload car2 adult 2\ndrive car2 likhu-village kalika-temple\nload car2 elderly 2\ndrive car2 kalika-temple dhunche-hospital\nunload car2 adult 2\nunload car2 elderly 2\ndefer likhu-village adult 2\n</plan>\nCOST: 191"
+    }
+  ]
+}

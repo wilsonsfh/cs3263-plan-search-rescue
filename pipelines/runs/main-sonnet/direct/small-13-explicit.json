@@ -1,0 +1,48 @@
+{
+  "pipeline": "direct",
+  "instance": "small-13",
+  "size": "small",
+  "level": "explicit",
+  "model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1602,
+    "output_tokens": 267,
+    "calls": 1,
+    "seconds": 5.8
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 120,
+    "travel_minutes": 0,
+    "deferred_penalty": 120,
+    "rescued": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 0
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 1,
+      "elderly": 0,
+      "adult": 3
+    },
+    "people_rescued": 0,
+    "priority_people_rescued": 0
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "defer nilkantha-market adult 3",
+        "defer belkot-village child 1"
+      ],
+      "claimed_cost": 120,
+      "text": "Nilkantha market is cut off, because both of its roads are damaged, so its 3 adults can't be reached. Reaching the child at Belkot village and returning would take 186 minutes of driving (93 each way), which is more than the 60-point penalty for deferring a child. The cheapest plan is to defer everyone and keep the car at the shelter.\n\n<plan>\ndefer nilkantha-market adult 3\ndefer belkot-village child 1\n</plan>\nCOST: 120"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "pipeline": "direct",
+  "instance": "small-15",
+  "size": "small",
+  "level": "explicit",
+  "model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1723,
+    "output_tokens": 600,
+    "calls": 1,
+    "seconds": 7.9
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 74,
+    "travel_minutes": 14,
+    "deferred_penalty": 60,
+    "rescued": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 3
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 3
+    },
+    "people_rescued": 3,
+    "priority_people_rescued": 0
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 shivapuri-shelter kalika-farm",
+        "load car1 adult 3",
+        "drive car1 kalika-farm shivapuri-shelter",
+        "unload car1 adult 3",
+        "defer dupcheshwar-market adult 1",
+        "defer uttargaya-farm adult 2"
+      ],
+      "claimed_cost": 74,
+      "text": "The plan rescues the 3 adults at Kalika farm and defers the other 3 adults.\n\n- **Kalika farm:** the round trip is 14 minutes, which beats the 60-point penalty for deferring 3 adults.\n- **Dupcheshwar market:** the round trip is 64 minutes, against a 20-point penalty for deferring 1 adult, so I defer.\n- **Uttargaya farm:** the shortest route is via Dupcheshwar, 55 minutes each way. Picking up both locations in one trip would cost 110 minutes to save 60 points, so I defer.\n\n<plan>\ndrive car1 shivapuri-shelter kalika-farm\nload car1 adult 3\ndrive car1 kalika-farm shivapuri-shelter\nunload car1 adult 3\ndefer dupcheshwar-market adult 1\ndefer uttargaya-farm adult 2\n</plan>\nCOST: 74"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "pipeline": "direct",
+  "instance": "medium-13",
+  "size": "medium",
+  "level": "explicit",
+  "model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1891,
+    "output_tokens": 1513,
+    "calls": 1,
+    "seconds": 15.2
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 166,
+    "travel_minutes": 86,
+    "deferred_penalty": 80,
+    "rescued": {
+      "injured": 1,
+      "child": 2,
+      "elderly": 0,
+      "adult": 4
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 4
+    },
+    "people_rescued": 7,
+    "priority_people_rescued": 3
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 tarkeshwar-shelter dhunche-village",
+        "load car1 injured 1",
+        "load car1 child 2",
+        "drive car1 dhunche-village tarkeshwar-shelter",
+        "unload car1 injured 1",
+        "unload car1 child 2",
+        "drive car1 tarkeshwar-shelter dhunche-village",
+        "drive car1 dhunche-village gajuri-farm",
+        "load car1 adult 4",
+        "drive car1 gajuri-farm dhunche-village",
+        "drive car1 dhunche-village tarkeshwar-shelter",
+        "unload car1 adult 4",
+        "defer gajuri-farm adult 1",
+        "defer gosaikunda-care-home adult 3"
+      ],
+      "claimed_cost": 166,
+      "text": "This plan costs 166 minutes in total. Gosaikunda care home is only reachable through Kalika farm, so rescuing its 3 adults would take about 160 minutes of driving against a 60-minute deferral penalty. I defer them.\n\nThe car has 4 seats. The plan makes two round trips from the shelter:\n\n1. **Dhunche trip (22 min):** pick up the injured person and 2 children, who carry the highest penalties, and bring them to the shelter.\n2. **Gajuri trip (64 min):** pick up 4 of the 5 adults and bring them to the shelter. A second trip for the fifth adult would cost 64 minutes against a 20-minute penalty, so I defer that adult.\n\nDriving is 22 + 64 = 86 minutes. Penalties are 4 adults \u00d7 20 = 80 minutes.\n\n<plan>\ndrive car1 tarkeshwar-shelter dhunche-village\nload car1 injured 1\nload car1 child 2\ndrive car1 dhunche-village tarkeshwar-shelter\nunload car1 injured 1\nunload car1 child 2\ndrive car1 tarkeshwar-shelter dhunche-village\ndrive car1 dhunche-village gajuri-farm\nload car1 adult 4\ndrive car1 gajuri-farm dhunche-village\ndrive car1 dhunche-village tarkeshwar-shelter\nunload car1 adult 4\ndefer gajuri-farm adult 1\ndefer gosaikunda-care-home adult 3\n</plan>\nCOST: 166"
+    }
+  ]
+}

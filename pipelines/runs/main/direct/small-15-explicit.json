@@ -1,0 +1,52 @@
+{
+  "pipeline": "direct",
+  "instance": "small-15",
+  "size": "small",
+  "level": "explicit",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1719,
+    "output_tokens": 676,
+    "calls": 1,
+    "seconds": 10.1
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 74,
+    "travel_minutes": 14,
+    "deferred_penalty": 60,
+    "rescued": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 3
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 3
+    },
+    "people_rescued": 3,
+    "priority_people_rescued": 0
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 shivapuri-shelter kalika-farm",
+        "load car1 adult 3",
+        "drive car1 kalika-farm shivapuri-shelter",
+        "unload car1 adult 3",
+        "defer dupcheshwar-market adult 1",
+        "defer uttargaya-farm adult 2"
+      ],
+      "claimed_cost": 74,
+      "text": "The cheapest plan is to rescue the 3 adults at Kalika farm and defer the other 3 adults, for a total cost of 74.\n\n**Kalika farm (3 adults):** A round trip from the shelter takes 7 + 7 = 14 min. Deferring them would cost 3 \u00d7 20 = 60. Rescuing is cheaper, and all 3 fit in the car's 4 seats.\n\n**Dupcheshwar market (1 adult):** A round trip takes 32 + 32 = 64 min. Deferring costs 20. Deferring is cheaper.\n\n**Uttargaya farm (2 adults):** The shortest route is through Dupcheshwar, so a round trip takes 2 \u00d7 (32 + 23) = 110 min. Deferring costs 40. Deferring is cheaper.\n\n**Combined trip to Dupcheshwar and Uttargaya (3 adults):** This would take 110 min and fit in the car. Deferring all three costs 60. Deferring is still cheaper.\n\n<plan>\ndrive car1 shivapuri-shelter kalika-farm\nload car1 adult 3\ndrive car1 kalika-farm shivapuri-shelter\nunload car1 adult 3\ndefer dupcheshwar-market adult 1\ndefer uttargaya-farm adult 2\n</plan>\n\nThe total is 14 min of driving plus 60 in penalties (3 deferred adults \u00d7 20).\n\nCOST: 74"
+    }
+  ]
+}

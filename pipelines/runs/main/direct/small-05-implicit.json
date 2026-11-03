@@ -1,0 +1,55 @@
+{
+  "pipeline": "direct",
+  "instance": "small-05",
+  "size": "small",
+  "level": "implicit",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1800,
+    "output_tokens": 854,
+    "calls": 1,
+    "seconds": 9.6
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 102,
+    "travel_minutes": 52,
+    "deferred_penalty": 50,
+    "rescued": {
+      "injured": 6,
+      "child": 0,
+      "elderly": 0,
+      "adult": 0
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 1,
+      "adult": 0
+    },
+    "people_rescued": 6,
+    "priority_people_rescued": 6
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "defer myagang-care-home elderly 1",
+        "drive car1 shivapuri-shelter dhunche-temple",
+        "load car1 injured 4",
+        "drive car1 dhunche-temple shivapuri-shelter",
+        "unload car1 injured 4",
+        "drive car1 shivapuri-shelter dhunche-temple",
+        "load car1 injured 2",
+        "drive car1 dhunche-temple shivapuri-shelter",
+        "unload car1 injured 2"
+      ],
+      "claimed_cost": 102,
+      "text": "The plan rescues all six injured people from Dhunche temple in two round trips and defers the elderly widow at Myagang care home, who cannot be reached. **Total cost: 102.**\n\n**Where people can be dropped off:** Shivapuri shelter is the only evacuation point. Dhunche temple is not designated, so nobody can be dropped there.\n\n**Roads that can be used:**\n- Shivapuri shelter to Dhunche temple: 13 minutes.\n- Dhunche temple to Likhu market: 30 minutes.\n- Shivapuri shelter to Galchhi school: 33 minutes.\n\n**Roads that cannot be used:**\n- Shivapuri shelter to Likhu market is flooded.\n- Likhu market to Myagang care home lost its bridge.\n- Dhunche temple to Galchhi school is closed by police.\n\n**Myagang care home:** The only road in was the Likhu market road, and its bridge is gone. The elderly widow cannot be reached, so she must be deferred (penalty 50).\n\n**Dhunche temple:** The six injured people need two trips because the car carries four. Each round trip takes 26 minutes, so both trips take 52 minutes. Deferring the last two instead would cost 160, so the second trip is worth making.\n\n**Total:** 52 minutes of driving plus the 50 penalty gives 102.\n\n<plan>\ndefer myagang-care-home elderly 1\ndrive car1 shivapuri-shelter dhunche-temple\nload car1 injured 4\ndrive car1 dhunche-temple shivapuri-shelter\nunload car1 injured 4\ndrive car1 shivapuri-shelter dhunche-temple\nload car1 injured 2\ndrive car1 dhunche-temple shivapuri-shelter\nunload car1 injured 2\n</plan>\n\nCOST: 102"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "pipeline": "direct",
+  "instance": "large-05",
+  "size": "large",
+  "level": "explicit",
+  "model": "claude-haiku-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 2265,
+    "output_tokens": 7957,
+    "calls": 1,
+    "seconds": 36.8
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 566,
+    "travel_minutes": 86,
+    "deferred_penalty": 480,
+    "rescued": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 3,
+      "adult": 4
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 2,
+      "elderly": 4,
+      "adult": 8
+    },
+    "people_rescued": 7,
+    "priority_people_rescued": 3
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car2 nilkantha-hospital tadi-village",
+        "drive car2 tadi-village trishuli-care-home",
+        "load car2 elderly 3",
+        "drive car2 trishuli-care-home tadi-village",
+        "drive car2 tadi-village nilkantha-hospital",
+        "unload car2 elderly 3",
+        "drive car2 nilkantha-hospital tadi-village",
+        "drive car2 tadi-village trishuli-care-home",
+        "drive car2 trishuli-care-home uttargaya-market",
+        "load car2 adult 4",
+        "drive car2 uttargaya-market trishuli-care-home",
+        "drive car2 trishuli-care-home tadi-village",
+        "drive car2 tadi-village nilkantha-hospital",
+        "unload car2 adult 4",
+        "defer suryagadhi-market elderly 4",
+        "defer suryagadhi-market adult 6",
+        "defer suryagadhi-market child 2",
+        "defer belkot-village adult 1",
+        "defer panchakanya-farm adult 1"
+      ],
+      "claimed_cost": 566,
+      "text": "Car1 is stuck at Thakre shelter because both of its roads are damaged, so only car2 can operate. Every rescue must end at Nilkantha hospital, the only reachable evacuation point.\n\n- **Trishuli (3 elderly):** a 30-minute round trip saves 150 in penalties. Rescue.\n- **Uttargaya (4 adults):** a 56-minute round trip saves 80. Rescue.\n- **Suryagadhi:** the route is 114 minutes each way, so a 4-person round trip costs 228. The most a full load could save is 220 (2 children and 2 elderly), so deferring everyone there is cheaper.\n- **Belkot (1 adult):** a 62-minute round trip to save 20 is not worth it, so defer.\n- **Panchakanya (1 adult):** its only road is damaged, so it is unreachable. Defer.\n\n<plan>\ndrive car2 nilkantha-hospital tadi-village\ndrive car2 tadi-village trishuli-care-home\nload car2 elderly 3\ndrive car2 trishuli-care-home tadi-village\ndrive car2 tadi-village nilkantha-hospital\nunload car2 elderly 3\ndrive car2 nilkantha-hospital tadi-village\ndrive car2 tadi-village trishuli-care-home\ndrive car2 trishuli-care-home uttargaya-market\nload car2 adult 4\ndrive car2 uttargaya-market trishuli-care-home\ndrive car2 trishuli-care-home tadi-village\ndrive car2 tadi-village nilkantha-hospital\nunload car2 adult 4\ndefer suryagadhi-market elderly 4\ndefer suryagadhi-market adult 6\ndefer suryagadhi-market child 2\ndefer belkot-village adult 1\ndefer panchakanya-farm adult 1\n</plan>\n\nCOST: 566"
+    }
+  ]
+}

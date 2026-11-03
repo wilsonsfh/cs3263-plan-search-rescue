@@ -1,0 +1,58 @@
+{
+  "pipeline": "direct",
+  "instance": "small-07",
+  "size": "small",
+  "level": "explicit",
+  "model": "claude-haiku-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1664,
+    "output_tokens": 2558,
+    "calls": 1,
+    "seconds": 12.5
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 122,
+    "travel_minutes": 122,
+    "deferred_penalty": 0,
+    "rescued": {
+      "injured": 4,
+      "child": 4,
+      "elderly": 3,
+      "adult": 0
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 0
+    },
+    "people_rescued": 11,
+    "priority_people_rescued": 11
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 naukunda-shelter myagang-care-home",
+        "load car1 elderly 3",
+        "drive car1 myagang-care-home naukunda-shelter",
+        "unload car1 elderly 3",
+        "drive car1 naukunda-shelter gosaikunda-school",
+        "load car1 injured 4",
+        "drive car1 gosaikunda-school naukunda-shelter",
+        "unload car1 injured 4",
+        "drive car1 naukunda-shelter gosaikunda-school",
+        "load car1 child 4",
+        "drive car1 gosaikunda-school naukunda-shelter",
+        "unload car1 child 4"
+      ],
+      "claimed_cost": 122,
+      "text": "<plan>\ndrive car1 naukunda-shelter myagang-care-home\nload car1 elderly 3\ndrive car1 myagang-care-home naukunda-shelter\nunload car1 elderly 3\ndrive car1 naukunda-shelter gosaikunda-school\nload car1 injured 4\ndrive car1 gosaikunda-school naukunda-shelter\nunload car1 injured 4\ndrive car1 naukunda-shelter gosaikunda-school\nload car1 child 4\ndrive car1 gosaikunda-school naukunda-shelter\nunload car1 child 4\n</plan>\nCOST: 122\n\nAll 11 people are rescued and none are deferred. Deferring anyone would cost at least 50 per person, while each extra 4-person trip costs 56 minutes, so rescuing everyone is cheaper. The plan's only other option is to take the elderly through Kalika and combine that with the school trip, which costs more overall."
+    }
+  ]
+}

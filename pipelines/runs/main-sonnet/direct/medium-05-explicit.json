@@ -1,0 +1,57 @@
+{
+  "pipeline": "direct",
+  "instance": "medium-05",
+  "size": "medium",
+  "level": "explicit",
+  "model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1934,
+    "output_tokens": 912,
+    "calls": 1,
+    "seconds": 9.4
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 412,
+    "travel_minutes": 62,
+    "deferred_penalty": 350,
+    "rescued": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 2,
+      "adult": 0
+    },
+    "deferred": {
+      "injured": 2,
+      "child": 0,
+      "elderly": 1,
+      "adult": 7
+    },
+    "people_rescued": 2,
+    "priority_people_rescued": 2
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 thakre-shelter gajuri-care-home",
+        "load car1 elderly 1",
+        "drive car1 gajuri-care-home thakre-shelter",
+        "unload car1 elderly 1",
+        "drive car1 thakre-shelter myagang-care-home",
+        "load car1 elderly 1",
+        "drive car1 myagang-care-home thakre-shelter",
+        "unload car1 elderly 1",
+        "defer panchakanya-care-home injured 2",
+        "defer panchakanya-care-home elderly 1",
+        "defer likhu-farm adult 7"
+      ],
+      "claimed_cost": 412,
+      "text": "The roads from Thakre shelter reach only Gajuri and Myagang care homes. Every road touching Tarkeshwar hospital is damaged, and so are the roads linking Suryagadhi, Gajuri and Myagang. This leaves Likhu farm and Panchakanya care home unreachable, so their people must be deferred.\n\n- **Gajuri elderly person:** a 14-minute round trip beats the 50-point deferral penalty, so I rescue them.\n- **Myagang elderly person:** a 48-minute round trip is slightly cheaper than the 50-point penalty, so I rescue them too.\n- **Deferred:** the 2 injured and 1 elderly person at Panchakanya (160 + 50) and the 7 adults at Likhu farm (140), which is 350 in penalties.\n\nThe total is 62 driving minutes plus 350 in penalties.\n\n<plan>\ndrive car1 thakre-shelter gajuri-care-home\nload car1 elderly 1\ndrive car1 gajuri-care-home thakre-shelter\nunload car1 elderly 1\ndrive car1 thakre-shelter myagang-care-home\nload car1 elderly 1\ndrive car1 myagang-care-home thakre-shelter\nunload car1 elderly 1\ndefer panchakanya-care-home injured 2\ndefer panchakanya-care-home elderly 1\ndefer likhu-farm adult 7\n</plan>\nCOST: 412"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "pipeline": "direct",
+  "instance": "small-05",
+  "size": "small",
+  "level": "implicit",
+  "model": "claude-haiku-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1825,
+    "output_tokens": 1722,
+    "calls": 1,
+    "seconds": 9.0
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 102,
+    "travel_minutes": 52,
+    "deferred_penalty": 50,
+    "rescued": {
+      "injured": 6,
+      "child": 0,
+      "elderly": 0,
+      "adult": 0
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 1,
+      "adult": 0
+    },
+    "people_rescued": 6,
+    "priority_people_rescued": 6
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 shivapuri-shelter dhunche-temple",
+        "load car1 injured 4",
+        "drive car1 dhunche-temple shivapuri-shelter",
+        "unload car1 injured 4",
+        "drive car1 shivapuri-shelter dhunche-temple",
+        "load car1 injured 2",
+        "drive car1 dhunche-temple shivapuri-shelter",
+        "unload car1 injured 2",
+        "defer myagang-care-home elderly 1"
+      ],
+      "claimed_cost": 102,
+      "text": "<plan>\ndrive car1 shivapuri-shelter dhunche-temple\nload car1 injured 4\ndrive car1 dhunche-temple shivapuri-shelter\nunload car1 injured 4\ndrive car1 shivapuri-shelter dhunche-temple\nload car1 injured 2\ndrive car1 dhunche-temple shivapuri-shelter\nunload car1 injured 2\ndefer myagang-care-home elderly 1\n</plan>\nCOST: 102\n\nNotes:\n- The six injured at Dhunche temple are carried in two trips of 4 and 2, both on the 13-minute Shivapuri\u2013Dhunche road. Dhunche is not a designated evacuation point, so they are unloaded at Shivapuri shelter.\n- The Myagang care home has no usable road. Its only link, the Likhu market bridge, was washed away, so the elderly widow is deferred to a later wave (penalty 50).\n- The Shivapuri\u2013Likhu road is excluded because floodwater is running fast over it and a truck was swept off it. If that road is confirmed passable, it would not change this plan, since no one is waiting at Likhu market.\n- The Galchhi school road is not needed, and no one is waiting there."
+    }
+  ]
+}

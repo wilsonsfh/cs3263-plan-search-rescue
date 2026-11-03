@@ -1,0 +1,65 @@
+{
+  "pipeline": "direct",
+  "instance": "large-05",
+  "size": "large",
+  "level": "explicit",
+  "model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 2243,
+    "output_tokens": 1998,
+    "calls": 1,
+    "seconds": 21.5
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 566,
+    "travel_minutes": 86,
+    "deferred_penalty": 480,
+    "rescued": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 3,
+      "adult": 4
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 2,
+      "elderly": 4,
+      "adult": 8
+    },
+    "people_rescued": 7,
+    "priority_people_rescued": 3
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car2 nilkantha-hospital tadi-village",
+        "drive car2 tadi-village trishuli-care-home",
+        "load car2 elderly 3",
+        "drive car2 trishuli-care-home tadi-village",
+        "drive car2 tadi-village nilkantha-hospital",
+        "unload car2 elderly 3",
+        "drive car2 nilkantha-hospital tadi-village",
+        "drive car2 tadi-village trishuli-care-home",
+        "drive car2 trishuli-care-home uttargaya-market",
+        "load car2 adult 4",
+        "drive car2 uttargaya-market trishuli-care-home",
+        "drive car2 trishuli-care-home tadi-village",
+        "drive car2 tadi-village nilkantha-hospital",
+        "unload car2 adult 4",
+        "defer belkot-village adult 1",
+        "defer panchakanya-farm adult 1",
+        "defer suryagadhi-market elderly 4",
+        "defer suryagadhi-market adult 6",
+        "defer suryagadhi-market child 2"
+      ],
+      "claimed_cost": 566,
+      "text": "I found a plan with a total cost of 566. It rescues the 3 elderly at Trishuli care home and the 4 adults at Uttargaya market, and defers everyone else.\n\n- **Car1:** it is stuck at Thakre shelter, because both roads out of it are damaged. It stays put.\n- **Trishuli care home (3 elderly):** car2 drives out and back for 30 minutes. That is far cheaper than the 150 penalty for deferring them.\n- **Uttargaya market (4 adults):** the round trip costs 56 minutes, against an 80 penalty for deferring them, so rescuing them saves 24. I run it as a separate trip. Combining it with the Trishuli trip would leave 3 adults behind, and that costs more.\n- **Belkot village (1 adult):** the round trip is 62 minutes against a 20 penalty, so I defer.\n- **Panchakanya farm (1 adult):** the only road to it is damaged, so I defer.\n- **Suryagadhi market (4 elderly, 6 adults, 2 children):** it is 114 minutes one way, so a round trip is 228. The best load of four (2 children, 2 elderly) saves only 220 in penalties, so I defer all 12. That penalty is 200 + 120 + 120 = 440.\n\nTotal: 30 + 56 driving, plus 20 + 20 + 440 in penalties, gives 566.\n\n<plan>\ndrive car2 nilkantha-hospital tadi-village\ndrive car2 tadi-village trishuli-care-home\nload car2 elderly 3\ndrive car2 trishuli-care-home tadi-village\ndrive car2 tadi-village nilkantha-hospital\nunload car2 elderly 3\ndrive car2 nilkantha-hospital tadi-village\ndrive car2 tadi-village trishuli-care-home\ndrive car2 trishuli-care-home uttargaya-market\nload car2 adult 4\ndrive car2 uttargaya-market trishuli-care-home\ndrive car2 trishuli-care-home tadi-village\ndrive car2 tadi-village nilkantha-hospital\nunload car2 adult 4\ndefer belkot-village adult 1\ndefer panchakanya-farm adult 1\ndefer suryagadhi-market elderly 4\ndefer suryagadhi-market adult 6\ndefer suryagadhi-market child 2\n</plan>\nCOST: 566"
+    }
+  ]
+}

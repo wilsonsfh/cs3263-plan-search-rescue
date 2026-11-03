@@ -1,0 +1,57 @@
+{
+  "pipeline": "direct",
+  "instance": "small-08",
+  "size": "small",
+  "level": "implicit",
+  "model": "claude-haiku-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1930,
+    "output_tokens": 4418,
+    "calls": 1,
+    "seconds": 21.2
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 560,
+    "travel_minutes": 120,
+    "deferred_penalty": 440,
+    "rescued": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 4
+    },
+    "deferred": {
+      "injured": 4,
+      "child": 1,
+      "elderly": 0,
+      "adult": 3
+    },
+    "people_rescued": 4,
+    "priority_people_rescued": 0
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 jwalamukhi-shelter dupcheshwar-temple",
+        "drive car1 dupcheshwar-temple gosaikunda-school",
+        "drive car1 gosaikunda-school trishuli-market",
+        "load car1 adult 4",
+        "drive car1 trishuli-market gosaikunda-school",
+        "drive car1 gosaikunda-school dupcheshwar-temple",
+        "drive car1 dupcheshwar-temple jwalamukhi-shelter",
+        "unload car1 adult 4",
+        "defer likhu-school injured 4",
+        "defer likhu-school child 1",
+        "defer thakre-market adult 3"
+      ],
+      "claimed_cost": 560,
+      "text": "<plan>\ndrive car1 jwalamukhi-shelter dupcheshwar-temple\ndrive car1 dupcheshwar-temple gosaikunda-school\ndrive car1 gosaikunda-school trishuli-market\nload car1 adult 4\ndrive car1 trishuli-market gosaikunda-school\ndrive car1 gosaikunda-school dupcheshwar-temple\ndrive car1 dupcheshwar-temple jwalamukhi-shelter\nunload car1 adult 4\ndefer likhu-school injured 4\ndefer likhu-school child 1\ndefer thakre-market adult 3\n</plan>\n\nCOST: 560\n\nDriving is 120 minutes for one round trip to Trishuli market. Penalties are 440: 4 injured at 80 each, 1 child at 60, and 3 adults at 20 each.\n\nAssumptions and reasoning:\n- Only Jwalamukhi shelter is a valid drop-off. Dupcheshwar temple is not designated, and Gosaikunda and Likhu schools are not listed as evacuation points.\n- Likhu school is cut off, since both of its roads are washed out, so its 5 people are deferred.\n- Rescuing the 3 people at Thakre market would need a 158-minute detour. Deferring them costs 60, so deferral is cheaper under the stated cost model. Reaching Thakre market would take a second trip, which costs far more than the penalty.\n- I assumed roads can be driven in both directions, since the report doesn't say otherwise.\n\nThe plan is optimal under these rules, but it leaves 8 people deferred, including 4 injured people and a child at Likhu school. The team should look for another way to reach Likhu school, such as by air or boat, and should check whether the Thakre market group can be reached before the next wave."
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "pipeline": "direct",
+  "instance": "medium-10",
+  "size": "medium",
+  "level": "implicit",
+  "model": "claude-haiku-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 2182,
+    "output_tokens": 5706,
+    "calls": 1,
+    "seconds": 26.7
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 476,
+    "travel_minutes": 146,
+    "deferred_penalty": 330,
+    "rescued": {
+      "injured": 3,
+      "child": 4,
+      "elderly": 2,
+      "adult": 3
+    },
+    "deferred": {
+      "injured": 3,
+      "child": 0,
+      "elderly": 1,
+      "adult": 2
+    },
+    "people_rescued": 12,
+    "priority_people_rescued": 9
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 kispang-shelter gosaikunda-temple",
+        "drive car1 gosaikunda-temple galchhi-temple",
+        "load car1 child 4",
+        "drive car1 galchhi-temple gosaikunda-temple",
+        "drive car1 gosaikunda-temple kispang-shelter",
+        "unload car1 child 4",
+        "drive car2 kispang-shelter myagang-temple",
+        "load car2 injured 3",
+        "load car2 elderly 1",
+        "drive car2 myagang-temple kispang-shelter",
+        "unload car2 injured 3",
+        "unload car2 elderly 1",
+        "drive car2 kispang-shelter myagang-temple",
+        "load car2 elderly 1",
+        "load car2 adult 3",
+        "drive car2 myagang-temple kispang-shelter",
+        "unload car2 elderly 1",
+        "unload car2 adult 3",
+        "defer dupcheshwar-temple elderly 1",
+        "defer tadi-market injured 3",
+        "defer naukunda-farm adult 2"
+      ],
+      "claimed_cost": 476,
+      "text": "The plan below rescues everyone reachable by safe roads and defers the rest. Tadi market and Naukunda farm are cut off unless the two flooded roads are confirmed passable. The old man at Dupcheshwar is deferred because a round trip there (52 min) costs slightly more than his deferral penalty (50), so this plan is cost-optimal but should be reviewed by a human before it is followed.\n\n<plan>\ndrive car1 kispang-shelter gosaikunda-temple\ndrive car1 gosaikunda-temple galchhi-temple\nload car1 child 4\ndrive car1 galchhi-temple gosaikunda-temple\ndrive car1 gosaikunda-temple kispang-shelter\nunload car1 child 4\ndrive car2 kispang-shelter myagang-temple\nload car2 injured 3\nload car2 elderly 1\ndrive car2 myagang-temple kispang-shelter\nunload car2 injured 3\nunload car2 elderly 1\ndrive car2 kispang-shelter myagang-temple\nload car2 elderly 1\nload car2 adult 3\ndrive car2 myagang-temple kispang-shelter\nunload car2 elderly 1\nunload car2 adult 3\ndefer dupcheshwar-temple elderly 1\ndefer tadi-market injured 3\ndefer naukunda-farm adult 2\n</plan>\n\nCOST: 476\n\nBreakdown:\n- Driving: car1 82 min (Galchhi run), car2 64 min (two Myagang runs), total 146.\n- Penalties: 1 elderly at Dupcheshwar (50), 3 injured at Tadi (240), 2 adults at Naukunda (40), total 330.\n\nAssumptions:\n- The two flood-affected roads (Kispang\u2013Thakre and Tadi\u2013Galchhi) are treated as unusable because fast water swept a truck off them. If they are confirmed passable, the plan changes. Reaching Tadi via Galchhi would take about 64 min each way, so rescuing the 3 injured there (128 min round trip) would then be cheaper than deferring them (240).\n- The old man who cannot walk unaided is classed as elderly.\n- Galchhi temple is not a drop-off point, so all rescued people are returned to Kispang shelter."
+    }
+  ]
+}

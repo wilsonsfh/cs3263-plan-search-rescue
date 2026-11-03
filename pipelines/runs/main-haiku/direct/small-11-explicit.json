@@ -1,0 +1,56 @@
+{
+  "pipeline": "direct",
+  "instance": "small-11",
+  "size": "small",
+  "level": "explicit",
+  "model": "claude-haiku-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1677,
+    "output_tokens": 1602,
+    "calls": 1,
+    "seconds": 8.6
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 154,
+    "travel_minutes": 154,
+    "deferred_penalty": 0,
+    "rescued": {
+      "injured": 3,
+      "child": 0,
+      "elderly": 2,
+      "adult": 1
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 0
+    },
+    "people_rescued": 6,
+    "priority_people_rescued": 5
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 myagang-shelter suryagadhi-market",
+        "load car1 injured 3",
+        "drive car1 suryagadhi-market myagang-shelter",
+        "unload car1 injured 3",
+        "drive car1 myagang-shelter gosaikunda-temple",
+        "load car1 adult 1",
+        "load car1 elderly 2",
+        "drive car1 gosaikunda-temple myagang-shelter",
+        "unload car1 adult 1",
+        "unload car1 elderly 2"
+      ],
+      "claimed_cost": 154,
+      "text": "<plan>\ndrive car1 myagang-shelter suryagadhi-market\nload car1 injured 3\ndrive car1 suryagadhi-market myagang-shelter\nunload car1 injured 3\ndrive car1 myagang-shelter gosaikunda-temple\nload car1 adult 1\nload car1 elderly 2\ndrive car1 gosaikunda-temple myagang-shelter\nunload car1 adult 1\nunload car1 elderly 2\n</plan>\nCOST: 154\n\nThis rescues all 6 people with no deferrals. Gosaikunda temple connects only to Myagang shelter (the Dhunche farm road is impassable), so the car must make a round trip there (102 min). Suryagadhi market is a 26-minute round trip (52 min). Both legs are the shortest available routes, so 154 is the minimum cost. The car carries 3 people on the second trip, within its 4-seat capacity."
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "pipeline": "direct",
+  "instance": "medium-09",
+  "size": "medium",
+  "level": "explicit",
+  "model": "claude-haiku-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1952,
+    "output_tokens": 9434,
+    "calls": 1,
+    "seconds": 45.4
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 330,
+    "travel_minutes": 110,
+    "deferred_penalty": 220,
+    "rescued": {
+      "injured": 4,
+      "child": 0,
+      "elderly": 3,
+      "adult": 1
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 1,
+      "elderly": 0,
+      "adult": 8
+    },
+    "people_rescued": 8,
+    "priority_people_rescued": 7
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 thakre-shelter dhunche-market",
+        "load car1 injured 4",
+        "drive car1 dhunche-market thakre-shelter",
+        "unload car1 injured 4",
+        "drive car2 thakre-shelter dhunche-market",
+        "load car2 adult 1",
+        "drive car2 dhunche-market myagang-care-home",
+        "load car2 elderly 3",
+        "drive car2 myagang-care-home thakre-shelter",
+        "unload car2 adult 1",
+        "unload car2 elderly 3",
+        "defer dhunche-market adult 1",
+        "defer tadi-market adult 7",
+        "defer shivapuri-village child 1"
+      ],
+      "claimed_cost": 330,
+      "text": "<plan>\ndrive car1 thakre-shelter dhunche-market\nload car1 injured 4\ndrive car1 dhunche-market thakre-shelter\nunload car1 injured 4\ndrive car2 thakre-shelter dhunche-market\nload car2 adult 1\ndrive car2 dhunche-market myagang-care-home\nload car2 elderly 3\ndrive car2 myagang-care-home thakre-shelter\nunload car2 adult 1\nunload car2 elderly 3\ndefer dhunche-market adult 1\ndefer tadi-market adult 7\ndefer shivapuri-village child 1\n</plan>\nCOST: 330\n\nDriving is 110 minutes (car1 46, car2 64). Deferred penalties are 220: 1 adult at Dhunche (20), 7 adults at Tadi (140), and 1 child at Shivapuri (60).\n\nTadi and Shivapuri are deferred because the round trips to reach them cost more than their penalties. A four-adult Tadi trip costs 98 minutes to save 80 in penalties, and the Shivapuri child costs 88 minutes to save 60."
+    }
+  ]
+}

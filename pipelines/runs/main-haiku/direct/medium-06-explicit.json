@@ -1,0 +1,64 @@
+{
+  "pipeline": "direct",
+  "instance": "medium-06",
+  "size": "medium",
+  "level": "explicit",
+  "model": "claude-haiku-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1896,
+    "output_tokens": 3055,
+    "calls": 1,
+    "seconds": 14.6
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 282,
+    "travel_minutes": 212,
+    "deferred_penalty": 70,
+    "rescued": {
+      "injured": 1,
+      "child": 0,
+      "elderly": 6,
+      "adult": 0
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 1,
+      "adult": 1
+    },
+    "people_rescued": 7,
+    "priority_people_rescued": 7
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 jwalamukhi-shelter gajuri-school",
+        "drive car1 gajuri-school kalika-temple",
+        "load car1 elderly 3",
+        "drive car1 kalika-temple syaphru-care-home",
+        "load car1 injured 1",
+        "drive car1 syaphru-care-home kalika-temple",
+        "drive car1 kalika-temple gajuri-school",
+        "drive car1 gajuri-school jwalamukhi-shelter",
+        "unload car1 elderly 3",
+        "unload car1 injured 1",
+        "drive car1 jwalamukhi-shelter gajuri-school",
+        "drive car1 gajuri-school kalika-temple",
+        "load car1 elderly 3",
+        "drive car1 kalika-temple gajuri-school",
+        "drive car1 gajuri-school jwalamukhi-shelter",
+        "unload car1 elderly 3",
+        "defer nilkantha-temple elderly 1",
+        "defer suryagadhi-market adult 1"
+      ],
+      "claimed_cost": 282,
+      "text": "The Suryagadhi market and Nilkantha temple are cut off from the rest of the network, since their only remaining road is the one to each other and the Kalika-Nilkantha road is impassable. Those two must be deferred. The other seven people are reached through Kalika temple, so the car makes two trips: 3 elderly plus the injured person first, then the last 3 elderly.\n\n<plan>\ndrive car1 jwalamukhi-shelter gajuri-school\ndrive car1 gajuri-school kalika-temple\nload car1 elderly 3\ndrive car1 kalika-temple syaphru-care-home\nload car1 injured 1\ndrive car1 syaphru-care-home kalika-temple\ndrive car1 kalika-temple gajuri-school\ndrive car1 gajuri-school jwalamukhi-shelter\nunload car1 elderly 3\nunload car1 injured 1\ndrive car1 jwalamukhi-shelter gajuri-school\ndrive car1 gajuri-school kalika-temple\nload car1 elderly 3\ndrive car1 kalika-temple gajuri-school\ndrive car1 gajuri-school jwalamukhi-shelter\nunload car1 elderly 3\ndefer nilkantha-temple elderly 1\ndefer suryagadhi-market adult 1\n</plan>\n\nCOST: 282"
+    }
+  ]
+}

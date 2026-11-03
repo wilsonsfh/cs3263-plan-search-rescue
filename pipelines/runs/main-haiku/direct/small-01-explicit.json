@@ -1,0 +1,57 @@
+{
+  "pipeline": "direct",
+  "instance": "small-01",
+  "size": "small",
+  "level": "explicit",
+  "model": "claude-haiku-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1710,
+    "output_tokens": 2524,
+    "calls": 1,
+    "seconds": 13.1
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 154,
+    "travel_minutes": 134,
+    "deferred_penalty": 20,
+    "rescued": {
+      "injured": 0,
+      "child": 2,
+      "elderly": 2,
+      "adult": 0
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 1
+    },
+    "people_rescued": 4,
+    "priority_people_rescued": 4
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 myagang-shelter uttargaya-school",
+        "load car1 child 2",
+        "drive car1 uttargaya-school nilkantha-market",
+        "drive car1 nilkantha-market syaphru-temple",
+        "load car1 elderly 2",
+        "drive car1 syaphru-temple nilkantha-market",
+        "drive car1 nilkantha-market uttargaya-school",
+        "drive car1 uttargaya-school myagang-shelter",
+        "unload car1 child 2",
+        "unload car1 elderly 2",
+        "defer syaphru-temple adult 1"
+      ],
+      "claimed_cost": 154,
+      "text": "The best plan rescues four of the five people and defers the adult at Syaphru temple, for a total cost of 154. Carrying all five in one loop is impossible with 4 seats, and rescuing everyone needs two loops (190 minutes of driving). Deferring the adult (penalty 20) is cheaper than either of those.\n\n<plan>\ndrive car1 myagang-shelter uttargaya-school\nload car1 child 2\ndrive car1 uttargaya-school nilkantha-market\ndrive car1 nilkantha-market syaphru-temple\nload car1 elderly 2\ndrive car1 syaphru-temple nilkantha-market\ndrive car1 nilkantha-market uttargaya-school\ndrive car1 uttargaya-school myagang-shelter\nunload car1 child 2\nunload car1 elderly 2\ndefer syaphru-temple adult 1\n</plan>\nCOST: 154"
+    }
+  ]
+}

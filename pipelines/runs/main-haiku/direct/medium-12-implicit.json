@@ -1,0 +1,68 @@
+{
+  "pipeline": "direct",
+  "instance": "medium-12",
+  "size": "medium",
+  "level": "implicit",
+  "model": "claude-haiku-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 2155,
+    "output_tokens": 6875,
+    "calls": 1,
+    "seconds": 33.1
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 278,
+    "travel_minutes": 278,
+    "deferred_penalty": 0,
+    "rescued": {
+      "injured": 4,
+      "child": 4,
+      "elderly": 4,
+      "adult": 7
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 0
+    },
+    "people_rescued": 19,
+    "priority_people_rescued": 12
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 panchakanya-shelter galchhi-market",
+        "load car1 injured 4",
+        "drive car1 galchhi-market panchakanya-shelter",
+        "unload car1 injured 4",
+        "drive car1 panchakanya-shelter jwalamukhi-village",
+        "load car1 child 4",
+        "drive car1 jwalamukhi-village panchakanya-shelter",
+        "unload car1 child 4",
+        "drive car1 panchakanya-shelter jwalamukhi-village",
+        "load car1 adult 3",
+        "drive car1 jwalamukhi-village panchakanya-shelter",
+        "unload car1 adult 3",
+        "drive car2 shivapuri-hospital suryagadhi-village",
+        "load car2 elderly 4",
+        "drive car2 suryagadhi-village shivapuri-hospital",
+        "unload car2 elderly 4",
+        "drive car2 shivapuri-hospital suryagadhi-village",
+        "drive car2 suryagadhi-village kakani-farm",
+        "load car2 adult 4",
+        "drive car2 kakani-farm suryagadhi-village",
+        "drive car2 suryagadhi-village shivapuri-hospital",
+        "unload car2 adult 4"
+      ],
+      "claimed_cost": 278,
+      "text": "<plan>\ndrive car1 panchakanya-shelter galchhi-market\nload car1 injured 4\ndrive car1 galchhi-market panchakanya-shelter\nunload car1 injured 4\ndrive car1 panchakanya-shelter jwalamukhi-village\nload car1 child 4\ndrive car1 jwalamukhi-village panchakanya-shelter\nunload car1 child 4\ndrive car1 panchakanya-shelter jwalamukhi-village\nload car1 adult 3\ndrive car1 jwalamukhi-village panchakanya-shelter\nunload car1 adult 3\ndrive car2 shivapuri-hospital suryagadhi-village\nload car2 elderly 4\ndrive car2 suryagadhi-village shivapuri-hospital\nunload car2 elderly 4\ndrive car2 shivapuri-hospital suryagadhi-village\ndrive car2 suryagadhi-village kakani-farm\nload car2 adult 4\ndrive car2 kakani-farm suryagadhi-village\ndrive car2 suryagadhi-village shivapuri-hospital\nunload car2 adult 4\n</plan>\nCOST: 278\n\nNotes: All 19 people are rescued, so there are no deferrals and no penalties. Car1 spends 146 minutes and car2 spends 132 minutes. Deferring any group would cost more than rescuing it: for example, the 3 adults at Jwalamukhi cost 60 to defer but only 54 to collect, and the 4 adults at Kakani cost 80 to defer but only 72 to collect. Trishuli temple is not used as a drop-off point, since it is not designated for evacuees."
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "pipeline": "direct",
+  "instance": "large-08",
+  "size": "large",
+  "level": "implicit",
+  "model": "claude-haiku-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 2561,
+    "output_tokens": 20522,
+    "calls": 1,
+    "seconds": 94.8
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 366,
+    "travel_minutes": 296,
+    "deferred_penalty": 70,
+    "rescued": {
+      "injured": 0,
+      "child": 9,
+      "elderly": 4,
+      "adult": 2
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 1,
+      "adult": 1
+    },
+    "people_rescued": 15,
+    "priority_people_rescued": 13
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 kakani-shelter suryagadhi-care-home",
+        "drive car1 suryagadhi-care-home syaphru-village",
+        "load car1 child 2",
+        "drive car1 syaphru-village panchakanya-care-home",
+        "load car1 elderly 2",
+        "drive car1 panchakanya-care-home syaphru-village",
+        "drive car1 syaphru-village suryagadhi-care-home",
+        "drive car1 suryagadhi-care-home kakani-shelter",
+        "unload car1 child 2",
+        "unload car1 elderly 2",
+        "drive car1 kakani-shelter suryagadhi-care-home",
+        "load car1 elderly 2",
+        "drive car1 suryagadhi-care-home kakani-shelter",
+        "unload car1 elderly 2",
+        "drive car1 kakani-shelter suryagadhi-care-home",
+        "drive car1 suryagadhi-care-home syaphru-village",
+        "load car1 child 2",
+        "load car1 adult 2",
+        "drive car1 syaphru-village suryagadhi-care-home",
+        "drive car1 suryagadhi-care-home kakani-shelter",
+        "unload car1 child 2",
+        "unload car1 adult 2",
+        "drive car2 kalika-hospital belkot-school",
+        "load car2 child 4",
+        "drive car2 belkot-school kalika-hospital",
+        "unload car2 child 4",
+        "drive car2 kalika-hospital belkot-school",
+        "load car2 child 1",
+        "drive car2 belkot-school kalika-hospital",
+        "unload car2 child 1",
+        "defer syaphru-village adult 1",
+        "defer thakre-temple elderly 1"
+      ],
+      "claimed_cost": 366,
+      "text": "<plan>\ndrive car1 kakani-shelter suryagadhi-care-home\ndrive car1 suryagadhi-care-home syaphru-village\nload car1 child 2\ndrive car1 syaphru-village panchakanya-care-home\nload car1 elderly 2\ndrive car1 panchakanya-care-home syaphru-village\ndrive car1 syaphru-village suryagadhi-care-home\ndrive car1 suryagadhi-care-home kakani-shelter\nunload car1 child 2\nunload car1 elderly 2\ndrive car1 kakani-shelter suryagadhi-care-home\nload car1 elderly 2\ndrive car1 suryagadhi-care-home kakani-shelter\nunload car1 elderly 2\ndrive car1 kakani-shelter suryagadhi-care-home\ndrive car1 suryagadhi-care-home syaphru-village\nload car1 child 2\nload car1 adult 2\ndrive car1 syaphru-village suryagadhi-care-home\ndrive car1 suryagadhi-care-home kakani-shelter\nunload car1 child 2\nunload car1 adult 2\ndrive car2 kalika-hospital belkot-school\nload car2 child 4\ndrive car2 belkot-school kalika-hospital\nunload car2 child 4\ndrive car2 kalika-hospital belkot-school\nload car2 child 1\ndrive car2 belkot-school kalika-hospital\nunload car2 child 1\ndefer syaphru-village adult 1\ndefer thakre-temple elderly 1\n</plan>\nCOST: 366\n\n**Notes on the plan:**\n\n- **Bands:** Two pensioners and the elderly couple are elderly (5 total). The five Belkot pupils and four young children at Syaphru are child (9 total). The three labourers are adult (3 total).\n- **Drop points:** Only Kakani shelter and Kalika hospital are used. Naukunda school is not a designated drop point, so it is not used.\n- **Likhu road:** Not used. The Kakani\u2013Likhu road has fast floodwater and a swept-away truck, and it does not help any route anyway.\n- **Panchakanya (2 elderly):** Rescued on a dedicated trip with 2 children from Syaphru. This costs 126 minutes and avoids 220 in penalties.\n- **Suryagadhi (2 elderly):** Rescued on a 36-minute trip. Deferring them would cost 100.\n- **Syaphru:** All 4 children and 2 of the 3 adults are rescued. One adult is deferred (20), because another trip would cost 70 minutes.\n- **Belkot (5 children):** Two trips from Kalika hospital, 64 minutes total. This is cheaper than deferring the fifth child (60).\n- **Thakre (1 elderly):** Deferred (50). The only access is via Benighat, so a round trip costs 82 minutes, which is more than the penalty.\n\n**Cost breakdown:** Driving 296 minutes plus penalties of 70 (one adult and one elderly) = 366."
+    }
+  ]
+}

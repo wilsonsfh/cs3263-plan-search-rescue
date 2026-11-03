@@ -1,0 +1,50 @@
+{
+  "pipeline": "direct",
+  "instance": "small-08",
+  "size": "small",
+  "level": "implicit",
+  "model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1908,
+    "output_tokens": 1063,
+    "calls": 1,
+    "seconds": 10.1
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 520,
+    "travel_minutes": 0,
+    "deferred_penalty": 520,
+    "rescued": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 0
+    },
+    "deferred": {
+      "injured": 4,
+      "child": 1,
+      "elderly": 0,
+      "adult": 7
+    },
+    "people_rescued": 0,
+    "priority_people_rescued": 0
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "defer likhu-school injured 4",
+        "defer likhu-school child 1",
+        "defer thakre-market adult 3",
+        "defer trishuli-market adult 4"
+      ],
+      "claimed_cost": 520,
+      "text": "Jwalamukhi shelter is the only evacuation point, and the car starts there. Rescuing anyone beyond it costs more than deferring them.\n\n- **Likhu school:** both roads in (from Thakre and from Trishuli) are washed out, so no one can reach the people there. I read the report as one child and four injured people, so I defer them. That costs 60 + 4\u00d780 = 380.\n- **Trishuli market (4 adults):** the route is 12 + 31 + 17 = 60 minutes each way, so 120 minutes in total. Deferring them costs 80, so I defer.\n- **Thakre market (3 adults):** it is 79 minutes each way via Trishuli. Combined with the Trishuli pickup, the full round trip is 158 minutes, which saves only 140 in penalties, so I defer.\n- **Dupcheshwar temple:** it is not an evacuation point, so dropping anyone there does not count.\n\nThe cheapest plan is to drive nowhere and defer everyone.\n\n<plan>\ndefer likhu-school injured 4\ndefer likhu-school child 1\ndefer thakre-market adult 3\ndefer trishuli-market adult 4\n</plan>\nCOST: 520"
+    }
+  ]
+}

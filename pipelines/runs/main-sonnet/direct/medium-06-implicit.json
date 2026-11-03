@@ -1,0 +1,64 @@
+{
+  "pipeline": "direct",
+  "instance": "medium-06",
+  "size": "medium",
+  "level": "implicit",
+  "model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 2066,
+    "output_tokens": 1955,
+    "calls": 1,
+    "seconds": 15.6
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 282,
+    "travel_minutes": 212,
+    "deferred_penalty": 70,
+    "rescued": {
+      "injured": 1,
+      "child": 0,
+      "elderly": 6,
+      "adult": 0
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 1,
+      "adult": 1
+    },
+    "people_rescued": 7,
+    "priority_people_rescued": 7
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 jwalamukhi-shelter gajuri-school",
+        "drive car1 gajuri-school kalika-temple",
+        "drive car1 kalika-temple syaphru-care-home",
+        "load car1 injured 1",
+        "drive car1 syaphru-care-home kalika-temple",
+        "load car1 elderly 3",
+        "drive car1 kalika-temple gajuri-school",
+        "drive car1 gajuri-school jwalamukhi-shelter",
+        "unload car1 injured 1",
+        "unload car1 elderly 3",
+        "drive car1 jwalamukhi-shelter gajuri-school",
+        "drive car1 gajuri-school kalika-temple",
+        "load car1 elderly 3",
+        "drive car1 kalika-temple gajuri-school",
+        "drive car1 gajuri-school jwalamukhi-shelter",
+        "unload car1 elderly 3",
+        "defer nilkantha-temple elderly 1",
+        "defer suryagadhi-market adult 1"
+      ],
+      "claimed_cost": 282,
+      "text": "The plan rescues the Kalika temple and Syaphru care home evacuees. It defers the two people I judged unreachable.\n\n- **Evacuation point:** Only Jwalamukhi shelter counts. Gajuri school is not designated, so I treat it as a waypoint only.\n- **Roads I'm not using:** I excluded the closed Jwalamukhi\u2013Syaphru road and the buried Belkot\u2013Kalika road. I also excluded the Kalika\u2013Nilkantha road, because floodwater swept a truck off it this morning and I judged it too dangerous.\n- **Deferred:** Without the Kalika\u2013Nilkantha road, Nilkantha temple and Suryagadhi market are cut off. I defer the elderly widow (50) and the bus driver (20), a penalty of 70.\n- **Route:** The only way to Kalika and Syaphru is Jwalamukhi \u2192 Gajuri \u2192 Kalika, then Kalika \u2192 Syaphru.\n- **Trip 1 (136 min):** Drive out to Syaphru and bring back the injured farmer plus 3 of the elderly at Kalika.\n- **Trip 2 (76 min):** Collect the remaining 3 elderly at Kalika.\n- **Why not defer the 3 remaining elderly:** Trip 2 costs 76 minutes, while deferring them would cost 150.\n- **Why include Syaphru:** The 60 extra minutes is less than the 80 penalty for deferring the injured farmer.\n\n<plan>\ndrive car1 jwalamukhi-shelter gajuri-school\ndrive car1 gajuri-school kalika-temple\ndrive car1 kalika-temple syaphru-care-home\nload car1 injured 1\ndrive car1 syaphru-care-home kalika-temple\nload car1 elderly 3\ndrive car1 kalika-temple gajuri-school\ndrive car1 gajuri-school jwalamukhi-shelter\nunload car1 injured 1\nunload car1 elderly 3\ndrive car1 jwalamukhi-shelter gajuri-school\ndrive car1 gajuri-school kalika-temple\nload car1 elderly 3\ndrive car1 kalika-temple gajuri-school\ndrive car1 gajuri-school jwalamukhi-shelter\nunload car1 elderly 3\ndefer nilkantha-temple elderly 1\ndefer suryagadhi-market adult 1\n</plan>\n\nCOST: 282"
+    }
+  ]
+}

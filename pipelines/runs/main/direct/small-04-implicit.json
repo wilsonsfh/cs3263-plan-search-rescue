@@ -1,0 +1,51 @@
+{
+  "pipeline": "direct",
+  "instance": "small-04",
+  "size": "small",
+  "level": "implicit",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1740,
+    "output_tokens": 979,
+    "calls": 1,
+    "seconds": 11.6
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 102,
+    "travel_minutes": 42,
+    "deferred_penalty": 60,
+    "rescued": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 3
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 3
+    },
+    "people_rescued": 3,
+    "priority_people_rescued": 0
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 naukunda-shelter likhu-school",
+        "load car1 adult 3",
+        "drive car1 likhu-school naukunda-shelter",
+        "unload car1 adult 3",
+        "defer benighat-farm adult 3"
+      ],
+      "claimed_cost": 102,
+      "text": "The best plan is to bring the three adults at Likhu school back to Naukunda shelter and defer the three adults at Benighat farm. Total cost is 102.\n\n**Where people can be dropped:** Naukunda shelter is the only evacuation point. Likhu school is not designated, so dropping people there would not count.\n\n**Routes:** The direct road from Naukunda to Benighat farm is buried by a landslide. Any trip to Benighat farm must therefore go through Likhu school: 21 + 22 = 43 minutes each way, or 86 minutes there and back.\n\n**Options compared:**\n- **Defer everyone:** 6 adults \u00d7 20 = 120.\n- **Rescue Likhu only:** 21 minutes there and 21 back is 42. Deferring the 3 Benighat adults adds 60. Total 102.\n- **Take 3 from Benighat and 1 from Likhu in one trip (car holds 4):** 86 minutes of driving. Deferring the other 2 Likhu adults adds 40. Total 126.\n- **Rescue all six (two trips):** 86 + 42 = 128.\n\nRescuing Benighat's adults costs more in driving than their deferral penalty, so the cheapest plan is to rescue Likhu only.\n\n<plan>\ndrive car1 naukunda-shelter likhu-school\nload car1 adult 3\ndrive car1 likhu-school naukunda-shelter\nunload car1 adult 3\ndefer benighat-farm adult 3\n</plan>\n\nCOST: 102"
+    }
+  ]
+}

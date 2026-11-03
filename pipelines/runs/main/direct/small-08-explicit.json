@@ -1,0 +1,50 @@
+{
+  "pipeline": "direct",
+  "instance": "small-08",
+  "size": "small",
+  "level": "explicit",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1736,
+    "output_tokens": 913,
+    "calls": 1,
+    "seconds": 11.2
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 520,
+    "travel_minutes": 0,
+    "deferred_penalty": 520,
+    "rescued": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 0
+    },
+    "deferred": {
+      "injured": 4,
+      "child": 1,
+      "elderly": 0,
+      "adult": 7
+    },
+    "people_rescued": 0,
+    "priority_people_rescued": 0
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "defer likhu-school injured 4",
+        "defer likhu-school child 1",
+        "defer thakre-market adult 3",
+        "defer trishuli-market adult 4"
+      ],
+      "claimed_cost": 520,
+      "text": "Every person is deferred and the car does not move. Total cost is 520, all of it deferral penalties.\n\n<plan>\ndefer likhu-school injured 4\ndefer likhu-school child 1\ndefer thakre-market adult 3\ndefer trishuli-market adult 4\n</plan>\n\n**Why this is the cheapest plan:**\n\n- **Likhu school (4 injured, 1 child):** Both roads into Likhu school are impassable (from Trishuli market and from Thakre market). No car can reach these people, so they must be deferred. Penalty: 4 \u00d7 80 + 1 \u00d7 60 = 380.\n- **Trishuli market (4 adults):** The only open route from the shelter is Jwalamukhi \u2192 Dupcheshwar \u2192 Gosaikunda \u2192 Trishuli, which takes 12 + 31 + 17 = 60 minutes. Fetching them means a 120-minute round trip. That is at least 30 minutes per adult, even with all 4 seats full. Deferring an adult costs only 20.\n- **Thakre market (3 adults):** This is 19 minutes beyond Trishuli, so 79 minutes each way, or 158 minutes round trip. Picking up the Trishuli adults on the same trip doesn't help, because the car has only 4 seats and there are 7 adults.\n\nEvery trip must return to Jwalamukhi shelter, the only evacuation point. So each rescue trip costs at least 120 minutes and carries at most 4 people. That is at least 30 minutes per adult, while deferring costs 20, so no trip is worth making.\n\nTotal = 380 (Likhu school) + 60 (Thakre adults) + 80 (Trishuli adults) = 520\n\nCOST: 520"
+    }
+  ]
+}

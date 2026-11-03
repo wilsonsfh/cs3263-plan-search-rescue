@@ -1,0 +1,50 @@
+{
+  "pipeline": "direct",
+  "instance": "small-08",
+  "size": "small",
+  "level": "implicit",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1904,
+    "output_tokens": 900,
+    "calls": 1,
+    "seconds": 10.2
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 520,
+    "travel_minutes": 0,
+    "deferred_penalty": 520,
+    "rescued": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 0
+    },
+    "deferred": {
+      "injured": 4,
+      "child": 1,
+      "elderly": 0,
+      "adult": 7
+    },
+    "people_rescued": 0,
+    "priority_people_rescued": 0
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "defer likhu-school child 1",
+        "defer likhu-school injured 4",
+        "defer thakre-market adult 3",
+        "defer trishuli-market adult 4"
+      ],
+      "claimed_cost": 520,
+      "text": "Every stranded person is deferred, with no driving. Total cost is 520.\n\n**Why**\n- **Only one drop-off point:** Jwalamukhi shelter is the only designated evacuation point. Dupcheshwar temple is not designated, so drop-offs there would not count.\n- **Likhu school cannot be reached:** both of its roads (from Thakre market and from Trishuli market) have washed-out bridges. The schoolgirl (child) and the four injured people must be deferred.\n- **Trishuli market (4 adults):** the shortest route from the shelter is via Dupcheshwar temple and Gosaikunda school, 12 + 31 + 17 = 60 minutes each way. Going out and back takes 120 minutes, which is more than the 4 \u00d7 20 = 80 penalty for deferring them.\n- **Thakre market (3 adults):** it is 79 minutes from the shelter each way. A round trip takes 158 minutes, against a 60 penalty for deferring them.\n- **Combined trip:** collecting both groups would need at least two trips because the car holds four, and it would cost far more than the 140 total penalty for all seven adults.\n\n<plan>\ndefer likhu-school child 1\ndefer likhu-school injured 4\ndefer thakre-market adult 3\ndefer trishuli-market adult 4\n</plan>\n\n**Cost breakdown**\n| Group | Penalty |\n|---|---|\n| Likhu school: 1 child \u00d7 60 + 4 injured \u00d7 80 | 380 |\n| Thakre market: 3 adults \u00d7 20 | 60 |\n| Trishuli market: 4 adults \u00d7 20 | 80 |\n| Driving | 0 |\n| **Total** | **520** |\n\nCOST: 520"
+    }
+  ]
+}

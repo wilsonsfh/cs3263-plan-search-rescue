@@ -1,0 +1,71 @@
+{
+  "pipeline": "direct",
+  "instance": "large-08",
+  "size": "large",
+  "level": "implicit",
+  "model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 2540,
+    "output_tokens": 3608,
+    "calls": 1,
+    "seconds": 27.4
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 374,
+    "travel_minutes": 204,
+    "deferred_penalty": 170,
+    "rescued": {
+      "injured": 0,
+      "child": 9,
+      "elderly": 2,
+      "adult": 2
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 3,
+      "adult": 1
+    },
+    "people_rescued": 13,
+    "priority_people_rescued": 11
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car2 kalika-hospital belkot-school",
+        "load car2 child 4",
+        "drive car2 belkot-school kalika-hospital",
+        "unload car2 child 4",
+        "drive car2 kalika-hospital belkot-school",
+        "load car2 child 1",
+        "drive car2 belkot-school kalika-hospital",
+        "unload car2 child 1",
+        "drive car1 kakani-shelter suryagadhi-care-home",
+        "drive car1 suryagadhi-care-home syaphru-village",
+        "load car1 child 4",
+        "drive car1 syaphru-village suryagadhi-care-home",
+        "drive car1 suryagadhi-care-home kakani-shelter",
+        "unload car1 child 4",
+        "drive car1 kakani-shelter suryagadhi-care-home",
+        "load car1 elderly 2",
+        "drive car1 suryagadhi-care-home syaphru-village",
+        "load car1 adult 2",
+        "drive car1 syaphru-village suryagadhi-care-home",
+        "drive car1 suryagadhi-care-home kakani-shelter",
+        "unload car1 elderly 2",
+        "unload car1 adult 2",
+        "defer panchakanya-care-home elderly 2",
+        "defer thakre-temple elderly 1",
+        "defer syaphru-village adult 1"
+      ],
+      "claimed_cost": 374,
+      "text": "This plan costs 374 minutes in total: 204 minutes of driving plus 170 in deferral penalties.\n\n**Usable network:** Kakani shelter and Kalika hospital are the only evacuation points. Naukunda school is not designated, so it is not used. The Kakani\u2013Kalika, Kakani\u2013Likhu, Kakani\u2013Belkot and Thakre\u2013Panchakanya roads are closed or unsafe. Kakani therefore connects only through Suryagadhi care home.\n\n**Car2, from Kalika hospital:**\n- It makes two round trips to Belkot school (16 minutes each way). The first carries 4 children and the second carries the fifth.\n- Driving is 64 minutes, which saves 300 in penalties.\n\n**Car1, from Kakani shelter:**\n- **Trip 1:** It goes via Suryagadhi to Syaphru village, collects the 4 young children, and returns to Kakani. This is 70 minutes and saves 240.\n- **Trip 2:** It goes to Suryagadhi and loads the 2 pensioners. It continues to Syaphru, loads 2 adults, and returns to Kakani. This is 70 minutes and saves 140.\n\n**Deferred:**\n- **Panchakanya, 2 elderly:** Reaching them costs a round trip of about 126 minutes, which is more than the 100 penalty.\n- **Thakre, 1 elderly:** Reaching her costs about 82 minutes for a 50 penalty.\n- **Syaphru, 1 adult:** Both cars are full or otherwise committed, and another trip would cost more than the 20 penalty.\n\n<plan>\ndrive car2 kalika-hospital belkot-school\nload car2 child 4\ndrive car2 belkot-school kalika-hospital\nunload car2 child 4\ndrive car2 kalika-hospital belkot-school\nload car2 child 1\ndrive car2 belkot-school kalika-hospital\nunload car2 child 1\ndrive car1 kakani-shelter suryagadhi-care-home\ndrive car1 suryagadhi-care-home syaphru-village\nload car1 child 4\ndrive car1 syaphru-village suryagadhi-care-home\ndrive car1 suryagadhi-care-home kakani-shelter\nunload car1 child 4\ndrive car1 kakani-shelter suryagadhi-care-home\nload car1 elderly 2\ndrive car1 suryagadhi-care-home syaphru-village\nload car1 adult 2\ndrive car1 syaphru-village suryagadhi-care-home\ndrive car1 suryagadhi-care-home kakani-shelter\nunload car1 elderly 2\nunload car1 adult 2\ndefer panchakanya-care-home elderly 2\ndefer thakre-temple elderly 1\ndefer syaphru-village adult 1\n</plan>\n\nCOST: 374"
+    }
+  ]
+}

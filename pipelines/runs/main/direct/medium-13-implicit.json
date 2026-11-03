@@ -1,0 +1,60 @@
+{
+  "pipeline": "direct",
+  "instance": "medium-13",
+  "size": "medium",
+  "level": "implicit",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 2092,
+    "output_tokens": 1407,
+    "calls": 1,
+    "seconds": 21.2
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 166,
+    "travel_minutes": 86,
+    "deferred_penalty": 80,
+    "rescued": {
+      "injured": 1,
+      "child": 2,
+      "elderly": 0,
+      "adult": 4
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 4
+    },
+    "people_rescued": 7,
+    "priority_people_rescued": 3
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 tarkeshwar-shelter dhunche-village",
+        "load car1 injured 1",
+        "load car1 child 2",
+        "drive car1 dhunche-village tarkeshwar-shelter",
+        "unload car1 injured 1",
+        "unload car1 child 2",
+        "drive car1 tarkeshwar-shelter dhunche-village",
+        "drive car1 dhunche-village gajuri-farm",
+        "load car1 adult 4",
+        "drive car1 gajuri-farm dhunche-village",
+        "drive car1 dhunche-village tarkeshwar-shelter",
+        "unload car1 adult 4",
+        "defer gajuri-farm adult 1",
+        "defer gosaikunda-care-home adult 3"
+      ],
+      "claimed_cost": 166,
+      "text": "Only Tarkeshwar shelter counts as an evacuation point. Panchakanya temple has not been designated, so it is not used. Two roads are excluded: the landslide-blocked roads, and the flooded Trishuli care home to Nilkantha temple road, where a truck was swept away this morning.\n\n**How the plan was chosen**\n- **Dhunche village (1 injured, 2 children):** A round trip from the shelter takes 22 minutes. Deferring these three would cost 200, so we rescue them.\n- **Gajuri farm (5 adults):** The only route from the shelter is through Dhunche, taking 32 minutes each way, so a round trip is 64 minutes.\n  - One full carload of 4 adults costs 64, less than their deferral penalty of 80, so it is worth making.\n  - A second trip for the fifth adult would cost another 64, versus a penalty of 20, so that adult is deferred.\n  - Picking up 1 Gajuri adult on the Dhunche trip would leave 4 adults deferred and costs more overall (144 against 106).\n- **Gosaikunda care home (3 adults):** The care home is 80 minutes from the shelter each way, so a round trip is 160 minutes. That is far more than the deferral penalty of 60, so these three are deferred.\n\n<plan>\ndrive car1 tarkeshwar-shelter dhunche-village\nload car1 injured 1\nload car1 child 2\ndrive car1 dhunche-village tarkeshwar-shelter\nunload car1 injured 1\nunload car1 child 2\ndrive car1 tarkeshwar-shelter dhunche-village\ndrive car1 dhunche-village gajuri-farm\nload car1 adult 4\ndrive car1 gajuri-farm dhunche-village\ndrive car1 dhunche-village tarkeshwar-shelter\nunload car1 adult 4\ndefer gajuri-farm adult 1\ndefer gosaikunda-care-home adult 3\n</plan>\n\n**Cost**\n- Driving: 22 + 64 = 86 minutes\n- Penalties: 20 (one Gajuri adult) + 60 (three Gosaikunda adults) = 80\n- Total: 166\n\nCOST: 166"
+    }
+  ]
+}

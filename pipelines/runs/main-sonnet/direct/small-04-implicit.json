@@ -1,0 +1,51 @@
+{
+  "pipeline": "direct",
+  "instance": "small-04",
+  "size": "small",
+  "level": "implicit",
+  "model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1747,
+    "output_tokens": 1020,
+    "calls": 1,
+    "seconds": 10.6
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 102,
+    "travel_minutes": 42,
+    "deferred_penalty": 60,
+    "rescued": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 3
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 3
+    },
+    "people_rescued": 3,
+    "priority_people_rescued": 0
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 naukunda-shelter likhu-school",
+        "load car1 adult 3",
+        "drive car1 likhu-school naukunda-shelter",
+        "unload car1 adult 3",
+        "defer benighat-farm adult 3"
+      ],
+      "claimed_cost": 102,
+      "text": "Only Naukunda shelter is a designated evacuation point, so Likhu school cannot be used as a drop-off. The road from Naukunda to Benighat farm is buried, so Benighat can only be reached through Likhu school.\n\nI compared three options:\n- **Rescue the Likhu adults and defer the Benighat adults:** 42 minutes driving plus 3 \u00d7 20 = 60 penalty, so 102.\n- **Rescue everyone in two trips:** 42 + 86 = 128.\n- **Take 3 from Benighat and 1 from Likhu, defer 2:** 86 + 40 = 126.\n\nThe first option is cheapest.\n\n<plan>\ndrive car1 naukunda-shelter likhu-school\nload car1 adult 3\ndrive car1 likhu-school naukunda-shelter\nunload car1 adult 3\ndefer benighat-farm adult 3\n</plan>\n\nCOST: 102"
+    }
+  ]
+}

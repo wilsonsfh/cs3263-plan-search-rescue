@@ -1,0 +1,58 @@
+{
+  "pipeline": "direct",
+  "instance": "small-02",
+  "size": "small",
+  "level": "explicit",
+  "model": "claude-haiku-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1644,
+    "output_tokens": 1496,
+    "calls": 1,
+    "seconds": 8.3
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 170,
+    "travel_minutes": 170,
+    "deferred_penalty": 0,
+    "rescued": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 11,
+      "adult": 0
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 0
+    },
+    "people_rescued": 11,
+    "priority_people_rescued": 11
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 shivapuri-shelter kalika-village",
+        "load car1 elderly 4",
+        "drive car1 kalika-village shivapuri-shelter",
+        "unload car1 elderly 4",
+        "drive car1 shivapuri-shelter trishuli-farm",
+        "load car1 elderly 4",
+        "drive car1 trishuli-farm shivapuri-shelter",
+        "unload car1 elderly 4",
+        "drive car1 shivapuri-shelter trishuli-farm",
+        "load car1 elderly 3",
+        "drive car1 trishuli-farm shivapuri-shelter",
+        "unload car1 elderly 3"
+      ],
+      "claimed_cost": 170,
+      "text": "Every elderly person can be rescued, so nothing is deferred. Deferring costs 50 minutes per elderly person, and each rescue trip costs less than that per person: the Kalika group is a 14-minute round trip for 4 people, and the Trishuli group takes two round trips of 39 minutes each way.\n\n<plan>\ndrive car1 shivapuri-shelter kalika-village\nload car1 elderly 4\ndrive car1 kalika-village shivapuri-shelter\nunload car1 elderly 4\ndrive car1 shivapuri-shelter trishuli-farm\nload car1 elderly 4\ndrive car1 trishuli-farm shivapuri-shelter\nunload car1 elderly 4\ndrive car1 shivapuri-shelter trishuli-farm\nload car1 elderly 3\ndrive car1 trishuli-farm shivapuri-shelter\nunload car1 elderly 3\n</plan>\nCOST: 170"
+    }
+  ]
+}

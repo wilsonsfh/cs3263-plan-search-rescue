@@ -1,0 +1,56 @@
+{
+  "pipeline": "direct",
+  "instance": "small-11",
+  "size": "small",
+  "level": "explicit",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1651,
+    "output_tokens": 690,
+    "calls": 1,
+    "seconds": 9.2
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 154,
+    "travel_minutes": 154,
+    "deferred_penalty": 0,
+    "rescued": {
+      "injured": 3,
+      "child": 0,
+      "elderly": 2,
+      "adult": 1
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 0
+    },
+    "people_rescued": 6,
+    "priority_people_rescued": 5
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 myagang-shelter suryagadhi-market",
+        "load car1 injured 3",
+        "drive car1 suryagadhi-market myagang-shelter",
+        "unload car1 injured 3",
+        "drive car1 myagang-shelter gosaikunda-temple",
+        "load car1 adult 1",
+        "load car1 elderly 2",
+        "drive car1 gosaikunda-temple myagang-shelter",
+        "unload car1 adult 1",
+        "unload car1 elderly 2"
+      ],
+      "claimed_cost": 154,
+      "text": "The best plan rescues everyone with two round trips from Myagang shelter, for a total cost of 154.\n\n**Choosing between rescuing and deferring:**\n- **Suryagadhi market (3 injured):** a round trip costs 26 + 26 = 52 minutes. Deferring them would cost 3 \u00d7 80 = 240, so we rescue them.\n- **Gosaikunda temple (1 adult, 2 elderly):** a round trip costs 51 + 51 = 102 minutes. Deferring them would cost 20 + 2 \u00d7 50 = 120, so rescuing is cheaper here too.\n- **Combining the two stops in one trip** isn't possible. The only roads into Gosaikunda temple are the direct road from the shelter and the impassable road from Dhunche farm. The car also has only 4 seats, and there are 6 people in total.\n\nThe alternative of rescuing only the injured and deferring everyone at Gosaikunda would cost 52 + 120 = 172, which is worse than 154.\n\n<plan>\ndrive car1 myagang-shelter suryagadhi-market\nload car1 injured 3\ndrive car1 suryagadhi-market myagang-shelter\nunload car1 injured 3\ndrive car1 myagang-shelter gosaikunda-temple\nload car1 adult 1\nload car1 elderly 2\ndrive car1 gosaikunda-temple myagang-shelter\nunload car1 adult 1\nunload car1 elderly 2\n</plan>\n\nCOST: 154"
+    }
+  ]
+}

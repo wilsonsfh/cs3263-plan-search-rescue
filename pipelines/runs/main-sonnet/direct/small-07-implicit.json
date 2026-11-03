@@ -1,0 +1,58 @@
+{
+  "pipeline": "direct",
+  "instance": "small-07",
+  "size": "small",
+  "level": "implicit",
+  "model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1801,
+    "output_tokens": 1165,
+    "calls": 1,
+    "seconds": 10.9
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 122,
+    "travel_minutes": 122,
+    "deferred_penalty": 0,
+    "rescued": {
+      "injured": 4,
+      "child": 4,
+      "elderly": 3,
+      "adult": 0
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 0
+    },
+    "people_rescued": 11,
+    "priority_people_rescued": 11
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 naukunda-shelter myagang-care-home",
+        "load car1 elderly 3",
+        "drive car1 myagang-care-home naukunda-shelter",
+        "unload car1 elderly 3",
+        "drive car1 naukunda-shelter gosaikunda-school",
+        "load car1 injured 4",
+        "drive car1 gosaikunda-school naukunda-shelter",
+        "unload car1 injured 4",
+        "drive car1 naukunda-shelter gosaikunda-school",
+        "load car1 child 4",
+        "drive car1 gosaikunda-school naukunda-shelter",
+        "unload car1 child 4"
+      ],
+      "claimed_cost": 122,
+      "text": "This plan rescues all 11 people with nothing deferred. Naukunda shelter is the only designated evacuation point, so Gosaikunda school cannot be used as a drop-off.\n\nThe plan has three round trips from Naukunda shelter:\n1. Myagang care home is 5 minutes away. One trip takes all 3 elderly people (10 minutes round trip).\n2. Gosaikunda school is 28 minutes away. The first trip takes the 4 injured people (56 minutes round trip).\n3. A second trip to Gosaikunda school takes the 4 children (56 minutes round trip).\n\nEvery trip costs far less than deferring the people it carries. Deferring would cost 150 for the elderly, 320 for the injured and 240 for the children. The direct roads are also the shortest routes, because the detour through Kalika care home is longer.\n\n<plan>\ndrive car1 naukunda-shelter myagang-care-home\nload car1 elderly 3\ndrive car1 myagang-care-home naukunda-shelter\nunload car1 elderly 3\ndrive car1 naukunda-shelter gosaikunda-school\nload car1 injured 4\ndrive car1 gosaikunda-school naukunda-shelter\nunload car1 injured 4\ndrive car1 naukunda-shelter gosaikunda-school\nload car1 child 4\ndrive car1 gosaikunda-school naukunda-shelter\nunload car1 child 4\n</plan>\n\nCOST: 122"
+    }
+  ]
+}

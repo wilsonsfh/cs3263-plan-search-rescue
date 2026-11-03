@@ -1,0 +1,65 @@
+{
+  "pipeline": "direct",
+  "instance": "medium-15",
+  "size": "medium",
+  "level": "explicit",
+  "model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1927,
+    "output_tokens": 2473,
+    "calls": 1,
+    "seconds": 22.4
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 194,
+    "travel_minutes": 154,
+    "deferred_penalty": 40,
+    "rescued": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 2,
+      "adult": 9
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 2
+    },
+    "people_rescued": 11,
+    "priority_people_rescued": 2
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 jwalamukhi-shelter tadi-farm",
+        "load car1 adult 2",
+        "drive car1 tadi-farm jwalamukhi-shelter",
+        "unload car1 adult 2",
+        "drive car2 gosaikunda-hospital kakani-village",
+        "drive car2 kakani-village dupcheshwar-market",
+        "load car2 adult 4",
+        "drive car2 dupcheshwar-market kakani-village",
+        "drive car2 kakani-village gosaikunda-hospital",
+        "unload car2 adult 4",
+        "drive car2 gosaikunda-hospital kakani-village",
+        "load car2 adult 3",
+        "drive car2 kakani-village gosaikunda-hospital",
+        "unload car2 adult 3",
+        "drive car2 gosaikunda-hospital galchhi-farm",
+        "load car2 elderly 2",
+        "drive car2 galchhi-farm gosaikunda-hospital",
+        "unload car2 elderly 2",
+        "defer dupcheshwar-market adult 2"
+      ],
+      "claimed_cost": 194,
+      "text": "<plan>\ndrive car1 jwalamukhi-shelter tadi-farm\nload car1 adult 2\ndrive car1 tadi-farm jwalamukhi-shelter\nunload car1 adult 2\ndrive car2 gosaikunda-hospital kakani-village\ndrive car2 kakani-village dupcheshwar-market\nload car2 adult 4\ndrive car2 dupcheshwar-market kakani-village\ndrive car2 kakani-village gosaikunda-hospital\nunload car2 adult 4\ndrive car2 gosaikunda-hospital kakani-village\nload car2 adult 3\ndrive car2 kakani-village gosaikunda-hospital\nunload car2 adult 3\ndrive car2 gosaikunda-hospital galchhi-farm\nload car2 elderly 2\ndrive car2 galchhi-farm gosaikunda-hospital\nunload car2 elderly 2\ndefer dupcheshwar-market adult 2\n</plan>\nCOST: 194"
+    }
+  ]
+}

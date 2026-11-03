@@ -1,0 +1,59 @@
+{
+  "pipeline": "direct",
+  "instance": "small-12",
+  "size": "small",
+  "level": "explicit",
+  "model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1728,
+    "output_tokens": 1378,
+    "calls": 1,
+    "seconds": 16.7
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 158,
+    "travel_minutes": 118,
+    "deferred_penalty": 40,
+    "rescued": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 8
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 2
+    },
+    "people_rescued": 8,
+    "priority_people_rescued": 0
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 trishuli-shelter gosaikunda-temple",
+        "drive car1 gosaikunda-temple naukunda-farm",
+        "load car1 adult 4",
+        "drive car1 naukunda-farm gosaikunda-temple",
+        "drive car1 gosaikunda-temple trishuli-shelter",
+        "unload car1 adult 4",
+        "drive car1 trishuli-shelter gosaikunda-temple",
+        "drive car1 gosaikunda-temple dupcheshwar-temple",
+        "load car1 adult 4",
+        "drive car1 dupcheshwar-temple gosaikunda-temple",
+        "drive car1 gosaikunda-temple trishuli-shelter",
+        "unload car1 adult 4",
+        "defer bidur-village adult 2"
+      ],
+      "claimed_cost": 158,
+      "text": "This plan rescues 8 of the 10 adults and defers the 2 at Bidur village. It costs 158 minutes in total.\n\n- **Naukunda farm:** the direct road is damaged, so the car goes via Gosaikunda temple. The round trip is 46 minutes and saves 4 \u00d7 20 = 80 in penalties, so it is worth doing.\n- **Dupcheshwar temple:** the round trip is 72 minutes against an 80 penalty for deferring 4 adults, so rescuing them saves 8.\n- **Bidur village:** a round trip is 116 minutes against a 40 penalty for deferring 2 adults, so they are deferred. Combining Bidur with Dupcheshwar in one trip costs 156 in total, which is worse than 112 for the separate Dupcheshwar trip plus deferring Bidur.\n\nTotal: 46 + 72 + 40 = 158.\n\n<plan>\ndrive car1 trishuli-shelter gosaikunda-temple\ndrive car1 gosaikunda-temple naukunda-farm\nload car1 adult 4\ndrive car1 naukunda-farm gosaikunda-temple\ndrive car1 gosaikunda-temple trishuli-shelter\nunload car1 adult 4\ndrive car1 trishuli-shelter gosaikunda-temple\ndrive car1 gosaikunda-temple dupcheshwar-temple\nload car1 adult 4\ndrive car1 dupcheshwar-temple gosaikunda-temple\ndrive car1 gosaikunda-temple trishuli-shelter\nunload car1 adult 4\ndefer bidur-village adult 2\n</plan>\nCOST: 158"
+    }
+  ]
+}

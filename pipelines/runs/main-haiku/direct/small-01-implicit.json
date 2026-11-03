@@ -1,0 +1,57 @@
+{
+  "pipeline": "direct",
+  "instance": "small-01",
+  "size": "small",
+  "level": "implicit",
+  "model": "claude-haiku-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1859,
+    "output_tokens": 4088,
+    "calls": 1,
+    "seconds": 21.1
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 154,
+    "travel_minutes": 134,
+    "deferred_penalty": 20,
+    "rescued": {
+      "injured": 0,
+      "child": 2,
+      "elderly": 2,
+      "adult": 0
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 1
+    },
+    "people_rescued": 4,
+    "priority_people_rescued": 4
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 myagang-shelter uttargaya-school",
+        "load car1 child 2",
+        "drive car1 uttargaya-school nilkantha-market",
+        "drive car1 nilkantha-market syaphru-temple",
+        "load car1 elderly 2",
+        "drive car1 syaphru-temple nilkantha-market",
+        "drive car1 nilkantha-market uttargaya-school",
+        "drive car1 uttargaya-school myagang-shelter",
+        "unload car1 child 2",
+        "unload car1 elderly 2",
+        "defer syaphru-temple adult 1"
+      ],
+      "claimed_cost": 154,
+      "text": "<plan>\ndrive car1 myagang-shelter uttargaya-school\nload car1 child 2\ndrive car1 uttargaya-school nilkantha-market\ndrive car1 nilkantha-market syaphru-temple\nload car1 elderly 2\ndrive car1 syaphru-temple nilkantha-market\ndrive car1 nilkantha-market uttargaya-school\ndrive car1 uttargaya-school myagang-shelter\nunload car1 child 2\nunload car1 elderly 2\ndefer syaphru-temple adult 1\n</plan>\nCOST: 154\n\nThis plan rescues the two pupils and the two pensioners, and defers the farmer. The car's round trip takes 134 minutes (28 + 8 + 31 out, and 31 + 8 + 28 back). The bridge is out, so the route runs through Uttargaya school, and the pupils ride along on the way out. Carrying all five people would need a second run costing another 134 minutes, which is more than the 20-minute penalty for deferring the adult.\n\nThe plan assumes roads can be driven in both directions. The field report doesn't say otherwise."
+    }
+  ]
+}

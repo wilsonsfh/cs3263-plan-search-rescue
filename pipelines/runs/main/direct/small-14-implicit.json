@@ -1,0 +1,54 @@
+{
+  "pipeline": "direct",
+  "instance": "small-14",
+  "size": "small",
+  "level": "implicit",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1870,
+    "output_tokens": 1761,
+    "calls": 1,
+    "seconds": 18.5
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 120,
+    "travel_minutes": 40,
+    "deferred_penalty": 80,
+    "rescued": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 3,
+      "adult": 1
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 4
+    },
+    "people_rescued": 4,
+    "priority_people_rescued": 3
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 tarkeshwar-shelter myagang-temple",
+        "load car1 elderly 3",
+        "load car1 adult 1",
+        "drive car1 myagang-temple tarkeshwar-shelter",
+        "unload car1 elderly 3",
+        "unload car1 adult 1",
+        "defer myagang-temple adult 2",
+        "defer tadi-farm adult 2"
+      ],
+      "claimed_cost": 120,
+      "text": "The minimum total cost is **120**: one round trip to the temple plus deferring four adults.\n\n**Situation**\n- **Evacuation point:** Tarkeshwar shelter is the only one. Myagang temple is on high ground but is not designated, so dropping people there would not count.\n- **Usable roads (minutes):**\n\n| Road | Minutes |\n|---|---|\n| Tarkeshwar\u2013Myagang | 20 |\n| Shivapuri\u2013Myagang | 19 |\n| Tadi\u2013Myagang | 22 |\n| Benighat\u2013Myagang | 21 |\n| Gosaikunda\u2013Tadi | 58 |\n\n  The Shivapuri\u2013Gosaikunda and Shivapuri\u2013Benighat roads are closed.\n- **People:**\n  - Myagang temple: 3 elderly and 3 adults (the shopkeepers).\n  - Tadi farm: 2 adults. I read \"two men and women from the cooperative\" as two adults in total.\n\n**Reasoning**\n- **Elderly:** A round trip from the shelter to the temple takes 40 minutes and carries up to 4 people. The 3 elderly would cost 150 in penalties if deferred, so we fetch them, plus 1 adult to fill the car.\n- **Second trip to the temple:** It would cost 40 minutes to bring back the 2 remaining adults. Deferring them costs 2 \u00d7 20 = 40, so there is no saving.\n- **Tadi farm:** Going via the temple adds at least 44 minutes to reach the 2 adults there. Deferring them costs only 40.\n- **One combined second trip:** Collecting all 4 remaining adults (shelter \u2192 temple \u2192 Tadi \u2192 temple \u2192 shelter) takes 84 minutes. That is more than the 80 it costs to defer them.\n\nSo the best total is 40 + 80 = **120**. Doing a second trip to the temple for the 2 adults also gives 120. The plan below defers them, which leaves the car free sooner.\n\n<plan>\ndrive car1 tarkeshwar-shelter myagang-temple\nload car1 elderly 3\nload car1 adult 1\ndrive car1 myagang-temple tarkeshwar-shelter\nunload car1 elderly 3\nunload car1 adult 1\ndefer myagang-temple adult 2\ndefer tadi-farm adult 2\n</plan>\n\nCOST: 120"
+    }
+  ]
+}

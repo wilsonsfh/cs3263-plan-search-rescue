@@ -1,0 +1,69 @@
+{
+  "pipeline": "direct",
+  "instance": "medium-11",
+  "size": "medium",
+  "level": "implicit",
+  "model": "claude-haiku-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 2097,
+    "output_tokens": 4442,
+    "calls": 1,
+    "seconds": 19.2
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 496,
+    "travel_minutes": 256,
+    "deferred_penalty": 240,
+    "rescued": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 7,
+      "adult": 7
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 4,
+      "elderly": 0,
+      "adult": 0
+    },
+    "people_rescued": 14,
+    "priority_people_rescued": 7
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 naukunda-shelter shivapuri-market",
+        "drive car1 shivapuri-market dupcheshwar-market",
+        "load car1 elderly 4",
+        "drive car1 dupcheshwar-market shivapuri-market",
+        "drive car1 shivapuri-market naukunda-shelter",
+        "unload car1 elderly 4",
+        "drive car1 naukunda-shelter shivapuri-market",
+        "drive car1 shivapuri-market dupcheshwar-market",
+        "load car1 elderly 3",
+        "drive car1 dupcheshwar-market shivapuri-market",
+        "drive car1 shivapuri-market naukunda-shelter",
+        "unload car1 elderly 3",
+        "drive car1 naukunda-shelter gosaikunda-care-home",
+        "drive car1 gosaikunda-care-home benighat-market",
+        "load car1 adult 4",
+        "drive car1 benighat-market gosaikunda-care-home",
+        "drive car1 gosaikunda-care-home naukunda-shelter",
+        "unload car1 adult 4",
+        "drive car1 naukunda-shelter gosaikunda-care-home",
+        "load car1 adult 3",
+        "drive car1 gosaikunda-care-home naukunda-shelter",
+        "unload car1 adult 3",
+        "defer syaphru-school child 4"
+      ],
+      "claimed_cost": 496,
+      "text": "<plan>\ndrive car1 naukunda-shelter shivapuri-market\ndrive car1 shivapuri-market dupcheshwar-market\nload car1 elderly 4\ndrive car1 dupcheshwar-market shivapuri-market\ndrive car1 shivapuri-market naukunda-shelter\nunload car1 elderly 4\ndrive car1 naukunda-shelter shivapuri-market\ndrive car1 shivapuri-market dupcheshwar-market\nload car1 elderly 3\ndrive car1 dupcheshwar-market shivapuri-market\ndrive car1 shivapuri-market naukunda-shelter\nunload car1 elderly 3\ndrive car1 naukunda-shelter gosaikunda-care-home\ndrive car1 gosaikunda-care-home benighat-market\nload car1 adult 4\ndrive car1 benighat-market gosaikunda-care-home\ndrive car1 gosaikunda-care-home naukunda-shelter\nunload car1 adult 4\ndrive car1 naukunda-shelter gosaikunda-care-home\nload car1 adult 3\ndrive car1 gosaikunda-care-home naukunda-shelter\nunload car1 adult 3\ndefer syaphru-school child 4\n</plan>\nCOST: 496\n\nNotes:\n- **Elderly (7 at Dupcheshwar):** Rescued in two round trips via Shivapuri (80 min each). The only open route is Dupcheshwar\u2013Shivapuri\u2013Naukunda.\n- **Adults (4 at Benighat, 3 at Gosaikunda):** Rescued in two trips via Gosaikunda (56 min and 40 min). Rescuing costs less than the 20-minute penalty per person.\n- **Children (4 at Syaphru):** Deferred. The only road out, Dupcheshwar\u2013Syaphru, is closed, and Syaphru school is not a designated evacuation point. If the road reopens, a rescue becomes possible; the cost would be about 24 + 16 minutes each way per trip, so these children should be reconsidered in the next wave.\n- **Galchhi care home:** No one is waiting there, so the Galchhi road is not used.\n- **Cost breakdown:** 256 driving minutes + 240 penalty (4 children \u00d7 60) = 496."
+    }
+  ]
+}
