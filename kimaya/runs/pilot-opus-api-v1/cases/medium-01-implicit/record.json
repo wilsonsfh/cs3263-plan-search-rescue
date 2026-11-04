@@ -1,0 +1,307 @@
+{
+  "instance": "medium-01",
+  "size": "medium",
+  "mode": "live",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "attempts": [
+    {
+      "index": 0,
+      "llm": {
+        "ok": true,
+        "text": "```pddl\n(define (problem medium-01)\n  (:domain flood-rescue)\n\n  (:objects\n    kakani-shelter tarkeshwar-school benighat-farm uttargaya-farm\n    myagang-market naukunda-school belkot-farm tadi-school\n    gosaikunda-temple - location\n    car1 car2 - car\n    n1 n2 n3 n4 - level)\n\n  (:init\n    ;; roads\n    (road benighat-farm uttargaya-farm) (road uttargaya-farm benighat-farm)\n    (= (travel-time benighat-farm uttargaya-farm) 38) (= (travel-time uttargaya-farm benighat-farm) 38)\n\n    (road benighat-farm myagang-market) (road myagang-market benighat-farm)\n    (= (travel-time benighat-farm myagang-market) 54) (= (travel-time myagang-market benighat-farm) 54)\n    (damaged benighat-farm myagang-market) (damaged myagang-market benighat-farm)\n\n    (road tarkeshwar-school naukunda-school) (road naukunda-school tarkeshwar-school)\n    (= (travel-time tarkeshwar-school naukunda-school) 17) (= (travel-time naukunda-school tarkeshwar-school) 17)\n\n    (road myagang-market naukunda-school) (road naukunda-school myagang-market)\n    (= (travel-time myagang-market naukunda-school) 29) (= (travel-time naukunda-school myagang-market) 29)\n\n    (road tarkeshwar-school benighat-farm) (road benighat-farm tarkeshwar-school)\n    (= (travel-time tarkeshwar-school benighat-farm) 14) (= (travel-time benighat-farm tarkeshwar-school) 14)\n\n    (road kakani-shelter naukunda-school) (road naukunda-school kakani-shelter)\n    (= (travel-time kakani-shelter naukunda-school) 25) (= (travel-time naukunda-school kakani-shelter) 25)\n\n    (road uttargaya-farm belkot-farm) (road belkot-farm uttargaya-farm)\n    (= (travel-time uttargaya-farm belkot-farm) 11) (= (travel-time belkot-farm uttargaya-farm) 11)\n    (damaged uttargaya-farm belkot-farm) (damaged belkot-farm uttargaya-farm)\n\n    (road tarkeshwar-school tadi-school) (road tadi-school tarkeshwar-school)\n    (= (travel-time tarkeshwar-school tadi-school) 7) (= (travel-time tadi-school tarkeshwar-school) 7)\n    (damaged tarkeshwar-school tadi-school) (damaged tadi-school tarkeshwar-school)\n\n    (road gosaikunda-temple uttargaya-farm) (road uttargaya-farm gosaikunda-temple)\n    (= (travel-time gosaikunda-temple uttargaya-farm) 5) (= (travel-time uttargaya-farm gosaikunda-temple) 5)\n\n    (road benighat-farm tadi-school) (road tadi-school benighat-farm)\n    (= (travel-time benighat-farm tadi-school) 21) (= (travel-time tadi-school benighat-farm) 21)\n\n    (road kakani-shelter tarkeshwar-school) (road tarkeshwar-school kakani-shelter)\n    (= (travel-time kakani-shelter tarkeshwar-school) 12) (= (travel-time tarkeshwar-school kakani-shelter) 12)\n\n    ;; evacuation points\n    (evac-point kakani-shelter)\n\n    ;; cars\n    (car-at car1 kakani-shelter)\n    (free-seats car1 n4)\n    (carrying car1 injured n0) (carrying car1 child n0)\n    (carrying car1 elderly n0) (carrying car1 adult n0)\n    (car-at car2 kakani-shelter)\n    (free-seats car2 n4)\n    (carrying car2 injured n0) (carrying car2 child n0)\n    (carrying car2 elderly n0) (carrying car2 adult n0)\n\n    ;; waiting people\n    (waiting myagang-market adult n4)\n    (waiting benighat-farm adult n4)\n    (waiting tarkeshwar-school injured n4)\n    (waiting tarkeshwar-school child n1)\n    (waiting belkot-farm adult n2)\n    (waiting naukunda-school child n3)\n\n    ;; arithmetic\n    (sum n0 n0 n0) (sum n0 n1 n1) (sum n0 n2 n2) (sum n0 n3 n3) (sum n0 n4 n4)\n    (sum n1 n0 n1) (sum n1 n1 n2) (sum n1 n2 n3) (sum n1 n3 n4)\n    (sum n2 n0 n2) (sum n2 n1 n3) (sum n2 n2 n4)\n    (sum n3 n0 n3) (sum n3 n1 n4)\n    (sum n4 n0 n4)\n    (positive n1) (positive n2) (positive n3) (positive n4)\n\n    ;; defer costs\n    (= (defer-cost injured n1) 80) (= (defer-cost injured n2) 160)\n    (= (defer-cost injured n3) 240) (= (defer-cost injured n4) 320)\n    (= (defer-cost child n1) 60) (= (defer-cost child n2) 120)\n    (= (defer-cost child n3) 180) (= (defer-cost child n4) 240)\n    (= (defer-cost elderly n1) 50) (= (defer-cost elderly n2) 100)\n    (= (defer-cost elderly n3) 150) (= (defer-cost elderly n4) 200)\n    (= (defer-cost adult n1) 20) (= (defer-cost adult n2) 40)\n    (= (defer-cost adult n3) 60) (= (defer-cost adult n4) 80)\n\n    (= (total-cost) 0))\n\n  (:goal (and\n    (waiting myagang-market adult n0)\n    (waiting benighat-farm adult n0)\n    (waiting tarkeshwar-school injured n0)\n    (waiting tarkeshwar-school child n0)\n    (waiting belkot-farm adult n0)\n    (waiting naukunda-school child n0)\n    (carrying car1 injured n0) (carrying car1 child n0)\n    (carrying car1 elderly n0) (carrying car1 adult n0)\n    (carrying car2 injured n0) (carrying car2 child n0)\n    (carrying car2 elderly n0) (carrying car2 adult n0)))\n\n  (:metric minimize (total-cost))\n)\n```",
+        "content": [
+          {
+            "signature": "CAQStgoKEAgTGAI4AUIIdGhpbmtpbmcSDLw8cXWG6IPgX81TGRoMR9yXA/cKWwxeh6YMIjDo4sxE2J1FMFLyXiWluvxtXoqWvGE5roDD/d6kSugN4toRnBd7dRtDe5yv5S9jbmkq0wm2LilSXcdwffyvxuT1fz0Qu8EeHREWHX9ZnWJd+25pFDsJ9rrlAHzMKgXCDcz+EblIuawur8H9cBhyXx2hyyYVVR+B1vpjDMoJ/RoJKx86WHT0s6/uPRAok/FN8M8jwCjrod6jj6InkjQSfos109O8FcFXiVT4qqy8ODqAQRzIcVDfuCKsBlgsEpqeL0PtXzeBzEdQZ3Txixpa0tq8KcV+zLfUV/+l3Jrj6407zQ8T1cGfwR2YQJNb/FYYZV134Fqx2gLC0wcJ9BMTekWRVnxKyHsP0ZAO1RvhadzRSJssFZ+Ko/uCskzMXmvKDLobVOR8a1N2lT071zyjDh+v/2iGMntFs/VNrdBHlPAMyjoStpeApYyhINl6YmajUgAGdFLJ5HZn8I/2FQTninTwTeyTJRgI+JIu2Ym/m7wtcqs4KdhnmElEzDu3bVICenkPoOFCoC5PP2UXcZooYzsegUg8xsalcVJTXwvjkhnZWU8jPfVTVFCOsBIdHJQvWIC21i/INVxngOa4dy5IJi8cx4dYmHzsYLwg3RAxTBpPCGbBboQ299/vBKAiePSBnj4aDD/Y2XdPQny0Ba7c0qS1RzDXq0agRs+xFb/6zeug4teCgvI76QLZhoVSZJkDKHZtuRDc2rsawVK+NWOwif48rP4aFFPQxQ6kSuno1pTa9gtO4jUjRVT9A5E6p9ppBo+QK3d0Z2NjUqZOZg9j0Vsf1zadjOMelsig40VfUP0omixTAgJvlE7NjJkEWsdxuWgLvkHjRAb3qoyc2j1wjAdRsIV8Kw1TcnTpuvtq2+QghRrCu4WLuDz9GGJFEstsJxz7r7OggOraKoly8DAQNYTxHwGsC3ZhoQfC4JBnyGIBF24wsLQlP8w/PbYqsiMwOt7fFJKfyeXhzPs7vp4//LWcgZBI5IzjosGMgmUfB/BQLFsNDYL5yBHFWO75ZRXzo6jh4l1iUXlXnBLrR/vWgsgWQJO+5X62XqtELVbypMTw1guXFc6qzNidaLVzWFDVFA7KruvOuUPAVn0cqGMx90cNpVIdLFe4X+rn3/VvHHYOVQUpxuBuvuKZsRUlnNt/bUw/hzfQsBODCny1Jzzcjf21RlDPD4pchnssvWkSnb9SJw+kHX+NWmHCLrpt9v4gtWt0D/YVnKjNr4AtdFPa34TBdC2ys0OAnPB1JlVSBV1T/H3S+aJct8NZIadWIbj2ZwvrK2wyFDsEe1rHssSCQ0zcsMmQ9oZ8ii/AhB3OA7twktxVgxVZoOzenHI4q1KWuMrKs3JnRzrGVKe9NOaTTaFkgslQYYUN/Ojp7lzKDS2oG4E7MeikGv8k2pxI6Tu3+XgKS2voeAyIjPe8ZF98d4E6auqrBqCivJ0u3bDsxOuAlqh0ZSf6GYkmYFTKjAHA5+HjTkq6+Jbypr1B272nkBvF/VGjl0PETEUPk2GRtQeJ54AGtwqrwHinaKjuz6RnUL9JQg70hQZzs8JtCsI4csAY2/e611oVnYZwYDADzfmOSpbPFHeSfGlSgPUMNgGNwW1EdkKo6SRVk5dN0CqIVHPm+ymeCtUtaNKGU+SH+bS/28Imd8FW+iK+rggGQNmLaXRUszV3jPa7zEG+DvtqkoOCqTSlvz3zZadUbJ2Abt05TdBNxduh/BgB",
+            "thinking": "",
+            "type": "thinking"
+          },
+          {
+            "citations": null,
+            "text": "```pddl\n(define (problem medium-01)\n  (:domain flood-rescue)\n\n  (:objects\n    kakani-shelter tarkeshwar-school benighat-farm uttargaya-farm\n    myagang-market naukunda-school belkot-farm tadi-school\n    gosaikunda-temple - location\n    car1 car2 - car\n    n1 n2 n3 n4 - level)\n\n  (:init\n    ;; roads\n    (road benighat-farm uttargaya-farm) (road uttargaya-farm benighat-farm)\n    (= (travel-time benighat-farm uttargaya-farm) 38) (= (travel-time uttargaya-farm benighat-farm) 38)\n\n    (road benighat-farm myagang-market) (road myagang-market benighat-farm)\n    (= (travel-time benighat-farm myagang-market) 54) (= (travel-time myagang-market benighat-farm) 54)\n    (damaged benighat-farm myagang-market) (damaged myagang-market benighat-farm)\n\n    (road tarkeshwar-school naukunda-school) (road naukunda-school tarkeshwar-school)\n    (= (travel-time tarkeshwar-school naukunda-school) 17) (= (travel-time naukunda-school tarkeshwar-school) 17)\n\n    (road myagang-market naukunda-school) (road naukunda-school myagang-market)\n    (= (travel-time myagang-market naukunda-school) 29) (= (travel-time naukunda-school myagang-market) 29)\n\n    (road tarkeshwar-school benighat-farm) (road benighat-farm tarkeshwar-school)\n    (= (travel-time tarkeshwar-school benighat-farm) 14) (= (travel-time benighat-farm tarkeshwar-school) 14)\n\n    (road kakani-shelter naukunda-school) (road naukunda-school kakani-shelter)\n    (= (travel-time kakani-shelter naukunda-school) 25) (= (travel-time naukunda-school kakani-shelter) 25)\n\n    (road uttargaya-farm belkot-farm) (road belkot-farm uttargaya-farm)\n    (= (travel-time uttargaya-farm belkot-farm) 11) (= (travel-time belkot-farm uttargaya-farm) 11)\n    (damaged uttargaya-farm belkot-farm) (damaged belkot-farm uttargaya-farm)\n\n    (road tarkeshwar-school tadi-school) (road tadi-school tarkeshwar-school)\n    (= (travel-time tarkeshwar-school tadi-school) 7) (= (travel-time tadi-school tarkeshwar-school) 7)\n    (damaged tarkeshwar-school tadi-school) (damaged tadi-school tarkeshwar-school)\n\n    (road gosaikunda-temple uttargaya-farm) (road uttargaya-farm gosaikunda-temple)\n    (= (travel-time gosaikunda-temple uttargaya-farm) 5) (= (travel-time uttargaya-farm gosaikunda-temple) 5)\n\n    (road benighat-farm tadi-school) (road tadi-school benighat-farm)\n    (= (travel-time benighat-farm tadi-school) 21) (= (travel-time tadi-school benighat-farm) 21)\n\n    (road kakani-shelter tarkeshwar-school) (road tarkeshwar-school kakani-shelter)\n    (= (travel-time kakani-shelter tarkeshwar-school) 12) (= (travel-time tarkeshwar-school kakani-shelter) 12)\n\n    ;; evacuation points\n    (evac-point kakani-shelter)\n\n    ;; cars\n    (car-at car1 kakani-shelter)\n    (free-seats car1 n4)\n    (carrying car1 injured n0) (carrying car1 child n0)\n    (carrying car1 elderly n0) (carrying car1 adult n0)\n    (car-at car2 kakani-shelter)\n    (free-seats car2 n4)\n    (carrying car2 injured n0) (carrying car2 child n0)\n    (carrying car2 elderly n0) (carrying car2 adult n0)\n\n    ;; waiting people\n    (waiting myagang-market adult n4)\n    (waiting benighat-farm adult n4)\n    (waiting tarkeshwar-school injured n4)\n    (waiting tarkeshwar-school child n1)\n    (waiting belkot-farm adult n2)\n    (waiting naukunda-school child n3)\n\n    ;; arithmetic\n    (sum n0 n0 n0) (sum n0 n1 n1) (sum n0 n2 n2) (sum n0 n3 n3) (sum n0 n4 n4)\n    (sum n1 n0 n1) (sum n1 n1 n2) (sum n1 n2 n3) (sum n1 n3 n4)\n    (sum n2 n0 n2) (sum n2 n1 n3) (sum n2 n2 n4)\n    (sum n3 n0 n3) (sum n3 n1 n4)\n    (sum n4 n0 n4)\n    (positive n1) (positive n2) (positive n3) (positive n4)\n\n    ;; defer costs\n    (= (defer-cost injured n1) 80) (= (defer-cost injured n2) 160)\n    (= (defer-cost injured n3) 240) (= (defer-cost injured n4) 320)\n    (= (defer-cost child n1) 60) (= (defer-cost child n2) 120)\n    (= (defer-cost child n3) 180) (= (defer-cost child n4) 240)\n    (= (defer-cost elderly n1) 50) (= (defer-cost elderly n2) 100)\n    (= (defer-cost elderly n3) 150) (= (defer-cost elderly n4) 200)\n    (= (defer-cost adult n1) 20) (= (defer-cost adult n2) 40)\n    (= (defer-cost adult n3) 60) (= (defer-cost adult n4) 80)\n\n    (= (total-cost) 0))\n\n  (:goal (and\n    (waiting myagang-market adult n0)\n    (waiting benighat-farm adult n0)\n    (waiting tarkeshwar-school injured n0)\n    (waiting tarkeshwar-school child n0)\n    (waiting belkot-farm adult n0)\n    (waiting naukunda-school child n0)\n    (carrying car1 injured n0) (carrying car1 child n0)\n    (carrying car1 elderly n0) (carrying car1 adult n0)\n    (carrying car2 injured n0) (carrying car2 child n0)\n    (carrying car2 elderly n0) (carrying car2 adult n0)))\n\n  (:metric minimize (total-cost))\n)\n```",
+            "type": "text"
+          }
+        ],
+        "seconds": 18.948907750076614,
+        "stop_reason": "end_turn",
+        "model_returned": "claude-opus-5-5",
+        "message_id": "msg_011CghKd8XXyBgEeZjUXRAvs",
+        "provider_usage": {
+          "cache_creation": {
+            "ephemeral_1h_input_tokens": 0,
+            "ephemeral_5m_input_tokens": 0
+          },
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "inference_geo": "global",
+          "input_tokens": 3621,
+          "output_tokens": 2676,
+          "output_tokens_details": {
+            "thinking_tokens": 395
+          },
+          "server_tool_use": null,
+          "service_tier": "standard",
+          "speed": "standard"
+        },
+        "input_tokens": 3621,
+        "output_tokens": 2676,
+        "thinking_tokens": 395,
+        "estimated_cost_usd": 0.068004
+      },
+      "pddl_blocks": 1,
+      "pddl_characters": 4654,
+      "fidelity": {
+        "parse_ok": true,
+        "exact": true,
+        "scenario_exact": true,
+        "categories": {
+          "car-at": {
+            "exact": true,
+            "precision": 1.0,
+            "recall": 1.0,
+            "missing": [],
+            "extra": []
+          },
+          "carrying": {
+            "exact": true,
+            "precision": 1.0,
+            "recall": 1.0,
+            "missing": [],
+            "extra": []
+          },
+          "damaged": {
+            "exact": true,
+            "precision": 1.0,
+            "recall": 1.0,
+            "missing": [],
+            "extra": []
+          },
+          "defer-cost": {
+            "exact": true,
+            "precision": 1.0,
+            "recall": 1.0,
+            "missing": [],
+            "extra": []
+          },
+          "domain": {
+            "exact": true,
+            "precision": 1.0,
+            "recall": 1.0,
+            "missing": [],
+            "extra": []
+          },
+          "encoding": {
+            "exact": true,
+            "precision": 1.0,
+            "recall": 1.0,
+            "missing": [],
+            "extra": []
+          },
+          "evac-point": {
+            "exact": true,
+            "precision": 1.0,
+            "recall": 1.0,
+            "missing": [],
+            "extra": []
+          },
+          "free-seats": {
+            "exact": true,
+            "precision": 1.0,
+            "recall": 1.0,
+            "missing": [],
+            "extra": []
+          },
+          "goals": {
+            "exact": true,
+            "precision": 1.0,
+            "recall": 1.0,
+            "missing": [],
+            "extra": []
+          },
+          "initial_cost": {
+            "exact": true,
+            "precision": 1.0,
+            "recall": 1.0,
+            "missing": [],
+            "extra": []
+          },
+          "metric": {
+            "exact": true,
+            "precision": 1.0,
+            "recall": 1.0,
+            "missing": [],
+            "extra": []
+          },
+          "objects": {
+            "exact": true,
+            "precision": 1.0,
+            "recall": 1.0,
+            "missing": [],
+            "extra": []
+          },
+          "other": {
+            "exact": true,
+            "precision": null,
+            "recall": null,
+            "missing": [],
+            "extra": []
+          },
+          "road": {
+            "exact": true,
+            "precision": 1.0,
+            "recall": 1.0,
+            "missing": [],
+            "extra": []
+          },
+          "travel-time": {
+            "exact": true,
+            "precision": 1.0,
+            "recall": 1.0,
+            "missing": [],
+            "extra": []
+          },
+          "waiting": {
+            "exact": true,
+            "precision": 1.0,
+            "recall": 1.0,
+            "missing": [],
+            "extra": []
+          }
+        }
+      },
+      "fidelity_seconds": 0.00043108302634209394,
+      "planner": {
+        "plan": [
+          "(defer-rescue belkot-farm adult n2)",
+          "(drive car1 kakani-shelter tarkeshwar-school)",
+          "(load car1 tarkeshwar-school injured n4 n4 n0 n0 n4 n4 n0)",
+          "(drive car1 tarkeshwar-school kakani-shelter)",
+          "(unload car1 kakani-shelter injured n4 n0 n4)",
+          "(drive car1 kakani-shelter tarkeshwar-school)",
+          "(drive car1 tarkeshwar-school benighat-farm)",
+          "(load car1 benighat-farm adult n4 n4 n0 n0 n4 n4 n0)",
+          "(drive car1 benighat-farm tarkeshwar-school)",
+          "(drive car1 tarkeshwar-school kakani-shelter)",
+          "(unload car1 kakani-shelter adult n4 n0 n4)",
+          "(drive car1 kakani-shelter tarkeshwar-school)",
+          "(load car1 tarkeshwar-school child n1 n1 n0 n0 n1 n4 n3)",
+          "(drive car1 tarkeshwar-school naukunda-school)",
+          "(load car1 naukunda-school child n3 n3 n0 n1 n4 n3 n0)",
+          "(drive car1 naukunda-school kakani-shelter)",
+          "(unload car1 kakani-shelter child n4 n0 n4)",
+          "(defer-rescue myagang-market adult n4)"
+        ],
+        "searches": [
+          {
+            "search": "optimal-lmcut",
+            "seconds": 59.21132091700565,
+            "exit_code": 23,
+            "command": [
+              "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/.venv/bin/python",
+              "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/.tools/downward/fast-downward.py",
+              "--overall-time-limit",
+              "60s",
+              "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/pddl/domain.pddl",
+              "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/kimaya/runs/pilot-opus-api-v1/cases/medium-01-implicit/attempt-0/planner/problem.pddl",
+              "--search",
+              "astar(lmcut())"
+            ],
+            "timed_out": true,
+            "optimal_for_generated_problem": false
+          },
+          {
+            "search": "optimal-ms",
+            "seconds": 17.62259666598402,
+            "exit_code": 0,
+            "command": [
+              "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/.venv/bin/python",
+              "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/.tools/downward/fast-downward.py",
+              "--overall-time-limit",
+              "60s",
+              "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/pddl/domain.pddl",
+              "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/kimaya/runs/pilot-opus-api-v1/cases/medium-01-implicit/attempt-0/planner/problem.pddl",
+              "--search",
+              "astar(merge_and_shrink(shrink_strategy=shrink_bisimulation(greedy=false),merge_strategy=merge_sccs(order_of_sccs=topological,merge_selector=score_based_filtering(scoring_functions=[goal_relevance(),dfp(),total_order()])),label_reduction=exact(before_shrinking=true,before_merging=false),max_states=50000,threshold_before_merge=1))"
+            ],
+            "timed_out": false,
+            "optimal_for_generated_problem": true
+          }
+        ],
+        "seconds": 76.83391758298967,
+        "status": "plan_found",
+        "search": "optimal-ms",
+        "optimal_for_generated_problem": true
+      },
+      "status": "valid",
+      "result": {
+        "valid": true,
+        "error": "",
+        "cost": 250,
+        "travel_minutes": 130,
+        "deferred_penalty": 120,
+        "rescued": {
+          "injured": 4,
+          "child": 4,
+          "elderly": 0,
+          "adult": 4
+        },
+        "deferred": {
+          "injured": 0,
+          "child": 0,
+          "elderly": 0,
+          "adult": 6
+        },
+        "people_rescued": 12,
+        "priority_people_rescued": 8
+      },
+      "validation_seconds": 8.945795707404613e-05,
+      "plan_actions": 18
+    }
+  ],
+  "status": "valid",
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 250,
+    "travel_minutes": 130,
+    "deferred_penalty": 120,
+    "rescued": {
+      "injured": 4,
+      "child": 4,
+      "elderly": 0,
+      "adult": 4
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 6
+    },
+    "people_rescued": 12,
+    "priority_people_rescued": 8
+  },
+  "first_valid": true,
+  "first_status": "valid",
+  "timing": {
+    "llm_seconds": 18.948907750076614,
+    "planner_seconds": 76.83391758298967,
+    "validation_seconds": 8.945795707404613e-05,
+    "fidelity_seconds": 0.00043108302634209394,
+    "total_seconds": 96.19045429106336,
+    "other_seconds": 0.4071084170136601
+  },
+  "usage": {
+    "calls": 1,
+    "input_tokens": 3621,
+    "output_tokens": 2676,
+    "thinking_tokens": 395,
+    "estimated_cost_usd": 0.068004,
+    "initial_input_tokens": 3621,
+    "initial_output_tokens": 2676,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0
+  },
+  "complete": true,
+  "level": "implicit",
+  "backend": "api"
+}

@@ -89,6 +89,20 @@ def main():
         'The manifested planner commit/binary and file hashes identify inputs. API budget or transport interruptions pause '
         'the batch; cached successful calls avoid duplicate generation on resume. Provider billing is authoritative.', '',
         'Implementation and analysis were assisted by Codex; team members should review the modelling, results and conclusions before submission.']
+    lines += ['', '## Interpretation', '']
+    for size in ('small','medium','large'):
+        rs=[r for r in comparisons if r['size']==size]
+        both=[r for r in rs if r['valid'] and r['direct_valid']]
+        if both:
+            lower=sum(r['cost']<r['direct_cost'] for r in both)
+            equal=sum(r['cost']==r['direct_cost'] for r in both)
+            higher=sum(r['cost']>r['direct_cost'] for r in both)
+            lines.append(f'- {size}: among {len(both)} mutually valid pairs, PDDL cost is lower/equal/higher than direct in {lower}/{equal}/{higher} cases.')
+    example=next((r for r in records if r['instance']=='large-01' and r['level']=='explicit'),None)
+    if example and example['result']['valid']:
+        result=example['result']
+        lines += ['', f"For large-01 explicit, the translated-PDDL plan costs {result['cost']}, rescuing {result['people_rescued']} people and deferring {result['deferred']}. Wilson's direct plan costs 240, rescues 22 people and defers three adults. The canonical translation is exact; the correct-PDDL baseline also costs 462. Thus this case identifies a planner/configuration-budget limitation, not a translation failure. This does not establish that all classical planners perform worse."]
+    lines += ['', 'Formatting/object ordering can affect search tie-breaking even when canonical fidelity is exact. Any cost differences between correct and translated PDDL should therefore be analysed with the search logs and budget, not automatically attributed to missing facts.']
     (ROOT/'kimaya/pilot_results.md').write_text('\n'.join(lines)+'\n')
     print('wrote pilot_results.md and comparison.csv for',n,'cases')
 

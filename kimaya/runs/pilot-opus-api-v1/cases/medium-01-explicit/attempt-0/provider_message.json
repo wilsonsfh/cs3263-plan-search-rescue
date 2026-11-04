@@ -1,0 +1,40 @@
+{
+  "id": "msg_011CghKDJV9PN8Sr3XHjm5Go",
+  "container": null,
+  "content": [
+    {
+      "signature": "CAQSggcKEAgTGAI4AUIIdGhpbmtpbmcSDNzqqAwi6QWmhGyt2BoMXslXpkbacO6eqBLSIjAo9EypJtf6ABT8utan7xJW0Nxe58bKjElWhiPbUvtlhlXpGUJvkX+w39eV1ahqvYoqnwZ9Imxt8Idyng31hH47MSG5LMHnomgIxSbjE2MPDHHRYhczyFVHv7VPvnSBdaqeSPSXaLVRFtrh7kP1Q5vl8+Cp+PjNzQko9JV7QQprgzIYfK0EcWPyxQr0sc+khl2JpApnulTsTb20j/1yOD30RVlcYB2b5jGbcg4vy4OvmliAQtNST1qMMjkTBaCy+/+fUX/OrXesQNpqzRrOD95NIz/zckQtCkG16z48xCtML0O4k1Kigku27AD3wM4U5pcNQ+pjOkhUnDRCNl4Kq7za2ZD4gYBPIdbbS5LGub8yEc+fd7rKVfp/Rlrdr4FCCoMSOvKpkYMTCnKLDbBk9bZ0lEZ6jf+hkNH2h3UZzKR1ex6xAP7QmeoVMXclnhvCWI4A4w/knweILzledLgb+dTIODkpCXdlInIk3SN+v2L8SzhdImheACG8hn3yvhAbSY48WFt4ElpcxXxaTmF8HZBm3Ue2rVS77t0hf4bFcRxL+r+FsDMlh4z9cd/kZcesgHEc66vP/lEOgUvlnO3UWfQZ7e08y7k31AziJsdeZNszVhsmOy+QJSR3BhooZxPtN9DxwnLEDTQqNmhgIiPFtXUD/yt6j/mEiuDMZZGb7Er8pN5V5J1miU9PJKXzYtOqtRoU4iH577kqJhQlvt0X29hA89jPUuqTfE3xlDtRdHRZpWxdl4HwscG+X1TzQG+OdUatVWhrlL7V8MF5HTE5CdD0PMjVYwz976gzY3uUIehamc6ldq+ncOM4ki1PdgYW5FSG2Htk/AWeCuXHe/1A1HfV8qVvUOK5y9WcqngaalXTbySF2XKwFqNrk/6w+fkFrq7p8YinfuEvhAL8GMRSStdx++LVWZyz6jj9C/4cXr7QN4vZvq1YQSbD93g9LdrYJ/WaKJQAhFbtKwrCDdGyW8QwPezDxPllnlk2UeT1Ot4FDmtApDOEqoKsFzVvZAdI4p6i858uhlUlPa7y5k6oYyfp9F+En6ZJWcqNG7QRBPqVlHB4fn8S15SmBBvmAVyDl2IwQmYwp3nRNLcD54Bh7fdkrcwOsZGlJeDEG2zpLZS4t1LOGAE=",
+      "thinking": "",
+      "type": "thinking"
+    },
+    {
+      "citations": null,
+      "text": "```pddl\n(define (problem flood-rescue-medium-01)\n  (:domain flood-rescue)\n  (:objects\n    kakani-shelter tarkeshwar-school naukunda-school benighat-farm tadi-school\n    myagang-market gosaikunda-temple uttargaya-farm belkot-farm - location\n    car1 car2 - car\n    n1 n2 n3 n4 - level)\n  (:init\n    ;; roads\n    (road kakani-shelter tarkeshwar-school) (road tarkeshwar-school kakani-shelter)\n    (= (travel-time kakani-shelter tarkeshwar-school) 12) (= (travel-time tarkeshwar-school kakani-shelter) 12)\n\n    (road kakani-shelter naukunda-school) (road naukunda-school kakani-shelter)\n    (= (travel-time kakani-shelter naukunda-school) 25) (= (travel-time naukunda-school kakani-shelter) 25)\n\n    (road tarkeshwar-school benighat-farm) (road benighat-farm tarkeshwar-school)\n    (= (travel-time tarkeshwar-school benighat-farm) 14) (= (travel-time benighat-farm tarkeshwar-school) 14)\n\n    (road tarkeshwar-school tadi-school) (road tadi-school tarkeshwar-school)\n    (= (travel-time tarkeshwar-school tadi-school) 7) (= (travel-time tadi-school tarkeshwar-school) 7)\n    (damaged tarkeshwar-school tadi-school) (damaged tadi-school tarkeshwar-school)\n\n    (road tarkeshwar-school naukunda-school) (road naukunda-school tarkeshwar-school)\n    (= (travel-time tarkeshwar-school naukunda-school) 17) (= (travel-time naukunda-school tarkeshwar-school) 17)\n\n    (road benighat-farm myagang-market) (road myagang-market benighat-farm)\n    (= (travel-time benighat-farm myagang-market) 54) (= (travel-time myagang-market benighat-farm) 54)\n    (damaged benighat-farm myagang-market) (damaged myagang-market benighat-farm)\n\n    (road benighat-farm tadi-school) (road tadi-school benighat-farm)\n    (= (travel-time benighat-farm tadi-school) 21) (= (travel-time tadi-school benighat-farm) 21)\n\n    (road benighat-farm uttargaya-farm) (road uttargaya-farm benighat-farm)\n    (= (travel-time benighat-farm uttargaya-farm) 38) (= (travel-time uttargaya-farm benighat-farm) 38)\n\n    (road myagang-market naukunda-school) (road naukunda-school myagang-market)\n    (= (travel-time myagang-market naukunda-school) 29) (= (travel-time naukunda-school myagang-market) 29)\n\n    (road gosaikunda-temple uttargaya-farm) (road uttargaya-farm gosaikunda-temple)\n    (= (travel-time gosaikunda-temple uttargaya-farm) 5) (= (travel-time uttargaya-farm gosaikunda-temple) 5)\n\n    (road uttargaya-farm belkot-farm) (road belkot-farm uttargaya-farm)\n    (= (travel-time uttargaya-farm belkot-farm) 11) (= (travel-time belkot-farm uttargaya-farm) 11)\n    (damaged uttargaya-farm belkot-farm) (damaged belkot-farm uttargaya-farm)\n\n    ;; evacuation points\n    (evac-point kakani-shelter)\n\n    ;; cars\n    (car-at car1 kakani-shelter) (free-seats car1 n4)\n    (carrying car1 injured n0) (carrying car1 child n0) (carrying car1 elderly n0) (carrying car1 adult n0)\n    (car-at car2 kakani-shelter) (free-seats car2 n4)\n    (carrying car2 injured n0) (carrying car2 child n0) (carrying car2 elderly n0) (carrying car2 adult n0)\n\n    ;; people waiting\n    (waiting myagang-market adult n4)\n    (waiting benighat-farm adult n4)\n    (waiting tarkeshwar-school injured n4)\n    (waiting tarkeshwar-school child n1)\n    (waiting belkot-farm adult n2)\n    (waiting naukunda-school child n3)\n\n    ;; arithmetic\n    (sum n0 n0 n0) (sum n0 n1 n1) (sum n0 n2 n2) (sum n0 n3 n3) (sum n0 n4 n4)\n    (sum n1 n0 n1) (sum n1 n1 n2) (sum n1 n2 n3) (sum n1 n3 n4)\n    (sum n2 n0 n2) (sum n2 n1 n3) (sum n2 n2 n4)\n    (sum n3 n0 n3) (sum n3 n1 n4)\n    (sum n4 n0 n4)\n    (positive n1) (positive n2) (positive n3) (positive n4)\n\n    ;; defer costs\n    (= (defer-cost injured n1) 80) (= (defer-cost injured n2) 160) (= (defer-cost injured n3) 240) (= (defer-cost injured n4) 320)\n    (= (defer-cost child n1) 60) (= (defer-cost child n2) 120) (= (defer-cost child n3) 180) (= (defer-cost child n4) 240)\n    (= (defer-cost elderly n1) 50) (= (defer-cost elderly n2) 100) (= (defer-cost elderly n3) 150) (= (defer-cost elderly n4) 200)\n    (= (defer-cost adult n1) 20) (= (defer-cost adult n2) 40) (= (defer-cost adult n3) 60) (= (defer-cost adult n4) 80)\n\n    (= (total-cost) 0))\n  (:goal (and\n    (waiting myagang-market adult n0)\n    (waiting benighat-farm adult n0)\n    (waiting tarkeshwar-school injured n0)\n    (waiting tarkeshwar-school child n0)\n    (waiting belkot-farm adult n0)\n    (waiting naukunda-school child n0)\n    (carrying car1 injured n0) (carrying car1 child n0) (carrying car1 elderly n0) (carrying car1 adult n0)\n    (carrying car2 injured n0) (carrying car2 child n0) (carrying car2 elderly n0) (carrying car2 adult n0)))\n  (:metric minimize (total-cost))\n)\n```",
+      "type": "text"
+    }
+  ],
+  "diagnostics": null,
+  "model": "claude-opus-5-5",
+  "role": "assistant",
+  "stop_details": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 3384,
+    "output_tokens": 2421,
+    "output_tokens_details": {
+      "thinking_tokens": 155
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

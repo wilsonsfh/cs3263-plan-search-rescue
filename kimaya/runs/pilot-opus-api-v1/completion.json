@@ -1,0 +1,6 @@
+{
+  "complete": true,
+  "completed_cases": 12,
+  "initial_preflight_pause_resolved": true,
+  "note": "Initial preflight connection failure issued no model request. Successful cached responses and all 12 final records are retained."
+}
