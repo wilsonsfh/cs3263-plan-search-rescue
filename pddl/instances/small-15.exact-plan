@@ -1,0 +1,6 @@
+drive car1 shivapuri-shelter kalika-farm
+load car1 adult 3
+drive car1 kalika-farm shivapuri-shelter
+unload car1 adult 3
+defer uttargaya-farm adult 2
+defer dupcheshwar-market adult 1
