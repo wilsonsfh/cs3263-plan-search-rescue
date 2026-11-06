@@ -50,11 +50,13 @@ def planner(problem, domain, fd, timeout, dest):
     prob = dest/'problem.pddl'
     prob.write_text(problem)
     searches = [('optimal-lmcut', ['--search', 'astar(lmcut())']),
-                ('optimal-ms', ['--search', shared_constants()['MS']]),
                 ('lama-anytime', ['--alias', 'seq-sat-lama-2011'])]
     records = []
     for name, args in searches:
         work = dest/name
+        if work.exists():
+            archive=dest/f'{name}-interrupted-{time.time_ns()}'
+            work.rename(archive)
         work.mkdir(exist_ok=True)
         cmd = [sys.executable, str(fd), '--overall-time-limit', f'{timeout}s']
         cmd += args + [str(domain), str(prob)] if args[0] == '--alias' else [str(domain), str(prob)] + args
@@ -92,35 +94,67 @@ def planner(problem, domain, fd, timeout, dest):
             'status': status, 'error': (stdout+'\n'+stderr)[-6000:] or status}
 
 
-def cli_call(system, messages, model, effort, dest):
-    # Mirrors Wilson's stateless CLI adapter; retain provider metadata and failures.
+def subscription_env():
     blocked = ('ANTHROPIC_API_KEY', 'ANTHROPIC_AUTH_TOKEN', 'ANTHROPIC_BASE_URL', 'OPENAI_BASE_URL',
                'CLAUDE_CODE_USE_BEDROCK', 'CLAUDE_CODE_USE_VERTEX', 'CLAUDE_CODE_USE_FOUNDRY')
-    env = {k:v for k,v in os.environ.items() if k not in blocked}
+    return {k:v for k,v in os.environ.items() if k not in blocked}
+
+
+def cli_call(system, messages, model, effort, dest):
+    # Mirrors Wilson's stateless CLI adapter. Cache before planning, not after it.
+    env = subscription_env()
+    payload = {'system': system, 'messages': messages, 'model': model, 'effort': effort}
+    request, cached = dest/'request.json', dest/'cli_response.json'
+    if request.exists() and json.loads(request.read_text()) != payload:
+        raise PauseBatch('Cached CLI request differs from current request')
+    if cached.exists():
+        return {**json.loads(cached.read_text()), 'resumed_from_cache':True}
     prompt = messages[0]['content'] if len(messages)==1 else '\n\n'.join(
         ('=== YOUR PREVIOUS ANSWER ===\n' if m['role']=='assistant' else '=== USER ===\n')+m['content'] for m in messages)
-    save(dest/'request.json', {'system': system, 'messages': messages, 'model': model, 'effort': effort})
+    save(request, payload)
     cmd = ['claude', '-p', '--model', model, '--effort', effort, '--tools', '', '--setting-sources', '',
            '--no-session-persistence', '--output-format', 'json', '--system-prompt', system]
+    # Preserve every invocation, including network/quota interruptions.
+    prior = sorted(dest.glob('cli-invocation-*'))
+    if prior and (prior[-1]/'started.json').exists() and not (prior[-1]/'finished.json').exists():
+        raise PauseBatch('Interrupted CLI invocation has unknown outcome; review before retrying')
+    if prior and (prior[-1]/'finished.json').exists():
+        previous = json.loads((prior[-1]/'finished.json').read_text())
+        if previous.get('ok'):
+            returned = set((previous.get('model_usage') or {}).keys())
+            if returned and model not in returned:
+                raise PauseBatch('CLI returned an unexpected model; inspect saved provider metadata')
+            save(cached, previous)
+            return {**previous, 'resumed_from_cache':True}
+    invocation = dest/f'cli-invocation-{len(prior):03d}'
+    save(invocation/'started.json', {'utc': datetime.now(timezone.utc).isoformat()})
     start = time.perf_counter()
     result = {'ok': False, 'text': '', 'input_tokens': None, 'output_tokens': None, 'thinking_tokens': None}
     try:
         with tempfile.TemporaryDirectory() as cwd:
             p = subprocess.run(cmd, input=prompt, cwd=cwd, env=env, capture_output=True, text=True, timeout=1800)
-        (dest/'cli_stdout.txt').write_text(p.stdout)
-        (dest/'cli_stderr.txt').write_text(p.stderr)
+        (invocation/'stdout.txt').write_text(p.stdout)
+        (invocation/'stderr.txt').write_text(p.stderr)
         d = json.loads(p.stdout)
         u = d.get('usage') or {}
         result.update(ok=p.returncode==0 and not d.get('is_error'), text=d.get('result',''),
                       stop_reason=d.get('stop_reason'), input_tokens=sum(u.get(k,0) for k in
                       ('input_tokens','cache_creation_input_tokens','cache_read_input_tokens')),
                       output_tokens=u.get('output_tokens'), thinking_tokens=(u.get('output_tokens_details') or {}).get('thinking_tokens'),
-                      model_usage=d.get('modelUsage'), reported_cost_usd=d.get('total_cost_usd'))
+                      model_usage=d.get('modelUsage'), provider_usage=u,
+                      reported_cost_usd=d.get('total_cost_usd'))
         if not result['ok']:
             result['error'] = 'CLI error: '+str(d.get('result',''))[:1000]
     except (OSError, subprocess.TimeoutExpired, ValueError) as e:
         result['error'] = str(e)
     result['seconds'] = time.perf_counter()-start
+    save(invocation/'finished.json', result)
+    if not result['ok']:
+        raise PauseBatch('CLI interrupted; no task failure scored. See '+str(invocation/'finished.json'))
+    returned = set((result.get('model_usage') or {}).keys())
+    if returned and model not in returned:
+        raise PauseBatch('CLI returned an unexpected model; inspect saved provider metadata')
+    save(cached, result)
     return result
 
 
@@ -132,6 +166,7 @@ def run_case(inst, report, reference, domain, cfg, dest, call=cli_call, plan_fn=
     rec = {'instance':inst['id'], 'size':inst['size'], 'mode':cfg['mode'], 'model':cfg['model'],
            'effort':cfg['effort'], 'attempts':[], 'status':'running'}
     llm_seconds = planner_seconds = validation_seconds = fidelity_seconds = 0.0
+    cached_seconds=0.0
     limit = cfg['repairs'] if cfg['mode']=='live' else 0
     for n in range(limit+1):
         attempt_dir = dest/f'attempt-{n}'
@@ -141,6 +176,8 @@ def run_case(inst, report, reference, domain, cfg, dest, call=cli_call, plan_fn=
             response = call(system, messages, cfg['model'], cfg['effort'], attempt_dir)
             a['llm'] = response
             llm_seconds += response['seconds']
+            if response.get('resumed_from_cache'):
+                cached_seconds += response['seconds']
             blocks = re.findall(r'```(?:pddl|lisp)?\s*\n(.*?)```',response['text'],re.S)
             problem = blocks[-1] if blocks else None
             a['pddl_blocks'] = len(blocks)
@@ -169,6 +206,7 @@ def run_case(inst, report, reference, domain, cfg, dest, call=cli_call, plan_fn=
             cached_planner=attempt_dir/'planner_result.json'
             if cached_planner.exists():
                 info=json.loads(cached_planner.read_text())
+                cached_seconds += info['seconds']
             else:
                 info=plan_fn(problem,domain,Path(cfg['fd']),cfg['timeout'],attempt_dir/'planner')
                 save(cached_planner,info)
@@ -197,13 +235,19 @@ def run_case(inst, report, reference, domain, cfg, dest, call=cli_call, plan_fn=
     rec['first_status']=rec['attempts'][0]['status']
     rec['timing']={'llm_seconds':llm_seconds,'planner_seconds':planner_seconds,
                    'validation_seconds':validation_seconds,'fidelity_seconds':fidelity_seconds,
-                   'total_seconds':time.perf_counter()-start}
+                   'total_seconds':time.perf_counter()-start+cached_seconds,
+                   'resumed_cached_seconds':cached_seconds}
     rec['timing']['other_seconds']=max(0.0,rec['timing']['total_seconds']-llm_seconds-planner_seconds-validation_seconds-fidelity_seconds)
     rec['usage']={'calls':sum('llm' in a for a in rec['attempts'])}
     for k in ('input_tokens','output_tokens','thinking_tokens'):
         values=[a['llm'].get(k) for a in rec['attempts'] if 'llm' in a]
         rec['usage'][k]=sum(values) if values and all(v is not None for v in values) else None
-    rec['usage']['estimated_cost_usd']=sum(a.get('llm',{}).get('estimated_cost_usd',0) for a in rec['attempts'])
+    for key in ('estimated_cost_usd', 'reported_cost_usd'):
+        vals=[a['llm'].get(key) for a in rec['attempts'] if 'llm' in a]
+        rec['usage'][key]=sum(vals) if vals and all(v is not None for v in vals) else None
+    for key in ('input_tokens','cache_read_input_tokens','cache_creation_input_tokens'):
+        vals=[a['llm'].get('provider_usage',{}).get(key) for a in rec['attempts'] if 'llm' in a]
+        rec['usage']['provider_'+key]=sum(vals) if vals and all(v is not None for v in vals) else None
     rec['usage']['initial_input_tokens']=rec['attempts'][0].get('llm',{}).get('input_tokens')
     rec['usage']['initial_output_tokens']=rec['attempts'][0].get('llm',{}).get('output_tokens')
     for key in ('input_tokens','output_tokens'):
@@ -236,7 +280,8 @@ def summarise(out):
         row={k:r.get(k) for k in ('instance','size','level','mode','backend','model','effort','status','first_status','first_valid')}
         row.update(valid=valid,cost=cost,reference_cost=int(ref['best_cost']),reference_optimal=ref['proven_optimal']=='True',
                    reference_relation=('beats' if cost<int(ref['best_cost']) else 'matches' if cost==int(ref['best_cost']) else 'exceeds') if valid else '',
-                   gap_pct=100*(cost/int(ref['best_cost'])-1) if valid else None,
+                   gap_pct=100*(cost/int(ref['best_cost'])-1) if valid and int(ref['best_cost']) else None,
+                   cost_gap=cost-int(ref['best_cost']) if valid else None,
                    repairs=max(0,len(r['attempts'])-1),translation_exact=final.get('fidelity',{}).get('exact',False),
                    pddl_characters=final.get('pddl_characters'),
                    first_translation_exact=(r['attempts'][0].get('fidelity',{}).get('exact',False) if r['attempts'] else False),
@@ -245,6 +290,20 @@ def summarise(out):
                    direct_valid=direct.get('valid'),direct_cost=direct.get('cost'),
                    paired_cost_difference=cost-direct['cost'] if valid and direct.get('valid') else None,
                    **r['timing'],**r['usage'])
+        row['validation_error']=r['result'].get('error')
+        for key in ('travel_minutes', 'deferred_penalty', 'people_rescued', 'priority_people_rescued'):
+            row[key]=r['result'].get(key)
+        inst=json.loads((ROOT/'pddl/instances'/f"{r['instance']}.json").read_text())
+        total_people=sum(p['count'] for p in inst['people'])
+        row['total_people']=total_people
+        row['rescue_coverage_pct']=100*r['result'].get('people_rescued',0)/total_people if valid and total_people else None
+        row['people_deferred']=sum(r['result'].get('deferred',{}).values()) if valid else None
+        row['reference_anomaly']=bool(valid and cost<int(ref['best_cost']) and row['reference_optimal'])
+        for search in ('optimal-lmcut','lama-anytime'):
+            records=[s for a in r['attempts'] for s in a.get('planner',{}).get('searches',[]) if s['search']==search]
+            row[search+'_seconds']=sum(s['seconds'] for s in records)
+            row[search+'_used']=bool(records)
+        row['translation_parse_ok']=final.get('fidelity',{}).get('parse_ok',False)
         for category in ('rescued','deferred'):
             for band in ('injured','child','elderly','adult'):
                 row[f'{category}_{band}']=r['result'].get(category,{}).get(band)
@@ -287,7 +346,7 @@ def main():
     ap.add_argument('--budget-usd',type=float,default=5.0)
     ap.add_argument('--model',default='claude-opus-5-5')
     ap.add_argument('--effort',default='medium',choices=['low','medium','high'])
-    ap.add_argument('--repairs',type=int,default=3)
+    ap.add_argument('--repairs',type=int,default=0)
     ap.add_argument('--timeout',type=int,default=60)
     ap.add_argument('--fd',default=os.environ.get('FD','fast-downward.py'))
     ap.add_argument('--tag',required=True)
@@ -303,23 +362,30 @@ def main():
         instances=[p for p in instances if p.stem in args.ids]
     fd=Path(shutil.which(args.fd) or args.fd).resolve()
     if args.mode!='mock' and not fd.is_file():ap.error('Fast Downward driver missing; pass --fd /absolute/path/fast-downward.py')
-    load_key(ROOT)
+    if args.mode=='live' and args.backend=='api':
+        load_key(ROOT)
     if args.mode=='live' and args.backend=='api' and not os.environ.get('ANTHROPIC_API_KEY'):
         ap.error('Configure ANTHROPIC_API_KEY in the environment or ignored .env file')
     if args.mode=='live' and args.backend=='cli':
         if not shutil.which('claude'):ap.error('Claude CLI missing')
-        p=subprocess.run(['claude','auth','status'],capture_output=True,text=True)
+        p=subprocess.run(['claude','auth','status'],capture_output=True,text=True,env=subscription_env())
         try:auth=json.loads(p.stdout)
         except ValueError:auth={}
         if not (auth.get('loggedIn') and auth.get('authMethod')=='claude.ai' and auth.get('apiProvider')=='firstParty'):
             ap.error('Claude CLI must use a claude.ai subscription login')
-    cfg={**vars(args),'fd':str(fd),'schema_version':1}
+    cfg={**vars(args),'fd':str(fd),'schema_version':2,
+         'planner_sequence':['astar(lmcut())','seq-sat-lama-2011'],
+         'planner_cpu_seconds_per_search':args.timeout}
+    if args.mode=='live' and args.backend=='cli':
+        cfg['authentication']={k:auth.get(k) for k in ('authMethod','apiProvider','subscriptionType')}
     files=[ROOT/'pddl/domain.pddl',ROOT/'pddl/results/best_reference.csv',ROOT/'pipelines/pipelines.py',
            ROOT/'pipelines/checker.py',Path(__file__),Path(__file__).with_name('fidelity.py'),Path(__file__).with_name('api_backend.py')]
     for p in instances:
         files.extend([p,p.with_suffix('.pddl')])
         files.extend(ROOT/'pipelines/reports'/f'{p.stem}-{l}.txt' for l in args.levels)
         if args.mode=='mock':files.append(p.with_suffix('.best-plan'))
+    for tag in ('main','main-sonnet','main-haiku'):
+        files.extend(sorted((ROOT/'pipelines/runs'/tag/'direct').glob('*.json')))
     cfg['file_hashes']={str(p.relative_to(ROOT)):digest(p.read_bytes()) for p in files}
     if args.mode!='mock':
         cfg['fd_driver_sha256']=digest(fd.read_bytes())
@@ -351,8 +417,6 @@ def main():
             if record.exists():
                 old=json.loads(record.read_text())
                 if old.get('complete'):continue
-                if args.backend!='api':ap.error('interrupted CLI case exists; use a new tag')
-            if dest.exists() and args.backend!='api' and not record.exists():ap.error('partial case exists; use a new tag')
             t=time.perf_counter()
             try:
                 r=run_case(inst,(ROOT/'pipelines/reports'/f'{p.stem}-{level}.txt').read_text(),p.with_suffix('.pddl').read_text(),domain,cfg,dest,call=caller)
@@ -360,20 +424,22 @@ def main():
                 save(out/'paused.json',{'instance':p.stem,'level':level,'reason':str(exc)})
                 summarise(out)
                 print('PAUSED:',str(exc),flush=True)
-                return
+                return 75
             except Exception as e:
-                r={'instance':p.stem,'size':inst['size'],'model':args.model,'effort':args.effort,'mode':args.mode,
-                   'attempts':[],'status':'harness_error','error':repr(e),'first_status':'harness_error','first_valid':False,
-                   'result':{'valid':False,'cost':None},'complete':True,'timing':{'llm_seconds':None,'planner_seconds':None,
-                   'validation_seconds':None,'fidelity_seconds':None,'total_seconds':time.perf_counter()-t},
-                   'usage':{'calls':None,'input_tokens':None,'output_tokens':None,'thinking_tokens':None}}
+                save(out/'paused.json',{'instance':p.stem,'level':level,'reason':'harness_error','error':repr(e)})
+                print('PAUSED: harness error',repr(e),flush=True)
+                return 75
             r['level']=level
             r['backend']=args.backend if args.mode=='live' else None
             save(record,r)
             print(p.stem,level,r['status'],flush=True)
             summarise(out)
     summarise(out)
+    (out/'paused.json').unlink(missing_ok=True)
+    save(out/'completion.json',{'completed_utc':datetime.now(timezone.utc).isoformat(),
+                              'cases':len(instances)*len(args.levels)})
     print(out)
+    return 0
 
 
-if __name__=='__main__':main()
+if __name__=='__main__':sys.exit(main())

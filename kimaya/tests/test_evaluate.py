@@ -79,8 +79,40 @@ class EvaluationTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as d,patch.object(e.subprocess,'run',side_effect=fake):
             r=e.planner(self.problem,self.domain,Path('/fake/fd.py'),1,Path(d))
             self.assertTrue((Path(d)/'optimal-lmcut/stdout.txt').exists())
-        self.assertEqual(len(r['searches']),3)
+        self.assertEqual(len(r['searches']),2)
         self.assertEqual(r['seconds'],sum(s['seconds'] for s in r['searches']))
         self.assertFalse(r['optimal_for_generated_problem'])
+
+    def test_subscription_cache_and_no_key_environment(self):
+        class R:
+            returncode=0; stderr=''
+            stdout=json.dumps({'result':'```pddl test```','usage':{'input_tokens':10,'output_tokens':20},
+                               'modelUsage':{'fixture':{}},'total_cost_usd':0.1})
+        with tempfile.TemporaryDirectory() as d, patch.dict(e.os.environ,{'ANTHROPIC_API_KEY':'fixture-secret'}):
+            with patch.object(e.subprocess,'run',return_value=R()) as run:
+                first=e.cli_call('system',[{'role':'user','content':'report'}],'fixture','medium',Path(d))
+                second=e.cli_call('system',[{'role':'user','content':'report'}],'fixture','medium',Path(d))
+                self.assertTrue(second.pop('resumed_from_cache'))
+                self.assertEqual(first,second)
+                self.assertEqual(run.call_count,1)
+                self.assertNotIn('ANTHROPIC_API_KEY',run.call_args.kwargs['env'])
+                with self.assertRaises(e.PauseBatch):
+                    e.cli_call('different system',[{'role':'user','content':'report'}],'fixture','medium',Path(d))
+
+    def test_subscription_limit_pauses_without_cached_success(self):
+        class R:
+            returncode=1;stderr='';stdout=json.dumps({'is_error':True,'result':'usage limit'})
+        with tempfile.TemporaryDirectory() as d, patch.object(e.subprocess,'run',return_value=R()):
+            with self.assertRaises(e.PauseBatch):
+                e.cli_call('system',[],'fixture','medium',Path(d))
+            self.assertFalse((Path(d)/'cli_response.json').exists())
+            self.assertTrue((Path(d)/'cli-invocation-000/finished.json').exists())
+
+    def test_unknown_cli_outcome_is_not_reissued(self):
+        with tempfile.TemporaryDirectory() as d, patch.object(e.subprocess,'run') as run:
+            e.save(Path(d)/'cli-invocation-000/started.json',{})
+            with self.assertRaises(e.PauseBatch):
+                e.cli_call('system',[],'fixture','medium',Path(d))
+            run.assert_not_called()
 
 if __name__=='__main__':unittest.main()
