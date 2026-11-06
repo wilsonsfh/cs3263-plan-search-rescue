@@ -20,7 +20,7 @@ def main():
     logs.mkdir(parents=True,exist_ok=True)
     lock=(logs/'suite.lock').open('w')
     try:
-        fcntl.flock(lock,fcntl.LOCK_EX|fcntl.LOCK_NB)
+        fcntl.flock(lock,fcntl.LOCK_EX if '--wait' in sys.argv else fcntl.LOCK_EX|fcntl.LOCK_NB)
     except BlockingIOError:
         sys.exit('Another full-suite process is already running')
     common=[sys.executable,'-u',str(ROOT/'kimaya/evaluate.py'),'--fd',
