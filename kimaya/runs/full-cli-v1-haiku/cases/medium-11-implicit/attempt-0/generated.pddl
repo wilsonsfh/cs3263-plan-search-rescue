@@ -1,0 +1,151 @@
+(define (problem medium-11)
+  (:domain flood-rescue)
+  (:requirements :strips :typing :negative-preconditions :action-costs)
+
+  (:objects
+    car1 - car
+    naukunda-shelter syaphru-school galchhi-care-home gosaikunda-care-home
+    panchakanya-temple dupcheshwar-market shivapuri-market benighat-market - location
+    n1 n2 n3 n4 n5 n6 n7 - level)
+
+  (:init
+    (= (total-cost) 0)
+
+    ;; car
+    (car-at car1 naukunda-shelter)
+    (free-seats car1 n4)
+    (carrying car1 injured n0)
+    (carrying car1 child n0)
+    (carrying car1 elderly n0)
+    (carrying car1 adult n0)
+
+    ;; evacuation points
+    (evac-point naukunda-shelter)
+
+    ;; roads (both directions)
+    (road galchhi-care-home gosaikunda-care-home)
+    (road gosaikunda-care-home galchhi-care-home)
+    (= (travel-time galchhi-care-home gosaikunda-care-home) 55)
+    (= (travel-time gosaikunda-care-home galchhi-care-home) 55)
+
+    (road dupcheshwar-market shivapuri-market)
+    (road shivapuri-market dupcheshwar-market)
+    (= (travel-time dupcheshwar-market shivapuri-market) 24)
+    (= (travel-time shivapuri-market dupcheshwar-market) 24)
+
+    (road gosaikunda-care-home panchakanya-temple)
+    (road panchakanya-temple gosaikunda-care-home)
+    (= (travel-time gosaikunda-care-home panchakanya-temple) 34)
+    (= (travel-time panchakanya-temple gosaikunda-care-home) 34)
+
+    (road naukunda-shelter shivapuri-market)
+    (road shivapuri-market naukunda-shelter)
+    (= (travel-time naukunda-shelter shivapuri-market) 16)
+    (= (travel-time shivapuri-market naukunda-shelter) 16)
+
+    (road naukunda-shelter dupcheshwar-market)
+    (road dupcheshwar-market naukunda-shelter)
+    (= (travel-time naukunda-shelter dupcheshwar-market) 7)
+    (= (travel-time dupcheshwar-market naukunda-shelter) 7)
+    (damaged naukunda-shelter dupcheshwar-market)
+    (damaged dupcheshwar-market naukunda-shelter)
+
+    (road naukunda-shelter gosaikunda-care-home)
+    (road gosaikunda-care-home naukunda-shelter)
+    (= (travel-time naukunda-shelter gosaikunda-care-home) 20)
+    (= (travel-time gosaikunda-care-home naukunda-shelter) 20)
+
+    (road gosaikunda-care-home shivapuri-market)
+    (road shivapuri-market gosaikunda-care-home)
+    (= (travel-time gosaikunda-care-home shivapuri-market) 13)
+    (= (travel-time shivapuri-market gosaikunda-care-home) 13)
+    (damaged gosaikunda-care-home shivapuri-market)
+    (damaged shivapuri-market gosaikunda-care-home)
+
+    (road dupcheshwar-market syaphru-school)
+    (road syaphru-school dupcheshwar-market)
+    (= (travel-time dupcheshwar-market syaphru-school) 21)
+    (= (travel-time syaphru-school dupcheshwar-market) 21)
+    (damaged dupcheshwar-market syaphru-school)
+    (damaged syaphru-school dupcheshwar-market)
+
+    (road benighat-market gosaikunda-care-home)
+    (road gosaikunda-care-home benighat-market)
+    (= (travel-time benighat-market gosaikunda-care-home) 8)
+    (= (travel-time gosaikunda-care-home benighat-market) 8)
+
+    ;; stranded people
+    (waiting benighat-market adult n4)
+    (waiting gosaikunda-care-home adult n3)
+    (waiting syaphru-school child n4)
+    (waiting dupcheshwar-market elderly n7)
+
+    ;; addition facts a + b = c within n0 ... n7
+    (sum n0 n0 n0) (sum n0 n1 n1) (sum n0 n2 n2) (sum n0 n3 n3)
+    (sum n0 n4 n4) (sum n0 n5 n5) (sum n0 n6 n6) (sum n0 n7 n7)
+    (sum n1 n0 n1) (sum n1 n1 n2) (sum n1 n2 n3) (sum n1 n3 n4)
+    (sum n1 n4 n5) (sum n1 n5 n6) (sum n1 n6 n7)
+    (sum n2 n0 n2) (sum n2 n1 n3) (sum n2 n2 n4) (sum n2 n3 n5)
+    (sum n2 n4 n6) (sum n2 n5 n7)
+    (sum n3 n0 n3) (sum n3 n1 n4) (sum n3 n2 n5) (sum n3 n3 n6)
+    (sum n3 n4 n7)
+    (sum n4 n0 n4) (sum n4 n1 n5) (sum n4 n2 n6) (sum n4 n3 n7)
+    (sum n5 n0 n5) (sum n5 n1 n6) (sum n5 n2 n7)
+    (sum n6 n0 n6) (sum n6 n1 n7)
+    (sum n7 n0 n7)
+
+    ;; positive levels
+    (positive n1) (positive n2) (positive n3) (positive n4)
+    (positive n5) (positive n6) (positive n7)
+
+    ;; deferral penalties (per-person penalty x N)
+    ;; injured: 80
+    (= (defer-cost injured n1) 80)
+    (= (defer-cost injured n2) 160)
+    (= (defer-cost injured n3) 240)
+    (= (defer-cost injured n4) 320)
+    (= (defer-cost injured n5) 400)
+    (= (defer-cost injured n6) 480)
+    (= (defer-cost injured n7) 560)
+    ;; child: 60
+    (= (defer-cost child n1) 60)
+    (= (defer-cost child n2) 120)
+    (= (defer-cost child n3) 180)
+    (= (defer-cost child n4) 240)
+    (= (defer-cost child n5) 300)
+    (= (defer-cost child n6) 360)
+    (= (defer-cost child n7) 420)
+    ;; elderly: 50
+    (= (defer-cost elderly n1) 50)
+    (= (defer-cost elderly n2) 100)
+    (= (defer-cost elderly n3) 150)
+    (= (defer-cost elderly n4) 200)
+    (= (defer-cost elderly n5) 250)
+    (= (defer-cost elderly n6) 300)
+    (= (defer-cost elderly n7) 350)
+    ;; adult: 20
+    (= (defer-cost adult n1) 20)
+    (= (defer-cost adult n2) 40)
+    (= (defer-cost adult n3) 60)
+    (= (defer-cost adult n4) 80)
+    (= (defer-cost adult n5) 100)
+    (= (defer-cost adult n6) 120)
+    (= (defer-cost adult n7) 140)
+  )
+
+  (:goal (and
+    ;; everyone who was waiting is rescued or deferred
+    (waiting benighat-market adult n0)
+    (waiting gosaikunda-care-home adult n0)
+    (waiting syaphru-school child n0)
+    (waiting dupcheshwar-market elderly n0)
+
+    ;; car ends empty
+    (carrying car1 injured n0)
+    (carrying car1 child n0)
+    (carrying car1 elderly n0)
+    (carrying car1 adult n0)
+  ))
+
+  (:metric minimize (total-cost))
+)

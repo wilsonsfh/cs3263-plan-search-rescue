@@ -1,0 +1,38 @@
+{
+  "plan": [
+    "(defer-rescue panchakanya-care-home injured n2)",
+    "(defer-rescue likhu-farm adult n7)",
+    "(defer-rescue panchakanya-care-home elderly n1)",
+    "(drive car1 thakre-shelter myagang-care-home)",
+    "(load car1 myagang-care-home elderly n1 n1 n0 n0 n1 n4 n3)",
+    "(drive car1 myagang-care-home thakre-shelter)",
+    "(unload car1 thakre-shelter elderly n1 n3 n4)",
+    "(drive car1 thakre-shelter gajuri-care-home)",
+    "(load car1 gajuri-care-home elderly n1 n1 n0 n0 n1 n4 n3)",
+    "(drive car1 gajuri-care-home thakre-shelter)",
+    "(unload car1 thakre-shelter elderly n1 n3 n4)"
+  ],
+  "searches": [
+    {
+      "search": "optimal-lmcut",
+      "seconds": 0.11672304198145866,
+      "exit_code": 0,
+      "command": [
+        "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/.venv/bin/python",
+        "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/.tools/downward/fast-downward.py",
+        "--overall-time-limit",
+        "60s",
+        "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/pddl/domain.pddl",
+        "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/kimaya/runs/full-cli-v1-haiku/cases/medium-05-implicit/attempt-0/planner/problem.pddl",
+        "--search",
+        "astar(lmcut())"
+      ],
+      "timed_out": false,
+      "optimal_for_generated_problem": true
+    }
+  ],
+  "seconds": 0.11672304198145866,
+  "status": "plan_found",
+  "search": "optimal-lmcut",
+  "optimal_for_generated_problem": true
+}

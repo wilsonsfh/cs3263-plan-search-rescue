@@ -1,0 +1,121 @@
+(define (problem small-06)
+  (:domain flood-rescue)
+
+  (:objects
+    galchhi-shelter nilkantha-market dhunche-farm gosaikunda-farm panchakanya-school jwalamukhi-farm - location
+    car1 - car
+    n1 n2 n3 n4 - level
+  )
+
+  (:init
+    ;; Roads
+    (road galchhi-shelter nilkantha-market)
+    (road nilkantha-market galchhi-shelter)
+    (= (travel-time galchhi-shelter nilkantha-market) 9)
+    (= (travel-time nilkantha-market galchhi-shelter) 9)
+
+    (road galchhi-shelter dhunche-farm)
+    (road dhunche-farm galchhi-shelter)
+    (= (travel-time galchhi-shelter dhunche-farm) 23)
+    (= (travel-time dhunche-farm galchhi-shelter) 23)
+
+    (road galchhi-shelter gosaikunda-farm)
+    (road gosaikunda-farm galchhi-shelter)
+    (= (travel-time galchhi-shelter gosaikunda-farm) 24)
+    (= (travel-time gosaikunda-farm galchhi-shelter) 24)
+
+    (road panchakanya-school gosaikunda-farm)
+    (road gosaikunda-farm panchakanya-school)
+    (= (travel-time panchakanya-school gosaikunda-farm) 29)
+    (= (travel-time gosaikunda-farm panchakanya-school) 29)
+
+    (road jwalamukhi-farm gosaikunda-farm)
+    (road gosaikunda-farm jwalamukhi-farm)
+    (= (travel-time jwalamukhi-farm gosaikunda-farm) 18)
+    (= (travel-time gosaikunda-farm jwalamukhi-farm) 18)
+    (damaged jwalamukhi-farm gosaikunda-farm)
+    (damaged gosaikunda-farm jwalamukhi-farm)
+
+    (road nilkantha-market gosaikunda-farm)
+    (road gosaikunda-farm nilkantha-market)
+    (= (travel-time nilkantha-market gosaikunda-farm) 23)
+    (= (travel-time gosaikunda-farm nilkantha-market) 23)
+
+    (road dhunche-farm gosaikunda-farm)
+    (road gosaikunda-farm dhunche-farm)
+    (= (travel-time dhunche-farm gosaikunda-farm) 29)
+    (= (travel-time gosaikunda-farm dhunche-farm) 29)
+
+    ;; Evacuation points
+    (evac-point galchhi-shelter)
+
+    ;; Cars
+    (car-at car1 galchhi-shelter)
+    (free-seats car1 n4)
+    (carrying car1 injured n0)
+    (carrying car1 child n0)
+    (carrying car1 elderly n0)
+    (carrying car1 adult n0)
+
+    ;; People waiting
+    (waiting gosaikunda-farm injured n3)
+    (waiting gosaikunda-farm adult n3)
+    (waiting nilkantha-market adult n3)
+
+    ;; Level arithmetic: a + b = c
+    (sum n0 n0 n0)
+    (sum n0 n1 n1)
+    (sum n0 n2 n2)
+    (sum n0 n3 n3)
+    (sum n0 n4 n4)
+    (sum n1 n0 n1)
+    (sum n1 n1 n2)
+    (sum n1 n2 n3)
+    (sum n1 n3 n4)
+    (sum n2 n0 n2)
+    (sum n2 n1 n3)
+    (sum n2 n2 n4)
+    (sum n3 n0 n3)
+    (sum n3 n1 n4)
+    (sum n4 n0 n4)
+
+    (positive n1)
+    (positive n2)
+    (positive n3)
+    (positive n4)
+
+    ;; Deferral penalties
+    (= (defer-cost injured n1) 80)
+    (= (defer-cost injured n2) 160)
+    (= (defer-cost injured n3) 240)
+    (= (defer-cost injured n4) 320)
+    (= (defer-cost child n1) 60)
+    (= (defer-cost child n2) 120)
+    (= (defer-cost child n3) 180)
+    (= (defer-cost child n4) 240)
+    (= (defer-cost elderly n1) 50)
+    (= (defer-cost elderly n2) 100)
+    (= (defer-cost elderly n3) 150)
+    (= (defer-cost elderly n4) 200)
+    (= (defer-cost adult n1) 20)
+    (= (defer-cost adult n2) 40)
+    (= (defer-cost adult n3) 60)
+    (= (defer-cost adult n4) 80)
+
+    (= (total-cost) 0)
+  )
+
+  (:goal
+    (and
+      (waiting gosaikunda-farm injured n0)
+      (waiting gosaikunda-farm adult n0)
+      (waiting nilkantha-market adult n0)
+      (carrying car1 injured n0)
+      (carrying car1 child n0)
+      (carrying car1 elderly n0)
+      (carrying car1 adult n0)
+    )
+  )
+
+  (:metric minimize (total-cost))
+)

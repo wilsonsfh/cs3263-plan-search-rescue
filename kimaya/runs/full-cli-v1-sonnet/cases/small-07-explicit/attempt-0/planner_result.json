@@ -1,0 +1,39 @@
+{
+  "plan": [
+    "(drive car1 naukunda-shelter gosaikunda-school)",
+    "(load car1 gosaikunda-school child n4 n4 n0 n0 n4 n4 n0)",
+    "(drive car1 gosaikunda-school naukunda-shelter)",
+    "(unload car1 naukunda-shelter child n4 n0 n4)",
+    "(drive car1 naukunda-shelter gosaikunda-school)",
+    "(load car1 gosaikunda-school injured n4 n4 n0 n0 n4 n4 n0)",
+    "(drive car1 gosaikunda-school naukunda-shelter)",
+    "(unload car1 naukunda-shelter injured n4 n0 n4)",
+    "(drive car1 naukunda-shelter myagang-care-home)",
+    "(load car1 myagang-care-home elderly n3 n3 n0 n0 n3 n4 n1)",
+    "(drive car1 myagang-care-home naukunda-shelter)",
+    "(unload car1 naukunda-shelter elderly n3 n1 n4)"
+  ],
+  "searches": [
+    {
+      "search": "optimal-lmcut",
+      "seconds": 0.12361462507396936,
+      "exit_code": 0,
+      "command": [
+        "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/.venv/bin/python",
+        "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/.tools/downward/fast-downward.py",
+        "--overall-time-limit",
+        "60s",
+        "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/pddl/domain.pddl",
+        "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/kimaya/runs/full-cli-v1-sonnet/cases/small-07-explicit/attempt-0/planner/problem.pddl",
+        "--search",
+        "astar(lmcut())"
+      ],
+      "timed_out": false,
+      "optimal_for_generated_problem": true
+    }
+  ],
+  "seconds": 0.12361462507396936,
+  "status": "plan_found",
+  "search": "optimal-lmcut",
+  "optimal_for_generated_problem": true
+}

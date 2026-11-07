@@ -2,6 +2,10 @@
 
 This runner uses the shared domain, prompts, reports and checker without changing Wilson's experiments. It uses only Python's standard library. Live calls reproduce Wilson's Claude CLI invocation (subscription login, tools disabled, empty working directory, medium effort), with stronger logging. No model call occurs in mock or baseline mode.
 
+## Completed full runs
+
+See [full results](full_results.md), [protocol](full_run_protocol.md), and `runs/full-cli-v1/` for the completed 270 subscription cases and 45 baseline cases. Reproduce the comparisons with `.venv/bin/python kimaya/analyse_full.py`; this issues no model or planner calls. Historical API pilot results remain separate.
+
 ## Run
 
 From the repository root:
@@ -11,18 +15,18 @@ python3 -m unittest discover -s kimaya/tests -v
 python3 kimaya/evaluate.py --mode mock --tag smoke --ids small-01 medium-01 large-01
 
 # Correct-translation baseline: uses the exact same planner budget as live mode.
-python3 kimaya/evaluate.py --mode baseline --tag baseline-opus-60 --fd .tools/downward/fast-downward.py
+python3 kimaya/evaluate.py --mode baseline --tag baseline-opus-60 --levels explicit --fd .tools/downward/fast-downward.py
 
 # LIVE: consumes subscription allowance and potentially paid overage if enabled in your account.
 # Log into Claude yourself first. Review billing/usage settings before starting.
-python3 kimaya/evaluate.py --mode live --tag opus-medium-v1 --fd .tools/downward/fast-downward.py --model claude-opus-5-5 --effort medium --repairs 3
+python3 kimaya/evaluate.py --mode live --tag opus-medium-v1 --fd .tools/downward/fast-downward.py --model claude-opus-5-5 --effort medium --repairs 0
 ```
 
 Use `--ids small-01 small-02` for a pilot. Default inputs are all 45 instances and both report styles (90 cases). Use new tags for different models/settings or reruns. Model names match Wilson's saved configuration; availability is checked only when actually calling the provider.
 
-`--timeout 60` is **per search**, not per case. The fixed sequence is A* LM-cut, A* merge-and-shrink, then anytime LAMA. Thus a planner attempt may use approximately 180 seconds plus process shutdown overhead. First-attempt performance and final performance are both retained. Up to three repairs follow malformed/missing PDDL or reported unsolvability; no ground-truth feedback is given. Resource errors and exhausted search budgets stop the case rather than encouraging the model to change the facts. This is an explicit refinement of the shared runner's repair policy; report it.
+`--timeout 60` is **per search**. The full-run sequence is A* LM-cut, then LAMA on timeout without a plan: at most 120 allocated CPU seconds, with a 120-second wall guard per subprocess. Preserve the best saved LAMA plan even on timeout. The main experiment uses one attempt and zero repairs, matching Wilson. Optional repair experiments must use separate tags; ground-truth feedback is never supplied.
 
-Baseline mode repeats the same correct problem for each report label, giving matching case IDs and separate timing observations; those labels do not change baseline input. Do not treat the 90 cases as 90 independent worlds. There are 45 paired scenarios.
+The full-suite baseline runs once per scenario using `--levels explicit`. That label identifies a harness slot, not a report consumed by the planner. There are 45 scenarios and 90 paired presentations per model, not 90 independent worlds.
 
 ## Output and reproducibility
 
@@ -34,7 +38,7 @@ Baseline mode repeats the same correct problem for each report label, giving mat
 - `results.csv`: final and first-attempt outcomes, reference comparisons, paired Wilson outcomes, timings and usage.
 - `summary.md`: size/report groups, reference comparisons and failure stages.
 
-Completed failures remain in the denominator and are skipped on resume, like completed successes. Configuration or input changes reject resume. An interrupted case remains preserved; retry under a new tag. Summaries include only completed cases, so check the expected case count before reporting a final batch. Do not combine mock results with actual experiments.
+Completed failures remain in the denominator and are skipped on resume, like completed successes. Configuration or input changes reject resume. Successful CLI responses and planner outcomes are cached and reused under the same unchanged tag. Infrastructure/usage interruptions pause the batch rather than becoming task failures; an unknown CLI outcome requires inspection before retrying. Summaries include only completed cases, so check the expected case count before reporting a final batch. Do not combine mock results with actual experiments.
 
 The canonical reference costs remain fixed. Proven-optimum cases and best-known cases are distinguished. Costs/gaps are reported only for valid plans; failed-run partial rescue counts, when available, are not full successful outcomes. Paired cost differences versus Wilson use only pairs where both plans are valid.
 
@@ -51,7 +55,7 @@ The canonical reference costs remain fixed. Proven-optimum cases and best-known 
 
 ## Comparison protocol
 
-Freeze prompts/settings before the main batch. Primary comparison: Opus medium, first attempt, against Wilson's same 90 cases. Report repaired performance separately, including additional calls/time. Repeat with Sonnet/Haiku for a full model comparison if resources permit. Compare correct-PDDL baseline and translated-PDDL cases using the same search budgets. The older saved references used different budgets and sometimes a no-split encoding; do not describe them as equal-budget end-to-end competitors.
+The completed main batch uses all three models, medium effort, zero repairs and the unchanged Wilson reports. The new references from main are labelled optimal for all 45 scenarios, subject to the custom exact solver's reduction assumptions. `analyse_full.py` independently replays saved direct plans and rescores them against those references. Correct-PDDL baselines use the same search budgets as translated problems. References are evaluation targets, not equal-budget end-to-end competitors.
 
 ## Local prerequisites
 
@@ -64,7 +68,9 @@ Install/build Fast Downward separately and pass its absolute driver path or `--f
 
 Claude CLI must report a first-party `claude.ai` login. The runner removes API-key/provider-routing environment overrides, but this **does not disable extra paid usage configured on the account**. Billing settings must be managed by the account holder. No full experiment is started automatically.
 
-## Opus API pilot (separate from Wilson's CLI runs)
+## Historical Opus API pilot (separate from full subscription runs)
+
+The saved pilot used LM-cut → merge-and-shrink → LAMA. Its generating code is at commit `2895142`; running the current runner uses the revised two-stage planner and will not reproduce that historical configuration. Use a new tag for any new experiment. The command below documents the original pilot invocation.
 
 Install `kimaya/requirements.txt` into the local environment. Configure `ANTHROPIC_API_KEY` through the environment or the Git-ignored repository `.env`; never put it in commands, outputs or commits.
 

@@ -1,0 +1,39 @@
+{
+  "plan": [
+    "(drive car1 shivapuri-shelter trishuli-farm)",
+    "(load car1 trishuli-farm elderly n3 n7 n4 n0 n3 n4 n1)",
+    "(drive car1 trishuli-farm shivapuri-shelter)",
+    "(unload car1 shivapuri-shelter elderly n3 n1 n4)",
+    "(drive car1 shivapuri-shelter trishuli-farm)",
+    "(load car1 trishuli-farm elderly n4 n4 n0 n0 n4 n4 n0)",
+    "(drive car1 trishuli-farm shivapuri-shelter)",
+    "(unload car1 shivapuri-shelter elderly n4 n0 n4)",
+    "(drive car1 shivapuri-shelter kalika-village)",
+    "(load car1 kalika-village elderly n4 n4 n0 n0 n4 n4 n0)",
+    "(drive car1 kalika-village shivapuri-shelter)",
+    "(unload car1 shivapuri-shelter elderly n4 n0 n4)"
+  ],
+  "searches": [
+    {
+      "search": "optimal-lmcut",
+      "seconds": 0.12310595798771828,
+      "exit_code": 0,
+      "command": [
+        "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/.venv/bin/python",
+        "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/.tools/downward/fast-downward.py",
+        "--overall-time-limit",
+        "60s",
+        "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/pddl/domain.pddl",
+        "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/kimaya/runs/full-cli-v1-baseline/cases/small-02-explicit/attempt-0/planner/problem.pddl",
+        "--search",
+        "astar(lmcut())"
+      ],
+      "timed_out": false,
+      "optimal_for_generated_problem": true
+    }
+  ],
+  "seconds": 0.12310595798771828,
+  "status": "plan_found",
+  "search": "optimal-lmcut",
+  "optimal_for_generated_problem": true
+}

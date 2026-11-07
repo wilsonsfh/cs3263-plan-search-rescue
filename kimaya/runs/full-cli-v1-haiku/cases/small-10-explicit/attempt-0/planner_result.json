@@ -1,0 +1,39 @@
+{
+  "plan": [
+    "(drive car1 tarkeshwar-shelter thakre-care-home)",
+    "(load car1 thakre-care-home elderly n2 n2 n0 n0 n2 n4 n2)",
+    "(drive car1 thakre-care-home dhunche-school)",
+    "(load car1 dhunche-school child n2 n2 n0 n0 n2 n2 n0)",
+    "(drive car1 dhunche-school benighat-care-home)",
+    "(drive car1 benighat-care-home tarkeshwar-shelter)",
+    "(unload car1 tarkeshwar-shelter child n2 n0 n2)",
+    "(unload car1 tarkeshwar-shelter elderly n2 n2 n4)",
+    "(drive car1 tarkeshwar-shelter benighat-care-home)",
+    "(load car1 benighat-care-home elderly n2 n2 n0 n0 n2 n4 n2)",
+    "(drive car1 benighat-care-home tarkeshwar-shelter)",
+    "(unload car1 tarkeshwar-shelter elderly n2 n2 n4)"
+  ],
+  "searches": [
+    {
+      "search": "optimal-lmcut",
+      "seconds": 0.09113366703968495,
+      "exit_code": 0,
+      "command": [
+        "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/.venv/bin/python",
+        "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/.tools/downward/fast-downward.py",
+        "--overall-time-limit",
+        "60s",
+        "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/pddl/domain.pddl",
+        "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/kimaya/runs/full-cli-v1-haiku/cases/small-10-explicit/attempt-0/planner/problem.pddl",
+        "--search",
+        "astar(lmcut())"
+      ],
+      "timed_out": false,
+      "optimal_for_generated_problem": true
+    }
+  ],
+  "seconds": 0.09113366703968495,
+  "status": "plan_found",
+  "search": "optimal-lmcut",
+  "optimal_for_generated_problem": true
+}

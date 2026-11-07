@@ -1,0 +1,45 @@
+{
+  "plan": [
+    "(defer-rescue nilkantha-temple elderly n1)",
+    "(defer-rescue suryagadhi-market adult n1)",
+    "(drive car1 jwalamukhi-shelter gajuri-school)",
+    "(drive car1 gajuri-school kalika-temple)",
+    "(drive car1 kalika-temple syaphru-care-home)",
+    "(load car1 syaphru-care-home injured n1 n1 n0 n0 n1 n4 n3)",
+    "(drive car1 syaphru-care-home kalika-temple)",
+    "(load car1 kalika-temple elderly n2 n6 n4 n0 n2 n3 n1)",
+    "(drive car1 kalika-temple gajuri-school)",
+    "(drive car1 gajuri-school jwalamukhi-shelter)",
+    "(unload car1 jwalamukhi-shelter injured n1 n1 n2)",
+    "(unload car1 jwalamukhi-shelter elderly n2 n2 n4)",
+    "(drive car1 jwalamukhi-shelter gajuri-school)",
+    "(drive car1 gajuri-school kalika-temple)",
+    "(load car1 kalika-temple elderly n4 n4 n0 n0 n4 n4 n0)",
+    "(drive car1 kalika-temple gajuri-school)",
+    "(drive car1 gajuri-school jwalamukhi-shelter)",
+    "(unload car1 jwalamukhi-shelter elderly n4 n0 n4)"
+  ],
+  "searches": [
+    {
+      "search": "optimal-lmcut",
+      "seconds": 0.11992091697175056,
+      "exit_code": 0,
+      "command": [
+        "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/.venv/bin/python",
+        "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/.tools/downward/fast-downward.py",
+        "--overall-time-limit",
+        "60s",
+        "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/pddl/domain.pddl",
+        "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/kimaya/runs/full-cli-v1-opus/cases/medium-06-explicit/attempt-0/planner/problem.pddl",
+        "--search",
+        "astar(lmcut())"
+      ],
+      "timed_out": false,
+      "optimal_for_generated_problem": true
+    }
+  ],
+  "seconds": 0.11992091697175056,
+  "status": "plan_found",
+  "search": "optimal-lmcut",
+  "optimal_for_generated_problem": true
+}

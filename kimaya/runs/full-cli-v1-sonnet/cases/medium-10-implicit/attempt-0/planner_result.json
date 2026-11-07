@@ -1,0 +1,48 @@
+{
+  "plan": [
+    "(defer-rescue tadi-market injured n3)",
+    "(defer-rescue naukunda-farm adult n2)",
+    "(drive car2 kispang-shelter gosaikunda-temple)",
+    "(drive car2 gosaikunda-temple galchhi-temple)",
+    "(drive car1 kispang-shelter myagang-temple)",
+    "(load car2 galchhi-temple child n4 n4 n0 n0 n4 n4 n0)",
+    "(drive car2 galchhi-temple gosaikunda-temple)",
+    "(drive car2 gosaikunda-temple kispang-shelter)",
+    "(unload car2 kispang-shelter child n4 n0 n4)",
+    "(load car1 myagang-temple adult n1 n3 n2 n0 n1 n4 n3)",
+    "(load car1 myagang-temple injured n3 n3 n0 n0 n3 n3 n0)",
+    "(drive car2 kispang-shelter myagang-temple)",
+    "(load car2 myagang-temple adult n2 n2 n0 n0 n2 n4 n2)",
+    "(load car2 myagang-temple elderly n2 n2 n0 n0 n2 n2 n0)",
+    "(drive car2 myagang-temple kispang-shelter)",
+    "(drive car1 myagang-temple kispang-shelter)",
+    "(unload car2 kispang-shelter adult n2 n0 n2)",
+    "(unload car2 kispang-shelter elderly n2 n2 n4)",
+    "(unload car1 kispang-shelter adult n1 n0 n1)",
+    "(unload car1 kispang-shelter injured n3 n1 n4)",
+    "(defer-rescue dupcheshwar-temple elderly n1)"
+  ],
+  "searches": [
+    {
+      "search": "optimal-lmcut",
+      "seconds": 51.30081354198046,
+      "exit_code": 0,
+      "command": [
+        "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/.venv/bin/python",
+        "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/.tools/downward/fast-downward.py",
+        "--overall-time-limit",
+        "60s",
+        "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/pddl/domain.pddl",
+        "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/kimaya/runs/full-cli-v1-sonnet/cases/medium-10-implicit/attempt-0/planner/problem.pddl",
+        "--search",
+        "astar(lmcut())"
+      ],
+      "timed_out": false,
+      "optimal_for_generated_problem": true
+    }
+  ],
+  "seconds": 51.30081354198046,
+  "status": "plan_found",
+  "search": "optimal-lmcut",
+  "optimal_for_generated_problem": true
+}

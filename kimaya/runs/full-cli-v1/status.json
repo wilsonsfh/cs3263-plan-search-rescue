@@ -1,0 +1,23 @@
+{
+  "started_utc": "2026-11-06T17:23:30.177694+00:00",
+  "runs": [
+    {
+      "name": "full-cli-v1-opus",
+      "exit_code": 0
+    },
+    {
+      "name": "full-cli-v1-sonnet",
+      "exit_code": 0
+    },
+    {
+      "name": "full-cli-v1-haiku",
+      "exit_code": 0
+    },
+    {
+      "name": "full-cli-v1-baseline",
+      "exit_code": 0
+    }
+  ],
+  "finished_utc": "2026-11-06T22:48:15.321419+00:00",
+  "state": "complete"
+}

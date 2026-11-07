@@ -1,0 +1,46 @@
+{
+  "plan": [
+    "(defer-rescue panchakanya-farm adult n1)",
+    "(drive car2 nilkantha-hospital tadi-village)",
+    "(drive car2 tadi-village trishuli-care-home)",
+    "(drive car2 trishuli-care-home uttargaya-market)",
+    "(load car2 uttargaya-market adult n4 n4 n0 n0 n4 n4 n0)",
+    "(drive car2 uttargaya-market trishuli-care-home)",
+    "(drive car2 trishuli-care-home tadi-village)",
+    "(drive car2 tadi-village nilkantha-hospital)",
+    "(unload car2 nilkantha-hospital adult n4 n0 n4)",
+    "(drive car2 nilkantha-hospital tadi-village)",
+    "(drive car2 tadi-village trishuli-care-home)",
+    "(load car2 trishuli-care-home elderly n3 n3 n0 n0 n3 n4 n1)",
+    "(drive car2 trishuli-care-home tadi-village)",
+    "(drive car2 tadi-village nilkantha-hospital)",
+    "(unload car2 nilkantha-hospital elderly n3 n1 n4)",
+    "(defer-rescue belkot-village adult n1)",
+    "(defer-rescue suryagadhi-market child n2)",
+    "(defer-rescue suryagadhi-market adult n6)",
+    "(defer-rescue suryagadhi-market elderly n4)"
+  ],
+  "searches": [
+    {
+      "search": "optimal-lmcut",
+      "seconds": 51.7168899589451,
+      "exit_code": 0,
+      "command": [
+        "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/.venv/bin/python",
+        "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/.tools/downward/fast-downward.py",
+        "--overall-time-limit",
+        "60s",
+        "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/pddl/domain.pddl",
+        "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/kimaya/runs/full-cli-v1-sonnet/cases/large-05-explicit/attempt-0/planner/problem.pddl",
+        "--search",
+        "astar(lmcut())"
+      ],
+      "timed_out": false,
+      "optimal_for_generated_problem": true
+    }
+  ],
+  "seconds": 51.7168899589451,
+  "status": "plan_found",
+  "search": "optimal-lmcut",
+  "optimal_for_generated_problem": true
+}

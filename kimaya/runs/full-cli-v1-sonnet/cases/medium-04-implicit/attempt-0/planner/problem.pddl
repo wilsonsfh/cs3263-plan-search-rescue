@@ -1,0 +1,122 @@
+(define (problem flood-rescue-medium-04)
+  (:domain flood-rescue)
+
+  (:objects
+    myagang-shelter thakre-village nilkantha-temple galchhi-village naukunda-village shivapuri-care-home dhunche-farm bidur-school - location
+    car1 car2 - car
+    n1 n2 n3 n4 n5 n6 n7 - level
+  )
+
+  (:init
+    (= (total-cost) 0)
+
+    ;; roads
+    (road galchhi-village naukunda-village) (road naukunda-village galchhi-village)
+    (= (travel-time galchhi-village naukunda-village) 21)
+    (= (travel-time naukunda-village galchhi-village) 21)
+
+    (road myagang-shelter thakre-village) (road thakre-village myagang-shelter)
+    (= (travel-time myagang-shelter thakre-village) 10)
+    (= (travel-time thakre-village myagang-shelter) 10)
+
+    (road galchhi-village shivapuri-care-home) (road shivapuri-care-home galchhi-village)
+    (= (travel-time galchhi-village shivapuri-care-home) 10)
+    (= (travel-time shivapuri-care-home galchhi-village) 10)
+    (damaged galchhi-village shivapuri-care-home) (damaged shivapuri-care-home galchhi-village)
+
+    (road dhunche-farm naukunda-village) (road naukunda-village dhunche-farm)
+    (= (travel-time dhunche-farm naukunda-village) 21)
+    (= (travel-time naukunda-village dhunche-farm) 21)
+
+    (road dhunche-farm bidur-school) (road bidur-school dhunche-farm)
+    (= (travel-time dhunche-farm bidur-school) 12)
+    (= (travel-time bidur-school dhunche-farm) 12)
+
+    (road galchhi-village bidur-school) (road bidur-school galchhi-village)
+    (= (travel-time galchhi-village bidur-school) 25)
+    (= (travel-time bidur-school galchhi-village) 25)
+    (damaged galchhi-village bidur-school) (damaged bidur-school galchhi-village)
+
+    (road myagang-shelter nilkantha-temple) (road nilkantha-temple myagang-shelter)
+    (= (travel-time myagang-shelter nilkantha-temple) 31)
+    (= (travel-time nilkantha-temple myagang-shelter) 31)
+
+    (road shivapuri-care-home bidur-school) (road bidur-school shivapuri-care-home)
+    (= (travel-time shivapuri-care-home bidur-school) 20)
+    (= (travel-time bidur-school shivapuri-care-home) 20)
+
+    (road dhunche-farm shivapuri-care-home) (road shivapuri-care-home dhunche-farm)
+    (= (travel-time dhunche-farm shivapuri-care-home) 26)
+    (= (travel-time shivapuri-care-home dhunche-farm) 26)
+    (damaged dhunche-farm shivapuri-care-home) (damaged shivapuri-care-home dhunche-farm)
+
+    (road nilkantha-temple naukunda-village) (road naukunda-village nilkantha-temple)
+    (= (travel-time nilkantha-temple naukunda-village) 55)
+    (= (travel-time naukunda-village nilkantha-temple) 55)
+
+    ;; evacuation points
+    (evac-point myagang-shelter)
+
+    ;; cars
+    (car-at car1 myagang-shelter)
+    (free-seats car1 n4)
+    (carrying car1 injured n0) (carrying car1 child n0) (carrying car1 elderly n0) (carrying car1 adult n0)
+
+    (car-at car2 myagang-shelter)
+    (free-seats car2 n4)
+    (carrying car2 injured n0) (carrying car2 child n0) (carrying car2 elderly n0) (carrying car2 adult n0)
+
+    ;; people waiting
+    (waiting galchhi-village child n3)
+    (waiting galchhi-village injured n1)
+    (waiting nilkantha-temple adult n7)
+    (waiting bidur-school child n3)
+    (waiting shivapuri-care-home elderly n4)
+
+    ;; positive
+    (positive n1) (positive n2) (positive n3) (positive n4) (positive n5) (positive n6) (positive n7)
+
+    ;; sums
+    (sum n0 n0 n0) (sum n0 n1 n1) (sum n0 n2 n2) (sum n0 n3 n3)
+    (sum n0 n4 n4) (sum n0 n5 n5) (sum n0 n6 n6) (sum n0 n7 n7)
+    (sum n1 n0 n1) (sum n1 n1 n2) (sum n1 n2 n3) (sum n1 n3 n4)
+    (sum n1 n4 n5) (sum n1 n5 n6) (sum n1 n6 n7)
+    (sum n2 n0 n2) (sum n2 n1 n3) (sum n2 n2 n4) (sum n2 n3 n5)
+    (sum n2 n4 n6) (sum n2 n5 n7)
+    (sum n3 n0 n3) (sum n3 n1 n4) (sum n3 n2 n5) (sum n3 n3 n6)
+    (sum n3 n4 n7)
+    (sum n4 n0 n4) (sum n4 n1 n5) (sum n4 n2 n6) (sum n4 n3 n7)
+    (sum n5 n0 n5) (sum n5 n1 n6) (sum n5 n2 n7)
+    (sum n6 n0 n6) (sum n6 n1 n7)
+    (sum n7 n0 n7)
+
+    ;; defer costs
+    (= (defer-cost injured n1) 80) (= (defer-cost injured n2) 160) (= (defer-cost injured n3) 240)
+    (= (defer-cost injured n4) 320) (= (defer-cost injured n5) 400) (= (defer-cost injured n6) 480)
+    (= (defer-cost injured n7) 560)
+
+    (= (defer-cost child n1) 60) (= (defer-cost child n2) 120) (= (defer-cost child n3) 180)
+    (= (defer-cost child n4) 240) (= (defer-cost child n5) 300) (= (defer-cost child n6) 360)
+    (= (defer-cost child n7) 420)
+
+    (= (defer-cost elderly n1) 50) (= (defer-cost elderly n2) 100) (= (defer-cost elderly n3) 150)
+    (= (defer-cost elderly n4) 200) (= (defer-cost elderly n5) 250) (= (defer-cost elderly n6) 300)
+    (= (defer-cost elderly n7) 350)
+
+    (= (defer-cost adult n1) 20) (= (defer-cost adult n2) 40) (= (defer-cost adult n3) 60)
+    (= (defer-cost adult n4) 80) (= (defer-cost adult n5) 100) (= (defer-cost adult n6) 120)
+    (= (defer-cost adult n7) 140)
+  )
+
+  (:goal (and
+    (waiting galchhi-village child n0)
+    (waiting galchhi-village injured n0)
+    (waiting nilkantha-temple adult n0)
+    (waiting bidur-school child n0)
+    (waiting shivapuri-care-home elderly n0)
+    (carrying car1 injured n0) (carrying car1 child n0) (carrying car1 elderly n0) (carrying car1 adult n0)
+    (carrying car2 injured n0) (carrying car2 child n0) (carrying car2 elderly n0) (carrying car2 adult n0)
+  ))
+
+  (:metric minimize (total-cost))
+)

@@ -1,0 +1,38 @@
+{
+  "plan": [
+    "(drive car1 galchhi-shelter gosaikunda-farm)",
+    "(load car1 gosaikunda-farm injured n3 n3 n0 n0 n3 n4 n1)",
+    "(load car1 gosaikunda-farm adult n1 n3 n2 n0 n1 n1 n0)",
+    "(drive car1 gosaikunda-farm galchhi-shelter)",
+    "(unload car1 galchhi-shelter injured n3 n0 n3)",
+    "(unload car1 galchhi-shelter adult n1 n3 n4)",
+    "(drive car1 galchhi-shelter nilkantha-market)",
+    "(load car1 nilkantha-market adult n3 n3 n0 n0 n3 n4 n1)",
+    "(drive car1 nilkantha-market galchhi-shelter)",
+    "(unload car1 galchhi-shelter adult n3 n1 n4)",
+    "(defer-rescue gosaikunda-farm adult n2)"
+  ],
+  "searches": [
+    {
+      "search": "optimal-lmcut",
+      "seconds": 0.09898137499112636,
+      "exit_code": 0,
+      "command": [
+        "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/.venv/bin/python",
+        "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/.tools/downward/fast-downward.py",
+        "--overall-time-limit",
+        "60s",
+        "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/pddl/domain.pddl",
+        "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/kimaya/runs/full-cli-v1-sonnet/cases/small-06-implicit/attempt-0/planner/problem.pddl",
+        "--search",
+        "astar(lmcut())"
+      ],
+      "timed_out": false,
+      "optimal_for_generated_problem": true
+    }
+  ],
+  "seconds": 0.09898137499112636,
+  "status": "plan_found",
+  "search": "optimal-lmcut",
+  "optimal_for_generated_problem": true
+}

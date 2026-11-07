@@ -1,0 +1,40 @@
+{
+  "plan": [
+    "(drive car1 trishuli-shelter gosaikunda-temple)",
+    "(drive car1 gosaikunda-temple dupcheshwar-temple)",
+    "(load car1 dupcheshwar-temple adult n4 n4 n0 n0 n4 n4 n0)",
+    "(defer-rescue bidur-village adult n2)",
+    "(drive car1 dupcheshwar-temple gosaikunda-temple)",
+    "(drive car1 gosaikunda-temple trishuli-shelter)",
+    "(unload car1 trishuli-shelter adult n4 n0 n4)",
+    "(drive car1 trishuli-shelter gosaikunda-temple)",
+    "(drive car1 gosaikunda-temple naukunda-farm)",
+    "(load car1 naukunda-farm adult n4 n4 n0 n0 n4 n4 n0)",
+    "(drive car1 naukunda-farm gosaikunda-temple)",
+    "(drive car1 gosaikunda-temple trishuli-shelter)",
+    "(unload car1 trishuli-shelter adult n4 n0 n4)"
+  ],
+  "searches": [
+    {
+      "search": "optimal-lmcut",
+      "seconds": 0.10278137505520135,
+      "exit_code": 0,
+      "command": [
+        "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/.venv/bin/python",
+        "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/.tools/downward/fast-downward.py",
+        "--overall-time-limit",
+        "60s",
+        "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/pddl/domain.pddl",
+        "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/kimaya/runs/full-cli-v1-haiku/cases/small-12-explicit/attempt-0/planner/problem.pddl",
+        "--search",
+        "astar(lmcut())"
+      ],
+      "timed_out": false,
+      "optimal_for_generated_problem": true
+    }
+  ],
+  "seconds": 0.10278137505520135,
+  "status": "plan_found",
+  "search": "optimal-lmcut",
+  "optimal_for_generated_problem": true
+}

@@ -8,3 +8,6 @@ data_v0_pilot/
 
 .env
 .env.*
+
+# Runtime process lock, not an experimental artifact
+kimaya/runs/**/suite.lock

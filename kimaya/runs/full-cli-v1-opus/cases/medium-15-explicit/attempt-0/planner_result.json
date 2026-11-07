@@ -1,0 +1,46 @@
+{
+  "plan": [
+    "(drive car1 jwalamukhi-shelter tadi-farm)",
+    "(drive car2 gosaikunda-hospital galchhi-farm)",
+    "(load car2 galchhi-farm elderly n2 n2 n0 n0 n2 n4 n2)",
+    "(drive car2 galchhi-farm gosaikunda-hospital)",
+    "(unload car2 gosaikunda-hospital elderly n2 n2 n4)",
+    "(drive car2 gosaikunda-hospital kakani-village)",
+    "(load car2 kakani-village adult n3 n3 n0 n0 n3 n4 n1)",
+    "(drive car2 kakani-village gosaikunda-hospital)",
+    "(unload car2 gosaikunda-hospital adult n3 n1 n4)",
+    "(drive car2 gosaikunda-hospital kakani-village)",
+    "(drive car2 kakani-village dupcheshwar-market)",
+    "(load car1 tadi-farm adult n2 n2 n0 n0 n2 n4 n2)",
+    "(drive car1 tadi-farm jwalamukhi-shelter)",
+    "(unload car1 jwalamukhi-shelter adult n2 n2 n4)",
+    "(load car2 dupcheshwar-market adult n4 n6 n2 n0 n4 n4 n0)",
+    "(drive car2 dupcheshwar-market kakani-village)",
+    "(drive car2 kakani-village gosaikunda-hospital)",
+    "(unload car2 gosaikunda-hospital adult n4 n0 n4)",
+    "(defer-rescue dupcheshwar-market adult n2)"
+  ],
+  "searches": [
+    {
+      "search": "optimal-lmcut",
+      "seconds": 4.859620541916229,
+      "exit_code": 0,
+      "command": [
+        "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/.venv/bin/python",
+        "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/.tools/downward/fast-downward.py",
+        "--overall-time-limit",
+        "60s",
+        "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/pddl/domain.pddl",
+        "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/kimaya/runs/full-cli-v1-opus/cases/medium-15-explicit/attempt-0/planner/problem.pddl",
+        "--search",
+        "astar(lmcut())"
+      ],
+      "timed_out": false,
+      "optimal_for_generated_problem": true
+    }
+  ],
+  "seconds": 4.859620541916229,
+  "status": "plan_found",
+  "search": "optimal-lmcut",
+  "optimal_for_generated_problem": true
+}

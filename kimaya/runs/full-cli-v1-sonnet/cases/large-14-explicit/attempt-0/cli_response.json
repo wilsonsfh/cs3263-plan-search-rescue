@@ -1,0 +1,62 @@
+{
+  "ok": true,
+  "text": "```pddl\n(define (problem large-14)\n  (:domain flood-rescue)\n  (:objects\n    trishuli-shelter dhunche-hospital bidur-temple dupcheshwar-care-home uttargaya-farm\n    benighat-care-home tarkeshwar-market gajuri-market panchakanya-care-home\n    jwalamukhi-market syaphru-market shivapuri-care-home tadi-care-home - location\n    car1 car2 - car\n    n1 n2 n3 n4 - level\n  )\n  (:init\n    (= (total-cost) 0)\n\n    ;; roads\n    (road trishuli-shelter bidur-temple) (road bidur-temple trishuli-shelter)\n    (= (travel-time trishuli-shelter bidur-temple) 7) (= (travel-time bidur-temple trishuli-shelter) 7)\n    (road trishuli-shelter dupcheshwar-care-home) (road dupcheshwar-care-home trishuli-shelter)\n    (= (travel-time trishuli-shelter dupcheshwar-care-home) 19) (= (travel-time dupcheshwar-care-home trishuli-shelter) 19)\n    (road trishuli-shelter uttargaya-farm) (road uttargaya-farm trishuli-shelter)\n    (= (travel-time trishuli-shelter uttargaya-farm) 24) (= (travel-time uttargaya-farm trishuli-shelter) 24)\n    (road dhunche-hospital dupcheshwar-care-home) (road dupcheshwar-care-home dhunche-hospital)\n    (= (travel-time dhunche-hospital dupcheshwar-care-home) 21) (= (travel-time dupcheshwar-care-home dhunche-hospital) 21)\n    (damaged dhunche-hospital dupcheshwar-care-home) (damaged dupcheshwar-care-home dhunche-hospital)\n    (road benighat-care-home tarkeshwar-market) (road tarkeshwar-market benighat-care-home)\n    (= (travel-time benighat-care-home tarkeshwar-market) 9) (= (travel-time tarkeshwar-market benighat-care-home) 9)\n    (road benighat-care-home gajuri-market) (road gajuri-market benighat-care-home)\n    (= (travel-time benighat-care-home gajuri-market) 19) (= (travel-time gajuri-market benighat-care-home) 19)\n    (damaged benighat-care-home gajuri-market) (damaged gajuri-market benighat-care-home)\n    (road benighat-care-home panchakanya-care-home) (road panchakanya-care-home benighat-care-home)\n    (= (travel-time benighat-care-home panchakanya-care-home) 8) (= (travel-time panchakanya-care-home benighat-care-home) 8)\n    (road benighat-care-home jwalamukhi-market) (road jwalamukhi-market benighat-care-home)\n    (= (travel-time benighat-care-home jwalamukhi-market) 13) (= (travel-time jwalamukhi-market benighat-care-home) 13)\n    (road dupcheshwar-care-home gajuri-market) (road gajuri-market dupcheshwar-care-home)\n    (= (travel-time dupcheshwar-care-home gajuri-market) 15) (= (travel-time gajuri-market dupcheshwar-care-home) 15)\n    (road tarkeshwar-market syaphru-market) (road syaphru-market tarkeshwar-market)\n    (= (travel-time tarkeshwar-market syaphru-market) 19) (= (travel-time syaphru-market tarkeshwar-market) 19)\n    (road tarkeshwar-market gajuri-market) (road gajuri-market tarkeshwar-market)\n    (= (travel-time tarkeshwar-market gajuri-market) 13) (= (travel-time gajuri-market tarkeshwar-market) 13)\n    (road tarkeshwar-market panchakanya-care-home) (road panchakanya-care-home tarkeshwar-market)\n    (= (travel-time tarkeshwar-market panchakanya-care-home) 16) (= (travel-time panchakanya-care-home tarkeshwar-market) 16)\n    (road tarkeshwar-market jwalamukhi-market) (road jwalamukhi-market tarkeshwar-market)\n    (= (travel-time tarkeshwar-market jwalamukhi-market) 5) (= (travel-time jwalamukhi-market tarkeshwar-market) 5)\n    (road syaphru-market panchakanya-care-home) (road panchakanya-care-home syaphru-market)\n    (= (travel-time syaphru-market panchakanya-care-home) 35) (= (travel-time panchakanya-care-home syaphru-market) 35)\n    (road syaphru-market uttargaya-farm) (road uttargaya-farm syaphru-market)\n    (= (travel-time syaphru-market uttargaya-farm) 21) (= (travel-time uttargaya-farm syaphru-market) 21)\n    (damaged syaphru-market uttargaya-farm) (damaged uttargaya-farm syaphru-market)\n    (road uttargaya-farm shivapuri-care-home) (road shivapuri-care-home uttargaya-farm)\n    (= (travel-time uttargaya-farm shivapuri-care-home) 5) (= (travel-time shivapuri-care-home uttargaya-farm) 5)\n    (damaged uttargaya-farm shivapuri-care-home) (damaged shivapuri-care-home uttargaya-farm)\n    (road uttargaya-farm tadi-care-home) (road tadi-care-home uttargaya-farm)\n    (= (travel-time uttargaya-farm tadi-care-home) 11) (= (travel-time tadi-care-home uttargaya-farm) 11)\n    (road shivapuri-care-home tadi-care-home) (road tadi-care-home shivapuri-care-home)\n    (= (travel-time shivapuri-care-home tadi-care-home) 10) (= (travel-time tadi-care-home shivapuri-care-home) 10)\n\n    ;; evacuation points\n    (evac-point trishuli-shelter)\n    (evac-point dhunche-hospital)\n\n    ;; cars\n    (car-at car1 trishuli-shelter)\n    (car-at car2 dhunche-hospital)\n    (free-seats car1 n4)\n    (free-seats car2 n4)\n    (carrying car1 injured n0) (carrying car1 child n0) (carrying car1 elderly n0) (carrying car1 adult n0)\n    (carrying car2 injured n0) (carrying car2 child n0) (carrying car2 elderly n0) (carrying car2 adult n0)\n\n    ;; people waiting\n    (waiting gajuri-market adult n1)\n    (waiting gajuri-market injured n1)\n    (waiting syaphru-market injured n4)\n    (waiting uttargaya-farm injured n3)\n    (waiting tarkeshwar-market adult n2)\n    (waiting tadi-care-home elderly n4)\n    (waiting dupcheshwar-care-home elderly n4)\n    (waiting benighat-care-home elderly n1)\n    (waiting jwalamukhi-market adult n2)\n\n    ;; sums\n    (sum n0 n0 n0) (sum n0 n1 n1) (sum n0 n2 n2) (sum n0 n3 n3) (sum n0 n4 n4)\n    (sum n1 n0 n1) (sum n1 n1 n2) (sum n1 n2 n3) (sum n1 n3 n4)\n    (sum n2 n0 n2) (sum n2 n1 n3) (sum n2 n2 n4)\n    (sum n3 n0 n3) (sum n3 n1 n4)\n    (sum n4 n0 n4)\n\n    (positive n1) (positive n2) (positive n3) (positive n4)\n\n    ;; defer costs\n    (= (defer-cost injured n1) 80) (= (defer-cost injured n2) 160)\n    (= (defer-cost injured n3) 240) (= (defer-cost injured n4) 320)\n    (= (defer-cost child n1) 60) (= (defer-cost child n2) 120)\n    (= (defer-cost child n3) 180) (= (defer-cost child n4) 240)\n    (= (defer-cost elderly n1) 50) (= (defer-cost elderly n2) 100)\n    (= (defer-cost elderly n3) 150) (= (defer-cost elderly n4) 200)\n    (= (defer-cost adult n1) 20) (= (defer-cost adult n2) 40)\n    (= (defer-cost adult n3) 60) (= (defer-cost adult n4) 80)\n  )\n  (:goal (and\n    (waiting gajuri-market adult n0)\n    (waiting gajuri-market injured n0)\n    (waiting syaphru-market injured n0)\n    (waiting uttargaya-farm injured n0)\n    (waiting tarkeshwar-market adult n0)\n    (waiting tadi-care-home elderly n0)\n    (waiting dupcheshwar-care-home elderly n0)\n    (waiting benighat-care-home elderly n0)\n    (waiting jwalamukhi-market adult n0)\n    (carrying car1 injured n0) (carrying car1 child n0) (carrying car1 elderly n0) (carrying car1 adult n0)\n    (carrying car2 injured n0) (carrying car2 child n0) (carrying car2 elderly n0) (carrying car2 adult n0)\n  ))\n  (:metric minimize (total-cost))\n)\n```",
+  "input_tokens": 4499,
+  "output_tokens": 3763,
+  "thinking_tokens": 457,
+  "stop_reason": "end_turn",
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 3763,
+      "cacheReadInputTokens": 2586,
+      "cacheCreationInputTokens": 1911,
+      "webSearchRequests": 0,
+      "costUSD": 0.04553659999999999,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 457,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 1911,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "provider_usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 1911,
+    "cache_read_input_tokens": 2586,
+    "output_tokens": 3763,
+    "output_tokens_details": {
+      "thinking_tokens": 457
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 1911,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 3763,
+        "cache_read_input_tokens": 2586,
+        "cache_creation_input_tokens": 1911,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1911
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "reported_cost_usd": 0.04553659999999999,
+  "seconds": 18.802063249982893
+}
