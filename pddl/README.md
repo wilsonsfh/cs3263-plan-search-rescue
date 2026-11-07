@@ -60,8 +60,19 @@ export FD=downward/fast-downward.py VAL=VAL/build/bin/Validate
 python3 solve.py --timeout 300 --jobs 4                    # main (splitting) version
 (cd no-split && python3 generate.py)                      # no-split problem files from the same instances
 python3 solve.py --domain no-split/domain.pddl --instances no-split/instances --timeout 120 --jobs 4
-python3 best_reference.py                                 # best known plan per instance
+python3 exact.py instances/*.json                         # exact optimum per instance (~4 min, no planner needed)
+python3 best_reference.py                                 # reference plan per instance
 ```
+
+`exact.py` is a domain-specific exact solver (Dijkstra over car, position and
+people taken per site). It reproduces all 34 optima that Fast Downward proved,
+and finds the optimum for the 11 instances where Fast Downward timed out, so
+every reference in `results/best_reference.csv` is now proven optimal for the
+splitting domain. Its plans pass `pipelines/checker.py`. It relies on these
+exact reductions: cars only interact through who they pick up, unloading is
+free (so a route is a series of trips ending at an evac point), at one site
+taking a higher-penalty person first is never worse, and a trip never leaves
+a seat empty when someone at a site it visits is still waiting.
 
 `solve.py` tries two optimal searches (A* with LM-cut, then A* with
 merge-and-shrink), 300 s each by default. If both run out of time it uses anytime LAMA
@@ -83,5 +94,5 @@ the same JSON instances).
 - VAL treats `?before` and `?after` as keywords, so the domain avoids those names.
 - Optimal search handles small instances instantly and most medium ones within
   300 s. Most large instances time out, which is a good point to make in the
-  scaling analysis. For 9 large instances the best known plan comes from the
-  no-split version (see `results/best_reference.csv`).
+  scaling analysis. Fast Downward's best plans on the 11 unproven instances
+  were 0-45% above the optimum found by `exact.py` (large-12: 437 vs 302).
