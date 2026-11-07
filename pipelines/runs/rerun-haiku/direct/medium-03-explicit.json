@@ -1,0 +1,57 @@
+{
+  "pipeline": "direct",
+  "instance": "medium-03",
+  "size": "medium",
+  "level": "explicit",
+  "model": "claude-haiku-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1919,
+    "output_tokens": 2465,
+    "calls": 1,
+    "seconds": 12.8
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 542,
+    "travel_minutes": 52,
+    "deferred_penalty": 490,
+    "rescued": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 7,
+      "adult": 0
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 6,
+      "elderly": 1,
+      "adult": 4
+    },
+    "people_rescued": 7,
+    "priority_people_rescued": 7
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 uttargaya-shelter kalika-temple",
+        "load car1 elderly 4",
+        "drive car1 kalika-temple uttargaya-shelter",
+        "unload car1 elderly 4",
+        "drive car2 thakre-hospital bidur-care-home",
+        "load car2 elderly 3",
+        "drive car2 bidur-care-home uttargaya-shelter",
+        "unload car2 elderly 3",
+        "defer kakani-temple elderly 1",
+        "defer kakani-temple adult 4",
+        "defer suryagadhi-school child 6"
+      ],
+      "claimed_cost": 542,
+      "text": "<plan>\ndrive car1 uttargaya-shelter kalika-temple\nload car1 elderly 4\ndrive car1 kalika-temple uttargaya-shelter\nunload car1 elderly 4\ndrive car2 thakre-hospital bidur-care-home\nload car2 elderly 3\ndrive car2 bidur-care-home uttargaya-shelter\nunload car2 elderly 3\ndefer kakani-temple elderly 1\ndefer kakani-temple adult 4\ndefer suryagadhi-school child 6\n</plan>\nCOST: 542\n\nDriving is 52 minutes (car1: 22, car2: 30). Penalties are 490 (1 elderly \u00d7 50, 4 adults \u00d7 20, 6 children \u00d7 60). Kakani temple and Suryagadhi school can only be reached through Uttargaya\u2013Kakani, which is damaged, so no car can get there and those 11 people are deferred."
+    }
+  ]
+}

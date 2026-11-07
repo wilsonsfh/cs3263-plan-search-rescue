@@ -1,0 +1,57 @@
+{
+  "pipeline": "direct",
+  "instance": "medium-03",
+  "size": "medium",
+  "level": "implicit",
+  "model": "claude-haiku-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 2162,
+    "output_tokens": 3237,
+    "calls": 1,
+    "seconds": 15.4
+  },
+  "result": {
+    "valid": false,
+    "error": "step 9: cannot defer 1 injured at kakani-temple (0 waiting)",
+    "cost": null,
+    "travel_minutes": 38,
+    "deferred_penalty": 0,
+    "rescued": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 7,
+      "adult": 0
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 0
+    },
+    "people_rescued": 7,
+    "priority_people_rescued": 7
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 uttargaya-shelter bidur-care-home",
+        "load car1 elderly 3",
+        "drive car1 bidur-care-home uttargaya-shelter",
+        "unload car1 elderly 3",
+        "drive car1 uttargaya-shelter kalika-temple",
+        "load car1 elderly 4",
+        "drive car1 kalika-temple uttargaya-shelter",
+        "unload car1 elderly 4",
+        "defer kakani-temple injured 1",
+        "defer kakani-temple adult 4",
+        "defer suryagadhi-school child 6"
+      ],
+      "claimed_cost": 558,
+      "text": "The Kakani temple and Suryagadhi school group is cut off, since the only road from Kakani is the washed-out bridge. Those people are deferred. The 7 elderly people at Bidur and Kalika are carried to Uttargaya shelter in two round trips by car1, which is the cheapest way to move them. Car2 stays at Thakre because any trip from there costs far more.\n\nI've treated the old man at Kakani temple, who cannot walk unaided, as injured. If he is classed as elderly instead, the deferral penalty drops from 80 to 50.\n\n<plan>\ndrive car1 uttargaya-shelter bidur-care-home\nload car1 elderly 3\ndrive car1 bidur-care-home uttargaya-shelter\nunload car1 elderly 3\ndrive car1 uttargaya-shelter kalika-temple\nload car1 elderly 4\ndrive car1 kalika-temple uttargaya-shelter\nunload car1 elderly 4\ndefer kakani-temple injured 1\ndefer kakani-temple adult 4\ndefer suryagadhi-school child 6\n</plan>\nCOST: 558"
+    }
+  ]
+}

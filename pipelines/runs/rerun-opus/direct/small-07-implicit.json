@@ -1,0 +1,58 @@
+{
+  "pipeline": "direct",
+  "instance": "small-07",
+  "size": "small",
+  "level": "implicit",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1799,
+    "output_tokens": 1386,
+    "calls": 1,
+    "seconds": 14.3
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 122,
+    "travel_minutes": 122,
+    "deferred_penalty": 0,
+    "rescued": {
+      "injured": 4,
+      "child": 4,
+      "elderly": 3,
+      "adult": 0
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 0
+    },
+    "people_rescued": 11,
+    "priority_people_rescued": 11
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 naukunda-shelter gosaikunda-school",
+        "load car1 injured 4",
+        "drive car1 gosaikunda-school naukunda-shelter",
+        "unload car1 injured 4",
+        "drive car1 naukunda-shelter gosaikunda-school",
+        "load car1 child 4",
+        "drive car1 gosaikunda-school naukunda-shelter",
+        "unload car1 child 4",
+        "drive car1 naukunda-shelter myagang-care-home",
+        "load car1 elderly 3",
+        "drive car1 myagang-care-home naukunda-shelter",
+        "unload car1 elderly 3"
+      ],
+      "claimed_cost": 122,
+      "text": "This plan rescues all 11 people with no deferrals, at a total cost of 122 minutes of driving.\n\n**Key constraints**\n- Naukunda shelter is the only evacuation point. Gosaikunda school is on higher ground but isn't designated, so people can't be dropped there.\n- Car1 carries four passengers at a time and starts at Naukunda.\n- The fastest route between Naukunda and Gosaikunda is the direct road, at 28 minutes (via Kalika it takes 31).\n- The fastest route between Naukunda and Myagang is the direct road, at 5 minutes.\n\n**Trips**\n\n| Trip | Route | People rescued | Minutes |\n|---|---|---|---|\n| 1 | Naukunda \u2192 Gosaikunda \u2192 Naukunda | 4 injured | 56 |\n| 2 | Naukunda \u2192 Gosaikunda \u2192 Naukunda | 4 children | 56 |\n| 3 | Naukunda \u2192 Myagang \u2192 Naukunda | 3 elderly | 10 |\n\n**Why this is optimal**\n- **Trips needed:** The 8 people at Gosaikunda need two full trips of at least 56 minutes each. The Myagang trip adds only 10 minutes, and combining Myagang with a Gosaikunda trip wouldn't help because both of those trips are already full.\n- **Deferring costs more:** Deferring all 3 elderly people would save 10 minutes but cost 150 in penalties. Deferring a full Gosaikunda carload would save 56 minutes but cost at least 240.\n\nI put the injured first because they are the most urgent. The order doesn't change the cost as long as the car finishes back at Naukunda.\n\n<plan>\ndrive car1 naukunda-shelter gosaikunda-school\nload car1 injured 4\ndrive car1 gosaikunda-school naukunda-shelter\nunload car1 injured 4\ndrive car1 naukunda-shelter gosaikunda-school\nload car1 child 4\ndrive car1 gosaikunda-school naukunda-shelter\nunload car1 child 4\ndrive car1 naukunda-shelter myagang-care-home\nload car1 elderly 3\ndrive car1 myagang-care-home naukunda-shelter\nunload car1 elderly 3\n</plan>\n\nCOST: 122"
+    }
+  ]
+}

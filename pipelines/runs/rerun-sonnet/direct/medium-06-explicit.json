@@ -1,0 +1,64 @@
+{
+  "pipeline": "direct",
+  "instance": "medium-06",
+  "size": "medium",
+  "level": "explicit",
+  "model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1876,
+    "output_tokens": 1332,
+    "calls": 1,
+    "seconds": 11.2
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 282,
+    "travel_minutes": 212,
+    "deferred_penalty": 70,
+    "rescued": {
+      "injured": 1,
+      "child": 0,
+      "elderly": 6,
+      "adult": 0
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 1,
+      "adult": 1
+    },
+    "people_rescued": 7,
+    "priority_people_rescued": 7
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 jwalamukhi-shelter gajuri-school",
+        "drive car1 gajuri-school kalika-temple",
+        "load car1 elderly 4",
+        "drive car1 kalika-temple gajuri-school",
+        "drive car1 gajuri-school jwalamukhi-shelter",
+        "unload car1 elderly 4",
+        "drive car1 jwalamukhi-shelter gajuri-school",
+        "drive car1 gajuri-school kalika-temple",
+        "load car1 elderly 2",
+        "drive car1 kalika-temple syaphru-care-home",
+        "load car1 injured 1",
+        "drive car1 syaphru-care-home kalika-temple",
+        "drive car1 kalika-temple gajuri-school",
+        "drive car1 gajuri-school jwalamukhi-shelter",
+        "unload car1 elderly 2",
+        "unload car1 injured 1",
+        "defer nilkantha-temple elderly 1",
+        "defer suryagadhi-market adult 1"
+      ],
+      "claimed_cost": 282,
+      "text": "Suryagadhi market and Nilkantha temple are linked only to each other, and Kalika temple's road to Nilkantha is damaged. The car can't reach them, so I defer the 1 elderly person (50) and the 1 adult (20) there, which costs 70.\n\nThe car can carry 4 and it is 38 minutes each way between the shelter and Kalika temple, so the 6 elderly people there need two trips. A round trip costs 76, which is less than the 100 penalty for deferring 2 of them. Syaphru care home is 30 minutes beyond Kalika temple. Detouring there and back adds 60 minutes, which is less than the 80 penalty for deferring the injured person. I add that detour to the second trip, where the car has space.\n\nCost: trip 1 is 76, trip 2 is 76 + 60 = 136, and the deferrals are 70, so the total is 282.\n\n<plan>\ndrive car1 jwalamukhi-shelter gajuri-school\ndrive car1 gajuri-school kalika-temple\nload car1 elderly 4\ndrive car1 kalika-temple gajuri-school\ndrive car1 gajuri-school jwalamukhi-shelter\nunload car1 elderly 4\ndrive car1 jwalamukhi-shelter gajuri-school\ndrive car1 gajuri-school kalika-temple\nload car1 elderly 2\ndrive car1 kalika-temple syaphru-care-home\nload car1 injured 1\ndrive car1 syaphru-care-home kalika-temple\ndrive car1 kalika-temple gajuri-school\ndrive car1 gajuri-school jwalamukhi-shelter\nunload car1 elderly 2\nunload car1 injured 1\ndefer nilkantha-temple elderly 1\ndefer suryagadhi-market adult 1\n</plan>\nCOST: 282"
+    }
+  ]
+}

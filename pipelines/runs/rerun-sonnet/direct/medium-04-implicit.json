@@ -1,0 +1,63 @@
+{
+  "pipeline": "direct",
+  "instance": "medium-04",
+  "size": "medium",
+  "level": "implicit",
+  "model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 2107,
+    "output_tokens": 2495,
+    "calls": 1,
+    "seconds": 18.7
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 716,
+    "travel_minutes": 276,
+    "deferred_penalty": 440,
+    "rescued": {
+      "injured": 1,
+      "child": 3,
+      "elderly": 0,
+      "adult": 4
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 3,
+      "elderly": 4,
+      "adult": 3
+    },
+    "people_rescued": 8,
+    "priority_people_rescued": 4
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 myagang-shelter nilkantha-temple",
+        "load car1 adult 4",
+        "drive car1 nilkantha-temple myagang-shelter",
+        "unload car1 adult 4",
+        "drive car2 myagang-shelter nilkantha-temple",
+        "drive car2 nilkantha-temple naukunda-village",
+        "drive car2 naukunda-village galchhi-village",
+        "load car2 injured 1",
+        "load car2 child 3",
+        "drive car2 galchhi-village naukunda-village",
+        "drive car2 naukunda-village nilkantha-temple",
+        "drive car2 nilkantha-temple myagang-shelter",
+        "unload car2 injured 1",
+        "unload car2 child 3",
+        "defer nilkantha-temple adult 3",
+        "defer bidur-school child 3",
+        "defer shivapuri-care-home elderly 4"
+      ],
+      "claimed_cost": 716,
+      "text": "Only Myagang shelter is a designated evacuation point. Nilkantha temple is not, so nobody can be dropped there.\n\n- **Nilkantha temple (7 adults):** Myagang to Nilkantha is 31 minutes each way, so a round trip costs 62 minutes. A full car of 4 adults avoids 80 in penalties, so car1 makes that trip once. A second trip for the remaining 3 adults would cost 62 to avoid only 60, so those 3 are deferred.\n- **Galchhi village (1 injured, 3 children):** The only route is Myagang, Nilkantha, Naukunda, Galchhi, which is 107 minutes each way and 214 round trip. That avoids 260 in penalties and fills a car exactly, so car2 makes this trip.\n- **Bidur school (3 children):** A round trip is 238 minutes against 180 in penalties, so these children are deferred.\n- **Shivapuri care home (4 elderly):** The only route is through Bidur school, and a round trip is 278 minutes against 200 in penalties, so they are deferred.\n\nTotal cost is 62 + 214 + 60 + 180 + 200 = 716 minus nothing else saved, which gives 716. Recounting: driving is 62 + 214 = 276, and deferred penalties are 60 + 180 + 200 = 440, so the total is 716.\n\n<plan>\ndrive car1 myagang-shelter nilkantha-temple\nload car1 adult 4\ndrive car1 nilkantha-temple myagang-shelter\nunload car1 adult 4\ndrive car2 myagang-shelter nilkantha-temple\ndrive car2 nilkantha-temple naukunda-village\ndrive car2 naukunda-village galchhi-village\nload car2 injured 1\nload car2 child 3\ndrive car2 galchhi-village naukunda-village\ndrive car2 naukunda-village nilkantha-temple\ndrive car2 nilkantha-temple myagang-shelter\nunload car2 injured 1\nunload car2 child 3\ndefer nilkantha-temple adult 3\ndefer bidur-school child 3\ndefer shivapuri-care-home elderly 4\n</plan>\n\nCOST: 716"
+    }
+  ]
+}

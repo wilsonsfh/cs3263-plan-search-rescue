@@ -1,0 +1,65 @@
+{
+  "pipeline": "direct",
+  "instance": "large-05",
+  "size": "large",
+  "level": "explicit",
+  "model": "claude-haiku-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 2265,
+    "output_tokens": 6248,
+    "calls": 1,
+    "seconds": 28.4
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 566,
+    "travel_minutes": 86,
+    "deferred_penalty": 480,
+    "rescued": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 3,
+      "adult": 4
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 2,
+      "elderly": 4,
+      "adult": 8
+    },
+    "people_rescued": 7,
+    "priority_people_rescued": 3
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car2 nilkantha-hospital tadi-village",
+        "drive car2 tadi-village trishuli-care-home",
+        "drive car2 trishuli-care-home uttargaya-market",
+        "load car2 adult 4",
+        "drive car2 uttargaya-market trishuli-care-home",
+        "drive car2 trishuli-care-home tadi-village",
+        "drive car2 tadi-village nilkantha-hospital",
+        "unload car2 adult 4",
+        "drive car2 nilkantha-hospital tadi-village",
+        "drive car2 tadi-village trishuli-care-home",
+        "load car2 elderly 3",
+        "drive car2 trishuli-care-home tadi-village",
+        "drive car2 tadi-village nilkantha-hospital",
+        "unload car2 elderly 3",
+        "defer suryagadhi-market elderly 4",
+        "defer suryagadhi-market adult 6",
+        "defer suryagadhi-market child 2",
+        "defer belkot-village adult 1",
+        "defer panchakanya-farm adult 1"
+      ],
+      "claimed_cost": 566,
+      "text": "Car1 at Thakre shelter has no usable roads, so it cannot move. Car2 does all the work. Its trips to Suryagadhi market would cost 228 minutes round trip and save at most 220 in penalties, so those 12 people are deferred. The Uttargaya and Trishuli people are rescued in two trips, and the Belkot and Panchakanya adults are deferred because reaching them costs more than their penalties.\n\n<plan>\ndrive car2 nilkantha-hospital tadi-village\ndrive car2 tadi-village trishuli-care-home\ndrive car2 trishuli-care-home uttargaya-market\nload car2 adult 4\ndrive car2 uttargaya-market trishuli-care-home\ndrive car2 trishuli-care-home tadi-village\ndrive car2 tadi-village nilkantha-hospital\nunload car2 adult 4\ndrive car2 nilkantha-hospital tadi-village\ndrive car2 tadi-village trishuli-care-home\nload car2 elderly 3\ndrive car2 trishuli-care-home tadi-village\ndrive car2 tadi-village nilkantha-hospital\nunload car2 elderly 3\ndefer suryagadhi-market elderly 4\ndefer suryagadhi-market adult 6\ndefer suryagadhi-market child 2\ndefer belkot-village adult 1\ndefer panchakanya-farm adult 1\n</plan>\nCOST: 566"
+    }
+  ]
+}

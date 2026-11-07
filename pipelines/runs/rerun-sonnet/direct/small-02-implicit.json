@@ -1,0 +1,58 @@
+{
+  "pipeline": "direct",
+  "instance": "small-02",
+  "size": "small",
+  "level": "implicit",
+  "model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1788,
+    "output_tokens": 616,
+    "calls": 1,
+    "seconds": 8.2
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 170,
+    "travel_minutes": 170,
+    "deferred_penalty": 0,
+    "rescued": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 11,
+      "adult": 0
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 0
+    },
+    "people_rescued": 11,
+    "priority_people_rescued": 11
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 shivapuri-shelter kalika-village",
+        "load car1 elderly 4",
+        "drive car1 kalika-village shivapuri-shelter",
+        "unload car1 elderly 4",
+        "drive car1 shivapuri-shelter trishuli-farm",
+        "load car1 elderly 4",
+        "drive car1 trishuli-farm shivapuri-shelter",
+        "unload car1 elderly 4",
+        "drive car1 shivapuri-shelter trishuli-farm",
+        "load car1 elderly 3",
+        "drive car1 trishuli-farm shivapuri-shelter",
+        "unload car1 elderly 3"
+      ],
+      "claimed_cost": 170,
+      "text": "<plan>\ndrive car1 shivapuri-shelter kalika-village\nload car1 elderly 4\ndrive car1 kalika-village shivapuri-shelter\nunload car1 elderly 4\ndrive car1 shivapuri-shelter trishuli-farm\nload car1 elderly 4\ndrive car1 trishuli-farm shivapuri-shelter\nunload car1 elderly 4\ndrive car1 shivapuri-shelter trishuli-farm\nload car1 elderly 3\ndrive car1 trishuli-farm shivapuri-shelter\nunload car1 elderly 3\n</plan>\n\nCOST: 170"
+    }
+  ]
+}

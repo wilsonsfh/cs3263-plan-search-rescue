@@ -1,0 +1,57 @@
+{
+  "pipeline": "direct",
+  "instance": "small-01",
+  "size": "small",
+  "level": "implicit",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1833,
+    "output_tokens": 1278,
+    "calls": 1,
+    "seconds": 13.0
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 154,
+    "travel_minutes": 134,
+    "deferred_penalty": 20,
+    "rescued": {
+      "injured": 0,
+      "child": 2,
+      "elderly": 2,
+      "adult": 0
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 1
+    },
+    "people_rescued": 4,
+    "priority_people_rescued": 4
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "defer syaphru-temple adult 1",
+        "drive car1 myagang-shelter uttargaya-school",
+        "drive car1 uttargaya-school nilkantha-market",
+        "drive car1 nilkantha-market syaphru-temple",
+        "load car1 elderly 2",
+        "drive car1 syaphru-temple nilkantha-market",
+        "drive car1 nilkantha-market uttargaya-school",
+        "load car1 child 2",
+        "drive car1 uttargaya-school myagang-shelter",
+        "unload car1 elderly 2",
+        "unload car1 child 2"
+      ],
+      "claimed_cost": 154,
+      "text": "The best plan is one round trip that brings back both pensioners and both pupils, and defers the farmer, for a total cost of 154.\n\n**Key facts**\n- **Drop-off point:** Myagang shelter is the only valid one. Uttargaya school is not designated.\n- **Blocked road:** The Myagang to Nilkantha road is unusable because the bridge is out.\n- **Route to Syaphru temple:** The shortest route is Myagang \u2192 Uttargaya \u2192 Nilkantha \u2192 Syaphru, at 28 + 8 + 31 = 67 minutes.\n- **People:** Syaphru temple has 1 adult (the farmer) and 2 elderly (the pensioners). Uttargaya school has 2 children (the pupils).\n\n**Options compared**\n\nThere are 5 people and the car carries 4, so saving everyone takes a second trip.\n\n| Option | Driving | Penalty | Total |\n|---|---|---|---|\n| Rescue everyone, with a second trip to Uttargaya (28 + 28) | 190 | 0 | 190 |\n| **One round trip, defer the adult** | **134** | **20** | **154** |\n| One round trip, defer one elderly person | 134 | 50 | 184 |\n| One round trip, defer one child | 134 | 60 | 194 |\n| Rescue only the children, defer everyone at Syaphru | 56 | 120 | 176 |\n| Defer everyone | 0 | 240 | 240 |\n\nDeferring the adult is cheapest. The round trip takes 67 minutes out, 39 minutes back to Uttargaya (31 + 8) and 28 minutes on to Myagang, for 134 minutes of driving.\n\n<plan>\ndefer syaphru-temple adult 1\ndrive car1 myagang-shelter uttargaya-school\ndrive car1 uttargaya-school nilkantha-market\ndrive car1 nilkantha-market syaphru-temple\nload car1 elderly 2\ndrive car1 syaphru-temple nilkantha-market\ndrive car1 nilkantha-market uttargaya-school\nload car1 child 2\ndrive car1 uttargaya-school myagang-shelter\nunload car1 elderly 2\nunload car1 child 2\n</plan>\n\nCOST: 154"
+    }
+  ]
+}

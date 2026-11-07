@@ -1,0 +1,59 @@
+{
+  "pipeline": "direct",
+  "instance": "small-03",
+  "size": "small",
+  "level": "implicit",
+  "model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1857,
+    "output_tokens": 1584,
+    "calls": 1,
+    "seconds": 13.5
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 146,
+    "travel_minutes": 126,
+    "deferred_penalty": 20,
+    "rescued": {
+      "injured": 4,
+      "child": 0,
+      "elderly": 0,
+      "adult": 6
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 1
+    },
+    "people_rescued": 10,
+    "priority_people_rescued": 4
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 myagang-shelter nilkantha-market",
+        "load car1 injured 4",
+        "drive car1 nilkantha-market myagang-shelter",
+        "unload car1 injured 4",
+        "drive car1 myagang-shelter bidur-village",
+        "load car1 adult 4",
+        "drive car1 bidur-village myagang-shelter",
+        "unload car1 adult 4",
+        "drive car1 myagang-shelter nilkantha-market",
+        "load car1 adult 2",
+        "drive car1 nilkantha-market myagang-shelter",
+        "unload car1 adult 2",
+        "defer syaphru-school adult 1"
+      ],
+      "claimed_cost": 146,
+      "text": "<plan>\ndrive car1 myagang-shelter nilkantha-market\nload car1 injured 4\ndrive car1 nilkantha-market myagang-shelter\nunload car1 injured 4\ndrive car1 myagang-shelter bidur-village\nload car1 adult 4\ndrive car1 bidur-village myagang-shelter\nunload car1 adult 4\ndrive car1 myagang-shelter nilkantha-market\nload car1 adult 2\ndrive car1 nilkantha-market myagang-shelter\nunload car1 adult 2\ndefer syaphru-school adult 1\n</plan>\nCOST: 146\n\nOnly Myagang shelter is a designated evacuation point, so Benighat temple is not used. The 126 minutes of driving plus a 20-point penalty for deferring the one adult at Syaphru school give 146. Going to Syaphru school and back takes 36 minutes, which is more than the 20-point penalty for leaving that adult."
+    }
+  ]
+}

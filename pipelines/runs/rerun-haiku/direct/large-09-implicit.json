@@ -1,0 +1,83 @@
+{
+  "pipeline": "direct",
+  "instance": "large-09",
+  "size": "large",
+  "level": "implicit",
+  "model": "claude-haiku-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 2755,
+    "output_tokens": 13315,
+    "calls": 1,
+    "seconds": 59.6
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 818,
+    "travel_minutes": 268,
+    "deferred_penalty": 550,
+    "rescued": {
+      "injured": 3,
+      "child": 8,
+      "elderly": 0,
+      "adult": 6
+    },
+    "deferred": {
+      "injured": 3,
+      "child": 0,
+      "elderly": 3,
+      "adult": 8
+    },
+    "people_rescued": 17,
+    "priority_people_rescued": 11
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car2 myagang-hospital kakani-market",
+        "load car2 injured 3",
+        "load car2 adult 1",
+        "drive car2 kakani-market myagang-hospital",
+        "unload car2 injured 3",
+        "unload car2 adult 1",
+        "drive car2 myagang-hospital kakani-market",
+        "load car2 adult 4",
+        "drive car2 kakani-market myagang-hospital",
+        "unload car2 adult 4",
+        "drive car2 myagang-hospital kakani-market",
+        "load car2 adult 1",
+        "drive car2 kakani-market myagang-hospital",
+        "unload car2 adult 1",
+        "drive car2 myagang-hospital shivapuri-care-home",
+        "drive car2 shivapuri-care-home gajuri-village",
+        "drive car2 gajuri-village jwalamukhi-market",
+        "load car2 child 3",
+        "drive car2 jwalamukhi-market kalika-school",
+        "load car2 child 1",
+        "drive car2 kalika-school gajuri-village",
+        "drive car2 gajuri-village shivapuri-care-home",
+        "drive car2 shivapuri-care-home myagang-hospital",
+        "unload car2 child 4",
+        "drive car2 myagang-hospital shivapuri-care-home",
+        "drive car2 shivapuri-care-home gajuri-village",
+        "drive car2 gajuri-village kalika-school",
+        "load car2 child 4",
+        "drive car2 kalika-school gajuri-village",
+        "drive car2 gajuri-village shivapuri-care-home",
+        "drive car2 shivapuri-care-home myagang-hospital",
+        "unload car2 child 4",
+        "defer tarkeshwar-care-home injured 3",
+        "defer tarkeshwar-care-home elderly 3",
+        "defer naukunda-temple adult 3",
+        "defer jwalamukhi-market adult 4",
+        "defer shivapuri-care-home adult 1"
+      ],
+      "claimed_cost": 818,
+      "text": "I've treated the two roads with fast-running floodwater and a swept-away truck as unusable. Car1 stays at Panchakanya because its only remaining road leads to Suryagadhi school, which is not an evacuation point. The Tarkeshwar group is also unreachable, since the only road from there is washed out. Those five people are deferred, as are the Naukunda shopkeepers and the Shivapuri farmer, because rescuing them costs more driving than the penalty saved. The four Jwalamukhi adults are deferred for the same reason.\n\n<plan>\ndrive car2 myagang-hospital kakani-market\nload car2 injured 3\nload car2 adult 1\ndrive car2 kakani-market myagang-hospital\nunload car2 injured 3\nunload car2 adult 1\ndrive car2 myagang-hospital kakani-market\nload car2 adult 4\ndrive car2 kakani-market myagang-hospital\nunload car2 adult 4\ndrive car2 myagang-hospital kakani-market\nload car2 adult 1\ndrive car2 kakani-market myagang-hospital\nunload car2 adult 1\ndrive car2 myagang-hospital shivapuri-care-home\ndrive car2 shivapuri-care-home gajuri-village\ndrive car2 gajuri-village jwalamukhi-market\nload car2 child 3\ndrive car2 jwalamukhi-market kalika-school\nload car2 child 1\ndrive car2 kalika-school gajuri-village\ndrive car2 gajuri-village shivapuri-care-home\ndrive car2 shivapuri-care-home myagang-hospital\nunload car2 child 4\ndrive car2 myagang-hospital shivapuri-care-home\ndrive car2 shivapuri-care-home gajuri-village\ndrive car2 gajuri-village kalika-school\nload car2 child 4\ndrive car2 kalika-school gajuri-village\ndrive car2 gajuri-village shivapuri-care-home\ndrive car2 shivapuri-care-home myagang-hospital\nunload car2 child 4\ndefer tarkeshwar-care-home injured 3\ndefer tarkeshwar-care-home elderly 3\ndefer naukunda-temple adult 3\ndefer jwalamukhi-market adult 4\ndefer shivapuri-care-home adult 1\n</plan>\n\nCOST: 818"
+    }
+  ]
+}

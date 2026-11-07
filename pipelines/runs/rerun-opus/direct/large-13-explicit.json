@@ -1,0 +1,77 @@
+{
+  "pipeline": "direct",
+  "instance": "large-13",
+  "size": "large",
+  "level": "explicit",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 2214,
+    "output_tokens": 3621,
+    "calls": 1,
+    "seconds": 37.7
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 212,
+    "travel_minutes": 192,
+    "deferred_penalty": 20,
+    "rescued": {
+      "injured": 10,
+      "child": 6,
+      "elderly": 0,
+      "adult": 4
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 1
+    },
+    "people_rescued": 20,
+    "priority_people_rescued": 16
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 kalika-shelter kakani-village",
+        "load car1 injured 3",
+        "load car1 child 1",
+        "drive car1 kakani-village kalika-shelter",
+        "unload car1 injured 3",
+        "unload car1 child 1",
+        "drive car2 dhunche-hospital gosaikunda-village",
+        "load car2 injured 4",
+        "drive car2 gosaikunda-village dhunche-hospital",
+        "unload car2 injured 4",
+        "drive car2 dhunche-hospital gosaikunda-village",
+        "load car2 child 3",
+        "load car2 adult 1",
+        "drive car2 gosaikunda-village dhunche-hospital",
+        "unload car2 child 3",
+        "unload car2 adult 1",
+        "defer gosaikunda-village adult 1",
+        "drive car2 dhunche-hospital jwalamukhi-school",
+        "load car2 injured 3",
+        "load car2 child 1",
+        "drive car2 jwalamukhi-school dhunche-hospital",
+        "unload car2 injured 3",
+        "unload car2 child 1",
+        "drive car2 dhunche-hospital jwalamukhi-school",
+        "drive car2 jwalamukhi-school naukunda-market",
+        "load car2 adult 3",
+        "drive car2 naukunda-market jwalamukhi-school",
+        "load car2 child 1",
+        "drive car2 jwalamukhi-school dhunche-hospital",
+        "unload car2 adult 3",
+        "unload car2 child 1"
+      ],
+      "claimed_cost": 212,
+      "text": "This is the plan I worked out by hand, comparing the reasonable route and deferral options. I did not run an exhaustive solver, so 212 is the best total I found, not a proven minimum.\n\n**Key decisions**\n- **Kakani village:** [car1] rescues all 4 people in one round trip to Kalika shelter, for 28 min.\n- **Gosaikunda village:** The 9 people would need a third 46-min round trip. Two trips carry 8 people, and deferring the remaining adult costs only 20.\n- **Jwalamukhi school and Naukunda market:** A single trip from Dhunche hospital through Jwalamukhi to Naukunda and back takes 54 min. It brings back the 3 Naukunda adults and the fifth person from Jwalamukhi. With the first 18-min school trip, this totals 72 min, compared with 96 for two school trips plus deferring the adults (36 + 60 penalty).\n\n<plan>\ndrive car1 kalika-shelter kakani-village\nload car1 injured 3\nload car1 child 1\ndrive car1 kakani-village kalika-shelter\nunload car1 injured 3\nunload car1 child 1\ndrive car2 dhunche-hospital gosaikunda-village\nload car2 injured 4\ndrive car2 gosaikunda-village dhunche-hospital\nunload car2 injured 4\ndrive car2 dhunche-hospital gosaikunda-village\nload car2 child 3\nload car2 adult 1\ndrive car2 gosaikunda-village dhunche-hospital\nunload car2 child 3\nunload car2 adult 1\ndefer gosaikunda-village adult 1\ndrive car2 dhunche-hospital jwalamukhi-school\nload car2 injured 3\nload car2 child 1\ndrive car2 jwalamukhi-school dhunche-hospital\nunload car2 injured 3\nunload car2 child 1\ndrive car2 dhunche-hospital jwalamukhi-school\ndrive car2 jwalamukhi-school naukunda-market\nload car2 adult 3\ndrive car2 naukunda-market jwalamukhi-school\nload car2 child 1\ndrive car2 jwalamukhi-school dhunche-hospital\nunload car2 adult 3\nunload car2 child 1\n</plan>\n\n**Cost breakdown**\n\n| Item | Calculation | Cost |\n|---|---|---|\n| [car1] driving | 14 + 14 | 28 |\n| [car2] to Gosaikunda village | 46 + 46 | 92 |\n| [car2] to Jwalamukhi school | 9 + 9 | 18 |\n| [car2] to Naukunda market and back | 9 + 18 + 18 + 9 | 54 |\n| **Total driving** | | **192** |\n| Deferral penalty | 1 adult | 20 |\n| **Total cost** | | **212** |\n\nCOST: 212"
+    }
+  ]
+}

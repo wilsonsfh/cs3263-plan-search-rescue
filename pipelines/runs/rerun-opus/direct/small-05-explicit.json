@@ -1,0 +1,55 @@
+{
+  "pipeline": "direct",
+  "instance": "small-05",
+  "size": "small",
+  "level": "explicit",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1660,
+    "output_tokens": 539,
+    "calls": 1,
+    "seconds": 6.4
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 102,
+    "travel_minutes": 52,
+    "deferred_penalty": 50,
+    "rescued": {
+      "injured": 6,
+      "child": 0,
+      "elderly": 0,
+      "adult": 0
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 1,
+      "adult": 0
+    },
+    "people_rescued": 6,
+    "priority_people_rescued": 6
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "defer myagang-care-home elderly 1",
+        "drive car1 shivapuri-shelter dhunche-temple",
+        "load car1 injured 4",
+        "drive car1 dhunche-temple shivapuri-shelter",
+        "unload car1 injured 4",
+        "drive car1 shivapuri-shelter dhunche-temple",
+        "load car1 injured 2",
+        "drive car1 dhunche-temple shivapuri-shelter",
+        "unload car1 injured 2"
+      ],
+      "claimed_cost": 102,
+      "text": "The plan is to rescue all 6 injured people and defer the 1 elderly person, for a total cost of 102.\n\n**Myagang care home (1 elderly):** The only road there, from Likhu market, is impassable, so this person can't be reached and must be deferred. The penalty is 50.\n\n**Dhunche temple (6 injured):** The temple is 13 minutes from the shelter on an open road. With 4 seats, the car needs two round trips, or 52 minutes of driving. The second trip adds 26 minutes to collect the last 2 people, far less than the 160 penalty for deferring them.\n\n<plan>\ndefer myagang-care-home elderly 1\ndrive car1 shivapuri-shelter dhunche-temple\nload car1 injured 4\ndrive car1 dhunche-temple shivapuri-shelter\nunload car1 injured 4\ndrive car1 shivapuri-shelter dhunche-temple\nload car1 injured 2\ndrive car1 dhunche-temple shivapuri-shelter\nunload car1 injured 2\n</plan>\n\n**Total cost:** 52 minutes of driving + 50 deferral penalty = 102\n\nCOST: 102"
+    }
+  ]
+}

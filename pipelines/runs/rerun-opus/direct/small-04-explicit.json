@@ -1,0 +1,51 @@
+{
+  "pipeline": "direct",
+  "instance": "small-04",
+  "size": "small",
+  "level": "explicit",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1607,
+    "output_tokens": 927,
+    "calls": 1,
+    "seconds": 11.1
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 102,
+    "travel_minutes": 42,
+    "deferred_penalty": 60,
+    "rescued": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 3
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 3
+    },
+    "people_rescued": 3,
+    "priority_people_rescued": 0
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 naukunda-shelter likhu-school",
+        "load car1 adult 3",
+        "drive car1 likhu-school naukunda-shelter",
+        "unload car1 adult 3",
+        "defer benighat-farm adult 3"
+      ],
+      "claimed_cost": 102,
+      "text": "Deferring the 3 Benighat farm adults is the cheapest option, at a total cost of 102. The direct road to Benighat farm is impassable, so reaching it from Naukunda shelter means going through Likhu school (21 + 22 = 43 min each way).\n\n| Option | Driving (min) | Penalties | Total |\n|---|---|---|---|\n| Defer everyone | 0 | 6 adults \u00d7 20 = 120 | 120 |\n| **Rescue the 3 at Likhu, defer the 3 at Benighat** | **21 + 21 = 42** | **3 adults \u00d7 20 = 60** | **102** |\n| One trip via Benighat (3 from Benighat, 1 from Likhu), defer 2 | 21 + 22 + 22 + 21 = 86 | 2 adults \u00d7 20 = 40 | 126 |\n| Rescue everyone (the trip above, plus a Likhu round trip for the last 2) | 86 + 42 = 128 | 0 | 128 |\n\nRescuing fewer people from Likhu doesn't help: the round trip still costs 42 minutes, and each extra deferral adds 20. Picking up a Benighat adult adds 44 minutes of driving but saves only 20 per person, and the car has just one seat left after the 3 Likhu adults.\n\n<plan>\ndrive car1 naukunda-shelter likhu-school\nload car1 adult 3\ndrive car1 likhu-school naukunda-shelter\nunload car1 adult 3\ndefer benighat-farm adult 3\n</plan>\n\nCOST: 102"
+    }
+  ]
+}

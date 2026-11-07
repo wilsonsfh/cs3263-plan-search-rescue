@@ -1,0 +1,63 @@
+{
+  "pipeline": "direct",
+  "instance": "medium-04",
+  "size": "medium",
+  "level": "implicit",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 2103,
+    "output_tokens": 2987,
+    "calls": 1,
+    "seconds": 32.2
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 716,
+    "travel_minutes": 276,
+    "deferred_penalty": 440,
+    "rescued": {
+      "injured": 1,
+      "child": 3,
+      "elderly": 0,
+      "adult": 4
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 3,
+      "elderly": 4,
+      "adult": 3
+    },
+    "people_rescued": 8,
+    "priority_people_rescued": 4
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 myagang-shelter nilkantha-temple",
+        "drive car1 nilkantha-temple naukunda-village",
+        "drive car1 naukunda-village galchhi-village",
+        "load car1 injured 1",
+        "load car1 child 3",
+        "drive car1 galchhi-village naukunda-village",
+        "drive car1 naukunda-village nilkantha-temple",
+        "drive car1 nilkantha-temple myagang-shelter",
+        "unload car1 injured 1",
+        "unload car1 child 3",
+        "drive car2 myagang-shelter nilkantha-temple",
+        "load car2 adult 4",
+        "drive car2 nilkantha-temple myagang-shelter",
+        "unload car2 adult 4",
+        "defer nilkantha-temple adult 3",
+        "defer bidur-school child 3",
+        "defer shivapuri-care-home elderly 4"
+      ],
+      "claimed_cost": 716,
+      "text": "The plan rescues 8 people, defers 12, and has a total cost of 716.\n\n- **Evacuation point:** Myagang shelter is the only one. Nilkantha temple isn't designated, so nobody can be dropped there.\n- **Road access:** Myagang connects to the flood area only through Nilkantha temple and Naukunda village. Thakre village has no one waiting and leads nowhere else.\n- **Closed roads:** Galchhi\u2013Shivapuri and Dhunche\u2013Shivapuri are closed, and Galchhi\u2013Bidur is flooded. Bidur and Shivapuri can only be reached through Naukunda and Dhunche.\n\n| Location | People | Round trip from Myagang (minutes) | Deferral penalty | Decision |\n|---|---|---|---|---|\n| Galchhi village | 3 children, 1 injured | 214 | 260 | Rescue all 4 with one full car, saving 46 overall |\n| Nilkantha temple | 7 adults | 62 per trip | 140 | Make one trip for 4 adults (penalty saved 80) and defer the other 3 |\n| Bidur school | 3 children | 238 | 180 | Defer, as the trip costs 58 more than the penalty |\n| Shivapuri care home | 4 elderly | 278 | 200 | Defer, as the trip costs 78 more than the penalty |\n\n**Alternatives that cost more:**\n- **Second Nilkantha trip:** this costs 62 to avoid 60 in penalties, for a total of 718.\n- **Adding a Bidur trip:** even with 1 Nilkantha adult picked up on the way back, the total is 754.\n- **Adding a Shivapuri trip carrying the 3 Bidur children and 1 elderly person:** the total is 764.\n- **Deferring everyone:** the total is 780.\n\n<plan>\ndrive car1 myagang-shelter nilkantha-temple\ndrive car1 nilkantha-temple naukunda-village\ndrive car1 naukunda-village galchhi-village\nload car1 injured 1\nload car1 child 3\ndrive car1 galchhi-village naukunda-village\ndrive car1 naukunda-village nilkantha-temple\ndrive car1 nilkantha-temple myagang-shelter\nunload car1 injured 1\nunload car1 child 3\ndrive car2 myagang-shelter nilkantha-temple\nload car2 adult 4\ndrive car2 nilkantha-temple myagang-shelter\nunload car2 adult 4\ndefer nilkantha-temple adult 3\ndefer bidur-school child 3\ndefer shivapuri-care-home elderly 4\n</plan>\n\n**Cost breakdown:**\n- **Driving:** 214 (car1) + 62 (car2) = 276\n- **Penalties:** 3 adults (60) + 3 children (180) + 4 elderly (200) = 440\n- **Total:** 276 + 440 = 716\n\nCOST: 716"
+    }
+  ]
+}

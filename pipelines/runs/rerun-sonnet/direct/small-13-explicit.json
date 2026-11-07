@@ -1,0 +1,48 @@
+{
+  "pipeline": "direct",
+  "instance": "small-13",
+  "size": "small",
+  "level": "explicit",
+  "model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1603,
+    "output_tokens": 322,
+    "calls": 1,
+    "seconds": 5.2
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 120,
+    "travel_minutes": 0,
+    "deferred_penalty": 120,
+    "rescued": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 0
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 1,
+      "elderly": 0,
+      "adult": 3
+    },
+    "people_rescued": 0,
+    "priority_people_rescued": 0
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "defer belkot-village child 1",
+        "defer nilkantha-market adult 3"
+      ],
+      "claimed_cost": 120,
+      "text": "The plan defers everyone, for a total cost of 120.\n\n- **Nilkantha market:** both roads into it are damaged, so the 3 adults can't be reached. Deferring them costs 3 \u00d7 20 = 60.\n- **Belkot village:** the only route is Bidur \u2192 Suryagadhi (20) \u2192 Likhu (51) \u2192 Belkot (22), which is 93 minutes each way, or 186 minutes round trip. Deferring the child costs only 60, so deferring is cheaper.\n\n<plan>\ndefer belkot-village child 1\ndefer nilkantha-market adult 3\n</plan>\n\nCOST: 120"
+    }
+  ]
+}

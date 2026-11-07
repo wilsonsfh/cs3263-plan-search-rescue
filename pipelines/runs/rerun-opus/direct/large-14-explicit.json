@@ -1,0 +1,87 @@
+{
+  "pipeline": "direct",
+  "instance": "large-14",
+  "size": "large",
+  "level": "explicit",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 2468,
+    "output_tokens": 4788,
+    "calls": 1,
+    "seconds": 45.8
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 460,
+    "travel_minutes": 400,
+    "deferred_penalty": 60,
+    "rescued": {
+      "injured": 8,
+      "child": 0,
+      "elderly": 9,
+      "adult": 2
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 3
+    },
+    "people_rescued": 19,
+    "priority_people_rescued": 17
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 trishuli-shelter dupcheshwar-care-home",
+        "load car1 elderly 4",
+        "drive car1 dupcheshwar-care-home trishuli-shelter",
+        "unload car1 elderly 4",
+        "drive car1 trishuli-shelter uttargaya-farm",
+        "load car1 injured 3",
+        "drive car1 uttargaya-farm trishuli-shelter",
+        "unload car1 injured 3",
+        "drive car1 trishuli-shelter uttargaya-farm",
+        "drive car1 uttargaya-farm tadi-care-home",
+        "load car1 elderly 4",
+        "drive car1 tadi-care-home uttargaya-farm",
+        "drive car1 uttargaya-farm trishuli-shelter",
+        "unload car1 elderly 4",
+        "drive car1 trishuli-shelter dupcheshwar-care-home",
+        "drive car1 dupcheshwar-care-home gajuri-market",
+        "drive car1 gajuri-market tarkeshwar-market",
+        "drive car1 tarkeshwar-market syaphru-market",
+        "load car1 injured 4",
+        "drive car1 syaphru-market tarkeshwar-market",
+        "drive car1 tarkeshwar-market gajuri-market",
+        "drive car1 gajuri-market dupcheshwar-care-home",
+        "drive car1 dupcheshwar-care-home trishuli-shelter",
+        "unload car1 injured 4",
+        "drive car1 trishuli-shelter dupcheshwar-care-home",
+        "drive car1 dupcheshwar-care-home gajuri-market",
+        "drive car1 gajuri-market tarkeshwar-market",
+        "drive car1 tarkeshwar-market benighat-care-home",
+        "load car1 elderly 1",
+        "drive car1 benighat-care-home tarkeshwar-market",
+        "load car1 adult 1",
+        "drive car1 tarkeshwar-market gajuri-market",
+        "load car1 injured 1",
+        "load car1 adult 1",
+        "drive car1 gajuri-market dupcheshwar-care-home",
+        "drive car1 dupcheshwar-care-home trishuli-shelter",
+        "unload car1 elderly 1",
+        "unload car1 injured 1",
+        "unload car1 adult 2",
+        "defer tarkeshwar-market adult 1",
+        "defer jwalamukhi-market adult 2"
+      ],
+      "claimed_cost": 460,
+      "text": "Only car1 can do any rescue work. The one road out of Dhunche hospital is impassable, so car2 is stuck there. Every rescued person therefore has to go to Trishuli shelter by round trip, which means the car's seats limit how many people can be saved.\n\n| Trip | Route from Trishuli shelter and back | People rescued | Minutes |\n|---|---|---|---|\n| 1 | Dupcheshwar care home | 4 elderly | 38 |\n| 2 | Uttargaya farm | 3 injured | 48 |\n| 3 | Uttargaya farm, Tadi care home | 4 elderly | 70 |\n| 4 | Dupcheshwar, Gajuri, Tarkeshwar, Syaphru market | 4 injured | 132 |\n| 5 | Dupcheshwar, Gajuri, Tarkeshwar, Benighat care home | 1 elderly, 1 injured, 2 adults | 112 |\n\n**Deferred:** 3 adults (1 at Tarkeshwar market, 2 at Jwalamukhi market) at 20 each, for a penalty of 60. Another trip for them would take at least 94 minutes, which is more than the 60 it would save.\n\n**Why trip 5 goes to Benighat:** it is the best way to collect the remaining people on the western route. Its 112 minutes plus the 60 penalty come to 172. Turning back at Tarkeshwar instead would cost 94 minutes plus a 90 penalty, or 184, because the elderly person at Benighat would be deferred.\n\nI compared these trip combinations by hand rather than running an exhaustive solver, and none of the alternatives I checked was cheaper.\n\n**Total cost:** 400 minutes of driving + 60 in penalties = 460\n\n<plan>\ndrive car1 trishuli-shelter dupcheshwar-care-home\nload car1 elderly 4\ndrive car1 dupcheshwar-care-home trishuli-shelter\nunload car1 elderly 4\ndrive car1 trishuli-shelter uttargaya-farm\nload car1 injured 3\ndrive car1 uttargaya-farm trishuli-shelter\nunload car1 injured 3\ndrive car1 trishuli-shelter uttargaya-farm\ndrive car1 uttargaya-farm tadi-care-home\nload car1 elderly 4\ndrive car1 tadi-care-home uttargaya-farm\ndrive car1 uttargaya-farm trishuli-shelter\nunload car1 elderly 4\ndrive car1 trishuli-shelter dupcheshwar-care-home\ndrive car1 dupcheshwar-care-home gajuri-market\ndrive car1 gajuri-market tarkeshwar-market\ndrive car1 tarkeshwar-market syaphru-market\nload car1 injured 4\ndrive car1 syaphru-market tarkeshwar-market\ndrive car1 tarkeshwar-market gajuri-market\ndrive car1 gajuri-market dupcheshwar-care-home\ndrive car1 dupcheshwar-care-home trishuli-shelter\nunload car1 injured 4\ndrive car1 trishuli-shelter dupcheshwar-care-home\ndrive car1 dupcheshwar-care-home gajuri-market\ndrive car1 gajuri-market tarkeshwar-market\ndrive car1 tarkeshwar-market benighat-care-home\nload car1 elderly 1\ndrive car1 benighat-care-home tarkeshwar-market\nload car1 adult 1\ndrive car1 tarkeshwar-market gajuri-market\nload car1 injured 1\nload car1 adult 1\ndrive car1 gajuri-market dupcheshwar-care-home\ndrive car1 dupcheshwar-care-home trishuli-shelter\nunload car1 elderly 1\nunload car1 injured 1\nunload car1 adult 2\ndefer tarkeshwar-market adult 1\ndefer jwalamukhi-market adult 2\n</plan>\n\nCOST: 460"
+    }
+  ]
+}

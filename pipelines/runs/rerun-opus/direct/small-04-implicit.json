@@ -1,0 +1,51 @@
+{
+  "pipeline": "direct",
+  "instance": "small-04",
+  "size": "small",
+  "level": "implicit",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1741,
+    "output_tokens": 1191,
+    "calls": 1,
+    "seconds": 12.6
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 102,
+    "travel_minutes": 42,
+    "deferred_penalty": 60,
+    "rescued": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 3
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 3
+    },
+    "people_rescued": 3,
+    "priority_people_rescued": 0
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 naukunda-shelter likhu-school",
+        "load car1 adult 3",
+        "drive car1 likhu-school naukunda-shelter",
+        "unload car1 adult 3",
+        "defer benighat-farm adult 3"
+      ],
+      "claimed_cost": 102,
+      "text": "The best plan is to rescue the three adults at Likhu school and defer the three at Benighat farm, for a total cost of 102.\n\n**Constraints**\n- **Evacuation point:** Naukunda shelter is the only one, because Likhu school has not been designated.\n- **Access:** The direct Naukunda\u2013Benighat road is buried, so all travel from Naukunda goes through Likhu school (21 minutes). Benighat farm is a further 22 minutes from Likhu.\n- **People:** There are 3 adults at Likhu school and 3 at Benighat farm. Each adult costs 20 to defer.\n\n**Options compared**\n\n| Option | Driving | Deferred | Penalty | Total |\n|---|---|---|---|---|\n| Defer everyone | 0 | 6 adults | 120 | 120 |\n| Rescue 3 from Likhu, defer 3 from Benighat | 42 | 3 adults | 60 | **102** |\n| One trip via Benighat carrying 4, defer 2 | 86 | 2 adults | 40 | 126 |\n| Rescue everyone in two trips | 128 | 0 | 0 | 128 |\n\nRescuing the Likhu group saves 60 in penalties for 42 minutes of driving, so it is worth doing. Reaching Benighat adds at least 44 minutes of driving. The one-trip option only saves one more deferral (20), and the two-trip option saves three (60) but needs 86 more minutes, so neither pays off.\n\n<plan>\ndrive car1 naukunda-shelter likhu-school\nload car1 adult 3\ndrive car1 likhu-school naukunda-shelter\nunload car1 adult 3\ndefer benighat-farm adult 3\n</plan>\n\nCOST: 102"
+    }
+  ]
+}

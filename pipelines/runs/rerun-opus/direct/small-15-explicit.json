@@ -1,0 +1,52 @@
+{
+  "pipeline": "direct",
+  "instance": "small-15",
+  "size": "small",
+  "level": "explicit",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1720,
+    "output_tokens": 736,
+    "calls": 1,
+    "seconds": 8.2
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 74,
+    "travel_minutes": 14,
+    "deferred_penalty": 60,
+    "rescued": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 3
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 3
+    },
+    "people_rescued": 3,
+    "priority_people_rescued": 0
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 shivapuri-shelter kalika-farm",
+        "load car1 adult 3",
+        "drive car1 kalika-farm shivapuri-shelter",
+        "unload car1 adult 3",
+        "defer dupcheshwar-market adult 1",
+        "defer uttargaya-farm adult 2"
+      ],
+      "claimed_cost": 74,
+      "text": "Deferring an adult costs 20, so I compared each pickup's driving time with the penalties it would avoid. The car starts at the shelter, which is also the only evacuation point, so every pickup is a round trip.\n\n| Option | Driving | Penalties avoided | Worth it? |\n|---|---|---|---|\n| Kalika farm (3 adults) | 14 min (7 each way) | 60 | Yes |\n| Dupcheshwar market (1 adult) | 64 min (32 each way) | 20 | No |\n| Uttargaya farm and Dupcheshwar market (3 adults, one trip via the market) | 110 min (55 each way) | 60 | No |\n\nKalika farm connects only to the shelter, so it can't be combined with the other pickups.\n\nThe best plan is to rescue the 3 adults at Kalika farm and defer the other 3 adults to a later wave.\n\n**Total cost:** 14 minutes of driving + 60 in penalties (3 \u00d7 20) = 74\n\n<plan>\ndrive car1 shivapuri-shelter kalika-farm\nload car1 adult 3\ndrive car1 kalika-farm shivapuri-shelter\nunload car1 adult 3\ndefer dupcheshwar-market adult 1\ndefer uttargaya-farm adult 2\n</plan>\n\nCOST: 74"
+    }
+  ]
+}

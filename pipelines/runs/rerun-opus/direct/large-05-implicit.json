@@ -1,0 +1,65 @@
+{
+  "pipeline": "direct",
+  "instance": "large-05",
+  "size": "large",
+  "level": "implicit",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 2537,
+    "output_tokens": 3066,
+    "calls": 1,
+    "seconds": 28.8
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 566,
+    "travel_minutes": 86,
+    "deferred_penalty": 480,
+    "rescued": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 3,
+      "adult": 4
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 2,
+      "elderly": 4,
+      "adult": 8
+    },
+    "people_rescued": 7,
+    "priority_people_rescued": 3
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car2 nilkantha-hospital tadi-village",
+        "drive car2 tadi-village trishuli-care-home",
+        "load car2 elderly 3",
+        "drive car2 trishuli-care-home tadi-village",
+        "drive car2 tadi-village nilkantha-hospital",
+        "unload car2 elderly 3",
+        "drive car2 nilkantha-hospital tadi-village",
+        "drive car2 tadi-village trishuli-care-home",
+        "drive car2 trishuli-care-home uttargaya-market",
+        "load car2 adult 4",
+        "drive car2 uttargaya-market trishuli-care-home",
+        "drive car2 trishuli-care-home tadi-village",
+        "drive car2 tadi-village nilkantha-hospital",
+        "unload car2 adult 4",
+        "defer suryagadhi-market elderly 4",
+        "defer suryagadhi-market child 2",
+        "defer suryagadhi-market adult 6",
+        "defer panchakanya-farm adult 1",
+        "defer belkot-village adult 1"
+      ],
+      "claimed_cost": 566,
+      "text": "# Rescue plan: Nuwakot flood response (large-05)\n\nThis plan rescues 7 of the 21 people and defers the other 14, for a total cost of 566.\n\n**Constraints**\n- **car1 can't move:** both roads out of Thakre shelter are unusable. The Trishuli road is flooded with fast water, and I treated it as blocked because a truck was swept off it this morning. The Panchakanya road's bridge is gone.\n- **Only car2 can operate:** its only reachable evacuation point is Nilkantha hospital. Naukunda temple isn't designated, so drop-offs there wouldn't count.\n- **Panchakanya farm can't be reached:** its only road is the one with the washed-out bridge, so the adult there must be deferred.\n\n**Decisions for each location**\n\n| Location | People | Decision | Cost |\n|---|---|---|---|\n| Trishuli care home | 3 elderly | Rescue (round trip via Tadi village) | 30 driving, compared with a 150 penalty |\n| Uttargaya market | 4 adults | Rescue (round trip via Tadi village and Trishuli) | 56 driving, compared with an 80 penalty |\n| Belkot village | 1 adult | Defer (a round trip takes 62 minutes) | 20 penalty |\n| Panchakanya farm | 1 adult | Defer (unreachable) | 20 penalty |\n| Suryagadhi market | 4 elderly, 2 children, 6 adults | Defer all | 440 penalty |\n\n**Suryagadhi market:** this is a close call. A round trip takes 228 minutes, and the most valuable load (2 children and 2 elderly) only avoids 220 in penalties, so it costs 8 more than deferring. A second trip would avoid even less, at most 140. These 12 people, including 4 elderly and 2 children, should be a priority for the next wave.\n\n<plan>\ndrive car2 nilkantha-hospital tadi-village\ndrive car2 tadi-village trishuli-care-home\nload car2 elderly 3\ndrive car2 trishuli-care-home tadi-village\ndrive car2 tadi-village nilkantha-hospital\nunload car2 elderly 3\ndrive car2 nilkantha-hospital tadi-village\ndrive car2 tadi-village trishuli-care-home\ndrive car2 trishuli-care-home uttargaya-market\nload car2 adult 4\ndrive car2 uttargaya-market trishuli-care-home\ndrive car2 trishuli-care-home tadi-village\ndrive car2 tadi-village nilkantha-hospital\nunload car2 adult 4\ndefer suryagadhi-market elderly 4\ndefer suryagadhi-market child 2\ndefer suryagadhi-market adult 6\ndefer panchakanya-farm adult 1\ndefer belkot-village adult 1\n</plan>\n\n**Total cost**\n- **Driving:** 30 + 56 = 86\n- **Penalties:** 200 (elderly) + 120 (children) + 160 (adults) = 480\n- **Total:** 86 + 480 = 566\n\nCOST: 566"
+    }
+  ]
+}

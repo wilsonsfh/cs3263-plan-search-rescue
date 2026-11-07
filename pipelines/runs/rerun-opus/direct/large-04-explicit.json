@@ -1,0 +1,72 @@
+{
+  "pipeline": "direct",
+  "instance": "large-04",
+  "size": "large",
+  "level": "explicit",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 2555,
+    "output_tokens": 2916,
+    "calls": 1,
+    "seconds": 27.1
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 577,
+    "travel_minutes": 137,
+    "deferred_penalty": 440,
+    "rescued": {
+      "injured": 2,
+      "child": 0,
+      "elderly": 8,
+      "adult": 2
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 4,
+      "elderly": 0,
+      "adult": 10
+    },
+    "people_rescued": 12,
+    "priority_people_rescued": 10
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 shivapuri-shelter jwalamukhi-care-home",
+        "load car1 elderly 4",
+        "drive car1 jwalamukhi-care-home shivapuri-shelter",
+        "unload car1 elderly 4",
+        "drive car2 trishuli-hospital thakre-care-home",
+        "drive car2 thakre-care-home bidur-school",
+        "load car2 injured 1",
+        "drive car2 bidur-school belkot-care-home",
+        "load car2 elderly 3",
+        "drive car2 belkot-care-home thakre-care-home",
+        "drive car2 thakre-care-home trishuli-hospital",
+        "unload car2 injured 1",
+        "unload car2 elderly 3",
+        "drive car2 trishuli-hospital syaphru-village",
+        "load car2 adult 2",
+        "drive car2 syaphru-village thakre-care-home",
+        "load car2 elderly 1",
+        "load car2 injured 1",
+        "drive car2 thakre-care-home trishuli-hospital",
+        "unload car2 adult 2",
+        "unload car2 elderly 1",
+        "unload car2 injured 1",
+        "defer kakani-farm adult 3",
+        "defer kispang-farm adult 4",
+        "defer benighat-farm child 4",
+        "defer kalika-village adult 3"
+      ],
+      "claimed_cost": 577,
+      "text": "**Reachability**\n\nThe damaged roads split the network into separate parts:\n- **Car1:** can only travel between Shivapuri shelter and Jwalamukhi care home.\n- **Car2:** can reach Syaphru, Thakre, Bidur and Belkot from Trishuli hospital.\n- **Cut off from both cars:** Kakani, Kispang, Benighat and Kalika, so these people must be deferred.\n\n**Forced deferrals**\n\n| Location | People | Penalty |\n|---|---|---|\n| Kakani farm | 3 adults | 60 |\n| Kispang farm | 4 adults | 80 |\n| Benighat farm | 4 children | 240 |\n| Kalika village | 3 adults | 60 |\n| **Total** | | **440** |\n\n**Rescue trips**\n\nEveryone within reach is worth rescuing:\n- **Car1, Jwalamukhi (36 min):** the round trip brings back all 4 elderly people, compared with a 200 penalty for deferring them.\n- **Car2, 8 people:** this takes at least two trips with 4 seats, and the best split costs 101 minutes:\n  - **Trip 1 (70 min):** Trishuli \u2192 Thakre \u2192 Bidur \u2192 Belkot \u2192 Thakre \u2192 Trishuli, carrying 1 injured person from Bidur and 3 elderly people from Belkot.\n  - **Trip 2 (31 min):** Trishuli \u2192 Syaphru \u2192 Thakre \u2192 Trishuli, carrying 2 adults from Syaphru and 1 elderly and 1 injured person from Thakre.\n\nI checked the alternatives by hand, and they all cost more. Moving people between the two trips costs at least 122 minutes. Deferring the Syaphru adults saves only 5 minutes of driving for a 40 penalty, and deferring just one of them saves no driving. Deferring the injured person at Bidur adds an 80 penalty, which outweighs the driving saved.\n\n<plan>\ndrive car1 shivapuri-shelter jwalamukhi-care-home\nload car1 elderly 4\ndrive car1 jwalamukhi-care-home shivapuri-shelter\nunload car1 elderly 4\ndrive car2 trishuli-hospital thakre-care-home\ndrive car2 thakre-care-home bidur-school\nload car2 injured 1\ndrive car2 bidur-school belkot-care-home\nload car2 elderly 3\ndrive car2 belkot-care-home thakre-care-home\ndrive car2 thakre-care-home trishuli-hospital\nunload car2 injured 1\nunload car2 elderly 3\ndrive car2 trishuli-hospital syaphru-village\nload car2 adult 2\ndrive car2 syaphru-village thakre-care-home\nload car2 elderly 1\nload car2 injured 1\ndrive car2 thakre-care-home trishuli-hospital\nunload car2 adult 2\nunload car2 elderly 1\nunload car2 injured 1\ndefer kakani-farm adult 3\ndefer kispang-farm adult 4\ndefer benighat-farm child 4\ndefer kalika-village adult 3\n</plan>\n\n**Total cost:** 36 (car1) + 101 (car2) + 440 (penalties) = 577\n\nCOST: 577"
+    }
+  ]
+}

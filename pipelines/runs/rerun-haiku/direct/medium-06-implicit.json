@@ -1,0 +1,66 @@
+{
+  "pipeline": "direct",
+  "instance": "medium-06",
+  "size": "medium",
+  "level": "implicit",
+  "model": "claude-haiku-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 2087,
+    "output_tokens": 7086,
+    "calls": 1,
+    "seconds": 33.4
+  },
+  "result": {
+    "valid": false,
+    "error": "step 14: road kalika-temple-nilkantha-temple is damaged",
+    "cost": null,
+    "travel_minutes": 174,
+    "deferred_penalty": 0,
+    "rescued": {
+      "injured": 1,
+      "child": 0,
+      "elderly": 3,
+      "adult": 0
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 0
+    },
+    "people_rescued": 4,
+    "priority_people_rescued": 4
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 jwalamukhi-shelter gajuri-school",
+        "drive car1 gajuri-school kalika-temple",
+        "load car1 elderly 3",
+        "drive car1 kalika-temple syaphru-care-home",
+        "load car1 injured 1",
+        "drive car1 syaphru-care-home kalika-temple",
+        "drive car1 kalika-temple gajuri-school",
+        "drive car1 gajuri-school jwalamukhi-shelter",
+        "unload car1 injured 1",
+        "unload car1 elderly 3",
+        "drive car1 jwalamukhi-shelter gajuri-school",
+        "drive car1 gajuri-school kalika-temple",
+        "load car1 elderly 3",
+        "drive car1 kalika-temple nilkantha-temple",
+        "load car1 elderly 1",
+        "drive car1 nilkantha-temple kalika-temple",
+        "drive car1 kalika-temple gajuri-school",
+        "drive car1 gajuri-school jwalamukhi-shelter",
+        "unload car1 elderly 4",
+        "defer suryagadhi-market adult 1"
+      ],
+      "claimed_cost": 256,
+      "text": "<plan>\ndrive car1 jwalamukhi-shelter gajuri-school\ndrive car1 gajuri-school kalika-temple\nload car1 elderly 3\ndrive car1 kalika-temple syaphru-care-home\nload car1 injured 1\ndrive car1 syaphru-care-home kalika-temple\ndrive car1 kalika-temple gajuri-school\ndrive car1 gajuri-school jwalamukhi-shelter\nunload car1 injured 1\nunload car1 elderly 3\ndrive car1 jwalamukhi-shelter gajuri-school\ndrive car1 gajuri-school kalika-temple\nload car1 elderly 3\ndrive car1 kalika-temple nilkantha-temple\nload car1 elderly 1\ndrive car1 nilkantha-temple kalika-temple\ndrive car1 kalika-temple gajuri-school\ndrive car1 gajuri-school jwalamukhi-shelter\nunload car1 elderly 4\ndefer suryagadhi-market adult 1\n</plan>\nCOST: 256\n\nNotes on this plan:\n- **Evacuation point:** Only Jwalamukhi shelter is used as a drop-off. Gajuri school is not designated, so the car passes through it but never unloads there.\n- **Routes:** Kalika temple is reachable only via Gajuri school, because the Belkot road is buried and the Syaphru road is closed. Syaphru care home is reachable only from Kalika temple. Suryagadhi market is reachable only through Nilkantha temple.\n- **Trip 1 (136 min):** Picks up the injured farmer at Syaphru care home along with 3 elderly from Kalika temple.\n- **Trip 2 (100 min):** Picks up the remaining 3 elderly at Kalika temple and the elderly widow at Nilkantha temple.\n- **Adult deferred:** Reaching the bus driver at Suryagadhi market adds about 110 minutes of driving, against a deferral penalty of 20. Deferring is the cheaper option, but that is a cost judgement. If the team can accept more driving, rescuing him is possible.\n- **Flood risk:** The Kalika temple to Nilkantha temple road is listed as usable but has fast floodwater and a recent vehicle loss. The plan depends on it twice. Check it before driving, and treat this route as the main operational risk."
+    }
+  ]
+}

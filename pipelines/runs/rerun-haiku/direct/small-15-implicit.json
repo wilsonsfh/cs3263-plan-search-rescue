@@ -1,0 +1,57 @@
+{
+  "pipeline": "direct",
+  "instance": "small-15",
+  "size": "small",
+  "level": "implicit",
+  "model": "claude-haiku-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1906,
+    "output_tokens": 3805,
+    "calls": 1,
+    "seconds": 19.4
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 124,
+    "travel_minutes": 124,
+    "deferred_penalty": 0,
+    "rescued": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 6
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 0
+    },
+    "people_rescued": 6,
+    "priority_people_rescued": 0
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 shivapuri-shelter kalika-farm",
+        "load car1 adult 3",
+        "drive car1 kalika-farm shivapuri-shelter",
+        "unload car1 adult 3",
+        "drive car1 shivapuri-shelter dupcheshwar-market",
+        "drive car1 dupcheshwar-market uttargaya-farm",
+        "load car1 adult 2",
+        "drive car1 uttargaya-farm dupcheshwar-market",
+        "load car1 adult 1",
+        "drive car1 dupcheshwar-market shivapuri-shelter",
+        "unload car1 adult 3"
+      ],
+      "claimed_cost": 124,
+      "text": "<plan>\ndrive car1 shivapuri-shelter kalika-farm\nload car1 adult 3\ndrive car1 kalika-farm shivapuri-shelter\nunload car1 adult 3\ndrive car1 shivapuri-shelter dupcheshwar-market\ndrive car1 dupcheshwar-market uttargaya-farm\nload car1 adult 2\ndrive car1 uttargaya-farm dupcheshwar-market\nload car1 adult 1\ndrive car1 dupcheshwar-market shivapuri-shelter\nunload car1 adult 3\n</plan>\nCOST: 124\n\nThis rescues all six stranded adults at Shivapuri shelter with no deferrals. Dhunche temple is not used because it has not been designated an evacuation point. The report gives no injured, child or elderly people, so everyone is treated as an adult."
+    }
+  ]
+}

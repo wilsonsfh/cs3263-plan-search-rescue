@@ -1,0 +1,88 @@
+{
+  "pipeline": "direct",
+  "instance": "large-06",
+  "size": "large",
+  "level": "explicit",
+  "model": "claude-haiku-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 2347,
+    "output_tokens": 30788,
+    "calls": 1,
+    "seconds": 139.1
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 445,
+    "travel_minutes": 265,
+    "deferred_penalty": 180,
+    "rescued": {
+      "injured": 0,
+      "child": 6,
+      "elderly": 5,
+      "adult": 12
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 2,
+      "adult": 4
+    },
+    "people_rescued": 23,
+    "priority_people_rescued": 11
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 kispang-shelter kakani-temple",
+        "load car1 adult 3",
+        "drive car1 kakani-temple kispang-shelter",
+        "unload car1 adult 3",
+        "drive car2 benighat-hospital gajuri-school",
+        "drive car2 gajuri-school jwalamukhi-market",
+        "load car2 child 2",
+        "drive car2 jwalamukhi-market syaphru-care-home",
+        "load car2 elderly 2",
+        "drive car2 syaphru-care-home jwalamukhi-market",
+        "drive car2 jwalamukhi-market gajuri-school",
+        "drive car2 gajuri-school benighat-hospital",
+        "unload car2 child 2",
+        "unload car2 elderly 2",
+        "drive car2 benighat-hospital gajuri-school",
+        "load car2 child 1",
+        "drive car2 gajuri-school jwalamukhi-market",
+        "drive car2 jwalamukhi-market syaphru-care-home",
+        "load car2 elderly 3",
+        "drive car2 syaphru-care-home jwalamukhi-market",
+        "drive car2 jwalamukhi-market gajuri-school",
+        "drive car2 gajuri-school benighat-hospital",
+        "unload car2 child 1",
+        "unload car2 elderly 3",
+        "drive car2 benighat-hospital gajuri-school",
+        "load car2 child 3",
+        "load car2 adult 1",
+        "drive car2 gajuri-school benighat-hospital",
+        "unload car2 child 3",
+        "unload car2 adult 1",
+        "drive car2 benighat-hospital myagang-farm",
+        "load car2 adult 4",
+        "drive car2 myagang-farm benighat-hospital",
+        "unload car2 adult 4",
+        "drive car2 benighat-hospital myagang-farm",
+        "load car2 adult 2",
+        "drive car2 myagang-farm gajuri-school",
+        "load car2 adult 2",
+        "drive car2 gajuri-school benighat-hospital",
+        "unload car2 adult 4",
+        "defer tarkeshwar-farm adult 4",
+        "defer shivapuri-care-home elderly 2"
+      ],
+      "claimed_cost": 445,
+      "text": "<plan>\ndrive car1 kispang-shelter kakani-temple\nload car1 adult 3\ndrive car1 kakani-temple kispang-shelter\nunload car1 adult 3\ndrive car2 benighat-hospital gajuri-school\ndrive car2 gajuri-school jwalamukhi-market\nload car2 child 2\ndrive car2 jwalamukhi-market syaphru-care-home\nload car2 elderly 2\ndrive car2 syaphru-care-home jwalamukhi-market\ndrive car2 jwalamukhi-market gajuri-school\ndrive car2 gajuri-school benighat-hospital\nunload car2 child 2\nunload car2 elderly 2\ndrive car2 benighat-hospital gajuri-school\nload car2 child 1\ndrive car2 gajuri-school jwalamukhi-market\ndrive car2 jwalamukhi-market syaphru-care-home\nload car2 elderly 3\ndrive car2 syaphru-care-home jwalamukhi-market\ndrive car2 jwalamukhi-market gajuri-school\ndrive car2 gajuri-school benighat-hospital\nunload car2 child 1\nunload car2 elderly 3\ndrive car2 benighat-hospital gajuri-school\nload car2 child 3\nload car2 adult 1\ndrive car2 gajuri-school benighat-hospital\nunload car2 child 3\nunload car2 adult 1\ndrive car2 benighat-hospital myagang-farm\nload car2 adult 4\ndrive car2 myagang-farm benighat-hospital\nunload car2 adult 4\ndrive car2 benighat-hospital myagang-farm\nload car2 adult 2\ndrive car2 myagang-farm gajuri-school\nload car2 adult 2\ndrive car2 gajuri-school benighat-hospital\nunload car2 adult 4\ndefer tarkeshwar-farm adult 4\ndefer shivapuri-care-home elderly 2\n</plan>\nCOST: 445"
+    }
+  ]
+}

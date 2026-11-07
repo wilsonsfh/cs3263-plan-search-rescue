@@ -1,0 +1,65 @@
+{
+  "pipeline": "direct",
+  "instance": "medium-15",
+  "size": "medium",
+  "level": "implicit",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 2084,
+    "output_tokens": 2686,
+    "calls": 1,
+    "seconds": 25.4
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 194,
+    "travel_minutes": 154,
+    "deferred_penalty": 40,
+    "rescued": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 2,
+      "adult": 9
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 2
+    },
+    "people_rescued": 11,
+    "priority_people_rescued": 2
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 jwalamukhi-shelter tadi-farm",
+        "load car1 adult 2",
+        "drive car1 tadi-farm jwalamukhi-shelter",
+        "unload car1 adult 2",
+        "drive car2 gosaikunda-hospital galchhi-farm",
+        "load car2 elderly 2",
+        "drive car2 galchhi-farm gosaikunda-hospital",
+        "unload car2 elderly 2",
+        "drive car2 gosaikunda-hospital kakani-village",
+        "drive car2 kakani-village dupcheshwar-market",
+        "load car2 adult 4",
+        "drive car2 dupcheshwar-market kakani-village",
+        "drive car2 kakani-village gosaikunda-hospital",
+        "unload car2 adult 4",
+        "drive car2 gosaikunda-hospital kakani-village",
+        "load car2 adult 3",
+        "drive car2 kakani-village gosaikunda-hospital",
+        "unload car2 adult 3",
+        "defer dupcheshwar-market adult 2"
+      ],
+      "claimed_cost": 194,
+      "text": "The cheapest plan I found costs 194: 154 minutes of driving plus 40 in penalties for deferring 2 adults at Dupcheshwar market. I compared the options by hand rather than with a solver.\n\n**Assumptions:** Gosaikunda hospital and Jwalamukhi shelter are the two evacuation points. The shopkeepers, labourers and cooperative members count as adults (penalty 20 each), and the pensioners count as elderly (penalty 50 each).\n\n**Decisions by location**\n\n| Location | People | Decision | Cost | Alternative |\n|---|---|---|---|---|\n| Tadi farm | 2 adults | car1 rescues them, returning to Jwalamukhi shelter | 10 | Deferring costs 40 |\n| Galchhi farm | 2 elderly | car2 rescues them, returning to Gosaikunda hospital (the Jwalamukhi road is buried) | 86 | Deferring costs 100 |\n| Dupcheshwar market and Kakani village | 6 and 3 adults | car2 makes one trip to Dupcheshwar market and one to Kakani village, and 2 adults are deferred | 98 | See below |\n\n**Dupcheshwar market and Kakani village**\n\nBoth are reached through Gosaikunda hospital. A round trip costs 48 minutes to Dupcheshwar market and 10 to Kakani village, and each trip carries at most 4 people.\n\n| Trips | Driving | People deferred | Penalty | Total |\n|---|---|---|---|---|\n| **1 to Dupcheshwar market, 1 to Kakani village** | **58** | **2** | **40** | **98** |\n| 2 to Dupcheshwar market, 1 to Kakani village | 106 | 0 | 0 | 106 |\n| 2 to Dupcheshwar market | 96 | 1 | 20 | 116 |\n| 1 to Kakani village only | 10 | 6 | 120 | 130 |\n| 1 to Dupcheshwar market only | 48 | 5 | 100 | 148 |\n\nRescuing the last 2 labourers would take another 48-minute trip, which costs more than the 40 penalty for deferring them.\n\n<plan>\ndrive car1 jwalamukhi-shelter tadi-farm\nload car1 adult 2\ndrive car1 tadi-farm jwalamukhi-shelter\nunload car1 adult 2\ndrive car2 gosaikunda-hospital galchhi-farm\nload car2 elderly 2\ndrive car2 galchhi-farm gosaikunda-hospital\nunload car2 elderly 2\ndrive car2 gosaikunda-hospital kakani-village\ndrive car2 kakani-village dupcheshwar-market\nload car2 adult 4\ndrive car2 dupcheshwar-market kakani-village\ndrive car2 kakani-village gosaikunda-hospital\nunload car2 adult 4\ndrive car2 gosaikunda-hospital kakani-village\nload car2 adult 3\ndrive car2 kakani-village gosaikunda-hospital\nunload car2 adult 3\ndefer dupcheshwar-market adult 2\n</plan>\n\nCOST: 194"
+    }
+  ]
+}

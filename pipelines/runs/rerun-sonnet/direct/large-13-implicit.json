@@ -1,0 +1,77 @@
+{
+  "pipeline": "direct",
+  "instance": "large-13",
+  "size": "large",
+  "level": "implicit",
+  "model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 2553,
+    "output_tokens": 3124,
+    "calls": 1,
+    "seconds": 23.4
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 217,
+    "travel_minutes": 197,
+    "deferred_penalty": 20,
+    "rescued": {
+      "injured": 10,
+      "child": 6,
+      "elderly": 0,
+      "adult": 4
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 1
+    },
+    "people_rescued": 20,
+    "priority_people_rescued": 16
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car2 dhunche-hospital jwalamukhi-school",
+        "load car2 injured 3",
+        "load car2 child 1",
+        "drive car2 jwalamukhi-school dhunche-hospital",
+        "unload car2 injured 3",
+        "unload car2 child 1",
+        "drive car2 dhunche-hospital gosaikunda-village",
+        "load car2 injured 4",
+        "drive car2 gosaikunda-village dhunche-hospital",
+        "unload car2 injured 4",
+        "drive car2 dhunche-hospital gosaikunda-village",
+        "load car2 child 3",
+        "load car2 adult 1",
+        "drive car2 gosaikunda-village dhunche-hospital",
+        "unload car2 child 3",
+        "unload car2 adult 1",
+        "drive car1 kalika-shelter kakani-village",
+        "load car1 injured 3",
+        "load car1 child 1",
+        "drive car1 kakani-village kalika-shelter",
+        "unload car1 injured 3",
+        "unload car1 child 1",
+        "drive car1 kalika-shelter benighat-farm",
+        "drive car1 benighat-farm naukunda-market",
+        "load car1 adult 3",
+        "drive car1 naukunda-market jwalamukhi-school",
+        "load car1 child 1",
+        "drive car1 jwalamukhi-school dhunche-hospital",
+        "unload car1 adult 3",
+        "unload car1 child 1",
+        "defer gosaikunda-village adult 1"
+      ],
+      "claimed_cost": 217,
+      "text": "This plan assumes the Kalika shelter to Syaphru care home road is unusable, since a truck was swept off it. Jwalamukhi school is not a designated drop-off point, so it is only used as a pickup and transit stop.\n\n- **car2** first takes 3 injured and 1 child from Jwalamukhi school to Dhunche hospital. It then makes two round trips to Gosaikunda village. The first brings back the 4 injured, and the second brings back the 3 children and 1 adult.\n- **car1** takes 3 injured and 1 child from Kakani village to Kalika shelter. It then drives via Benighat farm to Naukunda market for the 3 adults, picks up the last child at Jwalamukhi school, and delivers all four to Dhunche hospital.\n- **One adult at Gosaikunda village is deferred.** A third round trip would cost 46 minutes to save a 20-point penalty.\n\nCost breakdown:\n- car2: 18 + 46 + 46 = 110 minutes\n- car1: 28 + 59 = 87 minutes\n- Deferral: 1 adult = 20\n\n<plan>\ndrive car2 dhunche-hospital jwalamukhi-school\nload car2 injured 3\nload car2 child 1\ndrive car2 jwalamukhi-school dhunche-hospital\nunload car2 injured 3\nunload car2 child 1\ndrive car2 dhunche-hospital gosaikunda-village\nload car2 injured 4\ndrive car2 gosaikunda-village dhunche-hospital\nunload car2 injured 4\ndrive car2 dhunche-hospital gosaikunda-village\nload car2 child 3\nload car2 adult 1\ndrive car2 gosaikunda-village dhunche-hospital\nunload car2 child 3\nunload car2 adult 1\ndrive car1 kalika-shelter kakani-village\nload car1 injured 3\nload car1 child 1\ndrive car1 kakani-village kalika-shelter\nunload car1 injured 3\nunload car1 child 1\ndrive car1 kalika-shelter benighat-farm\ndrive car1 benighat-farm naukunda-market\nload car1 adult 3\ndrive car1 naukunda-market jwalamukhi-school\nload car1 child 1\ndrive car1 jwalamukhi-school dhunche-hospital\nunload car1 adult 3\nunload car1 child 1\ndefer gosaikunda-village adult 1\n</plan>\n\nCOST: 217"
+    }
+  ]
+}

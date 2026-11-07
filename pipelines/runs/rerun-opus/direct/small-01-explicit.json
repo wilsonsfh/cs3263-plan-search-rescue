@@ -1,0 +1,57 @@
+{
+  "pipeline": "direct",
+  "instance": "small-01",
+  "size": "small",
+  "level": "explicit",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1686,
+    "output_tokens": 1008,
+    "calls": 1,
+    "seconds": 13.9
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 154,
+    "travel_minutes": 134,
+    "deferred_penalty": 20,
+    "rescued": {
+      "injured": 0,
+      "child": 2,
+      "elderly": 2,
+      "adult": 0
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 1
+    },
+    "people_rescued": 4,
+    "priority_people_rescued": 4
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 myagang-shelter uttargaya-school",
+        "load car1 child 2",
+        "drive car1 uttargaya-school nilkantha-market",
+        "drive car1 nilkantha-market syaphru-temple",
+        "load car1 elderly 2",
+        "defer syaphru-temple adult 1",
+        "drive car1 syaphru-temple nilkantha-market",
+        "drive car1 nilkantha-market uttargaya-school",
+        "drive car1 uttargaya-school myagang-shelter",
+        "unload car1 child 2",
+        "unload car1 elderly 2"
+      ],
+      "claimed_cost": 154,
+      "text": "The cheapest plan costs **154**: one round trip that rescues both children and both elderly people, with the adult at Syaphru temple deferred to a later wave.\n\n**Route:** The direct shelter\u2013Nilkantha road is impassable, so the car must go shelter \u2192 Uttargaya school (28) \u2192 Nilkantha market (8) \u2192 Syaphru temple (31). That is 67 minutes each way.\n\n**Options compared:**\n- **Rescue everyone:** This needs two trips because the car holds only 4 people. One round trip to the school is 56 minutes and one round trip to the temple is 134. Total cost is 190.\n- **Rescue only the children and defer the 3 people at the temple:** Driving is 56 minutes. The penalties are 20 for the adult plus 100 for the two elderly people. Total cost is 176.\n- **One trip with the car full:** The car picks up the 2 children on the way, then the 2 elderly people at the temple. Deferring the adult costs 20, the cheapest penalty. Driving is 134 minutes, so total cost is 154. This is the best option.\n\n<plan>\ndrive car1 myagang-shelter uttargaya-school\nload car1 child 2\ndrive car1 uttargaya-school nilkantha-market\ndrive car1 nilkantha-market syaphru-temple\nload car1 elderly 2\ndefer syaphru-temple adult 1\ndrive car1 syaphru-temple nilkantha-market\ndrive car1 nilkantha-market uttargaya-school\ndrive car1 uttargaya-school myagang-shelter\nunload car1 child 2\nunload car1 elderly 2\n</plan>\n\nCOST: 154"
+    }
+  ]
+}
