@@ -6,10 +6,9 @@ input, output and usage: `pipelines/runs/main/direct/<id>-<level>.json`; console
 Sections 1–10 cover the main run (Opus 5.5). The same 90 calls were then repeated with **Sonnet 5.5** and
 **Haiku 5.5** (runs `main-sonnet` and `main-haiku`, 4 Nov). The comparison of the three models is in **section 11**.
 
-> **Update 7 Nov: read section 12 first.** All 45 references are now proven optimal and all 3 models were run again.
-> No run beats the reference, so every "beat best-known" statement in sections 2–11 is out of date. Those sections
-> are kept as the record of what was measured against the old reference. Section 12 has the current results and what
-> the totals hide.
+> **Update 7 Nov: read `wilson/main_results-run-2.md` first.** All 45 references are now proven optimal, and all 3
+> models were run a second time. No run beats the reference, so every "beat best-known" statement in sections 2–11 is
+> out of date. Those sections are kept as the record of what was measured against the old reference.
 
 ## 1. What was run
 
@@ -99,7 +98,7 @@ search wherever optimal search finishes.
 ### 5.2 Where the planner timed out, the LLM did better than it
 
 > **Out of date (7 Nov):** the true optimum is now known. The LLM beat Fast Downward's 300 s plan but never the optimum.
-> See section 12.4.
+> See `wilson/main_results-run-2.md` section 7.
 
 On the 10 large instances without a proven optimum, the LLM found plans **0.2% to 31% cheaper** than the best plan
 Fast Downward found in 300 s. The checker accepted every one of them, and the cost the LLM claimed matched the
@@ -260,7 +259,7 @@ Nothing is committed yet. Local `main` is 7 commits ahead of GitHub: Jia Bao's `
 
 ## 10. What to tell the team (Wed 4 Nov check-in)
 
-> **Out of date (7 Nov):** this message used the old reference. Use section 12 instead.
+> **Out of date (7 Nov):** this message used the old reference. Use `wilson/main_results-run-2.md` instead.
 
 Short version you can say or paste:
 
@@ -349,7 +348,7 @@ Short version you can say or paste:
 
 ### 11.2 Overall
 
-> **Out of date (7 Nov):** the best-known columns used the old reference. Current counts are in section 12.1.
+> **Out of date (7 Nov):** the best-known columns used the old reference. Current counts are in `wilson/main_results-run-2.md` section 2.
 
 | Model | Valid | Optimal on proven-optimal (68 runs) | Beat best-known (22 runs) | Match best-known (22 runs) | Worse than best-known (22 runs) | Mean gap (valid plans) | Output tokens per call | Seconds per call | Total output tokens | Total time |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -445,7 +444,7 @@ best-known instances.)
 
 ### 11.7 What the comparison means
 
-> **Out of date (7 Nov):** points 3 and 6 did not hold up in the re-run. See sections 12.3 and 12.4.
+> **Out of date (7 Nov):** points 3 and 6 did not hold up in run 2. See `wilson/main_results-run-2.md` sections 5 and 7.
 
 1. **Bigger model, more reliable plans.** Valid plans: 89 → 89 → 84. Optimal on proven-optimal runs: 67 → 59 → 52.
    Sonnet is as reliable as Opus but more often settles for a slightly worse plan (about 6% more expensive when it
@@ -476,186 +475,7 @@ best-known instances.)
    are within noise. The large differences (Haiku's 6 implicit failures, Sonnet's drop to 26/34 optimal on
    implicit) are the ones to report.
 
-## 12. Re-run against the proven-optimal reference (7 Nov)
+## 12. Run 2
 
-**What changed.** Jia Bao's exact solver (`pddl/exact.py`, PR #4) proved the optimal cost of all 45 instances, so the
-reference is now the true optimum. 10 large references dropped; `medium-14` kept its cost and is now proven. All 3
-models were then run again in full: same prompt, reports, instances and checker, effort medium, tools off, one
-attempt per report, through the subscription. The new runs are `pipelines/runs/rerun-opus`, `rerun-sonnet` and
-`rerun-haiku`. The original runs were only re-scored: their plans are unchanged, and only `reference_cost`,
-`reference_optimal` and `gap_pct` changed in their `results.csv`.
-
-The complete per-run lists, including every match, are in `wilson/rerun_results.md`, with one row per run in
-`wilson/rerun_classification.csv`.
-
-### 12.1 Results
-
-| Model | Set | Beat | Match | Worse | Invalid |
-|---|---|---|---|---|---|
-| Opus 5.5 | Original | 0 | 84 | 5 | 1 |
-| Opus 5.5 | Re-run | 0 | **88** | 2 | 0 |
-| Sonnet 5.5 | Original | 0 | 70 | 19 | 1 |
-| Sonnet 5.5 | Re-run | 0 | **72** | 18 | 0 |
-| Haiku 5.5 | Original | 0 | 70 | 14 | 6 |
-| Haiku 5.5 | Re-run | 0 | **70** | 15 | 5 |
-
-No plan beat the reference in 540 runs, which is what should happen against a proven optimum. Every report was
-matched by at least one of its 6 runs.
-
-### 12.2 Every run that did not match
-
-The number in brackets is the cost above the reference. Any run not listed is a match.
-
-**Re-run**
-
-| Model | Worse, explicit | Worse, implicit | Invalid |
-|---|---|---|---|
-| Opus | large-08 (+4), large-15 (+1) | None | None |
-| Sonnet | small-10 (+8), medium-01 (+16), large-02 (+6), large-06 (+5), large-07 (+6), large-08 (+8), large-10 (+42), large-11 (+2), large-12 (+10), large-13 (+5), large-14 (+12), large-15 (+1) | medium-01 (+16), large-08 (+4), large-09 (+4), large-12 (+10), large-13 (+5), large-15 (+1) | None |
-| Haiku | medium-02 (+1), medium-03 (+14), large-08 (+4), large-09 (+28), large-12 (+10), large-14 (+12), large-15 (+1) | small-15 (+50), medium-02 (+1), medium-07 (+17), medium-11 (+16), large-06 (+3), large-07 (+20), large-08 (+4), large-14 (+43) | Implicit: small-09, medium-03, medium-05, medium-06, large-04 |
-
-**Original**
-
-| Model | Worse, explicit | Worse, implicit | Invalid |
-|---|---|---|---|
-| Opus | large-02 (+2), large-11 (+2), large-12 (+10), large-15 (+1) | large-15 (+1) | Explicit: large-09 |
-| Sonnet | small-10 (+8), large-02 (+6), large-08 (+8), large-12 (+10), large-13 (+5), large-15 (+1) | small-01 (+22), small-10 (+8), medium-01 (+16), medium-14 (+5), medium-15 (+18), large-02 (+1), large-04 (+31), large-07 (+6), large-08 (+8), large-09 (+4), large-11 (+8), large-12 (+10), large-15 (+1) | Implicit: large-14 |
-| Haiku | small-04 (+26), medium-03 (+14), medium-08 (+12), medium-13 (+22), medium-14 (+6), medium-15 (+18), large-08 (+4), large-13 (+26) | small-08 (+40), small-15 (+44), medium-07 (+17), medium-15 (+18), large-07 (+16), large-12 (+6) | Implicit: small-06, medium-03, medium-05, medium-06, large-04, large-09 |
-
-### 12.3 What the totals hide
-
-**1. Similar totals, but many individual runs changed.** Haiku scored 70 matches both times, yet 24 of its 90 runs
-changed outcome or cost. For example, on `large-12` its explicit run went from 302 to 312 while its implicit run went
-from 308 to 302. A single run of a report is therefore a weak measurement for Sonnet and Haiku.
-
-| Model | Same category and cost | Worse → match | Match → worse | Invalid → match | Match → invalid | Worse → worse, new cost |
-|---|---|---|---|---|---|---|
-| Opus | 84/90 | 4 | 1 | 1 | 0 | 0 |
-| Sonnet | 73/90 | 8 | 7 | 1 | 0 | 1 |
-| Haiku | 66/90 | 9 | 10 | 2 | 1 | 2 |
-
-Each changed run is listed in `wilson/rerun_results.md`, section 5.
-
-**2. Sonnet and Haiku tie overall, but not at any size.** Across both sets, Sonnet has 142/180 matches and Haiku
-140/180, while Opus has 172/180. Splitting by size shows the near-tie comes from two opposite results, and both sets
-agree on the direction:
-
-| Size | Opus (original, re-run) | Sonnet (original, re-run) | Haiku (original, re-run) |
-|---|---|---|---|
-| Small (of 30) | 30, 30 | 27, 29 | 26, 28 |
-| Medium (of 30) | 30, 30 | 27, 28 | 20, 22 |
-| Large (of 30) | 24, 28 | **16, 15** | **24, 20** |
-
-Haiku is the weaker of the two on small and medium but the stronger on large, where it also writes about 4× as many
-output tokens. That the extra tokens cause the better large results is a hypothesis; this data doesn't test it. Opus
-is the best at every size, or tied for best.
-
-**3. Sonnet's explicit vs implicit result reversed between sets.** Its matches (explicit/implicit) were 39/31 in the
-original and 33/39 in the re-run. Most of the swing is on large: explicit went from 10 to 5, and implicit from 6 to 10.
-The original looked like implicit reports hurt Sonnet, and section 11.7 calls that a difference worth reporting; the
-re-run doesn't support it. Don't claim an explicit vs implicit effect for Sonnet. Opus (40/44, 43/45) and Haiku (37/33,
-38/32) didn't reverse, but those differences are small too.
-
-**4. Haiku's invalid plans are mostly one specific reading mistake.** All 11 Haiku invalids are on implicit reports,
-and Haiku has none on the 90 explicit runs. 8 of the 11 drove onto a road described with one wording:
-
-> Floodwater is running fast over the ... road; a truck was swept off it this morning.
-
-| Damage wording in the implicit report | Reports | Opus runs driving it | Sonnet runs driving it | Haiku runs driving it |
-|---|---|---|---|---|
-| "Floodwater is running fast ... a truck was swept off it" | 24 | 0/48 | 0/48 | **8/48** |
-| "A landslide has buried the road" | 20 | 0/40 | 0/40 | 0/40 |
-| "Police have closed the ... road" | 20 | 0/40 | 0/40 | 0/40 |
-| "The bridge ... was washed away" | 19 | 0/38 | 0/38 | 0/38 |
-
-The floodwater sentence is the only one of the four that describes a hazard without saying the road is gone or
-closed. The affected runs are `large-04`, `medium-05` and `medium-06` in both sets, `large-09` in the original and
-`small-09` in the re-run. So this failure repeats on some reports, but not always on the same ones.
-
-The other 3 Haiku invalids:
-- `medium-03` implicit, both sets, identical error and identical first 11 plan steps. The report says "an old man who
-  cannot walk unaided"; the explicit report says "1 elderly person". Haiku tried to defer him as injured, and the
-  checker correctly rejected it because no injured person is waiting there. This wording appears in 4 reports, and
-  only `medium-03` failed this way.
-- `small-06` implicit, original only: Haiku forgot 1 adult. This did not recur.
-
-**5. "Worse" covers different mistakes, and some "worse" plans save more people.** I compared all 73 worse plans with
-the exact solver's optimal plan for the same instance (`pddl/instances/<id>.exact-plan`):
-
-| Model | Same people deferred, longer drive | Lower deferral penalty than optimal (over-rescue) | Higher deferral penalty than optimal |
-|---|---|---|---|
-| Opus (7 worse) | 5 | 1 | 1 |
-| Sonnet (37 worse) | 23 | 4 | 10 |
-| Haiku (29 worse) | 7 | **18** | 4 |
-| All (73) | 35 | 23 | 15 |
-| Mean cost above optimal | +7.9 | **+18.8** | +9.5 |
-
-Sonnet's usual mistake is a slightly longer route. Haiku's is driving further to avoid a deferral that the cost
-function says is worth accepting, and this is the costliest kind. In 21 of the 23 over-rescue runs the plan saves at
-least 1 more person than the optimum; the other 2 save the same number from different groups.
-
-The clearest example is `small-15` implicit in Haiku's re-run. It drives 124 minutes and rescues everyone, for a cost
-of 124. The optimum drives 14 minutes and defers 3 adults at a penalty of 20 each, for a cost of 74. So that plan is
-scored 67.6% worse while saving 3 more people.
-
-**For the report:** "worse" means worse under the current penalties (80/60/50/20), not necessarily worse for the people
-in the flood. This bears directly on the discussion about the deferral penalty, because a higher adult penalty would
-change which of these plans counts as optimal. These runs have not been re-scored under other penalties.
-
-**6. Some near-misses repeat.** 14 worse runs have exactly the same cost in both sets: 1 Opus (`large-15` explicit),
-10 Sonnet (`small-10` explicit, `medium-01` implicit, `large-02` explicit, `large-08` explicit, `large-09` implicit,
-`large-12` both, `large-13` explicit, `large-15` both) and 3 Haiku (`medium-03` explicit, `medium-07` implicit,
-`large-08` explicit). 13 of the 14 also have the same driving time and the same people deferred, so the model reached
-the same suboptimal solution twice. 3 of those are word-for-word the same plan, and 5 more contain the same actions in
-a different order. The exception is Sonnet's `large-08` explicit: both cost 374, but one is 204 minutes plus 170 in
-penalties and the other is 264 plus 110, so the equal cost is a coincidence.
-
-**7. The difficulty is concentrated.** 44 of the 90 reports were matched by all 6 runs. Of the 86 non-matching runs, 53
-are on large, 23 on medium and 10 on small. The hardest reports are `large-15` explicit and `large-08` explicit (5 of
-6 runs missed), then `large-12` explicit (4 of 6).
-
-**8. A second attempt helps the smaller models more.** This table counts reports, out of 90, across each model's two
-sets.
-
-| Model | Matched in both sets | Matched in at least one | Never matched |
-|---|---|---|---|
-| Opus | 83 | 89 | `large-15` explicit |
-| Sonnet | 63 | 79 | `small-10` explicit, `medium-01` implicit, `large-02` explicit, `large-08` both, `large-09` implicit, `large-12` both, `large-13` explicit, `large-15` both |
-| Haiku | 59 | 81 | `small-15` implicit, `medium-03` both, `medium-05` implicit, `medium-06` implicit, `medium-07` implicit, `large-04` implicit, `large-07` implicit, `large-08` explicit |
-
-This is not what the pipeline does, since it makes one attempt per report. It only shows how much of the shortfall is
-run-to-run variation.
-
-**9. Opus's token rise is unexplained.** Mean output tokens per run:
-
-| Model | Original | Re-run | Re-run runs using more tokens than the original |
-|---|---|---|---|
-| Opus | 2,093 | **2,880** (+38%) | **82/90** |
-| Sonnet | 2,262 | 2,219 | 40/90 |
-| Haiku | 8,930 | 8,891 | 50/90 |
-
-82 of 90 is not chance variation. Input tokens per run are unchanged (2,085), so the prompt is the same size. Opus also
-improved from 84 to 88 matches over the same runs, but nothing here shows that one caused the other. The run files
-don't record the Claude Code version, so a change there can't be ruled out, and I don't know the cause.
-
-**10. The two-`<plan>`-blocks problem did not recur.** Section 8 describes answers with two `<plan>` blocks, of
-which `extract_plan` scores the first. That happened in 2 of the 270 original runs (Opus `large-09` explicit, Haiku
-`small-09` implicit) and 0 of the 270 re-runs.
-
-### 12.4 Claims this replaces
-
-- **"Beat best-known" is retired.** It was true only against the old reference. What remains true is narrower: on those
-  10 large instances the models found cheaper plans than Fast Downward's best in 300 s. Those plans are now known to
-  be at or above the optimum, and never below it.
-- **"Haiku found the best plans of all three on `large-15`" needs care.** Across both sets, 476 was reached 3 of 4 times
-  by Haiku, 1 of 4 by Opus and 0 of 4 by Sonnet. That leans towards Haiku, but Opus also reached it in the re-run.
-- **"The models differ in reliability, not in how good their plans can be"** is too strong. Opus matches on 172/180
-  against 142 and 140, so match rates differ as well as validity.
-- **The large mean-gap figures in sections 3, 4 and 11** were measured against the old reference. Use
-  `pipelines/runs/*/results.csv` for current values.
-
-### 12.5 Limits
-
-This is two sets per model, so it shows how much one repeat differed, not a stable variance estimate. Both sets use the
-same reports, so they aren't independent samples. I ran no significance tests. The re-run of
-Opus spanned a usage limit: 7 failed calls from 6 Nov were filled in on 7 Nov and are included like any other run.
+All 3 models were run a second time against the proven-optimal reference. The results and what the totals hide
+are in **`wilson/main_results-run-2.md`**.
