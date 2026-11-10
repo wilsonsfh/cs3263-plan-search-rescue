@@ -76,7 +76,7 @@ direct,small-07,small,implicit,claude-haiku-5-5,medium,True,122,122,True,0.0,11,
 direct,small-08,small,explicit,claude-haiku-5-5,medium,True,520,520,True,0.0,0,1,1763,2215,,520
 direct,small-08,small,implicit,claude-haiku-5-5,medium,True,560,520,True,7.7,4,1,1930,4418,,560
 direct,small-09,small,explicit,claude-haiku-5-5,medium,True,420,420,True,0.0,0,1,1663,350,,420
-direct,small-09,small,implicit,claude-haiku-5-5,medium,True,420,420,True,0.0,0,1,1839,3071,,420
+direct,small-09,small,implicit,claude-haiku-5-5,medium,False,,420,True,,0,1,1879,3132,step 1: road kispang-shelter-nilkantha-village is damaged,114
 direct,small-10,small,explicit,claude-haiku-5-5,medium,True,136,136,True,0.0,6,1,1692,3074,,136
 direct,small-10,small,implicit,claude-haiku-5-5,medium,True,136,136,True,0.0,6,1,1840,4482,,136
 direct,small-11,small,explicit,claude-haiku-5-5,medium,True,154,154,True,0.0,6,1,1677,1602,,154

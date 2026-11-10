@@ -5,6 +5,8 @@ pipelines/ is not edited: this patches pipelines.DIRECT_INSTRUCTIONS in memory, 
 Takes every cli_eval.py option. Usage, from the repo root:
     .venv/bin/python wilson/rerun_one_block.py --pipelines direct --ids large-09 --levels explicit \
         --model claude-opus-5-5 --tag run1-patch-opus
+Output goes to pipelines/runs/<tag>/. The two run 1 reruns were copied from there into pipelines/runs/main and
+main-haiku, replacing the originals (see wilson/main_run_results.md section 13).
 """
 
 import sys
