@@ -1,0 +1,15 @@
+% Standalone preview of Yoon's sections. The group report should \input the files in
+% sections/ instead; it needs booktabs, amsmath and graphicx, and the entries in references.bib.
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,booktabs,graphicx}
+\usepackage[hidelinks]{hyperref}
+\begin{document}
+\section{Reference plans and the cost model}
+\input{sections/optimal-references.tex}
+\input{sections/lambda.tex}
+\bibliographystyle{plain}
+\bibliography{references}
+\appendix
+\input{sections/appendix-optima.tex}
+\end{document}

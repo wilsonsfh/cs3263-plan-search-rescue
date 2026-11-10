@@ -14,6 +14,7 @@ no-split comparison version (no-split/) can use the same instances.
 Usage:
   python3 generate.py                        # default set: 3 sizes x 15 seeds
   python3 generate.py --sizes small --count 5 --seed 100
+  python3 generate.py --lambda 40 --out instances-lambda40   # same instances, other penalties
 """
 
 import argparse
@@ -22,8 +23,20 @@ import math
 import random
 from pathlib import Path
 
-# Minutes of driving one rescued person is "worth", per age band.
-PENALTY_PER_PERSON = {"injured": 80, "child": 60, "elderly": 50, "adult": 20}
+# Deferral penalty per person = LAMBDA x RISK[band].
+#   RISK:   urgency of each group relative to an adult (triage order: injured first).
+#   LAMBDA: driving minutes worth spending to rescue one adult now rather than next wave.
+# LAMBDA = 20 gives injured 80, child 60, elderly 50, adult 20. Change it with --lambda.
+# Penalties are rounded to whole minutes (Fast Downward needs integer costs), so use an even LAMBDA.
+RISK = {"injured": 4, "child": 3, "elderly": 2.5, "adult": 1}
+LAMBDA = 20
+
+
+def penalties(lam):
+    return {b: round(lam * r) for b, r in RISK.items()}
+
+
+PENALTY_PER_PERSON = penalties(LAMBDA)
 BANDS = ["injured", "child", "elderly", "adult"]
 CAR_SEATS = 4
 
@@ -137,6 +150,7 @@ def generate(size, seed):
     people = [{"location": l, "band": b, "count": n} for (l, b), n in counts.items()]
     return {
         "id": f"{size}-{seed:02d}", "size": size, "seed": seed,
+        "lambda": LAMBDA, "risk": RISK,
         "penalty_per_person": PENALTY_PER_PERSON,
         "locations": locs, "roads": roads, "people": people, "cars": cars,
         "groups": groups,
@@ -185,13 +199,22 @@ def to_pddl(inst):
     return "\n".join(L) + "\n"
 
 
+def set_lambda(lam):
+    global LAMBDA, PENALTY_PER_PERSON
+    LAMBDA = int(lam) if float(lam).is_integer() else lam
+    PENALTY_PER_PERSON = penalties(lam)
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--sizes", nargs="+", default=list(SIZES), choices=list(SIZES))
     ap.add_argument("--count", type=int, default=15, help="instances per size")
     ap.add_argument("--seed", type=int, default=1, help="first seed")
     ap.add_argument("--out", default=str(Path(__file__).parent / "instances"))
+    ap.add_argument("--lambda", dest="lam", type=float, default=LAMBDA,
+                    help="minutes one adult rescue is worth (penalty = lambda x risk)")
     args = ap.parse_args()
+    set_lambda(args.lam)
 
     out = Path(args.out)
     out.mkdir(parents=True, exist_ok=True)

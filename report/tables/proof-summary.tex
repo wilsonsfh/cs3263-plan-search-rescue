@@ -1,0 +1,13 @@
+\begin{tabular}{lrrrrr}
+\toprule
+ & \multicolumn{2}{c}{Fast Downward} & \multicolumn{3}{c}{\texttt{exact.py}} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-6}
+Size & proven & by LM-cut / M\&S & proven & max time (s) & max states \\
+\midrule
+Small & 15/15 & 15 / 0 & 15/15 & $<$0.1 & 47 \\
+Medium & 14/15 & 10 / 4 & 15/15 & 0.4 & 5{,}197 \\
+Large & 5/15 & 2 / 3 & 15/15 & 109.0 & 242{,}399 \\
+\midrule
+All & 34/45 & & 45/45 & & \\
+\bottomrule
+\end{tabular}

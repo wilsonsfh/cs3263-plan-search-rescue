@@ -18,8 +18,10 @@ People wait at locations and are counted per band (injured, child, elderly, adul
 A car has 4 seats, can load any number of people that fits, and can only drop
 people off at an evacuation point, so people at one location can be split
 across cars or trips. Everyone must end up either rescued (delivered) or
-deferred to a later rescue wave. Deferring costs a penalty per person
-(injured 80, child 60, elderly 50, adult 20 minutes). The planner minimises total driving
+deferred to a later rescue wave. Deferring costs a penalty per person of
+lambda x r_b: r_b is the group's urgency relative to an adult (injured 4, child 3,
+elderly 2.5, adult 1) and lambda is the driving minutes one adult rescue is worth.
+The default lambda = 20 gives injured 80, child 60, elderly 50, adult 20 minutes. The planner minimises total driving
 time plus deferral penalties. This is the soft-goal-to-action-cost compilation
 of Keyder & Geffner (2009). The plan ends once nobody is left waiting or in a
 car; cars don't have to return.
@@ -32,7 +34,7 @@ car; cars don't have to return.
 | medium | 7-9 | 1-2 | 1-2 | 5-7 | ~20% |
 | large | 10-14 | 2 | 2 | 8-12 | ~25% |
 
-Settings live at the top of `generate.py` (`SIZES`, `PENALTY_PER_PERSON`, `CAR_SEATS`).
+Settings live at the top of `generate.py` (`SIZES`, `RISK`, `LAMBDA`, `CAR_SEATS`).
 Instances are reproducible: the same size and seed always give the same instance.
 
 The `.json` file is the ground truth for each instance. Use it to write the
@@ -81,6 +83,26 @@ and marks the result `optimal=False`.
 To rebuild the no-split comparison, use `no-split/domain.pddl` with the
 problem files in `no-split/instances/` (made by `no-split/generate.py` from
 the same JSON instances).
+
+## Changing lambda
+
+Each lambda gets its own folder, so the default (lambda = 20) set and its references stay as they are.
+The instances are identical (same seeds); only the deferral penalties change. Use an even lambda, since
+penalties are rounded to whole minutes.
+
+```
+python3 generate.py --lambda 40 --out lambda-40/instances
+python3 solve.py --instances lambda-40/instances --timeout 300 --jobs 4   # writes lambda-40/results/reference.csv
+(cd no-split && python3 generate.py --root ../lambda-40)                  # lambda-40/no-split/instances
+python3 solve.py --domain no-split/domain.pddl --instances lambda-40/no-split/instances --timeout 120 --jobs 4
+python3 best_reference.py --root lambda-40                                # lambda-40/instances/*.best-plan
+cd ../pipelines && python3 run_eval.py --instances ../pddl/lambda-40/instances --tag lambda-40
+```
+
+The pipelines read the penalties from each instance's JSON, so the prompts always match the lambda.
+Include the no-split solve: on large instances it often gives the best known plan. `best_reference.py`
+still works without it, but the references will be weaker.
+`lambda-sweep/` has an exact trade-off curve over lambda for all 45 instances, and the figures for the report.
 
 ## Notes for the report
 

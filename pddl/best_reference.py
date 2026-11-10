@@ -14,6 +14,7 @@ Plans from exact.py (instances/<id>.exact-plan) are optimal for the splitting
 domain, so any instance that has one is marked proven optimal.
 
 Run after solve.py, exact.py (and after solving no-split/ with the same tools).
+For a lambda variant: python3 best_reference.py --root lambda-40 (no-split is optional).
 """
 
 import csv
@@ -50,18 +51,23 @@ def nosplit_to_plain(lines, inst):
 
 
 def main():
-    split = {r["id"]: r for r in csv.DictReader(open(HERE / "results" / "reference.csv"))}
+    import argparse
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--root", default=str(HERE),
+                    help="folder holding instances/ and results/ (e.g. lambda-40 for a lambda variant)")
+    root = Path(ap.parse_args().root).resolve()
+    split = {r["id"]: r for r in csv.DictReader(open(root / "results" / "reference.csv"))}
     rows = []
     for jid in sorted(split):
-        inst = json.loads((HERE / "instances" / f"{jid}.json").read_text())
+        inst = json.loads((root / "instances" / f"{jid}.json").read_text())
         cands = []
-        p = HERE / "instances" / f"{jid}.plan"
+        p = root / "instances" / f"{jid}.plan"
         if p.exists():
             cands.append(("split-" + split[jid]["search"], plain(p.read_text().splitlines())))
-        e = HERE / "instances" / f"{jid}.exact-plan"
+        e = root / "instances" / f"{jid}.exact-plan"
         if e.exists():
             cands.append(("exact", e.read_text().splitlines()))
-        q = HERE / "no-split" / "instances" / f"{jid}.plan"
+        q = root / "no-split" / "instances" / f"{jid}.plan"
         if q.exists():
             cands.append(("no-split", nosplit_to_plain(q.read_text().splitlines(), inst)))
         scored = []
@@ -70,12 +76,12 @@ def main():
             if r["valid"]:
                 scored.append((r["cost"], src, lines))
         cost, src, lines = min(scored, key=lambda t: t[0])
-        (HERE / "instances" / f"{jid}.best-plan").write_text("\n".join(lines) + "\n")
+        (root / "instances" / f"{jid}.best-plan").write_text("\n".join(lines) + "\n")
         rows.append({"id": jid, "best_cost": cost, "best_source": src,
                      "proven_optimal": src.startswith("split-optimal") or e.exists(),
                      "split_cost": split[jid]["cost"], "split_search": split[jid]["search"],
                      "split_seconds": split[jid]["seconds"]})
-    with open(HERE / "results" / "best_reference.csv", "w", newline="") as f:
+    with open(root / "results" / "best_reference.csv", "w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=list(rows[0]))
         w.writeheader()
         w.writerows(rows)

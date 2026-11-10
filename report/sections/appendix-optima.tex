@@ -1,0 +1,13 @@
+% Appendix: all 45 proven-optimal reference costs (Yoon). Table from report/make_tables.py.
+\section{Proven-optimal reference costs}
+\label{app:optima}
+
+\begin{table}[h]
+  \centering\small
+  \input{tables/all-optima.tex}
+  \caption{Optimal cost (driving minutes plus deferral penalties, $\lambda = 20$) of every
+  instance, and how optimality was proven: Fast Downward A$^*$ with LM-cut or with
+  merge-and-shrink (M\&S) within 300\,s, or our exact solver \texttt{exact.py} where Fast
+  Downward ran out of time. \texttt{exact.py} also reproduces every Fast Downward optimum.}
+  \label{tab:all-optima}
+\end{table}
