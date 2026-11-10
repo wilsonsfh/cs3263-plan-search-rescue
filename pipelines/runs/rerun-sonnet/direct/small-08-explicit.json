@@ -1,0 +1,50 @@
+{
+  "pipeline": "direct",
+  "instance": "small-08",
+  "size": "small",
+  "level": "explicit",
+  "model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1742,
+    "output_tokens": 671,
+    "calls": 1,
+    "seconds": 6.9
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 520,
+    "travel_minutes": 0,
+    "deferred_penalty": 520,
+    "rescued": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 0
+    },
+    "deferred": {
+      "injured": 4,
+      "child": 1,
+      "elderly": 0,
+      "adult": 7
+    },
+    "people_rescued": 0,
+    "priority_people_rescued": 0
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "defer likhu-school child 1",
+        "defer likhu-school injured 4",
+        "defer thakre-market adult 3",
+        "defer trishuli-market adult 4"
+      ],
+      "claimed_cost": 520,
+      "text": "Every road into Likhu school is damaged, so its 1 child and 4 injured people cannot be reached and must be deferred. That costs 60 + 4\u00d780 = 380.\n\nThe adults are not worth rescuing, because the driving costs more than the deferral penalty:\n- **Trishuli market:** the round trip is 12 + 31 + 17 = 60 minutes each way, so 120 minutes. Deferring the 4 adults costs only 4\u00d720 = 80.\n- **Thakre market:** the round trip is 79 minutes each way, so 158 minutes. Deferring the 3 adults costs only 60.\n- **Combined trip:** the car holds only 4, so a combined trip would cost even more.\n\nThe cheapest plan defers everyone: 380 + 80 + 60 = 520.\n\n<plan>\ndefer likhu-school child 1\ndefer likhu-school injured 4\ndefer thakre-market adult 3\ndefer trishuli-market adult 4\n</plan>\nCOST: 520"
+    }
+  ]
+}

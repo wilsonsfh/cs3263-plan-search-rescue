@@ -1,0 +1,50 @@
+{
+  "pipeline": "direct",
+  "instance": "small-08",
+  "size": "small",
+  "level": "explicit",
+  "model": "claude-haiku-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1763,
+    "output_tokens": 2215,
+    "calls": 1,
+    "seconds": 13.3
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 520,
+    "travel_minutes": 0,
+    "deferred_penalty": 520,
+    "rescued": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 0
+    },
+    "deferred": {
+      "injured": 4,
+      "child": 1,
+      "elderly": 0,
+      "adult": 7
+    },
+    "people_rescued": 0,
+    "priority_people_rescued": 0
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "defer likhu-school injured 4",
+        "defer likhu-school child 1",
+        "defer thakre-market adult 3",
+        "defer trishuli-market adult 4"
+      ],
+      "claimed_cost": 520,
+      "text": "The best plan is to defer everyone and send no cars. Likhu school is cut off because both of its roads are damaged. For the adults, one round trip to Trishuli market costs 120 driving minutes and saves only 80 in penalties (4 adults \u00d7 20), so it isn't worth making.\n\n<plan>\ndefer likhu-school injured 4\ndefer likhu-school child 1\ndefer thakre-market adult 3\ndefer trishuli-market adult 4\n</plan>\n\nCOST: 520"
+    }
+  ]
+}

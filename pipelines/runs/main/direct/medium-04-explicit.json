@@ -1,0 +1,63 @@
+{
+  "pipeline": "direct",
+  "instance": "medium-04",
+  "size": "medium",
+  "level": "explicit",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1873,
+    "output_tokens": 2141,
+    "calls": 1,
+    "seconds": 24.0
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 716,
+    "travel_minutes": 276,
+    "deferred_penalty": 440,
+    "rescued": {
+      "injured": 1,
+      "child": 3,
+      "elderly": 0,
+      "adult": 4
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 3,
+      "elderly": 4,
+      "adult": 3
+    },
+    "people_rescued": 8,
+    "priority_people_rescued": 4
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 myagang-shelter nilkantha-temple",
+        "drive car1 nilkantha-temple naukunda-village",
+        "drive car1 naukunda-village galchhi-village",
+        "load car1 child 3",
+        "load car1 injured 1",
+        "drive car1 galchhi-village naukunda-village",
+        "drive car1 naukunda-village nilkantha-temple",
+        "drive car1 nilkantha-temple myagang-shelter",
+        "unload car1 child 3",
+        "unload car1 injured 1",
+        "drive car2 myagang-shelter nilkantha-temple",
+        "load car2 adult 4",
+        "drive car2 nilkantha-temple myagang-shelter",
+        "unload car2 adult 4",
+        "defer nilkantha-temple adult 3",
+        "defer bidur-school child 3",
+        "defer shivapuri-care-home elderly 4"
+      ],
+      "claimed_cost": 716,
+      "text": "The cheapest plan rescues Galchhi village and four of the Nilkantha temple adults, and defers everyone else. Total cost is **716**.\n\n**Shortest driving times from Myagang shelter (the only evacuation point)**\n- Nilkantha temple: 31 min\n- Naukunda village: 86 min\n- Galchhi village: 107 min (via Nilkantha and Naukunda)\n- Dhunche farm: 107 min\n- Bidur school: 119 min\n- Shivapuri care home: 139 min (the Galchhi and Dhunche roads to it are impassable, so the only way in is from Bidur school)\n\n**Location by location**\n- **Galchhi village (3 children, 1 injured):** Deferring them costs 3\u00d760 + 80 = 260. A round trip costs 214 and one car can carry all 4. Rescue.\n- **Nilkantha temple (7 adults):** Deferring 4 adults costs 80, and a round trip carrying 4 costs 62, so take one carload. For the other 3, deferring costs 60, which is less than a second 62-minute trip. Defer 3.\n- **Bidur school (3 children):** Deferring costs 180, and a round trip costs 238. Defer.\n- **Shivapuri care home (4 elderly):** Deferring costs 200. A round trip via Bidur costs 278, and the car cannot also carry Bidur's 3 children. Defer.\n- **Combining stops does not help.** A car leaving Galchhi is already full. A car that collected Bidur's children and Shivapuri's elderly would need 7 seats, but each car has only 4.\n\n<plan>\ndrive car1 myagang-shelter nilkantha-temple\ndrive car1 nilkantha-temple naukunda-village\ndrive car1 naukunda-village galchhi-village\nload car1 child 3\nload car1 injured 1\ndrive car1 galchhi-village naukunda-village\ndrive car1 naukunda-village nilkantha-temple\ndrive car1 nilkantha-temple myagang-shelter\nunload car1 child 3\nunload car1 injured 1\ndrive car2 myagang-shelter nilkantha-temple\nload car2 adult 4\ndrive car2 nilkantha-temple myagang-shelter\nunload car2 adult 4\ndefer nilkantha-temple adult 3\ndefer bidur-school child 3\ndefer shivapuri-care-home elderly 4\n</plan>\n\n**Cost breakdown**\n- Driving: car1 214 + car2 62 = 276\n- Penalties: 3 adults (60) + 3 children (180) + 4 elderly (200) = 440\n- Total: 276 + 440 = 716\n\nCOST: 716"
+    }
+  ]
+}

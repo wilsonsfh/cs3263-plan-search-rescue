@@ -1,0 +1,60 @@
+{
+  "pipeline": "direct",
+  "instance": "medium-13",
+  "size": "medium",
+  "level": "implicit",
+  "model": "claude-haiku-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 2118,
+    "output_tokens": 9194,
+    "calls": 1,
+    "seconds": 42.3
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 166,
+    "travel_minutes": 86,
+    "deferred_penalty": 80,
+    "rescued": {
+      "injured": 1,
+      "child": 2,
+      "elderly": 0,
+      "adult": 4
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 4
+    },
+    "people_rescued": 7,
+    "priority_people_rescued": 3
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 tarkeshwar-shelter dhunche-village",
+        "load car1 injured 1",
+        "load car1 child 2",
+        "drive car1 dhunche-village tarkeshwar-shelter",
+        "unload car1 injured 1",
+        "unload car1 child 2",
+        "drive car1 tarkeshwar-shelter dhunche-village",
+        "drive car1 dhunche-village gajuri-farm",
+        "load car1 adult 4",
+        "drive car1 gajuri-farm dhunche-village",
+        "drive car1 dhunche-village tarkeshwar-shelter",
+        "unload car1 adult 4",
+        "defer gajuri-farm adult 1",
+        "defer gosaikunda-care-home adult 3"
+      ],
+      "claimed_cost": 166,
+      "text": "<plan>\ndrive car1 tarkeshwar-shelter dhunche-village\nload car1 injured 1\nload car1 child 2\ndrive car1 dhunche-village tarkeshwar-shelter\nunload car1 injured 1\nunload car1 child 2\ndrive car1 tarkeshwar-shelter dhunche-village\ndrive car1 dhunche-village gajuri-farm\nload car1 adult 4\ndrive car1 gajuri-farm dhunche-village\ndrive car1 dhunche-village tarkeshwar-shelter\nunload car1 adult 4\ndefer gajuri-farm adult 1\ndefer gosaikunda-care-home adult 3\n</plan>\nCOST: 166\n\nDriving is 86 minutes (22 for Dhunche, 64 for Gajuri). Penalties are 80 (one adult at Gajuri and three adults at Gosaikunda care home deferred). Rescuing the Gosaikunda group costs 160 minutes of driving to save 60 in penalties, so deferring them is cheaper. The Trishuli\u2013Nilkantha road was excluded because of the fast floodwater."
+    }
+  ]
+}

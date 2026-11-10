@@ -1,0 +1,59 @@
+{
+  "pipeline": "direct",
+  "instance": "small-12",
+  "size": "small",
+  "level": "explicit",
+  "model": "claude-haiku-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1749,
+    "output_tokens": 2605,
+    "calls": 1,
+    "seconds": 12.9
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 158,
+    "travel_minutes": 118,
+    "deferred_penalty": 40,
+    "rescued": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 8
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 2
+    },
+    "people_rescued": 8,
+    "priority_people_rescued": 0
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 trishuli-shelter gosaikunda-temple",
+        "drive car1 gosaikunda-temple naukunda-farm",
+        "load car1 adult 4",
+        "drive car1 naukunda-farm gosaikunda-temple",
+        "drive car1 gosaikunda-temple trishuli-shelter",
+        "unload car1 adult 4",
+        "drive car1 trishuli-shelter gosaikunda-temple",
+        "drive car1 gosaikunda-temple dupcheshwar-temple",
+        "load car1 adult 4",
+        "drive car1 dupcheshwar-temple gosaikunda-temple",
+        "drive car1 gosaikunda-temple trishuli-shelter",
+        "unload car1 adult 4",
+        "defer bidur-village adult 2"
+      ],
+      "claimed_cost": 158,
+      "text": "<plan>\ndrive car1 trishuli-shelter gosaikunda-temple\ndrive car1 gosaikunda-temple naukunda-farm\nload car1 adult 4\ndrive car1 naukunda-farm gosaikunda-temple\ndrive car1 gosaikunda-temple trishuli-shelter\nunload car1 adult 4\ndrive car1 trishuli-shelter gosaikunda-temple\ndrive car1 gosaikunda-temple dupcheshwar-temple\nload car1 adult 4\ndrive car1 dupcheshwar-temple gosaikunda-temple\ndrive car1 gosaikunda-temple trishuli-shelter\nunload car1 adult 4\ndefer bidur-village adult 2\n</plan>\nCOST: 158\n\nThe Bidur village pickup is deferred. Reaching it costs 116 driving minutes for two adults, while deferring them costs 40 in penalties, so deferral is cheaper."
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "pipeline": "direct",
+  "instance": "small-10",
+  "size": "small",
+  "level": "explicit",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1668,
+    "output_tokens": 1285,
+    "calls": 1,
+    "seconds": 16.5
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 136,
+    "travel_minutes": 136,
+    "deferred_penalty": 0,
+    "rescued": {
+      "injured": 0,
+      "child": 2,
+      "elderly": 4,
+      "adult": 0
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 0
+    },
+    "people_rescued": 6,
+    "priority_people_rescued": 6
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 tarkeshwar-shelter thakre-care-home",
+        "load car1 elderly 2",
+        "drive car1 thakre-care-home dhunche-school",
+        "load car1 child 2",
+        "drive car1 dhunche-school benighat-care-home",
+        "drive car1 benighat-care-home tarkeshwar-shelter",
+        "unload car1 elderly 2",
+        "unload car1 child 2",
+        "drive car1 tarkeshwar-shelter benighat-care-home",
+        "load car1 elderly 2",
+        "drive car1 benighat-care-home tarkeshwar-shelter",
+        "unload car1 elderly 2"
+      ],
+      "claimed_cost": 136,
+      "text": "The minimum cost is 136 minutes, with all 6 people rescued and nobody deferred. The car has 4 seats and there are 6 people, so it needs two trips back to the shelter.\n\n**Trip 1 (124 min):** Go out to Thakre, then Dhunche, and come back through Benighat, which is a quick 6-minute road home.\n- Tarkeshwar shelter \u2192 Thakre care home: 36 min. Pick up the 2 elderly people.\n- Thakre care home \u2192 Dhunche school: 30 min. Pick up the 2 children. The car is now full.\n- Dhunche school \u2192 Benighat care home: 52 min. No seats are free here.\n- Benighat care home \u2192 Tarkeshwar shelter: 6 min. Drop off all 4.\n\n**Trip 2 (12 min):** Shelter \u2192 Benighat care home \u2192 shelter (6 + 6 min) to bring back the 2 elderly people there.\n\n**Why the other options cost more:**\n- Coming back from Dhunche through Thakre instead of Benighat makes trip 1 cost 132 min, for a total of 144.\n- Deferring anyone adds more penalty than it saves in driving. For example, deferring the 2 Thakre elderly adds 100 in penalties and still costs 216 in total.\n\n<plan>\ndrive car1 tarkeshwar-shelter thakre-care-home\nload car1 elderly 2\ndrive car1 thakre-care-home dhunche-school\nload car1 child 2\ndrive car1 dhunche-school benighat-care-home\ndrive car1 benighat-care-home tarkeshwar-shelter\nunload car1 elderly 2\nunload car1 child 2\ndrive car1 tarkeshwar-shelter benighat-care-home\nload car1 elderly 2\ndrive car1 benighat-care-home tarkeshwar-shelter\nunload car1 elderly 2\n</plan>\n\nCOST: 136"
+    }
+  ]
+}

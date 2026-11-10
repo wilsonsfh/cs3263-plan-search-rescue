@@ -1,0 +1,55 @@
+{
+  "pipeline": "direct",
+  "instance": "small-05",
+  "size": "small",
+  "level": "explicit",
+  "model": "claude-haiku-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1684,
+    "output_tokens": 1116,
+    "calls": 1,
+    "seconds": 6.7
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 102,
+    "travel_minutes": 52,
+    "deferred_penalty": 50,
+    "rescued": {
+      "injured": 6,
+      "child": 0,
+      "elderly": 0,
+      "adult": 0
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 1,
+      "adult": 0
+    },
+    "people_rescued": 6,
+    "priority_people_rescued": 6
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 shivapuri-shelter dhunche-temple",
+        "load car1 injured 4",
+        "drive car1 dhunche-temple shivapuri-shelter",
+        "unload car1 injured 4",
+        "drive car1 shivapuri-shelter dhunche-temple",
+        "load car1 injured 2",
+        "drive car1 dhunche-temple shivapuri-shelter",
+        "unload car1 injured 2",
+        "defer myagang-care-home elderly 1"
+      ],
+      "claimed_cost": 102,
+      "text": "The 6 injured at Dhunche temple can be rescued in two shuttle trips, since the car seats 4. The elderly person at Myagang care home cannot be reached, because the only road to Myagang is damaged, so they must be deferred.\n\n<plan>\ndrive car1 shivapuri-shelter dhunche-temple\nload car1 injured 4\ndrive car1 dhunche-temple shivapuri-shelter\nunload car1 injured 4\ndrive car1 shivapuri-shelter dhunche-temple\nload car1 injured 2\ndrive car1 dhunche-temple shivapuri-shelter\nunload car1 injured 2\ndefer myagang-care-home elderly 1\n</plan>\n\nCOST: 102\n\nThe driving cost is 52 minutes (four 13-minute legs). The deferral penalty is 50 for the elderly person. Rescuing the injured is clearly worth the driving, since deferring an injured person would cost 80 each."
+    }
+  ]
+}

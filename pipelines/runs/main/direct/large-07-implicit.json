@@ -1,0 +1,83 @@
+{
+  "pipeline": "direct",
+  "instance": "large-07",
+  "size": "large",
+  "level": "implicit",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 2652,
+    "output_tokens": 3669,
+    "calls": 1,
+    "seconds": 37.4
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 422,
+    "travel_minutes": 302,
+    "deferred_penalty": 120,
+    "rescued": {
+      "injured": 1,
+      "child": 4,
+      "elderly": 9,
+      "adult": 6
+    },
+    "deferred": {
+      "injured": 1,
+      "child": 0,
+      "elderly": 0,
+      "adult": 2
+    },
+    "people_rescued": 20,
+    "priority_people_rescued": 14
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 galchhi-shelter naukunda-care-home",
+        "drive car1 naukunda-care-home gosaikunda-village",
+        "load car1 child 4",
+        "drive car1 gosaikunda-village naukunda-care-home",
+        "drive car1 naukunda-care-home galchhi-shelter",
+        "unload car1 child 4",
+        "drive car1 galchhi-shelter naukunda-care-home",
+        "load car1 elderly 1",
+        "drive car1 naukunda-care-home gosaikunda-village",
+        "load car1 adult 2",
+        "load car1 elderly 1",
+        "drive car1 gosaikunda-village naukunda-care-home",
+        "drive car1 naukunda-care-home galchhi-shelter",
+        "unload car1 adult 2",
+        "unload car1 elderly 2",
+        "drive car1 galchhi-shelter belkot-farm",
+        "load car1 elderly 4",
+        "drive car1 belkot-farm galchhi-shelter",
+        "unload car1 elderly 4",
+        "drive car1 galchhi-shelter belkot-farm",
+        "drive car1 belkot-farm kalika-farm",
+        "drive car1 kalika-farm likhu-care-home",
+        "load car1 elderly 3",
+        "load car1 injured 1",
+        "drive car1 likhu-care-home kalika-farm",
+        "drive car1 kalika-farm belkot-farm",
+        "drive car1 belkot-farm galchhi-shelter",
+        "unload car1 elderly 3",
+        "unload car1 injured 1",
+        "drive car1 galchhi-shelter belkot-farm",
+        "drive car1 belkot-farm kalika-farm",
+        "load car1 adult 4",
+        "drive car1 kalika-farm belkot-farm",
+        "drive car1 belkot-farm galchhi-shelter",
+        "unload car1 adult 4",
+        "defer kalika-farm adult 2",
+        "defer thakre-care-home injured 1"
+      ],
+      "claimed_cost": 422,
+      "text": "Car2 cannot help: both roads out of Shivapuri hospital are cut, so Shivapuri is isolated. Car1 does every trip, and every load is dropped at Galchhi shelter. Each trip therefore starts and ends at Galchhi.\n\n**Shortest driving times from Galchhi:**\n\n| Location | Route | Minutes |\n|---|---|---|\n| Naukunda | direct | 10 |\n| Gosaikunda | via Naukunda | 22 |\n| Belkot | direct | 23 |\n| Kalika | via Belkot | 32 |\n| Likhu | via Belkot and Kalika | 52 |\n| Thakre | via Likhu | 70 |\n\n**Trips (car1 carries at most 4 people):**\n\n| Trip | Who | Round trip (min) | Penalty avoided |\n|---|---|---|---|\n| 1 | 4 children from Gosaikunda | 44 | 240 |\n| 2 | Elderly widow from Naukunda, then 2 adults and 1 elderly from Gosaikunda | 44 | 140 |\n| 3 | 4 elderly from Belkot | 46 | 200 |\n| 4 | 3 elderly and 1 injured from Likhu | 104 | 230 |\n| 5 | 4 adults from Kalika | 64 | 80 |\n\n**Deferred:**\n- **Thakre injured woman:** a separate trip takes 140 minutes, which is more than her penalty of 80. Fitting her into the Likhu trip would add 36 minutes and leave one Likhu elderly person behind (penalty 50), for an extra 86. Deferring her (80) is cheaper.\n- **2 Kalika adults:** a sixth trip would take 64 minutes, which is more than their combined penalty of 40.\n\n<plan>\ndrive car1 galchhi-shelter naukunda-care-home\ndrive car1 naukunda-care-home gosaikunda-village\nload car1 child 4\ndrive car1 gosaikunda-village naukunda-care-home\ndrive car1 naukunda-care-home galchhi-shelter\nunload car1 child 4\ndrive car1 galchhi-shelter naukunda-care-home\nload car1 elderly 1\ndrive car1 naukunda-care-home gosaikunda-village\nload car1 adult 2\nload car1 elderly 1\ndrive car1 gosaikunda-village naukunda-care-home\ndrive car1 naukunda-care-home galchhi-shelter\nunload car1 adult 2\nunload car1 elderly 2\ndrive car1 galchhi-shelter belkot-farm\nload car1 elderly 4\ndrive car1 belkot-farm galchhi-shelter\nunload car1 elderly 4\ndrive car1 galchhi-shelter belkot-farm\ndrive car1 belkot-farm kalika-farm\ndrive car1 kalika-farm likhu-care-home\nload car1 elderly 3\nload car1 injured 1\ndrive car1 likhu-care-home kalika-farm\ndrive car1 kalika-farm belkot-farm\ndrive car1 belkot-farm galchhi-shelter\nunload car1 elderly 3\nunload car1 injured 1\ndrive car1 galchhi-shelter belkot-farm\ndrive car1 belkot-farm kalika-farm\nload car1 adult 4\ndrive car1 kalika-farm belkot-farm\ndrive car1 belkot-farm galchhi-shelter\nunload car1 adult 4\ndefer kalika-farm adult 2\ndefer thakre-care-home injured 1\n</plan>\n\n**Total cost:**\n- Driving: 44 + 44 + 46 + 104 + 64 = 302 minutes\n- Penalties: 80 (Thakre injured) + 40 (2 Kalika adults) = 120\n- Total: 302 + 120 = 422\n\nCOST: 422"
+    }
+  ]
+}

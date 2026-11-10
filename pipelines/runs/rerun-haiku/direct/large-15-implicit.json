@@ -1,0 +1,86 @@
+{
+  "pipeline": "direct",
+  "instance": "large-15",
+  "size": "large",
+  "level": "implicit",
+  "model": "claude-haiku-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 2707,
+    "output_tokens": 23720,
+    "calls": 1,
+    "seconds": 107.6
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 476,
+    "travel_minutes": 316,
+    "deferred_penalty": 160,
+    "rescued": {
+      "injured": 2,
+      "child": 0,
+      "elderly": 11,
+      "adult": 5
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 8
+    },
+    "people_rescued": 18,
+    "priority_people_rescued": 13
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car2 kalika-hospital gajuri-farm",
+        "load car2 adult 4",
+        "drive car2 gajuri-farm kalika-hospital",
+        "unload car2 adult 4",
+        "drive car2 kalika-hospital galchhi-village",
+        "load car2 elderly 2",
+        "drive car2 galchhi-village kalika-hospital",
+        "unload car2 elderly 2",
+        "drive car2 kalika-hospital gajuri-farm",
+        "drive car2 gajuri-farm likhu-temple",
+        "load car2 elderly 4",
+        "drive car2 likhu-temple gajuri-farm",
+        "drive car2 gajuri-farm kalika-hospital",
+        "unload car2 elderly 4",
+        "drive car2 kalika-hospital gajuri-farm",
+        "drive car2 gajuri-farm likhu-temple",
+        "drive car2 likhu-temple nilkantha-market",
+        "load car2 injured 2",
+        "load car2 elderly 2",
+        "drive car2 nilkantha-market likhu-temple",
+        "drive car2 likhu-temple gajuri-farm",
+        "drive car2 gajuri-farm kalika-hospital",
+        "unload car2 injured 2",
+        "unload car2 elderly 2",
+        "drive car2 kalika-hospital gajuri-farm",
+        "drive car2 gajuri-farm likhu-temple",
+        "drive car2 likhu-temple nilkantha-market",
+        "load car2 elderly 2",
+        "drive car2 nilkantha-market tadi-temple",
+        "load car2 elderly 1",
+        "load car2 adult 1",
+        "drive car2 tadi-temple nilkantha-market",
+        "drive car2 nilkantha-market likhu-temple",
+        "drive car2 likhu-temple gajuri-farm",
+        "drive car2 gajuri-farm kalika-hospital",
+        "unload car2 elderly 3",
+        "unload car2 adult 1",
+        "defer tadi-temple adult 2",
+        "defer thakre-farm adult 2",
+        "defer tarkeshwar-farm adult 4"
+      ],
+      "claimed_cost": 476,
+      "text": "Car 2 makes all five sorties from Kalika hospital and returns there each time. Car 1 stays idle. Tarkeshwar, Thakre and the second group at Tadi are deferred, since rescuing them costs more driving than their penalties. The plan avoids the flooded Thakre\u2013Tadi and Tarkeshwar\u2013Dhunche roads and the washed-out Myagang\u2013Dhunche bridge. I treated the old man at Tadi as elderly, since he is not described as injured.\n\n<plan>\ndrive car2 kalika-hospital gajuri-farm\nload car2 adult 4\ndrive car2 gajuri-farm kalika-hospital\nunload car2 adult 4\ndrive car2 kalika-hospital galchhi-village\nload car2 elderly 2\ndrive car2 galchhi-village kalika-hospital\nunload car2 elderly 2\ndrive car2 kalika-hospital gajuri-farm\ndrive car2 gajuri-farm likhu-temple\nload car2 elderly 4\ndrive car2 likhu-temple gajuri-farm\ndrive car2 gajuri-farm kalika-hospital\nunload car2 elderly 4\ndrive car2 kalika-hospital gajuri-farm\ndrive car2 gajuri-farm likhu-temple\ndrive car2 likhu-temple nilkantha-market\nload car2 injured 2\nload car2 elderly 2\ndrive car2 nilkantha-market likhu-temple\ndrive car2 likhu-temple gajuri-farm\ndrive car2 gajuri-farm kalika-hospital\nunload car2 injured 2\nunload car2 elderly 2\ndrive car2 kalika-hospital gajuri-farm\ndrive car2 gajuri-farm likhu-temple\ndrive car2 likhu-temple nilkantha-market\nload car2 elderly 2\ndrive car2 nilkantha-market tadi-temple\nload car2 elderly 1\nload car2 adult 1\ndrive car2 tadi-temple nilkantha-market\ndrive car2 nilkantha-market likhu-temple\ndrive car2 likhu-temple gajuri-farm\ndrive car2 gajuri-farm kalika-hospital\nunload car2 elderly 3\nunload car2 adult 1\ndefer tadi-temple adult 2\ndefer thakre-farm adult 2\ndefer tarkeshwar-farm adult 4\n</plan>\nCOST: 476"
+    }
+  ]
+}

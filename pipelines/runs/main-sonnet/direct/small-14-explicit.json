@@ -1,0 +1,54 @@
+{
+  "pipeline": "direct",
+  "instance": "small-14",
+  "size": "small",
+  "level": "explicit",
+  "model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1711,
+    "output_tokens": 988,
+    "calls": 1,
+    "seconds": 9.9
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 120,
+    "travel_minutes": 40,
+    "deferred_penalty": 80,
+    "rescued": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 3,
+      "adult": 1
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 4
+    },
+    "people_rescued": 4,
+    "priority_people_rescued": 3
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 tarkeshwar-shelter myagang-temple",
+        "load car1 elderly 3",
+        "load car1 adult 1",
+        "drive car1 myagang-temple tarkeshwar-shelter",
+        "unload car1 elderly 3",
+        "unload car1 adult 1",
+        "defer myagang-temple adult 2",
+        "defer tadi-farm adult 2"
+      ],
+      "claimed_cost": 120,
+      "text": "The plan is one round trip to Myagang temple, carrying the 3 elderly people and 1 adult. The other 4 adults are deferred.\n\n- **Trip to Myagang:** the round trip is 20 + 20 = 40 minutes and fills all 4 seats. I put the 3 elderly people first because their deferral penalty (50 each) is higher than an adult's (20).\n- **Second Myagang trip:** another 40-minute round trip would rescue only 2 adults, saving 2 \u00d7 20 = 40 in penalties. That is break-even, so I skipped it.\n- **Tadi farm:** reaching the 2 adults there means a longer route, Myagang \u2192 Tadi \u2192 Myagang \u2192 shelter. A full second trip for all 4 remaining adults would take 20 + 22 + 22 + 20 = 84 minutes to save 80 in penalties, so it loses.\n\nTotal cost is 40 minutes of driving plus 4 deferred adults \u00d7 20 = 80, which gives 120.\n\n<plan>\ndrive car1 tarkeshwar-shelter myagang-temple\nload car1 elderly 3\nload car1 adult 1\ndrive car1 myagang-temple tarkeshwar-shelter\nunload car1 elderly 3\nunload car1 adult 1\ndefer myagang-temple adult 2\ndefer tadi-farm adult 2\n</plan>\nCOST: 120"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "pipeline": "direct",
+  "instance": "small-03",
+  "size": "small",
+  "level": "explicit",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1692,
+    "output_tokens": 1285,
+    "calls": 1,
+    "seconds": 13.8
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 146,
+    "travel_minutes": 126,
+    "deferred_penalty": 20,
+    "rescued": {
+      "injured": 4,
+      "child": 0,
+      "elderly": 0,
+      "adult": 6
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 1
+    },
+    "people_rescued": 10,
+    "priority_people_rescued": 4
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 myagang-shelter nilkantha-market",
+        "load car1 injured 4",
+        "drive car1 nilkantha-market myagang-shelter",
+        "unload car1 injured 4",
+        "drive car1 myagang-shelter bidur-village",
+        "load car1 adult 4",
+        "drive car1 bidur-village myagang-shelter",
+        "unload car1 adult 4",
+        "drive car1 myagang-shelter nilkantha-market",
+        "load car1 adult 2",
+        "drive car1 nilkantha-market myagang-shelter",
+        "unload car1 adult 2",
+        "defer syaphru-school adult 1"
+      ],
+      "claimed_cost": 146,
+      "text": "The plan below costs 146: 126 minutes of driving plus 20 for one deferred adult. The car makes three round trips from Myagang shelter, the only evacuation point. Each round trip is only worth making if its driving time is less than the penalty for deferring the people it carries.\n\n- **Trip 1, Nilkantha market (36 min):** brings the 4 injured people. Deferring them would cost 4 \u00d7 80 = 320.\n- **Trip 2, Bidur village (54 min):** brings the 4 adults. Deferring them would cost 4 \u00d7 20 = 80.\n- **Trip 3, Nilkantha market (36 min):** brings the 2 adults. Deferring them would cost 2 \u00d7 20 = 40.\n- **Syaphru school:** the 1 adult is deferred. A round trip there takes 36 minutes, more than the 20 penalty.\n- **Rejected alternative:** collecting adults on a loop through Bidur and Nilkantha and deferring the rest costs more (140 or above, plus the Syaphru penalty).\n\n<plan>\ndrive car1 myagang-shelter nilkantha-market\nload car1 injured 4\ndrive car1 nilkantha-market myagang-shelter\nunload car1 injured 4\ndrive car1 myagang-shelter bidur-village\nload car1 adult 4\ndrive car1 bidur-village myagang-shelter\nunload car1 adult 4\ndrive car1 myagang-shelter nilkantha-market\nload car1 adult 2\ndrive car1 nilkantha-market myagang-shelter\nunload car1 adult 2\ndefer syaphru-school adult 1\n</plan>\n\nCOST: 146"
+    }
+  ]
+}

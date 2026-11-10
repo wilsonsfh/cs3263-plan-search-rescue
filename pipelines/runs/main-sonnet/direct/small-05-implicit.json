@@ -1,0 +1,55 @@
+{
+  "pipeline": "direct",
+  "instance": "small-05",
+  "size": "small",
+  "level": "implicit",
+  "model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1805,
+    "output_tokens": 712,
+    "calls": 1,
+    "seconds": 10.0
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 102,
+    "travel_minutes": 52,
+    "deferred_penalty": 50,
+    "rescued": {
+      "injured": 6,
+      "child": 0,
+      "elderly": 0,
+      "adult": 0
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 1,
+      "adult": 0
+    },
+    "people_rescued": 6,
+    "priority_people_rescued": 6
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 shivapuri-shelter dhunche-temple",
+        "load car1 injured 4",
+        "drive car1 dhunche-temple shivapuri-shelter",
+        "unload car1 injured 4",
+        "drive car1 shivapuri-shelter dhunche-temple",
+        "load car1 injured 2",
+        "drive car1 dhunche-temple shivapuri-shelter",
+        "unload car1 injured 2",
+        "defer myagang-care-home elderly 1"
+      ],
+      "claimed_cost": 102,
+      "text": "The car can rescue all six injured people from Dhunche temple, but the elderly widow at Myagang care home cannot be reached, so she is deferred.\n\n- **Dhunche temple:** It is not a designated evacuation point, so the injured must be brought to Shivapuri shelter. The car holds four, so it needs two round trips of 13 minutes each way, 52 minutes in total. Deferring the six injured would cost 480, so rescuing them is far cheaper.\n- **Myagang care home:** The only route in is through Likhu market. The Likhu market to Myagang road has a washed-out bridge, and the Shivapuri shelter to Likhu market road is flooded and swept a truck away. The widow is deferred at a penalty of 50.\n\n<plan>\ndrive car1 shivapuri-shelter dhunche-temple\nload car1 injured 4\ndrive car1 dhunche-temple shivapuri-shelter\nunload car1 injured 4\ndrive car1 shivapuri-shelter dhunche-temple\nload car1 injured 2\ndrive car1 dhunche-temple shivapuri-shelter\nunload car1 injured 2\ndefer myagang-care-home elderly 1\n</plan>\n\nCOST: 102"
+    }
+  ]
+}

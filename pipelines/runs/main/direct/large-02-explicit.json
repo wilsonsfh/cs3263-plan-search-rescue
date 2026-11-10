@@ -1,0 +1,93 @@
+{
+  "pipeline": "direct",
+  "instance": "large-02",
+  "size": "large",
+  "level": "explicit",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 2284,
+    "output_tokens": 3511,
+    "calls": 1,
+    "seconds": 35.2
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 430,
+    "travel_minutes": 430,
+    "deferred_penalty": 0,
+    "rescued": {
+      "injured": 0,
+      "child": 12,
+      "elderly": 6,
+      "adult": 8
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 0
+    },
+    "people_rescued": 26,
+    "priority_people_rescued": 18
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 bidur-shelter nilkantha-farm",
+        "drive car1 nilkantha-farm jwalamukhi-market",
+        "drive car1 jwalamukhi-market tarkeshwar-school",
+        "load car1 child 4",
+        "drive car1 tarkeshwar-school jwalamukhi-market",
+        "drive car1 jwalamukhi-market nilkantha-farm",
+        "drive car1 nilkantha-farm bidur-shelter",
+        "unload car1 child 4",
+        "drive car1 bidur-shelter nilkantha-farm",
+        "drive car1 nilkantha-farm kalika-village",
+        "load car1 elderly 2",
+        "load car1 child 2",
+        "drive car1 kalika-village nilkantha-farm",
+        "drive car1 nilkantha-farm bidur-shelter",
+        "unload car1 elderly 2",
+        "unload car1 child 2",
+        "drive car1 bidur-shelter nilkantha-farm",
+        "drive car1 nilkantha-farm kalika-village",
+        "load car1 adult 3",
+        "drive car1 kalika-village nilkantha-farm",
+        "load car1 adult 1",
+        "drive car1 nilkantha-farm bidur-shelter",
+        "unload car1 adult 4",
+        "drive car1 bidur-shelter nilkantha-farm",
+        "drive car1 nilkantha-farm jwalamukhi-market",
+        "load car1 adult 4",
+        "drive car1 jwalamukhi-market nilkantha-farm",
+        "drive car1 nilkantha-farm bidur-shelter",
+        "unload car1 adult 4",
+        "drive car2 suryagadhi-hospital trishuli-care-home",
+        "drive car2 trishuli-care-home syaphru-school",
+        "load car2 child 4",
+        "drive car2 syaphru-school trishuli-care-home",
+        "drive car2 trishuli-care-home suryagadhi-hospital",
+        "unload car2 child 4",
+        "drive car2 suryagadhi-hospital trishuli-care-home",
+        "drive car2 trishuli-care-home syaphru-school",
+        "load car2 child 2",
+        "drive car2 syaphru-school trishuli-care-home",
+        "load car2 elderly 2",
+        "drive car2 trishuli-care-home suryagadhi-hospital",
+        "unload car2 child 2",
+        "unload car2 elderly 2",
+        "drive car2 suryagadhi-hospital trishuli-care-home",
+        "load car2 elderly 2",
+        "drive car2 trishuli-care-home suryagadhi-hospital",
+        "unload car2 elderly 2"
+      ],
+      "claimed_cost": 430,
+      "text": "**Approach:**\n\nThe open roads split the map into two zones. The only link between them is the long Syaphru\u2013Tadi road (48 min), so each car works its own zone.\n\n**car2 (Suryagadhi hospital zone): Syaphru school and Trishuli care home, 10 people**\n- Trip 1: Collect 4 children from Syaphru school. Round trip is 37 + 37 = 74 min.\n- Trip 2: Collect the last 2 children from Syaphru school and 2 elderly from Trishuli care home on the way back. This takes 74 min.\n- Trip 3: Collect the last 2 elderly from Trishuli care home. This takes 40 min.\n- car2 total: 188 min.\n\n**car1 (Bidur shelter zone): Tarkeshwar school, Kalika village, Jwalamukhi market and Nilkantha farm, 16 people**\n- Trip 1: Collect 4 children from Tarkeshwar school. This takes 90 min.\n- Trip 2: Collect 2 elderly and 2 children from Kalika village. This takes 52 min.\n- Trip 3: Collect 3 adults from Kalika village and 1 adult from Nilkantha farm on the way back. This takes 52 min.\n- Trip 4: Collect 4 adults from Jwalamukhi market. This takes 48 min.\n- car1 total: 242 min.\n\n**Why no one is deferred:** Each trip costs less than the penalty it avoids. For example, the 4 adults at Jwalamukhi market would cost 80 to defer, and the trip costs only 48. The 3 Kalika adults would cost 60 to defer, and their trip costs 52, with the Nilkantha adult picked up at no extra cost.\n\n<plan>\ndrive car1 bidur-shelter nilkantha-farm\ndrive car1 nilkantha-farm jwalamukhi-market\ndrive car1 jwalamukhi-market tarkeshwar-school\nload car1 child 4\ndrive car1 tarkeshwar-school jwalamukhi-market\ndrive car1 jwalamukhi-market nilkantha-farm\ndrive car1 nilkantha-farm bidur-shelter\nunload car1 child 4\ndrive car1 bidur-shelter nilkantha-farm\ndrive car1 nilkantha-farm kalika-village\nload car1 elderly 2\nload car1 child 2\ndrive car1 kalika-village nilkantha-farm\ndrive car1 nilkantha-farm bidur-shelter\nunload car1 elderly 2\nunload car1 child 2\ndrive car1 bidur-shelter nilkantha-farm\ndrive car1 nilkantha-farm kalika-village\nload car1 adult 3\ndrive car1 kalika-village nilkantha-farm\nload car1 adult 1\ndrive car1 nilkantha-farm bidur-shelter\nunload car1 adult 4\ndrive car1 bidur-shelter nilkantha-farm\ndrive car1 nilkantha-farm jwalamukhi-market\nload car1 adult 4\ndrive car1 jwalamukhi-market nilkantha-farm\ndrive car1 nilkantha-farm bidur-shelter\nunload car1 adult 4\ndrive car2 suryagadhi-hospital trishuli-care-home\ndrive car2 trishuli-care-home syaphru-school\nload car2 child 4\ndrive car2 syaphru-school trishuli-care-home\ndrive car2 trishuli-care-home suryagadhi-hospital\nunload car2 child 4\ndrive car2 suryagadhi-hospital trishuli-care-home\ndrive car2 trishuli-care-home syaphru-school\nload car2 child 2\ndrive car2 syaphru-school trishuli-care-home\nload car2 elderly 2\ndrive car2 trishuli-care-home suryagadhi-hospital\nunload car2 child 2\nunload car2 elderly 2\ndrive car2 suryagadhi-hospital trishuli-care-home\nload car2 elderly 2\ndrive car2 trishuli-care-home suryagadhi-hospital\nunload car2 elderly 2\n</plan>\n\nEveryone (26 people) is rescued and no one is deferred. The cost is car1 242 + car2 188 = 430.\n\nCOST: 430"
+    }
+  ]
+}

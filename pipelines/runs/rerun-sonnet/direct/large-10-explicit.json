@@ -1,0 +1,88 @@
+{
+  "pipeline": "direct",
+  "instance": "large-10",
+  "size": "large",
+  "level": "explicit",
+  "model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 2168,
+    "output_tokens": 3439,
+    "calls": 1,
+    "seconds": 28.4
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 444,
+    "travel_minutes": 404,
+    "deferred_penalty": 40,
+    "rescued": {
+      "injured": 0,
+      "child": 3,
+      "elderly": 7,
+      "adult": 10
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 2
+    },
+    "people_rescued": 20,
+    "priority_people_rescued": 10
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 panchakanya-shelter syaphru-farm",
+        "drive car1 syaphru-farm myagang-farm",
+        "drive car1 myagang-farm trishuli-care-home",
+        "load car1 elderly 4",
+        "drive car1 trishuli-care-home myagang-farm",
+        "drive car1 myagang-farm syaphru-farm",
+        "drive car1 syaphru-farm panchakanya-shelter",
+        "unload car1 elderly 4",
+        "drive car1 panchakanya-shelter syaphru-farm",
+        "drive car1 syaphru-farm myagang-farm",
+        "drive car1 myagang-farm trishuli-care-home",
+        "load car1 elderly 3",
+        "drive car1 trishuli-care-home myagang-farm",
+        "load car1 adult 1",
+        "drive car1 myagang-farm syaphru-farm",
+        "drive car1 syaphru-farm panchakanya-shelter",
+        "unload car1 elderly 3",
+        "unload car1 adult 1",
+        "drive car1 panchakanya-shelter syaphru-farm",
+        "drive car1 syaphru-farm gajuri-market",
+        "load car1 child 2",
+        "load car1 adult 1",
+        "drive car1 gajuri-market syaphru-farm",
+        "load car1 adult 1",
+        "drive car1 syaphru-farm panchakanya-shelter",
+        "unload car1 child 2",
+        "unload car1 adult 2",
+        "drive car2 tadi-hospital panchakanya-shelter",
+        "drive car2 panchakanya-shelter dhunche-temple",
+        "load car2 adult 3",
+        "load car2 child 1",
+        "drive car2 dhunche-temple panchakanya-shelter",
+        "unload car2 adult 3",
+        "unload car2 child 1",
+        "drive car2 panchakanya-shelter dhunche-temple",
+        "load car2 adult 1",
+        "drive car2 dhunche-temple thakre-market",
+        "load car2 adult 3",
+        "drive car2 thakre-market dhunche-temple",
+        "drive car2 dhunche-temple panchakanya-shelter",
+        "unload car2 adult 4",
+        "defer syaphru-farm adult 2"
+      ],
+      "claimed_cost": 444,
+      "text": "<plan>\ndrive car1 panchakanya-shelter syaphru-farm\ndrive car1 syaphru-farm myagang-farm\ndrive car1 myagang-farm trishuli-care-home\nload car1 elderly 4\ndrive car1 trishuli-care-home myagang-farm\ndrive car1 myagang-farm syaphru-farm\ndrive car1 syaphru-farm panchakanya-shelter\nunload car1 elderly 4\ndrive car1 panchakanya-shelter syaphru-farm\ndrive car1 syaphru-farm myagang-farm\ndrive car1 myagang-farm trishuli-care-home\nload car1 elderly 3\ndrive car1 trishuli-care-home myagang-farm\nload car1 adult 1\ndrive car1 myagang-farm syaphru-farm\ndrive car1 syaphru-farm panchakanya-shelter\nunload car1 elderly 3\nunload car1 adult 1\ndrive car1 panchakanya-shelter syaphru-farm\ndrive car1 syaphru-farm gajuri-market\nload car1 child 2\nload car1 adult 1\ndrive car1 gajuri-market syaphru-farm\nload car1 adult 1\ndrive car1 syaphru-farm panchakanya-shelter\nunload car1 child 2\nunload car1 adult 2\ndrive car2 tadi-hospital panchakanya-shelter\ndrive car2 panchakanya-shelter dhunche-temple\nload car2 adult 3\nload car2 child 1\ndrive car2 dhunche-temple panchakanya-shelter\nunload car2 adult 3\nunload car2 child 1\ndrive car2 panchakanya-shelter dhunche-temple\nload car2 adult 1\ndrive car2 dhunche-temple thakre-market\nload car2 adult 3\ndrive car2 thakre-market dhunche-temple\ndrive car2 dhunche-temple panchakanya-shelter\nunload car2 adult 4\ndefer syaphru-farm adult 2\n</plan>\nCOST: 444"
+    }
+  ]
+}

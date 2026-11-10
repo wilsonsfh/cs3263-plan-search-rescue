@@ -1,0 +1,63 @@
+{
+  "pipeline": "direct",
+  "instance": "medium-13",
+  "size": "medium",
+  "level": "explicit",
+  "model": "claude-haiku-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1913,
+    "output_tokens": 4094,
+    "calls": 1,
+    "seconds": 19.5
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 188,
+    "travel_minutes": 128,
+    "deferred_penalty": 60,
+    "rescued": {
+      "injured": 1,
+      "child": 2,
+      "elderly": 0,
+      "adult": 5
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 3
+    },
+    "people_rescued": 8,
+    "priority_people_rescued": 3
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 tarkeshwar-shelter dhunche-village",
+        "load car1 injured 1",
+        "load car1 child 2",
+        "drive car1 dhunche-village gajuri-farm",
+        "load car1 adult 1",
+        "drive car1 gajuri-farm dhunche-village",
+        "drive car1 dhunche-village tarkeshwar-shelter",
+        "unload car1 injured 1",
+        "unload car1 child 2",
+        "unload car1 adult 1",
+        "drive car1 tarkeshwar-shelter dhunche-village",
+        "drive car1 dhunche-village gajuri-farm",
+        "load car1 adult 4",
+        "drive car1 gajuri-farm dhunche-village",
+        "drive car1 dhunche-village tarkeshwar-shelter",
+        "unload car1 adult 4",
+        "defer gosaikunda-care-home adult 3"
+      ],
+      "claimed_cost": 188,
+      "text": "<plan>\ndrive car1 tarkeshwar-shelter dhunche-village\nload car1 injured 1\nload car1 child 2\ndrive car1 dhunche-village gajuri-farm\nload car1 adult 1\ndrive car1 gajuri-farm dhunche-village\ndrive car1 dhunche-village tarkeshwar-shelter\nunload car1 injured 1\nunload car1 child 2\nunload car1 adult 1\ndrive car1 tarkeshwar-shelter dhunche-village\ndrive car1 dhunche-village gajuri-farm\nload car1 adult 4\ndrive car1 gajuri-farm dhunche-village\ndrive car1 dhunche-village tarkeshwar-shelter\nunload car1 adult 4\ndefer gosaikunda-care-home adult 3\n</plan>\nCOST: 188\n\nThe plan rescues the Dhunche group and all 5 Gajuri adults in two round trips (64 + 64 minutes). The 3 adults at Gosaikunda are deferred (60 penalty). Rescuing them would require a much longer trip, about 160 minutes, so deferral is cheaper."
+    }
+  ]
+}

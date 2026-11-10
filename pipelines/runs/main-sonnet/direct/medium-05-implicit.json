@@ -1,0 +1,57 @@
+{
+  "pipeline": "direct",
+  "instance": "medium-05",
+  "size": "medium",
+  "level": "implicit",
+  "model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 2098,
+    "output_tokens": 1212,
+    "calls": 1,
+    "seconds": 10.3
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 412,
+    "travel_minutes": 62,
+    "deferred_penalty": 350,
+    "rescued": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 2,
+      "adult": 0
+    },
+    "deferred": {
+      "injured": 2,
+      "child": 0,
+      "elderly": 1,
+      "adult": 7
+    },
+    "people_rescued": 2,
+    "priority_people_rescued": 2
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 thakre-shelter gajuri-care-home",
+        "load car1 elderly 1",
+        "drive car1 gajuri-care-home thakre-shelter",
+        "unload car1 elderly 1",
+        "drive car1 thakre-shelter myagang-care-home",
+        "load car1 elderly 1",
+        "drive car1 myagang-care-home thakre-shelter",
+        "unload car1 elderly 1",
+        "defer panchakanya-care-home injured 2",
+        "defer panchakanya-care-home elderly 1",
+        "defer likhu-farm adult 7"
+      ],
+      "claimed_cost": 412,
+      "text": "Only Thakre shelter, Gajuri and Myagang can be reached from the car's starting point. The flooded or closed roads cut off Suryagadhi, Likhu, Panchakanya and Tarkeshwar hospital, so I treated those roads as unusable. Thakre shelter is the only reachable evacuation point.\n\n- **Gajuri elderly widow:** a 14-minute round trip saves a 50-point penalty, so I rescue her.\n- **Myagang grandmother:** a 48-minute round trip saves a 50-point penalty, so I rescue her.\n- **Likhu and Panchakanya:** these people cannot be reached, so I defer them. That is 2 injured (160), 1 elderly (50) and 7 adults (140), a total of 350.\n\nDriving costs 14 + 48 = 62 minutes, so the total is 62 + 350 = 412.\n\n<plan>\ndrive car1 thakre-shelter gajuri-care-home\nload car1 elderly 1\ndrive car1 gajuri-care-home thakre-shelter\nunload car1 elderly 1\ndrive car1 thakre-shelter myagang-care-home\nload car1 elderly 1\ndrive car1 myagang-care-home thakre-shelter\nunload car1 elderly 1\ndefer panchakanya-care-home injured 2\ndefer panchakanya-care-home elderly 1\ndefer likhu-farm adult 7\n</plan>\n\nCOST: 412"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "pipeline": "direct",
+  "instance": "medium-02",
+  "size": "medium",
+  "level": "explicit",
+  "model": "claude-haiku-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1884,
+    "output_tokens": 7642,
+    "calls": 1,
+    "seconds": 33.8
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 191,
+    "travel_minutes": 151,
+    "deferred_penalty": 40,
+    "rescued": {
+      "injured": 6,
+      "child": 0,
+      "elderly": 2,
+      "adult": 3
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 2
+    },
+    "people_rescued": 11,
+    "priority_people_rescued": 8
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 benighat-shelter nilkantha-farm",
+        "load car1 adult 1",
+        "load car1 injured 2",
+        "drive car1 nilkantha-farm benighat-shelter",
+        "unload car1 adult 1",
+        "unload car1 injured 2",
+        "drive car2 dhunche-hospital kalika-temple",
+        "load car2 elderly 2",
+        "drive car2 kalika-temple likhu-village",
+        "load car2 injured 2",
+        "drive car2 likhu-village dhunche-hospital",
+        "unload car2 elderly 2",
+        "unload car2 injured 2",
+        "drive car2 dhunche-hospital likhu-village",
+        "load car2 injured 2",
+        "load car2 adult 2",
+        "drive car2 likhu-village dhunche-hospital",
+        "unload car2 injured 2",
+        "unload car2 adult 2",
+        "defer likhu-village adult 2"
+      ],
+      "claimed_cost": 191,
+      "text": "<plan>\ndrive car1 benighat-shelter nilkantha-farm\nload car1 adult 1\nload car1 injured 2\ndrive car1 nilkantha-farm benighat-shelter\nunload car1 adult 1\nunload car1 injured 2\ndrive car2 dhunche-hospital kalika-temple\nload car2 elderly 2\ndrive car2 kalika-temple likhu-village\nload car2 injured 2\ndrive car2 likhu-village dhunche-hospital\nunload car2 elderly 2\nunload car2 injured 2\ndrive car2 dhunche-hospital likhu-village\nload car2 injured 2\nload car2 adult 2\ndrive car2 likhu-village dhunche-hospital\nunload car2 injured 2\nunload car2 adult 2\ndefer likhu-village adult 2\n</plan>\nCOST: 191\n\nBreakdown: driving 151 minutes (car1: 44; car2: 63 + 44) plus 40 for deferring 2 adults. Rescuing those last 2 adults would need another 44-minute round trip, which costs more than the 40-minute deferral penalty. All injured, children and elderly are rescued."
+    }
+  ]
+}

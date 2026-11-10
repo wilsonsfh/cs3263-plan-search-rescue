@@ -1,0 +1,76 @@
+{
+  "pipeline": "direct",
+  "instance": "large-04",
+  "size": "large",
+  "level": "implicit",
+  "model": "claude-haiku-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 2924,
+    "output_tokens": 9848,
+    "calls": 1,
+    "seconds": 43.6
+  },
+  "result": {
+    "valid": false,
+    "error": "step 5: road shivapuri-shelter-bidur-school is damaged",
+    "cost": null,
+    "travel_minutes": 36,
+    "deferred_penalty": 0,
+    "rescued": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 4,
+      "adult": 0
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 0
+    },
+    "people_rescued": 4,
+    "priority_people_rescued": 4
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 shivapuri-shelter jwalamukhi-care-home",
+        "load car1 elderly 4",
+        "drive car1 jwalamukhi-care-home shivapuri-shelter",
+        "unload car1 elderly 4",
+        "drive car1 shivapuri-shelter bidur-school",
+        "load car1 injured 1",
+        "drive car1 bidur-school belkot-care-home",
+        "load car1 elderly 3",
+        "drive car1 belkot-care-home bidur-school",
+        "drive car1 bidur-school shivapuri-shelter",
+        "unload car1 injured 1",
+        "unload car1 elderly 3",
+        "drive car2 trishuli-hospital thakre-care-home",
+        "load car2 elderly 1",
+        "load car2 injured 1",
+        "drive car2 thakre-care-home syaphru-village",
+        "load car2 adult 2",
+        "drive car2 syaphru-village trishuli-hospital",
+        "unload car2 elderly 1",
+        "unload car2 injured 1",
+        "unload car2 adult 2",
+        "drive car2 trishuli-hospital syaphru-village",
+        "drive car2 syaphru-village kakani-farm",
+        "load car2 adult 3",
+        "drive car2 kakani-farm syaphru-village",
+        "drive car2 syaphru-village trishuli-hospital",
+        "unload car2 adult 3",
+        "defer kispang-farm adult 4",
+        "defer kalika-village adult 3",
+        "defer benighat-farm child 4"
+      ],
+      "claimed_cost": 519,
+      "text": "<plan>\ndrive car1 shivapuri-shelter jwalamukhi-care-home\nload car1 elderly 4\ndrive car1 jwalamukhi-care-home shivapuri-shelter\nunload car1 elderly 4\ndrive car1 shivapuri-shelter bidur-school\nload car1 injured 1\ndrive car1 bidur-school belkot-care-home\nload car1 elderly 3\ndrive car1 belkot-care-home bidur-school\ndrive car1 bidur-school shivapuri-shelter\nunload car1 injured 1\nunload car1 elderly 3\ndrive car2 trishuli-hospital thakre-care-home\nload car2 elderly 1\nload car2 injured 1\ndrive car2 thakre-care-home syaphru-village\nload car2 adult 2\ndrive car2 syaphru-village trishuli-hospital\nunload car2 elderly 1\nunload car2 injured 1\nunload car2 adult 2\ndrive car2 trishuli-hospital syaphru-village\ndrive car2 syaphru-village kakani-farm\nload car2 adult 3\ndrive car2 kakani-farm syaphru-village\ndrive car2 syaphru-village trishuli-hospital\nunload car2 adult 3\ndefer kispang-farm adult 4\ndefer kalika-village adult 3\ndefer benighat-farm child 4\n</plan>\n\nCOST: 519\n\nBreakdown: driving is 139 minutes (car1 78, car2 61), and deferred penalties total 380 (4 children at Benighat = 240, 7 adults at Kispang and Kalika = 140).\n\nNotes for the field team:\n- **Shivapuri\u2013Bidur road (11 min) and Kakani\u2013Syaphru road (5 min):** Both are flooded, and a truck was swept off the first this morning. The plan uses them because they are listed as passable. Car1 is at Shivapuri, which only connects to the rest of the network through the Bidur road, so if that crossing is judged unsafe, the 3 elderly at Belkot and the injured man at Bidur must be deferred instead (+230 penalty, \u221242 driving). Please check both crossings before the cars go.\n- **Bidur school** is not a designated evacuation point, so nobody is dropped there.\n- **Deferred groups:** Kispang and Likhu have no usable road, Kalika's only road (to Likhu) was washed away, and Benighat's roads reach only Dupcheshwar and Panchakanya, which connect to nothing else. These people need a separate route or a later wave.\n- Families at Syaphru and Kakani were willing to travel separately, which is what makes the two-trip plan for car2 work."
+    }
+  ]
+}

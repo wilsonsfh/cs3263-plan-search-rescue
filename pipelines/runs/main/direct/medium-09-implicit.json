@@ -1,0 +1,60 @@
+{
+  "pipeline": "direct",
+  "instance": "medium-09",
+  "size": "medium",
+  "level": "implicit",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 2162,
+    "output_tokens": 2223,
+    "calls": 1,
+    "seconds": 22.9
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 330,
+    "travel_minutes": 110,
+    "deferred_penalty": 220,
+    "rescued": {
+      "injured": 4,
+      "child": 0,
+      "elderly": 3,
+      "adult": 1
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 1,
+      "elderly": 0,
+      "adult": 8
+    },
+    "people_rescued": 8,
+    "priority_people_rescued": 7
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 thakre-shelter dhunche-market",
+        "load car1 injured 4",
+        "drive car1 dhunche-market thakre-shelter",
+        "unload car1 injured 4",
+        "drive car2 thakre-shelter myagang-care-home",
+        "load car2 elderly 3",
+        "drive car2 myagang-care-home dhunche-market",
+        "load car2 adult 1",
+        "drive car2 dhunche-market thakre-shelter",
+        "unload car2 elderly 3",
+        "unload car2 adult 1",
+        "defer dhunche-market adult 1",
+        "defer tadi-market adult 7",
+        "defer shivapuri-village child 1"
+      ],
+      "claimed_cost": 330,
+      "text": "The only designated evacuation point is Thakre shelter. Kakani school is on high ground but has not been designated, so I did not use it. The Dhunche\u2013Nilkantha road has fast floodwater over it and is unsafe, so I excluded it.\n\n**Plan**\n- **Car 1:** Thakre \u2192 Dhunche \u2192 Thakre (46 min). It brings in the 4 injured, which avoids the highest penalties.\n- **Car 2:** Thakre \u2192 Myagang \u2192 Dhunche \u2192 Thakre (64 min). It picks up the 3 elderly and fills its last seat with 1 Dhunche shopkeeper. Going through Dhunche adds only 14 minutes compared with driving straight back from Myagang.\n\n**Deferred to the next wave**\n- **The other Dhunche shopkeeper:** a separate round trip would take 46 minutes, against a deferral cost of 20.\n- **The 7 Tadi market shopkeepers:** each round trip takes 98 minutes and carries 4 adults, who would cost only 80 to defer.\n- **The boy at Shivapuri:** the round trip is 88 minutes, against a deferral cost of 60. Please flag him as a priority for the next wave.\n\n<plan>\ndrive car1 thakre-shelter dhunche-market\nload car1 injured 4\ndrive car1 dhunche-market thakre-shelter\nunload car1 injured 4\ndrive car2 thakre-shelter myagang-care-home\nload car2 elderly 3\ndrive car2 myagang-care-home dhunche-market\nload car2 adult 1\ndrive car2 dhunche-market thakre-shelter\nunload car2 elderly 3\nunload car2 adult 1\ndefer dhunche-market adult 1\ndefer tadi-market adult 7\ndefer shivapuri-village child 1\n</plan>\n\n**Cost breakdown**\n- Driving: 46 + 64 = 110\n- Penalties: 20 (Dhunche adult) + 140 (Tadi adults) + 60 (child) = 220\n- Total: 110 + 220 = 330\n\nCOST: 330"
+    }
+  ]
+}

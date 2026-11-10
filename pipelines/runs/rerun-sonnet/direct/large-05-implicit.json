@@ -1,0 +1,65 @@
+{
+  "pipeline": "direct",
+  "instance": "large-05",
+  "size": "large",
+  "level": "implicit",
+  "model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 2541,
+    "output_tokens": 2441,
+    "calls": 1,
+    "seconds": 18.1
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 566,
+    "travel_minutes": 86,
+    "deferred_penalty": 480,
+    "rescued": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 3,
+      "adult": 4
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 2,
+      "elderly": 4,
+      "adult": 8
+    },
+    "people_rescued": 7,
+    "priority_people_rescued": 3
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car2 nilkantha-hospital tadi-village",
+        "drive car2 tadi-village trishuli-care-home",
+        "load car2 elderly 3",
+        "drive car2 trishuli-care-home tadi-village",
+        "drive car2 tadi-village nilkantha-hospital",
+        "unload car2 elderly 3",
+        "drive car2 nilkantha-hospital tadi-village",
+        "drive car2 tadi-village trishuli-care-home",
+        "drive car2 trishuli-care-home uttargaya-market",
+        "load car2 adult 4",
+        "drive car2 uttargaya-market trishuli-care-home",
+        "drive car2 trishuli-care-home tadi-village",
+        "drive car2 tadi-village nilkantha-hospital",
+        "unload car2 adult 4",
+        "defer suryagadhi-market elderly 4",
+        "defer suryagadhi-market adult 6",
+        "defer suryagadhi-market child 2",
+        "defer panchakanya-farm adult 1",
+        "defer belkot-village adult 1"
+      ],
+      "claimed_cost": 566,
+      "text": "Car1 at Thakre shelter has no usable road out, so it stays put. The Thakre to Trishuli road is flooded and a truck was swept off it, so I treated it as unusable. The Thakre to Panchakanya bridge is also gone.\n\nCar2 makes two round trips from Nilkantha hospital:\n1. Trishuli care home to collect the 3 elderly people: 30 minutes, which saves 150 in penalties.\n2. Uttargaya market to collect the 4 adults: 56 minutes, which saves 80 in penalties.\n\nI defer the rest, because rescuing them costs more driving than the deferral penalty:\n- **Suryagadhi market:** a round trip is 228 minutes. The best load of 4 (2 children and 2 elderly) saves only 220.\n- **Belkot village:** a round trip is 62 minutes to save 20.\n- **Panchakanya farm:** unreachable, because the bridge is washed out.\n\nCost breakdown:\n- Driving: 30 + 56 = 86.\n- Penalties: Suryagadhi 4 elderly (200), 6 adults (120) and 2 children (120) = 440; Belkot adult 20; Panchakanya adult 20.\n\n<plan>\ndrive car2 nilkantha-hospital tadi-village\ndrive car2 tadi-village trishuli-care-home\nload car2 elderly 3\ndrive car2 trishuli-care-home tadi-village\ndrive car2 tadi-village nilkantha-hospital\nunload car2 elderly 3\ndrive car2 nilkantha-hospital tadi-village\ndrive car2 tadi-village trishuli-care-home\ndrive car2 trishuli-care-home uttargaya-market\nload car2 adult 4\ndrive car2 uttargaya-market trishuli-care-home\ndrive car2 trishuli-care-home tadi-village\ndrive car2 tadi-village nilkantha-hospital\nunload car2 adult 4\ndefer suryagadhi-market elderly 4\ndefer suryagadhi-market adult 6\ndefer suryagadhi-market child 2\ndefer panchakanya-farm adult 1\ndefer belkot-village adult 1\n</plan>\nCOST: 566"
+    }
+  ]
+}

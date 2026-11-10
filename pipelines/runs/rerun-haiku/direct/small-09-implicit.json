@@ -1,0 +1,61 @@
+{
+  "pipeline": "direct",
+  "instance": "small-09",
+  "size": "small",
+  "level": "implicit",
+  "model": "claude-haiku-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1840,
+    "output_tokens": 4587,
+    "calls": 1,
+    "seconds": 22.6
+  },
+  "result": {
+    "valid": false,
+    "error": "step 1: road kispang-shelter-nilkantha-village is damaged",
+    "cost": null,
+    "travel_minutes": 0,
+    "deferred_penalty": 0,
+    "rescued": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 0
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 0
+    },
+    "people_rescued": 0,
+    "priority_people_rescued": 0
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 kispang-shelter nilkantha-village",
+        "drive car1 nilkantha-village galchhi-school",
+        "load car1 child 1",
+        "drive car1 galchhi-school kalika-market",
+        "load car1 child 3",
+        "drive car1 kalika-market galchhi-school",
+        "drive car1 galchhi-school nilkantha-village",
+        "drive car1 nilkantha-village kispang-shelter",
+        "unload car1 child 4",
+        "drive car1 kispang-shelter nilkantha-village",
+        "drive car1 nilkantha-village galchhi-school",
+        "load car1 child 3",
+        "drive car1 galchhi-school nilkantha-village",
+        "drive car1 nilkantha-village kispang-shelter",
+        "unload car1 child 3"
+      ],
+      "claimed_cost": 114,
+      "text": "The plan rescues all seven children at a total cost of 114 minutes, with no deferrals. Deferring anyone costs more than driving to collect them, since the one child deferred costs 60 minutes while the drive to reach the group costs 36 minutes or more.\n\n**Safety warning:** Every trip must cross the Kispang shelter to Nilkantha village road, where floodwater is running fast and a truck was swept off this morning. The plan crosses it four times. The report doesn't say the road is closed, so I have treated it as usable, but the team should decide whether that crossing is safe before the car leaves. If it is judged impassable, nobody can be reached, and all seven children would be deferred at a cost of 420.\n\n<plan>\ndrive car1 kispang-shelter nilkantha-village\ndrive car1 nilkantha-village galchhi-school\nload car1 child 1\ndrive car1 galchhi-school kalika-market\nload car1 child 3\ndrive car1 kalika-market galchhi-school\ndrive car1 galchhi-school nilkantha-village\ndrive car1 nilkantha-village kispang-shelter\nunload car1 child 4\ndrive car1 kispang-shelter nilkantha-village\ndrive car1 nilkantha-village galchhi-school\nload car1 child 3\ndrive car1 galchhi-school nilkantha-village\ndrive car1 nilkantha-village kispang-shelter\nunload car1 child 3\n</plan>\n\nCOST: 114"
+    }
+  ]
+}

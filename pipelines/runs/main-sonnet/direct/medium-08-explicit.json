@@ -1,0 +1,70 @@
+{
+  "pipeline": "direct",
+  "instance": "medium-08",
+  "size": "medium",
+  "level": "explicit",
+  "model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1857,
+    "output_tokens": 2058,
+    "calls": 1,
+    "seconds": 16.2
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 280,
+    "travel_minutes": 200,
+    "deferred_penalty": 80,
+    "rescued": {
+      "injured": 3,
+      "child": 0,
+      "elderly": 6,
+      "adult": 3
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 4
+    },
+    "people_rescued": 12,
+    "priority_people_rescued": 9
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 uttargaya-shelter bidur-temple",
+        "drive car1 bidur-temple trishuli-village",
+        "load car1 injured 3",
+        "drive car1 trishuli-village bidur-temple",
+        "load car1 adult 1",
+        "drive car1 bidur-temple uttargaya-shelter",
+        "unload car1 injured 3",
+        "unload car1 adult 1",
+        "drive car2 uttargaya-shelter bidur-temple",
+        "drive car2 bidur-temple syaphru-farm",
+        "load car2 elderly 3",
+        "drive car2 syaphru-farm bidur-temple",
+        "load car2 adult 1",
+        "drive car2 bidur-temple uttargaya-shelter",
+        "unload car2 elderly 3",
+        "unload car2 adult 1",
+        "drive car1 uttargaya-shelter kakani-temple",
+        "load car1 elderly 3",
+        "load car1 adult 1",
+        "drive car1 kakani-temple uttargaya-shelter",
+        "unload car1 elderly 3",
+        "unload car1 adult 1",
+        "defer kakani-temple adult 3",
+        "defer bidur-temple adult 1"
+      ],
+      "claimed_cost": 280,
+      "text": "The plan uses three trips and defers 4 adults. It was worked out by hand and not checked against a solver.\n\n- **car1, first trip:** Go to Trishuli village via Bidur temple and pick up the 3 injured. On the way back, pick up 1 adult at Bidur temple, then drop all 4 at the shelter. This takes 48 minutes.\n- **car2:** Go to Syaphru farm via Bidur temple and pick up the 3 elderly. On the way back, pick up 1 adult at Bidur temple, then drop all 4 at the shelter. This takes 56 minutes.\n- **car1, second trip:** Drive the 48-minute road to Kakani temple, pick up 3 elderly and 1 adult, and return. This takes 96 minutes and avoids 170 in penalties, so it is worth doing.\n- **Deferred:** 3 adults at Kakani temple and 1 adult at Bidur temple. Another Kakani trip costs 96 minutes to avoid only 60 in penalties. A Bidur-only trip costs 34 minutes to avoid only 20.\n\nCost: 48 + 56 + 96 = 200 driving minutes, plus 4 deferred adults \u00d7 20 = 80, for a total of 280.\n\n<plan>\ndrive car1 uttargaya-shelter bidur-temple\ndrive car1 bidur-temple trishuli-village\nload car1 injured 3\ndrive car1 trishuli-village bidur-temple\nload car1 adult 1\ndrive car1 bidur-temple uttargaya-shelter\nunload car1 injured 3\nunload car1 adult 1\ndrive car2 uttargaya-shelter bidur-temple\ndrive car2 bidur-temple syaphru-farm\nload car2 elderly 3\ndrive car2 syaphru-farm bidur-temple\nload car2 adult 1\ndrive car2 bidur-temple uttargaya-shelter\nunload car2 elderly 3\nunload car2 adult 1\ndrive car1 uttargaya-shelter kakani-temple\nload car1 elderly 3\nload car1 adult 1\ndrive car1 kakani-temple uttargaya-shelter\nunload car1 elderly 3\nunload car1 adult 1\ndefer kakani-temple adult 3\ndefer bidur-temple adult 1\n</plan>\nCOST: 280"
+    }
+  ]
+}

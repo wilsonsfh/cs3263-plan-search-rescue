@@ -1,0 +1,50 @@
+{
+  "pipeline": "direct",
+  "instance": "small-08",
+  "size": "small",
+  "level": "implicit",
+  "model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1910,
+    "output_tokens": 1105,
+    "calls": 1,
+    "seconds": 11.6
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 520,
+    "travel_minutes": 0,
+    "deferred_penalty": 520,
+    "rescued": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 0
+    },
+    "deferred": {
+      "injured": 4,
+      "child": 1,
+      "elderly": 0,
+      "adult": 7
+    },
+    "people_rescued": 0,
+    "priority_people_rescued": 0
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "defer likhu-school injured 4",
+        "defer likhu-school child 1",
+        "defer thakre-market adult 3",
+        "defer trishuli-market adult 4"
+      ],
+      "claimed_cost": 520,
+      "text": "Nothing is worth driving, so the plan defers everyone.\n\n- **Likhu school:** Both roads in (from Thakre market and from Trishuli market) are washed out, so nobody there can be reached.\n- **Trishuli market:** The only route from the shelter is shelter \u2192 Dupcheshwar temple \u2192 Gosaikunda school \u2192 Trishuli market. That is 60 minutes each way, 120 in total, against an 80-point penalty for deferring the 4 adults.\n- **Thakre market:** The route is 79 minutes each way, 158 in total, against a 60-point penalty for deferring the 3 adults.\n- **Combined run:** Collecting 3 from Thakre and 1 from Trishuli costs 158 minutes and still leaves 3 adults deferred. That is worse than deferring everyone.\n- **Dupcheshwar temple:** It is not an evacuation point, so dropping people there does not count.\n\nTotal cost is 4 injured \u00d7 80 + 1 child \u00d7 60 + 7 adults \u00d7 20 = 520.\n\n<plan>\ndefer likhu-school injured 4\ndefer likhu-school child 1\ndefer thakre-market adult 3\ndefer trishuli-market adult 4\n</plan>\nCOST: 520"
+    }
+  ]
+}

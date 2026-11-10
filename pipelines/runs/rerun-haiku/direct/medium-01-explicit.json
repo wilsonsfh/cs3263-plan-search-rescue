@@ -1,0 +1,67 @@
+{
+  "pipeline": "direct",
+  "instance": "medium-01",
+  "size": "medium",
+  "level": "explicit",
+  "model": "claude-haiku-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1968,
+    "output_tokens": 12802,
+    "calls": 1,
+    "seconds": 60.9
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 250,
+    "travel_minutes": 130,
+    "deferred_penalty": 120,
+    "rescued": {
+      "injured": 4,
+      "child": 4,
+      "elderly": 0,
+      "adult": 4
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 6
+    },
+    "people_rescued": 12,
+    "priority_people_rescued": 8
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 kakani-shelter naukunda-school",
+        "load car1 child 3",
+        "drive car1 naukunda-school tarkeshwar-school",
+        "load car1 injured 1",
+        "drive car1 tarkeshwar-school kakani-shelter",
+        "unload car1 child 3",
+        "unload car1 injured 1",
+        "drive car2 kakani-shelter tarkeshwar-school",
+        "load car2 injured 3",
+        "load car2 child 1",
+        "drive car2 tarkeshwar-school kakani-shelter",
+        "unload car2 injured 3",
+        "unload car2 child 1",
+        "drive car1 kakani-shelter tarkeshwar-school",
+        "drive car1 tarkeshwar-school benighat-farm",
+        "load car1 adult 4",
+        "drive car1 benighat-farm tarkeshwar-school",
+        "drive car1 tarkeshwar-school kakani-shelter",
+        "unload car1 adult 4",
+        "defer myagang-market adult 4",
+        "defer belkot-farm adult 2"
+      ],
+      "claimed_cost": 250,
+      "text": "<plan>\ndrive car1 kakani-shelter naukunda-school\nload car1 child 3\ndrive car1 naukunda-school tarkeshwar-school\nload car1 injured 1\ndrive car1 tarkeshwar-school kakani-shelter\nunload car1 child 3\nunload car1 injured 1\ndrive car2 kakani-shelter tarkeshwar-school\nload car2 injured 3\nload car2 child 1\ndrive car2 tarkeshwar-school kakani-shelter\nunload car2 injured 3\nunload car2 child 1\ndrive car1 kakani-shelter tarkeshwar-school\ndrive car1 tarkeshwar-school benighat-farm\nload car1 adult 4\ndrive car1 benighat-farm tarkeshwar-school\ndrive car1 tarkeshwar-school kakani-shelter\nunload car1 adult 4\ndefer myagang-market adult 4\ndefer belkot-farm adult 2\n</plan>\nCOST: 250\n\nDriving totals 130 minutes (car1 54 + 52, car2 24). Deferrals total 120 (4 adults at Myagang market, 2 adults at Belkot farm). Myagang market is only reachable through Naukunda, and a rescue trip there would cost more than the 80 penalty it avoids. Belkot farm has no open road, so it cannot be reached."
+    }
+  ]
+}

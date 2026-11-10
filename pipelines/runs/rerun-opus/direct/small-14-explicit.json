@@ -1,0 +1,57 @@
+{
+  "pipeline": "direct",
+  "instance": "small-14",
+  "size": "small",
+  "level": "explicit",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1709,
+    "output_tokens": 1159,
+    "calls": 1,
+    "seconds": 12.4
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 120,
+    "travel_minutes": 80,
+    "deferred_penalty": 40,
+    "rescued": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 3,
+      "adult": 3
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 2
+    },
+    "people_rescued": 6,
+    "priority_people_rescued": 3
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "defer tadi-farm adult 2",
+        "drive car1 tarkeshwar-shelter myagang-temple",
+        "load car1 elderly 3",
+        "load car1 adult 1",
+        "drive car1 myagang-temple tarkeshwar-shelter",
+        "unload car1 elderly 3",
+        "unload car1 adult 1",
+        "drive car1 tarkeshwar-shelter myagang-temple",
+        "load car1 adult 2",
+        "drive car1 myagang-temple tarkeshwar-shelter",
+        "unload car1 adult 2"
+      ],
+      "claimed_cost": 120,
+      "text": "**Reasoning**\n\nThe only open route from the shelter to anyone waiting runs through Myagang temple (20 min). Tadi farm is a further 22 min beyond it. A round trip costs 40 min to the temple and 84 min if it extends to Tadi farm.\n\n| Option | Driving | Penalties | Total |\n|---|---|---|---|\n| Rescue everyone (one trip via Tadi farm, one to the temple) | 84 + 40 | 0 | 124 |\n| Two temple trips, defer 2 adults at Tadi farm | 40 + 40 | 2 \u00d7 20 = 40 | **120** |\n| One temple trip (3 elderly and 1 adult), defer 4 adults | 40 | 4 \u00d7 20 = 80 | **120** |\n| One trip via Tadi farm, defer the 4 people left at the temple | 84 | 50 + 3 \u00d7 20 = 110 | 194 |\n\nThe minimum cost is 120, and two options reach it. I chose the two-trip plan because it rescues 6 people instead of 4. It defers only the 2 adults at Tadi farm, whose collection would add 44 min of driving but only avoid a 40-point penalty.\n\n<plan>\ndefer tadi-farm adult 2\ndrive car1 tarkeshwar-shelter myagang-temple\nload car1 elderly 3\nload car1 adult 1\ndrive car1 myagang-temple tarkeshwar-shelter\nunload car1 elderly 3\nunload car1 adult 1\ndrive car1 tarkeshwar-shelter myagang-temple\nload car1 adult 2\ndrive car1 myagang-temple tarkeshwar-shelter\nunload car1 adult 2\n</plan>\n\nCOST: 120"
+    }
+  ]
+}

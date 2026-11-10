@@ -1,0 +1,65 @@
+{
+  "pipeline": "direct",
+  "instance": "medium-15",
+  "size": "medium",
+  "level": "explicit",
+  "model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1925,
+    "output_tokens": 2408,
+    "calls": 1,
+    "seconds": 20.8
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 194,
+    "travel_minutes": 154,
+    "deferred_penalty": 40,
+    "rescued": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 2,
+      "adult": 9
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 2
+    },
+    "people_rescued": 11,
+    "priority_people_rescued": 2
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 jwalamukhi-shelter tadi-farm",
+        "load car1 adult 2",
+        "drive car1 tadi-farm jwalamukhi-shelter",
+        "unload car1 adult 2",
+        "drive car2 gosaikunda-hospital kakani-village",
+        "drive car2 kakani-village dupcheshwar-market",
+        "load car2 adult 4",
+        "drive car2 dupcheshwar-market kakani-village",
+        "drive car2 kakani-village gosaikunda-hospital",
+        "unload car2 adult 4",
+        "drive car2 gosaikunda-hospital kakani-village",
+        "load car2 adult 3",
+        "drive car2 kakani-village gosaikunda-hospital",
+        "unload car2 adult 3",
+        "drive car2 gosaikunda-hospital galchhi-farm",
+        "load car2 elderly 2",
+        "drive car2 galchhi-farm gosaikunda-hospital",
+        "unload car2 elderly 2",
+        "defer dupcheshwar-market adult 2"
+      ],
+      "claimed_cost": 194,
+      "text": "This plan costs 194 minutes in total. Car1 handles Tadi farm, and car2 handles Kakani village, Dupcheshwar market and Galchhi farm.\n\n- **Tadi farm (2 adults):** Car1 makes a 10-minute round trip to save 40 minutes of penalty.\n- **Dupcheshwar market (6 adults):** One trip by car2 costs 48 minutes and brings back 4 adults, saving 80. A second trip for the last 2 adults would cost 48 to save only 40, so those 2 are deferred.\n- **Kakani village (3 adults):** Car2 makes a 10-minute round trip from the hospital to save 60. It goes after the Dupcheshwar trip because that trip fills all 4 seats.\n- **Galchhi farm (2 elderly):** The shelter road is damaged, so only car2 can go, from the hospital. The round trip costs 86 to save 100, a net gain of 14. Car1 would need 104, which is more than the 100 penalty.\n\nCost breakdown:\n- Car1 driving: 10\n- Car2 driving: 48 + 10 + 86 = 144\n- Deferred 2 adults at Dupcheshwar: 40\n- Total: 10 + 144 + 40 = 194\n\n<plan>\ndrive car1 jwalamukhi-shelter tadi-farm\nload car1 adult 2\ndrive car1 tadi-farm jwalamukhi-shelter\nunload car1 adult 2\ndrive car2 gosaikunda-hospital kakani-village\ndrive car2 kakani-village dupcheshwar-market\nload car2 adult 4\ndrive car2 dupcheshwar-market kakani-village\ndrive car2 kakani-village gosaikunda-hospital\nunload car2 adult 4\ndrive car2 gosaikunda-hospital kakani-village\nload car2 adult 3\ndrive car2 kakani-village gosaikunda-hospital\nunload car2 adult 3\ndrive car2 gosaikunda-hospital galchhi-farm\nload car2 elderly 2\ndrive car2 galchhi-farm gosaikunda-hospital\nunload car2 elderly 2\ndefer dupcheshwar-market adult 2\n</plan>\nCOST: 194"
+    }
+  ]
+}

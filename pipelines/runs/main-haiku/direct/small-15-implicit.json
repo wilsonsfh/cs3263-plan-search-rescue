@@ -1,0 +1,54 @@
+{
+  "pipeline": "direct",
+  "instance": "small-15",
+  "size": "small",
+  "level": "implicit",
+  "model": "claude-haiku-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1904,
+    "output_tokens": 4446,
+    "calls": 1,
+    "seconds": 22.8
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 118,
+    "travel_minutes": 78,
+    "deferred_penalty": 40,
+    "rescued": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 4
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 2
+    },
+    "people_rescued": 4,
+    "priority_people_rescued": 0
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 shivapuri-shelter kalika-farm",
+        "load car1 adult 3",
+        "drive car1 kalika-farm shivapuri-shelter",
+        "drive car1 shivapuri-shelter dupcheshwar-market",
+        "load car1 adult 1",
+        "drive car1 dupcheshwar-market shivapuri-shelter",
+        "unload car1 adult 4",
+        "defer uttargaya-farm adult 2"
+      ],
+      "claimed_cost": 118,
+      "text": "<plan>\ndrive car1 shivapuri-shelter kalika-farm\nload car1 adult 3\ndrive car1 kalika-farm shivapuri-shelter\ndrive car1 shivapuri-shelter dupcheshwar-market\nload car1 adult 1\ndrive car1 dupcheshwar-market shivapuri-shelter\nunload car1 adult 4\ndefer uttargaya-farm adult 2\n</plan>\nCOST: 118\n\nNotes on the plan:\n- Shivapuri shelter is the only designated evacuation point, so all rescues end there. Dhunche temple is not used.\n- The car rescues the 3 Kalika farm residents and the Dupcheshwar shopkeeper in one trip (7 + 7 + 32 + 32 = 78 minutes), filling its four seats.\n- Reaching Uttargaya farm and returning costs 110 minutes, which is more than the 40-minute penalty for deferring its two shopkeepers. So those two are deferred.\n- No families or people at Kispang care home are reported, so there is nothing to collect there.\n- I assumed the listed roads can be driven in both directions, since the return legs depend on that."
+    }
+  ]
+}

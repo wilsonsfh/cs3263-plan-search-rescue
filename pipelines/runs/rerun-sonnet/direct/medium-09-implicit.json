@@ -1,0 +1,60 @@
+{
+  "pipeline": "direct",
+  "instance": "medium-09",
+  "size": "medium",
+  "level": "implicit",
+  "model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 2169,
+    "output_tokens": 2876,
+    "calls": 1,
+    "seconds": 21.4
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 330,
+    "travel_minutes": 110,
+    "deferred_penalty": 220,
+    "rescued": {
+      "injured": 4,
+      "child": 0,
+      "elderly": 3,
+      "adult": 1
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 1,
+      "elderly": 0,
+      "adult": 8
+    },
+    "people_rescued": 8,
+    "priority_people_rescued": 7
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 thakre-shelter dhunche-market",
+        "load car1 injured 4",
+        "drive car1 dhunche-market thakre-shelter",
+        "unload car1 injured 4",
+        "drive car2 thakre-shelter myagang-care-home",
+        "load car2 elderly 3",
+        "drive car2 myagang-care-home dhunche-market",
+        "load car2 adult 1",
+        "drive car2 dhunche-market thakre-shelter",
+        "unload car2 elderly 3",
+        "unload car2 adult 1",
+        "defer dhunche-market adult 1",
+        "defer tadi-market adult 7",
+        "defer shivapuri-village child 1"
+      ],
+      "claimed_cost": 330,
+      "text": "I planned this by comparing, for each group, the cost of the driving needed to rescue them against the penalty for deferring them.\n\n**Roads I did not use:** Dhunche market to Nilkantha village (floodwater, a truck was swept off it). Nilkantha village is also a dead end that doesn't help any pickup. Kakani school is not a valid drop-off point.\n\n**Rescued:**\n- **Four injured at Dhunche market:** car1 makes a 46-minute round trip. Deferring them would cost 320.\n- **Three elderly at Myagang care home and one shopkeeper at Dhunche market:** car2 drives Thakre shelter \u2192 Myagang care home \u2192 Dhunche market \u2192 Thakre shelter, 64 minutes. Deferring them would cost 170.\n\n**Deferred:**\n- **Seven shopkeepers at Tadi market:** each group of four needs a 98-minute round trip to save 80 in penalties, so deferring is cheaper (140).\n- **Young boy at Shivapuri village:** an 88-minute round trip to save a 60 penalty, so deferring is cheaper.\n- **One shopkeeper at Dhunche market:** a separate 46-minute trip to save a 20 penalty is not worth it.\n\nTotal: 46 + 64 driving, plus 140 + 60 + 20 deferred, gives 330.\n\n<plan>\ndrive car1 thakre-shelter dhunche-market\nload car1 injured 4\ndrive car1 dhunche-market thakre-shelter\nunload car1 injured 4\ndrive car2 thakre-shelter myagang-care-home\nload car2 elderly 3\ndrive car2 myagang-care-home dhunche-market\nload car2 adult 1\ndrive car2 dhunche-market thakre-shelter\nunload car2 elderly 3\nunload car2 adult 1\ndefer dhunche-market adult 1\ndefer tadi-market adult 7\ndefer shivapuri-village child 1\n</plan>\n\nCOST: 330"
+    }
+  ]
+}

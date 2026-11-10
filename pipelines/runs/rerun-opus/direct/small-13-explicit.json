@@ -1,0 +1,48 @@
+{
+  "pipeline": "direct",
+  "instance": "small-13",
+  "size": "small",
+  "level": "explicit",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1600,
+    "output_tokens": 533,
+    "calls": 1,
+    "seconds": 7.0
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 120,
+    "travel_minutes": 0,
+    "deferred_penalty": 120,
+    "rescued": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 0
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 1,
+      "elderly": 0,
+      "adult": 3
+    },
+    "people_rescued": 0,
+    "priority_people_rescued": 0
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "defer nilkantha-market adult 3",
+        "defer belkot-village child 1"
+      ],
+      "claimed_cost": 120,
+      "text": "**Nilkantha market (3 adults):** Both roads to the market are impassable, so nobody can reach it. The 3 adults must be deferred, at a penalty of 3 \u00d7 20 = 60.\n\n**Belkot village (1 child):** The village can be reached, but the trip costs more than deferring:\n- **Route:** Bidur shelter \u2192 Suryagadhi farm \u2192 Likhu care home \u2192 Belkot village takes 20 + 51 + 22 = 93 min each way.\n- **Rescue cost:** The round trip takes 186 min of driving, because the child must be brought back to Bidur shelter, the only evacuation point.\n- **Deferral cost:** The penalty for deferring a child is 60, which is 126 less than the rescue.\n\nUnder the stated cost rules, the cheapest plan is to defer everyone, and car1 doesn't need to drive at all. This means the child is left waiting for a later wave even though a rescue is physically possible, so coordinators may want to review that decision if there is any urgent risk at Belkot village.\n\n**Total cost:** 0 min of driving + 60 (adults) + 60 (child) = 120\n\n<plan>\ndefer nilkantha-market adult 3\ndefer belkot-village child 1\n</plan>\n\nCOST: 120"
+    }
+  ]
+}

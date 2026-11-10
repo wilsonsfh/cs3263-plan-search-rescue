@@ -1,0 +1,77 @@
+{
+  "pipeline": "direct",
+  "instance": "large-13",
+  "size": "large",
+  "level": "implicit",
+  "model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 2551,
+    "output_tokens": 3279,
+    "calls": 1,
+    "seconds": 23.6
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 212,
+    "travel_minutes": 192,
+    "deferred_penalty": 20,
+    "rescued": {
+      "injured": 10,
+      "child": 6,
+      "elderly": 0,
+      "adult": 4
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 1
+    },
+    "people_rescued": 20,
+    "priority_people_rescued": 16
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 kalika-shelter kakani-village",
+        "load car1 injured 3",
+        "load car1 child 1",
+        "drive car1 kakani-village kalika-shelter",
+        "unload car1 injured 3",
+        "unload car1 child 1",
+        "drive car2 dhunche-hospital jwalamukhi-school",
+        "load car2 injured 3",
+        "load car2 child 1",
+        "drive car2 jwalamukhi-school dhunche-hospital",
+        "unload car2 injured 3",
+        "unload car2 child 1",
+        "drive car2 dhunche-hospital jwalamukhi-school",
+        "load car2 child 1",
+        "drive car2 jwalamukhi-school naukunda-market",
+        "load car2 adult 3",
+        "drive car2 naukunda-market jwalamukhi-school",
+        "drive car2 jwalamukhi-school dhunche-hospital",
+        "unload car2 child 1",
+        "unload car2 adult 3",
+        "drive car2 dhunche-hospital gosaikunda-village",
+        "load car2 injured 4",
+        "drive car2 gosaikunda-village dhunche-hospital",
+        "unload car2 injured 4",
+        "drive car2 dhunche-hospital gosaikunda-village",
+        "load car2 child 3",
+        "load car2 adult 1",
+        "drive car2 gosaikunda-village dhunche-hospital",
+        "unload car2 child 3",
+        "unload car2 adult 1",
+        "defer gosaikunda-village adult 1"
+      ],
+      "claimed_cost": 212,
+      "text": "This plan leaves one adult at Gosaikunda deferred, and everyone else is rescued.\n\n- **Evacuation points:** Only Kalika shelter and Dhunche hospital count. Jwalamukhi school is not designated, so nobody is dropped there.\n- **Avoided roads:** I did not use the two flooded roads (Kalika\u2013Syaphru and Gosaikunda\u2013Dupcheshwar). The Belkot\u2013Gajuri road is buried by a landslide.\n- **Kakani:** car1 takes all four people to Kalika shelter, a 28-minute round trip.\n- **Jwalamukhi and Naukunda:**\n  - car2's first trip takes the 3 injured and 1 child to Dhunche hospital (18 minutes).\n  - Its second trip picks up the last child at Jwalamukhi, then the 3 adults at Naukunda market, and brings all four to Dhunche hospital (54 minutes).\n  - The adults cost 54 minutes to reach, just under the 60 penalty for deferring them. Combining them with the child's trip makes it clearly worthwhile.\n- **Gosaikunda:**\n  - The village can only be reached from Dhunche hospital, so car2 does both trips, 46 minutes each.\n  - The first trip takes the 4 injured. The second takes the 3 children and 1 adult.\n  - A third trip for the last adult would cost 46 minutes against a 20 penalty, so I defer that adult.\n- **Total:** car1 drives 28 minutes and car2 drives 164, plus the 20 penalty for the one deferred adult.\n\n<plan>\ndrive car1 kalika-shelter kakani-village\nload car1 injured 3\nload car1 child 1\ndrive car1 kakani-village kalika-shelter\nunload car1 injured 3\nunload car1 child 1\ndrive car2 dhunche-hospital jwalamukhi-school\nload car2 injured 3\nload car2 child 1\ndrive car2 jwalamukhi-school dhunche-hospital\nunload car2 injured 3\nunload car2 child 1\ndrive car2 dhunche-hospital jwalamukhi-school\nload car2 child 1\ndrive car2 jwalamukhi-school naukunda-market\nload car2 adult 3\ndrive car2 naukunda-market jwalamukhi-school\ndrive car2 jwalamukhi-school dhunche-hospital\nunload car2 child 1\nunload car2 adult 3\ndrive car2 dhunche-hospital gosaikunda-village\nload car2 injured 4\ndrive car2 gosaikunda-village dhunche-hospital\nunload car2 injured 4\ndrive car2 dhunche-hospital gosaikunda-village\nload car2 child 3\nload car2 adult 1\ndrive car2 gosaikunda-village dhunche-hospital\nunload car2 child 3\nunload car2 adult 1\ndefer gosaikunda-village adult 1\n</plan>\n\nCOST: 212"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "pipeline": "direct",
+  "instance": "small-14",
+  "size": "small",
+  "level": "implicit",
+  "model": "claude-haiku-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1898,
+    "output_tokens": 3444,
+    "calls": 1,
+    "seconds": 16.5
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 120,
+    "travel_minutes": 80,
+    "deferred_penalty": 40,
+    "rescued": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 3,
+      "adult": 3
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 2
+    },
+    "people_rescued": 6,
+    "priority_people_rescued": 3
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 tarkeshwar-shelter myagang-temple",
+        "load car1 elderly 3",
+        "load car1 adult 1",
+        "drive car1 myagang-temple tarkeshwar-shelter",
+        "unload car1 elderly 3",
+        "unload car1 adult 1",
+        "drive car1 tarkeshwar-shelter myagang-temple",
+        "load car1 adult 2",
+        "drive car1 myagang-temple tarkeshwar-shelter",
+        "unload car1 adult 2",
+        "defer tadi-farm adult 2"
+      ],
+      "claimed_cost": 120,
+      "text": "<plan>\ndrive car1 tarkeshwar-shelter myagang-temple\nload car1 elderly 3\nload car1 adult 1\ndrive car1 myagang-temple tarkeshwar-shelter\nunload car1 elderly 3\nunload car1 adult 1\ndrive car1 tarkeshwar-shelter myagang-temple\nload car1 adult 2\ndrive car1 myagang-temple tarkeshwar-shelter\nunload car1 adult 2\ndefer tadi-farm adult 2\n</plan>\nCOST: 120\n\nNotes:\n- Only Tarkeshwar shelter is a valid evacuation point, since Myagang temple has not been designated. Every rescued person must be unloaded there.\n- The two adults at Tadi farm are deferred because the Tadi round trip adds about 64 driving minutes, which costs more than the 40-minute deferral penalty. If all 8 people should be rescued in this wave, the plan is: take 3 elderly and 1 adult from Myagang, then 2 adults from Myagang, then the 2 Tadi adults via Myagang\u2013Tadi (22 min each way). That costs 124 with no deferrals, 4 minutes more than the plan above.\n- The Shivapuri farm\u2013Benighat farm road is flooded but still listed as usable, so the plan does not depend on it."
+    }
+  ]
+}

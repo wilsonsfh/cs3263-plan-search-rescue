@@ -1,0 +1,69 @@
+{
+  "pipeline": "direct",
+  "instance": "medium-11",
+  "size": "medium",
+  "level": "implicit",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 2073,
+    "output_tokens": 1734,
+    "calls": 1,
+    "seconds": 18.1
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 496,
+    "travel_minutes": 256,
+    "deferred_penalty": 240,
+    "rescued": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 7,
+      "adult": 7
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 4,
+      "elderly": 0,
+      "adult": 0
+    },
+    "people_rescued": 14,
+    "priority_people_rescued": 7
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "defer syaphru-school child 4",
+        "drive car1 naukunda-shelter shivapuri-market",
+        "drive car1 shivapuri-market dupcheshwar-market",
+        "load car1 elderly 4",
+        "drive car1 dupcheshwar-market shivapuri-market",
+        "drive car1 shivapuri-market naukunda-shelter",
+        "unload car1 elderly 4",
+        "drive car1 naukunda-shelter shivapuri-market",
+        "drive car1 shivapuri-market dupcheshwar-market",
+        "load car1 elderly 3",
+        "drive car1 dupcheshwar-market shivapuri-market",
+        "drive car1 shivapuri-market naukunda-shelter",
+        "unload car1 elderly 3",
+        "drive car1 naukunda-shelter gosaikunda-care-home",
+        "drive car1 gosaikunda-care-home benighat-market",
+        "load car1 adult 4",
+        "drive car1 benighat-market gosaikunda-care-home",
+        "drive car1 gosaikunda-care-home naukunda-shelter",
+        "unload car1 adult 4",
+        "drive car1 naukunda-shelter gosaikunda-care-home",
+        "load car1 adult 3",
+        "drive car1 gosaikunda-care-home naukunda-shelter",
+        "unload car1 adult 3"
+      ],
+      "claimed_cost": 496,
+      "text": "**Key constraints**\n- The only valid drop-off point is Naukunda shelter. Syaphru school is not designated.\n- The only road to Syaphru school (from Dupcheshwar) is closed, so the four children there can't be reached and must be deferred.\n- With the direct Naukunda\u2013Dupcheshwar road buried, reaching Dupcheshwar means going via Shivapuri market, which takes 40 minutes each way.\n- The Gosaikunda\u2013Shivapuri road is also buried, so each trip has to return to the shelter.\n\n**Rescue or defer**\n\n| Group | Trips | Driving (min) | Deferral penalty avoided |\n|---|---|---|---|\n| 7 elderly, Dupcheshwar | 2 round trips at 80 min each | 160 | 350 |\n| 4 adults, Benighat | 1 round trip via Gosaikunda | 56 | 80 |\n| 3 adults, Gosaikunda | 1 round trip | 40 | 60 |\n| 4 children, Syaphru school | Unreachable | 0 | None (240 penalty) |\n\nEvery reachable person is worth rescuing because each trip costs less than the penalties it avoids. The 7 adults need at least two trips because the car carries four, so 96 minutes is the least driving for them.\n\n<plan>\ndefer syaphru-school child 4\ndrive car1 naukunda-shelter shivapuri-market\ndrive car1 shivapuri-market dupcheshwar-market\nload car1 elderly 4\ndrive car1 dupcheshwar-market shivapuri-market\ndrive car1 shivapuri-market naukunda-shelter\nunload car1 elderly 4\ndrive car1 naukunda-shelter shivapuri-market\ndrive car1 shivapuri-market dupcheshwar-market\nload car1 elderly 3\ndrive car1 dupcheshwar-market shivapuri-market\ndrive car1 shivapuri-market naukunda-shelter\nunload car1 elderly 3\ndrive car1 naukunda-shelter gosaikunda-care-home\ndrive car1 gosaikunda-care-home benighat-market\nload car1 adult 4\ndrive car1 benighat-market gosaikunda-care-home\ndrive car1 gosaikunda-care-home naukunda-shelter\nunload car1 adult 4\ndrive car1 naukunda-shelter gosaikunda-care-home\nload car1 adult 3\ndrive car1 gosaikunda-care-home naukunda-shelter\nunload car1 adult 3\n</plan>\n\n**Cost:** 256 minutes of driving + 240 in deferral penalties = 496\n\nThe four children at Syaphru school should be the priority for the next wave, or for any non-road option such as a helicopter, because no road access remains.\n\nCOST: 496"
+    }
+  ]
+}

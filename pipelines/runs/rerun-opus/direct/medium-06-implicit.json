@@ -1,0 +1,64 @@
+{
+  "pipeline": "direct",
+  "instance": "medium-06",
+  "size": "medium",
+  "level": "implicit",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 2061,
+    "output_tokens": 2141,
+    "calls": 1,
+    "seconds": 20.1
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 282,
+    "travel_minutes": 212,
+    "deferred_penalty": 70,
+    "rescued": {
+      "injured": 1,
+      "child": 0,
+      "elderly": 6,
+      "adult": 0
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 1,
+      "adult": 1
+    },
+    "people_rescued": 7,
+    "priority_people_rescued": 7
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "defer nilkantha-temple elderly 1",
+        "defer suryagadhi-market adult 1",
+        "drive car1 jwalamukhi-shelter gajuri-school",
+        "drive car1 gajuri-school kalika-temple",
+        "drive car1 kalika-temple syaphru-care-home",
+        "load car1 injured 1",
+        "drive car1 syaphru-care-home kalika-temple",
+        "load car1 elderly 3",
+        "drive car1 kalika-temple gajuri-school",
+        "drive car1 gajuri-school jwalamukhi-shelter",
+        "unload car1 injured 1",
+        "unload car1 elderly 3",
+        "drive car1 jwalamukhi-shelter gajuri-school",
+        "drive car1 gajuri-school kalika-temple",
+        "load car1 elderly 3",
+        "drive car1 kalika-temple gajuri-school",
+        "drive car1 gajuri-school jwalamukhi-shelter",
+        "unload car1 elderly 3"
+      ],
+      "claimed_cost": 282,
+      "text": "# Rescue plan: Nuwakot district (medium-06)\n\n**Total cost: 282** (212 minutes of driving + 70 in deferral penalties). Everyone who can be reached safely is rescued, while two people must wait for a later wave.\n\n## Constraints\n- **Evacuation point:** Jwalamukhi shelter is the only valid drop-off. Gajuri school is not designated, so the car can pass through it but cannot leave anyone there.\n- **Closed roads:** The Jwalamukhi\u2013Syaphru road has collapsed, and the Belkot\u2013Kalika road is buried by a landslide.\n- **Flooded road:** I treated Kalika\u2013Nilkantha as unusable because of the fast floodwater and a truck being swept off it this morning.\n- **Cut-off locations:** Without that road, Nilkantha temple and Suryagadhi market can't be reached, so the widow and the bus driver must be deferred.\n- **Quickest usable route:** Jwalamukhi to Kalika via Gajuri takes 38 minutes, while Syaphru is a further 30 minutes beyond Kalika.\n\n## Plan\nThe injured farmer is collected on the first trip, which adds no cost.\n\n<plan>\ndefer nilkantha-temple elderly 1\ndefer suryagadhi-market adult 1\ndrive car1 jwalamukhi-shelter gajuri-school\ndrive car1 gajuri-school kalika-temple\ndrive car1 kalika-temple syaphru-care-home\nload car1 injured 1\ndrive car1 syaphru-care-home kalika-temple\nload car1 elderly 3\ndrive car1 kalika-temple gajuri-school\ndrive car1 gajuri-school jwalamukhi-shelter\nunload car1 injured 1\nunload car1 elderly 3\ndrive car1 jwalamukhi-shelter gajuri-school\ndrive car1 gajuri-school kalika-temple\nload car1 elderly 3\ndrive car1 kalika-temple gajuri-school\ndrive car1 gajuri-school jwalamukhi-shelter\nunload car1 elderly 3\n</plan>\n\n## Cost breakdown\n\n| Item | Details | Cost |\n|---|---|---|\n| Trip 1 | Jwalamukhi \u2192 Gajuri \u2192 Kalika \u2192 Syaphru \u2192 Kalika \u2192 Gajuri \u2192 Jwalamukhi (19 + 19 + 30 + 30 + 19 + 19) | 136 |\n| Trip 2 | Jwalamukhi \u2192 Gajuri \u2192 Kalika \u2192 Gajuri \u2192 Jwalamukhi (19 + 19 + 19 + 19) | 76 |\n| Deferred | Elderly widow at Nilkantha temple | 50 |\n| Deferred | Bus driver at Suryagadhi market | 20 |\n| **Total** | | **282** |\n\n## Why this is the cheapest option\nWith seven reachable people and four seats, rescuing everyone reachable takes two trips. Deferring more people would cost more:\n\n| Option | Driving | Added penalties | Cost before the 70 for unreachable people |\n|---|---|---|---|\n| **Rescue all seven (this plan)** | 212 | 0 | **212** |\n| Defer the farmer, make two trips for all six seniors | 152 | 80 | 232 |\n| Defer the farmer and two seniors, make one trip | 76 | 180 | 256 |\n| Make one trip with the farmer and three seniors, defer three seniors | 136 | 150 | 286 |\n| Defer all seven | 0 | 380 | 380 |\n\nCOST: 282"
+    }
+  ]
+}

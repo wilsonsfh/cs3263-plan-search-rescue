@@ -1,0 +1,85 @@
+{
+  "pipeline": "direct",
+  "instance": "large-15",
+  "size": "large",
+  "level": "implicit",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 2682,
+    "output_tokens": 4795,
+    "calls": 1,
+    "seconds": 50.4
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 477,
+    "travel_minutes": 317,
+    "deferred_penalty": 160,
+    "rescued": {
+      "injured": 2,
+      "child": 0,
+      "elderly": 11,
+      "adult": 5
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 8
+    },
+    "people_rescued": 18,
+    "priority_people_rescued": 13
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 suryagadhi-shelter galchhi-village",
+        "load car1 elderly 2",
+        "drive car1 galchhi-village kalika-hospital",
+        "unload car1 elderly 2",
+        "drive car1 kalika-hospital gajuri-farm",
+        "load car1 adult 4",
+        "drive car1 gajuri-farm kalika-hospital",
+        "unload car1 adult 4",
+        "drive car1 kalika-hospital gajuri-farm",
+        "drive car1 gajuri-farm likhu-temple",
+        "load car1 elderly 4",
+        "drive car1 likhu-temple gajuri-farm",
+        "drive car1 gajuri-farm kalika-hospital",
+        "unload car1 elderly 4",
+        "drive car2 kalika-hospital gajuri-farm",
+        "drive car2 gajuri-farm likhu-temple",
+        "drive car2 likhu-temple nilkantha-market",
+        "load car2 elderly 4",
+        "drive car2 nilkantha-market likhu-temple",
+        "drive car2 likhu-temple gajuri-farm",
+        "drive car2 gajuri-farm kalika-hospital",
+        "unload car2 elderly 4",
+        "drive car2 kalika-hospital gajuri-farm",
+        "drive car2 gajuri-farm likhu-temple",
+        "drive car2 likhu-temple nilkantha-market",
+        "load car2 injured 2",
+        "drive car2 nilkantha-market tadi-temple",
+        "load car2 elderly 1",
+        "load car2 adult 1",
+        "drive car2 tadi-temple nilkantha-market",
+        "drive car2 nilkantha-market likhu-temple",
+        "drive car2 likhu-temple gajuri-farm",
+        "drive car2 gajuri-farm kalika-hospital",
+        "unload car2 injured 2",
+        "unload car2 elderly 1",
+        "unload car2 adult 1",
+        "defer tarkeshwar-farm adult 4",
+        "defer thakre-farm adult 2",
+        "defer tadi-temple adult 2"
+      ],
+      "claimed_cost": 477,
+      "text": "The plan rescues 16 of the 24 people and defers 8 adults, for a total cost of 477 (317 driving minutes plus 160 in penalties).\n\n**Roads I treated as unusable**\n- Kispang market to Tarkeshwar farm: buried by a landslide.\n- Myagang village to Dhunche school: the bridge is washed away.\n- Thakre farm to Tadi temple: fast floodwater, and a truck was swept off it.\n- Tarkeshwar farm to Dhunche school: fast floodwater, and a truck was swept off it.\n\nTadi temple is not a designated evacuation point. Everyone is dropped at Kalika hospital.\n\n**Trips**\n1. **car1** goes Suryagadhi \u2192 Galchhi \u2192 Kalika, bringing the 2 elderly from Galchhi (23 minutes).\n2. **car1** does a round trip to Gajuri farm for the 4 adults (14 minutes).\n3. **car1** does a round trip to Likhu temple for the 4 elderly (46 minutes).\n4. **car2** does a round trip to Nilkantha market for the 4 elderly (102 minutes).\n5. **car2** goes to Nilkantha market for the 2 injured, then on to Tadi temple for the elderly man and 1 adult (132 minutes). The extra 30 minutes to Tadi saves 70 in penalties.\n\n**Deferred**\n- **Tarkeshwar farm, 4 adults:** the only open road there is very long (about 93 minutes each way from Kalika). A round trip would cost 186 minutes, against a penalty of 80.\n- **Thakre farm, 2 adults:** collecting them would take a third far trip, which costs more than the penalty of 40.\n- **Tadi temple, 2 adults:** same reason, penalty 40.\n\n<plan>\ndrive car1 suryagadhi-shelter galchhi-village\nload car1 elderly 2\ndrive car1 galchhi-village kalika-hospital\nunload car1 elderly 2\ndrive car1 kalika-hospital gajuri-farm\nload car1 adult 4\ndrive car1 gajuri-farm kalika-hospital\nunload car1 adult 4\ndrive car1 kalika-hospital gajuri-farm\ndrive car1 gajuri-farm likhu-temple\nload car1 elderly 4\ndrive car1 likhu-temple gajuri-farm\ndrive car1 gajuri-farm kalika-hospital\nunload car1 elderly 4\ndrive car2 kalika-hospital gajuri-farm\ndrive car2 gajuri-farm likhu-temple\ndrive car2 likhu-temple nilkantha-market\nload car2 elderly 4\ndrive car2 nilkantha-market likhu-temple\ndrive car2 likhu-temple gajuri-farm\ndrive car2 gajuri-farm kalika-hospital\nunload car2 elderly 4\ndrive car2 kalika-hospital gajuri-farm\ndrive car2 gajuri-farm likhu-temple\ndrive car2 likhu-temple nilkantha-market\nload car2 injured 2\ndrive car2 nilkantha-market tadi-temple\nload car2 elderly 1\nload car2 adult 1\ndrive car2 tadi-temple nilkantha-market\ndrive car2 nilkantha-market likhu-temple\ndrive car2 likhu-temple gajuri-farm\ndrive car2 gajuri-farm kalika-hospital\nunload car2 injured 2\nunload car2 elderly 1\nunload car2 adult 1\ndefer tarkeshwar-farm adult 4\ndefer thakre-farm adult 2\ndefer tadi-temple adult 2\n</plan>\n\n**Cost breakdown**\n- Driving: 23 + 14 + 46 + 102 + 132 = 317 minutes.\n- Penalties: 8 deferred adults \u00d7 20 = 160.\n\nCOST: 477"
+    }
+  ]
+}

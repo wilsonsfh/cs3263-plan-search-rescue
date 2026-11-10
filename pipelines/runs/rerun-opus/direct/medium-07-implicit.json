@@ -1,0 +1,69 @@
+{
+  "pipeline": "direct",
+  "instance": "medium-07",
+  "size": "medium",
+  "level": "implicit",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 2119,
+    "output_tokens": 2820,
+    "calls": 1,
+    "seconds": 30.0
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 411,
+    "travel_minutes": 351,
+    "deferred_penalty": 60,
+    "rescued": {
+      "injured": 4,
+      "child": 8,
+      "elderly": 0,
+      "adult": 4
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 3
+    },
+    "people_rescued": 16,
+    "priority_people_rescued": 12
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 kakani-shelter jwalamukhi-school",
+        "drive car1 jwalamukhi-school benighat-school",
+        "load car1 injured 4",
+        "drive car1 benighat-school jwalamukhi-school",
+        "drive car1 jwalamukhi-school kakani-shelter",
+        "unload car1 injured 4",
+        "drive car1 kakani-shelter jwalamukhi-school",
+        "drive car1 jwalamukhi-school benighat-school",
+        "load car1 child 4",
+        "drive car1 benighat-school jwalamukhi-school",
+        "drive car1 jwalamukhi-school kakani-shelter",
+        "unload car1 child 4",
+        "drive car1 kakani-shelter jwalamukhi-school",
+        "load car1 adult 4",
+        "drive car1 jwalamukhi-school kakani-shelter",
+        "unload car1 adult 4",
+        "drive car1 kakani-shelter dupcheshwar-farm",
+        "load car1 child 1",
+        "drive car1 dupcheshwar-farm panchakanya-school",
+        "load car1 child 3",
+        "drive car1 panchakanya-school myagang-hospital",
+        "unload car1 child 4",
+        "defer gajuri-market adult 3"
+      ],
+      "claimed_cost": 411,
+      "text": "I worked this out by hand, comparing each possible trip's driving time with the penalties it would avoid. The plan below costs 411, and I found no cheaper option, though I didn't run a formal solver.\n\n**Road and location limits**\n- **Blocked roads:** Both roads into Gajuri market from Kakani and Myagang are flooded, so it can only be reached through Panchakanya school.\n- **Drop-off points:** Only Kakani shelter and Myagang hospital count. Panchakanya school isn't a designated evacuation point.\n\n**Decisions**\n\n| Trip or decision | People | Driving (min) | Penalty avoided or incurred |\n|---|---|---|---|\n| Kakani \u2192 Jwalamukhi \u2192 Benighat and back | 4 injured | 94 | Avoids 320 |\n| Kakani \u2192 Jwalamukhi \u2192 Benighat and back | 4 children | 94 | Avoids 240 |\n| Kakani \u2192 Jwalamukhi and back | 4 adults | 80 | Avoids 80 |\n| Kakani \u2192 Dupcheshwar \u2192 Panchakanya \u2192 Myagang | 4 children | 83 | Avoids 240 |\n| Defer Gajuri market | 3 adults | 0 | Incurs 60 |\n\n- **Jwalamukhi adults:** Rescuing them costs the same as deferring them (80 either way), so I chose to rescue them.\n- **Gajuri adults:** The car is already full of children when it reaches Panchakanya. A separate round trip from Myagang would take 112 minutes, compared with a penalty of 60, so they are deferred.\n- **Trip order:** The injured go first. The eastern trip goes last because it ends at Myagang, which avoids 18 minutes of driving back to Kakani.\n\n<plan>\ndrive car1 kakani-shelter jwalamukhi-school\ndrive car1 jwalamukhi-school benighat-school\nload car1 injured 4\ndrive car1 benighat-school jwalamukhi-school\ndrive car1 jwalamukhi-school kakani-shelter\nunload car1 injured 4\ndrive car1 kakani-shelter jwalamukhi-school\ndrive car1 jwalamukhi-school benighat-school\nload car1 child 4\ndrive car1 benighat-school jwalamukhi-school\ndrive car1 jwalamukhi-school kakani-shelter\nunload car1 child 4\ndrive car1 kakani-shelter jwalamukhi-school\nload car1 adult 4\ndrive car1 jwalamukhi-school kakani-shelter\nunload car1 adult 4\ndrive car1 kakani-shelter dupcheshwar-farm\nload car1 child 1\ndrive car1 dupcheshwar-farm panchakanya-school\nload car1 child 3\ndrive car1 panchakanya-school myagang-hospital\nunload car1 child 4\ndefer gajuri-market adult 3\n</plan>\n\nTotal cost is 351 minutes of driving (94 + 94 + 80 + 83) plus a 60 penalty for deferring the three adults.\n\nCOST: 411"
+    }
+  ]
+}

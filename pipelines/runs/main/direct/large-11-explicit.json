@@ -1,0 +1,71 @@
+{
+  "pipeline": "direct",
+  "instance": "large-11",
+  "size": "large",
+  "level": "explicit",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 2263,
+    "output_tokens": 3763,
+    "calls": 1,
+    "seconds": 41.5
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 405,
+    "travel_minutes": 265,
+    "deferred_penalty": 140,
+    "rescued": {
+      "injured": 1,
+      "child": 4,
+      "elderly": 2,
+      "adult": 6
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 7
+    },
+    "people_rescued": 13,
+    "priority_people_rescued": 7
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car2 dupcheshwar-hospital nilkantha-care-home",
+        "load car2 adult 2",
+        "drive car2 nilkantha-care-home dupcheshwar-hospital",
+        "unload car2 adult 2",
+        "drive car1 tarkeshwar-shelter bidur-village",
+        "load car1 elderly 2",
+        "drive car1 bidur-village galchhi-village",
+        "load car1 injured 1",
+        "drive car1 galchhi-village tarkeshwar-shelter",
+        "unload car1 elderly 2",
+        "unload car1 injured 1",
+        "drive car1 tarkeshwar-shelter galchhi-village",
+        "drive car1 galchhi-village syaphru-village",
+        "load car1 adult 4",
+        "drive car1 syaphru-village galchhi-village",
+        "drive car1 galchhi-village tarkeshwar-shelter",
+        "unload car1 adult 4",
+        "drive car1 tarkeshwar-shelter trishuli-temple",
+        "drive car1 trishuli-temple naukunda-school",
+        "load car1 child 4",
+        "drive car1 naukunda-school trishuli-temple",
+        "drive car1 trishuli-temple tarkeshwar-shelter",
+        "unload car1 child 4",
+        "defer syaphru-village adult 1",
+        "defer panchakanya-farm adult 6"
+      ],
+      "claimed_cost": 405,
+      "text": "The plan rescues 13 people and defers 7 adults, for a total cost of 405.\n\n**Why each part is worth doing**\n- **Naukunda children:** A round trip from Tarkeshwar takes 114 min (52 + 5, each way). Deferring the 4 children would cost 4 \u00d7 60 = 240, so car1 fetches them.\n- **Bidur elderly and Galchhi injured:** One loop Tarkeshwar \u2192 Bidur \u2192 Galchhi \u2192 Tarkeshwar takes 47 min. Deferring these 3 people would cost 2 \u00d7 50 + 80 = 180, so car1 collects them.\n- **Syaphru adults:** A full car of 4 takes 68 min (Tarkeshwar \u2192 Galchhi \u2192 Syaphru and back). Deferring 4 adults would cost 80, so one trip saves 12. The 5th Syaphru adult is deferred, because one more trip for a single adult costs far more than 20.\n- **Panchakanya adults:** Even a full car of 4 from Tarkeshwar takes 84\u201386 min. Deferring 4 adults costs only 80, so all 6 are deferred.\n- **Nilkantha adults:** Car2 can fetch them in 36 min (18 each way). Deferring 2 adults would cost 40, so car2 collects them.\n- **Two damaged roads:** Galchhi\u2013Myagang and Panchakanya\u2013Trishuli are impassable, so the plan does not use them.\n\n<plan>\ndrive car2 dupcheshwar-hospital nilkantha-care-home\nload car2 adult 2\ndrive car2 nilkantha-care-home dupcheshwar-hospital\nunload car2 adult 2\ndrive car1 tarkeshwar-shelter bidur-village\nload car1 elderly 2\ndrive car1 bidur-village galchhi-village\nload car1 injured 1\ndrive car1 galchhi-village tarkeshwar-shelter\nunload car1 elderly 2\nunload car1 injured 1\ndrive car1 tarkeshwar-shelter galchhi-village\ndrive car1 galchhi-village syaphru-village\nload car1 adult 4\ndrive car1 syaphru-village galchhi-village\ndrive car1 galchhi-village tarkeshwar-shelter\nunload car1 adult 4\ndrive car1 tarkeshwar-shelter trishuli-temple\ndrive car1 trishuli-temple naukunda-school\nload car1 child 4\ndrive car1 naukunda-school trishuli-temple\ndrive car1 trishuli-temple tarkeshwar-shelter\nunload car1 child 4\ndefer syaphru-village adult 1\ndefer panchakanya-farm adult 6\n</plan>\n\n**Cost breakdown**\n- Car1 drives 47 + 68 + 114 = 229 min.\n- Car2 drives 36 min.\n- Deferral penalties are 7 adults \u00d7 20 = 140.\n- Total: 229 + 36 + 140 = 405.\n\nCOST: 405"
+    }
+  ]
+}

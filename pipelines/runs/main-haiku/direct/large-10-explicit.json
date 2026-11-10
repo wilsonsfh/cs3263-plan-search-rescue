@@ -1,0 +1,87 @@
+{
+  "pipeline": "direct",
+  "instance": "large-10",
+  "size": "large",
+  "level": "explicit",
+  "model": "claude-haiku-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 2188,
+    "output_tokens": 11089,
+    "calls": 1,
+    "seconds": 53.6
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 402,
+    "travel_minutes": 362,
+    "deferred_penalty": 40,
+    "rescued": {
+      "injured": 0,
+      "child": 3,
+      "elderly": 7,
+      "adult": 10
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 2
+    },
+    "people_rescued": 20,
+    "priority_people_rescued": 10
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 panchakanya-shelter dhunche-temple",
+        "load car1 child 1",
+        "load car1 adult 3",
+        "drive car1 dhunche-temple panchakanya-shelter",
+        "unload car1 child 1",
+        "unload car1 adult 3",
+        "drive car1 panchakanya-shelter dhunche-temple",
+        "load car1 adult 1",
+        "drive car1 dhunche-temple thakre-market",
+        "load car1 adult 3",
+        "drive car1 thakre-market dhunche-temple",
+        "drive car1 dhunche-temple panchakanya-shelter",
+        "unload car1 adult 4",
+        "drive car1 panchakanya-shelter syaphru-farm",
+        "drive car1 syaphru-farm myagang-farm",
+        "drive car1 myagang-farm trishuli-care-home",
+        "load car1 elderly 4",
+        "drive car1 trishuli-care-home myagang-farm",
+        "drive car1 myagang-farm syaphru-farm",
+        "drive car1 syaphru-farm panchakanya-shelter",
+        "unload car1 elderly 4",
+        "drive car1 panchakanya-shelter syaphru-farm",
+        "drive car1 syaphru-farm myagang-farm",
+        "load car1 adult 1",
+        "drive car1 myagang-farm trishuli-care-home",
+        "load car1 elderly 3",
+        "drive car1 trishuli-care-home myagang-farm",
+        "drive car1 myagang-farm syaphru-farm",
+        "drive car1 syaphru-farm panchakanya-shelter",
+        "unload car1 adult 1",
+        "unload car1 elderly 3",
+        "drive car1 panchakanya-shelter syaphru-farm",
+        "drive car1 syaphru-farm gajuri-market",
+        "load car1 adult 1",
+        "load car1 child 2",
+        "drive car1 gajuri-market syaphru-farm",
+        "load car1 adult 1",
+        "drive car1 syaphru-farm panchakanya-shelter",
+        "unload car1 child 2",
+        "unload car1 adult 2",
+        "defer syaphru-farm adult 2"
+      ],
+      "claimed_cost": 402,
+      "text": "Only car1 is used. Car2 is at Tadi hospital, 42 minutes from the nearest useful road, and would add driving without reducing the total. The plan rescues all 7 elderly, all 4 Dhunche/Thakre adults, the Dhunche child, the Myagang adult, and the Gajuri adult and both children. It defers 2 of the 3 Syaphru adults, the cheapest penalties available for the people who can't fit in the three south trips.\n\n<plan>\ndrive car1 panchakanya-shelter dhunche-temple\nload car1 child 1\nload car1 adult 3\ndrive car1 dhunche-temple panchakanya-shelter\nunload car1 child 1\nunload car1 adult 3\ndrive car1 panchakanya-shelter dhunche-temple\nload car1 adult 1\ndrive car1 dhunche-temple thakre-market\nload car1 adult 3\ndrive car1 thakre-market dhunche-temple\ndrive car1 dhunche-temple panchakanya-shelter\nunload car1 adult 4\ndrive car1 panchakanya-shelter syaphru-farm\ndrive car1 syaphru-farm myagang-farm\ndrive car1 myagang-farm trishuli-care-home\nload car1 elderly 4\ndrive car1 trishuli-care-home myagang-farm\ndrive car1 myagang-farm syaphru-farm\ndrive car1 syaphru-farm panchakanya-shelter\nunload car1 elderly 4\ndrive car1 panchakanya-shelter syaphru-farm\ndrive car1 syaphru-farm myagang-farm\nload car1 adult 1\ndrive car1 myagang-farm trishuli-care-home\nload car1 elderly 3\ndrive car1 trishuli-care-home myagang-farm\ndrive car1 myagang-farm syaphru-farm\ndrive car1 syaphru-farm panchakanya-shelter\nunload car1 adult 1\nunload car1 elderly 3\ndrive car1 panchakanya-shelter syaphru-farm\ndrive car1 syaphru-farm gajuri-market\nload car1 adult 1\nload car1 child 2\ndrive car1 gajuri-market syaphru-farm\nload car1 adult 1\ndrive car1 syaphru-farm panchakanya-shelter\nunload car1 child 2\nunload car1 adult 2\ndefer syaphru-farm adult 2\n</plan>\nCOST: 402"
+    }
+  ]
+}

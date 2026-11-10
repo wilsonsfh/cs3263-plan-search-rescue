@@ -1,0 +1,56 @@
+{
+  "pipeline": "direct",
+  "instance": "small-11",
+  "size": "small",
+  "level": "explicit",
+  "model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1654,
+    "output_tokens": 517,
+    "calls": 1,
+    "seconds": 6.0
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 154,
+    "travel_minutes": 154,
+    "deferred_penalty": 0,
+    "rescued": {
+      "injured": 3,
+      "child": 0,
+      "elderly": 2,
+      "adult": 1
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 0
+    },
+    "people_rescued": 6,
+    "priority_people_rescued": 5
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 myagang-shelter suryagadhi-market",
+        "load car1 injured 3",
+        "drive car1 suryagadhi-market myagang-shelter",
+        "unload car1 injured 3",
+        "drive car1 myagang-shelter gosaikunda-temple",
+        "load car1 adult 1",
+        "load car1 elderly 2",
+        "drive car1 gosaikunda-temple myagang-shelter",
+        "unload car1 adult 1",
+        "unload car1 elderly 2"
+      ],
+      "claimed_cost": 154,
+      "text": "<plan>\ndrive car1 myagang-shelter suryagadhi-market\nload car1 injured 3\ndrive car1 suryagadhi-market myagang-shelter\nunload car1 injured 3\ndrive car1 myagang-shelter gosaikunda-temple\nload car1 adult 1\nload car1 elderly 2\ndrive car1 gosaikunda-temple myagang-shelter\nunload car1 adult 1\nunload car1 elderly 2\n</plan>\nCOST: 154"
+    }
+  ]
+}

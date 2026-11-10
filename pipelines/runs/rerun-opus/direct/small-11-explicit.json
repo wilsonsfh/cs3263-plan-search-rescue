@@ -1,0 +1,56 @@
+{
+  "pipeline": "direct",
+  "instance": "small-11",
+  "size": "small",
+  "level": "explicit",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1651,
+    "output_tokens": 781,
+    "calls": 1,
+    "seconds": 8.7
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 154,
+    "travel_minutes": 154,
+    "deferred_penalty": 0,
+    "rescued": {
+      "injured": 3,
+      "child": 0,
+      "elderly": 2,
+      "adult": 1
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 0
+    },
+    "people_rescued": 6,
+    "priority_people_rescued": 5
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 myagang-shelter suryagadhi-market",
+        "load car1 injured 3",
+        "drive car1 suryagadhi-market myagang-shelter",
+        "unload car1 injured 3",
+        "drive car1 myagang-shelter gosaikunda-temple",
+        "load car1 elderly 2",
+        "load car1 adult 1",
+        "drive car1 gosaikunda-temple myagang-shelter",
+        "unload car1 elderly 2",
+        "unload car1 adult 1"
+      ],
+      "claimed_cost": 154,
+      "text": "The best plan is to rescue everyone in two separate round trips, for a total cost of 154 minutes.\n\n**Suryagadhi market (3 injured):** The shortest round trip is direct, at 26 + 26 = 52 min. Deferring would cost 3 \u00d7 80 = 240, so rescuing is much cheaper.\n\n**Gosaikunda temple (1 adult, 2 elderly):** The Dhunche farm road is impassable, so the temple can only be reached from the shelter, at 51 + 51 = 102 min.\n- Deferring all three would cost 20 + 2 \u00d7 50 = 120, so rescuing them is cheaper.\n- Deferring only some of them saves no driving, because the trip is still needed for anyone left, so it only adds penalties.\n\n**Combining the trips:** The only route between the temple and the market passes through the shelter, so a single trip saves nothing. The groups also total 6 people, which is more than the car's 4 seats.\n\n<plan>\ndrive car1 myagang-shelter suryagadhi-market\nload car1 injured 3\ndrive car1 suryagadhi-market myagang-shelter\nunload car1 injured 3\ndrive car1 myagang-shelter gosaikunda-temple\nload car1 elderly 2\nload car1 adult 1\ndrive car1 gosaikunda-temple myagang-shelter\nunload car1 elderly 2\nunload car1 adult 1\n</plan>\n\nCOST: 154"
+    }
+  ]
+}

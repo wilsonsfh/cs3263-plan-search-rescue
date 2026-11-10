@@ -1,0 +1,57 @@
+{
+  "pipeline": "direct",
+  "instance": "small-14",
+  "size": "small",
+  "level": "implicit",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1871,
+    "output_tokens": 1761,
+    "calls": 1,
+    "seconds": 17.8
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 120,
+    "travel_minutes": 80,
+    "deferred_penalty": 40,
+    "rescued": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 3,
+      "adult": 3
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 2
+    },
+    "people_rescued": 6,
+    "priority_people_rescued": 3
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 tarkeshwar-shelter myagang-temple",
+        "load car1 elderly 3",
+        "load car1 adult 1",
+        "drive car1 myagang-temple tarkeshwar-shelter",
+        "unload car1 elderly 3",
+        "unload car1 adult 1",
+        "drive car1 tarkeshwar-shelter myagang-temple",
+        "load car1 adult 2",
+        "drive car1 myagang-temple tarkeshwar-shelter",
+        "unload car1 adult 2",
+        "defer tadi-farm adult 2"
+      ],
+      "claimed_cost": 120,
+      "text": "**Lowest-cost plan: 120.** It rescues the six people at Myagang temple and defers the two adults at Tadi farm.\n\n**Key facts**\n- **Evacuation point:** Tarkeshwar shelter is the only one. Myagang temple is not designated, so nobody can be dropped off there.\n- **Usable roads:** Tarkeshwar\u2013Myagang takes 20 minutes and Myagang\u2013Tadi takes 22. The two Shivapuri roads to Gosaikunda and Benighat are closed or unsafe, and no one needs rescuing via the remaining roads.\n- **People waiting:** There are 3 elderly people and 3 adults (the shopkeepers) at Myagang temple, and 2 adults at Tadi farm. I read \"two men and women from the cooperative\" as 2 adults in total.\n\n**Options compared**\n\n| Option | Driving | Penalties | Total |\n|---|---:|---:|---:|\n| Two Myagang trips, defer 2 adults at Tadi | 80 | 40 | **120** |\n| One Myagang trip (3 elderly, 1 adult), defer 4 adults | 40 | 80 | **120** |\n| Rescue everyone, collecting Tadi first and Myagang on the way back, then a second Myagang trip | 124 | 0 | 124 |\n| No rescue trips, defer everyone | 0 | 250 | 250 |\n\nThe first two options tie at 120, and I chose the first because it gets more people to safety now. Rescuing everyone costs only 4 more, so that may be worth considering if leaving the two Tadi adults for a later wave is a concern.\n\n<plan>\ndrive car1 tarkeshwar-shelter myagang-temple\nload car1 elderly 3\nload car1 adult 1\ndrive car1 myagang-temple tarkeshwar-shelter\nunload car1 elderly 3\nunload car1 adult 1\ndrive car1 tarkeshwar-shelter myagang-temple\nload car1 adult 2\ndrive car1 myagang-temple tarkeshwar-shelter\nunload car1 adult 2\ndefer tadi-farm adult 2\n</plan>\n\nCOST: 120"
+    }
+  ]
+}

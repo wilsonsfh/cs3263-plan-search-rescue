@@ -1,0 +1,80 @@
+{
+  "pipeline": "direct",
+  "instance": "large-01",
+  "size": "large",
+  "level": "explicit",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 2497,
+    "output_tokens": 4101,
+    "calls": 1,
+    "seconds": 41.5
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 240,
+    "travel_minutes": 180,
+    "deferred_penalty": 60,
+    "rescued": {
+      "injured": 0,
+      "child": 11,
+      "elderly": 2,
+      "adult": 9
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 3
+    },
+    "people_rescued": 22,
+    "priority_people_rescued": 13
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "defer bidur-farm adult 2",
+        "defer trishuli-farm adult 1",
+        "drive car1 myagang-shelter dhunche-school",
+        "drive car1 dhunche-school galchhi-school",
+        "load car1 adult 3",
+        "drive car1 galchhi-school dhunche-school",
+        "load car1 adult 1",
+        "drive car1 dhunche-school myagang-shelter",
+        "unload car1 adult 4",
+        "drive car1 myagang-shelter dhunche-school",
+        "load car1 adult 2",
+        "drive car1 dhunche-school suryagadhi-temple",
+        "load car1 elderly 2",
+        "drive car1 suryagadhi-temple myagang-shelter",
+        "unload car1 adult 2",
+        "unload car1 elderly 2",
+        "drive car1 myagang-shelter suryagadhi-temple",
+        "drive car1 suryagadhi-temple kalika-village",
+        "load car1 child 4",
+        "drive car1 kalika-village suryagadhi-temple",
+        "drive car1 suryagadhi-temple myagang-shelter",
+        "unload car1 child 4",
+        "drive car2 uttargaya-hospital gosaikunda-school",
+        "load car2 child 4",
+        "drive car2 gosaikunda-school uttargaya-hospital",
+        "unload car2 child 4",
+        "drive car2 uttargaya-hospital gosaikunda-school",
+        "load car2 child 3",
+        "drive car2 gosaikunda-school uttargaya-hospital",
+        "unload car2 child 3",
+        "drive car2 uttargaya-hospital shivapuri-farm",
+        "load car2 adult 3",
+        "drive car2 shivapuri-farm uttargaya-hospital",
+        "unload car2 adult 3"
+      ],
+      "claimed_cost": 240,
+      "text": "Total cost is **240**: 180 driving minutes plus 60 in deferral penalties. Car1 drives 114 minutes and car2 drives 66.\n\n**Unreachable people:** Bidur farm and Trishuli farm link only to Tarkeshwar care home. Tarkeshwar's only other road, to Suryagadhi temple, is impassable. No car can reach these 3 adults, so they are deferred at 20 each, which costs 60.\n\n**Car1 (based at Myagang shelter):**\n1. It collects the 3 adults at Galchhi school and 1 adult at Dhunche school, then returns to the shelter (32 min).\n2. It collects the other 2 adults at Dhunche school and the 2 elderly people at Suryagadhi temple, then returns (26 min).\n3. It collects the 4 children at Kalika village through Suryagadhi temple and returns (56 min).\n\n**Car2 (based at Uttargaya hospital):**\n1. It collects 4 children at Gosaikunda school and returns to the hospital (22 min).\n2. It collects the last 3 children at Gosaikunda school and returns (22 min).\n3. It collects the 3 adults at Shivapuri farm and returns (22 min).\n\nEvery other trip is cheaper than the penalty it avoids, so everyone else is rescued.\n\n<plan>\ndefer bidur-farm adult 2\ndefer trishuli-farm adult 1\ndrive car1 myagang-shelter dhunche-school\ndrive car1 dhunche-school galchhi-school\nload car1 adult 3\ndrive car1 galchhi-school dhunche-school\nload car1 adult 1\ndrive car1 dhunche-school myagang-shelter\nunload car1 adult 4\ndrive car1 myagang-shelter dhunche-school\nload car1 adult 2\ndrive car1 dhunche-school suryagadhi-temple\nload car1 elderly 2\ndrive car1 suryagadhi-temple myagang-shelter\nunload car1 adult 2\nunload car1 elderly 2\ndrive car1 myagang-shelter suryagadhi-temple\ndrive car1 suryagadhi-temple kalika-village\nload car1 child 4\ndrive car1 kalika-village suryagadhi-temple\ndrive car1 suryagadhi-temple myagang-shelter\nunload car1 child 4\ndrive car2 uttargaya-hospital gosaikunda-school\nload car2 child 4\ndrive car2 gosaikunda-school uttargaya-hospital\nunload car2 child 4\ndrive car2 uttargaya-hospital gosaikunda-school\nload car2 child 3\ndrive car2 gosaikunda-school uttargaya-hospital\nunload car2 child 3\ndrive car2 uttargaya-hospital shivapuri-farm\nload car2 adult 3\ndrive car2 shivapuri-farm uttargaya-hospital\nunload car2 adult 3\n</plan>\n\nCOST: 240"
+    }
+  ]
+}

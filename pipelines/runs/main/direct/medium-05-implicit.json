@@ -1,0 +1,57 @@
+{
+  "pipeline": "direct",
+  "instance": "medium-05",
+  "size": "medium",
+  "level": "implicit",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 2094,
+    "output_tokens": 1171,
+    "calls": 1,
+    "seconds": 11.6
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 412,
+    "travel_minutes": 62,
+    "deferred_penalty": 350,
+    "rescued": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 2,
+      "adult": 0
+    },
+    "deferred": {
+      "injured": 2,
+      "child": 0,
+      "elderly": 1,
+      "adult": 7
+    },
+    "people_rescued": 2,
+    "priority_people_rescued": 2
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 thakre-shelter gajuri-care-home",
+        "load car1 elderly 1",
+        "drive car1 gajuri-care-home thakre-shelter",
+        "unload car1 elderly 1",
+        "drive car1 thakre-shelter myagang-care-home",
+        "load car1 elderly 1",
+        "drive car1 myagang-care-home thakre-shelter",
+        "unload car1 elderly 1",
+        "defer panchakanya-care-home injured 2",
+        "defer panchakanya-care-home elderly 1",
+        "defer likhu-farm adult 7"
+      ],
+      "claimed_cost": 412,
+      "text": "The car can reach only two of the four sites, so this plan rescues the two elderly widows near Thakre shelter and defers everyone else. Total cost is 412.\n\n**Roads the car can use**\n- Thakre shelter \u2013 Gajuri care home: 7 minutes\n- Thakre shelter \u2013 Myagang care home: 24 minutes\n- Suryagadhi care home \u2013 Likhu farm: 24 minutes\n- Likhu farm \u2013 Panchakanya care home: 26 minutes\n\nThe other five roads are washed out, flooded or closed.\n\n**Why some people must be deferred**\n- The open roads split into two separate groups that do not connect:\n  - Thakre shelter, Gajuri care home and Myagang care home\n  - Suryagadhi care home, Likhu farm and Panchakanya care home\n- The car starts at Thakre shelter, so it cannot reach Likhu farm or Panchakanya care home.\n- Tarkeshwar hospital cannot be reached by any open road, so Thakre shelter is the only usable drop-off point.\n- The people at Likhu farm and Panchakanya care home must therefore be deferred:\n  - 2 injured \u00d7 80 = 160\n  - 1 elderly \u00d7 50 = 50\n  - 7 adults \u00d7 20 = 140\n  - Penalty total: 350\n\n**Rescues worth making**\n- **Gajuri care home elderly widow:** the round trip is 14 minutes, against a 50 deferral penalty. Rescue her.\n- **Myagang care home grandmother:** the round trip is 48 minutes, against a 50 deferral penalty. Rescue her.\n- Driving total: 62 minutes.\n\n**Total cost:** 62 driving + 350 penalties = 412.\n\n<plan>\ndrive car1 thakre-shelter gajuri-care-home\nload car1 elderly 1\ndrive car1 gajuri-care-home thakre-shelter\nunload car1 elderly 1\ndrive car1 thakre-shelter myagang-care-home\nload car1 elderly 1\ndrive car1 myagang-care-home thakre-shelter\nunload car1 elderly 1\ndefer panchakanya-care-home injured 2\ndefer panchakanya-care-home elderly 1\ndefer likhu-farm adult 7\n</plan>\n\nCOST: 412"
+    }
+  ]
+}

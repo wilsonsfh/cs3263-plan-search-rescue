@@ -1,0 +1,58 @@
+{
+  "pipeline": "direct",
+  "instance": "small-10",
+  "size": "small",
+  "level": "explicit",
+  "model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1670,
+    "output_tokens": 1045,
+    "calls": 1,
+    "seconds": 9.9
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 144,
+    "travel_minutes": 144,
+    "deferred_penalty": 0,
+    "rescued": {
+      "injured": 0,
+      "child": 2,
+      "elderly": 4,
+      "adult": 0
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 0
+    },
+    "people_rescued": 6,
+    "priority_people_rescued": 6
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 tarkeshwar-shelter benighat-care-home",
+        "load car1 elderly 2",
+        "drive car1 benighat-care-home tarkeshwar-shelter",
+        "unload car1 elderly 2",
+        "drive car1 tarkeshwar-shelter thakre-care-home",
+        "load car1 elderly 2",
+        "drive car1 thakre-care-home dhunche-school",
+        "load car1 child 2",
+        "drive car1 dhunche-school thakre-care-home",
+        "drive car1 thakre-care-home tarkeshwar-shelter",
+        "unload car1 elderly 2",
+        "unload car1 child 2"
+      ],
+      "claimed_cost": 144,
+      "text": "The plan makes two round trips from the shelter, and no one is deferred.\n\n1. **Benighat care home:** a 12-minute round trip brings back the 2 elderly people. Deferring them would cost 100, so this is worth it.\n2. **Thakre care home and Dhunche school:** one 132-minute loop collects the 2 elderly people at Thakre and the 2 children at Dhunche, filling all 4 seats. The car brings them back through Thakre to the shelter.\n\nTotal driving is 12 + 132 = 144 minutes.\n\nThe alternatives cost more:\n- Skipping the Dhunche children and doing only the two care homes costs 12 + 72 + 120 in penalties = 204.\n- Carrying the Benighat elderly on the Thakre loop doesn't work, because the car would then have no room for the children.\n\n<plan>\ndrive car1 tarkeshwar-shelter benighat-care-home\nload car1 elderly 2\ndrive car1 benighat-care-home tarkeshwar-shelter\nunload car1 elderly 2\ndrive car1 tarkeshwar-shelter thakre-care-home\nload car1 elderly 2\ndrive car1 thakre-care-home dhunche-school\nload car1 child 2\ndrive car1 dhunche-school thakre-care-home\ndrive car1 thakre-care-home tarkeshwar-shelter\nunload car1 elderly 2\nunload car1 child 2\n</plan>\nCOST: 144"
+    }
+  ]
+}

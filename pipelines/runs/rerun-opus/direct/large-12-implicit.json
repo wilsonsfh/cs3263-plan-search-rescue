@@ -1,0 +1,88 @@
+{
+  "pipeline": "direct",
+  "instance": "large-12",
+  "size": "large",
+  "level": "implicit",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 2617,
+    "output_tokens": 8750,
+    "calls": 1,
+    "seconds": 85.1
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 302,
+    "travel_minutes": 222,
+    "deferred_penalty": 80,
+    "rescued": {
+      "injured": 1,
+      "child": 3,
+      "elderly": 6,
+      "adult": 9
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 4
+    },
+    "people_rescued": 19,
+    "priority_people_rescued": 10
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 benighat-shelter belkot-school",
+        "drive car1 belkot-school tarkeshwar-village",
+        "load car1 injured 1",
+        "drive car1 tarkeshwar-village belkot-school",
+        "load car1 adult 3",
+        "drive car1 belkot-school benighat-shelter",
+        "unload car1 injured 1",
+        "unload car1 adult 3",
+        "drive car1 benighat-shelter jwalamukhi-village",
+        "load car1 elderly 3",
+        "load car1 adult 1",
+        "drive car1 jwalamukhi-village benighat-shelter",
+        "unload car1 elderly 3",
+        "unload car1 adult 1",
+        "drive car1 benighat-shelter dupcheshwar-temple",
+        "drive car1 dupcheshwar-temple myagang-market",
+        "load car1 child 3",
+        "load car1 adult 1",
+        "drive car1 myagang-market dupcheshwar-temple",
+        "drive car1 dupcheshwar-temple benighat-shelter",
+        "unload car1 child 3",
+        "unload car1 adult 1",
+        "drive car1 benighat-shelter dupcheshwar-temple",
+        "drive car1 dupcheshwar-temple myagang-market",
+        "load car1 adult 3",
+        "drive car1 myagang-market dupcheshwar-temple",
+        "drive car1 dupcheshwar-temple benighat-shelter",
+        "unload car1 adult 3",
+        "drive car1 benighat-shelter dupcheshwar-temple",
+        "drive car1 dupcheshwar-temple galchhi-temple",
+        "drive car1 galchhi-temple kakani-farm",
+        "load car1 elderly 2",
+        "load car1 adult 1",
+        "drive car1 kakani-farm galchhi-temple",
+        "load car1 elderly 1",
+        "drive car1 galchhi-temple dupcheshwar-temple",
+        "drive car1 dupcheshwar-temple benighat-shelter",
+        "unload car1 elderly 3",
+        "unload car1 adult 1",
+        "defer likhu-market adult 1",
+        "defer kakani-farm adult 1",
+        "defer tadi-farm adult 2"
+      ],
+      "claimed_cost": 302,
+      "text": "This is the best plan I found by comparing route options by hand. I didn't run a solver, so it isn't formally proven to be the lowest possible cost.\n\n**Key decisions**\n- **Blocked roads:** Benighat to Myagang, Myagang to Belkot, Jwalamukhi to Tarkeshwar and Likhu to Dupcheshwar are all closed, so routes go around them.\n- **Belkot school:** It isn't a designated evacuation point, so the three shopkeepers there must be taken to Benighat.\n- **car2 stays at Kalika hospital:** Using it to collect the bus driver at Likhu costs 26 minutes, compared with a 20-point penalty for deferring him. Routing it through Jwalamukhi to Benighat costs 38 minutes and still leaves one person behind, so it doesn't help either.\n- **Far farms:** One 90-minute trip brings in all three elderly people from Kakani and Galchhi, plus one Kakani labourer. A second trip for the remaining three adults would cost far more than their 60 points in penalties.\n\n**car1 trips (all start and end at Benighat)**\n\n| Trip | People rescued | Minutes |\n|---|---|---|\n| Tarkeshwar and Belkot | 1 injured, 3 adults | 28 |\n| Jwalamukhi | 3 elderly, 1 adult | 28 |\n| Myagang, first trip | 3 children, 1 adult | 38 |\n| Myagang, second trip | 3 adults | 38 |\n| Kakani and Galchhi | 3 elderly, 1 adult | 90 |\n| **Total driving** | **19 people** | **222** |\n\n**Deferred people**\n\n| Location | People deferred | Penalty |\n|---|---|---|\n| Likhu market | 1 adult | 20 |\n| Kakani farm | 1 adult | 20 |\n| Tadi farm | 2 adults | 40 |\n| **Total** | **4 adults** | **80** |\n\n**Total cost:** 222 driving minutes + 80 in penalties = 302\n\n<plan>\ndrive car1 benighat-shelter belkot-school\ndrive car1 belkot-school tarkeshwar-village\nload car1 injured 1\ndrive car1 tarkeshwar-village belkot-school\nload car1 adult 3\ndrive car1 belkot-school benighat-shelter\nunload car1 injured 1\nunload car1 adult 3\ndrive car1 benighat-shelter jwalamukhi-village\nload car1 elderly 3\nload car1 adult 1\ndrive car1 jwalamukhi-village benighat-shelter\nunload car1 elderly 3\nunload car1 adult 1\ndrive car1 benighat-shelter dupcheshwar-temple\ndrive car1 dupcheshwar-temple myagang-market\nload car1 child 3\nload car1 adult 1\ndrive car1 myagang-market dupcheshwar-temple\ndrive car1 dupcheshwar-temple benighat-shelter\nunload car1 child 3\nunload car1 adult 1\ndrive car1 benighat-shelter dupcheshwar-temple\ndrive car1 dupcheshwar-temple myagang-market\nload car1 adult 3\ndrive car1 myagang-market dupcheshwar-temple\ndrive car1 dupcheshwar-temple benighat-shelter\nunload car1 adult 3\ndrive car1 benighat-shelter dupcheshwar-temple\ndrive car1 dupcheshwar-temple galchhi-temple\ndrive car1 galchhi-temple kakani-farm\nload car1 elderly 2\nload car1 adult 1\ndrive car1 kakani-farm galchhi-temple\nload car1 elderly 1\ndrive car1 galchhi-temple dupcheshwar-temple\ndrive car1 dupcheshwar-temple benighat-shelter\nunload car1 elderly 3\nunload car1 adult 1\ndefer likhu-market adult 1\ndefer kakani-farm adult 1\ndefer tadi-farm adult 2\n</plan>\n\nCOST: 302"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "pipeline": "direct",
+  "instance": "medium-10",
+  "size": "medium",
+  "level": "implicit",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 2156,
+    "output_tokens": 1686,
+    "calls": 1,
+    "seconds": 16.3
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 476,
+    "travel_minutes": 146,
+    "deferred_penalty": 330,
+    "rescued": {
+      "injured": 3,
+      "child": 4,
+      "elderly": 2,
+      "adult": 3
+    },
+    "deferred": {
+      "injured": 3,
+      "child": 0,
+      "elderly": 1,
+      "adult": 2
+    },
+    "people_rescued": 12,
+    "priority_people_rescued": 9
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 kispang-shelter myagang-temple",
+        "load car1 injured 3",
+        "load car1 elderly 1",
+        "drive car1 myagang-temple kispang-shelter",
+        "unload car1 injured 3",
+        "unload car1 elderly 1",
+        "drive car1 kispang-shelter myagang-temple",
+        "load car1 elderly 1",
+        "load car1 adult 3",
+        "drive car1 myagang-temple kispang-shelter",
+        "unload car1 elderly 1",
+        "unload car1 adult 3",
+        "drive car2 kispang-shelter gosaikunda-temple",
+        "drive car2 gosaikunda-temple galchhi-temple",
+        "load car2 child 4",
+        "drive car2 galchhi-temple gosaikunda-temple",
+        "drive car2 gosaikunda-temple kispang-shelter",
+        "unload car2 child 4",
+        "defer tadi-market injured 3",
+        "defer naukunda-farm adult 2",
+        "defer dupcheshwar-temple elderly 1"
+      ],
+      "claimed_cost": 476,
+      "text": "**Rescue plan:** total cost is **476**: 146 minutes of driving plus 330 in deferral penalties. Everyone who can be reached at a worthwhile cost is rescued. The only evacuation point is Kispang shelter. Galchhi temple is on high ground but is not designated, so no one can be dropped there.\n\n**Roads:**\n- **Blocked:** Kispang\u2013Thakre and Tadi\u2013Galchhi are under fast floodwater. Gosaikunda\u2013Dupcheshwar is buried by a landslide.\n- **Cut off:** Tadi market and Naukunda farm only connect to each other and to the blocked Tadi\u2013Galchhi road, so no car can reach them. Their 3 injured and 2 adults must be deferred.\n\n**What each car does:**\n- **Car 1 (Myagang temple, 2 trips):** The 16-minute road makes this a 32-minute round trip. There are 8 people, so it takes two full trips (64 min).\n  - Trip 1: 3 injured and 1 elderly.\n  - Trip 2: 1 elderly and 3 adults.\n- **Car 2 (Galchhi temple, 1 trip):** It goes via Gosaikunda temple, which is 41 minutes each way (82 min). It brings back all 4 children, whose deferral would cost 240.\n- **Dupcheshwar temple:** This road leads nowhere else, so a trip would be 52 minutes just for the one elderly man. Deferring him costs 50, which is slightly cheaper, so he is deferred.\n\n<plan>\ndrive car1 kispang-shelter myagang-temple\nload car1 injured 3\nload car1 elderly 1\ndrive car1 myagang-temple kispang-shelter\nunload car1 injured 3\nunload car1 elderly 1\ndrive car1 kispang-shelter myagang-temple\nload car1 elderly 1\nload car1 adult 3\ndrive car1 myagang-temple kispang-shelter\nunload car1 elderly 1\nunload car1 adult 3\ndrive car2 kispang-shelter gosaikunda-temple\ndrive car2 gosaikunda-temple galchhi-temple\nload car2 child 4\ndrive car2 galchhi-temple gosaikunda-temple\ndrive car2 gosaikunda-temple kispang-shelter\nunload car2 child 4\ndefer tadi-market injured 3\ndefer naukunda-farm adult 2\ndefer dupcheshwar-temple elderly 1\n</plan>\n\n**Cost breakdown:**\n- Driving: 64 (car 1) + 82 (car 2) = 146\n- Deferrals: 240 (3 injured at Tadi market) + 40 (2 adults at Naukunda farm) + 50 (1 elderly at Dupcheshwar temple) = 330\n\nCOST: 476"
+    }
+  ]
+}

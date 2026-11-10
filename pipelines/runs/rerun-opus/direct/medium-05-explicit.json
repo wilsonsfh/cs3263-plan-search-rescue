@@ -1,0 +1,57 @@
+{
+  "pipeline": "direct",
+  "instance": "medium-05",
+  "size": "medium",
+  "level": "explicit",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1929,
+    "output_tokens": 938,
+    "calls": 1,
+    "seconds": 9.2
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 412,
+    "travel_minutes": 62,
+    "deferred_penalty": 350,
+    "rescued": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 2,
+      "adult": 0
+    },
+    "deferred": {
+      "injured": 2,
+      "child": 0,
+      "elderly": 1,
+      "adult": 7
+    },
+    "people_rescued": 2,
+    "priority_people_rescued": 2
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 thakre-shelter gajuri-care-home",
+        "load car1 elderly 1",
+        "drive car1 gajuri-care-home thakre-shelter",
+        "unload car1 elderly 1",
+        "drive car1 thakre-shelter myagang-care-home",
+        "load car1 elderly 1",
+        "drive car1 myagang-care-home thakre-shelter",
+        "unload car1 elderly 1",
+        "defer panchakanya-care-home injured 2",
+        "defer panchakanya-care-home elderly 1",
+        "defer likhu-farm adult 7"
+      ],
+      "claimed_cost": 412,
+      "text": "Only Thakre shelter, Gajuri care home and Myagang care home can be reached, because car1 starts at Thakre and the only open roads from there lead to those two care homes. Likhu farm and Panchakanya care home are linked to each other and to Suryagadhi by open roads, but every road connecting that group to the car's area or to Tarkeshwar hospital is impassable. The people at those two locations must be deferred.\n\n**Decisions**\n\n| Location | People | Option | Cost |\n|---|---|---|---|\n| Gajuri | 1 elderly | Rescue (7 min each way, better than the 50 penalty) | 14 |\n| Myagang | 1 elderly | Rescue (24 min each way, slightly better than the 50 penalty) | 48 |\n| Panchakanya | 2 injured | Defer (unreachable), 2 \u00d7 80 | 160 |\n| Panchakanya | 1 elderly | Defer (unreachable), 1 \u00d7 50 | 50 |\n| Likhu farm | 7 adults | Defer (unreachable), 7 \u00d7 20 | 140 |\n\nThe total is 62 minutes of driving plus 350 in penalties, which comes to 412.\n\nGajuri and Myagang can't be combined into one trip because the direct road between them is damaged. Both trips must go out and back through Thakre, so the order doesn't change the cost.\n\n<plan>\ndrive car1 thakre-shelter gajuri-care-home\nload car1 elderly 1\ndrive car1 gajuri-care-home thakre-shelter\nunload car1 elderly 1\ndrive car1 thakre-shelter myagang-care-home\nload car1 elderly 1\ndrive car1 myagang-care-home thakre-shelter\nunload car1 elderly 1\ndefer panchakanya-care-home injured 2\ndefer panchakanya-care-home elderly 1\ndefer likhu-farm adult 7\n</plan>\n\nCOST: 412"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "pipeline": "direct",
+  "instance": "medium-05",
+  "size": "medium",
+  "level": "implicit",
+  "model": "claude-haiku-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 2120,
+    "output_tokens": 14939,
+    "calls": 1,
+    "seconds": 73.4
+  },
+  "result": {
+    "valid": false,
+    "error": "step 7: road myagang-care-home-suryagadhi-care-home is damaged",
+    "cost": null,
+    "travel_minutes": 38,
+    "deferred_penalty": 0,
+    "rescued": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 1,
+      "adult": 0
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 0
+    },
+    "people_rescued": 1,
+    "priority_people_rescued": 1
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 thakre-shelter gajuri-care-home",
+        "load car1 elderly 1",
+        "drive car1 gajuri-care-home thakre-shelter",
+        "unload car1 elderly 1",
+        "drive car1 thakre-shelter myagang-care-home",
+        "load car1 elderly 1",
+        "drive car1 myagang-care-home suryagadhi-care-home",
+        "drive car1 suryagadhi-care-home likhu-farm",
+        "drive car1 likhu-farm panchakanya-care-home",
+        "load car1 injured 2",
+        "load car1 elderly 1",
+        "drive car1 panchakanya-care-home likhu-farm",
+        "drive car1 likhu-farm suryagadhi-care-home",
+        "drive car1 suryagadhi-care-home tarkeshwar-hospital",
+        "unload car1 injured 2",
+        "unload car1 elderly 2",
+        "defer likhu-farm adult 7"
+      ],
+      "claimed_cost": 304,
+      "text": "Assumptions: roads are two-way. The Tarkeshwar\u2013Likhu bridge is out and the Suryagadhi\u2013Gajuri road is closed, so neither is used. The three flood-affected roads are treated as passable because the report doesn't say they are closed. Those roads are dangerous, so the car should cross them carefully.\n\nGrouping the people by location, the best plan is:\n- Send the car to Gajuri for the elderly widow and back to Thakre (14 min).\n- Send the car via Myagang, Suryagadhi and Likhu to Panchakanya, then back via Likhu and Suryagadhi to Tarkeshwar hospital (150 min). On the way it picks up the Myagang grandmother, and the two injured and the Panchakanya widow fill the car to four. The route is forced because Panchakanya is reachable only through Likhu.\n- Defer the seven Likhu adults. Any trip to Likhu from the hospital costs at least 82 minutes, and carrying four adults saves only 80 in penalties. Deferring all seven (140) is cheaper than any rescue trip for them.\n\n<plan>\ndrive car1 thakre-shelter gajuri-care-home\nload car1 elderly 1\ndrive car1 gajuri-care-home thakre-shelter\nunload car1 elderly 1\ndrive car1 thakre-shelter myagang-care-home\nload car1 elderly 1\ndrive car1 myagang-care-home suryagadhi-care-home\ndrive car1 suryagadhi-care-home likhu-farm\ndrive car1 likhu-farm panchakanya-care-home\nload car1 injured 2\nload car1 elderly 1\ndrive car1 panchakanya-care-home likhu-farm\ndrive car1 likhu-farm suryagadhi-care-home\ndrive car1 suryagadhi-care-home tarkeshwar-hospital\nunload car1 injured 2\nunload car1 elderly 2\ndefer likhu-farm adult 7\n</plan>\nCOST: 304"
+    }
+  ]
+}

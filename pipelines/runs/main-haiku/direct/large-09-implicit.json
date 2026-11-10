@@ -1,0 +1,82 @@
+{
+  "pipeline": "direct",
+  "instance": "large-09",
+  "size": "large",
+  "level": "implicit",
+  "model": "claude-haiku-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 2754,
+    "output_tokens": 17343,
+    "calls": 1,
+    "seconds": 74.9
+  },
+  "result": {
+    "valid": false,
+    "error": "step 1: road panchakanya-shelter-suryagadhi-school is damaged",
+    "cost": null,
+    "travel_minutes": 0,
+    "deferred_penalty": 0,
+    "rescued": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 0
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 0
+    },
+    "people_rescued": 0,
+    "priority_people_rescued": 0
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 panchakanya-shelter suryagadhi-school",
+        "drive car1 suryagadhi-school gajuri-village",
+        "drive car1 gajuri-village kalika-school",
+        "load car1 child 4",
+        "drive car1 kalika-school gajuri-village",
+        "drive car1 gajuri-village shivapuri-care-home",
+        "drive car1 shivapuri-care-home myagang-hospital",
+        "unload car1 child 4",
+        "drive car2 myagang-hospital kakani-market",
+        "load car2 injured 3",
+        "load car2 adult 1",
+        "drive car2 kakani-market myagang-hospital",
+        "unload car2 injured 3",
+        "unload car2 adult 1",
+        "drive car2 myagang-hospital kakani-market",
+        "load car2 adult 4",
+        "drive car2 kakani-market myagang-hospital",
+        "unload car2 adult 4",
+        "drive car2 myagang-hospital kakani-market",
+        "load car2 adult 1",
+        "drive car2 kakani-market myagang-hospital",
+        "unload car2 adult 1",
+        "drive car2 myagang-hospital shivapuri-care-home",
+        "drive car2 shivapuri-care-home gajuri-village",
+        "drive car2 gajuri-village kalika-school",
+        "load car2 child 1",
+        "drive car2 kalika-school jwalamukhi-market",
+        "load car2 child 3",
+        "drive car2 jwalamukhi-market shivapuri-care-home",
+        "drive car2 shivapuri-care-home myagang-hospital",
+        "unload car2 child 4",
+        "defer tarkeshwar-care-home injured 3",
+        "defer tarkeshwar-care-home elderly 3",
+        "defer naukunda-temple adult 3",
+        "defer jwalamukhi-market adult 4",
+        "defer shivapuri-care-home adult 1"
+      ],
+      "claimed_cost": 834,
+      "text": "<plan>\ndrive car1 panchakanya-shelter suryagadhi-school\ndrive car1 suryagadhi-school gajuri-village\ndrive car1 gajuri-village kalika-school\nload car1 child 4\ndrive car1 kalika-school gajuri-village\ndrive car1 gajuri-village shivapuri-care-home\ndrive car1 shivapuri-care-home myagang-hospital\nunload car1 child 4\ndrive car2 myagang-hospital kakani-market\nload car2 injured 3\nload car2 adult 1\ndrive car2 kakani-market myagang-hospital\nunload car2 injured 3\nunload car2 adult 1\ndrive car2 myagang-hospital kakani-market\nload car2 adult 4\ndrive car2 kakani-market myagang-hospital\nunload car2 adult 4\ndrive car2 myagang-hospital kakani-market\nload car2 adult 1\ndrive car2 kakani-market myagang-hospital\nunload car2 adult 1\ndrive car2 myagang-hospital shivapuri-care-home\ndrive car2 shivapuri-care-home gajuri-village\ndrive car2 gajuri-village kalika-school\nload car2 child 1\ndrive car2 kalika-school jwalamukhi-market\nload car2 child 3\ndrive car2 jwalamukhi-market shivapuri-care-home\ndrive car2 shivapuri-care-home myagang-hospital\nunload car2 child 4\ndefer tarkeshwar-care-home injured 3\ndefer tarkeshwar-care-home elderly 3\ndefer naukunda-temple adult 3\ndefer jwalamukhi-market adult 4\ndefer shivapuri-care-home adult 1\n</plan>\nCOST: 834\n\nNotes on the plan:\n- **Evacuation points:** Only Panchakanya shelter and Myagang hospital are used as drop-offs. Suryagadhi school is not designated, so nobody is unloaded there.\n- **Tarkeshwar care home** is cut off, since its only road (to Panchakanya) is washed out. Its 3 injured and 3 elderly are deferred.\n- **Kakani market** (3 injured, 6 adults) is cleared by car2 in three short trips.\n- **Kalika school and Jwalamukhi market** (5 and 3 children) are cleared by car1 (4 children) and car2 (1 child and 3 children). All 8 children are rescued.\n- **Deferred adults** (Jwalamukhi 4, Shivapuri 1, Naukunda 3): rescuing them would cost more driving than their penalty of 20 each, so they are deferred.\n- **Cost breakdown:** driving 284 (car1 122, car2 162) + penalties 550 (tarkeshwar 390, adults 160) = 834.\n- **Assumption:** I treated the flood-affected roads (Panchakanya\u2013Suryagadhi and Jwalamukhi\u2013Shivapuri) as passable, since they are not listed as blocked. If either is closed, the plan changes: car1 would be stranded, and the children at Kalika and Jwalamukhi would need a different route. Please confirm their status before dispatch."
+    }
+  ]
+}

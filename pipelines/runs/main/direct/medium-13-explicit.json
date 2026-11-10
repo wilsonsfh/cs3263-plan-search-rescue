@@ -1,0 +1,60 @@
+{
+  "pipeline": "direct",
+  "instance": "medium-13",
+  "size": "medium",
+  "level": "explicit",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1887,
+    "output_tokens": 1488,
+    "calls": 1,
+    "seconds": 15.8
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 166,
+    "travel_minutes": 86,
+    "deferred_penalty": 80,
+    "rescued": {
+      "injured": 1,
+      "child": 2,
+      "elderly": 0,
+      "adult": 4
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 4
+    },
+    "people_rescued": 7,
+    "priority_people_rescued": 3
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 tarkeshwar-shelter dhunche-village",
+        "drive car1 dhunche-village gajuri-farm",
+        "load car1 adult 4",
+        "drive car1 gajuri-farm dhunche-village",
+        "drive car1 dhunche-village tarkeshwar-shelter",
+        "unload car1 adult 4",
+        "drive car1 tarkeshwar-shelter dhunche-village",
+        "load car1 injured 1",
+        "load car1 child 2",
+        "drive car1 dhunche-village tarkeshwar-shelter",
+        "unload car1 injured 1",
+        "unload car1 child 2",
+        "defer gajuri-farm adult 1",
+        "defer gosaikunda-care-home adult 3"
+      ],
+      "claimed_cost": 166,
+      "text": "The best plan rescues the Dhunche group and 4 of the Gajuri adults in two round trips, and defers the 4 adults whose rescue would cost more driving than their penalty.\n\n**Route options**\n\nThe car starts at the shelter, which is the only evacuation point. The road from Kalika farm to Dhunche is impassable, so every route out goes through Dhunche village.\n\n| Location | Route from shelter | One-way | Round trip |\n|---|---|---|---|\n| Dhunche village | shelter \u2192 Dhunche | 11 | 22 |\n| Gajuri farm | shelter \u2192 Dhunche \u2192 Gajuri | 32 | 64 |\n| Gosaikunda care home | shelter \u2192 Dhunche \u2192 Gajuri \u2192 Kalika \u2192 Gosaikunda | 80 | 160 |\n\n**Who to rescue and who to defer**\n\n- **Dhunche (1 injured, 2 children):** Rescue. The round trip costs 22, while deferring would cost 80 + 2 \u00d7 60 = 200.\n- **Gajuri, 4 adults:** Rescue. A full car round trip costs 64, while deferring would cost 4 \u00d7 20 = 80.\n- **Gajuri, 5th adult:** Defer. A separate trip would cost 64, but the penalty is only 20. Combining this adult with the Dhunche trip doesn't help either, because the car would still have to drive the full 64-minute Gajuri route.\n- **Gosaikunda (3 adults):** Defer. The round trip costs 160, but the penalty is only 3 \u00d7 20 = 60.\n\n<plan>\ndrive car1 tarkeshwar-shelter dhunche-village\ndrive car1 dhunche-village gajuri-farm\nload car1 adult 4\ndrive car1 gajuri-farm dhunche-village\ndrive car1 dhunche-village tarkeshwar-shelter\nunload car1 adult 4\ndrive car1 tarkeshwar-shelter dhunche-village\nload car1 injured 1\nload car1 child 2\ndrive car1 dhunche-village tarkeshwar-shelter\nunload car1 injured 1\nunload car1 child 2\ndefer gajuri-farm adult 1\ndefer gosaikunda-care-home adult 3\n</plan>\n\n**Cost**\n- Driving: 64 + 22 = 86 minutes\n- Penalties: 4 adults \u00d7 20 = 80\n- Total: 86 + 80 = 166\n\nCOST: 166"
+    }
+  ]
+}

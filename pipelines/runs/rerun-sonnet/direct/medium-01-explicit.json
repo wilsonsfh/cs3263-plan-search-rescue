@@ -1,0 +1,65 @@
+{
+  "pipeline": "direct",
+  "instance": "medium-01",
+  "size": "medium",
+  "level": "explicit",
+  "model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1947,
+    "output_tokens": 1735,
+    "calls": 1,
+    "seconds": 14.4
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 266,
+    "travel_minutes": 126,
+    "deferred_penalty": 140,
+    "rescued": {
+      "injured": 4,
+      "child": 4,
+      "elderly": 0,
+      "adult": 3
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 7
+    },
+    "people_rescued": 11,
+    "priority_people_rescued": 8
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 kakani-shelter tarkeshwar-school",
+        "load car1 injured 4",
+        "drive car1 tarkeshwar-school kakani-shelter",
+        "unload car1 injured 4",
+        "drive car1 kakani-shelter naukunda-school",
+        "load car1 child 3",
+        "drive car1 naukunda-school kakani-shelter",
+        "unload car1 child 3",
+        "drive car2 kakani-shelter tarkeshwar-school",
+        "load car2 child 1",
+        "drive car2 tarkeshwar-school benighat-farm",
+        "load car2 adult 3",
+        "drive car2 benighat-farm tarkeshwar-school",
+        "drive car2 tarkeshwar-school kakani-shelter",
+        "unload car2 child 1",
+        "unload car2 adult 3",
+        "defer benighat-farm adult 1",
+        "defer myagang-market adult 4",
+        "defer belkot-farm adult 2"
+      ],
+      "claimed_cost": 266,
+      "text": "This plan costs 266 minutes in total, made up of 126 minutes of driving and 140 of deferral penalties.\n\n- **Tarkeshwar school (4 injured, 1 child):** car1 takes the 4 injured on a 24-minute round trip. Car2 picks up the child on its way to Benighat farm.\n- **Benighat farm (4 adults):** car2 has only 3 seats left after the child, so it takes 3 adults. Its trip costs 52 minutes. A separate trip for the fourth adult would also cost 52, against a deferral penalty of 20, so that adult is deferred.\n- **Naukunda school (3 children):** car1 takes them on a 50-minute round trip, which is far cheaper than the 180 penalty for deferring them.\n- **Myagang market (4 adults):** the round trip costs 108 minutes, against 80 to defer, so they are deferred.\n- **Belkot farm (2 adults):** the only road in is damaged, so they are deferred (40).\n\n<plan>\ndrive car1 kakani-shelter tarkeshwar-school\nload car1 injured 4\ndrive car1 tarkeshwar-school kakani-shelter\nunload car1 injured 4\ndrive car1 kakani-shelter naukunda-school\nload car1 child 3\ndrive car1 naukunda-school kakani-shelter\nunload car1 child 3\ndrive car2 kakani-shelter tarkeshwar-school\nload car2 child 1\ndrive car2 tarkeshwar-school benighat-farm\nload car2 adult 3\ndrive car2 benighat-farm tarkeshwar-school\ndrive car2 tarkeshwar-school kakani-shelter\nunload car2 child 1\nunload car2 adult 3\ndefer benighat-farm adult 1\ndefer myagang-market adult 4\ndefer belkot-farm adult 2\n</plan>\nCOST: 266"
+    }
+  ]
+}

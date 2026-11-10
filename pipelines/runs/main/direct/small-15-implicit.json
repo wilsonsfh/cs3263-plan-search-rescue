@@ -1,0 +1,52 @@
+{
+  "pipeline": "direct",
+  "instance": "small-15",
+  "size": "small",
+  "level": "implicit",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1881,
+    "output_tokens": 847,
+    "calls": 1,
+    "seconds": 9.2
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 74,
+    "travel_minutes": 14,
+    "deferred_penalty": 60,
+    "rescued": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 3
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 3
+    },
+    "people_rescued": 3,
+    "priority_people_rescued": 0
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 shivapuri-shelter kalika-farm",
+        "load car1 adult 3",
+        "drive car1 kalika-farm shivapuri-shelter",
+        "unload car1 adult 3",
+        "defer dupcheshwar-market adult 1",
+        "defer uttargaya-farm adult 2"
+      ],
+      "claimed_cost": 74,
+      "text": "The lowest-cost plan is to rescue the three people at Kalika farm and defer the other three adults to a later wave. Total cost is 74.\n\n**Key points**\n- **Only one evacuation point:** Shivapuri shelter is the only designated safe location. Dhunche temple is not designated, so drop-offs there would not count.\n- **Everyone is an adult:** all six stranded people are adults (shopkeepers and cooperative members), so each deferral costs 20.\n- **Kalika farm (3 adults):** a round trip is 7 + 7 = 14 minutes. Deferring them would cost 60, so rescue them.\n- **Dupcheshwar market (1 adult):** a round trip is at least 32 + 32 = 64 minutes. Deferring costs 20, so defer.\n- **Uttargaya farm (2 adults):** the shortest route is shelter \u2192 Dupcheshwar \u2192 Uttargaya, which is 55 minutes each way. Even combined with the Dupcheshwar pickup (32 + 23 + 23 + 32 = 110 minutes), that is far more than deferring all three (60). So defer.\n\n<plan>\ndrive car1 shivapuri-shelter kalika-farm\nload car1 adult 3\ndrive car1 kalika-farm shivapuri-shelter\nunload car1 adult 3\ndefer dupcheshwar-market adult 1\ndefer uttargaya-farm adult 2\n</plan>\n\n**Cost breakdown**\n- Driving: 7 + 7 = 14 minutes.\n- Deferral penalties: 3 adults \u00d7 20 = 60.\n- Total: 14 + 60 = 74.\n\nCOST: 74"
+    }
+  ]
+}

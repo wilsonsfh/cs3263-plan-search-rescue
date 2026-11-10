@@ -1,0 +1,48 @@
+{
+  "pipeline": "direct",
+  "instance": "small-13",
+  "size": "small",
+  "level": "implicit",
+  "model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1652,
+    "output_tokens": 496,
+    "calls": 1,
+    "seconds": 6.6
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 120,
+    "travel_minutes": 0,
+    "deferred_penalty": 120,
+    "rescued": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 0
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 1,
+      "elderly": 0,
+      "adult": 3
+    },
+    "people_rescued": 0,
+    "priority_people_rescued": 0
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "defer nilkantha-market adult 3",
+        "defer belkot-village child 1"
+      ],
+      "claimed_cost": 120,
+      "text": "Only Bidur shelter is a safe location, and neither group of people can be brought to it at a lower cost than deferring them.\n\n- **Nilkantha market:** both roads out of it are unusable (the bridge to Suryagadhi farm is washed away, and the Bidur road is buried by the landslide). The 3 adults can't be reached, so deferring them costs 3 \u00d7 20 = 60.\n- **Belkot village:** the car would have to drive Bidur \u2192 Suryagadhi (20), then Likhu (51), then Belkot (22), and the same way back. That is 186 minutes, against a penalty of 60 for deferring the toddler, so I defer the child.\n\n<plan>\ndefer nilkantha-market adult 3\ndefer belkot-village child 1\n</plan>\n\nCOST: 120"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "pipeline": "direct",
+  "instance": "small-11",
+  "size": "small",
+  "level": "implicit",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1811,
+    "output_tokens": 911,
+    "calls": 1,
+    "seconds": 10.3
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 154,
+    "travel_minutes": 154,
+    "deferred_penalty": 0,
+    "rescued": {
+      "injured": 3,
+      "child": 0,
+      "elderly": 2,
+      "adult": 1
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 0
+    },
+    "people_rescued": 6,
+    "priority_people_rescued": 5
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 myagang-shelter suryagadhi-market",
+        "load car1 injured 3",
+        "drive car1 suryagadhi-market myagang-shelter",
+        "unload car1 injured 3",
+        "drive car1 myagang-shelter gosaikunda-temple",
+        "load car1 adult 1",
+        "load car1 elderly 2",
+        "drive car1 gosaikunda-temple myagang-shelter",
+        "unload car1 adult 1",
+        "unload car1 elderly 2"
+      ],
+      "claimed_cost": 154,
+      "text": "The cheapest plan is to make two round trips from Myagang shelter. This rescues all six people for 154 minutes of driving and no deferral penalties.\n\n- **Where people can go:** Myagang shelter is the only designated evacuation point. Gosaikunda temple is on high ground but has not been designated, so nobody can be dropped there.\n- **Roads:** The Dhunche farm\u2013Gosaikunda temple road is unusable because of fast floodwater. The best routes are direct: Myagang\u2013Suryagadhi (26 min) and Myagang\u2013Gosaikunda (51 min).\n- **People:**\n  - Suryagadhi market: 3 injured.\n  - Gosaikunda temple: 1 adult (the farmer) and 2 elderly (the couple).\n- **Suryagadhi trip:** The round trip costs 52 minutes. Deferring the three injured would cost 3 \u00d7 80 = 240, so we rescue them.\n- **Gosaikunda trip:** The round trip costs 102 minutes. Deferring would cost 20 + 2 \u00d7 50 = 120, so we rescue all three. Both groups fit in the four-seat car, so each needs only one trip.\n\n<plan>\ndrive car1 myagang-shelter suryagadhi-market\nload car1 injured 3\ndrive car1 suryagadhi-market myagang-shelter\nunload car1 injured 3\ndrive car1 myagang-shelter gosaikunda-temple\nload car1 adult 1\nload car1 elderly 2\ndrive car1 gosaikunda-temple myagang-shelter\nunload car1 adult 1\nunload car1 elderly 2\n</plan>\n\nCOST: 154"
+    }
+  ]
+}

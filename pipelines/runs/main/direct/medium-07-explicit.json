@@ -1,0 +1,66 @@
+{
+  "pipeline": "direct",
+  "instance": "medium-07",
+  "size": "medium",
+  "level": "explicit",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1880,
+    "output_tokens": 1921,
+    "calls": 1,
+    "seconds": 20.1
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 411,
+    "travel_minutes": 271,
+    "deferred_penalty": 140,
+    "rescued": {
+      "injured": 4,
+      "child": 8,
+      "elderly": 0,
+      "adult": 0
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 7
+    },
+    "people_rescued": 12,
+    "priority_people_rescued": 12
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 kakani-shelter jwalamukhi-school",
+        "drive car1 jwalamukhi-school benighat-school",
+        "load car1 injured 4",
+        "drive car1 benighat-school jwalamukhi-school",
+        "drive car1 jwalamukhi-school kakani-shelter",
+        "unload car1 injured 4",
+        "drive car1 kakani-shelter jwalamukhi-school",
+        "drive car1 jwalamukhi-school benighat-school",
+        "load car1 child 4",
+        "drive car1 benighat-school jwalamukhi-school",
+        "drive car1 jwalamukhi-school kakani-shelter",
+        "unload car1 child 4",
+        "drive car1 kakani-shelter dupcheshwar-farm",
+        "load car1 child 1",
+        "drive car1 dupcheshwar-farm panchakanya-school",
+        "load car1 child 3",
+        "drive car1 panchakanya-school myagang-hospital",
+        "unload car1 child 4",
+        "defer gajuri-market adult 3",
+        "defer jwalamukhi-school adult 4"
+      ],
+      "claimed_cost": 411,
+      "text": "# Rescue Plan: Nuwakot Flood Response (scenario medium-07)\n\nThe plan rescues all 4 injured people and all 8 children, defers the 7 adults, and costs 411 in total.\n\n**Road access.** Both roads into Gajuri market from the evacuation points are impassable. The only way in is through Panchakanya school. Benighat school can only be reached through Jwalamukhi school, which is 47 min each way from Kakani.\n\n**Trips:**\n\n1. **Benighat injured.** Kakani \u2192 Jwalamukhi \u2192 Benighat, load the 4 injured, then drive back to Kakani. This takes 94 min and avoids a 320 penalty.\n2. **Benighat children.** The same round trip takes 94 min and avoids a 240 penalty.\n3. **Dupcheshwar and Panchakanya children.** Kakani \u2192 Dupcheshwar (1 child) \u2192 Panchakanya (3 children) \u2192 Myagang hospital. This takes 83 min, fills the car exactly and avoids a 240 penalty. The plan ends here, so the car doesn't need to return.\n\n**Deferred people:**\n\n- **Gajuri market adults:** A trip from Myagang through Panchakanya to Gajuri and back takes 112 min. That is more than the 60 penalty, so they are deferred.\n- **Jwalamukhi adults:** Every Benighat trip leaves Jwalamukhi with a full car, so these adults would need their own trip. That trip (Kakani \u2194 Jwalamukhi) costs 80 min, the same as the 80 penalty. I deferred them, but rescuing them would give the same total cost.\n\n<plan>\ndrive car1 kakani-shelter jwalamukhi-school\ndrive car1 jwalamukhi-school benighat-school\nload car1 injured 4\ndrive car1 benighat-school jwalamukhi-school\ndrive car1 jwalamukhi-school kakani-shelter\nunload car1 injured 4\ndrive car1 kakani-shelter jwalamukhi-school\ndrive car1 jwalamukhi-school benighat-school\nload car1 child 4\ndrive car1 benighat-school jwalamukhi-school\ndrive car1 jwalamukhi-school kakani-shelter\nunload car1 child 4\ndrive car1 kakani-shelter dupcheshwar-farm\nload car1 child 1\ndrive car1 dupcheshwar-farm panchakanya-school\nload car1 child 3\ndrive car1 panchakanya-school myagang-hospital\nunload car1 child 4\ndefer gajuri-market adult 3\ndefer jwalamukhi-school adult 4\n</plan>\n\n**Total cost:**\n\n- **Driving:** 94 + 94 + 83 = 271 min\n- **Penalties:** 3 adults \u00d7 20 + 4 adults \u00d7 20 = 140\n- **Total:** 271 + 140 = 411\n\nCOST: 411"
+    }
+  ]
+}

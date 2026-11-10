@@ -1,0 +1,48 @@
+{
+  "pipeline": "direct",
+  "instance": "small-09",
+  "size": "small",
+  "level": "explicit",
+  "model": "claude-haiku-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1663,
+    "output_tokens": 350,
+    "calls": 1,
+    "seconds": 3.8
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 420,
+    "travel_minutes": 0,
+    "deferred_penalty": 420,
+    "rescued": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 0
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 7,
+      "elderly": 0,
+      "adult": 0
+    },
+    "people_rescued": 0,
+    "priority_people_rescued": 0
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "defer galchhi-school child 4",
+        "defer kalika-market child 3"
+      ],
+      "claimed_cost": 420,
+      "text": "The car at Kispang shelter has no usable road out. Its only road, to Nilkantha village, is impassable, so no one can be reached. All 7 children must be deferred at 60 minutes each.\n\n<plan>\ndefer galchhi-school child 4\ndefer kalika-market child 3\n</plan>\n\nCOST: 420"
+    }
+  ]
+}

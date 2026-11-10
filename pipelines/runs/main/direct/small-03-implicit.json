@@ -1,0 +1,59 @@
+{
+  "pipeline": "direct",
+  "instance": "small-03",
+  "size": "small",
+  "level": "implicit",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1854,
+    "output_tokens": 1419,
+    "calls": 1,
+    "seconds": 16.3
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 146,
+    "travel_minutes": 126,
+    "deferred_penalty": 20,
+    "rescued": {
+      "injured": 4,
+      "child": 0,
+      "elderly": 0,
+      "adult": 6
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 1
+    },
+    "people_rescued": 10,
+    "priority_people_rescued": 4
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 myagang-shelter nilkantha-market",
+        "load car1 injured 4",
+        "drive car1 nilkantha-market myagang-shelter",
+        "unload car1 injured 4",
+        "drive car1 myagang-shelter bidur-village",
+        "load car1 adult 4",
+        "drive car1 bidur-village myagang-shelter",
+        "unload car1 adult 4",
+        "drive car1 myagang-shelter nilkantha-market",
+        "load car1 adult 2",
+        "drive car1 nilkantha-market myagang-shelter",
+        "unload car1 adult 2",
+        "defer syaphru-school adult 1"
+      ],
+      "claimed_cost": 146,
+      "text": "The best plan costs 146: all four injured people and six of the seven adults are rescued, and the adult at Syaphru school is deferred.\n\n**Key facts from the report**\n- **Evacuation point:** Myagang shelter is the only designated one. Benighat temple has not been designated, so drop-offs there would not count.\n- **Unusable road:** the Myagang shelter to Jwalamukhi village road is buried by a landslide. The plan does not need it.\n- **Car:** car1 starts at Myagang shelter and carries 4 passengers. Every rescue trip must end back at the shelter.\n\n**Is each trip worth driving?** Each group is compared on the cost of a round trip versus deferring them.\n\n| Who | Round trip | Deferral penalty | Decision |\n|---|---|---|---|\n| 4 injured at Nilkantha market | 36 min | 320 | Rescue |\n| 4 adults at Bidur village | 54 min | 80 | Rescue |\n| 2 adults at Nilkantha market | 36 min | 40 | Rescue (saves 4) |\n| 1 adult at Syaphru school | 36 min | 20 | Defer |\n\nA combined loop through Nilkantha market and Bidur village takes 64 minutes. It does not help, because the car would arrive at Nilkantha already full or would leave people behind. That gives a total of 160 at best.\n\n<plan>\ndrive car1 myagang-shelter nilkantha-market\nload car1 injured 4\ndrive car1 nilkantha-market myagang-shelter\nunload car1 injured 4\ndrive car1 myagang-shelter bidur-village\nload car1 adult 4\ndrive car1 bidur-village myagang-shelter\nunload car1 adult 4\ndrive car1 myagang-shelter nilkantha-market\nload car1 adult 2\ndrive car1 nilkantha-market myagang-shelter\nunload car1 adult 2\ndefer syaphru-school adult 1\n</plan>\n\n**Cost breakdown**\n- Driving: 36 + 54 + 36 = 126 minutes\n- Deferral penalty: 20 for the one adult at Syaphru school\n- Total: 126 + 20 = 146\n\nCOST: 146"
+    }
+  ]
+}

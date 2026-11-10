@@ -1,0 +1,65 @@
+{
+  "pipeline": "direct",
+  "instance": "large-05",
+  "size": "large",
+  "level": "implicit",
+  "model": "claude-haiku-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 2563,
+    "output_tokens": 13783,
+    "calls": 1,
+    "seconds": 64.9
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 566,
+    "travel_minutes": 86,
+    "deferred_penalty": 480,
+    "rescued": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 3,
+      "adult": 4
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 2,
+      "elderly": 4,
+      "adult": 8
+    },
+    "people_rescued": 7,
+    "priority_people_rescued": 3
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car2 nilkantha-hospital tadi-village",
+        "drive car2 tadi-village trishuli-care-home",
+        "load car2 elderly 3",
+        "drive car2 trishuli-care-home tadi-village",
+        "drive car2 tadi-village nilkantha-hospital",
+        "unload car2 elderly 3",
+        "drive car2 nilkantha-hospital tadi-village",
+        "drive car2 tadi-village trishuli-care-home",
+        "drive car2 trishuli-care-home uttargaya-market",
+        "load car2 adult 4",
+        "drive car2 uttargaya-market trishuli-care-home",
+        "drive car2 trishuli-care-home tadi-village",
+        "drive car2 tadi-village nilkantha-hospital",
+        "unload car2 adult 4",
+        "defer suryagadhi-market elderly 4",
+        "defer suryagadhi-market adult 6",
+        "defer suryagadhi-market child 2",
+        "defer panchakanya-farm adult 1",
+        "defer belkot-village adult 1"
+      ],
+      "claimed_cost": 566,
+      "text": "<plan>\ndrive car2 nilkantha-hospital tadi-village\ndrive car2 tadi-village trishuli-care-home\nload car2 elderly 3\ndrive car2 trishuli-care-home tadi-village\ndrive car2 tadi-village nilkantha-hospital\nunload car2 elderly 3\ndrive car2 nilkantha-hospital tadi-village\ndrive car2 tadi-village trishuli-care-home\ndrive car2 trishuli-care-home uttargaya-market\nload car2 adult 4\ndrive car2 uttargaya-market trishuli-care-home\ndrive car2 trishuli-care-home tadi-village\ndrive car2 tadi-village nilkantha-hospital\nunload car2 adult 4\ndefer suryagadhi-market elderly 4\ndefer suryagadhi-market adult 6\ndefer suryagadhi-market child 2\ndefer panchakanya-farm adult 1\ndefer belkot-village adult 1\n</plan>\nCOST: 566\n\nNotes on the plan:\n- **Driving: 86 min.** Car2 makes two round trips from Nilkantha hospital: one to rescue the three elderly at Trishuli care home (30 min), and one to rescue the four adults at Uttargaya market (56 min).\n- **Car1 is not used.** The Thakre shelter to Trishuli care home road has fast floodwater and a truck was swept off it, so I treated it as unusable. Even if it were usable, sending car1 would not lower the total cost.\n- **Deferred: 480 min of penalties.** Suryagadhi market (4 elderly, 6 adults, 2 children) costs 228 min per round trip to reach, and one car can carry at most 4 people, so the best possible savings per trip (220 min, from 2 children and 2 elderly) is less than the trip cost. Panchakanya farm is cut off by a washed-out bridge. Belkot village's adult would need a 42-minute detour for a 20-minute penalty.\n- **Operational caveat:** this is a purely cost-based result. The 12 people at Suryagadhi market, including two children, are deferred only because of the cost model. The coordinators should review whether a later wave, or a different allocation, is acceptable on humanitarian grounds before relying on this plan."
+    }
+  ]
+}

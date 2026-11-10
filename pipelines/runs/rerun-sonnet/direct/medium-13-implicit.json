@@ -1,0 +1,60 @@
+{
+  "pipeline": "direct",
+  "instance": "medium-13",
+  "size": "medium",
+  "level": "implicit",
+  "model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 2098,
+    "output_tokens": 1680,
+    "calls": 1,
+    "seconds": 13.1
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 166,
+    "travel_minutes": 86,
+    "deferred_penalty": 80,
+    "rescued": {
+      "injured": 1,
+      "child": 2,
+      "elderly": 0,
+      "adult": 4
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 4
+    },
+    "people_rescued": 7,
+    "priority_people_rescued": 3
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 tarkeshwar-shelter dhunche-village",
+        "load car1 injured 1",
+        "load car1 child 2",
+        "drive car1 dhunche-village tarkeshwar-shelter",
+        "unload car1 injured 1",
+        "unload car1 child 2",
+        "drive car1 tarkeshwar-shelter dhunche-village",
+        "drive car1 dhunche-village gajuri-farm",
+        "load car1 adult 4",
+        "drive car1 gajuri-farm dhunche-village",
+        "drive car1 dhunche-village tarkeshwar-shelter",
+        "unload car1 adult 4",
+        "defer gajuri-farm adult 1",
+        "defer gosaikunda-care-home adult 3"
+      ],
+      "claimed_cost": 166,
+      "text": "This plan costs 166. Tarkeshwar shelter is the only evacuation point, so every rescue ends there.\n\n- **Dhunche village:** One round trip of 22 minutes brings the injured farmer and the two children to safety. This saves 80 + 2\u00d760 = 200 in penalties.\n- **Gajuri farm:** A round trip of 64 minutes via Dhunche brings four of the five adults to safety. This saves 80 in penalties, which is more than the 64 driven. A second trip for the fifth adult would cost 64 to save 20, so that adult is deferred.\n- **Gosaikunda care home:** Reaching it takes 80 minutes each way, via Dhunche, Gajuri and Kalika farm. That is far more than the 60 penalty for deferring the three adults, so they are deferred.\n- **Panchakanya temple:** It is not an evacuation point, so no one is dropped there.\n\n<plan>\ndrive car1 tarkeshwar-shelter dhunche-village\nload car1 injured 1\nload car1 child 2\ndrive car1 dhunche-village tarkeshwar-shelter\nunload car1 injured 1\nunload car1 child 2\ndrive car1 tarkeshwar-shelter dhunche-village\ndrive car1 dhunche-village gajuri-farm\nload car1 adult 4\ndrive car1 gajuri-farm dhunche-village\ndrive car1 dhunche-village tarkeshwar-shelter\nunload car1 adult 4\ndefer gajuri-farm adult 1\ndefer gosaikunda-care-home adult 3\n</plan>\nCOST: 166"
+    }
+  ]
+}

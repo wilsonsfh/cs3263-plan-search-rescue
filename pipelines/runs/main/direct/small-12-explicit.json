@@ -1,0 +1,59 @@
+{
+  "pipeline": "direct",
+  "instance": "small-12",
+  "size": "small",
+  "level": "explicit",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1725,
+    "output_tokens": 1209,
+    "calls": 1,
+    "seconds": 12.3
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 158,
+    "travel_minutes": 118,
+    "deferred_penalty": 40,
+    "rescued": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 8
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 2
+    },
+    "people_rescued": 8,
+    "priority_people_rescued": 0
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 trishuli-shelter gosaikunda-temple",
+        "drive car1 gosaikunda-temple naukunda-farm",
+        "load car1 adult 4",
+        "drive car1 naukunda-farm gosaikunda-temple",
+        "drive car1 gosaikunda-temple trishuli-shelter",
+        "unload car1 adult 4",
+        "drive car1 trishuli-shelter gosaikunda-temple",
+        "drive car1 gosaikunda-temple dupcheshwar-temple",
+        "load car1 adult 4",
+        "drive car1 dupcheshwar-temple gosaikunda-temple",
+        "drive car1 gosaikunda-temple trishuli-shelter",
+        "unload car1 adult 4",
+        "defer bidur-village adult 2"
+      ],
+      "claimed_cost": 158,
+      "text": "The lowest-cost plan rescues the 8 adults at Naukunda farm and Dupcheshwar temple in two round trips and defers the 2 adults at Bidur village. **Total cost: 158.**\n\n**Routes from Trishuli shelter** (the direct road to Naukunda farm is damaged):\n- Naukunda farm: via Gosaikunda temple, 11 + 12 = 23 min each way, so a 46-min round trip.\n- Dupcheshwar temple: via Gosaikunda temple, 11 + 25 = 36 min each way, so a 72-min round trip.\n- Bidur village: via Dupcheshwar temple, 36 + 22 = 58 min each way, so a 116-min round trip.\n\n**Decisions** (each adult deferred costs 20):\n- **Naukunda farm:** One round trip carries all 4 adults for 46 min, which is 11.5 per person. Rescue them.\n- **Dupcheshwar temple:** One round trip carries all 4 adults for 72 min, which is 18 per person. Rescue them.\n- **Bidur village:** A round trip for these 2 adults costs 116 min, which is 58 per person. Deferring them costs 40 in total.\n  - Combining Bidur with Dupcheshwar does not help. With only 4 seats, it would take a 116-min trip plus a 72-min trip, totalling 188. That is worse than 72 + 40 = 112.\n\n<plan>\ndrive car1 trishuli-shelter gosaikunda-temple\ndrive car1 gosaikunda-temple naukunda-farm\nload car1 adult 4\ndrive car1 naukunda-farm gosaikunda-temple\ndrive car1 gosaikunda-temple trishuli-shelter\nunload car1 adult 4\ndrive car1 trishuli-shelter gosaikunda-temple\ndrive car1 gosaikunda-temple dupcheshwar-temple\nload car1 adult 4\ndrive car1 dupcheshwar-temple gosaikunda-temple\ndrive car1 gosaikunda-temple trishuli-shelter\nunload car1 adult 4\ndefer bidur-village adult 2\n</plan>\n\n**Cost breakdown:**\n- Driving: 46 + 72 = 118 min\n- Penalty: 2 deferred adults \u00d7 20 = 40\n- Total: 118 + 40 = 158\n\nCOST: 158"
+    }
+  ]
+}

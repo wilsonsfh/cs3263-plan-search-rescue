@@ -1,0 +1,63 @@
+{
+  "pipeline": "direct",
+  "instance": "medium-04",
+  "size": "medium",
+  "level": "implicit",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 2103,
+    "output_tokens": 2435,
+    "calls": 1,
+    "seconds": 25.3
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 716,
+    "travel_minutes": 276,
+    "deferred_penalty": 440,
+    "rescued": {
+      "injured": 1,
+      "child": 3,
+      "elderly": 0,
+      "adult": 4
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 3,
+      "elderly": 4,
+      "adult": 3
+    },
+    "people_rescued": 8,
+    "priority_people_rescued": 4
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car2 myagang-shelter nilkantha-temple",
+        "load car2 adult 4",
+        "drive car2 nilkantha-temple myagang-shelter",
+        "unload car2 adult 4",
+        "drive car1 myagang-shelter nilkantha-temple",
+        "drive car1 nilkantha-temple naukunda-village",
+        "drive car1 naukunda-village galchhi-village",
+        "load car1 injured 1",
+        "load car1 child 3",
+        "drive car1 galchhi-village naukunda-village",
+        "drive car1 naukunda-village nilkantha-temple",
+        "drive car1 nilkantha-temple myagang-shelter",
+        "unload car1 injured 1",
+        "unload car1 child 3",
+        "defer nilkantha-temple adult 3",
+        "defer bidur-school child 3",
+        "defer shivapuri-care-home elderly 4"
+      ],
+      "claimed_cost": 716,
+      "text": "The only designated evacuation point is Myagang shelter. Nilkantha temple is not designated, so nobody can be dropped there.\n\n**Plan in brief**\n- car1 makes one round trip to Galchhi village, the only usable route there, and rescues the injured woman and three children.\n- car2 makes one round trip to Nilkantha temple and rescues four adults.\n- Everyone else is deferred, because reaching them costs more driving than their penalty.\n\n**Why the others are deferred**\n- **Galchhi (rescued):** the round trip is 214 minutes. Deferring these four would cost 240, so rescuing them is cheaper.\n- **Nilkantha, first trip (rescued):** 62 minutes rescues 4 adults, whose penalty would be 80.\n- **Nilkantha, second trip (not made):** another 62 minutes would only save the 3 remaining adults' penalty of 60.\n- **Bidur school:** a round trip is 238 minutes, against a penalty of 180 for the three children.\n- **Shivapuri care home:** a round trip is 278 minutes, against a penalty of 200 for the four seniors.\n- **Combining stops:** fetching Bidur's children on the way to or from Galchhi (one car, 280 minutes) costs more than it saves.\n\n<plan>\ndrive car2 myagang-shelter nilkantha-temple\nload car2 adult 4\ndrive car2 nilkantha-temple myagang-shelter\nunload car2 adult 4\ndrive car1 myagang-shelter nilkantha-temple\ndrive car1 nilkantha-temple naukunda-village\ndrive car1 naukunda-village galchhi-village\nload car1 injured 1\nload car1 child 3\ndrive car1 galchhi-village naukunda-village\ndrive car1 naukunda-village nilkantha-temple\ndrive car1 nilkantha-temple myagang-shelter\nunload car1 injured 1\nunload car1 child 3\ndefer nilkantha-temple adult 3\ndefer bidur-school child 3\ndefer shivapuri-care-home elderly 4\n</plan>\n\n**Cost breakdown**\n- Driving: car1 214 + car2 62 = 276\n- Penalties: 3 adults (60) + 3 children (180) + 4 elderly (200) = 440\n\nCOST: 716"
+    }
+  ]
+}

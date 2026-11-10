@@ -1,0 +1,48 @@
+{
+  "pipeline": "direct",
+  "instance": "small-09",
+  "size": "small",
+  "level": "explicit",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1639,
+    "output_tokens": 394,
+    "calls": 1,
+    "seconds": 5.8
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 420,
+    "travel_minutes": 0,
+    "deferred_penalty": 420,
+    "rescued": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 0
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 7,
+      "elderly": 0,
+      "adult": 0
+    },
+    "people_rescued": 0,
+    "priority_people_rescued": 0
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "defer kalika-market child 3",
+        "defer galchhi-school child 4"
+      ],
+      "claimed_cost": 420,
+      "text": "**The car can't reach anyone, so all 7 people have to be deferred.**\n\nThe only road out of Kispang shelter, to Nilkantha village, is impassable. This leaves car1 stranded at the shelter, which is also the only evacuation point. Even with another vehicle, nobody could be brought to the shelter because the road network doesn't connect to it.\n\n**Cost:**\n- **Kalika market:** 3 children \u00d7 60 = 180\n- **Galchhi school:** 4 children \u00d7 60 = 240\n- **Driving:** 0 minutes\n\nThe total cost is 420, and it can't be reduced because no rescue is possible.\n\n**Next step:** Repairing the Kispang\u2013Nilkantha road would reopen access for the later rescue wave. It's only 9 minutes long, and Nilkantha village connects directly to Galchhi school.\n\n<plan>\ndefer kalika-market child 3\ndefer galchhi-school child 4\n</plan>\n\nCOST: 420"
+    }
+  ]
+}

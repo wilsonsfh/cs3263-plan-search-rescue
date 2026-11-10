@@ -1,0 +1,60 @@
+{
+  "pipeline": "direct",
+  "instance": "medium-13",
+  "size": "medium",
+  "level": "implicit",
+  "model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 2099,
+    "output_tokens": 1733,
+    "calls": 1,
+    "seconds": 14.7
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 166,
+    "travel_minutes": 86,
+    "deferred_penalty": 80,
+    "rescued": {
+      "injured": 1,
+      "child": 2,
+      "elderly": 0,
+      "adult": 4
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 4
+    },
+    "people_rescued": 7,
+    "priority_people_rescued": 3
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 tarkeshwar-shelter dhunche-village",
+        "load car1 injured 1",
+        "load car1 child 2",
+        "drive car1 dhunche-village tarkeshwar-shelter",
+        "unload car1 injured 1",
+        "unload car1 child 2",
+        "drive car1 tarkeshwar-shelter dhunche-village",
+        "drive car1 dhunche-village gajuri-farm",
+        "load car1 adult 4",
+        "drive car1 gajuri-farm dhunche-village",
+        "drive car1 dhunche-village tarkeshwar-shelter",
+        "unload car1 adult 4",
+        "defer gajuri-farm adult 1",
+        "defer gosaikunda-care-home adult 3"
+      ],
+      "claimed_cost": 166,
+      "text": "The only designated evacuation point is Tarkeshwar shelter, so Panchakanya temple doesn't count as a drop-off.\n\nThe plan has two trips:\n- **Trip 1:** Dhunche village is 11 minutes away. Picking up the injured farmer and the two pupils costs 22 minutes round trip and avoids 200 in penalties.\n- **Trip 2:** Four of the five adults at Gajuri farm fit in one load. The round trip is 64 minutes and avoids 80 in penalties, so it saves 16 net. The fifth adult would need another 64-minute trip to avoid a penalty of 20, so that adult is deferred.\n- **Gosaikunda care home:** Reaching the three adults there takes at least 96 minutes round trip from Gajuri farm, to avoid a penalty of 60. They are deferred.\n\nTotal cost is 22 + 64 driving, plus 20 for the deferred Gajuri adult and 60 for the three deferred Gosaikunda adults.\n\n<plan>\ndrive car1 tarkeshwar-shelter dhunche-village\nload car1 injured 1\nload car1 child 2\ndrive car1 dhunche-village tarkeshwar-shelter\nunload car1 injured 1\nunload car1 child 2\ndrive car1 tarkeshwar-shelter dhunche-village\ndrive car1 dhunche-village gajuri-farm\nload car1 adult 4\ndrive car1 gajuri-farm dhunche-village\ndrive car1 dhunche-village tarkeshwar-shelter\nunload car1 adult 4\ndefer gajuri-farm adult 1\ndefer gosaikunda-care-home adult 3\n</plan>\n\nCOST: 166"
+    }
+  ]
+}

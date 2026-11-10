@@ -1,0 +1,60 @@
+{
+  "pipeline": "direct",
+  "instance": "medium-09",
+  "size": "medium",
+  "level": "explicit",
+  "model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1932,
+    "output_tokens": 1514,
+    "calls": 1,
+    "seconds": 14.0
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 330,
+    "travel_minutes": 110,
+    "deferred_penalty": 220,
+    "rescued": {
+      "injured": 4,
+      "child": 0,
+      "elderly": 3,
+      "adult": 1
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 1,
+      "elderly": 0,
+      "adult": 8
+    },
+    "people_rescued": 8,
+    "priority_people_rescued": 7
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 thakre-shelter dhunche-market",
+        "load car1 injured 4",
+        "drive car1 dhunche-market thakre-shelter",
+        "unload car1 injured 4",
+        "drive car2 thakre-shelter myagang-care-home",
+        "load car2 elderly 3",
+        "drive car2 myagang-care-home dhunche-market",
+        "load car2 adult 1",
+        "drive car2 dhunche-market thakre-shelter",
+        "unload car2 elderly 3",
+        "unload car2 adult 1",
+        "defer dhunche-market adult 1",
+        "defer tadi-market adult 7",
+        "defer shivapuri-village child 1"
+      ],
+      "claimed_cost": 330,
+      "text": "This plan sends both cars out and back once, and defers everyone whose rescue would cost more driving than their penalty.\n\n- **Car1** goes to Dhunche market, picks up the 4 injured people and returns. That is 46 minutes and avoids 320 in penalties.\n- **Car2** goes to Myagang care home for the 3 elderly people, then to Dhunche market for 1 adult, then back to the shelter. That is 64 minutes. It costs 14 minutes more than skipping the adult and saves a 20-minute penalty.\n- **Deferred:**\n  - The child at Shivapuri village: an 88-minute round trip costs more than the 60 penalty.\n  - All 7 adults at Tadi market: a 98-minute round trip for 4 adults costs more than the 80 they would save.\n  - The second adult at Dhunche market: a 46-minute extra trip costs more than the 40 they would save.\n\nTotal cost is 46 + 64 + 60 + 140 + 20 = 330.\n\n<plan>\ndrive car1 thakre-shelter dhunche-market\nload car1 injured 4\ndrive car1 dhunche-market thakre-shelter\nunload car1 injured 4\ndrive car2 thakre-shelter myagang-care-home\nload car2 elderly 3\ndrive car2 myagang-care-home dhunche-market\nload car2 adult 1\ndrive car2 dhunche-market thakre-shelter\nunload car2 elderly 3\nunload car2 adult 1\ndefer dhunche-market adult 1\ndefer tadi-market adult 7\ndefer shivapuri-village child 1\n</plan>\nCOST: 330"
+    }
+  ]
+}

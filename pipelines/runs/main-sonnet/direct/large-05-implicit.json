@@ -1,0 +1,65 @@
+{
+  "pipeline": "direct",
+  "instance": "large-05",
+  "size": "large",
+  "level": "implicit",
+  "model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 2543,
+    "output_tokens": 2629,
+    "calls": 1,
+    "seconds": 23.0
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 566,
+    "travel_minutes": 86,
+    "deferred_penalty": 480,
+    "rescued": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 3,
+      "adult": 4
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 2,
+      "elderly": 4,
+      "adult": 8
+    },
+    "people_rescued": 7,
+    "priority_people_rescued": 3
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car2 nilkantha-hospital tadi-village",
+        "drive car2 tadi-village trishuli-care-home",
+        "load car2 elderly 3",
+        "drive car2 trishuli-care-home tadi-village",
+        "drive car2 tadi-village nilkantha-hospital",
+        "unload car2 elderly 3",
+        "drive car2 nilkantha-hospital tadi-village",
+        "drive car2 tadi-village trishuli-care-home",
+        "drive car2 trishuli-care-home uttargaya-market",
+        "load car2 adult 4",
+        "drive car2 uttargaya-market trishuli-care-home",
+        "drive car2 trishuli-care-home tadi-village",
+        "drive car2 tadi-village nilkantha-hospital",
+        "unload car2 adult 4",
+        "defer panchakanya-farm adult 1",
+        "defer belkot-village adult 1",
+        "defer suryagadhi-market elderly 4",
+        "defer suryagadhi-market adult 6",
+        "defer suryagadhi-market child 2"
+      ],
+      "claimed_cost": 566,
+      "text": "The plan uses car2 only. Car1 is stuck at Thakre shelter, because both roads out of it are unusable (flooded to Trishuli, bridge washed away to Panchakanya).\n\n- **Trishuli care home (3 elderly):** 15 minutes each way from Nilkantha hospital, so 30 minutes. This is cheaper than deferring, which would cost 150.\n- **Uttargaya market (4 adults):** 28 minutes each way, so 56 minutes. This is cheaper than deferring, which would cost 80.\n- **Belkot village (1 adult):** a round trip costs 62 minutes, against a deferral penalty of 20, so I defer.\n- **Panchakanya farm (1 adult):** unreachable, so I defer.\n- **Suryagadhi market (12 people):** the nearest route to Nilkantha hospital is 114 minutes each way, so 228 per round trip carrying 4 people. Even the best load of 4 elderly (200 penalty) is cheaper to defer, so I defer all 12. That costs 4\u00d750 + 6\u00d720 + 2\u00d760 = 440.\n\nTotal: 30 + 56 + 20 + 20 + 440 = 566.\n\n<plan>\ndrive car2 nilkantha-hospital tadi-village\ndrive car2 tadi-village trishuli-care-home\nload car2 elderly 3\ndrive car2 trishuli-care-home tadi-village\ndrive car2 tadi-village nilkantha-hospital\nunload car2 elderly 3\ndrive car2 nilkantha-hospital tadi-village\ndrive car2 tadi-village trishuli-care-home\ndrive car2 trishuli-care-home uttargaya-market\nload car2 adult 4\ndrive car2 uttargaya-market trishuli-care-home\ndrive car2 trishuli-care-home tadi-village\ndrive car2 tadi-village nilkantha-hospital\nunload car2 adult 4\ndefer panchakanya-farm adult 1\ndefer belkot-village adult 1\ndefer suryagadhi-market elderly 4\ndefer suryagadhi-market adult 6\ndefer suryagadhi-market child 2\n</plan>\nCOST: 566"
+    }
+  ]
+}

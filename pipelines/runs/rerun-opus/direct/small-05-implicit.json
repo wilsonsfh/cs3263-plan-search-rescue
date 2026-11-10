@@ -1,0 +1,55 @@
+{
+  "pipeline": "direct",
+  "instance": "small-05",
+  "size": "small",
+  "level": "implicit",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1801,
+    "output_tokens": 831,
+    "calls": 1,
+    "seconds": 9.3
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 102,
+    "travel_minutes": 52,
+    "deferred_penalty": 50,
+    "rescued": {
+      "injured": 6,
+      "child": 0,
+      "elderly": 0,
+      "adult": 0
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 1,
+      "adult": 0
+    },
+    "people_rescued": 6,
+    "priority_people_rescued": 6
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 shivapuri-shelter dhunche-temple",
+        "load car1 injured 4",
+        "drive car1 dhunche-temple shivapuri-shelter",
+        "unload car1 injured 4",
+        "drive car1 shivapuri-shelter dhunche-temple",
+        "load car1 injured 2",
+        "drive car1 dhunche-temple shivapuri-shelter",
+        "unload car1 injured 2",
+        "defer myagang-care-home elderly 1"
+      ],
+      "claimed_cost": 102,
+      "text": "**Road and access check**\n- **Usable roads:** Shivapuri to Dhunche (13 min), Shivapuri to Galchhi (33 min) and Dhunche to Likhu (30 min).\n- **Blocked roads:** Shivapuri to Likhu (flooded), Likhu to Myagang (bridge washed away) and Dhunche to Galchhi (closed by police).\n- **Evacuation point:** Shivapuri shelter is the only one. Dhunche temple is not designated, so drop-offs there don't count.\n\n**Decisions**\n- **Dhunche temple (6 injured):** The car carries 4 at a time, so this takes two round trips of 26 minutes each, or 52 minutes in total. The second trip costs 26 minutes and carries the last 2 injured people, which avoids a 160 penalty for deferring them.\n- **Myagang care home (1 elderly):** The only road there is the one with the washed-out bridge, so she can't be reached. She has to be deferred, with a penalty of 50.\n\n<plan>\ndrive car1 shivapuri-shelter dhunche-temple\nload car1 injured 4\ndrive car1 dhunche-temple shivapuri-shelter\nunload car1 injured 4\ndrive car1 shivapuri-shelter dhunche-temple\nload car1 injured 2\ndrive car1 dhunche-temple shivapuri-shelter\nunload car1 injured 2\ndefer myagang-care-home elderly 1\n</plan>\n\n**Cost:** 52 minutes of driving + 50 deferral penalty = 102\n\nThe elderly woman at Myagang care home should be the first priority for the next rescue wave, as she is alone and can't be reached by road. She may need a boat, an air evacuation or a repaired crossing.\n\nCOST: 102"
+    }
+  ]
+}

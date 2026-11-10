@@ -1,0 +1,70 @@
+{
+  "pipeline": "direct",
+  "instance": "large-11",
+  "size": "large",
+  "level": "implicit",
+  "model": "claude-haiku-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 2595,
+    "output_tokens": 10458,
+    "calls": 1,
+    "seconds": 46.8
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 403,
+    "travel_minutes": 243,
+    "deferred_penalty": 160,
+    "rescued": {
+      "injured": 1,
+      "child": 4,
+      "elderly": 2,
+      "adult": 5
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 8
+    },
+    "people_rescued": 12,
+    "priority_people_rescued": 7
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 tarkeshwar-shelter trishuli-temple",
+        "drive car1 trishuli-temple naukunda-school",
+        "load car1 child 4",
+        "drive car1 naukunda-school trishuli-temple",
+        "drive car1 trishuli-temple tarkeshwar-shelter",
+        "unload car1 child 4",
+        "drive car1 tarkeshwar-shelter galchhi-village",
+        "load car1 injured 1",
+        "drive car1 galchhi-village syaphru-village",
+        "load car1 adult 3",
+        "drive car1 syaphru-village galchhi-village",
+        "drive car1 galchhi-village tarkeshwar-shelter",
+        "unload car1 injured 1",
+        "unload car1 adult 3",
+        "drive car2 dupcheshwar-hospital nilkantha-care-home",
+        "load car2 adult 2",
+        "drive car2 nilkantha-care-home myagang-temple",
+        "drive car2 myagang-temple bidur-village",
+        "load car2 elderly 2",
+        "drive car2 bidur-village tarkeshwar-shelter",
+        "unload car2 adult 2",
+        "unload car2 elderly 2",
+        "defer panchakanya-farm adult 6",
+        "defer syaphru-village adult 2"
+      ],
+      "claimed_cost": 403,
+      "text": "<plan>\ndrive car1 tarkeshwar-shelter trishuli-temple\ndrive car1 trishuli-temple naukunda-school\nload car1 child 4\ndrive car1 naukunda-school trishuli-temple\ndrive car1 trishuli-temple tarkeshwar-shelter\nunload car1 child 4\ndrive car1 tarkeshwar-shelter galchhi-village\nload car1 injured 1\ndrive car1 galchhi-village syaphru-village\nload car1 adult 3\ndrive car1 syaphru-village galchhi-village\ndrive car1 galchhi-village tarkeshwar-shelter\nunload car1 injured 1\nunload car1 adult 3\ndrive car2 dupcheshwar-hospital nilkantha-care-home\nload car2 adult 2\ndrive car2 nilkantha-care-home myagang-temple\ndrive car2 myagang-temple bidur-village\nload car2 elderly 2\ndrive car2 bidur-village tarkeshwar-shelter\nunload car2 adult 2\nunload car2 elderly 2\ndefer panchakanya-farm adult 6\ndefer syaphru-village adult 2\n</plan>\nCOST: 403\n\nNotes on the plan:\n- **Children (Naukunda):** Car1 makes one round trip via Trishuli temple, the only usable route. This costs 114 minutes and saves 240 in penalties.\n- **Injured man and three adults (Galchhi and Syaphru):** Car1 picks up the injured man first, then three of the five Syaphru adults, for 68 minutes. The injured man has the highest penalty, so he is taken in the first load.\n- **Elderly couple and two adults (Bidur and Nilkantha):** Car2 covers Nilkantha and Bidur in a single 61-minute run that ends at Tarkeshwar shelter. Running the two pickups separately would cost 66 minutes.\n- **Deferred adults:** The six adults at Panchakanya farm and the two remaining at Syaphru village are deferred. Each extra trip costs more driving than the 20-minute penalty per adult it would avoid. Panchakanya farm is about 42 minutes from the nearest safe point, so a round trip for four adults costs 84 minutes against an 80-minute penalty.\n- **Flooded road:** The Galchhi village to Myagang temple road is not used because of the fast floodwater.\n- **Myagang temple:** Cars pass through it but do not unload there, since it is not a designated evacuation point.\n- **Assumption:** Roads are treated as two-way, and the closed Panchakanya farm to Trishuli temple road is not used."
+    }
+  ]
+}

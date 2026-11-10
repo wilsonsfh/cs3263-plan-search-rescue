@@ -1,0 +1,50 @@
+{
+  "pipeline": "direct",
+  "instance": "small-08",
+  "size": "small",
+  "level": "implicit",
+  "model": "claude-haiku-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1930,
+    "output_tokens": 3256,
+    "calls": 1,
+    "seconds": 17.8
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 520,
+    "travel_minutes": 0,
+    "deferred_penalty": 520,
+    "rescued": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 0
+    },
+    "deferred": {
+      "injured": 4,
+      "child": 1,
+      "elderly": 0,
+      "adult": 7
+    },
+    "people_rescued": 0,
+    "priority_people_rescued": 0
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "defer likhu-school injured 4",
+        "defer likhu-school child 1",
+        "defer trishuli-market adult 4",
+        "defer thakre-market adult 3"
+      ],
+      "claimed_cost": 520,
+      "text": "The only usable road from Jwalamukhi shelter is the route to Dupcheshwar temple, Gosaikunda school and Trishuli market, which takes 60 minutes one way. Likhu school has no usable road: both its connections are washed out. Thakre market is reachable only from Trishuli market (19 minutes). Rescuing anyone costs more in driving than the penalty for deferring them. Retrieving the four Trishuli adults alone needs a 120-minute round trip to save 80 in penalties, and the three Thakre adults need a 158-minute round trip to save 60. The plan therefore defers everyone and sends no cars.\n\n<plan>\ndefer likhu-school injured 4\ndefer likhu-school child 1\ndefer trishuli-market adult 4\ndefer thakre-market adult 3\n</plan>\n\nCOST: 520\n\nThis plan assumes the road and bridge reports are accurate and the Dupcheshwar temple cannot be used as a drop-off point. If a washed-out bridge is reopened or the road from Likhu school is restored, the plan should be recalculated."
+    }
+  ]
+}

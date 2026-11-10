@@ -1,0 +1,48 @@
+{
+  "pipeline": "direct",
+  "instance": "small-09",
+  "size": "small",
+  "level": "explicit",
+  "model": "claude-haiku-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1665,
+    "output_tokens": 454,
+    "calls": 1,
+    "seconds": 5.0
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 420,
+    "travel_minutes": 0,
+    "deferred_penalty": 420,
+    "rescued": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 0
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 7,
+      "elderly": 0,
+      "adult": 0
+    },
+    "people_rescued": 0,
+    "priority_people_rescued": 0
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "defer galchhi-school child 4",
+        "defer kalika-market child 3"
+      ],
+      "claimed_cost": 420,
+      "text": "The car is stuck at Kispang shelter. Its only listed road, to Nilkantha village, is impassable, and no other road connects to Kispang. No rescue is possible, so all seven children must be deferred.\n\n<plan>\ndefer galchhi-school child 4\ndefer kalika-market child 3\n</plan>\n\nCOST: 420"
+    }
+  ]
+}

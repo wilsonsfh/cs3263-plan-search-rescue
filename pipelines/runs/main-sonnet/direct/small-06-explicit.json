@@ -1,0 +1,57 @@
+{
+  "pipeline": "direct",
+  "instance": "small-06",
+  "size": "small",
+  "level": "explicit",
+  "model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1724,
+    "output_tokens": 1082,
+    "calls": 1,
+    "seconds": 13.3
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 106,
+    "travel_minutes": 66,
+    "deferred_penalty": 40,
+    "rescued": {
+      "injured": 3,
+      "child": 0,
+      "elderly": 0,
+      "adult": 4
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 2
+    },
+    "people_rescued": 7,
+    "priority_people_rescued": 3
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 galchhi-shelter gosaikunda-farm",
+        "load car1 injured 3",
+        "load car1 adult 1",
+        "drive car1 gosaikunda-farm galchhi-shelter",
+        "unload car1 injured 3",
+        "unload car1 adult 1",
+        "drive car1 galchhi-shelter nilkantha-market",
+        "load car1 adult 3",
+        "drive car1 nilkantha-market galchhi-shelter",
+        "unload car1 adult 3",
+        "defer gosaikunda-farm adult 2"
+      ],
+      "claimed_cost": 106,
+      "text": "This plan costs 106 minutes. The car can only carry 4 people, so the work splits into two round trips plus some deferrals.\n\n- **Gosaikunda farm trip (48 min):** The car takes all 3 injured people, who carry the highest deferral penalty (80 each), plus 1 adult. It drops them at Galchhi shelter. The 2 remaining adults are deferred for 40, because a second 48-minute round trip would cost more than that.\n- **Nilkantha market trip (18 min):** The 9-minute road each way lets the car rescue all 3 adults and avoid a 60-minute penalty.\n\nTotal: 48 + 18 + 40 = 106.\n\n<plan>\ndrive car1 galchhi-shelter gosaikunda-farm\nload car1 injured 3\nload car1 adult 1\ndrive car1 gosaikunda-farm galchhi-shelter\nunload car1 injured 3\nunload car1 adult 1\ndrive car1 galchhi-shelter nilkantha-market\nload car1 adult 3\ndrive car1 nilkantha-market galchhi-shelter\nunload car1 adult 3\ndefer gosaikunda-farm adult 2\n</plan>\nCOST: 106"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "pipeline": "direct",
+  "instance": "large-04",
+  "size": "large",
+  "level": "implicit",
+  "model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 2901,
+    "output_tokens": 2740,
+    "calls": 1,
+    "seconds": 22.4
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 608,
+    "travel_minutes": 168,
+    "deferred_penalty": 440,
+    "rescued": {
+      "injured": 2,
+      "child": 0,
+      "elderly": 8,
+      "adult": 2
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 4,
+      "elderly": 0,
+      "adult": 10
+    },
+    "people_rescued": 12,
+    "priority_people_rescued": 10
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 shivapuri-shelter jwalamukhi-care-home",
+        "load car1 elderly 4",
+        "drive car1 jwalamukhi-care-home shivapuri-shelter",
+        "unload car1 elderly 4",
+        "drive car2 trishuli-hospital thakre-care-home",
+        "load car2 injured 1",
+        "load car2 elderly 1",
+        "drive car2 thakre-care-home bidur-school",
+        "load car2 injured 1",
+        "drive car2 bidur-school belkot-care-home",
+        "load car2 elderly 1",
+        "drive car2 belkot-care-home syaphru-village",
+        "drive car2 syaphru-village trishuli-hospital",
+        "unload car2 injured 2",
+        "unload car2 elderly 2",
+        "drive car2 trishuli-hospital syaphru-village",
+        "load car2 adult 2",
+        "drive car2 syaphru-village belkot-care-home",
+        "load car2 elderly 2",
+        "drive car2 belkot-care-home syaphru-village",
+        "drive car2 syaphru-village trishuli-hospital",
+        "unload car2 adult 2",
+        "unload car2 elderly 2",
+        "defer kakani-farm adult 3",
+        "defer kispang-farm adult 4",
+        "defer benighat-farm child 4",
+        "defer kalika-village adult 3"
+      ],
+      "claimed_cost": 608,
+      "text": "This plan treats the flooded Shivapuri\u2013Bidur and Kakani\u2013Syaphru roads as unusable, because trucks were swept off both this morning. I also left out Bidur school as a drop-off, since it is not an evacuation point.\n\n- **Car1** is cut off from everything except Jwalamukhi. It rescues the four seniors there, a round trip of 36 minutes.\n- **Car2, trip 1:** collects the injured woman and the elderly widow at Thakre, the injured farmer at Bidur, and one elderly resident at Belkot. It then returns to Trishuli via Syaphru (72 minutes).\n- **Car2, trip 2:** collects the two shopkeepers at Syaphru, then the remaining two elderly residents at Belkot, and returns to Trishuli (60 minutes).\n- **Deferred:** the people at Kakani, Kispang, Benighat and Kalika cannot be reached by any usable road.\n\n<plan>\ndrive car1 shivapuri-shelter jwalamukhi-care-home\nload car1 elderly 4\ndrive car1 jwalamukhi-care-home shivapuri-shelter\nunload car1 elderly 4\ndrive car2 trishuli-hospital thakre-care-home\nload car2 injured 1\nload car2 elderly 1\ndrive car2 thakre-care-home bidur-school\nload car2 injured 1\ndrive car2 bidur-school belkot-care-home\nload car2 elderly 1\ndrive car2 belkot-care-home syaphru-village\ndrive car2 syaphru-village trishuli-hospital\nunload car2 injured 2\nunload car2 elderly 2\ndrive car2 trishuli-hospital syaphru-village\nload car2 adult 2\ndrive car2 syaphru-village belkot-care-home\nload car2 elderly 2\ndrive car2 belkot-care-home syaphru-village\ndrive car2 syaphru-village trishuli-hospital\nunload car2 adult 2\nunload car2 elderly 2\ndefer kakani-farm adult 3\ndefer kispang-farm adult 4\ndefer benighat-farm child 4\ndefer kalika-village adult 3\n</plan>\nCOST: 608"
+    }
+  ]
+}

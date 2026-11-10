@@ -1,0 +1,57 @@
+{
+  "pipeline": "direct",
+  "instance": "small-14",
+  "size": "small",
+  "level": "implicit",
+  "model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1877,
+    "output_tokens": 1260,
+    "calls": 1,
+    "seconds": 10.8
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 120,
+    "travel_minutes": 80,
+    "deferred_penalty": 40,
+    "rescued": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 3,
+      "adult": 3
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 2
+    },
+    "people_rescued": 6,
+    "priority_people_rescued": 3
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 tarkeshwar-shelter myagang-temple",
+        "load car1 elderly 3",
+        "load car1 adult 1",
+        "drive car1 myagang-temple tarkeshwar-shelter",
+        "unload car1 elderly 3",
+        "unload car1 adult 1",
+        "drive car1 tarkeshwar-shelter myagang-temple",
+        "load car1 adult 2",
+        "drive car1 myagang-temple tarkeshwar-shelter",
+        "unload car1 adult 2",
+        "defer tadi-farm adult 2"
+      ],
+      "claimed_cost": 120,
+      "text": "<plan>\ndrive car1 tarkeshwar-shelter myagang-temple\nload car1 elderly 3\nload car1 adult 1\ndrive car1 myagang-temple tarkeshwar-shelter\nunload car1 elderly 3\nunload car1 adult 1\ndrive car1 tarkeshwar-shelter myagang-temple\nload car1 adult 2\ndrive car1 myagang-temple tarkeshwar-shelter\nunload car1 adult 2\ndefer tadi-farm adult 2\n</plan>\nCOST: 120\n\nI treated the two people at Tadi farm as 2 adults, since the report is ambiguous. Only Tarkeshwar shelter is a designated evacuation point, so everyone has to be brought back there. The closed Shivapuri\u2013Gosaikunda road and the flooded Shivapuri\u2013Benighat road are not used.\n\nThe car makes two round trips to Myagang temple, 40 minutes each, and rescues all six people there. Reaching Tadi farm would add 44 minutes of driving, which is more than the 40-point penalty for deferring those 2 adults, so I deferred them."
+    }
+  ]
+}

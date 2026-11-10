@@ -1,0 +1,78 @@
+{
+  "pipeline": "direct",
+  "instance": "large-08",
+  "size": "large",
+  "level": "explicit",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 2229,
+    "output_tokens": 3579,
+    "calls": 1,
+    "seconds": 38.0
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 366,
+    "travel_minutes": 296,
+    "deferred_penalty": 70,
+    "rescued": {
+      "injured": 0,
+      "child": 9,
+      "elderly": 4,
+      "adult": 2
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 1,
+      "adult": 1
+    },
+    "people_rescued": 15,
+    "priority_people_rescued": 13
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 kakani-shelter suryagadhi-care-home",
+        "drive car1 suryagadhi-care-home syaphru-village",
+        "drive car1 syaphru-village panchakanya-care-home",
+        "load car1 elderly 2",
+        "drive car1 panchakanya-care-home syaphru-village",
+        "load car1 child 2",
+        "drive car1 syaphru-village suryagadhi-care-home",
+        "drive car1 suryagadhi-care-home kakani-shelter",
+        "unload car1 elderly 2",
+        "unload car1 child 2",
+        "drive car1 kakani-shelter suryagadhi-care-home",
+        "drive car1 suryagadhi-care-home syaphru-village",
+        "load car1 child 2",
+        "load car1 adult 2",
+        "drive car1 syaphru-village suryagadhi-care-home",
+        "drive car1 suryagadhi-care-home kakani-shelter",
+        "unload car1 child 2",
+        "unload car1 adult 2",
+        "drive car1 kakani-shelter suryagadhi-care-home",
+        "load car1 elderly 2",
+        "drive car1 suryagadhi-care-home kakani-shelter",
+        "unload car1 elderly 2",
+        "drive car2 kalika-hospital belkot-school",
+        "load car2 child 4",
+        "drive car2 belkot-school kalika-hospital",
+        "unload car2 child 4",
+        "drive car2 kalika-hospital belkot-school",
+        "load car2 child 1",
+        "drive car2 belkot-school kalika-hospital",
+        "unload car2 child 1",
+        "defer syaphru-village adult 1",
+        "defer thakre-temple elderly 1"
+      ],
+      "claimed_cost": 366,
+      "text": "**Plan summary:**\n- **car1** makes three trips from Kakani shelter. First it goes to Panchakanya care home and Syaphru village (2 elderly + 2 children). Then it goes back to Syaphru village (2 children + 2 adults). Last, it collects the 2 elderly at Suryagadhi care home. Total: 126 + 70 + 36 = 232 minutes.\n- **car2** makes two round trips between Kalika hospital and Belkot school, bringing back all 5 children. Total: 32 + 32 = 64 minutes. A second trip (32) costs less than deferring a child (60).\n- **Deferred:**\n  - 1 elderly person at Thakre temple (penalty 50). A round trip there would cost 82 minutes of driving.\n  - 1 adult at Syaphru village (penalty 20). One more trip would cost at least 36 minutes.\n\n<plan>\ndrive car1 kakani-shelter suryagadhi-care-home\ndrive car1 suryagadhi-care-home syaphru-village\ndrive car1 syaphru-village panchakanya-care-home\nload car1 elderly 2\ndrive car1 panchakanya-care-home syaphru-village\nload car1 child 2\ndrive car1 syaphru-village suryagadhi-care-home\ndrive car1 suryagadhi-care-home kakani-shelter\nunload car1 elderly 2\nunload car1 child 2\ndrive car1 kakani-shelter suryagadhi-care-home\ndrive car1 suryagadhi-care-home syaphru-village\nload car1 child 2\nload car1 adult 2\ndrive car1 syaphru-village suryagadhi-care-home\ndrive car1 suryagadhi-care-home kakani-shelter\nunload car1 child 2\nunload car1 adult 2\ndrive car1 kakani-shelter suryagadhi-care-home\nload car1 elderly 2\ndrive car1 suryagadhi-care-home kakani-shelter\nunload car1 elderly 2\ndrive car2 kalika-hospital belkot-school\nload car2 child 4\ndrive car2 belkot-school kalika-hospital\nunload car2 child 4\ndrive car2 kalika-hospital belkot-school\nload car2 child 1\ndrive car2 belkot-school kalika-hospital\nunload car2 child 1\ndefer syaphru-village adult 1\ndefer thakre-temple elderly 1\n</plan>\n\n**Total cost:** 296 minutes of driving + 70 in penalties (adult 20 + elderly 50) = 366\n\nCOST: 366"
+    }
+  ]
+}

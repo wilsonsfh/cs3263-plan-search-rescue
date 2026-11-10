@@ -1,0 +1,48 @@
+{
+  "pipeline": "direct",
+  "instance": "small-13",
+  "size": "small",
+  "level": "explicit",
+  "model": "claude-haiku-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1622,
+    "output_tokens": 717,
+    "calls": 1,
+    "seconds": 5.5
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 120,
+    "travel_minutes": 0,
+    "deferred_penalty": 120,
+    "rescued": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 0
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 1,
+      "elderly": 0,
+      "adult": 3
+    },
+    "people_rescued": 0,
+    "priority_people_rescued": 0
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "defer belkot-village child 1",
+        "defer nilkantha-market adult 3"
+      ],
+      "claimed_cost": 120,
+      "text": "Rescuing the child would cost 186 minutes of driving (a round trip through Suryagadhi and Likhu) to avoid a 60-minute penalty, so deferring is cheaper. The three adults at Nilkantha market cannot be reached, since both roads to that location are impassable. Deferring everyone costs 60 + 3\u00d720 = 120.\n\n<plan>\ndefer belkot-village child 1\ndefer nilkantha-market adult 3\n</plan>\nCOST: 120"
+    }
+  ]
+}

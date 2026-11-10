@@ -1,0 +1,57 @@
+{
+  "pipeline": "direct",
+  "instance": "medium-05",
+  "size": "medium",
+  "level": "explicit",
+  "model": "claude-haiku-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1955,
+    "output_tokens": 1128,
+    "calls": 1,
+    "seconds": 6.6
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 412,
+    "travel_minutes": 62,
+    "deferred_penalty": 350,
+    "rescued": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 2,
+      "adult": 0
+    },
+    "deferred": {
+      "injured": 2,
+      "child": 0,
+      "elderly": 1,
+      "adult": 7
+    },
+    "people_rescued": 2,
+    "priority_people_rescued": 2
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 thakre-shelter myagang-care-home",
+        "load car1 elderly 1",
+        "drive car1 myagang-care-home thakre-shelter",
+        "unload car1 elderly 1",
+        "drive car1 thakre-shelter gajuri-care-home",
+        "load car1 elderly 1",
+        "drive car1 gajuri-care-home thakre-shelter",
+        "unload car1 elderly 1",
+        "defer likhu-farm adult 7",
+        "defer panchakanya-care-home injured 2",
+        "defer panchakanya-care-home elderly 1"
+      ],
+      "claimed_cost": 412,
+      "text": "The car can only reach Myagang and Gajuri. Tarkeshwar hospital is cut off, so Likhu farm and Panchakanya care home are unreachable and their occupants must be deferred.\n\n<plan>\ndrive car1 thakre-shelter myagang-care-home\nload car1 elderly 1\ndrive car1 myagang-care-home thakre-shelter\nunload car1 elderly 1\ndrive car1 thakre-shelter gajuri-care-home\nload car1 elderly 1\ndrive car1 gajuri-care-home thakre-shelter\nunload car1 elderly 1\ndefer likhu-farm adult 7\ndefer panchakanya-care-home injured 2\ndefer panchakanya-care-home elderly 1\n</plan>\n\nCOST: 412\n\nBreakdown: driving 24+24+7+7 = 62 minutes; deferral penalties 7\u00d720 (adults) + 2\u00d780 (injured) + 1\u00d750 (elderly) = 350."
+    }
+  ]
+}

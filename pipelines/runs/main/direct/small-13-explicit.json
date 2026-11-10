@@ -1,0 +1,48 @@
+{
+  "pipeline": "direct",
+  "instance": "small-13",
+  "size": "small",
+  "level": "explicit",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1599,
+    "output_tokens": 398,
+    "calls": 1,
+    "seconds": 6.1
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 120,
+    "travel_minutes": 0,
+    "deferred_penalty": 120,
+    "rescued": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 0
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 1,
+      "elderly": 0,
+      "adult": 3
+    },
+    "people_rescued": 0,
+    "priority_people_rescued": 0
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "defer nilkantha-market adult 3",
+        "defer belkot-village child 1"
+      ],
+      "claimed_cost": 120,
+      "text": "Deferring everyone is the cheapest plan. Total cost is **120**.\n\n**Nilkantha market (3 adults):** Both roads into Nilkantha market are damaged, so no car can reach it. All three adults must be deferred, at 3 \u00d7 20 = **60**.\n\n**Belkot village (1 child):** The only route from the shelter is Bidur \u2192 Suryagadhi farm (20) \u2192 Likhu care home (51) \u2192 Belkot village (22), which is 93 minutes each way. The child must be brought back to Bidur shelter, the only evacuation point. That makes a 186-minute round trip. Deferring the child costs only **60**, so deferring is cheaper.\n\n<plan>\ndefer nilkantha-market adult 3\ndefer belkot-village child 1\n</plan>\n\nCOST: 120"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "pipeline": "direct",
+  "instance": "large-11",
+  "size": "large",
+  "level": "implicit",
+  "model": "claude-haiku-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 2595,
+    "output_tokens": 16464,
+    "calls": 1,
+    "seconds": 79.1
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 403,
+    "travel_minutes": 243,
+    "deferred_penalty": 160,
+    "rescued": {
+      "injured": 1,
+      "child": 4,
+      "elderly": 2,
+      "adult": 5
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 8
+    },
+    "people_rescued": 12,
+    "priority_people_rescued": 7
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 tarkeshwar-shelter trishuli-temple",
+        "drive car1 trishuli-temple naukunda-school",
+        "load car1 child 4",
+        "drive car1 naukunda-school trishuli-temple",
+        "drive car1 trishuli-temple tarkeshwar-shelter",
+        "unload car1 child 4",
+        "drive car2 dupcheshwar-hospital nilkantha-care-home",
+        "load car2 adult 2",
+        "drive car2 nilkantha-care-home myagang-temple",
+        "drive car2 myagang-temple bidur-village",
+        "load car2 elderly 2",
+        "drive car2 bidur-village tarkeshwar-shelter",
+        "unload car2 adult 2",
+        "unload car2 elderly 2",
+        "drive car2 tarkeshwar-shelter galchhi-village",
+        "load car2 injured 1",
+        "drive car2 galchhi-village syaphru-village",
+        "load car2 adult 3",
+        "drive car2 syaphru-village galchhi-village",
+        "drive car2 galchhi-village tarkeshwar-shelter",
+        "unload car2 injured 1",
+        "unload car2 adult 3",
+        "defer syaphru-village adult 2",
+        "defer panchakanya-farm adult 6"
+      ],
+      "claimed_cost": 403,
+      "text": "<plan>\ndrive car1 tarkeshwar-shelter trishuli-temple\ndrive car1 trishuli-temple naukunda-school\nload car1 child 4\ndrive car1 naukunda-school trishuli-temple\ndrive car1 trishuli-temple tarkeshwar-shelter\nunload car1 child 4\ndrive car2 dupcheshwar-hospital nilkantha-care-home\nload car2 adult 2\ndrive car2 nilkantha-care-home myagang-temple\ndrive car2 myagang-temple bidur-village\nload car2 elderly 2\ndrive car2 bidur-village tarkeshwar-shelter\nunload car2 adult 2\nunload car2 elderly 2\ndrive car2 tarkeshwar-shelter galchhi-village\nload car2 injured 1\ndrive car2 galchhi-village syaphru-village\nload car2 adult 3\ndrive car2 syaphru-village galchhi-village\ndrive car2 galchhi-village tarkeshwar-shelter\nunload car2 injured 1\nunload car2 adult 3\ndefer syaphru-village adult 2\ndefer panchakanya-farm adult 6\n</plan>\n\nCOST: 403\n\nNotes on the plan:\n- **Children (4):** Car1 makes the only trip to Naukunda school, which takes 114 driving minutes. Deferring them would cost 240, so the trip is worth it.\n- **Nilkantha adults and Bidur elderly:** Car2 picks up both groups on one route through Myagang temple, which is passable for driving but is not a drop-off point. This costs 61 minutes, less than the 72 minutes that two separate round trips would cost.\n- **Galchhi injured and three Syaphru adults:** One trip carries the injured man and three adults for 68 minutes.\n- **Deferred:** The remaining two Syaphru adults and the six Panchakanya adults are deferred. Any trip to Panchakanya costs about 84 to 86 minutes, which is more than the 80 minutes in penalties it would avoid, so deferring is cheaper. The 2 deferred Syaphru adults would need another 68-minute round trip to save 40 minutes of penalty, so they are deferred too.\n- **Routes avoided:** The Panchakanya\u2013Trishuli road is closed. The Galchhi\u2013Myagang road has fast floodwater and is not used."
+    }
+  ]
+}

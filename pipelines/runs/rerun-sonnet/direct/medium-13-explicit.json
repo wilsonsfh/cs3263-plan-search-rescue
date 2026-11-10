@@ -1,0 +1,60 @@
+{
+  "pipeline": "direct",
+  "instance": "medium-13",
+  "size": "medium",
+  "level": "explicit",
+  "model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1891,
+    "output_tokens": 1426,
+    "calls": 1,
+    "seconds": 12.6
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 166,
+    "travel_minutes": 86,
+    "deferred_penalty": 80,
+    "rescued": {
+      "injured": 1,
+      "child": 2,
+      "elderly": 0,
+      "adult": 4
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 4
+    },
+    "people_rescued": 7,
+    "priority_people_rescued": 3
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 tarkeshwar-shelter dhunche-village",
+        "load car1 injured 1",
+        "load car1 child 2",
+        "drive car1 dhunche-village tarkeshwar-shelter",
+        "unload car1 injured 1",
+        "unload car1 child 2",
+        "drive car1 tarkeshwar-shelter dhunche-village",
+        "drive car1 dhunche-village gajuri-farm",
+        "load car1 adult 4",
+        "drive car1 gajuri-farm dhunche-village",
+        "drive car1 dhunche-village tarkeshwar-shelter",
+        "unload car1 adult 4",
+        "defer gajuri-farm adult 1",
+        "defer gosaikunda-care-home adult 3"
+      ],
+      "claimed_cost": 166,
+      "text": "This plan rescues the 3 people at Dhunche village and 4 of the 5 adults at Gajuri farm, and defers the other 4 adults.\n\n- **Dhunche village:** a round trip from the shelter costs 22 minutes and saves 200 in penalties (injured 80, two children 60 each), so it is clearly worth doing.\n- **Gajuri farm:** a round trip costs 64 minutes (32 each way via Dhunche). The car holds 4, so it takes 4 adults and saves 80 in penalties. That is a net gain of 16. A second trip for the fifth adult would cost 64 to save 20, so that adult is deferred (20).\n- **Gosaikunda care home:** the round trip is 160 minutes (80 each way) to save 60 in penalties, so the 3 adults there are deferred (60).\n- **Combining pickups:** taking the Dhunche group on the way to Gajuri would leave 4 adults behind at Gajuri, which is worse overall (204 against 166).\n\nTotal cost is 86 minutes of driving plus 80 in penalties for the 4 deferred adults.\n\n<plan>\ndrive car1 tarkeshwar-shelter dhunche-village\nload car1 injured 1\nload car1 child 2\ndrive car1 dhunche-village tarkeshwar-shelter\nunload car1 injured 1\nunload car1 child 2\ndrive car1 tarkeshwar-shelter dhunche-village\ndrive car1 dhunche-village gajuri-farm\nload car1 adult 4\ndrive car1 gajuri-farm dhunche-village\ndrive car1 dhunche-village tarkeshwar-shelter\nunload car1 adult 4\ndefer gajuri-farm adult 1\ndefer gosaikunda-care-home adult 3\n</plan>\n\nCOST: 166"
+    }
+  ]
+}
