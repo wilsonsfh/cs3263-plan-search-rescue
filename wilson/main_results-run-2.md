@@ -10,11 +10,16 @@ comparison matters. One row per run, for both runs: `wilson/main_results-run-2.c
 - **Models:** `claude-opus-5-5`, `claude-sonnet-5-5`, `claude-haiku-5-5`, effort medium, one attempt per report, tools off,
   through a claude.ai subscription with `claude -p` via `pipelines/cli_eval.py`.
 - **Unchanged from run 1:** prompt, reports, instances and checker (`pipelines/checker.py`).
+- **Two run 1 answers replaced (10 Nov):** Opus `large-09` explicit and Haiku `small-09` implicit each had two `<plan>`
+  blocks in run 1, and `extract_plan` scored the first. Both were rerun once with one extra prompt line (`Give exactly
+  one <plan></plan> block ...`), and the reruns replace those two run 1 answers everywhere in this document and in
+  `pipelines/runs/main` and `main-haiku`. Run 2 is unchanged. Details and the original answers:
+  `wilson/main_run_results.md` section 13.
 - **Reference:** `pddl/results/best_reference.csv`. Jia Bao's exact solver (`pddl/exact.py`, PR #4) proved the optimum
   for all 45 instances. This lowered 10 large references and confirmed `medium-14`, so no valid plan can be cheaper than its reference.
 - **Data:** run 2 is in `pipelines/runs/rerun-opus`, `rerun-sonnet` and `rerun-haiku`; run 1 is in `pipelines/runs/main`,
-  `main-sonnet` and `main-haiku`. Run 1 was only re-scored against the new reference, so its plans, `valid` and `cost`
-  are unchanged.
+  `main-sonnet` and `main-haiku`. Run 1 was re-scored against the new reference, and apart from those 2 replaced
+  answers its plans, `valid` and `cost` are unchanged.
 - **Categories:** **better** = valid and cheaper than the reference; **match** = valid and equal to it; **worse** = valid
   and more expensive; **invalid** = rejected by the checker. Every plan in both runs was re-checked with the checker.
 
@@ -32,25 +37,27 @@ The number in brackets is the cost above the reference. Any run not named as wor
 
 | Model | Match, run 1 → run 2 | Worse, run 1 → run 2 | Invalid, run 1 → run 2 | Runs with a different outcome or cost |
 |---|---|---|---|---|
-| Opus | 84 → **88** | 5 → 2 | 1 → 0 | 6/90 |
+| Opus | 85 → **88** | 5 → 2 | 0 → 0 | 5/90 |
 | Sonnet | 70 → **72** | 19 → 18 | 1 → 0 | 17/90 |
-| Haiku | 70 → **70** | 14 → 15 | 6 → 5 | 24/90 |
+| Haiku | 69 → **70** | 14 → 15 | 7 → 5 | 23/90 |
 
 No plan was better than its reference in either run (0 of 540), which is what should happen against a proven optimum.
 Section 4 lists every run whose outcome changed.
 
 ### What the totals hide (summary; full detail and tables in section 5)
 
-1. **Similar totals, many changed runs:** Haiku scored 70 matches both times, but 24 of its 90 runs changed (Sonnet 17, Opus 6).
-2. **Sonnet and Haiku tie only overall:** Sonnet leads on small and medium (111 vs 96 of 120), and Haiku leads on large (44 vs 31 of 60).
+1. **Similar totals, many changed runs:** Haiku scored 69 and 70 matches, but 23 of its 90 runs changed (Sonnet 17, Opus 5).
+2. **Sonnet and Haiku tie only overall:** Sonnet leads on small and medium (111 vs 95 of 120), and Haiku leads on large (44 vs 31 of 60).
 3. **Sonnet's explicit vs implicit result reversed:** its matches went from 39/31 to 33/39, so we can't claim an effect for Sonnet.
-4. **Haiku's invalid plans are mostly one misreading:** 8 of its 11 invalid plans drive a road described as "floodwater is running fast… a truck was swept off it". No model drove a road with any other damage wording.
+4. **Haiku's invalid plans are mostly one misreading:** 9 of its 12 invalid plans drive a road described as "floodwater is running fast… a truck was swept off it". No model drove a road with any other damage wording.
 5. **Some "worse" plans save more people:** Haiku often drives further to avoid deferring someone. Its `small-15` implicit plan scores 67.6% worse while saving 3 more people.
 6. **Near-misses repeat:** 13 worse runs reached the same suboptimal solution in both runs.
 7. **Difficulty is concentrated:** 44 of 90 reports were matched by all 6 runs, and 53 of the 86 misses are on large.
-8. **A second attempt helps the smaller models more:** reports matched at least once were Opus 89, Sonnet 79 and Haiku 81 of 90.
+8. **A second attempt helps the smaller models more:** reports matched at least once were Opus 89, Sonnet 79 and Haiku 80 of 90.
 9. **Opus used 38% more output tokens in run 2:** the cause is unknown.
-10. **The two-`<plan>`-blocks problem did not recur:** it affected 2 runs in run 1 and none in run 2.
+10. **The two-`<plan>`-blocks problem did not recur:** it affected 2 runs in run 1 and none in run 2. Those 2 run 1 answers were
+    rerun with "exactly one `<plan>` block" and replaced in run 1: Opus `large-09` explicit became valid and optimal, and
+    Haiku `small-09` implicit became invalid (`wilson/main_run_results.md` section 13).
 
 ## 3. Every instance, run 2
 
@@ -71,7 +78,7 @@ Run 2: Opus 30/30 match, 0 worse, 0 invalid; Sonnet 29/30 match, 1 worse, 0 inva
 | `small-06` | 106 | match | match | match | match | match | match (run 1: invalid) |
 | `small-07` | 122 | match | match | match | match | match | match |
 | `small-08` | 520 | match | match | match | match | match | match (run 1: +40) |
-| `small-09` | 420 | match | match | match | match | match | **invalid** (run 1: match) |
+| `small-09` | 420 | match | match | match | match | match | **invalid** |
 | `small-10` | 136 | match | match | **+8** | match (run 1: +8) | match | match |
 | `small-11` | 154 | match | match | match | match | match | match |
 | `small-12` | 158 | match | match | match | match | match | match |
@@ -115,7 +122,7 @@ Run 2: Opus 28/30 match, 2 worse, 0 invalid; Sonnet 15/30 match, 15 worse, 0 inv
 | `large-06` | 445 | match | match | **+5** (run 1: match) | match | match | **+3** (run 1: match) |
 | `large-07` | 422 | match | match | **+6** (run 1: match) | match (run 1: +6) | match | **+20** (run 1: +16) |
 | `large-08` | 366 | **+4** (run 1: match) | match | **+8** | **+4** (run 1: +8) | **+4** | **+4** (run 1: match) |
-| `large-09` | 818 | match (run 1: invalid) | match | match | **+4** | **+28** (run 1: match) | match (run 1: invalid) |
+| `large-09` | 818 | match | match | match | **+4** | **+28** (run 1: match) | match (run 1: invalid) |
 | `large-10` | 402 | match | match | **+42** (run 1: match) | match | match | match |
 | `large-11` | 403 | match (run 1: +2) | match | **+2** (run 1: match) | match (run 1: +8) | match | match |
 | `large-12` | 302 | match (run 1: +10) | match | **+10** | **+10** | **+10** (run 1: match) | match (run 1: +6) |
@@ -127,15 +134,14 @@ Run 2: Opus 28/30 match, 2 worse, 0 invalid; Sonnet 15/30 match, 15 worse, 0 inv
 
 | Model | Explicit: match | Explicit: worse | Explicit: invalid | Implicit: match | Implicit: worse | Implicit: invalid |
 |---|---|---|---|---|---|---|
-| Opus | 43 (40) | 2 (4) | 0 (1) | 45 (44) | 0 (1) | 0 (0) |
+| Opus | 43 (41) | 2 (4) | 0 (0) | 45 (44) | 0 (1) | 0 (0) |
 | Sonnet | 33 (39) | 12 (6) | 0 (0) | 39 (31) | 6 (13) | 0 (1) |
-| Haiku | 38 (37) | 7 (8) | 0 (0) | 32 (33) | 8 (6) | 5 (6) |
+| Haiku | 38 (37) | 7 (8) | 0 (0) | 32 (32) | 8 (6) | 5 (7) |
 
 ### 3.5 Invalid plans, with the checker's error
 
 | Model | Run | Instance | Checker error |
 |---|---|---|---|
-| Opus | 1 | `large-09` explicit | step 18: only 0 adult waiting at kakani-market, cannot load 1 |
 | Sonnet | 1 | `large-14` implicit | step 40: cannot defer 3 adult at tarkeshwar-market (1 waiting) |
 | Haiku | 2 | `small-09` implicit | step 1: road kispang-shelter-nilkantha-village is damaged |
 | Haiku | 2 | `medium-03` implicit | step 9: cannot defer 1 injured at kakani-temple (0 waiting) |
@@ -143,6 +149,7 @@ Run 2: Opus 28/30 match, 2 worse, 0 invalid; Sonnet 15/30 match, 15 worse, 0 inv
 | Haiku | 2 | `medium-06` implicit | step 14: road kalika-temple-nilkantha-temple is damaged |
 | Haiku | 2 | `large-04` implicit | step 5: road shivapuri-shelter-bidur-school is damaged |
 | Haiku | 1 | `small-06` implicit | plan ends with people unresolved: 1 adult at gosaikunda-farm |
+| Haiku | 1 | `small-09` implicit | step 1: road kispang-shelter-nilkantha-village is damaged |
 | Haiku | 1 | `medium-03` implicit | step 9: cannot defer 1 injured at kakani-temple (0 waiting) |
 | Haiku | 1 | `medium-05` implicit | step 7: road myagang-care-home-suryagadhi-care-home is damaged |
 | Haiku | 1 | `medium-06` implicit | step 14: road kalika-temple-nilkantha-temple is damaged |
@@ -155,50 +162,52 @@ Every run whose outcome or cost changed, by kind of change. The number is the co
 
 | Model | Worse → match | Match → worse | Invalid → match | Match → invalid | Worse → worse, new cost |
 |---|---|---|---|---|---|
-| Opus | 4: large-02 explicit (was +2), large-11 explicit (was +2), large-12 explicit (was +10), large-15 implicit (was +1) | 1: large-08 explicit (now +4) | 1: large-09 explicit | 0 | 0 |
+| Opus | 4: large-02 explicit (was +2), large-11 explicit (was +2), large-12 explicit (was +10), large-15 implicit (was +1) | 1: large-08 explicit (now +4) | 0 | 0 | 0 |
 | Sonnet | 8: small-01 implicit (was +22), small-10 implicit (was +8), medium-14 implicit (was +5), medium-15 implicit (was +18), large-02 implicit (was +1), large-04 implicit (was +31), large-07 implicit (was +6), large-11 implicit (was +8) | 7: medium-01 explicit (now +16), large-06 explicit (now +5), large-07 explicit (now +6), large-10 explicit (now +42), large-11 explicit (now +2), large-13 implicit (now +5), large-14 explicit (now +12) | 1: large-14 implicit | 0 | 1: large-08 implicit (+8 → +4) |
-| Haiku | 9: small-04 explicit (was +26), small-08 implicit (was +40), medium-08 explicit (was +12), medium-13 explicit (was +22), medium-14 explicit (was +6), medium-15 explicit (was +18), medium-15 implicit (was +18), large-12 implicit (was +6), large-13 explicit (was +26) | 10: medium-02 explicit (now +1), medium-02 implicit (now +1), medium-11 implicit (now +16), large-06 implicit (now +3), large-08 implicit (now +4), large-09 explicit (now +28), large-12 explicit (now +10), large-14 explicit (now +12), large-14 implicit (now +43), large-15 explicit (now +1) | 2: small-06 implicit, large-09 implicit | 1: small-09 implicit | 2: small-15 implicit (+44 → +50), large-07 implicit (+16 → +20) |
+| Haiku | 9: small-04 explicit (was +26), small-08 implicit (was +40), medium-08 explicit (was +12), medium-13 explicit (was +22), medium-14 explicit (was +6), medium-15 explicit (was +18), medium-15 implicit (was +18), large-12 implicit (was +6), large-13 explicit (was +26) | 10: medium-02 explicit (now +1), medium-02 implicit (now +1), medium-11 implicit (now +16), large-06 implicit (now +3), large-08 implicit (now +4), large-09 explicit (now +28), large-12 explicit (now +10), large-14 explicit (now +12), large-14 implicit (now +43), large-15 explicit (now +1) | 2: small-06 implicit, large-09 implicit | 0 | 2: small-15 implicit (+44 → +50), large-07 implicit (+16 → +20) |
 
 ## 5. What the totals hide
 
-**5.1 Similar totals, but many individual runs changed.** Haiku scored 70 matches in both runs, yet 24 of its 90 runs
-changed outcome or cost (Sonnet 17, Opus 6; section 4 lists each one). On `large-12`, Haiku's explicit run went from
+**5.1 Similar totals, but many individual runs changed.** Haiku scored 69 and 70 matches, yet 23 of its 90 runs
+changed outcome or cost (Sonnet 17, Opus 5; section 4 lists each one). On `large-12`, Haiku's explicit run went from
 match to +10 while its implicit run went from +6 to match. For Sonnet and Haiku, one run of a report is a weak
 measurement.
 
-**5.2 Sonnet and Haiku tie overall, but not at any size.** Matches across both runs (out of 180): Opus 172, Sonnet 142,
-Haiku 140. Split by size, the near-tie turns out to be two opposite results, and both runs agree on the direction:
+**5.2 Sonnet and Haiku tie overall, but not at any size.** Matches across both runs (out of 180): Opus 173, Sonnet 142,
+Haiku 139. Split by size, the near-tie turns out to be two opposite results, and both runs agree on the direction:
 
 | Size | Opus, run 1 / run 2 | Sonnet, run 1 / run 2 | Haiku, run 1 / run 2 |
 |---|---|---|---|
-| Small (of 30) | 30 / 30 | 27 / 29 | 26 / 28 |
+| Small (of 30) | 30 / 30 | 27 / 29 | 25 / 28 |
 | Medium (of 30) | 30 / 30 | 27 / 28 | 20 / 22 |
-| Large (of 30) | 24 / 28 | **16 / 15** | **24 / 20** |
+| Large (of 30) | 25 / 28 | **16 / 15** | **24 / 20** |
 
-Haiku is weaker than Sonnet on small and medium (96 vs 111 of 120) but stronger on large (44 vs 31 of 60), where it
+Haiku is weaker than Sonnet on small and medium (95 vs 111 of 120) but stronger on large (44 vs 31 of 60), where it
 also writes about 4× as many output tokens (section 6). Whether the extra tokens cause the better large results is a
 hypothesis; this data doesn't test it. Opus is the best at every size, or tied for best.
 
 **5.3 Sonnet's explicit vs implicit result reversed.** Sonnet's matches (explicit/implicit) were 39/31 in run 1 and
 33/39 in run 2 (section 3.4). Most of the swing is on large: explicit went from 10 to 5, and implicit from 6 to 10. Run
 1 suggested that implicit reports hurt Sonnet, and run 2 doesn't support that, so we shouldn't claim an explicit vs
-implicit effect for Sonnet. Opus (40/44, then 43/45) and Haiku (37/33, then 38/32) didn't reverse, but their
+implicit effect for Sonnet. Opus (41/44, then 43/45) and Haiku (37/32, then 38/32) didn't reverse, but their
 differences are small too.
 
-**5.4 Haiku's invalid plans are mostly one misreading.** All 11 Haiku invalids across both runs are on implicit
-reports, and none are on explicit ones. 8 of the 11 drive onto a road described with one wording, while no model ever
+**5.4 Haiku's invalid plans are mostly one misreading.** All 12 Haiku invalids across both runs are on implicit
+reports, and none are on explicit ones. 9 of the 12 drive onto a road described with one wording, while no model ever
 drove a road described with the other three damage wordings:
 
 | Damage wording in the implicit report | Reports | Opus | Sonnet | Haiku |
 |---|---|---|---|---|
-| "Floodwater is running fast ... a truck was swept off it" | 24 | 0/48 runs drove it | 0/48 runs drove it | 8/48 runs drove it: small-09 (run 2), medium-05 (run 1), medium-05 (run 2), medium-06 (run 1), medium-06 (run 2), large-04 (run 1), large-04 (run 2), large-09 (run 1) |
+| "Floodwater is running fast ... a truck was swept off it" | 24 | 0/48 runs drove it | 0/48 runs drove it | 9/48 runs drove it: small-09 (run 1), small-09 (run 2), medium-05 (run 1), medium-05 (run 2), medium-06 (run 1), medium-06 (run 2), large-04 (run 1), large-04 (run 2), large-09 (run 1) |
 | "A landslide has buried the road" | 20 | 0/40 runs drove it | 0/40 runs drove it | 0/40 runs drove it |
 | "Police have closed the ... road" | 20 | 0/40 runs drove it | 0/40 runs drove it | 0/40 runs drove it |
 | "The bridge ... was washed away" | 19 | 0/38 runs drove it | 0/38 runs drove it | 0/38 runs drove it |
 
 The floodwater sentence is the only one of the four that describes a hazard without saying the road is gone or
 closed. The explicit reports mark the same roads "IMPASSABLE (damaged)". The misreading repeats on `large-04`,
-`medium-05` and `medium-06`, but `large-09` failed only in run 1 and `small-09` only in run 2.
+`medium-05`, `medium-06` and `small-09`, but `large-09` failed only in run 1. Haiku's `small-09` run 1 is the one-block
+rerun; its original two-block answer was valid, because the first block deferred all 7 children and the road
+contingency was a second block.
 
 The other 3 Haiku invalids:
 - **`medium-03` implicit fails in both runs,** with the same error and the same first 11 plan steps. The report says
@@ -273,30 +282,34 @@ optimum:
 | 5 | 2: large-08 explicit, large-15 explicit |
 | 4 | 1: large-12 explicit |
 | 3 | 8: large-02 explicit, large-04 implicit, large-07 implicit, large-08 implicit, large-09 implicit, large-12 implicit, large-13 explicit, large-15 implicit |
-| 2 | 13: small-10 explicit, small-15 implicit, medium-01 implicit, medium-03 explicit, medium-03 implicit, medium-05 implicit, medium-06 implicit, medium-07 implicit, medium-15 implicit, large-09 explicit, large-11 explicit, large-14 explicit, large-14 implicit |
-| 1 | 22: small-01 implicit, small-04 explicit, small-06 implicit, small-08 implicit, small-09 implicit, small-10 implicit, medium-01 explicit, medium-02 explicit, medium-02 implicit, medium-08 explicit, medium-11 implicit, medium-13 explicit, medium-14 explicit, medium-14 implicit, medium-15 explicit, large-02 implicit, large-06 explicit, large-06 implicit, large-07 explicit, large-10 explicit, large-11 implicit, large-13 implicit |
+| 2 | 13: small-09 implicit, small-10 explicit, small-15 implicit, medium-01 implicit, medium-03 explicit, medium-03 implicit, medium-05 implicit, medium-06 implicit, medium-07 implicit, medium-15 implicit, large-11 explicit, large-14 explicit, large-14 implicit |
+| 1 | 22: small-01 implicit, small-04 explicit, small-06 implicit, small-08 implicit, small-10 implicit, medium-01 explicit, medium-02 explicit, medium-02 implicit, medium-08 explicit, medium-11 implicit, medium-13 explicit, medium-14 explicit, medium-14 implicit, medium-15 explicit, large-02 implicit, large-06 explicit, large-06 implicit, large-07 explicit, large-09 explicit, large-10 explicit, large-11 implicit, large-13 implicit |
 | 0 | 44 (every run matched) |
 
-Of the 86 runs that missed, 53 are on large, 23 on medium and 10 on small. Every report was matched by at least one run.
+Of the 86 runs that missed, 52 are on large, 23 on medium and 11 on small. Every report was matched by at least one run.
 
 **5.8 A second attempt helps the smaller models more.** The pipeline makes one attempt per report, so this isn't what
 it does. It only shows how much of each model's shortfall is run-to-run variation:
 
 | Model | Matched in both runs | Matched in at least one run | Never matched |
 |---|---|---|---|
-| Opus | 83/90 | 89/90 | 1: large-15 explicit |
+| Opus | 84/90 | 89/90 | 1: large-15 explicit |
 | Sonnet | 63/90 | 79/90 | 11: small-10 explicit, medium-01 implicit, large-02 explicit, large-08 explicit, large-08 implicit, large-09 implicit, large-12 explicit, large-12 implicit, large-13 explicit, large-15 explicit, large-15 implicit |
-| Haiku | 59/90 | 81/90 | 9: small-15 implicit, medium-03 explicit, medium-03 implicit, medium-05 implicit, medium-06 implicit, medium-07 implicit, large-04 implicit, large-07 implicit, large-08 explicit |
+| Haiku | 59/90 | 80/90 | 10: small-09 implicit, small-15 implicit, medium-03 explicit, medium-03 implicit, medium-05 implicit, medium-06 implicit, medium-07 implicit, large-04 implicit, large-07 implicit, large-08 explicit |
 
-**5.9 Opus used 38% more tokens in run 2, and the cause is unknown.** Its mean output went from 2,093 to 2,880 tokens
+**5.9 Opus used 38% more tokens in run 2, and the cause is unknown.** Its mean output went from 2,087 to 2,880 tokens
 per run, and 82 of its 90 runs used more than in run 1. For Sonnet and Haiku, 40/90 and 50/90 runs used more, which
-is about what chance would give. Input tokens per run are unchanged (2,085), so the prompt is the same size. Opus also
-went from 84 to 88 matches, but nothing here shows that one caused the other. The run files don't record the Claude
+is about what chance would give. Input tokens per run are unchanged (2,085) apart from one record: the run 1 rerun of Opus `large-09` explicit shows
+54,653 input tokens (2,364 before), which the adapter's cache counting may explain. Without it run 1 also averages
+2,085, so the prompt is the same size. Opus also
+went from 85 to 88 matches, but nothing here shows that one caused the other. The run files don't record the Claude
 Code version, so a change there can't be ruled out.
 
 **5.10 The two-`<plan>`-blocks problem did not recur.** `extract_plan` scores the first `<plan>` block. In run 1,
 two answers had two blocks (Opus `large-09` explicit and Haiku `small-09` implicit; see `wilson/main_run_results.md`
-section 8). In run 2, none did.
+section 8). In run 2, none did. Both run 1 cases were later rerun with "exactly one `<plan>` block" added to the prompt
+(`wilson/main_run_results.md` section 13): Opus `large-09` explicit gave one valid plan at 818, and Haiku `small-09`
+implicit gave one plan that drives the damaged road, so it is invalid.
 
 ## 6. Output tokens and seconds per run
 
@@ -305,10 +318,10 @@ speed comparison.
 
 | Size | Opus | Sonnet | Haiku |
 |---|---|---|---|
-| small | 1,204 tokens, 13.1 s (run 1: 963, 11.6 s) | 908 tokens, 8.9 s (run 1: 962, 10.8 s) | 3,086 tokens, 16.2 s (run 1: 2,991, 14.8 s) |
+| small | 1,204 tokens, 13.1 s (run 1: 963, 11.6 s) | 908 tokens, 8.9 s (run 1: 962, 10.8 s) | 3,086 tokens, 16.2 s (run 1: 2,993, 14.8 s) |
 | medium | 2,342 tokens, 24.0 s (run 1: 1,761, 19.1 s) | 1,860 tokens, 15.0 s (run 1: 1,858, 17.6 s) | 7,836 tokens, 38.0 s (run 1: 7,970, 37.1 s) |
-| large | 5,095 tokens, 50.7 s (run 1: 3,555, 36.8 s) | 3,889 tokens, 29.6 s (run 1: 3,966, 32.6 s) | 15,750 tokens, 71.1 s (run 1: 15,828, 70.6 s) |
-| all | 2,880 tokens, 29.3 s (run 1: 2,093, 22.5 s) | 2,219 tokens, 17.9 s (run 1: 2,262, 20.3 s) | 8,891 tokens, 41.8 s (run 1: 8,930, 40.8 s) |
+| large | 5,095 tokens, 50.7 s (run 1: 3,538, 36.8 s) | 3,889 tokens, 29.6 s (run 1: 3,966, 32.6 s) | 15,750 tokens, 71.1 s (run 1: 15,828, 70.6 s) |
+| all | 2,880 tokens, 29.3 s (run 1: 2,087, 22.5 s) | 2,219 tokens, 17.9 s (run 1: 2,262, 20.3 s) | 8,891 tokens, 41.8 s (run 1: 8,930, 40.8 s) |
 
 ## 7. Claims from run 1 that this replaces
 
@@ -318,8 +331,8 @@ speed comparison.
 - **"Haiku found the best plans of all three on `large-15`" needs care.** Across both runs, the optimum 476 was reached
   3 of 4 times by Haiku, 1 of 4 by Opus (run 2 implicit) and 0 of 4 by Sonnet. That leans towards Haiku, but it isn't
   Haiku alone.
-- **"The models differ in reliability, not in how good their plans can be" is too strong.** Opus matches 172 of 180
-  runs against Sonnet's 142 and Haiku's 140, so the match rate differs as well as validity.
+- **"The models differ in reliability, not in how good their plans can be" is too strong.** Opus matches 173 of 180
+  runs against Sonnet's 142 and Haiku's 139, so the match rate differs as well as validity.
 - **"Sonnet's drop to 26/34 optimal on implicit"** (`wilson/main_run_results.md` 11.7) did not hold in run 2 (section 5.3).
 - **Mean gaps in `wilson/main_run_results.md` sections 2–4 and 11** used the old reference. Current values are in each
   run's `results.csv`.
@@ -332,5 +345,7 @@ speed comparison.
   count like any other run. Sonnet and Haiku ran on 7 Nov with no errors.
 - **Cost figures:** dollar amounts in the run logs are estimates from token counts, not charges, because the runs were on
   a subscription.
+- **Run 1 mixes two prompts:** 2 of its 270 answers (Opus `large-09` explicit, Haiku `small-09` implicit) come from
+  reruns with one extra prompt line, each a single new sample. The other 268 use the original prompt.
 - **Stray space:** `pipelines/reports/large-01-explicit.txt` has a stray leading space in the local copy only. It isn't
   committed, and both runs read the same file.

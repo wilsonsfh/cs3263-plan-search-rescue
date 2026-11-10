@@ -10,6 +10,12 @@ Sections 1–10 cover the main run (Opus 5.5). The same 90 calls were then repea
 > models were run a second time. No run beats the reference, so every "beat best-known" statement in sections 2–11 is
 > out of date. Those sections are kept as the record of what was measured against the old reference.
 
+> **Update 10 Nov: two run 1 answers were replaced.** Opus `large-09` explicit and Haiku `small-09` implicit, the only
+> two answers with two `<plan>` blocks, were rerun with "exactly one `<plan>` block" added to the prompt, and the
+> reruns now sit in `pipelines/runs/main` and `main-haiku`. Sections 1–12 below describe the original answers (e.g.
+> `large-09` explicit invalid, `small-09` implicit valid at 420). Current run 1 counts are in `main_results-run-2.md`;
+> see section 13.
+
 ## 1. What was run
 
 - **Pipeline:** `direct` from Jia Bao's `pipelines/`. The LLM reads a field report and writes the rescue plan itself
@@ -220,6 +226,8 @@ plan blocks. There the **first** is the real answer (valid, 420). The second is 
 Kispang–Nilkantha road is confirmed passable", which uses a damaged road. Grading the last block would turn that
 valid answer invalid. Across all 270 answers, only these two had more than one plan block. So the choice is really
 about the prompt: asking for "exactly one `<plan>` block" would remove the ambiguity for any rerun.
+
+**Update:** both cases were rerun with that line added, and the reruns replaced these two run 1 answers. See section 13.
 
 Either way it's a good point for the report: the model **self-corrected in its own reasoning**, but a single-shot
 pipeline has no way to use that unless the answer format is parsed carefully. It also shows the real LLM weakness:
@@ -479,3 +487,36 @@ best-known instances.)
 
 All 3 models were run a second time against the proven-optimal reference. The results and what the totals hide
 are in **`wilson/main_results-run-2.md`**.
+
+## 13. Run 1 change: the two two-block answers were rerun with "exactly one `<plan>` block"
+
+**This changes run 1.** Opus `large-09` explicit and Haiku `small-09` implicit were the only 2 of the 270 run 1
+answers with two `<plan>` blocks. Each was rerun once, with one extra prompt line (`Give exactly one <plan></plan>
+block in your answer. Do not write a second plan block, even as a correction or a contingency.`), and the new answer
+**replaced** the original in `pipelines/runs/main/direct/large-09-explicit.json`, `pipelines/runs/main-haiku/direct/small-09-implicit.json`
+and both `results.csv` files. The original answers are in git history (before the commit that adds this section).
+Run 2 is not changed. The line is added in memory by `wilson/rerun_one_block.py`, which then runs `pipelines/cli_eval.py`
+unchanged; nothing in `pipelines/` was edited. Same models, effort medium, tools off, claude.ai subscription.
+
+| Case | Original run 1 (2 blocks, first scored) | Run 1 now (1 block) | Reference |
+|---|---|---|---|
+| Opus `large-09` explicit | **invalid** (step 18: only 0 adult waiting at kakani-market) | **valid, cost 818, match** | 818 |
+| Haiku `small-09` implicit | valid, cost 420, match | **invalid** (step 1: road kispang-shelter-nilkantha-village is damaged) | 420 |
+
+- **Opus:** with one plan allowed, it gave a single valid plan at the optimum.
+- **Haiku:** forced to choose, it put the contingency plan (driving the damaged Kispang–Nilkantha road, cost 114) in the
+  single block and said the team should confirm the road. The checker rejects it at step 1. In the original answer
+  the first block was the safe plan (defer all 7 children, cost 420) and the contingency was a second block. This is
+  the same misreading as Haiku's other floodwater failures (`wilson/main_results-run-2.md` section 5.4). One block did
+  not fix it.
+- **Run 1 counts, before → now:** Opus 84 → **85** matches and 1 → **0** invalid; Haiku 70 → **69** matches and 6 → **7**
+  invalid. Sonnet is unchanged. Run 2 and the report's comparator are not affected, since run 2 had no two-block answers.
+  `main_results-run-2.md` and `main_results-run-2.csv` use the new run 1 values throughout.
+- **Sections 1–12 above are not rewritten.** They describe the original answers against the old reference (see the
+  banner at the top).
+- **Not a like-for-like sample:** the prompt differs by one line for these 2 answers, and each is a single new sample.
+  Run 1 is therefore 268 answers with the original prompt and 2 with the extra line. The reruns also show the first
+  block was the better one for Haiku and not for Opus, so "the first block is the better plan" isn't a rule.
+- **Tokens recorded:** Opus 54,653 input / 2,576 output (29.7 s); Haiku 1,879 input / 3,132 output (15.2 s). Opus's
+  input is far above its usual ~2,400. The adapter counts cache tokens as input, which may explain it, but that
+  isn't confirmed. It raises run 1's mean Opus input from 2,085 to 2,666; the other averages barely move.

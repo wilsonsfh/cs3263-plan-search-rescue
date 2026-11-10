@@ -15,7 +15,7 @@ direct,large-07,large,explicit,claude-opus-5-5,medium,True,422,422,True,0.0,20,1
 direct,large-07,large,implicit,claude-opus-5-5,medium,True,422,422,True,0.0,20,1,2652,3669,,422
 direct,large-08,large,explicit,claude-opus-5-5,medium,True,366,366,True,0.0,15,1,2229,3579,,366
 direct,large-08,large,implicit,claude-opus-5-5,medium,True,366,366,True,0.0,15,1,2537,3289,,366
-direct,large-09,large,explicit,claude-opus-5-5,medium,False,,818,True,,9,1,2364,3097,"step 18: only 0 adult waiting at kakani-market, cannot load 1",818
+direct,large-09,large,explicit,claude-opus-5-5,medium,True,818,818,True,0.0,17,1,54653,2576,,818
 direct,large-09,large,implicit,claude-opus-5-5,medium,True,818,818,True,0.0,17,1,2729,2881,,818
 direct,large-10,large,explicit,claude-opus-5-5,medium,True,402,402,True,0.0,20,1,2164,3265,,402
 direct,large-10,large,implicit,claude-opus-5-5,medium,True,402,402,True,0.0,20,1,2449,3481,,402
