@@ -1,0 +1,48 @@
+{
+  "pipeline": "direct",
+  "instance": "small-09",
+  "size": "small",
+  "level": "implicit",
+  "model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1819,
+    "output_tokens": 477,
+    "calls": 1,
+    "seconds": 6.3
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 420,
+    "travel_minutes": 0,
+    "deferred_penalty": 420,
+    "rescued": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 0
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 7,
+      "elderly": 0,
+      "adult": 0
+    },
+    "people_rescued": 0,
+    "priority_people_rescued": 0
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "defer kalika-market child 3",
+        "defer galchhi-school child 4"
+      ],
+      "claimed_cost": 420,
+      "text": "The only designated evacuation point is Kispang shelter, where car1 is. Galchhi school is not an evacuation point, so dropping people there doesn't count.\n\nThe only road out of Kispang goes to Nilkantha village. Floodwater is running fast over it and a truck was swept off it this morning, so I treated it as blocked and did not route the car onto it. With no usable road, car1 can't reach anyone, and all seven children are deferred at 60 each.\n\n<plan>\ndefer kalika-market child 3\ndefer galchhi-school child 4\n</plan>\n\nCOST: 420"
+    }
+  ]
+}

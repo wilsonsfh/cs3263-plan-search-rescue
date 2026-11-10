@@ -1,0 +1,59 @@
+{
+  "pipeline": "direct",
+  "instance": "small-12",
+  "size": "small",
+  "level": "implicit",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1897,
+    "output_tokens": 1730,
+    "calls": 1,
+    "seconds": 18.1
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 158,
+    "travel_minutes": 118,
+    "deferred_penalty": 40,
+    "rescued": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 8
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 2
+    },
+    "people_rescued": 8,
+    "priority_people_rescued": 0
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 trishuli-shelter gosaikunda-temple",
+        "drive car1 gosaikunda-temple naukunda-farm",
+        "load car1 adult 4",
+        "drive car1 naukunda-farm gosaikunda-temple",
+        "drive car1 gosaikunda-temple trishuli-shelter",
+        "unload car1 adult 4",
+        "drive car1 trishuli-shelter gosaikunda-temple",
+        "drive car1 gosaikunda-temple dupcheshwar-temple",
+        "load car1 adult 4",
+        "drive car1 dupcheshwar-temple gosaikunda-temple",
+        "drive car1 gosaikunda-temple trishuli-shelter",
+        "unload car1 adult 4",
+        "defer bidur-village adult 2"
+      ],
+      "claimed_cost": 158,
+      "text": "**Plan summary:** Trishuli shelter is the only evacuation point. Dupcheshwar temple is on higher ground but isn't designated, so nobody can be dropped off there.\n\nThe closed Trishuli\u2013Naukunda road means every trip has to go through Gosaikunda temple.\n\n| Group | Round trip from Trishuli | Deferral penalty | Decision |\n|---|---|---|---|\n| Naukunda farm (4 adults) | 46 min | 80 | Rescue |\n| Dupcheshwar temple (4 adults) | 72 min | 80 | Rescue |\n| Bidur village (2 adults) | 116 min, or 44 min extra if added to the Dupcheshwar trip | 40 | Defer |\n\n**Why deferring Bidur is cheapest:** Adding Bidur to the Dupcheshwar trip costs 44 extra minutes to save a 40 penalty, and the car only has room for four. Those two passengers would displace two Dupcheshwar labourers, which adds another 40 in penalties.\n\n| Option | Calculation | Total cost |\n|---|---|---|\n| **Rescue Naukunda and Dupcheshwar, defer Bidur** | **46 + 72 + 40** | **158** |\n| Rescue Naukunda only, defer the rest | 46 + 120 | 166 |\n| Rescue Naukunda, Bidur and 2 from Dupcheshwar, defer the other 2 | 46 + 116 + 40 | 202 |\n| Rescue everyone | 46 + 72 + 116 | 234 |\n\n**Assumption:** The report doesn't give the shopkeepers' ages or say whether they are injured, so I counted them as adults. If either is injured, a child or elderly, the higher penalty could change the decision, so this should be confirmed.\n\n<plan>\ndrive car1 trishuli-shelter gosaikunda-temple\ndrive car1 gosaikunda-temple naukunda-farm\nload car1 adult 4\ndrive car1 naukunda-farm gosaikunda-temple\ndrive car1 gosaikunda-temple trishuli-shelter\nunload car1 adult 4\ndrive car1 trishuli-shelter gosaikunda-temple\ndrive car1 gosaikunda-temple dupcheshwar-temple\nload car1 adult 4\ndrive car1 dupcheshwar-temple gosaikunda-temple\ndrive car1 gosaikunda-temple trishuli-shelter\nunload car1 adult 4\ndefer bidur-village adult 2\n</plan>\n\nCOST: 158"
+    }
+  ]
+}

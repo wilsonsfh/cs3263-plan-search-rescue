@@ -1,0 +1,81 @@
+{
+  "pipeline": "direct",
+  "instance": "large-01",
+  "size": "large",
+  "level": "implicit",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 2839,
+    "output_tokens": 6146,
+    "calls": 1,
+    "seconds": 60.2
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 240,
+    "travel_minutes": 180,
+    "deferred_penalty": 60,
+    "rescued": {
+      "injured": 0,
+      "child": 11,
+      "elderly": 2,
+      "adult": 9
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 3
+    },
+    "people_rescued": 22,
+    "priority_people_rescued": 13
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "defer bidur-farm adult 2",
+        "defer trishuli-farm adult 1",
+        "drive car1 myagang-shelter dhunche-school",
+        "drive car1 dhunche-school galchhi-school",
+        "load car1 adult 3",
+        "drive car1 galchhi-school dhunche-school",
+        "load car1 adult 1",
+        "drive car1 dhunche-school myagang-shelter",
+        "unload car1 adult 4",
+        "drive car1 myagang-shelter dhunche-school",
+        "load car1 adult 2",
+        "drive car1 dhunche-school myagang-shelter",
+        "unload car1 adult 2",
+        "drive car1 myagang-shelter suryagadhi-temple",
+        "load car1 elderly 2",
+        "drive car1 suryagadhi-temple myagang-shelter",
+        "unload car1 elderly 2",
+        "drive car1 myagang-shelter suryagadhi-temple",
+        "drive car1 suryagadhi-temple kalika-village",
+        "load car1 child 4",
+        "drive car1 kalika-village suryagadhi-temple",
+        "drive car1 suryagadhi-temple myagang-shelter",
+        "unload car1 child 4",
+        "drive car2 uttargaya-hospital shivapuri-farm",
+        "load car2 adult 3",
+        "drive car2 shivapuri-farm uttargaya-hospital",
+        "unload car2 adult 3",
+        "drive car2 uttargaya-hospital gosaikunda-school",
+        "load car2 child 4",
+        "drive car2 gosaikunda-school uttargaya-hospital",
+        "unload car2 child 4",
+        "drive car2 uttargaya-hospital gosaikunda-school",
+        "load car2 child 3",
+        "drive car2 gosaikunda-school uttargaya-hospital",
+        "unload car2 child 3"
+      ],
+      "claimed_cost": 240,
+      "text": "**Blocked or unsafe roads (not used):**\n- Likhu temple to Jwalamukhi market\n- Uttargaya hospital to Likhu temple\n- Galchhi school to Suryagadhi temple\n- Tarkeshwar care home to Suryagadhi temple\n- Shivapuri farm to Suryagadhi temple\n\n**Drop-off points:** Only Myagang shelter and Uttargaya hospital are evacuation points. Tadi temple is not designated, so nobody can be dropped there.\n\n**Unreachable people:** Bidur farm and Trishuli farm connect only to each other through Tarkeshwar care home, and the road out of that area is buried. No car can reach them, so these 3 adults must be deferred at a penalty of 60.\n\n**Rescue trips:**\n\n| Car | Route | People rescued | Minutes |\n|---|---|---|---|\n| car1 | Myagang \u2192 Dhunche \u2192 Galchhi \u2192 Dhunche \u2192 Myagang | 3 Galchhi adults, 1 Dhunche adult | 32 |\n| car1 | Myagang \u2192 Dhunche \u2192 Myagang | 2 Dhunche adults | 10 |\n| car1 | Myagang \u2192 Suryagadhi \u2192 Myagang | 2 elderly | 16 |\n| car1 | Myagang \u2192 Suryagadhi \u2192 Kalika \u2192 Suryagadhi \u2192 Myagang | 4 children | 56 |\n| car2 | Uttargaya \u2192 Shivapuri \u2192 Uttargaya | 3 adults | 22 |\n| car2 | Uttargaya \u2192 Gosaikunda \u2192 Uttargaya | 4 children | 22 |\n| car2 | Uttargaya \u2192 Gosaikunda \u2192 Uttargaya | 3 children | 22 |\n\n**Cost:** Driving is 114 minutes for car1 and 66 for car2, or 180 in total. Adding the 60 penalty gives a total cost of 240.\n\n**Why this looks like the lowest cost:** I compared the alternatives by hand rather than with an exhaustive solver.\n- **Deferring reachable people:** This never pays, because each trip costs less than the penalties it avoids. For example, the Shivapuri trip costs 22 minutes against a penalty of 60.\n- **Combining stops:** Carrying the elderly couple with children from Gosaikunda needs a route over the Gosaikunda to Suryagadhi road. Nine people then need a third trip, so this costs more. Combining the couple with the Dhunche adults costs the same as separate trips.\n\n<plan>\ndefer bidur-farm adult 2\ndefer trishuli-farm adult 1\ndrive car1 myagang-shelter dhunche-school\ndrive car1 dhunche-school galchhi-school\nload car1 adult 3\ndrive car1 galchhi-school dhunche-school\nload car1 adult 1\ndrive car1 dhunche-school myagang-shelter\nunload car1 adult 4\ndrive car1 myagang-shelter dhunche-school\nload car1 adult 2\ndrive car1 dhunche-school myagang-shelter\nunload car1 adult 2\ndrive car1 myagang-shelter suryagadhi-temple\nload car1 elderly 2\ndrive car1 suryagadhi-temple myagang-shelter\nunload car1 elderly 2\ndrive car1 myagang-shelter suryagadhi-temple\ndrive car1 suryagadhi-temple kalika-village\nload car1 child 4\ndrive car1 kalika-village suryagadhi-temple\ndrive car1 suryagadhi-temple myagang-shelter\nunload car1 child 4\ndrive car2 uttargaya-hospital shivapuri-farm\nload car2 adult 3\ndrive car2 shivapuri-farm uttargaya-hospital\nunload car2 adult 3\ndrive car2 uttargaya-hospital gosaikunda-school\nload car2 child 4\ndrive car2 gosaikunda-school uttargaya-hospital\nunload car2 child 4\ndrive car2 uttargaya-hospital gosaikunda-school\nload car2 child 3\ndrive car2 gosaikunda-school uttargaya-hospital\nunload car2 child 3\n</plan>\n\nCOST: 240"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "pipeline": "direct",
+  "instance": "medium-07",
+  "size": "medium",
+  "level": "implicit",
+  "model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 2123,
+    "output_tokens": 2305,
+    "calls": 1,
+    "seconds": 18.2
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 411,
+    "travel_minutes": 271,
+    "deferred_penalty": 140,
+    "rescued": {
+      "injured": 4,
+      "child": 8,
+      "elderly": 0,
+      "adult": 0
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 7
+    },
+    "people_rescued": 12,
+    "priority_people_rescued": 12
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 kakani-shelter jwalamukhi-school",
+        "drive car1 jwalamukhi-school benighat-school",
+        "load car1 injured 4",
+        "drive car1 benighat-school jwalamukhi-school",
+        "drive car1 jwalamukhi-school kakani-shelter",
+        "unload car1 injured 4",
+        "drive car1 kakani-shelter jwalamukhi-school",
+        "drive car1 jwalamukhi-school benighat-school",
+        "load car1 child 4",
+        "drive car1 benighat-school jwalamukhi-school",
+        "drive car1 jwalamukhi-school kakani-shelter",
+        "unload car1 child 4",
+        "drive car1 kakani-shelter dupcheshwar-farm",
+        "load car1 child 1",
+        "drive car1 dupcheshwar-farm panchakanya-school",
+        "load car1 child 3",
+        "drive car1 panchakanya-school myagang-hospital",
+        "unload car1 child 4",
+        "defer jwalamukhi-school adult 4",
+        "defer gajuri-market adult 3"
+      ],
+      "claimed_cost": 411,
+      "text": "This plan rescues the injured, the children at Benighat, the child at Dupcheshwar and the children at Panchakanya. It defers the Jwalamukhi and Gajuri adults.\n\nI treated the two flooded roads (Myagang\u2013Gajuri and Kakani\u2013Gajuri) as unusable. Panchakanya is not a designated evacuation point, so nobody can be dropped there.\n\n- **Benighat, injured (94 min):** saves 320 in penalties.\n- **Benighat, children (94 min):** saves 240.\n- **Dupcheshwar and Panchakanya (83 min):** pick up 1 child at Dupcheshwar and 3 at Panchakanya, then drop all four at Myagang hospital. This saves 240.\n- **Jwalamukhi adults:** a round trip from Kakani costs 80 minutes and saves 80 in penalty, so there is no gain. I defer them (80).\n- **Gajuri adults:** the car would already be full of children at Panchakanya, so I defer them (60).\n\nTotal cost is 94 + 94 + 83 driving + 80 + 60 deferred = 411.\n\n<plan>\ndrive car1 kakani-shelter jwalamukhi-school\ndrive car1 jwalamukhi-school benighat-school\nload car1 injured 4\ndrive car1 benighat-school jwalamukhi-school\ndrive car1 jwalamukhi-school kakani-shelter\nunload car1 injured 4\ndrive car1 kakani-shelter jwalamukhi-school\ndrive car1 jwalamukhi-school benighat-school\nload car1 child 4\ndrive car1 benighat-school jwalamukhi-school\ndrive car1 jwalamukhi-school kakani-shelter\nunload car1 child 4\ndrive car1 kakani-shelter dupcheshwar-farm\nload car1 child 1\ndrive car1 dupcheshwar-farm panchakanya-school\nload car1 child 3\ndrive car1 panchakanya-school myagang-hospital\nunload car1 child 4\ndefer jwalamukhi-school adult 4\ndefer gajuri-market adult 3\n</plan>\n\nCOST: 411"
+    }
+  ]
+}

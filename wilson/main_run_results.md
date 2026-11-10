@@ -6,6 +6,10 @@ input, output and usage: `pipelines/runs/main/direct/<id>-<level>.json`; console
 Sections 1–10 cover the main run (Opus 5.5). The same 90 calls were then repeated with **Sonnet 5.5** and
 **Haiku 5.5** (runs `main-sonnet` and `main-haiku`, 4 Nov). The comparison of the three models is in **section 11**.
 
+> **Update 7 Nov: read `wilson/main_results-run-2.md` first.** All 45 references are now proven optimal, and all 3
+> models were run a second time. No run beats the reference, so every "beat best-known" statement in sections 2–11 is
+> out of date. Those sections are kept as the record of what was measured against the old reference.
+
 ## 1. What was run
 
 - **Pipeline:** `direct` from Jia Bao's `pipelines/`. The LLM reads a field report and writes the rescue plan itself
@@ -92,6 +96,10 @@ runs. Optimality is proven there, so this is a solid result: on this task, direc
 search wherever optimal search finishes.
 
 ### 5.2 Where the planner timed out, the LLM did better than it
+
+> **Out of date (7 Nov):** the true optimum is now known. The LLM beat Fast Downward's 300 s plan but never the optimum.
+> See `wilson/main_results-run-2.md` section 7.
+
 On the 10 large instances without a proven optimum, the LLM found plans **0.2% to 31% cheaper** than the best plan
 Fast Downward found in 300 s. The checker accepted every one of them, and the cost the LLM claimed matched the
 checker's cost each time. So these aren't miscalculations; the plans really are legal and cheaper under the
@@ -251,6 +259,8 @@ Nothing is committed yet. Local `main` is 7 commits ahead of GitHub: Jia Bao's `
 
 ## 10. What to tell the team (Wed 4 Nov check-in)
 
+> **Out of date (7 Nov):** this message used the old reference. Use `wilson/main_results-run-2.md` instead.
+
 Short version you can say or paste:
 
 > **Direct (LLM-only) pipeline: all runs done.** 45 instances × explicit/implicit = 90 calls per model, done for
@@ -338,11 +348,13 @@ Short version you can say or paste:
 
 ### 11.2 Overall
 
-| Model | Valid | Optimal on proven-optimal (68 runs) | Beat best-known (22 runs) | Mean gap (valid plans) | Output tokens per call | Seconds per call | Total output tokens | Total time |
-|---|---|---|---|---|---|---|---|---|
-| Opus 5.5 | **89/90** | **67** | 20 | −3.1% | ~2,090 | ~23 | 188k | 34 min |
-| Sonnet 5.5 | **89/90** | 59 | 20 | −2.4% | ~2,260 | ~20 | 204k | 31 min |
-| Haiku 5.5 | 84/90 | 52 | 20 | −1.5% | ~8,930 | ~41 | 804k | 61 min |
+> **Out of date (7 Nov):** the best-known columns used the old reference. Current counts are in `wilson/main_results-run-2.md` section 2.
+
+| Model | Valid | Optimal on proven-optimal (68 runs) | Beat best-known (22 runs) | Match best-known (22 runs) | Worse than best-known (22 runs) | Mean gap (valid plans) | Output tokens per call | Seconds per call | Total output tokens | Total time |
+|---|---|---|---|---|---|---|---|---|---|---|
+| Opus 5.5 | **89/90** | **67** | 20 | 2 | 0 | −3.1% | ~2,090 | ~23 | 188k | 34 min |
+| Sonnet 5.5 | **89/90** | 59 | 20 | 1 | 1 | −2.4% | ~2,260 | ~20 | 204k | 31 min |
+| Haiku 5.5 | 84/90 | 52 | 20 | 1 | 1 | −1.5% | ~8,930 | ~41 | 804k | 61 min |
 
 ### 11.3 By size and report type
 
@@ -432,6 +444,8 @@ best-known instances.)
 
 ### 11.7 What the comparison means
 
+> **Out of date (7 Nov):** points 3 and 6 did not hold up in run 2. See `wilson/main_results-run-2.md` sections 5 and 7.
+
 1. **Bigger model, more reliable plans.** Valid plans: 89 → 89 → 84. Optimal on proven-optimal runs: 67 → 59 → 52.
    Sonnet is as reliable as Opus but more often settles for a slightly worse plan (about 6% more expensive when it
    does). Haiku both fails more and wastes more when it's suboptimal (11–17%).
@@ -442,7 +456,8 @@ best-known instances.)
    still gives a drive time, and Haiku treated the road as usable all four times. So reading damage out of a narrative is a real skill the task tests, and it scales with model size.
    That's a strong point for the explicit vs implicit part of the report.
 3. **Where Fast Downward timed out, all three models beat it.** Every model beat the best-known plan on 20 of 22
-   runs. On those 22 runs, the lowest cost of the three came from Opus 17 times, Haiku 18 and Sonnet 11 (ties
+   runs. The other 2 are all on `medium-14`: Opus matched it twice, Sonnet and Haiku matched once and were worse once
+   (+1.2% and +1.5%). No model was invalid on a best-known instance. On those 22 runs, the lowest cost of the three came from Opus 17 times, Haiku 18 and Sonnet 11 (ties
    count for each). **Haiku found the best plans of all three on `large-15` (476 vs 477, both reports) and on
    `large-12` explicit (302 vs 312; tied only by Opus's implicit run).** So on the hardest instances the gap
    between models is small. **The models differ in reliability, not in how good their plans can be** (see the
@@ -459,3 +474,8 @@ best-known instances.)
 6. **For the write-up:** one run per model and report, so small differences (e.g. Opus 17 vs Haiku 18 lowest costs)
    are within noise. The large differences (Haiku's 6 implicit failures, Sonnet's drop to 26/34 optimal on
    implicit) are the ones to report.
+
+## 12. Run 2
+
+All 3 models were run a second time against the proven-optimal reference. The results and what the totals hide
+are in **`wilson/main_results-run-2.md`**.

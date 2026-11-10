@@ -1,0 +1,58 @@
+{
+  "pipeline": "direct",
+  "instance": "small-02",
+  "size": "small",
+  "level": "explicit",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1620,
+    "output_tokens": 889,
+    "calls": 1,
+    "seconds": 9.4
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 170,
+    "travel_minutes": 170,
+    "deferred_penalty": 0,
+    "rescued": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 11,
+      "adult": 0
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 0
+    },
+    "people_rescued": 11,
+    "priority_people_rescued": 11
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 shivapuri-shelter kalika-village",
+        "load car1 elderly 4",
+        "drive car1 kalika-village shivapuri-shelter",
+        "unload car1 elderly 4",
+        "drive car1 shivapuri-shelter trishuli-farm",
+        "load car1 elderly 4",
+        "drive car1 trishuli-farm shivapuri-shelter",
+        "unload car1 elderly 4",
+        "drive car1 shivapuri-shelter trishuli-farm",
+        "load car1 elderly 3",
+        "drive car1 trishuli-farm shivapuri-shelter",
+        "unload car1 elderly 3"
+      ],
+      "claimed_cost": 170,
+      "text": "The plan rescues all 11 people for a total cost of 170 minutes, with nobody deferred. Each trip has to start and end at Shivapuri shelter, the only evacuation point, and the car carries at most 4 people per trip.\n\n| Trip | Route | People rescued | Driving (min) | Deferral penalty avoided |\n|---|---|---|---|---|\n| 1 | Shelter to Kalika village and back | 4 elderly | 14 | 200 |\n| 2 | Shelter to Trishuli farm and back | 4 elderly | 78 | 200 |\n| 3 | Shelter to Trishuli farm and back | 3 elderly | 78 | 150 |\n| **Total** | | **11 elderly** | **170** | **550** |\n\n- **Trishuli route:** The direct road (39 min each way) is the shortest. Going via Kispang temple takes 54 min each way.\n- **Why not defer:** Every trip costs less than the penalties it avoids. The closest call is the third trip, which costs 78 minutes but avoids 150 in penalties. Skipping it would raise the total cost to 242.\n- **Why 170 is the minimum:** Kalika needs at least one round trip. The 7 people at Trishuli need at least two, because the car only holds 4.\n\n<plan>\ndrive car1 shivapuri-shelter kalika-village\nload car1 elderly 4\ndrive car1 kalika-village shivapuri-shelter\nunload car1 elderly 4\ndrive car1 shivapuri-shelter trishuli-farm\nload car1 elderly 4\ndrive car1 trishuli-farm shivapuri-shelter\nunload car1 elderly 4\ndrive car1 shivapuri-shelter trishuli-farm\nload car1 elderly 3\ndrive car1 trishuli-farm shivapuri-shelter\nunload car1 elderly 3\n</plan>\n\nCOST: 170"
+    }
+  ]
+}

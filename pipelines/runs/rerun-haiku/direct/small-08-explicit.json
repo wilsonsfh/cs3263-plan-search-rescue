@@ -1,0 +1,50 @@
+{
+  "pipeline": "direct",
+  "instance": "small-08",
+  "size": "small",
+  "level": "explicit",
+  "model": "claude-haiku-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1761,
+    "output_tokens": 2361,
+    "calls": 1,
+    "seconds": 12.9
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 520,
+    "travel_minutes": 0,
+    "deferred_penalty": 520,
+    "rescued": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 0
+    },
+    "deferred": {
+      "injured": 4,
+      "child": 1,
+      "elderly": 0,
+      "adult": 7
+    },
+    "people_rescued": 0,
+    "priority_people_rescued": 0
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "defer likhu-school injured 4",
+        "defer likhu-school child 1",
+        "defer thakre-market adult 3",
+        "defer trishuli-market adult 4"
+      ],
+      "claimed_cost": 520,
+      "text": "The cheapest plan is to defer everyone and drive nothing. Likhu school is reachable only over two damaged roads, so its 5 people must be deferred. Rescuing the 7 adults would cost more in driving than the 20-minute penalty per adult that deferring them incurs. The best trip (4 adults from Trishuli, round trip 120 minutes) costs more than the 80-minute penalty for those four, so every rescue trip is worse than deferring.\n\n<plan>\ndefer likhu-school injured 4\ndefer likhu-school child 1\ndefer thakre-market adult 3\ndefer trishuli-market adult 4\n</plan>\n\nCOST: 520"
+    }
+  ]
+}

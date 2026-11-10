@@ -1,0 +1,71 @@
+{
+  "pipeline": "direct",
+  "instance": "large-08",
+  "size": "large",
+  "level": "implicit",
+  "model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 2540,
+    "output_tokens": 7253,
+    "calls": 1,
+    "seconds": 54.9
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 370,
+    "travel_minutes": 260,
+    "deferred_penalty": 110,
+    "rescued": {
+      "injured": 0,
+      "child": 9,
+      "elderly": 4,
+      "adult": 0
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 1,
+      "adult": 3
+    },
+    "people_rescued": 13,
+    "priority_people_rescued": 13
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car2 kalika-hospital belkot-school",
+        "load car2 child 4",
+        "drive car2 belkot-school kalika-hospital",
+        "unload car2 child 4",
+        "drive car2 kalika-hospital belkot-school",
+        "load car2 child 1",
+        "drive car2 belkot-school kalika-hospital",
+        "unload car2 child 1",
+        "drive car1 kakani-shelter suryagadhi-care-home",
+        "drive car1 suryagadhi-care-home syaphru-village",
+        "load car1 child 4",
+        "drive car1 syaphru-village suryagadhi-care-home",
+        "drive car1 suryagadhi-care-home kakani-shelter",
+        "unload car1 child 4",
+        "drive car1 kakani-shelter suryagadhi-care-home",
+        "load car1 elderly 2",
+        "drive car1 suryagadhi-care-home syaphru-village",
+        "drive car1 syaphru-village panchakanya-care-home",
+        "load car1 elderly 2",
+        "drive car1 panchakanya-care-home syaphru-village",
+        "drive car1 syaphru-village suryagadhi-care-home",
+        "drive car1 suryagadhi-care-home kakani-shelter",
+        "unload car1 elderly 4",
+        "defer thakre-temple elderly 1",
+        "defer syaphru-village adult 3"
+      ],
+      "claimed_cost": 370,
+      "text": "This plan costs 370 minutes in total, made up of 260 minutes of driving and 110 minutes of deferral penalties.\n\n- **Evacuation points:** only Kakani shelter and Kalika hospital count. Naukunda school is not designated, so nobody is dropped there.\n- **Closed roads:** the Kakani\u2013Kalika, Thakre\u2013Panchakanya, Kakani\u2013Likhu and Kakani\u2013Belkot roads cannot be used. That confines car1 to the Kakani/Suryagadhi/Syaphru side and gives car2 Belkot.\n- **Belkot (car2):** two round trips of 32 minutes each. The second trip, for the fifth child, costs 32 against a deferral penalty of 60.\n- **Syaphru children and the elderly (car1):** two round trips from Kakani.\n  - The first brings back the four children from Syaphru (70 minutes).\n  - The second picks up the two elderly at Suryagadhi on the way out, goes on to Panchakanya for its two elderly, and returns with all four (126 minutes).\n- **Deferred:**\n  - The Thakre elderly person is reachable only by a 41-minute drive from the hospital each way, 82 minutes in all. That is more than the 50-minute penalty.\n  - The three Syaphru adults have a low penalty (20 each) and no spare car capacity.\n\n<plan>\ndrive car2 kalika-hospital belkot-school\nload car2 child 4\ndrive car2 belkot-school kalika-hospital\nunload car2 child 4\ndrive car2 kalika-hospital belkot-school\nload car2 child 1\ndrive car2 belkot-school kalika-hospital\nunload car2 child 1\ndrive car1 kakani-shelter suryagadhi-care-home\ndrive car1 suryagadhi-care-home syaphru-village\nload car1 child 4\ndrive car1 syaphru-village suryagadhi-care-home\ndrive car1 suryagadhi-care-home kakani-shelter\nunload car1 child 4\ndrive car1 kakani-shelter suryagadhi-care-home\nload car1 elderly 2\ndrive car1 suryagadhi-care-home syaphru-village\ndrive car1 syaphru-village panchakanya-care-home\nload car1 elderly 2\ndrive car1 panchakanya-care-home syaphru-village\ndrive car1 syaphru-village suryagadhi-care-home\ndrive car1 suryagadhi-care-home kakani-shelter\nunload car1 elderly 4\ndefer thakre-temple elderly 1\ndefer syaphru-village adult 3\n</plan>\n\nCOST: 370"
+    }
+  ]
+}

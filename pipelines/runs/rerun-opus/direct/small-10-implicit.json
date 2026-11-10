@@ -1,0 +1,58 @@
+{
+  "pipeline": "direct",
+  "instance": "small-10",
+  "size": "small",
+  "level": "implicit",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1814,
+    "output_tokens": 1869,
+    "calls": 1,
+    "seconds": 21.2
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 136,
+    "travel_minutes": 136,
+    "deferred_penalty": 0,
+    "rescued": {
+      "injured": 0,
+      "child": 2,
+      "elderly": 4,
+      "adult": 0
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 0
+    },
+    "people_rescued": 6,
+    "priority_people_rescued": 6
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 tarkeshwar-shelter benighat-care-home",
+        "load car1 elderly 2",
+        "drive car1 benighat-care-home tarkeshwar-shelter",
+        "unload car1 elderly 2",
+        "drive car1 tarkeshwar-shelter thakre-care-home",
+        "load car1 elderly 2",
+        "drive car1 thakre-care-home dhunche-school",
+        "load car1 child 2",
+        "drive car1 dhunche-school benighat-care-home",
+        "drive car1 benighat-care-home tarkeshwar-shelter",
+        "unload car1 elderly 2",
+        "unload car1 child 2"
+      ],
+      "claimed_cost": 136,
+      "text": "I recommend rescuing all six people in two trips, for a total of **136 minutes of driving and no deferrals**.\n\nTarkeshwar shelter is the only designated evacuation point. Dhunche school is not designated, so the two children there must be brought to the shelter.\n\n**Route**\n1. **Benighat trip (12 min):** The car goes from the shelter to Benighat care home and brings back the two elderly people.\n2. **Loop trip (124 min):** The car goes from the shelter to Thakre care home (36 min) and picks up the elderly couple. It continues to Dhunche school (30 min) to pick up the two children, then returns through Benighat (52 min) to the shelter (6 min).\n\n**Why this is the lowest cost**\n- **Two trips are needed:** The car carries four people at most, so rescuing all six requires at least one extra return to the shelter.\n- **The route is as short as possible:** The 124-minute loop is the shortest way to reach both Thakre and Dhunche. Adding the Benighat pickup as a separate trip costs only 12 more minutes.\n- **Deferring costs more:** The closest alternative that defers anyone is to defer the two children and rescue the elderly people, which costs 204 (120 penalty + 84 driving). Rescuing everyone with separate trips and no loop would take 188 minutes.\n\n<plan>\ndrive car1 tarkeshwar-shelter benighat-care-home\nload car1 elderly 2\ndrive car1 benighat-care-home tarkeshwar-shelter\nunload car1 elderly 2\ndrive car1 tarkeshwar-shelter thakre-care-home\nload car1 elderly 2\ndrive car1 thakre-care-home dhunche-school\nload car1 child 2\ndrive car1 dhunche-school benighat-care-home\ndrive car1 benighat-care-home tarkeshwar-shelter\nunload car1 elderly 2\nunload car1 child 2\n</plan>\n\nCOST: 136"
+    }
+  ]
+}

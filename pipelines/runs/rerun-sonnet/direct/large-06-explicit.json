@@ -1,0 +1,82 @@
+{
+  "pipeline": "direct",
+  "instance": "large-06",
+  "size": "large",
+  "level": "explicit",
+  "model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 2327,
+    "output_tokens": 4459,
+    "calls": 1,
+    "seconds": 34.3
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 450,
+    "travel_minutes": 200,
+    "deferred_penalty": 250,
+    "rescued": {
+      "injured": 0,
+      "child": 6,
+      "elderly": 4,
+      "adult": 11
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 3,
+      "adult": 5
+    },
+    "people_rescued": 21,
+    "priority_people_rescued": 10
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 kispang-shelter kakani-temple",
+        "load car1 adult 3",
+        "drive car1 kakani-temple kispang-shelter",
+        "unload car1 adult 3",
+        "drive car2 benighat-hospital gajuri-school",
+        "load car2 child 4",
+        "drive car2 gajuri-school benighat-hospital",
+        "unload car2 child 4",
+        "drive car2 benighat-hospital gajuri-school",
+        "drive car2 gajuri-school jwalamukhi-market",
+        "drive car2 jwalamukhi-market syaphru-care-home",
+        "load car2 elderly 4",
+        "drive car2 syaphru-care-home jwalamukhi-market",
+        "drive car2 jwalamukhi-market gajuri-school",
+        "drive car2 gajuri-school benighat-hospital",
+        "unload car2 elderly 4",
+        "drive car2 benighat-hospital gajuri-school",
+        "drive car2 gajuri-school jwalamukhi-market",
+        "load car2 child 2",
+        "drive car2 jwalamukhi-market gajuri-school",
+        "load car2 adult 2",
+        "drive car2 gajuri-school benighat-hospital",
+        "unload car2 child 2",
+        "unload car2 adult 2",
+        "drive car2 benighat-hospital myagang-farm",
+        "load car2 adult 4",
+        "drive car2 myagang-farm benighat-hospital",
+        "unload car2 adult 4",
+        "drive car2 benighat-hospital myagang-farm",
+        "load car2 adult 2",
+        "drive car2 myagang-farm benighat-hospital",
+        "unload car2 adult 2",
+        "defer gajuri-school adult 1",
+        "defer syaphru-care-home elderly 1",
+        "defer tarkeshwar-farm adult 4",
+        "defer shivapuri-care-home elderly 2"
+      ],
+      "claimed_cost": 450,
+      "text": "I split the map into two separate road networks, one for each car.\n\n**Car1 (Kispang side):** Car1 can only reach Kispang, Kakani, Galchhi and Shivapuri.\n- It picks up the 3 adults at Kakani on a 10-minute round trip. That is far cheaper than the 60-minute deferral penalty.\n- Reaching the 2 elderly at Shivapuri would add 100 minutes of driving, the same as their 100-point penalty. They also would not fit alongside the adults, so I defer them.\n\n**Car2 (Benighat side):** Car2 makes five round trips from the hospital.\n1. Take the 4 children at Gajuri.\n2. Take 4 of the 5 elderly from Syaphru, a long 88-minute trip that still saves 200 in penalties.\n3. Take the 2 children at Jwalamukhi and 2 of the 3 Gajuri adults.\n4. Take 4 adults from Myagang.\n5. Take the last 2 adults from Myagang.\n\nI defer the 4 Tarkeshwar adults, the fifth Syaphru elderly person and the last Gajuri adult. Reaching each of them would cost more than their penalty, or the car would be full.\n\n**Cost:** driving is 10 + 190 = 200 minutes, and deferral penalties are 100 + 50 + 80 + 20 = 250, for a total of 450.\n\n<plan>\ndrive car1 kispang-shelter kakani-temple\nload car1 adult 3\ndrive car1 kakani-temple kispang-shelter\nunload car1 adult 3\ndrive car2 benighat-hospital gajuri-school\nload car2 child 4\ndrive car2 gajuri-school benighat-hospital\nunload car2 child 4\ndrive car2 benighat-hospital gajuri-school\ndrive car2 gajuri-school jwalamukhi-market\ndrive car2 jwalamukhi-market syaphru-care-home\nload car2 elderly 4\ndrive car2 syaphru-care-home jwalamukhi-market\ndrive car2 jwalamukhi-market gajuri-school\ndrive car2 gajuri-school benighat-hospital\nunload car2 elderly 4\ndrive car2 benighat-hospital gajuri-school\ndrive car2 gajuri-school jwalamukhi-market\nload car2 child 2\ndrive car2 jwalamukhi-market gajuri-school\nload car2 adult 2\ndrive car2 gajuri-school benighat-hospital\nunload car2 child 2\nunload car2 adult 2\ndrive car2 benighat-hospital myagang-farm\nload car2 adult 4\ndrive car2 myagang-farm benighat-hospital\nunload car2 adult 4\ndrive car2 benighat-hospital myagang-farm\nload car2 adult 2\ndrive car2 myagang-farm benighat-hospital\nunload car2 adult 2\ndefer gajuri-school adult 1\ndefer syaphru-care-home elderly 1\ndefer tarkeshwar-farm adult 4\ndefer shivapuri-care-home elderly 2\n</plan>\n\nCOST: 450"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "pipeline": "direct",
+  "instance": "medium-01",
+  "size": "medium",
+  "level": "implicit",
+  "model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 2186,
+    "output_tokens": 2460,
+    "calls": 1,
+    "seconds": 18.8
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 266,
+    "travel_minutes": 126,
+    "deferred_penalty": 140,
+    "rescued": {
+      "injured": 4,
+      "child": 4,
+      "elderly": 0,
+      "adult": 3
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 7
+    },
+    "people_rescued": 11,
+    "priority_people_rescued": 8
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 kakani-shelter tarkeshwar-school",
+        "load car1 injured 4",
+        "drive car1 tarkeshwar-school kakani-shelter",
+        "unload car1 injured 4",
+        "drive car1 kakani-shelter naukunda-school",
+        "load car1 child 3",
+        "drive car1 naukunda-school kakani-shelter",
+        "unload car1 child 3",
+        "drive car2 kakani-shelter tarkeshwar-school",
+        "load car2 child 1",
+        "drive car2 tarkeshwar-school benighat-farm",
+        "load car2 adult 3",
+        "drive car2 benighat-farm tarkeshwar-school",
+        "drive car2 tarkeshwar-school kakani-shelter",
+        "unload car2 child 1",
+        "unload car2 adult 3",
+        "defer benighat-farm adult 1",
+        "defer myagang-market adult 4",
+        "defer belkot-farm adult 2"
+      ],
+      "claimed_cost": 266,
+      "text": "The only evacuation point is Kakani shelter, because Tarkeshwar school is not designated. I assumed the 7-year-old at Tarkeshwar is a child and the Naukunda nursery kids are children.\n\n**Unreachable or not worth the trip**\n- **Belkot farm:** its only road, to Uttargaya farm, is closed. The 2 adults there are deferred (40).\n- **Myagang market:** the Benighat road is washed out, so the only route is via Naukunda school. That is 54 minutes each way, a 108-minute round trip, against an 80-point deferral penalty. The 4 adults there are deferred (80).\n- **Benighat farm:** a car can carry only 3 of the 4 adults on the trip that also picks up the child. A second 52-minute trip for the last adult would cost more than the 20-point deferral, so 1 adult is deferred (20).\n\n**Rescued**\n- **Car1, injured:** Kakani \u2192 Tarkeshwar \u2192 Kakani takes 24 minutes and brings back the 4 injured.\n- **Car1, nursery children:** Kakani \u2192 Naukunda \u2192 Kakani takes 50 minutes and brings back the 3 children.\n- **Car2:** Kakani \u2192 Tarkeshwar \u2192 Benighat \u2192 Tarkeshwar \u2192 Kakani takes 52 minutes and brings back the child and 3 adults.\n\nDriving totals 126 minutes and deferrals total 140, so the cost is 266.\n\n<plan>\ndrive car1 kakani-shelter tarkeshwar-school\nload car1 injured 4\ndrive car1 tarkeshwar-school kakani-shelter\nunload car1 injured 4\ndrive car1 kakani-shelter naukunda-school\nload car1 child 3\ndrive car1 naukunda-school kakani-shelter\nunload car1 child 3\ndrive car2 kakani-shelter tarkeshwar-school\nload car2 child 1\ndrive car2 tarkeshwar-school benighat-farm\nload car2 adult 3\ndrive car2 benighat-farm tarkeshwar-school\ndrive car2 tarkeshwar-school kakani-shelter\nunload car2 child 1\nunload car2 adult 3\ndefer benighat-farm adult 1\ndefer myagang-market adult 4\ndefer belkot-farm adult 2\n</plan>\nCOST: 266"
+    }
+  ]
+}

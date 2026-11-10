@@ -1,0 +1,68 @@
+{
+  "pipeline": "direct",
+  "instance": "medium-12",
+  "size": "medium",
+  "level": "explicit",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1895,
+    "output_tokens": 2713,
+    "calls": 1,
+    "seconds": 28.9
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 278,
+    "travel_minutes": 278,
+    "deferred_penalty": 0,
+    "rescued": {
+      "injured": 4,
+      "child": 4,
+      "elderly": 4,
+      "adult": 7
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 0
+    },
+    "people_rescued": 19,
+    "priority_people_rescued": 12
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 panchakanya-shelter galchhi-market",
+        "load car1 injured 4",
+        "drive car1 galchhi-market panchakanya-shelter",
+        "unload car1 injured 4",
+        "drive car2 shivapuri-hospital suryagadhi-village",
+        "load car2 elderly 4",
+        "drive car2 suryagadhi-village shivapuri-hospital",
+        "unload car2 elderly 4",
+        "drive car1 panchakanya-shelter jwalamukhi-village",
+        "load car1 child 4",
+        "drive car1 jwalamukhi-village panchakanya-shelter",
+        "unload car1 child 4",
+        "drive car1 panchakanya-shelter jwalamukhi-village",
+        "load car1 adult 3",
+        "drive car1 jwalamukhi-village panchakanya-shelter",
+        "unload car1 adult 3",
+        "drive car2 shivapuri-hospital suryagadhi-village",
+        "drive car2 suryagadhi-village kakani-farm",
+        "load car2 adult 4",
+        "drive car2 kakani-farm suryagadhi-village",
+        "drive car2 suryagadhi-village shivapuri-hospital",
+        "unload car2 adult 4"
+      ],
+      "claimed_cost": 278,
+      "text": "This plan rescues all 19 people with no deferrals, at a total cost of 278 minutes. I worked it out by hand rather than with a solver.\n\n**Car assignments**\n- **car1 (146 min):** It starts at Panchakanya and makes three round trips back to the shelter: Galchhi market for the 4 injured (38 min), then Jwalamukhi village for the 4 children (54 min) and the 3 adults (54 min).\n- **car2 (132 min):** It starts at Shivapuri and makes two round trips back to the hospital: Suryagadhi village for the 4 elderly (60 min), then Kakani farm through Suryagadhi for the 4 adults (72 min).\n\n**Why this is the lowest cost**\n- **Trips needed:** Each trip above already uses the cheapest possible route for its group. Combining groups wouldn't reduce the number of trips, because each car's 4 seats are already full on every trip except the one carrying Jwalamukhi's 3 adults, and no other group is near that route.\n- **Deferring is more expensive:** Only two deferrals come close, and both cost more than the trip they would replace:\n\n| Option | Trip saved | Penalty | Net change |\n|---|---|---|---|\n| Defer the 3 adults at Jwalamukhi | 54 min | 60 | 6 worse |\n| Defer the 4 adults at Kakani | 72 min | 80 | 8 worse |\n\n<plan>\ndrive car1 panchakanya-shelter galchhi-market\nload car1 injured 4\ndrive car1 galchhi-market panchakanya-shelter\nunload car1 injured 4\ndrive car2 shivapuri-hospital suryagadhi-village\nload car2 elderly 4\ndrive car2 suryagadhi-village shivapuri-hospital\nunload car2 elderly 4\ndrive car1 panchakanya-shelter jwalamukhi-village\nload car1 child 4\ndrive car1 jwalamukhi-village panchakanya-shelter\nunload car1 child 4\ndrive car1 panchakanya-shelter jwalamukhi-village\nload car1 adult 3\ndrive car1 jwalamukhi-village panchakanya-shelter\nunload car1 adult 3\ndrive car2 shivapuri-hospital suryagadhi-village\ndrive car2 suryagadhi-village kakani-farm\nload car2 adult 4\ndrive car2 kakani-farm suryagadhi-village\ndrive car2 suryagadhi-village shivapuri-hospital\nunload car2 adult 4\n</plan>\n\nCOST: 278"
+    }
+  ]
+}

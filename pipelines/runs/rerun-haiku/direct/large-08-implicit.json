@@ -1,0 +1,71 @@
+{
+  "pipeline": "direct",
+  "instance": "large-08",
+  "size": "large",
+  "level": "implicit",
+  "model": "claude-haiku-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 2562,
+    "output_tokens": 17196,
+    "calls": 1,
+    "seconds": 81.9
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 370,
+    "travel_minutes": 260,
+    "deferred_penalty": 110,
+    "rescued": {
+      "injured": 0,
+      "child": 9,
+      "elderly": 4,
+      "adult": 0
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 1,
+      "adult": 3
+    },
+    "people_rescued": 13,
+    "priority_people_rescued": 13
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car2 kalika-hospital belkot-school",
+        "load car2 child 4",
+        "drive car2 belkot-school kalika-hospital",
+        "unload car2 child 4",
+        "drive car2 kalika-hospital belkot-school",
+        "load car2 child 1",
+        "drive car2 belkot-school kalika-hospital",
+        "unload car2 child 1",
+        "drive car1 kakani-shelter suryagadhi-care-home",
+        "load car1 elderly 2",
+        "drive car1 suryagadhi-care-home syaphru-village",
+        "drive car1 syaphru-village panchakanya-care-home",
+        "load car1 elderly 2",
+        "drive car1 panchakanya-care-home syaphru-village",
+        "drive car1 syaphru-village suryagadhi-care-home",
+        "drive car1 suryagadhi-care-home kakani-shelter",
+        "unload car1 elderly 4",
+        "drive car1 kakani-shelter suryagadhi-care-home",
+        "drive car1 suryagadhi-care-home syaphru-village",
+        "load car1 child 4",
+        "drive car1 syaphru-village suryagadhi-care-home",
+        "drive car1 suryagadhi-care-home kakani-shelter",
+        "unload car1 child 4",
+        "defer syaphru-village adult 3",
+        "defer thakre-temple elderly 1"
+      ],
+      "claimed_cost": 370,
+      "text": "<plan>\ndrive car2 kalika-hospital belkot-school\nload car2 child 4\ndrive car2 belkot-school kalika-hospital\nunload car2 child 4\ndrive car2 kalika-hospital belkot-school\nload car2 child 1\ndrive car2 belkot-school kalika-hospital\nunload car2 child 1\ndrive car1 kakani-shelter suryagadhi-care-home\nload car1 elderly 2\ndrive car1 suryagadhi-care-home syaphru-village\ndrive car1 syaphru-village panchakanya-care-home\nload car1 elderly 2\ndrive car1 panchakanya-care-home syaphru-village\ndrive car1 syaphru-village suryagadhi-care-home\ndrive car1 suryagadhi-care-home kakani-shelter\nunload car1 elderly 4\ndrive car1 kakani-shelter suryagadhi-care-home\ndrive car1 suryagadhi-care-home syaphru-village\nload car1 child 4\ndrive car1 syaphru-village suryagadhi-care-home\ndrive car1 suryagadhi-care-home kakani-shelter\nunload car1 child 4\ndefer syaphru-village adult 3\ndefer thakre-temple elderly 1\n</plan>\nCOST: 370\n\nBreakdown: 260 driving minutes (car2 Belkot runs 64, car1 Suryagadhi/Panchakanya run 126, car1 children run 70) plus 110 in deferral penalties (3 adults at 20 each, 1 elderly at Thakre temple at 50).\n\nNotes:\n- Thakre temple can only be reached via Benighat temple from Kalika hospital (41 minutes each way), so deferring the grandmother is cheaper than the 82-minute round trip.\n- The three adult labourers at Syaphru village are deferred because a dedicated return trip (70 minutes) costs more than their 60-minute total penalty. If the field team would rather bring them out, this plan can be adjusted to add that trip.\n- Naukunda school is not used, since it is not a designated evacuation point.\n- The Kakani shelter to Likhu farm road is not used because of the fast floodwater."
+    }
+  ]
+}

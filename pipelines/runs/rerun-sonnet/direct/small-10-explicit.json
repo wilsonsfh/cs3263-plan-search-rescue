@@ -1,0 +1,58 @@
+{
+  "pipeline": "direct",
+  "instance": "small-10",
+  "size": "small",
+  "level": "explicit",
+  "model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1673,
+    "output_tokens": 1127,
+    "calls": 1,
+    "seconds": 10.3
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 144,
+    "travel_minutes": 144,
+    "deferred_penalty": 0,
+    "rescued": {
+      "injured": 0,
+      "child": 2,
+      "elderly": 4,
+      "adult": 0
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 0
+    },
+    "people_rescued": 6,
+    "priority_people_rescued": 6
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 tarkeshwar-shelter benighat-care-home",
+        "load car1 elderly 2",
+        "drive car1 benighat-care-home tarkeshwar-shelter",
+        "unload car1 elderly 2",
+        "drive car1 tarkeshwar-shelter thakre-care-home",
+        "load car1 elderly 2",
+        "drive car1 thakre-care-home dhunche-school",
+        "load car1 child 2",
+        "drive car1 dhunche-school thakre-care-home",
+        "drive car1 thakre-care-home tarkeshwar-shelter",
+        "unload car1 elderly 2",
+        "unload car1 child 2"
+      ],
+      "claimed_cost": 144,
+      "text": "This plan rescues everyone, so nothing is deferred.\n\n1. Benighat care home is a 6-minute road from the shelter, so I collect its 2 elderly people first. That round trip costs 12 minutes, against a deferral penalty of 100.\n2. I then drive to Thakre care home, load its 2 elderly people, and continue to Dhunche school to load the 2 children. That fills all 4 seats. The route back is Dhunche, Thakre, shelter. This trip costs 132 minutes. Deferring the same four people would cost 220, and rescuing only the Thakre elderly while deferring the children would cost 72 + 120 = 192.\n\nTotal driving is 12 + 132 = 144 minutes.\n\n<plan>\ndrive car1 tarkeshwar-shelter benighat-care-home\nload car1 elderly 2\ndrive car1 benighat-care-home tarkeshwar-shelter\nunload car1 elderly 2\ndrive car1 tarkeshwar-shelter thakre-care-home\nload car1 elderly 2\ndrive car1 thakre-care-home dhunche-school\nload car1 child 2\ndrive car1 dhunche-school thakre-care-home\ndrive car1 thakre-care-home tarkeshwar-shelter\nunload car1 elderly 2\nunload car1 child 2\n</plan>\nCOST: 144"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "pipeline": "direct",
+  "instance": "medium-04",
+  "size": "medium",
+  "level": "explicit",
+  "model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1879,
+    "output_tokens": 1889,
+    "calls": 1,
+    "seconds": 15.7
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 716,
+    "travel_minutes": 276,
+    "deferred_penalty": 440,
+    "rescued": {
+      "injured": 1,
+      "child": 3,
+      "elderly": 0,
+      "adult": 4
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 3,
+      "elderly": 4,
+      "adult": 3
+    },
+    "people_rescued": 8,
+    "priority_people_rescued": 4
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 myagang-shelter nilkantha-temple",
+        "drive car1 nilkantha-temple naukunda-village",
+        "drive car1 naukunda-village galchhi-village",
+        "load car1 child 3",
+        "load car1 injured 1",
+        "drive car1 galchhi-village naukunda-village",
+        "drive car1 naukunda-village nilkantha-temple",
+        "drive car1 nilkantha-temple myagang-shelter",
+        "unload car1 child 3",
+        "unload car1 injured 1",
+        "drive car2 myagang-shelter nilkantha-temple",
+        "load car2 adult 4",
+        "drive car2 nilkantha-temple myagang-shelter",
+        "unload car2 adult 4",
+        "defer nilkantha-temple adult 3",
+        "defer bidur-school child 3",
+        "defer shivapuri-care-home elderly 4"
+      ],
+      "claimed_cost": 716,
+      "text": "This plan rescues the 4 people at Galchhi and 4 of the 7 adults at Nilkantha, and defers everyone else.\n\n- **Galchhi (4 people):** The only open route is Myagang \u2192 Nilkantha \u2192 Naukunda \u2192 Galchhi, which is 107 minutes each way. The round trip costs 214, against 260 in deferral penalties, so rescuing them saves 46.\n- **Nilkantha (7 adults):** The round trip is 62 minutes and a car carries 4. Rescuing 4 adults costs 62 against 80 deferred, which is worth it. The last 3 adults would cost 62 to rescue against 60 deferred, so they are deferred.\n- **Bidur children and Shivapuri elderly:** Reaching Bidur takes 119 minutes each way, so rescuing the 3 children costs 238 against 180 deferred. Shivapuri adds 20 minutes more each way, so rescuing the 4 elderly costs 278 against 200 deferred. Both groups are deferred.\n\nTotal cost is 214 + 62 + 60 + 180 + 200 = 716, compared with 780 if everyone were deferred.\n\n<plan>\ndrive car1 myagang-shelter nilkantha-temple\ndrive car1 nilkantha-temple naukunda-village\ndrive car1 naukunda-village galchhi-village\nload car1 child 3\nload car1 injured 1\ndrive car1 galchhi-village naukunda-village\ndrive car1 naukunda-village nilkantha-temple\ndrive car1 nilkantha-temple myagang-shelter\nunload car1 child 3\nunload car1 injured 1\ndrive car2 myagang-shelter nilkantha-temple\nload car2 adult 4\ndrive car2 nilkantha-temple myagang-shelter\nunload car2 adult 4\ndefer nilkantha-temple adult 3\ndefer bidur-school child 3\ndefer shivapuri-care-home elderly 4\n</plan>\nCOST: 716"
+    }
+  ]
+}

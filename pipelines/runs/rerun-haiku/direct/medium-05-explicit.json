@@ -1,0 +1,57 @@
+{
+  "pipeline": "direct",
+  "instance": "medium-05",
+  "size": "medium",
+  "level": "explicit",
+  "model": "claude-haiku-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1955,
+    "output_tokens": 1445,
+    "calls": 1,
+    "seconds": 8.4
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 412,
+    "travel_minutes": 62,
+    "deferred_penalty": 350,
+    "rescued": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 2,
+      "adult": 0
+    },
+    "deferred": {
+      "injured": 2,
+      "child": 0,
+      "elderly": 1,
+      "adult": 7
+    },
+    "people_rescued": 2,
+    "priority_people_rescued": 2
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 thakre-shelter myagang-care-home",
+        "load car1 elderly 1",
+        "drive car1 myagang-care-home thakre-shelter",
+        "unload car1 elderly 1",
+        "drive car1 thakre-shelter gajuri-care-home",
+        "load car1 elderly 1",
+        "drive car1 gajuri-care-home thakre-shelter",
+        "unload car1 elderly 1",
+        "defer panchakanya-care-home injured 2",
+        "defer panchakanya-care-home elderly 1",
+        "defer likhu-farm adult 7"
+      ],
+      "claimed_cost": 412,
+      "text": "<plan>\ndrive car1 thakre-shelter myagang-care-home\nload car1 elderly 1\ndrive car1 myagang-care-home thakre-shelter\nunload car1 elderly 1\ndrive car1 thakre-shelter gajuri-care-home\nload car1 elderly 1\ndrive car1 gajuri-care-home thakre-shelter\nunload car1 elderly 1\ndefer panchakanya-care-home injured 2\ndefer panchakanya-care-home elderly 1\ndefer likhu-farm adult 7\n</plan>\n\nCOST: 412\n\nThe only roads that connect to the car's position are the open roads to Myagang and Gajuri, and both are dead ends. Those two elderly people can be reached and rescued at Thakre shelter. Tarkeshwar hospital, Likhu farm, Suryagadhi and Panchakanya can't be reached because every road to them is damaged, so those 10 people are deferred.\n\nDriving: 24 + 24 + 7 + 7 = 62 minutes. Penalties: 2 injured \u00d7 80 + 1 elderly \u00d7 50 + 7 adults \u00d7 20 = 350. Total: 62 + 350 = 412."
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "pipeline": "direct",
+  "instance": "small-05",
+  "size": "small",
+  "level": "implicit",
+  "model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1806,
+    "output_tokens": 599,
+    "calls": 1,
+    "seconds": 6.7
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 102,
+    "travel_minutes": 52,
+    "deferred_penalty": 50,
+    "rescued": {
+      "injured": 6,
+      "child": 0,
+      "elderly": 0,
+      "adult": 0
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 1,
+      "adult": 0
+    },
+    "people_rescued": 6,
+    "priority_people_rescued": 6
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 shivapuri-shelter dhunche-temple",
+        "load car1 injured 4",
+        "drive car1 dhunche-temple shivapuri-shelter",
+        "unload car1 injured 4",
+        "drive car1 shivapuri-shelter dhunche-temple",
+        "load car1 injured 2",
+        "drive car1 dhunche-temple shivapuri-shelter",
+        "unload car1 injured 2",
+        "defer myagang-care-home elderly 1"
+      ],
+      "claimed_cost": 102,
+      "text": "Myagang care home can't be reached. The only road in, from Likhu market, lost its bridge, and the Likhu market road from the shelter is flooded. The elderly widow there is deferred (penalty 50).\n\nThe six injured people at Dhunche temple are reachable by the 13-minute road from the shelter. The car holds four, so it makes two round trips. That costs 52 minutes in total, far less than deferring any of them (80 each).\n\n<plan>\ndrive car1 shivapuri-shelter dhunche-temple\nload car1 injured 4\ndrive car1 dhunche-temple shivapuri-shelter\nunload car1 injured 4\ndrive car1 shivapuri-shelter dhunche-temple\nload car1 injured 2\ndrive car1 dhunche-temple shivapuri-shelter\nunload car1 injured 2\ndefer myagang-care-home elderly 1\n</plan>\n\nCOST: 102"
+    }
+  ]
+}

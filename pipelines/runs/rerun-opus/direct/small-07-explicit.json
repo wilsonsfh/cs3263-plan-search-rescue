@@ -1,0 +1,58 @@
+{
+  "pipeline": "direct",
+  "instance": "small-07",
+  "size": "small",
+  "level": "explicit",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1641,
+    "output_tokens": 1072,
+    "calls": 1,
+    "seconds": 12.1
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 122,
+    "travel_minutes": 122,
+    "deferred_penalty": 0,
+    "rescued": {
+      "injured": 4,
+      "child": 4,
+      "elderly": 3,
+      "adult": 0
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 0
+    },
+    "people_rescued": 11,
+    "priority_people_rescued": 11
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 naukunda-shelter myagang-care-home",
+        "load car1 elderly 3",
+        "drive car1 myagang-care-home naukunda-shelter",
+        "unload car1 elderly 3",
+        "drive car1 naukunda-shelter gosaikunda-school",
+        "load car1 injured 4",
+        "drive car1 gosaikunda-school naukunda-shelter",
+        "unload car1 injured 4",
+        "drive car1 naukunda-shelter gosaikunda-school",
+        "load car1 child 4",
+        "drive car1 gosaikunda-school naukunda-shelter",
+        "unload car1 child 4"
+      ],
+      "claimed_cost": 122,
+      "text": "Every person can be rescued for a total cost of 122 minutes, with no deferrals. Each trip has to end at Naukunda shelter, the only evacuation point.\n\n- **Gosaikunda school (8 people):** This takes 2 full trips with 4 seats. The fastest route is the direct road at 28 min each way, because going via Kalika takes 31 min. That is 56 min per round trip, or 112 min in total.\n- **Myagang care home (3 elderly people):** This takes 1 trip of 5 min each way, or 10 min in total.\n- **Combining stops:** With 11 people and 4 seats, at least 3 trips are needed. Both Gosaikunda trips are also needed for its 8 people, so the Myagang trip stays separate. Mixing stops only adds driving, as Gosaikunda to the shelter via Myagang takes 37 min instead of 28.\n- **Deferring:** This never saves anything. Deferring the 3 elderly people would cost 150 to save 10 min of driving, and deferring 4 children would cost 240 to save 56 min.\n\n<plan>\ndrive car1 naukunda-shelter myagang-care-home\nload car1 elderly 3\ndrive car1 myagang-care-home naukunda-shelter\nunload car1 elderly 3\ndrive car1 naukunda-shelter gosaikunda-school\nload car1 injured 4\ndrive car1 gosaikunda-school naukunda-shelter\nunload car1 injured 4\ndrive car1 naukunda-shelter gosaikunda-school\nload car1 child 4\ndrive car1 gosaikunda-school naukunda-shelter\nunload car1 child 4\n</plan>\n\nCOST: 122"
+    }
+  ]
+}

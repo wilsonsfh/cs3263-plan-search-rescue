@@ -1,0 +1,59 @@
+{
+  "pipeline": "direct",
+  "instance": "small-12",
+  "size": "small",
+  "level": "implicit",
+  "model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1900,
+    "output_tokens": 1372,
+    "calls": 1,
+    "seconds": 11.4
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 158,
+    "travel_minutes": 118,
+    "deferred_penalty": 40,
+    "rescued": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 8
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 2
+    },
+    "people_rescued": 8,
+    "priority_people_rescued": 0
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 trishuli-shelter gosaikunda-temple",
+        "drive car1 gosaikunda-temple naukunda-farm",
+        "load car1 adult 4",
+        "drive car1 naukunda-farm gosaikunda-temple",
+        "drive car1 gosaikunda-temple trishuli-shelter",
+        "unload car1 adult 4",
+        "drive car1 trishuli-shelter gosaikunda-temple",
+        "drive car1 gosaikunda-temple dupcheshwar-temple",
+        "load car1 adult 4",
+        "drive car1 dupcheshwar-temple gosaikunda-temple",
+        "drive car1 gosaikunda-temple trishuli-shelter",
+        "unload car1 adult 4",
+        "defer bidur-village adult 2"
+      ],
+      "claimed_cost": 158,
+      "text": "The only designated evacuation point is Trishuli shelter, so Dupcheshwar temple cannot be used as a drop-off. The Trishuli to Naukunda road is closed, so Naukunda must be reached via Gosaikunda. I assumed the shopkeepers count as adults.\n\n- **Naukunda farm:** the round trip is 11 + 12 minutes each way, 46 minutes, to rescue 4 adults. Deferring them would cost 80, so this is worth doing.\n- **Dupcheshwar temple:** the round trip is 11 + 25 minutes each way, 72 minutes, to rescue 4 adults. Deferring them would cost 80, so rescuing is slightly better.\n- **Bidur village:** reaching the 2 shopkeepers costs at least 116 minutes round trip, against a deferral penalty of 40. I defer them.\n\nTotal cost is 46 + 72 + 40 = 158.\n\n<plan>\ndrive car1 trishuli-shelter gosaikunda-temple\ndrive car1 gosaikunda-temple naukunda-farm\nload car1 adult 4\ndrive car1 naukunda-farm gosaikunda-temple\ndrive car1 gosaikunda-temple trishuli-shelter\nunload car1 adult 4\ndrive car1 trishuli-shelter gosaikunda-temple\ndrive car1 gosaikunda-temple dupcheshwar-temple\nload car1 adult 4\ndrive car1 dupcheshwar-temple gosaikunda-temple\ndrive car1 gosaikunda-temple trishuli-shelter\nunload car1 adult 4\ndefer bidur-village adult 2\n</plan>\n\nCOST: 158"
+    }
+  ]
+}

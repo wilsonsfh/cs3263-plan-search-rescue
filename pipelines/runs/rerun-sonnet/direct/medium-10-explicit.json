@@ -1,0 +1,67 @@
+{
+  "pipeline": "direct",
+  "instance": "medium-10",
+  "size": "medium",
+  "level": "explicit",
+  "model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1940,
+    "output_tokens": 1277,
+    "calls": 1,
+    "seconds": 11.7
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 476,
+    "travel_minutes": 146,
+    "deferred_penalty": 330,
+    "rescued": {
+      "injured": 3,
+      "child": 4,
+      "elderly": 2,
+      "adult": 3
+    },
+    "deferred": {
+      "injured": 3,
+      "child": 0,
+      "elderly": 1,
+      "adult": 2
+    },
+    "people_rescued": 12,
+    "priority_people_rescued": 9
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 kispang-shelter gosaikunda-temple",
+        "drive car1 gosaikunda-temple galchhi-temple",
+        "load car1 child 4",
+        "drive car1 galchhi-temple gosaikunda-temple",
+        "drive car1 gosaikunda-temple kispang-shelter",
+        "unload car1 child 4",
+        "drive car2 kispang-shelter myagang-temple",
+        "load car2 injured 3",
+        "load car2 adult 1",
+        "drive car2 myagang-temple kispang-shelter",
+        "unload car2 injured 3",
+        "unload car2 adult 1",
+        "drive car2 kispang-shelter myagang-temple",
+        "load car2 adult 2",
+        "load car2 elderly 2",
+        "drive car2 myagang-temple kispang-shelter",
+        "unload car2 adult 2",
+        "unload car2 elderly 2",
+        "defer dupcheshwar-temple elderly 1",
+        "defer tadi-market injured 3",
+        "defer naukunda-farm adult 2"
+      ],
+      "claimed_cost": 476,
+      "text": "<plan>\ndrive car1 kispang-shelter gosaikunda-temple\ndrive car1 gosaikunda-temple galchhi-temple\nload car1 child 4\ndrive car1 galchhi-temple gosaikunda-temple\ndrive car1 gosaikunda-temple kispang-shelter\nunload car1 child 4\ndrive car2 kispang-shelter myagang-temple\nload car2 injured 3\nload car2 adult 1\ndrive car2 myagang-temple kispang-shelter\nunload car2 injured 3\nunload car2 adult 1\ndrive car2 kispang-shelter myagang-temple\nload car2 adult 2\nload car2 elderly 2\ndrive car2 myagang-temple kispang-shelter\nunload car2 adult 2\nunload car2 elderly 2\ndefer dupcheshwar-temple elderly 1\ndefer tadi-market injured 3\ndefer naukunda-farm adult 2\n</plan>\nCOST: 476\n\nTadi market and Naukunda farm can't be reached because the road to Galchhi is damaged, so those 5 people are deferred (280). The elderly person at Dupcheshwar is also deferred, since the 52-minute round trip costs more than the penalty of 50. Everyone else is rescued with 82 minutes of driving for the Galchhi children and 64 for the Myagang group."
+    }
+  ]
+}

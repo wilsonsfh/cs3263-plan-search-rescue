@@ -1,0 +1,64 @@
+{
+  "pipeline": "direct",
+  "instance": "medium-01",
+  "size": "medium",
+  "level": "implicit",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 2182,
+    "output_tokens": 2542,
+    "calls": 1,
+    "seconds": 26.7
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 250,
+    "travel_minutes": 130,
+    "deferred_penalty": 120,
+    "rescued": {
+      "injured": 4,
+      "child": 4,
+      "elderly": 0,
+      "adult": 4
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 6
+    },
+    "people_rescued": 12,
+    "priority_people_rescued": 8
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 kakani-shelter tarkeshwar-school",
+        "load car1 injured 4",
+        "drive car1 tarkeshwar-school kakani-shelter",
+        "unload car1 injured 4",
+        "drive car2 kakani-shelter tarkeshwar-school",
+        "drive car2 tarkeshwar-school benighat-farm",
+        "load car2 adult 4",
+        "drive car2 benighat-farm tarkeshwar-school",
+        "drive car2 tarkeshwar-school kakani-shelter",
+        "unload car2 adult 4",
+        "drive car1 kakani-shelter tarkeshwar-school",
+        "load car1 child 1",
+        "drive car1 tarkeshwar-school naukunda-school",
+        "load car1 child 3",
+        "drive car1 naukunda-school kakani-shelter",
+        "unload car1 child 4",
+        "defer myagang-market adult 4",
+        "defer belkot-farm adult 2"
+      ],
+      "claimed_cost": 250,
+      "text": "The minimum total cost is 250: 130 minutes of driving plus 120 in deferral penalties. I worked this out by hand by comparing the route options, and didn't run it through a solver.\n\n**Key constraints**\n- **Evacuation point:** Kakani shelter is the only valid drop-off. Tarkeshwar school isn't designated.\n- **Belkot farm:** Its only road is closed, so the 2 adults there can't be reached and must be deferred (penalty 40).\n- **Myagang market:** This is reachable only through Naukunda school, because the Benighat road is out. A round trip from Kakani takes 108 minutes, while deferring all 4 adults costs 80, so deferring is cheaper. Carrying only some of them with the Naukunda children also costs more overall.\n\n**Rescue trips (all return to Kakani)**\n\n| Trip | Car | Route | People rescued | Minutes |\n|---|---|---|---|---|\n| 1 | car1 | Kakani \u2192 Tarkeshwar \u2192 Kakani | 4 injured | 24 |\n| 2 | car2 | Kakani \u2192 Tarkeshwar \u2192 Benighat \u2192 Tarkeshwar \u2192 Kakani | 4 adults | 52 |\n| 3 | car1 | Kakani \u2192 Tarkeshwar \u2192 Naukunda \u2192 Kakani | 4 children (1 from Tarkeshwar, 3 from Naukunda) | 54 |\n\n**Cost**\n- **Driving:** 24 + 52 + 54 = 130\n- **Deferrals:** 6 adults \u00d7 20 = 120 (4 at Myagang market, 2 at Belkot farm)\n- **Total:** 130 + 120 = 250\n\nAll injured people and children are rescued, and only adults are deferred. The 6 deferred adults will still need help in the later wave, including the 2 at Belkot farm, who will need another way in unless the road reopens.\n\n<plan>\ndrive car1 kakani-shelter tarkeshwar-school\nload car1 injured 4\ndrive car1 tarkeshwar-school kakani-shelter\nunload car1 injured 4\ndrive car2 kakani-shelter tarkeshwar-school\ndrive car2 tarkeshwar-school benighat-farm\nload car2 adult 4\ndrive car2 benighat-farm tarkeshwar-school\ndrive car2 tarkeshwar-school kakani-shelter\nunload car2 adult 4\ndrive car1 kakani-shelter tarkeshwar-school\nload car1 child 1\ndrive car1 tarkeshwar-school naukunda-school\nload car1 child 3\ndrive car1 naukunda-school kakani-shelter\nunload car1 child 4\ndefer myagang-market adult 4\ndefer belkot-farm adult 2\n</plan>\n\nCOST: 250"
+    }
+  ]
+}

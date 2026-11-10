@@ -1,0 +1,60 @@
+{
+  "pipeline": "direct",
+  "instance": "medium-09",
+  "size": "medium",
+  "level": "implicit",
+  "model": "claude-haiku-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 2190,
+    "output_tokens": 8735,
+    "calls": 1,
+    "seconds": 43.4
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 330,
+    "travel_minutes": 110,
+    "deferred_penalty": 220,
+    "rescued": {
+      "injured": 4,
+      "child": 0,
+      "elderly": 3,
+      "adult": 1
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 1,
+      "elderly": 0,
+      "adult": 8
+    },
+    "people_rescued": 8,
+    "priority_people_rescued": 7
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 thakre-shelter dhunche-market",
+        "load car1 injured 4",
+        "drive car1 dhunche-market thakre-shelter",
+        "unload car1 injured 4",
+        "drive car2 thakre-shelter myagang-care-home",
+        "load car2 elderly 3",
+        "drive car2 myagang-care-home dhunche-market",
+        "load car2 adult 1",
+        "drive car2 dhunche-market thakre-shelter",
+        "unload car2 elderly 3",
+        "unload car2 adult 1",
+        "defer tadi-market adult 7",
+        "defer dhunche-market adult 1",
+        "defer shivapuri-village child 1"
+      ],
+      "claimed_cost": 330,
+      "text": "<plan>\ndrive car1 thakre-shelter dhunche-market\nload car1 injured 4\ndrive car1 dhunche-market thakre-shelter\nunload car1 injured 4\ndrive car2 thakre-shelter myagang-care-home\nload car2 elderly 3\ndrive car2 myagang-care-home dhunche-market\nload car2 adult 1\ndrive car2 dhunche-market thakre-shelter\nunload car2 elderly 3\nunload car2 adult 1\ndefer tadi-market adult 7\ndefer dhunche-market adult 1\ndefer shivapuri-village child 1\n</plan>\nCOST: 330\n\nDriving is 110 minutes (car1 46, car2 64). Deferral penalties are 220 (7 adults at Tadi at 20 each, 1 adult at Dhunche at 20, and the child at 60).\n\nThe Dhunche\u2013Nilkantha road is excluded because it is flooded. Kakani school is not used because it has not been designated as an evacuation point."
+    }
+  ]
+}

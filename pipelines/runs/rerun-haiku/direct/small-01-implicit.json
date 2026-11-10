@@ -1,0 +1,57 @@
+{
+  "pipeline": "direct",
+  "instance": "small-01",
+  "size": "small",
+  "level": "implicit",
+  "model": "claude-haiku-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1859,
+    "output_tokens": 2826,
+    "calls": 1,
+    "seconds": 16.4
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 154,
+    "travel_minutes": 134,
+    "deferred_penalty": 20,
+    "rescued": {
+      "injured": 0,
+      "child": 2,
+      "elderly": 2,
+      "adult": 0
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 1
+    },
+    "people_rescued": 4,
+    "priority_people_rescued": 4
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 myagang-shelter uttargaya-school",
+        "load car1 child 2",
+        "drive car1 uttargaya-school nilkantha-market",
+        "drive car1 nilkantha-market syaphru-temple",
+        "load car1 elderly 2",
+        "drive car1 syaphru-temple nilkantha-market",
+        "drive car1 nilkantha-market uttargaya-school",
+        "drive car1 uttargaya-school myagang-shelter",
+        "unload car1 child 2",
+        "unload car1 elderly 2",
+        "defer syaphru-temple adult 1"
+      ],
+      "claimed_cost": 154,
+      "text": "Only Myagang shelter is a valid evacuation point, so every rescued person must end up there. The car can carry four, but five people are waiting, so one adult must be deferred. The cheapest choice is to defer the adult (penalty 20) rather than an elderly person (penalty 50). The route goes via Uttargaya and Nilkantha market, avoiding the washed-out bridge. This assumes roads can be driven in both directions.\n\n<plan>\ndrive car1 myagang-shelter uttargaya-school\nload car1 child 2\ndrive car1 uttargaya-school nilkantha-market\ndrive car1 nilkantha-market syaphru-temple\nload car1 elderly 2\ndrive car1 syaphru-temple nilkantha-market\ndrive car1 nilkantha-market uttargaya-school\ndrive car1 uttargaya-school myagang-shelter\nunload car1 child 2\nunload car1 elderly 2\ndefer syaphru-temple adult 1\n</plan>\n\nCOST: 154\n\nDriving time is 134 minutes (28 + 8 + 31 + 31 + 8 + 28) plus 20 for the deferred adult. The deferred adult at Syaphru temple should be the first priority for the next rescue wave."
+    }
+  ]
+}

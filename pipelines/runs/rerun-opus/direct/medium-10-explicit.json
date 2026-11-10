@@ -1,0 +1,67 @@
+{
+  "pipeline": "direct",
+  "instance": "medium-10",
+  "size": "medium",
+  "level": "explicit",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1938,
+    "output_tokens": 1577,
+    "calls": 1,
+    "seconds": 15.5
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 476,
+    "travel_minutes": 146,
+    "deferred_penalty": 330,
+    "rescued": {
+      "injured": 3,
+      "child": 4,
+      "elderly": 2,
+      "adult": 3
+    },
+    "deferred": {
+      "injured": 3,
+      "child": 0,
+      "elderly": 1,
+      "adult": 2
+    },
+    "people_rescued": 12,
+    "priority_people_rescued": 9
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 kispang-shelter gosaikunda-temple",
+        "drive car1 gosaikunda-temple galchhi-temple",
+        "load car1 child 4",
+        "drive car1 galchhi-temple gosaikunda-temple",
+        "drive car1 gosaikunda-temple kispang-shelter",
+        "unload car1 child 4",
+        "drive car2 kispang-shelter myagang-temple",
+        "load car2 injured 3",
+        "load car2 elderly 1",
+        "drive car2 myagang-temple kispang-shelter",
+        "unload car2 injured 3",
+        "unload car2 elderly 1",
+        "drive car2 kispang-shelter myagang-temple",
+        "load car2 elderly 1",
+        "load car2 adult 3",
+        "drive car2 myagang-temple kispang-shelter",
+        "unload car2 elderly 1",
+        "unload car2 adult 3",
+        "defer dupcheshwar-temple elderly 1",
+        "defer tadi-market injured 3",
+        "defer naukunda-farm adult 2"
+      ],
+      "claimed_cost": 476,
+      "text": "The plan costs 476 in total: 146 minutes of driving and 330 in penalties.\n\n**Open roads and access**\n- **Cut off:** Tadi market and Naukunda farm connect only to each other. The Tadi\u2013Galchhi road is impassable, so no car can reach them. Their 3 injured people (240) and 2 adults (40) must be deferred, for a penalty of 280.\n- **Galchhi temple (4 children):** The shortest route is shelter \u2192 Gosaikunda \u2192 Galchhi, 41 min each way. The 82-minute round trip is much cheaper than the 240 penalty, so they are rescued.\n- **Dupcheshwar temple (1 elderly person):** This location can only be reached by a dedicated 52-minute round trip, since the road from Gosaikunda is damaged. That is slightly more than the 50 penalty, so this person is deferred on cost alone.\n- **Myagang temple (8 people):** Each round trip takes 32 min and carries 4 people, so two trips cost 64. Stopping after one trip would mean deferring 4 people for at least 110 (3 adults and 1 elderly person), for a total of 142. Two trips are cheaper, and everyone there is rescued.\n\nEvery trip that goes out is full, and the longer loop through Thakre care home saves nothing.\n\n<plan>\ndrive car1 kispang-shelter gosaikunda-temple\ndrive car1 gosaikunda-temple galchhi-temple\nload car1 child 4\ndrive car1 galchhi-temple gosaikunda-temple\ndrive car1 gosaikunda-temple kispang-shelter\nunload car1 child 4\ndrive car2 kispang-shelter myagang-temple\nload car2 injured 3\nload car2 elderly 1\ndrive car2 myagang-temple kispang-shelter\nunload car2 injured 3\nunload car2 elderly 1\ndrive car2 kispang-shelter myagang-temple\nload car2 elderly 1\nload car2 adult 3\ndrive car2 myagang-temple kispang-shelter\nunload car2 elderly 1\nunload car2 adult 3\ndefer dupcheshwar-temple elderly 1\ndefer tadi-market injured 3\ndefer naukunda-farm adult 2\n</plan>\n\n**Cost breakdown**\n| Item | Cost |\n|---|---|\n| Galchhi temple round trip | 82 |\n| Two Myagang temple round trips | 64 |\n| Defer 1 elderly person at Dupcheshwar temple | 50 |\n| Defer 3 injured people at Tadi market | 240 |\n| Defer 2 adults at Naukunda farm | 40 |\n| **Total** | **476** |\n\nCOST: 476"
+    }
+  ]
+}

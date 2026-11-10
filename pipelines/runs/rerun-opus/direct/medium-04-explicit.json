@@ -1,0 +1,63 @@
+{
+  "pipeline": "direct",
+  "instance": "medium-04",
+  "size": "medium",
+  "level": "explicit",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1874,
+    "output_tokens": 2778,
+    "calls": 1,
+    "seconds": 29.7
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 716,
+    "travel_minutes": 276,
+    "deferred_penalty": 440,
+    "rescued": {
+      "injured": 1,
+      "child": 3,
+      "elderly": 0,
+      "adult": 4
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 3,
+      "elderly": 4,
+      "adult": 3
+    },
+    "people_rescued": 8,
+    "priority_people_rescued": 4
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 myagang-shelter nilkantha-temple",
+        "drive car1 nilkantha-temple naukunda-village",
+        "drive car1 naukunda-village galchhi-village",
+        "load car1 injured 1",
+        "load car1 child 3",
+        "drive car1 galchhi-village naukunda-village",
+        "drive car1 naukunda-village nilkantha-temple",
+        "drive car1 nilkantha-temple myagang-shelter",
+        "unload car1 injured 1",
+        "unload car1 child 3",
+        "drive car2 myagang-shelter nilkantha-temple",
+        "load car2 adult 4",
+        "drive car2 nilkantha-temple myagang-shelter",
+        "unload car2 adult 4",
+        "defer nilkantha-temple adult 3",
+        "defer bidur-school child 3",
+        "defer shivapuri-care-home elderly 4"
+      ],
+      "claimed_cost": 716,
+      "text": "I worked this out by hand and didn't run it through a solver. I compared the cost of each possible trip with the penalties it would avoid.\n\n**Key facts**\n- The only usable route to the far locations from the shelter is via Nilkantha temple: temple (31 min), Naukunda (86), then Galchhi (107), or Dhunche (107), Bidur school (119) and Shivapuri care home (139).\n- Thakre village has nobody waiting, so it can be ignored.\n- People can only be dropped off at Myagang shelter, so every trip is a round trip carrying at most 4 people.\n\n**Value of each trip**\n\n| Trip | Driving (min) | Penalties avoided | Decision |\n|---|---|---|---|\n| Galchhi: 1 injured, 3 children | 214 | 260 | Worth it, saves 46 |\n| Temple: 4 adults | 62 | 80 | Worth it, saves 18 |\n| Temple: remaining 3 adults | 62 | 60 | Not worth it, costs 2 more |\n| Bidur: 3 children, plus 1 adult at the temple on the way back | 238 | 200 | Not worth it, costs 38 more |\n| Shivapuri, stopping at Bidur: 3 children, 1 elderly | 278 | 230 | Not worth it, costs 48 more |\n| Shivapuri: 4 elderly | 278 | 200 | Not worth it, costs 78 more |\n\nThe best plan is therefore to run the first two trips and defer everyone else. This means the 3 children at Bidur school and the 4 elderly people at Shivapuri care home wait for a later wave, because reaching them costs more than their penalties under the scoring rules.\n\n<plan>\ndrive car1 myagang-shelter nilkantha-temple\ndrive car1 nilkantha-temple naukunda-village\ndrive car1 naukunda-village galchhi-village\nload car1 injured 1\nload car1 child 3\ndrive car1 galchhi-village naukunda-village\ndrive car1 naukunda-village nilkantha-temple\ndrive car1 nilkantha-temple myagang-shelter\nunload car1 injured 1\nunload car1 child 3\ndrive car2 myagang-shelter nilkantha-temple\nload car2 adult 4\ndrive car2 nilkantha-temple myagang-shelter\nunload car2 adult 4\ndefer nilkantha-temple adult 3\ndefer bidur-school child 3\ndefer shivapuri-care-home elderly 4\n</plan>\n\n**Cost breakdown**\n- **Driving:** 214 + 62 = 276\n- **Penalties:** 3 adults (60) + 3 children (180) + 4 elderly (200) = 440\n- **Total:** 276 + 440 = 716\n\nCOST: 716"
+    }
+  ]
+}

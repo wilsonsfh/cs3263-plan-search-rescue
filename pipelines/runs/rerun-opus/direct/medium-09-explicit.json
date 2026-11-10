@@ -1,0 +1,60 @@
+{
+  "pipeline": "direct",
+  "instance": "medium-09",
+  "size": "medium",
+  "level": "explicit",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1929,
+    "output_tokens": 2451,
+    "calls": 1,
+    "seconds": 24.1
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 330,
+    "travel_minutes": 110,
+    "deferred_penalty": 220,
+    "rescued": {
+      "injured": 4,
+      "child": 0,
+      "elderly": 3,
+      "adult": 1
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 1,
+      "elderly": 0,
+      "adult": 8
+    },
+    "people_rescued": 8,
+    "priority_people_rescued": 7
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 thakre-shelter dhunche-market",
+        "load car1 injured 4",
+        "drive car1 dhunche-market thakre-shelter",
+        "unload car1 injured 4",
+        "drive car2 thakre-shelter dhunche-market",
+        "load car2 adult 1",
+        "drive car2 dhunche-market myagang-care-home",
+        "load car2 elderly 3",
+        "drive car2 myagang-care-home thakre-shelter",
+        "unload car2 adult 1",
+        "unload car2 elderly 3",
+        "defer dhunche-market adult 1",
+        "defer tadi-market adult 7",
+        "defer shivapuri-village child 1"
+      ],
+      "claimed_cost": 330,
+      "text": "I compared each possible trip's driving time with the deferral penalties it would avoid. This was worked out by hand rather than with a solver, but I checked the main alternatives below.\n\n**Rescued**\n- **Dhunche injured (4):** A 46-minute round trip by car1 avoids a 320 penalty.\n- **Myagang elderly (3) and 1 Dhunche adult:** Car2's loop through Dhunche and Myagang takes 64 minutes. Collecting the adult adds only 14 minutes to the 50-minute Myagang round trip and avoids a 20 penalty.\n\n**Deferred**\n- **Shivapuri child (1):** The 88-minute round trip costs more than the 60 penalty.\n- **Tadi adults (7):** A 98-minute round trip carries only 4 adults and avoids just 80 in penalties.\n- **Second Dhunche adult (1):** A separate 46-minute trip costs more than the 20 penalty.\n\n**Alternatives that cost more**\n- **Loop through Tadi:** Shelter, Dhunche, Kakani, Tadi, Myagang and back takes 109 minutes. All 4 seats would avoid at most 80 in adult penalties.\n- **Adding the child to a Tadi loop:** Returning through Benighat and Shivapuri makes the route 158 minutes. It would avoid only 120 in penalties if it carried the child and 3 adults.\n\n<plan>\ndrive car1 thakre-shelter dhunche-market\nload car1 injured 4\ndrive car1 dhunche-market thakre-shelter\nunload car1 injured 4\ndrive car2 thakre-shelter dhunche-market\nload car2 adult 1\ndrive car2 dhunche-market myagang-care-home\nload car2 elderly 3\ndrive car2 myagang-care-home thakre-shelter\nunload car2 adult 1\nunload car2 elderly 3\ndefer dhunche-market adult 1\ndefer tadi-market adult 7\ndefer shivapuri-village child 1\n</plan>\n\n**Cost breakdown**\n\n| Item | Calculation | Cost |\n|---|---|---|\n| Car1 driving | 23 + 23 | 46 |\n| Car2 driving | 23 + 16 + 25 | 64 |\n| Deferred adults | 8 \u00d7 20 | 160 |\n| Deferred child | 1 \u00d7 60 | 60 |\n| **Total** | | **330** |\n\nCOST: 330"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "pipeline": "direct",
+  "instance": "medium-15",
+  "size": "medium",
+  "level": "implicit",
+  "model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 2086,
+    "output_tokens": 2234,
+    "calls": 1,
+    "seconds": 18.5
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 194,
+    "travel_minutes": 154,
+    "deferred_penalty": 40,
+    "rescued": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 2,
+      "adult": 9
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 2
+    },
+    "people_rescued": 11,
+    "priority_people_rescued": 2
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 jwalamukhi-shelter tadi-farm",
+        "load car1 adult 2",
+        "drive car1 tadi-farm jwalamukhi-shelter",
+        "unload car1 adult 2",
+        "drive car2 gosaikunda-hospital kakani-village",
+        "drive car2 kakani-village dupcheshwar-market",
+        "load car2 adult 4",
+        "drive car2 dupcheshwar-market kakani-village",
+        "drive car2 kakani-village gosaikunda-hospital",
+        "unload car2 adult 4",
+        "drive car2 gosaikunda-hospital kakani-village",
+        "load car2 adult 3",
+        "drive car2 kakani-village gosaikunda-hospital",
+        "unload car2 adult 3",
+        "drive car2 gosaikunda-hospital galchhi-farm",
+        "load car2 elderly 2",
+        "drive car2 galchhi-farm gosaikunda-hospital",
+        "unload car2 elderly 2",
+        "defer dupcheshwar-market adult 2"
+      ],
+      "claimed_cost": 194,
+      "text": "This plan rescues 11 of the 13 people and defers 2 adults at Dupcheshwar market. The work splits between the two cars, with car2 doing the Dupcheshwar and Galchhi runs.\n\n- **Tadi farm:** car1 makes the 5-minute run from the shelter and back, rescuing both shopkeepers for 10 minutes.\n- **Dupcheshwar market:** car2 goes via Kakani village (5 + 19 minutes each way) and brings back 4 of the 6 adults for 48 minutes. A second trip for the last 2 would cost at least 48 minutes against a 40-minute deferral penalty, so I defer them.\n- **Kakani village:** car2 collects all 3 adults on a 10-minute round trip.\n- **Galchhi farm:** the only usable road is from the hospital, so car2 goes there and back for 86 minutes. That is cheaper than deferring both pensioners (100).\n\n<plan>\ndrive car1 jwalamukhi-shelter tadi-farm\nload car1 adult 2\ndrive car1 tadi-farm jwalamukhi-shelter\nunload car1 adult 2\ndrive car2 gosaikunda-hospital kakani-village\ndrive car2 kakani-village dupcheshwar-market\nload car2 adult 4\ndrive car2 dupcheshwar-market kakani-village\ndrive car2 kakani-village gosaikunda-hospital\nunload car2 adult 4\ndrive car2 gosaikunda-hospital kakani-village\nload car2 adult 3\ndrive car2 kakani-village gosaikunda-hospital\nunload car2 adult 3\ndrive car2 gosaikunda-hospital galchhi-farm\nload car2 elderly 2\ndrive car2 galchhi-farm gosaikunda-hospital\nunload car2 elderly 2\ndefer dupcheshwar-market adult 2\n</plan>\nCOST: 194"
+    }
+  ]
+}

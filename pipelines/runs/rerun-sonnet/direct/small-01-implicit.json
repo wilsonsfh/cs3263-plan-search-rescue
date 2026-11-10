@@ -1,0 +1,57 @@
+{
+  "pipeline": "direct",
+  "instance": "small-01",
+  "size": "small",
+  "level": "implicit",
+  "model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1837,
+    "output_tokens": 1583,
+    "calls": 1,
+    "seconds": 14.8
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 154,
+    "travel_minutes": 134,
+    "deferred_penalty": 20,
+    "rescued": {
+      "injured": 0,
+      "child": 2,
+      "elderly": 2,
+      "adult": 0
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 1
+    },
+    "people_rescued": 4,
+    "priority_people_rescued": 4
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 myagang-shelter uttargaya-school",
+        "load car1 child 2",
+        "drive car1 uttargaya-school nilkantha-market",
+        "drive car1 nilkantha-market syaphru-temple",
+        "load car1 elderly 2",
+        "drive car1 syaphru-temple nilkantha-market",
+        "drive car1 nilkantha-market uttargaya-school",
+        "drive car1 uttargaya-school myagang-shelter",
+        "unload car1 child 2",
+        "unload car1 elderly 2",
+        "defer syaphru-temple adult 1"
+      ],
+      "claimed_cost": 154,
+      "text": "This plan rescues everyone except the farmer, who is deferred, for a total cost of 154.\n\nOnly Myagang shelter is a designated evacuation point, so Uttargaya school can't be used as a drop-off. The Myagang\u2013Nilkantha bridge is out, so the car must reach Nilkantha via Uttargaya. The car holds 4 passengers, and there are 5 people to move.\n\n- **Rescue everyone:** this needs a second 134-minute round trip, which costs far more than deferring one adult (20).\n- **Defer the farmer (adult):** this is the cheapest option. The car takes both pupils and both pensioners in one trip. The round trip is 134 minutes, plus the adult's penalty of 20, for 154.\n- **Alternatives:** rescuing only the pupils costs 56 + 120 = 176, and deferring one pupil costs 134 + 60 = 194.\n\n<plan>\ndrive car1 myagang-shelter uttargaya-school\nload car1 child 2\ndrive car1 uttargaya-school nilkantha-market\ndrive car1 nilkantha-market syaphru-temple\nload car1 elderly 2\ndrive car1 syaphru-temple nilkantha-market\ndrive car1 nilkantha-market uttargaya-school\ndrive car1 uttargaya-school myagang-shelter\nunload car1 child 2\nunload car1 elderly 2\ndefer syaphru-temple adult 1\n</plan>\n\nCOST: 154"
+    }
+  ]
+}

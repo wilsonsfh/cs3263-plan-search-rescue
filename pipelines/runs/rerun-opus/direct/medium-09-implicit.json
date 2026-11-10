@@ -1,0 +1,60 @@
+{
+  "pipeline": "direct",
+  "instance": "medium-09",
+  "size": "medium",
+  "level": "implicit",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 2163,
+    "output_tokens": 3158,
+    "calls": 1,
+    "seconds": 32.1
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 330,
+    "travel_minutes": 110,
+    "deferred_penalty": 220,
+    "rescued": {
+      "injured": 4,
+      "child": 0,
+      "elderly": 3,
+      "adult": 1
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 1,
+      "elderly": 0,
+      "adult": 8
+    },
+    "people_rescued": 8,
+    "priority_people_rescued": 7
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 thakre-shelter dhunche-market",
+        "load car1 injured 4",
+        "drive car1 dhunche-market thakre-shelter",
+        "unload car1 injured 4",
+        "drive car2 thakre-shelter myagang-care-home",
+        "load car2 elderly 3",
+        "drive car2 myagang-care-home dhunche-market",
+        "load car2 adult 1",
+        "drive car2 dhunche-market thakre-shelter",
+        "unload car2 elderly 3",
+        "unload car2 adult 1",
+        "defer dhunche-market adult 1",
+        "defer tadi-market adult 7",
+        "defer shivapuri-village child 1"
+      ],
+      "claimed_cost": 330,
+      "text": "**Recommended plan: total cost 330 (110 minutes of driving and 220 in deferral penalties).** It rescues all 4 injured people, all 3 elderly people and 1 adult. The other 8 adults and the child are deferred to a later wave. I worked this out by hand by comparing the possible routes, not with a solver.\n\n**Road and drop-off restrictions**\n- **Dhunche-Nilkantha road:** I treated this as unusable because floodwater is running fast over it and a truck was swept off this morning.\n- **Kakani school:** This isn't a designated evacuation point, so nobody can be dropped there. Thakre shelter is the only valid drop-off.\n\n**Routes**\n- **car1 (46 minutes):** Thakre \u2192 Dhunche \u2192 Thakre, carrying the 4 injured people.\n- **car2 (64 minutes):** Thakre \u2192 Myagang \u2192 Dhunche \u2192 Thakre, carrying 3 elderly people and 1 Dhunche adult. The Dhunche stop adds 14 minutes compared with a direct Myagang round trip (50 minutes), but saves a 20 penalty.\n\n**Deferrals**\n\n| Who | Location | Penalty | Cost to rescue instead | Why defer |\n|---|---|---|---|---|\n| 1 adult | Dhunche market | 20 | 46-minute extra round trip | Both cars are already full, and the trip costs more than the penalty. |\n| 7 adults | Tadi market | 140 | 98-minute round trip per 4 adults | Each trip avoids only 80 in penalties. |\n| 1 child | Shivapuri village | 60 | 88-minute round trip | The trip costs more than the penalty. Detours combining Shivapuri with other stops don't lower the total either. |\n\nThe deferred child is alone, and the penalty doesn't fully capture that risk. Rescuing the child would raise the total cost by 28 to 358, so you may want to make this a priority for the next wave or accept the extra cost now.\n\n<plan>\ndrive car1 thakre-shelter dhunche-market\nload car1 injured 4\ndrive car1 dhunche-market thakre-shelter\nunload car1 injured 4\ndrive car2 thakre-shelter myagang-care-home\nload car2 elderly 3\ndrive car2 myagang-care-home dhunche-market\nload car2 adult 1\ndrive car2 dhunche-market thakre-shelter\nunload car2 elderly 3\nunload car2 adult 1\ndefer dhunche-market adult 1\ndefer tadi-market adult 7\ndefer shivapuri-village child 1\n</plan>\n\nCOST: 330"
+    }
+  ]
+}

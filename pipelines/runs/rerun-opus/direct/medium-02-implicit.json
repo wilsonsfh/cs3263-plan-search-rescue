@@ -1,0 +1,64 @@
+{
+  "pipeline": "direct",
+  "instance": "medium-02",
+  "size": "medium",
+  "level": "implicit",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 2078,
+    "output_tokens": 2894,
+    "calls": 1,
+    "seconds": 29.1
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 191,
+    "travel_minutes": 151,
+    "deferred_penalty": 40,
+    "rescued": {
+      "injured": 6,
+      "child": 0,
+      "elderly": 2,
+      "adult": 3
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 2
+    },
+    "people_rescued": 11,
+    "priority_people_rescued": 8
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 benighat-shelter nilkantha-farm",
+        "load car1 injured 2",
+        "load car1 adult 1",
+        "drive car1 nilkantha-farm benighat-shelter",
+        "unload car1 injured 2",
+        "unload car1 adult 1",
+        "drive car2 dhunche-hospital likhu-village",
+        "load car2 injured 4",
+        "drive car2 likhu-village dhunche-hospital",
+        "unload car2 injured 4",
+        "drive car2 dhunche-hospital likhu-village",
+        "load car2 adult 2",
+        "drive car2 likhu-village kalika-temple",
+        "load car2 elderly 2",
+        "drive car2 kalika-temple dhunche-hospital",
+        "unload car2 adult 2",
+        "unload car2 elderly 2",
+        "defer likhu-village adult 2"
+      ],
+      "claimed_cost": 191,
+      "text": "The minimum-cost plan I found rescues 11 people and defers 2 adults from Likhu village, for a total cost of 191. I worked this out by comparing the options by hand rather than with a solver.\n\n**Nilkantha farm (car1):** A round trip from Benighat takes 44 minutes and carries all 3 people (2 injured, 1 adult). Deferring the 2 injured people would cost 160, so this trip is clearly worthwhile.\n\n**Likhu village and Kalika temple (car2):** There are 10 people here (4 injured, 4 adults, 2 elderly). Kalika temple is not an evacuation point, so everyone must go to Dhunche hospital.\n\n| Option for car2 | Driving | Penalties | Cost |\n|---|---|---|---|\n| Rescue all 10 (Likhu twice at 44 each, Kalika once at 60) | 148 | 0 | 148 |\n| **Two trips, defer 2 adults (Likhu at 44, then Likhu\u2013Kalika\u2013Dhunche loop at 63)** | **107** | **40** | **147** |\n| Likhu twice, defer 2 elderly | 88 | 100 | 188 |\n\nSending car1 to help is more expensive. A dedicated trip from Benighat to Likhu and on to Dhunche takes 73 minutes, compared with 44 for car2. Routing car1 through Kalika on its way from Nilkantha adds 46 minutes and frees only one seat.\n\n**Total cost:**\n- **Driving:** 44 + 44 + 63 = 151 minutes\n- **Penalties:** 2 adults \u00d7 20 = 40\n- **Total:** 151 + 40 = 191\n\n<plan>\ndrive car1 benighat-shelter nilkantha-farm\nload car1 injured 2\nload car1 adult 1\ndrive car1 nilkantha-farm benighat-shelter\nunload car1 injured 2\nunload car1 adult 1\ndrive car2 dhunche-hospital likhu-village\nload car2 injured 4\ndrive car2 likhu-village dhunche-hospital\nunload car2 injured 4\ndrive car2 dhunche-hospital likhu-village\nload car2 adult 2\ndrive car2 likhu-village kalika-temple\nload car2 elderly 2\ndrive car2 kalika-temple dhunche-hospital\nunload car2 adult 2\nunload car2 elderly 2\ndefer likhu-village adult 2\n</plan>\n\nCOST: 191"
+    }
+  ]
+}

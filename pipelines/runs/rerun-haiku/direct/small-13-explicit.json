@@ -1,0 +1,48 @@
+{
+  "pipeline": "direct",
+  "instance": "small-13",
+  "size": "small",
+  "level": "explicit",
+  "model": "claude-haiku-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1623,
+    "output_tokens": 826,
+    "calls": 1,
+    "seconds": 7.3
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 120,
+    "travel_minutes": 0,
+    "deferred_penalty": 120,
+    "rescued": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 0
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 1,
+      "elderly": 0,
+      "adult": 3
+    },
+    "people_rescued": 0,
+    "priority_people_rescued": 0
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "defer nilkantha-market adult 3",
+        "defer belkot-village child 1"
+      ],
+      "claimed_cost": 120,
+      "text": "The child at Belkot can only reach the shelter by a 186-minute round trip (93 minutes each way), which costs more than the 60-minute penalty for deferring them. The three adults at Nilkantha market have no usable road, so they must be deferred.\n\n<plan>\ndefer nilkantha-market adult 3\ndefer belkot-village child 1\n</plan>\nCOST: 120"
+    }
+  ]
+}

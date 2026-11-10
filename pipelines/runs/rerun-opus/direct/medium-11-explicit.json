@@ -1,0 +1,69 @@
+{
+  "pipeline": "direct",
+  "instance": "medium-11",
+  "size": "medium",
+  "level": "explicit",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1882,
+    "output_tokens": 1500,
+    "calls": 1,
+    "seconds": 14.2
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 496,
+    "travel_minutes": 256,
+    "deferred_penalty": 240,
+    "rescued": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 7,
+      "adult": 7
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 4,
+      "elderly": 0,
+      "adult": 0
+    },
+    "people_rescued": 14,
+    "priority_people_rescued": 7
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "defer syaphru-school child 4",
+        "drive car1 naukunda-shelter gosaikunda-care-home",
+        "drive car1 gosaikunda-care-home benighat-market",
+        "load car1 adult 4",
+        "drive car1 benighat-market gosaikunda-care-home",
+        "drive car1 gosaikunda-care-home naukunda-shelter",
+        "unload car1 adult 4",
+        "drive car1 naukunda-shelter gosaikunda-care-home",
+        "load car1 adult 3",
+        "drive car1 gosaikunda-care-home naukunda-shelter",
+        "unload car1 adult 3",
+        "drive car1 naukunda-shelter shivapuri-market",
+        "drive car1 shivapuri-market dupcheshwar-market",
+        "load car1 elderly 4",
+        "drive car1 dupcheshwar-market shivapuri-market",
+        "drive car1 shivapuri-market naukunda-shelter",
+        "unload car1 elderly 4",
+        "drive car1 naukunda-shelter shivapuri-market",
+        "drive car1 shivapuri-market dupcheshwar-market",
+        "load car1 elderly 3",
+        "drive car1 dupcheshwar-market shivapuri-market",
+        "drive car1 shivapuri-market naukunda-shelter",
+        "unload car1 elderly 3"
+      ],
+      "claimed_cost": 496,
+      "text": "The plan below costs 496 minutes: 256 of driving and 240 in penalties.\n\n**Syaphru school (4 children):** The only road there, from Dupcheshwar market, is impassable, so they can't be reached. They must be deferred, for a penalty of 4 \u00d7 60 = 240.\n\n**Dupcheshwar market (7 elderly):** The only open route is via Shivapuri market, at 40 min each way, so a round trip takes 80 min.\n\n| Option | Driving | Penalty | Cost |\n|---|---|---|---|\n| Two trips, rescue all 7 | 160 | 0 | **160** (best) |\n| One trip, defer 3 | 80 | 150 | 230 |\n| No trips, defer all 7 | 0 | 350 | 350 |\n\n**Benighat market and Gosaikunda care home (7 adults):** Gosaikunda is a 40 min round trip, and Benighat, which is reached through Gosaikunda, is a 56 min round trip. With 4 seats, one trip can't carry all 7 adults.\n\n| Option | Driving | Penalty | Cost |\n|---|---|---|---|\n| Two trips, rescue all 7 | 96 | 0 | **96** (best) |\n| Benighat trip only, defer 3 | 56 | 60 | 116 |\n| Gosaikunda trip only (3 adults), defer 4 | 40 | 80 | 120 |\n| No trips, defer all 7 | 0 | 140 | 140 |\n\nThese two areas lie on separate routes from the shelter, so their trips can't be combined and each can be optimised on its own.\n\n**Total:** 160 + 96 + 240 = 496\n\n<plan>\ndefer syaphru-school child 4\ndrive car1 naukunda-shelter gosaikunda-care-home\ndrive car1 gosaikunda-care-home benighat-market\nload car1 adult 4\ndrive car1 benighat-market gosaikunda-care-home\ndrive car1 gosaikunda-care-home naukunda-shelter\nunload car1 adult 4\ndrive car1 naukunda-shelter gosaikunda-care-home\nload car1 adult 3\ndrive car1 gosaikunda-care-home naukunda-shelter\nunload car1 adult 3\ndrive car1 naukunda-shelter shivapuri-market\ndrive car1 shivapuri-market dupcheshwar-market\nload car1 elderly 4\ndrive car1 dupcheshwar-market shivapuri-market\ndrive car1 shivapuri-market naukunda-shelter\nunload car1 elderly 4\ndrive car1 naukunda-shelter shivapuri-market\ndrive car1 shivapuri-market dupcheshwar-market\nload car1 elderly 3\ndrive car1 dupcheshwar-market shivapuri-market\ndrive car1 shivapuri-market naukunda-shelter\nunload car1 elderly 3\n</plan>\n\nCOST: 496"
+    }
+  ]
+}

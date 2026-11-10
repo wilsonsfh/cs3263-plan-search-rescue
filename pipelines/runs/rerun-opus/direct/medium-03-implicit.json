@@ -1,0 +1,57 @@
+{
+  "pipeline": "direct",
+  "instance": "medium-03",
+  "size": "medium",
+  "level": "implicit",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 2139,
+    "output_tokens": 1641,
+    "calls": 1,
+    "seconds": 16.9
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 528,
+    "travel_minutes": 38,
+    "deferred_penalty": 490,
+    "rescued": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 7,
+      "adult": 0
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 6,
+      "elderly": 1,
+      "adult": 4
+    },
+    "people_rescued": 7,
+    "priority_people_rescued": 7
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "defer kakani-temple elderly 1",
+        "defer kakani-temple adult 4",
+        "defer suryagadhi-school child 6",
+        "drive car1 uttargaya-shelter kalika-temple",
+        "load car1 elderly 4",
+        "drive car1 kalika-temple uttargaya-shelter",
+        "unload car1 elderly 4",
+        "drive car1 uttargaya-shelter bidur-care-home",
+        "load car1 elderly 3",
+        "drive car1 bidur-care-home uttargaya-shelter",
+        "unload car1 elderly 3"
+      ],
+      "claimed_cost": 528,
+      "text": "Best plan: car1 makes two round trips from Uttargaya shelter, and car2 is not used. The total cost is 528.\n\n**Unreachable locations:** Kakani temple and Suryagadhi school connect only to each other, because the bridge from Uttargaya shelter to Kakani temple is washed out. Everyone there has to be deferred:\n\n| Location | People deferred | Penalty |\n|---|---|---|\n| Kakani temple | 1 elderly | 50 |\n| Kakani temple | 4 adults | 80 |\n| Suryagadhi school | 6 children | 360 |\n| **Total** | **11 people** | **490** |\n\n**Reachable people:** There are 4 elderly people at Kalika temple and 3 at Bidur care home. Kalika temple is not a designated evacuation point, so they must be moved from there. Uttargaya shelter is the nearest safe location to both sites.\n\n| Trip | Route | People rescued | Driving minutes |\n|---|---|---|---|\n| 1 | Uttargaya shelter to Kalika temple and back | 4 elderly | 11 + 11 = 22 |\n| 2 | Uttargaya shelter to Bidur care home and back | 3 elderly | 8 + 8 = 16 |\n| **Total** | | **7 elderly** | **38** |\n\n**Alternatives that cost more:**\n- **Using car2 for Bidur care home:** it would drive 22 + 8 = 30 minutes instead of car1's 16, for a total of 52 driving minutes.\n- **A single loop through both sites:** car1 can only carry 4 of the 7 people on the 33-minute loop. Fetching the other 3 adds 22 minutes, for a total of 55, and deferring them instead adds a 150 penalty.\n\n<plan>\ndefer kakani-temple elderly 1\ndefer kakani-temple adult 4\ndefer suryagadhi-school child 6\ndrive car1 uttargaya-shelter kalika-temple\nload car1 elderly 4\ndrive car1 kalika-temple uttargaya-shelter\nunload car1 elderly 4\ndrive car1 uttargaya-shelter bidur-care-home\nload car1 elderly 3\ndrive car1 bidur-care-home uttargaya-shelter\nunload car1 elderly 3\n</plan>\n\nCOST: 528"
+    }
+  ]
+}

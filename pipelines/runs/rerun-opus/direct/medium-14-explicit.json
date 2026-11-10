@@ -1,0 +1,69 @@
+{
+  "pipeline": "direct",
+  "instance": "medium-14",
+  "size": "medium",
+  "level": "explicit",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 2065,
+    "output_tokens": 3557,
+    "calls": 1,
+    "seconds": 36.6
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 401,
+    "travel_minutes": 241,
+    "deferred_penalty": 160,
+    "rescued": {
+      "injured": 0,
+      "child": 1,
+      "elderly": 10,
+      "adult": 1
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 8
+    },
+    "people_rescued": 12,
+    "priority_people_rescued": 11
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car2 panchakanya-hospital trishuli-market",
+        "load car2 elderly 4",
+        "drive car2 trishuli-market panchakanya-hospital",
+        "unload car2 elderly 4",
+        "defer trishuli-market adult 4",
+        "drive car1 dupcheshwar-shelter tadi-school",
+        "load car1 child 1",
+        "drive car1 tadi-school benighat-market",
+        "load car1 elderly 3",
+        "drive car1 benighat-market dupcheshwar-shelter",
+        "unload car1 child 1",
+        "unload car1 elderly 3",
+        "drive car1 dupcheshwar-shelter benighat-market",
+        "drive car1 benighat-market myagang-care-home",
+        "drive car1 myagang-care-home tarkeshwar-care-home",
+        "load car1 elderly 3",
+        "load car1 adult 1",
+        "drive car1 tarkeshwar-care-home myagang-care-home",
+        "drive car1 myagang-care-home benighat-market",
+        "drive car1 benighat-market dupcheshwar-shelter",
+        "unload car1 elderly 3",
+        "unload car1 adult 1",
+        "defer uttargaya-care-home adult 4"
+      ],
+      "claimed_cost": 401,
+      "text": "The best plan I found costs 401: 241 minutes of driving plus 160 in penalties. I worked this out by hand, comparing the cost of each trip with the penalties it avoids, rather than running an exhaustive solver.\n\n**Trips**\n\n| Trip | Car | Route | Minutes | People rescued | Penalty avoided |\n|---|---|---|---|---|---|\n| Trishuli market | car2 | Panchakanya \u2192 Trishuli \u2192 Panchakanya | 130 | 4 elderly | 200 |\n| Tadi school and Benighat market | car1 | Dupcheshwar \u2192 Tadi \u2192 Benighat \u2192 Dupcheshwar | 27 | 1 child, 3 elderly | 210 |\n| Tarkeshwar care home | car1 | Dupcheshwar \u2192 Benighat \u2192 Myagang \u2192 Tarkeshwar and back | 84 | 3 elderly, 1 adult | 170 |\n\n**People deferred**\n- **Trishuli market, 4 adults (penalty 80):** a second round trip would take 130 minutes, which costs more than the penalty.\n- **Uttargaya care home, 4 adults (penalty 80):** a dedicated round trip from Dupcheshwar would take 98 minutes, which also costs more than the penalty. Adding Uttargaya to the Tarkeshwar trip takes 21 extra minutes, but the car is already full. Swapping in an adult from Uttargaya for the one at Tarkeshwar would add driving without reducing penalties.\n\n**Cost**\n- **Driving:** 130 + 27 + 84 = 241 minutes\n- **Penalties:** 80 + 80 = 160\n- **Total:** 241 + 160 = 401\n\n<plan>\ndrive car2 panchakanya-hospital trishuli-market\nload car2 elderly 4\ndrive car2 trishuli-market panchakanya-hospital\nunload car2 elderly 4\ndefer trishuli-market adult 4\ndrive car1 dupcheshwar-shelter tadi-school\nload car1 child 1\ndrive car1 tadi-school benighat-market\nload car1 elderly 3\ndrive car1 benighat-market dupcheshwar-shelter\nunload car1 child 1\nunload car1 elderly 3\ndrive car1 dupcheshwar-shelter benighat-market\ndrive car1 benighat-market myagang-care-home\ndrive car1 myagang-care-home tarkeshwar-care-home\nload car1 elderly 3\nload car1 adult 1\ndrive car1 tarkeshwar-care-home myagang-care-home\ndrive car1 myagang-care-home benighat-market\ndrive car1 benighat-market dupcheshwar-shelter\nunload car1 elderly 3\nunload car1 adult 1\ndefer uttargaya-care-home adult 4\n</plan>\n\nCOST: 401"
+    }
+  ]
+}

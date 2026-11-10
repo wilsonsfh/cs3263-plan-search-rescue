@@ -1,0 +1,52 @@
+{
+  "pipeline": "direct",
+  "instance": "small-15",
+  "size": "small",
+  "level": "implicit",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1882,
+    "output_tokens": 1035,
+    "calls": 1,
+    "seconds": 10.8
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 74,
+    "travel_minutes": 14,
+    "deferred_penalty": 60,
+    "rescued": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 3
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 3
+    },
+    "people_rescued": 3,
+    "priority_people_rescued": 0
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 shivapuri-shelter kalika-farm",
+        "load car1 adult 3",
+        "drive car1 kalika-farm shivapuri-shelter",
+        "unload car1 adult 3",
+        "defer dupcheshwar-market adult 1",
+        "defer uttargaya-farm adult 2"
+      ],
+      "claimed_cost": 74,
+      "text": "**Assumptions**\n- Shivapuri shelter is the only valid evacuation point. Dhunche temple is not designated, so drop-offs there would not count.\n- The report gives no injuries, children or elderly people, so I counted all six people as adults (penalty 20 each).\n\n**Options**\n\nThe car starts at the shelter and must return there to drop anyone off.\n\n| Option | People | Driving cost | Deferral penalty avoided | Decision |\n|---|---|---|---|---|\n| Kalika farm round trip (7 + 7) | 3 | 14 | 60 | Rescue |\n| Dupcheshwar market round trip (32 + 32) | 1 | 64 | 20 | Defer |\n| Dupcheshwar market and Uttargaya farm round trip (32 + 23 + 23 + 32) | 3 | 110 | 60 | Defer |\n\nReaching Uttargaya farm requires passing through Dupcheshwar market, and the routes through Kispang care home or Dhunche temple are longer. The shortest trip beyond Kalika farm therefore costs more than the penalties it would avoid, even with all three of those people on board.\n\n<plan>\ndrive car1 shivapuri-shelter kalika-farm\nload car1 adult 3\ndrive car1 kalika-farm shivapuri-shelter\nunload car1 adult 3\ndefer dupcheshwar-market adult 1\ndefer uttargaya-farm adult 2\n</plan>\n\n**Result**\n- **Rescued:** 3 adults from Kalika farm\n- **Deferred to a later wave:** 1 adult at Dupcheshwar market and 2 adults at Uttargaya farm\n- **Total cost:** 14 minutes of driving + 60 in penalties = 74\n\nCOST: 74"
+    }
+  ]
+}

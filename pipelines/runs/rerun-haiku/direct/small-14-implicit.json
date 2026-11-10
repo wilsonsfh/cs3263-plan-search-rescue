@@ -1,0 +1,57 @@
+{
+  "pipeline": "direct",
+  "instance": "small-14",
+  "size": "small",
+  "level": "implicit",
+  "model": "claude-haiku-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1896,
+    "output_tokens": 4986,
+    "calls": 1,
+    "seconds": 24.8
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 120,
+    "travel_minutes": 80,
+    "deferred_penalty": 40,
+    "rescued": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 3,
+      "adult": 3
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 2
+    },
+    "people_rescued": 6,
+    "priority_people_rescued": 3
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 tarkeshwar-shelter myagang-temple",
+        "load car1 elderly 3",
+        "load car1 adult 1",
+        "drive car1 myagang-temple tarkeshwar-shelter",
+        "unload car1 elderly 3",
+        "unload car1 adult 1",
+        "drive car1 tarkeshwar-shelter myagang-temple",
+        "load car1 adult 2",
+        "drive car1 myagang-temple tarkeshwar-shelter",
+        "unload car1 adult 2",
+        "defer tadi-farm adult 2"
+      ],
+      "claimed_cost": 120,
+      "text": "<plan>\ndrive car1 tarkeshwar-shelter myagang-temple\nload car1 elderly 3\nload car1 adult 1\ndrive car1 myagang-temple tarkeshwar-shelter\nunload car1 elderly 3\nunload car1 adult 1\ndrive car1 tarkeshwar-shelter myagang-temple\nload car1 adult 2\ndrive car1 myagang-temple tarkeshwar-shelter\nunload car1 adult 2\ndefer tadi-farm adult 2\n</plan>\nCOST: 120\n\nThis plan rescues the three elderly and three adults at Myagang temple and defers the two cooperative members at Tadi farm. Myagang temple is not a designated evacuation point, so all rescued people go to Tarkeshwar shelter.\n\nRescuing the Tadi farm pair too would require a detour of 22 + 22 minutes from Myagang temple, for a total cost of 124. That is 4 minutes more than deferring them (penalty 40 for two adults), so I've chosen the deferral. If the team wants everyone moved in this wave, the alternative is: drive to Myagang, load 2 adults, go to Tadi farm, load the 2 cooperative members, return to Myagang, load the rest, and return to Tarkeshwar. Note that the Shivapuri farm roads are excluded from this plan because of the collapse and the swept-away truck."
+    }
+  ]
+}

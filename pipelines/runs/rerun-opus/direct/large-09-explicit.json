@@ -1,0 +1,83 @@
+{
+  "pipeline": "direct",
+  "instance": "large-09",
+  "size": "large",
+  "level": "explicit",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 2364,
+    "output_tokens": 4024,
+    "calls": 1,
+    "seconds": 39.4
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 818,
+    "travel_minutes": 268,
+    "deferred_penalty": 550,
+    "rescued": {
+      "injured": 3,
+      "child": 8,
+      "elderly": 0,
+      "adult": 6
+    },
+    "deferred": {
+      "injured": 3,
+      "child": 0,
+      "elderly": 3,
+      "adult": 8
+    },
+    "people_rescued": 17,
+    "priority_people_rescued": 11
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "defer tarkeshwar-care-home injured 3",
+        "defer tarkeshwar-care-home elderly 3",
+        "defer jwalamukhi-market adult 4",
+        "defer shivapuri-care-home adult 1",
+        "defer naukunda-temple adult 3",
+        "drive car2 myagang-hospital kakani-market",
+        "load car2 injured 3",
+        "load car2 adult 1",
+        "drive car2 kakani-market myagang-hospital",
+        "unload car2 injured 3",
+        "unload car2 adult 1",
+        "drive car2 myagang-hospital kakani-market",
+        "load car2 adult 4",
+        "drive car2 kakani-market myagang-hospital",
+        "unload car2 adult 4",
+        "drive car2 myagang-hospital kakani-market",
+        "load car2 adult 1",
+        "drive car2 kakani-market myagang-hospital",
+        "unload car2 adult 1",
+        "drive car2 myagang-hospital shivapuri-care-home",
+        "drive car2 shivapuri-care-home gajuri-village",
+        "drive car2 gajuri-village kalika-school",
+        "load car2 child 4",
+        "drive car2 kalika-school gajuri-village",
+        "drive car2 gajuri-village shivapuri-care-home",
+        "drive car2 shivapuri-care-home myagang-hospital",
+        "unload car2 child 4",
+        "drive car2 myagang-hospital shivapuri-care-home",
+        "drive car2 shivapuri-care-home gajuri-village",
+        "drive car2 gajuri-village kalika-school",
+        "load car2 child 1",
+        "drive car2 kalika-school jwalamukhi-market",
+        "load car2 child 3",
+        "drive car2 jwalamukhi-market gajuri-village",
+        "drive car2 gajuri-village shivapuri-care-home",
+        "drive car2 shivapuri-care-home myagang-hospital",
+        "unload car2 child 4"
+      ],
+      "claimed_cost": 818,
+      "text": "**Constraints from the road network**\n- **`car1` cannot move:** both roads out of Panchakanya shelter are damaged, so `car2` has to do all the driving.\n- **Tarkeshwar care home is unreachable:** its only road is damaged, so its 3 injured and 3 elderly people must be deferred (penalty 390).\n\n**Decisions for `car2`**\n\nEvery trip starts and ends at Myagang hospital, as Panchakanya shelter can't be reached.\n\n| Location | Decision | Trips | Driving | Penalty |\n|---|---|---|---|---|\n| Kakani market | Rescue all 9 people. The last trip carries 1 adult and costs 18 min, which beats the 20 penalty. | 3 trips at 18 min each | 54 | 0 |\n| Kalika school and Jwalamukhi market | Rescue all 8 children, which fills both trips. | Kalika school (94 min), then a loop through Kalika school and Jwalamukhi market (120 min) | 214 | 0 |\n| Jwalamukhi market | Defer 4 adults. An extra trip costs 108 min, against an 80 penalty. | None | 0 | 80 |\n| Shivapuri care home | Defer 1 adult. The child trips have no free seat, and a separate trip costs 56 min, against a 20 penalty. | None | 0 | 20 |\n| Naukunda temple | Defer 3 adults. A trip costs 152 min, against a 60 penalty. | None | 0 | 60 |\n| Tarkeshwar care home | Defer 3 injured and 3 elderly people (unreachable). | None | 0 | 390 |\n| **Total** | | | **268** | **550** |\n\nI compared the main alternatives by hand, including a third trip for adults and deferring a child to free a seat. All of them cost more, but this wasn't an exhaustive solver run.\n\n<plan>\ndefer tarkeshwar-care-home injured 3\ndefer tarkeshwar-care-home elderly 3\ndefer jwalamukhi-market adult 4\ndefer shivapuri-care-home adult 1\ndefer naukunda-temple adult 3\ndrive car2 myagang-hospital kakani-market\nload car2 injured 3\nload car2 adult 1\ndrive car2 kakani-market myagang-hospital\nunload car2 injured 3\nunload car2 adult 1\ndrive car2 myagang-hospital kakani-market\nload car2 adult 4\ndrive car2 kakani-market myagang-hospital\nunload car2 adult 4\ndrive car2 myagang-hospital kakani-market\nload car2 adult 1\ndrive car2 kakani-market myagang-hospital\nunload car2 adult 1\ndrive car2 myagang-hospital shivapuri-care-home\ndrive car2 shivapuri-care-home gajuri-village\ndrive car2 gajuri-village kalika-school\nload car2 child 4\ndrive car2 kalika-school gajuri-village\ndrive car2 gajuri-village shivapuri-care-home\ndrive car2 shivapuri-care-home myagang-hospital\nunload car2 child 4\ndrive car2 myagang-hospital shivapuri-care-home\ndrive car2 shivapuri-care-home gajuri-village\ndrive car2 gajuri-village kalika-school\nload car2 child 1\ndrive car2 kalika-school jwalamukhi-market\nload car2 child 3\ndrive car2 jwalamukhi-market gajuri-village\ndrive car2 gajuri-village shivapuri-care-home\ndrive car2 shivapuri-care-home myagang-hospital\nunload car2 child 4\n</plan>\n\nCOST: 818"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "pipeline": "direct",
+  "instance": "medium-10",
+  "size": "medium",
+  "level": "implicit",
+  "model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 2161,
+    "output_tokens": 1706,
+    "calls": 1,
+    "seconds": 12.6
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 476,
+    "travel_minutes": 146,
+    "deferred_penalty": 330,
+    "rescued": {
+      "injured": 3,
+      "child": 4,
+      "elderly": 2,
+      "adult": 3
+    },
+    "deferred": {
+      "injured": 3,
+      "child": 0,
+      "elderly": 1,
+      "adult": 2
+    },
+    "people_rescued": 12,
+    "priority_people_rescued": 9
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car1 kispang-shelter myagang-temple",
+        "load car1 injured 3",
+        "load car1 elderly 1",
+        "drive car1 myagang-temple kispang-shelter",
+        "unload car1 injured 3",
+        "unload car1 elderly 1",
+        "drive car2 kispang-shelter myagang-temple",
+        "load car2 adult 3",
+        "load car2 elderly 1",
+        "drive car2 myagang-temple kispang-shelter",
+        "unload car2 adult 3",
+        "unload car2 elderly 1",
+        "drive car1 kispang-shelter gosaikunda-temple",
+        "drive car1 gosaikunda-temple galchhi-temple",
+        "load car1 child 4",
+        "drive car1 galchhi-temple gosaikunda-temple",
+        "drive car1 gosaikunda-temple kispang-shelter",
+        "unload car1 child 4",
+        "defer dupcheshwar-temple elderly 1",
+        "defer naukunda-farm adult 2",
+        "defer tadi-market injured 3"
+      ],
+      "claimed_cost": 476,
+      "text": "This plan rescues 12 of the 17 people and defers 5.\n\n- **Myagang temple:** Kispang shelter is 16 minutes away. Both cars make one round trip, and each carries 4 people. That covers all 8 people there.\n- **Galchhi temple:** The only usable route is via Gosaikunda temple, 41 minutes each way. Car1 does this after its Myagang trip. The round trip of 82 minutes is far cheaper than deferring four children, which would cost 240.\n- **Dupcheshwar temple:** A round trip costs 52 minutes, but deferring the one elderly man costs 50, so deferring is slightly cheaper.\n- **Tadi market and Naukunda farm:** Both are cut off, because the Tadi\u2013Galchhi road is blocked and they connect only to each other. All five people there must be deferred.\n\n<plan>\ndrive car1 kispang-shelter myagang-temple\nload car1 injured 3\nload car1 elderly 1\ndrive car1 myagang-temple kispang-shelter\nunload car1 injured 3\nunload car1 elderly 1\ndrive car2 kispang-shelter myagang-temple\nload car2 adult 3\nload car2 elderly 1\ndrive car2 myagang-temple kispang-shelter\nunload car2 adult 3\nunload car2 elderly 1\ndrive car1 kispang-shelter gosaikunda-temple\ndrive car1 gosaikunda-temple galchhi-temple\nload car1 child 4\ndrive car1 galchhi-temple gosaikunda-temple\ndrive car1 gosaikunda-temple kispang-shelter\nunload car1 child 4\ndefer dupcheshwar-temple elderly 1\ndefer naukunda-farm adult 2\ndefer tadi-market injured 3\n</plan>\n\nCOST: 476\n\nThat is 146 minutes of driving plus 330 in deferral penalties (50 + 40 + 240)."
+    }
+  ]
+}

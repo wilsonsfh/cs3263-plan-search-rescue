@@ -1,0 +1,64 @@
+{
+  "pipeline": "direct",
+  "instance": "medium-02",
+  "size": "medium",
+  "level": "explicit",
+  "model": "claude-haiku-5-5",
+  "effort": "medium",
+  "attempts_used": 1,
+  "usage": {
+    "input_tokens": 1884,
+    "output_tokens": 6350,
+    "calls": 1,
+    "seconds": 31.2
+  },
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 192,
+    "travel_minutes": 192,
+    "deferred_penalty": 0,
+    "rescued": {
+      "injured": 6,
+      "child": 0,
+      "elderly": 2,
+      "adult": 5
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 0
+    },
+    "people_rescued": 13,
+    "priority_people_rescued": 8
+  },
+  "attempts": [
+    {
+      "attempt": 0,
+      "stop_reason": "end_turn",
+      "plan": [
+        "drive car2 dhunche-hospital likhu-village",
+        "load car2 injured 4",
+        "drive car2 likhu-village dhunche-hospital",
+        "unload car2 injured 4",
+        "drive car2 dhunche-hospital likhu-village",
+        "load car2 adult 4",
+        "drive car2 likhu-village dhunche-hospital",
+        "unload car2 adult 4",
+        "drive car2 dhunche-hospital kalika-temple",
+        "load car2 elderly 2",
+        "drive car2 kalika-temple dhunche-hospital",
+        "unload car2 elderly 2",
+        "drive car1 benighat-shelter nilkantha-farm",
+        "load car1 adult 1",
+        "load car1 injured 2",
+        "drive car1 nilkantha-farm benighat-shelter",
+        "unload car1 adult 1",
+        "unload car1 injured 2"
+      ],
+      "claimed_cost": 192,
+      "text": "<plan>\ndrive car2 dhunche-hospital likhu-village\nload car2 injured 4\ndrive car2 likhu-village dhunche-hospital\nunload car2 injured 4\ndrive car2 dhunche-hospital likhu-village\nload car2 adult 4\ndrive car2 likhu-village dhunche-hospital\nunload car2 adult 4\ndrive car2 dhunche-hospital kalika-temple\nload car2 elderly 2\ndrive car2 kalika-temple dhunche-hospital\nunload car2 elderly 2\ndrive car1 benighat-shelter nilkantha-farm\nload car1 adult 1\nload car1 injured 2\ndrive car1 nilkantha-farm benighat-shelter\nunload car1 adult 1\nunload car1 injured 2\n</plan>\nCOST: 192"
+    }
+  ]
+}
