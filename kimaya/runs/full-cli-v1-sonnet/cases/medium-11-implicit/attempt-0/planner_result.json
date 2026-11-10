@@ -1,0 +1,50 @@
+{
+  "plan": [
+    "(defer-rescue syaphru-school child n4)",
+    "(drive car1 naukunda-shelter shivapuri-market)",
+    "(drive car1 shivapuri-market dupcheshwar-market)",
+    "(load car1 dupcheshwar-market elderly n3 n7 n4 n0 n3 n4 n1)",
+    "(drive car1 dupcheshwar-market shivapuri-market)",
+    "(drive car1 shivapuri-market naukunda-shelter)",
+    "(unload car1 naukunda-shelter elderly n3 n1 n4)",
+    "(drive car1 naukunda-shelter shivapuri-market)",
+    "(drive car1 shivapuri-market dupcheshwar-market)",
+    "(load car1 dupcheshwar-market elderly n4 n4 n0 n0 n4 n4 n0)",
+    "(drive car1 dupcheshwar-market shivapuri-market)",
+    "(drive car1 shivapuri-market naukunda-shelter)",
+    "(unload car1 naukunda-shelter elderly n4 n0 n4)",
+    "(drive car1 naukunda-shelter gosaikunda-care-home)",
+    "(drive car1 gosaikunda-care-home benighat-market)",
+    "(load car1 benighat-market adult n4 n4 n0 n0 n4 n4 n0)",
+    "(drive car1 benighat-market gosaikunda-care-home)",
+    "(drive car1 gosaikunda-care-home naukunda-shelter)",
+    "(unload car1 naukunda-shelter adult n4 n0 n4)",
+    "(drive car1 naukunda-shelter gosaikunda-care-home)",
+    "(load car1 gosaikunda-care-home adult n3 n3 n0 n0 n3 n4 n1)",
+    "(drive car1 gosaikunda-care-home naukunda-shelter)",
+    "(unload car1 naukunda-shelter adult n3 n1 n4)"
+  ],
+  "searches": [
+    {
+      "search": "optimal-lmcut",
+      "seconds": 0.5460907499073073,
+      "exit_code": 0,
+      "command": [
+        "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/.venv/bin/python",
+        "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/.tools/downward/fast-downward.py",
+        "--overall-time-limit",
+        "60s",
+        "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/pddl/domain.pddl",
+        "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/kimaya/runs/full-cli-v1-sonnet/cases/medium-11-implicit/attempt-0/planner/problem.pddl",
+        "--search",
+        "astar(lmcut())"
+      ],
+      "timed_out": false,
+      "optimal_for_generated_problem": true
+    }
+  ],
+  "seconds": 0.5460907499073073,
+  "status": "plan_found",
+  "search": "optimal-lmcut",
+  "optimal_for_generated_problem": true
+}

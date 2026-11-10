@@ -1,0 +1,62 @@
+{
+  "ok": true,
+  "text": "```pddl\n(define (problem medium-09)\n  (:domain flood-rescue)\n\n  (:objects\n    thakre-shelter kakani-school dhunche-market benighat-care-home shivapuri-village tadi-market myagang-care-home nilkantha-village tarkeshwar-care-home - location\n    car1 car2 - car\n    n1 n2 n3 n4 n5 n6 n7 - level\n  )\n\n  (:init\n    (= (total-cost) 0)\n\n    ;; roads\n    (road thakre-shelter dhunche-market) (road dhunche-market thakre-shelter)\n    (= (travel-time thakre-shelter dhunche-market) 23)\n    (= (travel-time dhunche-market thakre-shelter) 23)\n\n    (road benighat-care-home shivapuri-village) (road shivapuri-village benighat-care-home)\n    (= (travel-time benighat-care-home shivapuri-village) 30)\n    (= (travel-time shivapuri-village benighat-care-home) 30)\n\n    (road tadi-market myagang-care-home) (road myagang-care-home tadi-market)\n    (= (travel-time tadi-market myagang-care-home) 24)\n    (= (travel-time myagang-care-home tadi-market) 24)\n\n    (road thakre-shelter nilkantha-village) (road nilkantha-village thakre-shelter)\n    (= (travel-time thakre-shelter nilkantha-village) 5)\n    (= (travel-time nilkantha-village thakre-shelter) 5)\n\n    (road thakre-shelter myagang-care-home) (road myagang-care-home thakre-shelter)\n    (= (travel-time thakre-shelter myagang-care-home) 25)\n    (= (travel-time myagang-care-home thakre-shelter) 25)\n\n    (road tadi-market kakani-school) (road kakani-school tadi-market)\n    (= (travel-time tadi-market kakani-school) 24)\n    (= (travel-time kakani-school tadi-market) 24)\n\n    (road dhunche-market nilkantha-village) (road nilkantha-village dhunche-market)\n    (= (travel-time dhunche-market nilkantha-village) 23)\n    (= (travel-time nilkantha-village dhunche-market) 23)\n    (damaged dhunche-market nilkantha-village) (damaged nilkantha-village dhunche-market)\n\n    (road benighat-care-home tarkeshwar-care-home) (road tarkeshwar-care-home benighat-care-home)\n    (= (travel-time benighat-care-home tarkeshwar-care-home) 25)\n    (= (travel-time tarkeshwar-care-home benighat-care-home) 25)\n\n    (road thakre-shelter shivapuri-village) (road shivapuri-village thakre-shelter)\n    (= (travel-time thakre-shelter shivapuri-village) 44)\n    (= (travel-time shivapuri-village thakre-shelter) 44)\n\n    (road kakani-school dhunche-market) (road dhunche-market kakani-school)\n    (= (travel-time kakani-school dhunche-market) 13)\n    (= (travel-time dhunche-market kakani-school) 13)\n\n    (road tadi-market tarkeshwar-care-home) (road tarkeshwar-care-home tadi-market)\n    (= (travel-time tadi-market tarkeshwar-care-home) 10)\n    (= (travel-time tarkeshwar-care-home tadi-market) 10)\n\n    (road dhunche-market myagang-care-home) (road myagang-care-home dhunche-market)\n    (= (travel-time dhunche-market myagang-care-home) 16)\n    (= (travel-time myagang-care-home dhunche-market) 16)\n\n    ;; evacuation points\n    (evac-point thakre-shelter)\n\n    ;; cars\n    (car-at car1 thakre-shelter) (free-seats car1 n4)\n    (carrying car1 injured n0) (carrying car1 child n0) (carrying car1 elderly n0) (carrying car1 adult n0)\n    (car-at car2 thakre-shelter) (free-seats car2 n4)\n    (carrying car2 injured n0) (carrying car2 child n0) (carrying car2 elderly n0) (carrying car2 adult n0)\n\n    ;; people\n    (waiting tadi-market adult n7)\n    (waiting myagang-care-home elderly n3)\n    (waiting dhunche-market injured n4)\n    (waiting dhunche-market adult n2)\n    (waiting shivapuri-village child n1)\n\n    ;; positive\n    (positive n1) (positive n2) (positive n3) (positive n4)\n    (positive n5) (positive n6) (positive n7)\n\n    ;; sums\n    (sum n0 n0 n0) (sum n0 n1 n1) (sum n0 n2 n2) (sum n0 n3 n3)\n    (sum n0 n4 n4) (sum n0 n5 n5) (sum n0 n6 n6) (sum n0 n7 n7)\n    (sum n1 n0 n1) (sum n1 n1 n2) (sum n1 n2 n3) (sum n1 n3 n4)\n    (sum n1 n4 n5) (sum n1 n5 n6) (sum n1 n6 n7)\n    (sum n2 n0 n2) (sum n2 n1 n3) (sum n2 n2 n4) (sum n2 n3 n5)\n    (sum n2 n4 n6) (sum n2 n5 n7)\n    (sum n3 n0 n3) (sum n3 n1 n4) (sum n3 n2 n5) (sum n3 n3 n6)\n    (sum n3 n4 n7)\n    (sum n4 n0 n4) (sum n4 n1 n5) (sum n4 n2 n6) (sum n4 n3 n7)\n    (sum n5 n0 n5) (sum n5 n1 n6) (sum n5 n2 n7)\n    (sum n6 n0 n6) (sum n6 n1 n7)\n    (sum n7 n0 n7)\n\n    ;; defer costs\n    (= (defer-cost injured n1) 80) (= (defer-cost injured n2) 160) (= (defer-cost injured n3) 240)\n    (= (defer-cost injured n4) 320) (= (defer-cost injured n5) 400) (= (defer-cost injured n6) 480)\n    (= (defer-cost injured n7) 560)\n    (= (defer-cost child n1) 60) (= (defer-cost child n2) 120) (= (defer-cost child n3) 180)\n    (= (defer-cost child n4) 240) (= (defer-cost child n5) 300) (= (defer-cost child n6) 360)\n    (= (defer-cost child n7) 420)\n    (= (defer-cost elderly n1) 50) (= (defer-cost elderly n2) 100) (= (defer-cost elderly n3) 150)\n    (= (defer-cost elderly n4) 200) (= (defer-cost elderly n5) 250) (= (defer-cost elderly n6) 300)\n    (= (defer-cost elderly n7) 350)\n    (= (defer-cost adult n1) 20) (= (defer-cost adult n2) 40) (= (defer-cost adult n3) 60)\n    (= (defer-cost adult n4) 80) (= (defer-cost adult n5) 100) (= (defer-cost adult n6) 120)\n    (= (defer-cost adult n7) 140)\n  )\n\n  (:goal (and\n    (waiting tadi-market adult n0)\n    (waiting myagang-care-home elderly n0)\n    (waiting dhunche-market injured n0)\n    (waiting dhunche-market adult n0)\n    (waiting shivapuri-village child n0)\n    (carrying car1 injured n0) (carrying car1 child n0) (carrying car1 elderly n0) (carrying car1 adult n0)\n    (carrying car2 injured n0) (carrying car2 child n0) (carrying car2 elderly n0) (carrying car2 adult n0)\n  ))\n\n  (:metric minimize (total-cost))\n)\n```",
+  "input_tokens": 4194,
+  "output_tokens": 3344,
+  "thinking_tokens": 588,
+  "stop_reason": "end_turn",
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 3344,
+      "cacheReadInputTokens": 2586,
+      "cacheCreationInputTokens": 1606,
+      "webSearchRequests": 0,
+      "costUSD": 0.0401266,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 588,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 1606,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "provider_usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 1606,
+    "cache_read_input_tokens": 2586,
+    "output_tokens": 3344,
+    "output_tokens_details": {
+      "thinking_tokens": 588
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 1606,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 3344,
+        "cache_read_input_tokens": 2586,
+        "cache_creation_input_tokens": 1606,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1606
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "reported_cost_usd": 0.0401266,
+  "seconds": 17.27599975001067
+}

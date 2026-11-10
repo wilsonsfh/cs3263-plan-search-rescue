@@ -1,0 +1,1 @@
+This snapshot matches the evaluator SHA-256 in the baseline manifest. Before the API pilot, the evaluator gained size-based execution ordering, positive API-budget validation, and backend labels in records/CSV. Planner and validation logic did not change. The baseline was already running and its original manifest is retained.

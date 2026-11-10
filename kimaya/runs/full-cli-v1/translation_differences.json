@@ -1,0 +1,962 @@
+[
+  {
+    "model": "haiku",
+    "instance": "large-02",
+    "level": "explicit",
+    "requirements_only": true,
+    "differences": {
+      "other": {
+        "exact": false,
+        "precision": 0.0,
+        "recall": null,
+        "missing": [],
+        "extra": [
+          "(:requirements :strips :typing :negative-preconditions :action-costs)"
+        ]
+      }
+    }
+  },
+  {
+    "model": "haiku",
+    "instance": "large-03",
+    "level": "explicit",
+    "requirements_only": true,
+    "differences": {
+      "other": {
+        "exact": false,
+        "precision": 0.0,
+        "recall": null,
+        "missing": [],
+        "extra": [
+          "(:requirements :strips :typing :negative-preconditions :action-costs)"
+        ]
+      }
+    }
+  },
+  {
+    "model": "haiku",
+    "instance": "large-03",
+    "level": "implicit",
+    "requirements_only": true,
+    "differences": {
+      "other": {
+        "exact": false,
+        "precision": 0.0,
+        "recall": null,
+        "missing": [],
+        "extra": [
+          "(:requirements :strips :typing :negative-preconditions :action-costs)"
+        ]
+      }
+    }
+  },
+  {
+    "model": "haiku",
+    "instance": "large-04",
+    "level": "implicit",
+    "requirements_only": true,
+    "differences": {
+      "other": {
+        "exact": false,
+        "precision": 0.0,
+        "recall": null,
+        "missing": [],
+        "extra": [
+          "(:requirements :strips :typing :negative-preconditions :action-costs)"
+        ]
+      }
+    }
+  },
+  {
+    "model": "haiku",
+    "instance": "large-05",
+    "level": "explicit",
+    "requirements_only": true,
+    "differences": {
+      "other": {
+        "exact": false,
+        "precision": 0.0,
+        "recall": null,
+        "missing": [],
+        "extra": [
+          "(:requirements :strips :typing :negative-preconditions :action-costs)"
+        ]
+      }
+    }
+  },
+  {
+    "model": "haiku",
+    "instance": "large-05",
+    "level": "implicit",
+    "requirements_only": false,
+    "differences": {
+      "damaged": {
+        "exact": false,
+        "precision": 1.0,
+        "recall": 0.8333333333333334,
+        "missing": [
+          "(damaged thakre-shelter trishuli-care-home)",
+          "(damaged trishuli-care-home thakre-shelter)"
+        ],
+        "extra": []
+      },
+      "other": {
+        "exact": false,
+        "precision": 0.0,
+        "recall": null,
+        "missing": [],
+        "extra": [
+          "(:requirements :strips :typing :negative-preconditions :action-costs)"
+        ]
+      }
+    }
+  },
+  {
+    "model": "haiku",
+    "instance": "large-06",
+    "level": "implicit",
+    "requirements_only": false,
+    "differences": {
+      "damaged": {
+        "exact": false,
+        "precision": 1.0,
+        "recall": 0.6666666666666666,
+        "missing": [
+          "(damaged kakani-temple dhunche-temple)",
+          "(damaged dhunche-temple kakani-temple)"
+        ],
+        "extra": []
+      },
+      "other": {
+        "exact": false,
+        "precision": 0.0,
+        "recall": null,
+        "missing": [],
+        "extra": [
+          "(:requirements :strips :typing :negative-preconditions :action-costs)"
+        ]
+      }
+    }
+  },
+  {
+    "model": "haiku",
+    "instance": "large-07",
+    "level": "implicit",
+    "requirements_only": true,
+    "differences": {
+      "other": {
+        "exact": false,
+        "precision": 0.0,
+        "recall": null,
+        "missing": [],
+        "extra": [
+          "(:requirements :strips :typing :negative-preconditions :action-costs)"
+        ]
+      }
+    }
+  },
+  {
+    "model": "haiku",
+    "instance": "large-09",
+    "level": "explicit",
+    "requirements_only": true,
+    "differences": {
+      "other": {
+        "exact": false,
+        "precision": 0.0,
+        "recall": null,
+        "missing": [],
+        "extra": [
+          "(:requirements :strips :typing :negative-preconditions :action-costs)"
+        ]
+      }
+    }
+  },
+  {
+    "model": "haiku",
+    "instance": "large-09",
+    "level": "implicit",
+    "requirements_only": true,
+    "differences": {
+      "other": {
+        "exact": false,
+        "precision": 0.0,
+        "recall": null,
+        "missing": [],
+        "extra": [
+          "(:requirements :strips :typing :negative-preconditions :action-costs)"
+        ]
+      }
+    }
+  },
+  {
+    "model": "haiku",
+    "instance": "large-11",
+    "level": "implicit",
+    "requirements_only": true,
+    "differences": {
+      "other": {
+        "exact": false,
+        "precision": 0.0,
+        "recall": null,
+        "missing": [],
+        "extra": [
+          "(:requirements :strips :typing :negative-preconditions :action-costs)"
+        ]
+      }
+    }
+  },
+  {
+    "model": "haiku",
+    "instance": "large-12",
+    "level": "explicit",
+    "requirements_only": true,
+    "differences": {
+      "other": {
+        "exact": false,
+        "precision": 0.0,
+        "recall": null,
+        "missing": [],
+        "extra": [
+          "(:requirements :strips :typing :negative-preconditions :action-costs)"
+        ]
+      }
+    }
+  },
+  {
+    "model": "haiku",
+    "instance": "large-13",
+    "level": "implicit",
+    "requirements_only": true,
+    "differences": {
+      "other": {
+        "exact": false,
+        "precision": 0.0,
+        "recall": null,
+        "missing": [],
+        "extra": [
+          "(:requirements :strips :typing :negative-preconditions :action-costs)"
+        ]
+      }
+    }
+  },
+  {
+    "model": "haiku",
+    "instance": "large-14",
+    "level": "explicit",
+    "requirements_only": true,
+    "differences": {
+      "other": {
+        "exact": false,
+        "precision": 0.0,
+        "recall": null,
+        "missing": [],
+        "extra": [
+          "(:requirements :strips :typing :negative-preconditions :action-costs)"
+        ]
+      }
+    }
+  },
+  {
+    "model": "haiku",
+    "instance": "large-15",
+    "level": "explicit",
+    "requirements_only": true,
+    "differences": {
+      "other": {
+        "exact": false,
+        "precision": 0.0,
+        "recall": null,
+        "missing": [],
+        "extra": [
+          "(:requirements :strips :typing :negative-preconditions :action-costs)"
+        ]
+      }
+    }
+  },
+  {
+    "model": "haiku",
+    "instance": "medium-01",
+    "level": "explicit",
+    "requirements_only": true,
+    "differences": {
+      "other": {
+        "exact": false,
+        "precision": 0.0,
+        "recall": null,
+        "missing": [],
+        "extra": [
+          "(:requirements :strips :typing :negative-preconditions :action-costs)"
+        ]
+      }
+    }
+  },
+  {
+    "model": "haiku",
+    "instance": "medium-01",
+    "level": "implicit",
+    "requirements_only": true,
+    "differences": {
+      "other": {
+        "exact": false,
+        "precision": 0.0,
+        "recall": null,
+        "missing": [],
+        "extra": [
+          "(:requirements :strips :typing :negative-preconditions :action-costs)"
+        ]
+      }
+    }
+  },
+  {
+    "model": "haiku",
+    "instance": "medium-02",
+    "level": "implicit",
+    "requirements_only": true,
+    "differences": {
+      "other": {
+        "exact": false,
+        "precision": 0.0,
+        "recall": null,
+        "missing": [],
+        "extra": [
+          "(:requirements :strips :typing :negative-preconditions :action-costs)"
+        ]
+      }
+    }
+  },
+  {
+    "model": "haiku",
+    "instance": "medium-03",
+    "level": "explicit",
+    "requirements_only": true,
+    "differences": {
+      "other": {
+        "exact": false,
+        "precision": 0.0,
+        "recall": null,
+        "missing": [],
+        "extra": [
+          "(:requirements :strips :typing :negative-preconditions :action-costs)"
+        ]
+      }
+    }
+  },
+  {
+    "model": "haiku",
+    "instance": "medium-03",
+    "level": "implicit",
+    "requirements_only": false,
+    "differences": {
+      "goals": {
+        "exact": false,
+        "precision": 0.9230769230769231,
+        "recall": 0.9230769230769231,
+        "missing": [
+          "(waiting kakani-temple elderly n0)"
+        ],
+        "extra": [
+          "(waiting kakani-temple injured n0)"
+        ]
+      },
+      "other": {
+        "exact": false,
+        "precision": 0.0,
+        "recall": null,
+        "missing": [],
+        "extra": [
+          "(:requirements :strips :typing :negative-preconditions :action-costs)"
+        ]
+      },
+      "waiting": {
+        "exact": false,
+        "precision": 0.8,
+        "recall": 0.8,
+        "missing": [
+          "(waiting kakani-temple elderly n1)"
+        ],
+        "extra": [
+          "(waiting kakani-temple injured n1)"
+        ]
+      }
+    }
+  },
+  {
+    "model": "haiku",
+    "instance": "medium-04",
+    "level": "explicit",
+    "requirements_only": true,
+    "differences": {
+      "other": {
+        "exact": false,
+        "precision": 0.0,
+        "recall": null,
+        "missing": [],
+        "extra": [
+          "(:requirements :strips :typing :negative-preconditions :action-costs)"
+        ]
+      }
+    }
+  },
+  {
+    "model": "haiku",
+    "instance": "medium-04",
+    "level": "implicit",
+    "requirements_only": true,
+    "differences": {
+      "other": {
+        "exact": false,
+        "precision": 0.0,
+        "recall": null,
+        "missing": [],
+        "extra": [
+          "(:requirements :strips :typing :negative-preconditions :action-costs)"
+        ]
+      }
+    }
+  },
+  {
+    "model": "haiku",
+    "instance": "medium-05",
+    "level": "explicit",
+    "requirements_only": true,
+    "differences": {
+      "other": {
+        "exact": false,
+        "precision": 0.0,
+        "recall": null,
+        "missing": [],
+        "extra": [
+          "(:requirements :strips :typing :negative-preconditions :action-costs)"
+        ]
+      }
+    }
+  },
+  {
+    "model": "haiku",
+    "instance": "medium-05",
+    "level": "implicit",
+    "requirements_only": true,
+    "differences": {
+      "other": {
+        "exact": false,
+        "precision": 0.0,
+        "recall": null,
+        "missing": [],
+        "extra": [
+          "(:requirements :strips :typing :negative-preconditions :action-costs)"
+        ]
+      }
+    }
+  },
+  {
+    "model": "haiku",
+    "instance": "medium-06",
+    "level": "explicit",
+    "requirements_only": true,
+    "differences": {
+      "other": {
+        "exact": false,
+        "precision": 0.0,
+        "recall": null,
+        "missing": [],
+        "extra": [
+          "(:requirements :strips :typing :negative-preconditions :action-costs)"
+        ]
+      }
+    }
+  },
+  {
+    "model": "haiku",
+    "instance": "medium-06",
+    "level": "implicit",
+    "requirements_only": true,
+    "differences": {
+      "other": {
+        "exact": false,
+        "precision": 0.0,
+        "recall": null,
+        "missing": [],
+        "extra": [
+          "(:requirements :strips :typing :negative-preconditions :action-costs)"
+        ]
+      }
+    }
+  },
+  {
+    "model": "haiku",
+    "instance": "medium-07",
+    "level": "explicit",
+    "requirements_only": true,
+    "differences": {
+      "other": {
+        "exact": false,
+        "precision": 0.0,
+        "recall": null,
+        "missing": [],
+        "extra": [
+          "(:requirements :strips :typing :negative-preconditions :action-costs)"
+        ]
+      }
+    }
+  },
+  {
+    "model": "haiku",
+    "instance": "medium-07",
+    "level": "implicit",
+    "requirements_only": true,
+    "differences": {
+      "other": {
+        "exact": false,
+        "precision": 0.0,
+        "recall": null,
+        "missing": [],
+        "extra": [
+          "(:requirements :strips :typing :negative-preconditions :action-costs)"
+        ]
+      }
+    }
+  },
+  {
+    "model": "haiku",
+    "instance": "medium-08",
+    "level": "explicit",
+    "requirements_only": true,
+    "differences": {
+      "other": {
+        "exact": false,
+        "precision": 0.0,
+        "recall": null,
+        "missing": [],
+        "extra": [
+          "(:requirements :strips :typing :negative-preconditions :action-costs)"
+        ]
+      }
+    }
+  },
+  {
+    "model": "haiku",
+    "instance": "medium-08",
+    "level": "implicit",
+    "requirements_only": true,
+    "differences": {
+      "other": {
+        "exact": false,
+        "precision": 0.0,
+        "recall": null,
+        "missing": [],
+        "extra": [
+          "(:requirements :strips :typing :negative-preconditions :action-costs)"
+        ]
+      }
+    }
+  },
+  {
+    "model": "haiku",
+    "instance": "medium-09",
+    "level": "explicit",
+    "requirements_only": true,
+    "differences": {
+      "other": {
+        "exact": false,
+        "precision": 0.0,
+        "recall": null,
+        "missing": [],
+        "extra": [
+          "(:requirements :strips :typing :negative-preconditions :action-costs)"
+        ]
+      }
+    }
+  },
+  {
+    "model": "haiku",
+    "instance": "medium-10",
+    "level": "explicit",
+    "requirements_only": true,
+    "differences": {
+      "other": {
+        "exact": false,
+        "precision": 0.0,
+        "recall": null,
+        "missing": [],
+        "extra": [
+          "(:requirements :strips :typing :negative-preconditions :action-costs)"
+        ]
+      }
+    }
+  },
+  {
+    "model": "haiku",
+    "instance": "medium-11",
+    "level": "implicit",
+    "requirements_only": true,
+    "differences": {
+      "other": {
+        "exact": false,
+        "precision": 0.0,
+        "recall": null,
+        "missing": [],
+        "extra": [
+          "(:requirements :strips :typing :negative-preconditions :action-costs)"
+        ]
+      }
+    }
+  },
+  {
+    "model": "haiku",
+    "instance": "medium-13",
+    "level": "implicit",
+    "requirements_only": true,
+    "differences": {
+      "other": {
+        "exact": false,
+        "precision": 0.0,
+        "recall": null,
+        "missing": [],
+        "extra": [
+          "(:requirements :strips :typing :negative-preconditions :action-costs)"
+        ]
+      }
+    }
+  },
+  {
+    "model": "haiku",
+    "instance": "medium-15",
+    "level": "explicit",
+    "requirements_only": true,
+    "differences": {
+      "other": {
+        "exact": false,
+        "precision": 0.0,
+        "recall": null,
+        "missing": [],
+        "extra": [
+          "(:requirements :strips :typing :negative-preconditions :action-costs)"
+        ]
+      }
+    }
+  },
+  {
+    "model": "haiku",
+    "instance": "small-01",
+    "level": "explicit",
+    "requirements_only": true,
+    "differences": {
+      "other": {
+        "exact": false,
+        "precision": 0.0,
+        "recall": null,
+        "missing": [],
+        "extra": [
+          "(:requirements :strips :typing :negative-preconditions :action-costs)"
+        ]
+      }
+    }
+  },
+  {
+    "model": "haiku",
+    "instance": "small-01",
+    "level": "implicit",
+    "requirements_only": true,
+    "differences": {
+      "other": {
+        "exact": false,
+        "precision": 0.0,
+        "recall": null,
+        "missing": [],
+        "extra": [
+          "(:requirements :strips :typing :negative-preconditions :action-costs)"
+        ]
+      }
+    }
+  },
+  {
+    "model": "haiku",
+    "instance": "small-02",
+    "level": "explicit",
+    "requirements_only": true,
+    "differences": {
+      "other": {
+        "exact": false,
+        "precision": 0.0,
+        "recall": null,
+        "missing": [],
+        "extra": [
+          "(:requirements :strips :typing :negative-preconditions :action-costs)"
+        ]
+      }
+    }
+  },
+  {
+    "model": "haiku",
+    "instance": "small-02",
+    "level": "implicit",
+    "requirements_only": true,
+    "differences": {
+      "other": {
+        "exact": false,
+        "precision": 0.0,
+        "recall": null,
+        "missing": [],
+        "extra": [
+          "(:requirements :strips :typing :negative-preconditions :action-costs)"
+        ]
+      }
+    }
+  },
+  {
+    "model": "haiku",
+    "instance": "small-03",
+    "level": "explicit",
+    "requirements_only": true,
+    "differences": {
+      "other": {
+        "exact": false,
+        "precision": 0.0,
+        "recall": null,
+        "missing": [],
+        "extra": [
+          "(:requirements :strips :typing :negative-preconditions :action-costs)"
+        ]
+      }
+    }
+  },
+  {
+    "model": "haiku",
+    "instance": "small-03",
+    "level": "implicit",
+    "requirements_only": true,
+    "differences": {
+      "other": {
+        "exact": false,
+        "precision": 0.0,
+        "recall": null,
+        "missing": [],
+        "extra": [
+          "(:requirements :strips :typing :negative-preconditions :action-costs)"
+        ]
+      }
+    }
+  },
+  {
+    "model": "haiku",
+    "instance": "small-04",
+    "level": "explicit",
+    "requirements_only": true,
+    "differences": {
+      "other": {
+        "exact": false,
+        "precision": 0.0,
+        "recall": null,
+        "missing": [],
+        "extra": [
+          "(:requirements :strips :typing :negative-preconditions :action-costs)"
+        ]
+      }
+    }
+  },
+  {
+    "model": "haiku",
+    "instance": "small-04",
+    "level": "implicit",
+    "requirements_only": true,
+    "differences": {
+      "other": {
+        "exact": false,
+        "precision": 0.0,
+        "recall": null,
+        "missing": [],
+        "extra": [
+          "(:requirements :strips :typing :negative-preconditions :action-costs)"
+        ]
+      }
+    }
+  },
+  {
+    "model": "haiku",
+    "instance": "small-05",
+    "level": "explicit",
+    "requirements_only": true,
+    "differences": {
+      "other": {
+        "exact": false,
+        "precision": 0.0,
+        "recall": null,
+        "missing": [],
+        "extra": [
+          "(:requirements :strips :typing :negative-preconditions :action-costs)"
+        ]
+      }
+    }
+  },
+  {
+    "model": "haiku",
+    "instance": "small-05",
+    "level": "implicit",
+    "requirements_only": true,
+    "differences": {
+      "other": {
+        "exact": false,
+        "precision": 0.0,
+        "recall": null,
+        "missing": [],
+        "extra": [
+          "(:requirements :strips :typing :negative-preconditions :action-costs)"
+        ]
+      }
+    }
+  },
+  {
+    "model": "haiku",
+    "instance": "small-06",
+    "level": "implicit",
+    "requirements_only": true,
+    "differences": {
+      "other": {
+        "exact": false,
+        "precision": 0.0,
+        "recall": null,
+        "missing": [],
+        "extra": [
+          "(:requirements :strips :typing :negative-preconditions :action-costs)"
+        ]
+      }
+    }
+  },
+  {
+    "model": "haiku",
+    "instance": "small-08",
+    "level": "explicit",
+    "requirements_only": true,
+    "differences": {
+      "other": {
+        "exact": false,
+        "precision": 0.0,
+        "recall": null,
+        "missing": [],
+        "extra": [
+          "(:requirements :strips :typing :negative-preconditions :action-costs)"
+        ]
+      }
+    }
+  },
+  {
+    "model": "haiku",
+    "instance": "small-10",
+    "level": "explicit",
+    "requirements_only": true,
+    "differences": {
+      "other": {
+        "exact": false,
+        "precision": 0.0,
+        "recall": null,
+        "missing": [],
+        "extra": [
+          "(:requirements :strips :typing :negative-preconditions :action-costs)"
+        ]
+      }
+    }
+  },
+  {
+    "model": "haiku",
+    "instance": "small-10",
+    "level": "implicit",
+    "requirements_only": true,
+    "differences": {
+      "other": {
+        "exact": false,
+        "precision": 0.0,
+        "recall": null,
+        "missing": [],
+        "extra": [
+          "(:requirements :strips :typing :negative-preconditions :action-costs)"
+        ]
+      }
+    }
+  },
+  {
+    "model": "haiku",
+    "instance": "small-11",
+    "level": "implicit",
+    "requirements_only": true,
+    "differences": {
+      "other": {
+        "exact": false,
+        "precision": 0.0,
+        "recall": null,
+        "missing": [],
+        "extra": [
+          "(:requirements :strips :typing :negative-preconditions :action-costs)"
+        ]
+      }
+    }
+  },
+  {
+    "model": "haiku",
+    "instance": "small-13",
+    "level": "implicit",
+    "requirements_only": true,
+    "differences": {
+      "other": {
+        "exact": false,
+        "precision": 0.0,
+        "recall": null,
+        "missing": [],
+        "extra": [
+          "(:requirements :strips :typing :negative-preconditions :action-costs)"
+        ]
+      }
+    }
+  },
+  {
+    "model": "haiku",
+    "instance": "small-14",
+    "level": "implicit",
+    "requirements_only": true,
+    "differences": {
+      "other": {
+        "exact": false,
+        "precision": 0.0,
+        "recall": null,
+        "missing": [],
+        "extra": [
+          "(:requirements :strips :typing :negative-preconditions :action-costs)"
+        ]
+      }
+    }
+  },
+  {
+    "model": "haiku",
+    "instance": "small-15",
+    "level": "explicit",
+    "requirements_only": true,
+    "differences": {
+      "other": {
+        "exact": false,
+        "precision": 0.0,
+        "recall": null,
+        "missing": [],
+        "extra": [
+          "(:requirements :strips :typing :negative-preconditions :action-costs)"
+        ]
+      }
+    }
+  },
+  {
+    "model": "haiku",
+    "instance": "small-15",
+    "level": "implicit",
+    "requirements_only": true,
+    "differences": {
+      "other": {
+        "exact": false,
+        "precision": 0.0,
+        "recall": null,
+        "missing": [],
+        "extra": [
+          "(:requirements :strips :typing :negative-preconditions :action-costs)"
+        ]
+      }
+    }
+  }
+]

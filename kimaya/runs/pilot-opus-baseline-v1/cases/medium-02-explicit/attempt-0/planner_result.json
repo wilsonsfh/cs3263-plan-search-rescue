@@ -1,0 +1,45 @@
+{
+  "plan": [
+    "(drive car1 benighat-shelter nilkantha-farm)",
+    "(drive car2 dhunche-hospital kalika-temple)",
+    "(load car2 kalika-temple elderly n2 n2 n0 n0 n2 n4 n2)",
+    "(drive car2 kalika-temple likhu-village)",
+    "(load car2 likhu-village adult n2 n4 n2 n0 n2 n2 n0)",
+    "(drive car2 likhu-village dhunche-hospital)",
+    "(unload car2 dhunche-hospital elderly n2 n0 n2)",
+    "(unload car2 dhunche-hospital adult n2 n2 n4)",
+    "(drive car2 dhunche-hospital likhu-village)",
+    "(load car1 nilkantha-farm adult n1 n1 n0 n0 n1 n4 n3)",
+    "(load car1 nilkantha-farm injured n2 n2 n0 n0 n2 n3 n1)",
+    "(drive car1 nilkantha-farm benighat-shelter)",
+    "(unload car1 benighat-shelter adult n1 n1 n2)",
+    "(unload car1 benighat-shelter injured n2 n2 n4)",
+    "(load car2 likhu-village injured n4 n4 n0 n0 n4 n4 n0)",
+    "(drive car2 likhu-village dhunche-hospital)",
+    "(unload car2 dhunche-hospital injured n4 n0 n4)",
+    "(defer-rescue likhu-village adult n2)"
+  ],
+  "searches": [
+    {
+      "search": "optimal-lmcut",
+      "seconds": 22.434550957987085,
+      "exit_code": 0,
+      "command": [
+        "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/.venv/bin/python",
+        "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/.tools/downward/fast-downward.py",
+        "--overall-time-limit",
+        "60s",
+        "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/pddl/domain.pddl",
+        "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/kimaya/runs/pilot-opus-baseline-v1/cases/medium-02-explicit/attempt-0/planner/problem.pddl",
+        "--search",
+        "astar(lmcut())"
+      ],
+      "timed_out": false,
+      "optimal_for_generated_problem": true
+    }
+  ],
+  "seconds": 22.434550957987085,
+  "status": "plan_found",
+  "search": "optimal-lmcut",
+  "optimal_for_generated_problem": true
+}

@@ -1,0 +1,68 @@
+{
+  "plan": [
+    "(drive car1 trishuli-shelter uttargaya-farm)",
+    "(load car1 uttargaya-farm injured n3 n3 n0 n0 n3 n4 n1)",
+    "(drive car1 uttargaya-farm trishuli-shelter)",
+    "(unload car1 trishuli-shelter injured n3 n1 n4)",
+    "(drive car1 trishuli-shelter uttargaya-farm)",
+    "(drive car1 uttargaya-farm tadi-care-home)",
+    "(load car1 tadi-care-home elderly n4 n4 n0 n0 n4 n4 n0)",
+    "(drive car1 tadi-care-home uttargaya-farm)",
+    "(drive car1 uttargaya-farm trishuli-shelter)",
+    "(unload car1 trishuli-shelter elderly n4 n0 n4)",
+    "(drive car1 trishuli-shelter dupcheshwar-care-home)",
+    "(defer-rescue gajuri-market adult n1)",
+    "(defer-rescue jwalamukhi-market adult n2)",
+    "(defer-rescue benighat-care-home elderly n1)",
+    "(defer-rescue tarkeshwar-market adult n2)",
+    "(load car1 dupcheshwar-care-home elderly n4 n4 n0 n0 n4 n4 n0)",
+    "(drive car1 dupcheshwar-care-home trishuli-shelter)",
+    "(unload car1 trishuli-shelter elderly n4 n0 n4)",
+    "(drive car1 trishuli-shelter dupcheshwar-care-home)",
+    "(drive car1 dupcheshwar-care-home gajuri-market)",
+    "(drive car1 gajuri-market tarkeshwar-market)",
+    "(drive car1 tarkeshwar-market syaphru-market)",
+    "(defer-rescue gajuri-market injured n1)",
+    "(defer-rescue syaphru-market injured n4)"
+  ],
+  "searches": [
+    {
+      "search": "optimal-lmcut",
+      "seconds": 59.18805212492589,
+      "exit_code": 23,
+      "command": [
+        "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/.venv/bin/python",
+        "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/.tools/downward/fast-downward.py",
+        "--overall-time-limit",
+        "60s",
+        "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/pddl/domain.pddl",
+        "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/kimaya/runs/full-cli-v1-baseline/cases/large-14-explicit/attempt-0/planner/problem.pddl",
+        "--search",
+        "astar(lmcut())"
+      ],
+      "timed_out": true,
+      "optimal_for_generated_problem": false
+    },
+    {
+      "search": "lama-anytime",
+      "seconds": 59.58870954194572,
+      "exit_code": 23,
+      "command": [
+        "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/.venv/bin/python",
+        "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/.tools/downward/fast-downward.py",
+        "--overall-time-limit",
+        "60s",
+        "--alias",
+        "seq-sat-lama-2011",
+        "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/pddl/domain.pddl",
+        "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/kimaya/runs/full-cli-v1-baseline/cases/large-14-explicit/attempt-0/planner/problem.pddl"
+      ],
+      "timed_out": true,
+      "optimal_for_generated_problem": false
+    }
+  ],
+  "seconds": 118.77676166687161,
+  "status": "plan_found",
+  "search": "lama-anytime",
+  "optimal_for_generated_problem": false
+}

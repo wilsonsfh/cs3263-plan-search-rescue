@@ -1,0 +1,38 @@
+{
+  "plan": [
+    "(drive car1 myagang-shelter uttargaya-school)",
+    "(drive car1 uttargaya-school nilkantha-market)",
+    "(drive car1 nilkantha-market syaphru-temple)",
+    "(load car1 syaphru-temple elderly n2 n2 n0 n0 n2 n4 n2)",
+    "(drive car1 syaphru-temple nilkantha-market)",
+    "(defer-rescue syaphru-temple adult n1)",
+    "(drive car1 nilkantha-market uttargaya-school)",
+    "(load car1 uttargaya-school child n2 n2 n0 n0 n2 n2 n0)",
+    "(drive car1 uttargaya-school myagang-shelter)",
+    "(unload car1 myagang-shelter child n2 n0 n2)",
+    "(unload car1 myagang-shelter elderly n2 n2 n4)"
+  ],
+  "searches": [
+    {
+      "search": "optimal-lmcut",
+      "seconds": 0.09540975000709295,
+      "exit_code": 0,
+      "command": [
+        "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/.venv/bin/python",
+        "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/.tools/downward/fast-downward.py",
+        "--overall-time-limit",
+        "60s",
+        "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/pddl/domain.pddl",
+        "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/kimaya/runs/pilot-opus-baseline-v1/cases/small-01-implicit/attempt-0/planner/problem.pddl",
+        "--search",
+        "astar(lmcut())"
+      ],
+      "timed_out": false,
+      "optimal_for_generated_problem": true
+    }
+  ],
+  "seconds": 0.09540975000709295,
+  "status": "plan_found",
+  "search": "optimal-lmcut",
+  "optimal_for_generated_problem": true
+}

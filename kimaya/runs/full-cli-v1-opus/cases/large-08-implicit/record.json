@@ -1,0 +1,337 @@
+{
+  "instance": "large-08",
+  "size": "large",
+  "mode": "live",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "attempts": [
+    {
+      "index": 0,
+      "llm": {
+        "ok": true,
+        "text": "```pddl\n(define (problem large-08)\n  (:domain flood-rescue)\n\n  (:objects\n    kakani-shelter kalika-hospital naukunda-school suryagadhi-care-home\n    likhu-farm gajuri-temple thakre-temple panchakanya-care-home\n    syaphru-village belkot-school benighat-temple - location\n    car1 car2 - car\n    n1 n2 n3 n4 n5 - level)\n\n  (:init\n    (= (total-cost) 0)\n\n    ;; Evacuation points\n    (evac-point kakani-shelter)\n    (evac-point kalika-hospital)\n\n    ;; Cars\n    (car-at car1 kakani-shelter)\n    (free-seats car1 n4)\n    (carrying car1 injured n0)\n    (carrying car1 child n0)\n    (carrying car1 elderly n0)\n    (carrying car1 adult n0)\n\n    (car-at car2 kalika-hospital)\n    (free-seats car2 n4)\n    (carrying car2 injured n0)\n    (carrying car2 child n0)\n    (carrying car2 elderly n0)\n    (carrying car2 adult n0)\n\n    ;; Roads\n    ;; kakani-shelter <-> kalika-hospital (damaged)\n    (road kakani-shelter kalika-hospital)\n    (road kalika-hospital kakani-shelter)\n    (= (travel-time kakani-shelter kalika-hospital) 5)\n    (= (travel-time kalika-hospital kakani-shelter) 5)\n    (damaged kakani-shelter kalika-hospital)\n    (damaged kalika-hospital kakani-shelter)\n\n    ;; kalika-hospital <-> suryagadhi-care-home\n    (road kalika-hospital suryagadhi-care-home)\n    (road suryagadhi-care-home kalika-hospital)\n    (= (travel-time kalika-hospital suryagadhi-care-home) 22)\n    (= (travel-time suryagadhi-care-home kalika-hospital) 22)\n\n    ;; likhu-farm <-> gajuri-temple\n    (road likhu-farm gajuri-temple)\n    (road gajuri-temple likhu-farm)\n    (= (travel-time likhu-farm gajuri-temple) 20)\n    (= (travel-time gajuri-temple likhu-farm) 20)\n\n    ;; thakre-temple <-> panchakanya-care-home (damaged)\n    (road thakre-temple panchakanya-care-home)\n    (road panchakanya-care-home thakre-temple)\n    (= (travel-time thakre-temple panchakanya-care-home) 11)\n    (= (travel-time panchakanya-care-home thakre-temple) 11)\n    (damaged thakre-temple panchakanya-care-home)\n    (damaged panchakanya-care-home thakre-temple)\n\n    ;; kakani-shelter <-> suryagadhi-care-home\n    (road kakani-shelter suryagadhi-care-home)\n    (road suryagadhi-care-home kakani-shelter)\n    (= (travel-time kakani-shelter suryagadhi-care-home) 18)\n    (= (travel-time suryagadhi-care-home kakani-shelter) 18)\n\n    ;; likhu-farm <-> suryagadhi-care-home\n    (road likhu-farm suryagadhi-care-home)\n    (road suryagadhi-care-home likhu-farm)\n    (= (travel-time likhu-farm suryagadhi-care-home) 5)\n    (= (travel-time suryagadhi-care-home likhu-farm) 5)\n\n    ;; suryagadhi-care-home <-> gajuri-temple\n    (road suryagadhi-care-home gajuri-temple)\n    (road gajuri-temple suryagadhi-care-home)\n    (= (travel-time suryagadhi-care-home gajuri-temple) 17)\n    (= (travel-time gajuri-temple suryagadhi-care-home) 17)\n\n    ;; kakani-shelter <-> likhu-farm (damaged)\n    (road kakani-shelter likhu-farm)\n    (road likhu-farm kakani-shelter)\n    (= (travel-time kakani-shelter likhu-farm) 21)\n    (= (travel-time likhu-farm kakani-shelter) 21)\n    (damaged kakani-shelter likhu-farm)\n    (damaged likhu-farm kakani-shelter)\n\n    ;; suryagadhi-care-home <-> syaphru-village\n    (road suryagadhi-care-home syaphru-village)\n    (road syaphru-village suryagadhi-care-home)\n    (= (travel-time suryagadhi-care-home syaphru-village) 17)\n    (= (travel-time syaphru-village suryagadhi-care-home) 17)\n\n    ;; panchakanya-care-home <-> syaphru-village\n    (road panchakanya-care-home syaphru-village)\n    (road syaphru-village panchakanya-care-home)\n    (= (travel-time panchakanya-care-home syaphru-village) 28)\n    (= (travel-time syaphru-village panchakanya-care-home) 28)\n\n    ;; kalika-hospital <-> belkot-school\n    (road kalika-hospital belkot-school)\n    (road belkot-school kalika-hospital)\n    (= (travel-time kalika-hospital belkot-school) 16)\n    (= (travel-time belkot-school kalika-hospital) 16)\n\n    ;; kalika-hospital <-> gajuri-temple\n    (road kalika-hospital gajuri-temple)\n    (road gajuri-temple kalika-hospital)\n    (= (travel-time kalika-hospital gajuri-temple) 10)\n    (= (travel-time gajuri-temple kalika-hospital) 10)\n\n    ;; thakre-temple <-> benighat-temple\n    (road thakre-temple benighat-temple)\n    (road benighat-temple thakre-temple)\n    (= (travel-time thakre-temple benighat-temple) 5)\n    (= (travel-time benighat-temple thakre-temple) 5)\n\n    ;; kakani-shelter <-> belkot-school (damaged)\n    (road kakani-shelter belkot-school)\n    (road belkot-school kakani-shelter)\n    (= (travel-time kakani-shelter belkot-school) 18)\n    (= (travel-time belkot-school kakani-shelter) 18)\n    (damaged kakani-shelter belkot-school)\n    (damaged belkot-school kakani-shelter)\n\n    ;; kalika-hospital <-> naukunda-school\n    (road kalika-hospital naukunda-school)\n    (road naukunda-school kalika-hospital)\n    (= (travel-time kalika-hospital naukunda-school) 25)\n    (= (travel-time naukunda-school kalika-hospital) 25)\n\n    ;; kalika-hospital <-> benighat-temple\n    (road kalika-hospital benighat-temple)\n    (road benighat-temple kalika-hospital)\n    (= (travel-time kalika-hospital benighat-temple) 36)\n    (= (travel-time benighat-temple kalika-hospital) 36)\n\n    ;; Waiting people\n    (waiting suryagadhi-care-home elderly n2)\n    (waiting belkot-school child n5)\n    (waiting syaphru-village child n4)\n    (waiting syaphru-village adult n3)\n    (waiting panchakanya-care-home elderly n2)\n    (waiting thakre-temple elderly n1)\n\n    ;; Level arithmetic: a + b = c\n    (sum n0 n0 n0) (sum n0 n1 n1) (sum n0 n2 n2) (sum n0 n3 n3) (sum n0 n4 n4) (sum n0 n5 n5)\n    (sum n1 n0 n1) (sum n1 n1 n2) (sum n1 n2 n3) (sum n1 n3 n4) (sum n1 n4 n5)\n    (sum n2 n0 n2) (sum n2 n1 n3) (sum n2 n2 n4) (sum n2 n3 n5)\n    (sum n3 n0 n3) (sum n3 n1 n4) (sum n3 n2 n5)\n    (sum n4 n0 n4) (sum n4 n1 n5)\n    (sum n5 n0 n5)\n\n    (positive n1) (positive n2) (positive n3) (positive n4) (positive n5)\n\n    ;; Deferral penalties\n    (= (defer-cost injured n1) 80)\n    (= (defer-cost injured n2) 160)\n    (= (defer-cost injured n3) 240)\n    (= (defer-cost injured n4) 320)\n    (= (defer-cost injured n5) 400)\n\n    (= (defer-cost child n1) 60)\n    (= (defer-cost child n2) 120)\n    (= (defer-cost child n3) 180)\n    (= (defer-cost child n4) 240)\n    (= (defer-cost child n5) 300)\n\n    (= (defer-cost elderly n1) 50)\n    (= (defer-cost elderly n2) 100)\n    (= (defer-cost elderly n3) 150)\n    (= (defer-cost elderly n4) 200)\n    (= (defer-cost elderly n5) 250)\n\n    (= (defer-cost adult n1) 20)\n    (= (defer-cost adult n2) 40)\n    (= (defer-cost adult n3) 60)\n    (= (defer-cost adult n4) 80)\n    (= (defer-cost adult n5) 100)\n  )\n\n  (:goal (and\n    (waiting suryagadhi-care-home elderly n0)\n    (waiting belkot-school child n0)\n    (waiting syaphru-village child n0)\n    (waiting syaphru-village adult n0)\n    (waiting panchakanya-care-home elderly n0)\n    (waiting thakre-temple elderly n0)\n\n    (carrying car1 injured n0)\n    (carrying car1 child n0)\n    (carrying car1 elderly n0)\n    (carrying car1 adult n0)\n\n    (carrying car2 injured n0)\n    (carrying car2 child n0)\n    (carrying car2 elderly n0)\n    (carrying car2 adult n0)\n  ))\n\n  (:metric minimize (total-cost))\n)\n```",
+        "input_tokens": 4565,
+        "output_tokens": 4256,
+        "thinking_tokens": 768,
+        "stop_reason": "end_turn",
+        "model_usage": {
+          "claude-opus-5-5": {
+            "inputTokens": 2,
+            "outputTokens": 4256,
+            "cacheReadInputTokens": 2586,
+            "cacheCreationInputTokens": 1977,
+            "webSearchRequests": 0,
+            "costUSD": 0.10146119999999999,
+            "contextWindow": 1000000,
+            "maxOutputTokens": 128000,
+            "thinkingTokens": 768,
+            "cacheCreationEphemeral5mInputTokens": 0,
+            "cacheCreationEphemeral1hInputTokens": 1977,
+            "canonicalModel": "claude-opus-5-5",
+            "provider": "firstParty",
+            "costBasis": "list"
+          }
+        },
+        "provider_usage": {
+          "input_tokens": 2,
+          "cache_creation_input_tokens": 1977,
+          "cache_read_input_tokens": 2586,
+          "output_tokens": 4256,
+          "output_tokens_details": {
+            "thinking_tokens": 768
+          },
+          "server_tool_use": {
+            "web_search_requests": 0,
+            "web_fetch_requests": 0
+          },
+          "service_tier": "standard",
+          "cache_creation": {
+            "ephemeral_1h_input_tokens": 1977,
+            "ephemeral_5m_input_tokens": 0
+          },
+          "inference_geo": "global",
+          "iterations": [
+            {
+              "input_tokens": 2,
+              "output_tokens": 4256,
+              "cache_read_input_tokens": 2586,
+              "cache_creation_input_tokens": 1977,
+              "cache_creation": {
+                "ephemeral_5m_input_tokens": 0,
+                "ephemeral_1h_input_tokens": 1977
+              },
+              "type": "message"
+            }
+          ],
+          "speed": "standard",
+          "fallback_credit": null
+        },
+        "reported_cost_usd": 0.10146119999999999,
+        "seconds": 29.506356541998684
+      },
+      "pddl_blocks": 1,
+      "pddl_characters": 7126,
+      "fidelity": {
+        "parse_ok": true,
+        "exact": true,
+        "scenario_exact": true,
+        "categories": {
+          "car-at": {
+            "exact": true,
+            "precision": 1.0,
+            "recall": 1.0,
+            "missing": [],
+            "extra": []
+          },
+          "carrying": {
+            "exact": true,
+            "precision": 1.0,
+            "recall": 1.0,
+            "missing": [],
+            "extra": []
+          },
+          "damaged": {
+            "exact": true,
+            "precision": 1.0,
+            "recall": 1.0,
+            "missing": [],
+            "extra": []
+          },
+          "defer-cost": {
+            "exact": true,
+            "precision": 1.0,
+            "recall": 1.0,
+            "missing": [],
+            "extra": []
+          },
+          "domain": {
+            "exact": true,
+            "precision": 1.0,
+            "recall": 1.0,
+            "missing": [],
+            "extra": []
+          },
+          "encoding": {
+            "exact": true,
+            "precision": 1.0,
+            "recall": 1.0,
+            "missing": [],
+            "extra": []
+          },
+          "evac-point": {
+            "exact": true,
+            "precision": 1.0,
+            "recall": 1.0,
+            "missing": [],
+            "extra": []
+          },
+          "free-seats": {
+            "exact": true,
+            "precision": 1.0,
+            "recall": 1.0,
+            "missing": [],
+            "extra": []
+          },
+          "goals": {
+            "exact": true,
+            "precision": 1.0,
+            "recall": 1.0,
+            "missing": [],
+            "extra": []
+          },
+          "initial_cost": {
+            "exact": true,
+            "precision": 1.0,
+            "recall": 1.0,
+            "missing": [],
+            "extra": []
+          },
+          "metric": {
+            "exact": true,
+            "precision": 1.0,
+            "recall": 1.0,
+            "missing": [],
+            "extra": []
+          },
+          "objects": {
+            "exact": true,
+            "precision": 1.0,
+            "recall": 1.0,
+            "missing": [],
+            "extra": []
+          },
+          "other": {
+            "exact": true,
+            "precision": null,
+            "recall": null,
+            "missing": [],
+            "extra": []
+          },
+          "road": {
+            "exact": true,
+            "precision": 1.0,
+            "recall": 1.0,
+            "missing": [],
+            "extra": []
+          },
+          "travel-time": {
+            "exact": true,
+            "precision": 1.0,
+            "recall": 1.0,
+            "missing": [],
+            "extra": []
+          },
+          "waiting": {
+            "exact": true,
+            "precision": 1.0,
+            "recall": 1.0,
+            "missing": [],
+            "extra": []
+          }
+        }
+      },
+      "fidelity_seconds": 0.0010584170231595635,
+      "planner": {
+        "plan": [
+          "(drive car1 kakani-shelter suryagadhi-care-home)",
+          "(load car1 suryagadhi-care-home elderly n2 n2 n0 n0 n2 n4 n2)",
+          "(drive car1 suryagadhi-care-home syaphru-village)",
+          "(drive car1 syaphru-village panchakanya-care-home)",
+          "(load car1 panchakanya-care-home elderly n2 n2 n0 n2 n4 n2 n0)",
+          "(drive car1 panchakanya-care-home syaphru-village)",
+          "(defer-rescue thakre-temple elderly n1)",
+          "(drive car1 syaphru-village suryagadhi-care-home)",
+          "(drive car1 suryagadhi-care-home kakani-shelter)",
+          "(unload car1 kakani-shelter elderly n4 n0 n4)",
+          "(drive car1 kakani-shelter suryagadhi-care-home)",
+          "(drive car2 kalika-hospital belkot-school)",
+          "(drive car1 suryagadhi-care-home syaphru-village)",
+          "(load car2 belkot-school child n4 n5 n1 n0 n4 n4 n0)",
+          "(drive car2 belkot-school kalika-hospital)",
+          "(unload car2 kalika-hospital child n4 n0 n4)",
+          "(drive car2 kalika-hospital belkot-school)",
+          "(load car2 belkot-school child n1 n1 n0 n0 n1 n4 n3)",
+          "(drive car2 belkot-school kalika-hospital)",
+          "(unload car2 kalika-hospital child n1 n3 n4)",
+          "(defer-rescue syaphru-village adult n3)",
+          "(defer-rescue syaphru-village child n4)"
+        ],
+        "searches": [
+          {
+            "search": "optimal-lmcut",
+            "seconds": 59.19093104102649,
+            "exit_code": 23,
+            "command": [
+              "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/.venv/bin/python",
+              "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/.tools/downward/fast-downward.py",
+              "--overall-time-limit",
+              "60s",
+              "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/pddl/domain.pddl",
+              "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/kimaya/runs/full-cli-v1-opus/cases/large-08-implicit/attempt-0/planner/problem.pddl",
+              "--search",
+              "astar(lmcut())"
+            ],
+            "timed_out": true,
+            "optimal_for_generated_problem": false
+          },
+          {
+            "search": "lama-anytime",
+            "seconds": 59.208858250058256,
+            "exit_code": 23,
+            "command": [
+              "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/.venv/bin/python",
+              "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/.tools/downward/fast-downward.py",
+              "--overall-time-limit",
+              "60s",
+              "--alias",
+              "seq-sat-lama-2011",
+              "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/pddl/domain.pddl",
+              "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/kimaya/runs/full-cli-v1-opus/cases/large-08-implicit/attempt-0/planner/problem.pddl"
+            ],
+            "timed_out": true,
+            "optimal_for_generated_problem": false
+          }
+        ],
+        "seconds": 118.39978929108474,
+        "status": "plan_found",
+        "search": "lama-anytime",
+        "optimal_for_generated_problem": false
+      },
+      "status": "valid",
+      "result": {
+        "valid": true,
+        "error": "",
+        "cost": 575,
+        "travel_minutes": 225,
+        "deferred_penalty": 350,
+        "rescued": {
+          "injured": 0,
+          "child": 5,
+          "elderly": 4,
+          "adult": 0
+        },
+        "deferred": {
+          "injured": 0,
+          "child": 4,
+          "elderly": 1,
+          "adult": 3
+        },
+        "people_rescued": 9,
+        "priority_people_rescued": 9
+      },
+      "validation_seconds": 6.779097020626068e-05,
+      "plan_actions": 22
+    }
+  ],
+  "status": "valid",
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 575,
+    "travel_minutes": 225,
+    "deferred_penalty": 350,
+    "rescued": {
+      "injured": 0,
+      "child": 5,
+      "elderly": 4,
+      "adult": 0
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 4,
+      "elderly": 1,
+      "adult": 3
+    },
+    "people_rescued": 9,
+    "priority_people_rescued": 9
+  },
+  "first_valid": true,
+  "first_status": "valid",
+  "timing": {
+    "llm_seconds": 29.506356541998684,
+    "planner_seconds": 118.39978929108474,
+    "validation_seconds": 6.779097020626068e-05,
+    "fidelity_seconds": 0.0010584170231595635,
+    "total_seconds": 147.91134995792527,
+    "resumed_cached_seconds": 0.0,
+    "other_seconds": 0.004077916848473251
+  },
+  "usage": {
+    "calls": 1,
+    "input_tokens": 4565,
+    "output_tokens": 4256,
+    "thinking_tokens": 768,
+    "estimated_cost_usd": null,
+    "reported_cost_usd": 0.10146119999999999,
+    "provider_input_tokens": 2,
+    "provider_cache_read_input_tokens": 2586,
+    "provider_cache_creation_input_tokens": 1977,
+    "initial_input_tokens": 4565,
+    "initial_output_tokens": 4256,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0
+  },
+  "complete": true,
+  "level": "implicit",
+  "backend": "cli"
+}

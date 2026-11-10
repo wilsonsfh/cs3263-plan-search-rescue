@@ -1,0 +1,62 @@
+{
+  "ok": true,
+  "text": "```pddl\n;; Nuwakot district flood response (scenario large-11)\n;; Evacuation points: tarkeshwar-shelter, dupcheshwar-hospital.\n;; myagang-temple is not designated as a drop-off point, so it is not marked evac-point.\n;; The panchakanya-farm to trishuli-temple road is closed by police, so it is marked damaged.\n;; The galchhi-village to myagang-temple road has fast floodwater and a swept-away truck, so it is marked damaged.\n;; Level objects: K = max(car capacity 4, largest group 6) = 6.\n\n(define (problem flood-rescue-large-11)\n  (:domain flood-rescue)\n\n  (:requirements :strips :typing :negative-preconditions :action-costs)\n\n  (:objects\n    tarkeshwar-shelter dupcheshwar-hospital myagang-temple bidur-village\n    syaphru-village panchakanya-farm trishuli-temple galchhi-village\n    nilkantha-care-home gajuri-school naukunda-school - location\n    car1 car2 - car\n    n1 n2 n3 n4 n5 n6 - level)\n\n  (:init\n    (= (total-cost) 0)\n\n    ;; Evacuation points\n    (evac-point tarkeshwar-shelter)\n    (evac-point dupcheshwar-hospital)\n\n    ;; Roads (both directions), travel times, and damaged roads\n\n    ;; dupcheshwar-hospital <-> bidur-village, 21 min\n    (road dupcheshwar-hospital bidur-village)\n    (road bidur-village dupcheshwar-hospital)\n    (= (travel-time dupcheshwar-hospital bidur-village) 21)\n    (= (travel-time bidur-village dupcheshwar-hospital) 21)\n\n    ;; syaphru-village <-> panchakanya-farm, 9 min\n    (road syaphru-village panchakanya-farm)\n    (road panchakanya-farm syaphru-village)\n    (= (travel-time syaphru-village panchakanya-farm) 9)\n    (= (travel-time panchakanya-farm syaphru-village) 9)\n\n    ;; tarkeshwar-shelter <-> galchhi-village, 20 min (muddy, passable)\n    (road tarkeshwar-shelter galchhi-village)\n    (road galchhi-village tarkeshwar-shelter)\n    (= (travel-time tarkeshwar-shelter galchhi-village) 20)\n    (= (travel-time galchhi-village tarkeshwar-shelter) 20)\n\n    ;; tarkeshwar-shelter <-> bidur-village, 15 min\n    (road tarkeshwar-shelter bidur-village)\n    (road bidur-village tarkeshwar-shelter)\n    (= (travel-time tarkeshwar-shelter bidur-village) 15)\n    (= (travel-time bidur-village tarkeshwar-shelter) 15)\n\n    ;; syaphru-village <-> trishuli-temple, 21 min\n    (road syaphru-village trishuli-temple)\n    (road trishuli-temple syaphru-village)\n    (= (travel-time syaphru-village trishuli-temple) 21)\n    (= (travel-time trishuli-temple syaphru-village) 21)\n\n    ;; galchhi-village <-> syaphru-village, 14 min (muddy, passable)\n    (road galchhi-village syaphru-village)\n    (road syaphru-village galchhi-village)\n    (= (travel-time galchhi-village syaphru-village) 14)\n    (= (travel-time syaphru-village galchhi-village) 14)\n\n    ;; tarkeshwar-shelter <-> trishuli-temple, 52 min\n    (road tarkeshwar-shelter trishuli-temple)\n    (road trishuli-temple tarkeshwar-shelter)\n    (= (travel-time tarkeshwar-shelter trishuli-temple) 52)\n    (= (travel-time trishuli-temple tarkeshwar-shelter) 52)\n\n    ;; panchakanya-farm <-> trishuli-temple, 12 min, CLOSED (collapsed into river)\n    (road panchakanya-farm trishuli-temple)\n    (road trishuli-temple panchakanya-farm)\n    (= (travel-time panchakanya-farm trishuli-temple) 12)\n    (= (travel-time trishuli-temple panchakanya-farm) 12)\n    (damaged panchakanya-farm trishuli-temple)\n    (damaged trishuli-temple panchakanya-farm)\n\n    ;; bidur-village <-> myagang-temple, 17 min (muddy, passable)\n    (road bidur-village myagang-temple)\n    (road myagang-temple bidur-village)\n    (= (travel-time bidur-village myagang-temple) 17)\n    (= (travel-time myagang-temple bidur-village) 17)\n\n    ;; galchhi-village <-> panchakanya-farm, 22 min\n    (road galchhi-village panchakanya-farm)\n    (road panchakanya-farm galchhi-village)\n    (= (travel-time galchhi-village panchakanya-farm) 22)\n    (= (travel-time panchakanya-farm galchhi-village) 22)\n\n    ;; dupcheshwar-hospital <-> nilkantha-care-home, 18 min\n    (road dupcheshwar-hospital nilkantha-care-home)\n    (road nilkantha-care-home dupcheshwar-hospital)\n    (= (travel-time dupcheshwar-hospital nilkantha-care-home) 18)\n    (= (travel-time nilkantha-care-home dupcheshwar-hospital) 18)\n\n    ;; tarkeshwar-shelter <-> gajuri-school, 10 min\n    (road tarkeshwar-shelter gajuri-school)\n    (road gajuri-school tarkeshwar-shelter)\n    (= (travel-time tarkeshwar-shelter gajuri-school) 10)\n    (= (travel-time gajuri-school tarkeshwar-shelter) 10)\n\n    ;; myagang-temple <-> nilkantha-care-home, 11 min\n    (road myagang-temple nilkantha-care-home)\n    (road nilkantha-care-home myagang-temple)\n    (= (travel-time myagang-temple nilkantha-care-home) 11)\n    (= (travel-time nilkantha-care-home myagang-temple) 11)\n\n    ;; naukunda-school <-> trishuli-temple, 5 min\n    (road naukunda-school trishuli-temple)\n    (road trishuli-temple naukunda-school)\n    (= (travel-time naukunda-school trishuli-temple) 5)\n    (= (travel-time trishuli-temple naukunda-school) 5)\n\n    ;; galchhi-village <-> bidur-village, 12 min (muddy, passable)\n    (road galchhi-village bidur-village)\n    (road bidur-village galchhi-village)\n    (= (travel-time galchhi-village bidur-village) 12)\n    (= (travel-time bidur-village galchhi-village) 12)\n\n    ;; galchhi-village <-> myagang-temple, 14 min, UNUSABLE (fast floodwater, truck swept off)\n    (road galchhi-village myagang-temple)\n    (road myagang-temple galchhi-village)\n    (= (travel-time galchhi-village myagang-temple) 14)\n    (= (travel-time myagang-temple galchhi-village) 14)\n    (damaged galchhi-village myagang-temple)\n    (damaged myagang-temple galchhi-village)\n\n    ;; Cars\n    (car-at car1 tarkeshwar-shelter)\n    (free-seats car1 n4)\n    (carrying car1 injured n0)\n    (carrying car1 child n0)\n    (carrying car1 elderly n0)\n    (carrying car1 adult n0)\n\n    (car-at car2 dupcheshwar-hospital)\n    (free-seats car2 n4)\n    (carrying car2 injured n0)\n    (carrying car2 child n0)\n    (carrying car2 elderly n0)\n    (carrying car2 adult n0)\n\n    ;; People waiting\n    (waiting panchakanya-farm adult n6)\n    (waiting syaphru-village adult n5)\n    (waiting galchhi-village injured n1)\n    (waiting naukunda-school child n4)\n    (waiting nilkantha-care-home adult n2)\n    (waiting bidur-village elderly n2)\n\n    ;; Arithmetic: (sum a b c) means a + b = c, for a, b, c in n0..n6\n    (sum n0 n0 n0)\n    (sum n0 n1 n1)\n    (sum n0 n2 n2)\n    (sum n0 n3 n3)\n    (sum n0 n4 n4)\n    (sum n0 n5 n5)\n    (sum n0 n6 n6)\n    (sum n1 n0 n1)\n    (sum n1 n1 n2)\n    (sum n1 n2 n3)\n    (sum n1 n3 n4)\n    (sum n1 n4 n5)\n    (sum n1 n5 n6)\n    (sum n2 n0 n2)\n    (sum n2 n1 n3)\n    (sum n2 n2 n4)\n    (sum n2 n3 n5)\n    (sum n2 n4 n6)\n    (sum n3 n0 n3)\n    (sum n3 n1 n4)\n    (sum n3 n2 n5)\n    (sum n3 n3 n6)\n    (sum n4 n0 n4)\n    (sum n4 n1 n5)\n    (sum n4 n2 n6)\n    (sum n5 n0 n5)\n    (sum n5 n1 n6)\n    (sum n6 n0 n6)\n\n    (positive n1)\n    (positive n2)\n    (positive n3)\n    (positive n4)\n    (positive n5)\n    (positive n6)\n\n    ;; Deferral penalties: per-person penalty x N\n    (= (defer-cost injured n1) 80)\n    (= (defer-cost injured n2) 160)\n    (= (defer-cost injured n3) 240)\n    (= (defer-cost injured n4) 320)\n    (= (defer-cost injured n5) 400)\n    (= (defer-cost injured n6) 480)\n\n    (= (defer-cost child n1) 60)\n    (= (defer-cost child n2) 120)\n    (= (defer-cost child n3) 180)\n    (= (defer-cost child n4) 240)\n    (= (defer-cost child n5) 300)\n    (= (defer-cost child n6) 360)\n\n    (= (defer-cost elderly n1) 50)\n    (= (defer-cost elderly n2) 100)\n    (= (defer-cost elderly n3) 150)\n    (= (defer-cost elderly n4) 200)\n    (= (defer-cost elderly n5) 250)\n    (= (defer-cost elderly n6) 300)\n\n    (= (defer-cost adult n1) 20)\n    (= (defer-cost adult n2) 40)\n    (= (defer-cost adult n3) 60)\n    (= (defer-cost adult n4) 80)\n    (= (defer-cost adult n5) 100)\n    (= (defer-cost adult n6) 120)\n  )\n\n  (:goal (and\n    ;; Everyone waiting is either rescued or deferred\n    (waiting panchakanya-farm adult n0)\n    (waiting syaphru-village adult n0)\n    (waiting galchhi-village injured n0)\n    (waiting naukunda-school child n0)\n    (waiting nilkantha-care-home adult n0)\n    (waiting bidur-village elderly n0)\n\n    ;; Both cars empty\n    (carrying car1 injured n0)\n    (carrying car1 child n0)\n    (carrying car1 elderly n0)\n    (carrying car1 adult n0)\n    (carrying car2 injured n0)\n    (carrying car2 child n0)\n    (carrying car2 elderly n0)\n    (carrying car2 adult n0)\n  ))\n\n  (:metric minimize (total-cost))\n)\n```",
+  "input_tokens": 4621,
+  "output_tokens": 7751,
+  "thinking_tokens": 3653,
+  "stop_reason": "end_turn",
+  "model_usage": {
+    "claude-haiku-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 7751,
+      "cacheReadInputTokens": 2586,
+      "cacheCreationInputTokens": 2033,
+      "webSearchRequests": 0,
+      "costUSD": 0.00430816,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 3653,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 2033,
+      "canonicalModel": "claude-haiku-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "provider_usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 2033,
+    "cache_read_input_tokens": 2586,
+    "output_tokens": 7751,
+    "output_tokens_details": {
+      "thinking_tokens": 3653
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 2033,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 7751,
+        "cache_read_input_tokens": 2586,
+        "cache_creation_input_tokens": 2033,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 2033
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "reported_cost_usd": 0.00430816,
+  "seconds": 27.861695750034414
+}

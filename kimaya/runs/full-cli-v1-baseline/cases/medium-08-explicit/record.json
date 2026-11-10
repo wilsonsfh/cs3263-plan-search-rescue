@@ -1,0 +1,277 @@
+{
+  "instance": "medium-08",
+  "size": "medium",
+  "mode": "baseline",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "attempts": [
+    {
+      "index": 0,
+      "pddl_characters": 3991,
+      "fidelity": {
+        "parse_ok": true,
+        "exact": true,
+        "scenario_exact": true,
+        "categories": {
+          "car-at": {
+            "exact": true,
+            "precision": 1.0,
+            "recall": 1.0,
+            "missing": [],
+            "extra": []
+          },
+          "carrying": {
+            "exact": true,
+            "precision": 1.0,
+            "recall": 1.0,
+            "missing": [],
+            "extra": []
+          },
+          "damaged": {
+            "exact": true,
+            "precision": 1.0,
+            "recall": 1.0,
+            "missing": [],
+            "extra": []
+          },
+          "defer-cost": {
+            "exact": true,
+            "precision": 1.0,
+            "recall": 1.0,
+            "missing": [],
+            "extra": []
+          },
+          "domain": {
+            "exact": true,
+            "precision": 1.0,
+            "recall": 1.0,
+            "missing": [],
+            "extra": []
+          },
+          "encoding": {
+            "exact": true,
+            "precision": 1.0,
+            "recall": 1.0,
+            "missing": [],
+            "extra": []
+          },
+          "evac-point": {
+            "exact": true,
+            "precision": 1.0,
+            "recall": 1.0,
+            "missing": [],
+            "extra": []
+          },
+          "free-seats": {
+            "exact": true,
+            "precision": 1.0,
+            "recall": 1.0,
+            "missing": [],
+            "extra": []
+          },
+          "goals": {
+            "exact": true,
+            "precision": 1.0,
+            "recall": 1.0,
+            "missing": [],
+            "extra": []
+          },
+          "initial_cost": {
+            "exact": true,
+            "precision": 1.0,
+            "recall": 1.0,
+            "missing": [],
+            "extra": []
+          },
+          "metric": {
+            "exact": true,
+            "precision": 1.0,
+            "recall": 1.0,
+            "missing": [],
+            "extra": []
+          },
+          "objects": {
+            "exact": true,
+            "precision": 1.0,
+            "recall": 1.0,
+            "missing": [],
+            "extra": []
+          },
+          "other": {
+            "exact": true,
+            "precision": null,
+            "recall": null,
+            "missing": [],
+            "extra": []
+          },
+          "road": {
+            "exact": true,
+            "precision": 1.0,
+            "recall": 1.0,
+            "missing": [],
+            "extra": []
+          },
+          "travel-time": {
+            "exact": true,
+            "precision": 1.0,
+            "recall": 1.0,
+            "missing": [],
+            "extra": []
+          },
+          "waiting": {
+            "exact": true,
+            "precision": 1.0,
+            "recall": 1.0,
+            "missing": [],
+            "extra": []
+          }
+        }
+      },
+      "fidelity_seconds": 0.00037174997851252556,
+      "planner": {
+        "plan": [
+          "(drive car2 uttargaya-shelter bidur-temple)",
+          "(drive car2 bidur-temple trishuli-village)",
+          "(load car2 trishuli-village injured n3 n3 n0 n0 n3 n4 n1)",
+          "(drive car2 trishuli-village bidur-temple)",
+          "(load car2 bidur-temple adult n1 n3 n2 n0 n1 n1 n0)",
+          "(drive car2 bidur-temple uttargaya-shelter)",
+          "(unload car2 uttargaya-shelter injured n3 n0 n3)",
+          "(unload car2 uttargaya-shelter adult n1 n3 n4)",
+          "(drive car2 uttargaya-shelter kakani-temple)",
+          "(load car2 kakani-temple elderly n3 n3 n0 n0 n3 n4 n1)",
+          "(load car2 kakani-temple adult n1 n4 n3 n0 n1 n1 n0)",
+          "(drive car1 uttargaya-shelter bidur-temple)",
+          "(drive car2 kakani-temple uttargaya-shelter)",
+          "(unload car2 uttargaya-shelter elderly n3 n0 n3)",
+          "(unload car2 uttargaya-shelter adult n1 n3 n4)",
+          "(drive car2 uttargaya-shelter kakani-temple)",
+          "(drive car1 bidur-temple syaphru-farm)",
+          "(load car1 syaphru-farm elderly n3 n3 n0 n0 n3 n4 n1)",
+          "(drive car1 syaphru-farm bidur-temple)",
+          "(load car1 bidur-temple adult n1 n2 n1 n0 n1 n1 n0)",
+          "(drive car1 bidur-temple uttargaya-shelter)",
+          "(unload car1 uttargaya-shelter elderly n3 n0 n3)",
+          "(unload car1 uttargaya-shelter adult n1 n3 n4)",
+          "(defer-rescue bidur-temple adult n1)",
+          "(defer-rescue kakani-temple adult n3)"
+        ],
+        "searches": [
+          {
+            "search": "optimal-lmcut",
+            "seconds": 59.21531487500761,
+            "exit_code": 23,
+            "command": [
+              "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/.venv/bin/python",
+              "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/.tools/downward/fast-downward.py",
+              "--overall-time-limit",
+              "60s",
+              "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/pddl/domain.pddl",
+              "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/kimaya/runs/full-cli-v1-baseline/cases/medium-08-explicit/attempt-0/planner/problem.pddl",
+              "--search",
+              "astar(lmcut())"
+            ],
+            "timed_out": true,
+            "optimal_for_generated_problem": false
+          },
+          {
+            "search": "lama-anytime",
+            "seconds": 59.401835249969736,
+            "exit_code": 23,
+            "command": [
+              "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/.venv/bin/python",
+              "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/.tools/downward/fast-downward.py",
+              "--overall-time-limit",
+              "60s",
+              "--alias",
+              "seq-sat-lama-2011",
+              "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/pddl/domain.pddl",
+              "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/kimaya/runs/full-cli-v1-baseline/cases/medium-08-explicit/attempt-0/planner/problem.pddl"
+            ],
+            "timed_out": true,
+            "optimal_for_generated_problem": false
+          }
+        ],
+        "seconds": 118.61715012497734,
+        "status": "plan_found",
+        "search": "lama-anytime",
+        "optimal_for_generated_problem": false
+      },
+      "status": "valid",
+      "result": {
+        "valid": true,
+        "error": "",
+        "cost": 328,
+        "travel_minutes": 248,
+        "deferred_penalty": 80,
+        "rescued": {
+          "injured": 3,
+          "child": 0,
+          "elderly": 6,
+          "adult": 3
+        },
+        "deferred": {
+          "injured": 0,
+          "child": 0,
+          "elderly": 0,
+          "adult": 4
+        },
+        "people_rescued": 12,
+        "priority_people_rescued": 9
+      },
+      "validation_seconds": 6.495800334960222e-05,
+      "plan_actions": 25
+    }
+  ],
+  "status": "valid",
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 328,
+    "travel_minutes": 248,
+    "deferred_penalty": 80,
+    "rescued": {
+      "injured": 3,
+      "child": 0,
+      "elderly": 6,
+      "adult": 3
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 4
+    },
+    "people_rescued": 12,
+    "priority_people_rescued": 9
+  },
+  "first_valid": true,
+  "first_status": "valid",
+  "timing": {
+    "llm_seconds": 0.0,
+    "planner_seconds": 118.61715012497734,
+    "validation_seconds": 6.495800334960222e-05,
+    "fidelity_seconds": 0.00037174997851252556,
+    "total_seconds": 118.62427137501072,
+    "resumed_cached_seconds": 0.0,
+    "other_seconds": 0.006684542051516473
+  },
+  "usage": {
+    "calls": 0,
+    "input_tokens": null,
+    "output_tokens": null,
+    "thinking_tokens": null,
+    "estimated_cost_usd": null,
+    "reported_cost_usd": null,
+    "provider_input_tokens": null,
+    "provider_cache_read_input_tokens": null,
+    "provider_cache_creation_input_tokens": null,
+    "initial_input_tokens": null,
+    "initial_output_tokens": null,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0
+  },
+  "complete": true,
+  "level": "explicit",
+  "backend": null
+}

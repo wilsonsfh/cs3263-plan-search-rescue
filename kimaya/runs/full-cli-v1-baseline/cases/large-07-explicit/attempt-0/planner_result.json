@@ -1,0 +1,76 @@
+{
+  "plan": [
+    "(drive car1 galchhi-shelter naukunda-care-home)",
+    "(load car1 naukunda-care-home elderly n1 n1 n0 n0 n1 n4 n3)",
+    "(drive car1 naukunda-care-home gosaikunda-village)",
+    "(load car1 gosaikunda-village adult n2 n2 n0 n0 n2 n3 n1)",
+    "(load car1 gosaikunda-village child n1 n4 n3 n0 n1 n1 n0)",
+    "(drive car1 gosaikunda-village naukunda-care-home)",
+    "(drive car1 naukunda-care-home galchhi-shelter)",
+    "(unload car1 galchhi-shelter child n1 n0 n1)",
+    "(unload car1 galchhi-shelter adult n2 n1 n3)",
+    "(unload car1 galchhi-shelter elderly n1 n3 n4)",
+    "(drive car1 galchhi-shelter belkot-farm)",
+    "(drive car1 belkot-farm kalika-farm)",
+    "(drive car1 kalika-farm likhu-care-home)",
+    "(load car1 likhu-care-home injured n1 n1 n0 n0 n1 n4 n3)",
+    "(load car1 likhu-care-home elderly n3 n3 n0 n0 n3 n3 n0)",
+    "(drive car1 likhu-care-home kalika-farm)",
+    "(drive car1 kalika-farm belkot-farm)",
+    "(defer-rescue thakre-care-home injured n1)",
+    "(drive car1 belkot-farm galchhi-shelter)",
+    "(unload car1 galchhi-shelter injured n1 n0 n1)",
+    "(unload car1 galchhi-shelter elderly n3 n1 n4)",
+    "(drive car1 galchhi-shelter naukunda-care-home)",
+    "(drive car1 naukunda-care-home gosaikunda-village)",
+    "(load car1 gosaikunda-village elderly n1 n1 n0 n0 n1 n4 n3)",
+    "(load car1 gosaikunda-village child n3 n3 n0 n0 n3 n3 n0)",
+    "(drive car1 gosaikunda-village naukunda-care-home)",
+    "(drive car1 naukunda-care-home galchhi-shelter)",
+    "(unload car1 galchhi-shelter child n3 n0 n3)",
+    "(unload car1 galchhi-shelter elderly n1 n3 n4)",
+    "(drive car1 galchhi-shelter belkot-farm)",
+    "(defer-rescue kalika-farm adult n6)",
+    "(defer-rescue belkot-farm elderly n4)"
+  ],
+  "searches": [
+    {
+      "search": "optimal-lmcut",
+      "seconds": 59.25831670803018,
+      "exit_code": 23,
+      "command": [
+        "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/.venv/bin/python",
+        "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/.tools/downward/fast-downward.py",
+        "--overall-time-limit",
+        "60s",
+        "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/pddl/domain.pddl",
+        "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/kimaya/runs/full-cli-v1-baseline/cases/large-07-explicit/attempt-0/planner/problem.pddl",
+        "--search",
+        "astar(lmcut())"
+      ],
+      "timed_out": true,
+      "optimal_for_generated_problem": false
+    },
+    {
+      "search": "lama-anytime",
+      "seconds": 59.61494566698093,
+      "exit_code": 23,
+      "command": [
+        "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/.venv/bin/python",
+        "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/.tools/downward/fast-downward.py",
+        "--overall-time-limit",
+        "60s",
+        "--alias",
+        "seq-sat-lama-2011",
+        "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/pddl/domain.pddl",
+        "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/kimaya/runs/full-cli-v1-baseline/cases/large-07-explicit/attempt-0/planner/problem.pddl"
+      ],
+      "timed_out": true,
+      "optimal_for_generated_problem": false
+    }
+  ],
+  "seconds": 118.87326237501111,
+  "status": "plan_found",
+  "search": "lama-anytime",
+  "optimal_for_generated_problem": false
+}

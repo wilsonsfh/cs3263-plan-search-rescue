@@ -1,0 +1,5 @@
+{
+  "instance": "small-01",
+  "level": "explicit",
+  "reason": "API preflight failed; see api_interruption.json. No model request issued."
+}

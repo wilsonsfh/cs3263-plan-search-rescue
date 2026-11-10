@@ -1,0 +1,62 @@
+{
+  "ok": true,
+  "text": "```pddl\n(define (problem small-14)\n  (:domain flood-rescue)\n\n  (:objects\n    tarkeshwar-shelter myagang-temple shivapuri-farm gosaikunda-village tadi-farm benighat-farm - location\n    car1 - car\n    n1 n2 n3 n4 - level\n  )\n\n  (:init\n    (= (total-cost) 0)\n\n    ;; roads\n    (road tarkeshwar-shelter myagang-temple)\n    (road myagang-temple tarkeshwar-shelter)\n    (= (travel-time tarkeshwar-shelter myagang-temple) 20)\n    (= (travel-time myagang-temple tarkeshwar-shelter) 20)\n\n    (road shivapuri-farm gosaikunda-village)\n    (road gosaikunda-village shivapuri-farm)\n    (= (travel-time shivapuri-farm gosaikunda-village) 26)\n    (= (travel-time gosaikunda-village shivapuri-farm) 26)\n    (damaged shivapuri-farm gosaikunda-village)\n    (damaged gosaikunda-village shivapuri-farm)\n\n    (road shivapuri-farm benighat-farm)\n    (road benighat-farm shivapuri-farm)\n    (= (travel-time shivapuri-farm benighat-farm) 24)\n    (= (travel-time benighat-farm shivapuri-farm) 24)\n    (damaged shivapuri-farm benighat-farm)\n    (damaged benighat-farm shivapuri-farm)\n\n    (road shivapuri-farm myagang-temple)\n    (road myagang-temple shivapuri-farm)\n    (= (travel-time shivapuri-farm myagang-temple) 19)\n    (= (travel-time myagang-temple shivapuri-farm) 19)\n\n    (road gosaikunda-village tadi-farm)\n    (road tadi-farm gosaikunda-village)\n    (= (travel-time gosaikunda-village tadi-farm) 58)\n    (= (travel-time tadi-farm gosaikunda-village) 58)\n\n    (road tadi-farm myagang-temple)\n    (road myagang-temple tadi-farm)\n    (= (travel-time tadi-farm myagang-temple) 22)\n    (= (travel-time myagang-temple tadi-farm) 22)\n\n    (road benighat-farm myagang-temple)\n    (road myagang-temple benighat-farm)\n    (= (travel-time benighat-farm myagang-temple) 21)\n    (= (travel-time myagang-temple benighat-farm) 21)\n\n    ;; evacuation points\n    (evac-point tarkeshwar-shelter)\n\n    ;; car\n    (car-at car1 tarkeshwar-shelter)\n    (free-seats car1 n4)\n    (carrying car1 injured n0)\n    (carrying car1 child n0)\n    (carrying car1 elderly n0)\n    (carrying car1 adult n0)\n\n    ;; people waiting\n    (waiting myagang-temple elderly n3)\n    (waiting myagang-temple adult n3)\n    (waiting tadi-farm adult n2)\n\n    ;; sums\n    (sum n0 n0 n0)\n    (sum n0 n1 n1) (sum n1 n0 n1)\n    (sum n0 n2 n2) (sum n1 n1 n2) (sum n2 n0 n2)\n    (sum n0 n3 n3) (sum n1 n2 n3) (sum n2 n1 n3) (sum n3 n0 n3)\n    (sum n0 n4 n4) (sum n1 n3 n4) (sum n2 n2 n4) (sum n3 n1 n4) (sum n4 n0 n4)\n\n    (positive n1) (positive n2) (positive n3) (positive n4)\n\n    ;; defer costs\n    (= (defer-cost injured n1) 80)\n    (= (defer-cost injured n2) 160)\n    (= (defer-cost injured n3) 240)\n    (= (defer-cost injured n4) 320)\n    (= (defer-cost child n1) 60)\n    (= (defer-cost child n2) 120)\n    (= (defer-cost child n3) 180)\n    (= (defer-cost child n4) 240)\n    (= (defer-cost elderly n1) 50)\n    (= (defer-cost elderly n2) 100)\n    (= (defer-cost elderly n3) 150)\n    (= (defer-cost elderly n4) 200)\n    (= (defer-cost adult n1) 20)\n    (= (defer-cost adult n2) 40)\n    (= (defer-cost adult n3) 60)\n    (= (defer-cost adult n4) 80)\n  )\n\n  (:goal (and\n    (waiting myagang-temple elderly n0)\n    (waiting myagang-temple adult n0)\n    (waiting tadi-farm adult n0)\n    (carrying car1 injured n0)\n    (carrying car1 child n0)\n    (carrying car1 elderly n0)\n    (carrying car1 adult n0)\n  ))\n\n  (:metric minimize (total-cost))\n)\n```",
+  "input_tokens": 3738,
+  "output_tokens": 2105,
+  "thinking_tokens": 386,
+  "stop_reason": "end_turn",
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 2105,
+      "cacheReadInputTokens": 2586,
+      "cacheCreationInputTokens": 1150,
+      "webSearchRequests": 0,
+      "costUSD": 0.0259126,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 386,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 1150,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "provider_usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 1150,
+    "cache_read_input_tokens": 2586,
+    "output_tokens": 2105,
+    "output_tokens_details": {
+      "thinking_tokens": 386
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 1150,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 2105,
+        "cache_read_input_tokens": 2586,
+        "cache_creation_input_tokens": 1150,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1150
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "reported_cost_usd": 0.0259126,
+  "seconds": 11.914894707966596
+}

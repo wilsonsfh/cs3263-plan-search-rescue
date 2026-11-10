@@ -1,0 +1,47 @@
+{
+  "plan": [
+    "(drive car1 kakani-shelter jwalamukhi-school)",
+    "(drive car1 jwalamukhi-school benighat-school)",
+    "(load car1 benighat-school injured n4 n4 n0 n0 n4 n4 n0)",
+    "(drive car1 benighat-school jwalamukhi-school)",
+    "(drive car1 jwalamukhi-school kakani-shelter)",
+    "(unload car1 kakani-shelter injured n4 n0 n4)",
+    "(drive car1 kakani-shelter jwalamukhi-school)",
+    "(drive car1 jwalamukhi-school benighat-school)",
+    "(load car1 benighat-school child n4 n4 n0 n0 n4 n4 n0)",
+    "(drive car1 benighat-school jwalamukhi-school)",
+    "(drive car1 jwalamukhi-school kakani-shelter)",
+    "(unload car1 kakani-shelter child n4 n0 n4)",
+    "(drive car1 kakani-shelter dupcheshwar-farm)",
+    "(load car1 dupcheshwar-farm child n1 n1 n0 n0 n1 n4 n3)",
+    "(drive car1 dupcheshwar-farm panchakanya-school)",
+    "(load car1 panchakanya-school child n3 n3 n0 n1 n4 n3 n0)",
+    "(drive car1 panchakanya-school myagang-hospital)",
+    "(unload car1 myagang-hospital child n4 n0 n4)",
+    "(defer-rescue gajuri-market adult n3)",
+    "(defer-rescue jwalamukhi-school adult n4)"
+  ],
+  "searches": [
+    {
+      "search": "optimal-lmcut",
+      "seconds": 6.501419832929969,
+      "exit_code": 0,
+      "command": [
+        "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/.venv/bin/python",
+        "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/.tools/downward/fast-downward.py",
+        "--overall-time-limit",
+        "60s",
+        "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/pddl/domain.pddl",
+        "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/kimaya/runs/full-cli-v1-haiku/cases/medium-07-explicit/attempt-0/planner/problem.pddl",
+        "--search",
+        "astar(lmcut())"
+      ],
+      "timed_out": false,
+      "optimal_for_generated_problem": true
+    }
+  ],
+  "seconds": 6.501419832929969,
+  "status": "plan_found",
+  "search": "optimal-lmcut",
+  "optimal_for_generated_problem": true
+}

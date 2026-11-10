@@ -1,0 +1,235 @@
+{
+  "instance": "medium-01",
+  "size": "medium",
+  "mode": "mock",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "attempts": [
+    {
+      "index": 0,
+      "pddl_characters": 4467,
+      "fidelity": {
+        "parse_ok": true,
+        "exact": true,
+        "scenario_exact": true,
+        "categories": {
+          "car-at": {
+            "exact": true,
+            "precision": 1.0,
+            "recall": 1.0,
+            "missing": [],
+            "extra": []
+          },
+          "carrying": {
+            "exact": true,
+            "precision": 1.0,
+            "recall": 1.0,
+            "missing": [],
+            "extra": []
+          },
+          "damaged": {
+            "exact": true,
+            "precision": 1.0,
+            "recall": 1.0,
+            "missing": [],
+            "extra": []
+          },
+          "defer-cost": {
+            "exact": true,
+            "precision": 1.0,
+            "recall": 1.0,
+            "missing": [],
+            "extra": []
+          },
+          "domain": {
+            "exact": true,
+            "precision": 1.0,
+            "recall": 1.0,
+            "missing": [],
+            "extra": []
+          },
+          "encoding": {
+            "exact": true,
+            "precision": 1.0,
+            "recall": 1.0,
+            "missing": [],
+            "extra": []
+          },
+          "evac-point": {
+            "exact": true,
+            "precision": 1.0,
+            "recall": 1.0,
+            "missing": [],
+            "extra": []
+          },
+          "free-seats": {
+            "exact": true,
+            "precision": 1.0,
+            "recall": 1.0,
+            "missing": [],
+            "extra": []
+          },
+          "goals": {
+            "exact": true,
+            "precision": 1.0,
+            "recall": 1.0,
+            "missing": [],
+            "extra": []
+          },
+          "initial_cost": {
+            "exact": true,
+            "precision": 1.0,
+            "recall": 1.0,
+            "missing": [],
+            "extra": []
+          },
+          "metric": {
+            "exact": true,
+            "precision": 1.0,
+            "recall": 1.0,
+            "missing": [],
+            "extra": []
+          },
+          "objects": {
+            "exact": true,
+            "precision": 1.0,
+            "recall": 1.0,
+            "missing": [],
+            "extra": []
+          },
+          "other": {
+            "exact": true,
+            "precision": null,
+            "recall": null,
+            "missing": [],
+            "extra": []
+          },
+          "road": {
+            "exact": true,
+            "precision": 1.0,
+            "recall": 1.0,
+            "missing": [],
+            "extra": []
+          },
+          "travel-time": {
+            "exact": true,
+            "precision": 1.0,
+            "recall": 1.0,
+            "missing": [],
+            "extra": []
+          },
+          "waiting": {
+            "exact": true,
+            "precision": 1.0,
+            "recall": 1.0,
+            "missing": [],
+            "extra": []
+          }
+        }
+      },
+      "fidelity_seconds": 0.00038533296901732683,
+      "planner": {
+        "plan": [
+          "defer belkot-farm adult 2",
+          "drive car2 kakani-shelter tarkeshwar-school",
+          "drive car2 tarkeshwar-school benighat-farm",
+          "load car2 adult 4",
+          "drive car2 benighat-farm tarkeshwar-school",
+          "drive car2 tarkeshwar-school kakani-shelter",
+          "drive car1 kakani-shelter tarkeshwar-school",
+          "unload car2 adult 4",
+          "drive car2 kakani-shelter tarkeshwar-school",
+          "load car2 injured 4",
+          "drive car2 tarkeshwar-school kakani-shelter",
+          "unload car2 injured 4",
+          "load car1 child 1",
+          "drive car1 tarkeshwar-school naukunda-school",
+          "load car1 child 3",
+          "drive car1 naukunda-school kakani-shelter",
+          "unload car1 child 4",
+          "defer myagang-market adult 4"
+        ],
+        "status": "plan_found",
+        "seconds": 0,
+        "searches": [],
+        "search": "mock-fixture",
+        "optimal_for_generated_problem": false
+      },
+      "status": "valid",
+      "result": {
+        "valid": true,
+        "error": "",
+        "cost": 250,
+        "travel_minutes": 130,
+        "deferred_penalty": 120,
+        "rescued": {
+          "injured": 4,
+          "child": 4,
+          "elderly": 0,
+          "adult": 4
+        },
+        "deferred": {
+          "injured": 0,
+          "child": 0,
+          "elderly": 0,
+          "adult": 6
+        },
+        "people_rescued": 12,
+        "priority_people_rescued": 8
+      },
+      "validation_seconds": 3.3832970075309277e-05,
+      "plan_actions": 18
+    }
+  ],
+  "status": "valid",
+  "result": {
+    "valid": true,
+    "error": "",
+    "cost": 250,
+    "travel_minutes": 130,
+    "deferred_penalty": 120,
+    "rescued": {
+      "injured": 4,
+      "child": 4,
+      "elderly": 0,
+      "adult": 4
+    },
+    "deferred": {
+      "injured": 0,
+      "child": 0,
+      "elderly": 0,
+      "adult": 6
+    },
+    "people_rescued": 12,
+    "priority_people_rescued": 8
+  },
+  "first_valid": true,
+  "first_status": "valid",
+  "timing": {
+    "llm_seconds": 0.0,
+    "planner_seconds": 0.0,
+    "validation_seconds": 3.3832970075309277e-05,
+    "fidelity_seconds": 0.00038533296901732683,
+    "total_seconds": 0.001481874962337315,
+    "resumed_cached_seconds": 0.0,
+    "other_seconds": 0.001062709023244679
+  },
+  "usage": {
+    "calls": 0,
+    "input_tokens": null,
+    "output_tokens": null,
+    "thinking_tokens": null,
+    "estimated_cost_usd": null,
+    "reported_cost_usd": null,
+    "provider_input_tokens": null,
+    "provider_cache_read_input_tokens": null,
+    "provider_cache_creation_input_tokens": null,
+    "initial_input_tokens": null,
+    "initial_output_tokens": null,
+    "repair_input_tokens": 0,
+    "repair_output_tokens": 0
+  },
+  "complete": true,
+  "level": "explicit",
+  "backend": null
+}

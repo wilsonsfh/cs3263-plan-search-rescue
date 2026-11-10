@@ -4,3 +4,10 @@ __pycache__/
 results/cache/
 data_v0_pilot/
 .DS_Store
+.tools/
+
+.env
+.env.*
+
+# Runtime process lock, not an experimental artifact
+kimaya/runs/**/suite.lock

@@ -1,0 +1,63 @@
+{
+  "plan": [
+    "(drive car1 panchakanya-shelter galchhi-market)",
+    "(load car1 galchhi-market injured n4 n4 n0 n0 n4 n4 n0)",
+    "(drive car1 galchhi-market panchakanya-shelter)",
+    "(drive car2 shivapuri-hospital suryagadhi-village)",
+    "(unload car1 panchakanya-shelter injured n4 n0 n4)",
+    "(drive car1 panchakanya-shelter jwalamukhi-village)",
+    "(drive car2 suryagadhi-village kakani-farm)",
+    "(load car2 kakani-farm adult n4 n4 n0 n0 n4 n4 n0)",
+    "(drive car2 kakani-farm suryagadhi-village)",
+    "(drive car2 suryagadhi-village shivapuri-hospital)",
+    "(unload car2 shivapuri-hospital adult n4 n0 n4)",
+    "(drive car2 shivapuri-hospital suryagadhi-village)",
+    "(load car2 suryagadhi-village elderly n4 n4 n0 n0 n4 n4 n0)",
+    "(drive car2 suryagadhi-village shivapuri-hospital)",
+    "(unload car2 shivapuri-hospital elderly n4 n0 n4)",
+    "(load car1 jwalamukhi-village child n4 n4 n0 n0 n4 n4 n0)",
+    "(drive car1 jwalamukhi-village panchakanya-shelter)",
+    "(unload car1 panchakanya-shelter child n4 n0 n4)",
+    "(defer-rescue jwalamukhi-village adult n3)"
+  ],
+  "searches": [
+    {
+      "search": "optimal-lmcut",
+      "seconds": 59.16724958398845,
+      "exit_code": 23,
+      "command": [
+        "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/.venv/bin/python",
+        "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/.tools/downward/fast-downward.py",
+        "--overall-time-limit",
+        "60s",
+        "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/pddl/domain.pddl",
+        "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/kimaya/runs/full-cli-v1-sonnet/cases/medium-12-explicit/attempt-0/planner/problem.pddl",
+        "--search",
+        "astar(lmcut())"
+      ],
+      "timed_out": true,
+      "optimal_for_generated_problem": false
+    },
+    {
+      "search": "lama-anytime",
+      "seconds": 59.17841620801482,
+      "exit_code": 23,
+      "command": [
+        "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/.venv/bin/python",
+        "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/.tools/downward/fast-downward.py",
+        "--overall-time-limit",
+        "60s",
+        "--alias",
+        "seq-sat-lama-2011",
+        "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/pddl/domain.pddl",
+        "/Users/kimayawanjari/Documents/NUS/year_4/cs_3263/Project/cs3263-plan-search-rescue/kimaya/runs/full-cli-v1-sonnet/cases/medium-12-explicit/attempt-0/planner/problem.pddl"
+      ],
+      "timed_out": true,
+      "optimal_for_generated_problem": false
+    }
+  ],
+  "seconds": 118.34566579200327,
+  "status": "plan_found",
+  "search": "lama-anytime",
+  "optimal_for_generated_problem": false
+}
