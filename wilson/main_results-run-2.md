@@ -50,7 +50,9 @@ Section 4 lists every run whose outcome changed.
 7. **Difficulty is concentrated:** 44 of 90 reports were matched by all 6 runs, and 53 of the 86 misses are on large.
 8. **A second attempt helps the smaller models more:** reports matched at least once were Opus 89, Sonnet 79 and Haiku 81 of 90.
 9. **Opus used 38% more output tokens in run 2:** the cause is unknown.
-10. **The two-`<plan>`-blocks problem did not recur:** it affected 2 runs in run 1 and none in run 2.
+10. **The two-`<plan>`-blocks problem did not recur:** it affected 2 runs in run 1 and none in run 2. Rerunning those 2 with
+    "exactly one `<plan>` block": Opus `large-09` explicit became valid and optimal, Haiku `small-09` implicit became invalid
+    (`wilson/main_run_results.md` section 13).
 
 ## 3. Every instance, run 2
 
@@ -296,7 +298,9 @@ Code version, so a change there can't be ruled out.
 
 **5.10 The two-`<plan>`-blocks problem did not recur.** `extract_plan` scores the first `<plan>` block. In run 1,
 two answers had two blocks (Opus `large-09` explicit and Haiku `small-09` implicit; see `wilson/main_run_results.md`
-section 8). In run 2, none did.
+section 8). In run 2, none did. Both run 1 cases were later rerun with "exactly one `<plan>` block" added to the prompt
+(`wilson/main_run_results.md` section 13): Opus `large-09` explicit gave one valid plan at 818, and Haiku `small-09`
+implicit gave one plan that drives the damaged road, so it is invalid.
 
 ## 6. Output tokens and seconds per run
 

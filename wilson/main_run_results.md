@@ -221,6 +221,8 @@ Kispang–Nilkantha road is confirmed passable", which uses a damaged road. Grad
 valid answer invalid. Across all 270 answers, only these two had more than one plan block. So the choice is really
 about the prompt: asking for "exactly one `<plan>` block" would remove the ambiguity for any rerun.
 
+**Update:** both cases were rerun with that line added. See section 13.
+
 Either way it's a good point for the report: the model **self-corrected in its own reasoning**, but a single-shot
 pipeline has no way to use that unless the answer format is parsed carefully. It also shows the real LLM weakness:
 keeping count of people over many steps.
@@ -479,3 +481,32 @@ best-known instances.)
 
 All 3 models were run a second time against the proven-optimal reference. The results and what the totals hide
 are in **`wilson/main_results-run-2.md`**.
+
+## 13. The two two-block answers, rerun with "exactly one `<plan>` block"
+
+Only the 2 affected cases were rerun, one call each, through `wilson/rerun_one_block.py`. It adds one line to the
+direct prompt in memory (`Give exactly one <plan></plan> block in your answer. Do not write a second plan block, even
+as a correction or a contingency.`) and then runs `pipelines/cli_eval.py` unchanged; nothing in `pipelines/` was
+edited. Same models, effort medium, tools off, claude.ai subscription. The originals are kept. The reruns are saved
+separately in `pipelines/runs/run1-patch-opus/` and `pipelines/runs/run1-patch-haiku/`.
+
+| Case | Original run 1 (2 blocks, first scored) | Rerun (1 block) | Reference |
+|---|---|---|---|
+| Opus `large-09` explicit | **invalid** (step 18: only 0 adult waiting at kakani-market) | **valid, cost 818, match** | 818 |
+| Haiku `small-09` implicit | valid, cost 420, match | **invalid** (step 1: road kispang-shelter-nilkantha-village is damaged) | 420 |
+
+- **Opus:** with one plan allowed, it gave a single valid plan at the optimum. Its output is 1 block.
+- **Haiku:** forced to choose, it put the contingency plan (driving the damaged Kispang–Nilkantha road, cost 114) in the
+  single block and said the team should confirm the road. The checker rejects it at step 1. In the original answer,
+  the first block was the safe plan (defer all 7 children, cost 420) and the contingency was a second block. This is
+  the same misreading as Haiku's other floodwater failures (`wilson/main_results-run-2.md` section 5.4). Rerunning
+  did not make the answer better, and one block did not fix it.
+- **Effect on the run 1 totals if the reruns replaced the originals:** Opus 84 → 85 matches and 1 → 0 invalid; Haiku
+  70 → 69 matches and 6 → 7 invalid. The tables above are not changed, so the headline numbers still describe the
+  original run 1 answers. Run 2 is the report's comparator and had no two-block answers, so no report number changes.
+- **Not a like-for-like comparison:** the prompt differs by one line, and each case is a single new sample, so this
+  shows what one more draw did and not a stable effect. The reruns also confirm that the first block was the better
+  one for Haiku and not for Opus, so "the first block is the better plan" isn't a rule.
+- **Tokens recorded:** Opus 54,653 input / 2,576 output (29.7 s); Haiku 1,879 input / 3,132 output (15.2 s). Opus's
+  input is far above its usual ~2,400. The adapter counts cache tokens as input, which may explain it, but that
+  isn't confirmed.
